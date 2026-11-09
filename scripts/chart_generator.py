@@ -26,11 +26,16 @@ COLOR_MAP_LIGHT = {
 def to_light_accent(c):
     return COLOR_MAP_LIGHT.get(c.lower(), c) if isinstance(c, str) else "#0284c7"
 
+def fmt_val(v, unit):
+    if unit == "만원":
+        return f"{int(round(v))}만원"
+    return f"{v:,.2f}{unit}" if abs(v) < 100 else f"{v:,.0f}{unit}"
+
 def create_line_chart_svg(filepath, title, subtitle, labels, values, unit="", color="#0284c7", fill_color="", benchmark_val=None, benchmark_label="", annotations=None, badge_text=""):
     """큰 글씨와 시원한 여백의 시계열 라인 차트 SVG 생성"""
     color = to_light_accent(color)
     w, h = 900, 480
-    pad_l, pad_r, pad_t, pad_b = 95, 50, 105, 70
+    pad_l, pad_r, pad_t, pad_b = 105, 50, 105, 70
     plot_w = w - pad_l - pad_r
     plot_h = h - pad_t - pad_b
 
@@ -57,7 +62,7 @@ def create_line_chart_svg(filepath, title, subtitle, labels, values, unit="", co
     for i in range(5):
         gy = pad_t + (i / 4) * plot_h
         gv = max_v - (i / 4) * span
-        val_str = f"{gv:,.2f}{unit}" if abs(gv) < 100 else f"{gv:,.0f}{unit}"
+        val_str = fmt_val(gv, unit)
         grid_lines.append(f'<line x1="{pad_l}" y1="{gy:.1f}" x2="{w - pad_r}" y2="{gy:.1f}" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/>')
         grid_lines.append(f'<text x="{pad_l - 14}" y="{gy + 5:.1f}" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">{val_str}</text>')
 
@@ -85,9 +90,9 @@ def create_line_chart_svg(filepath, title, subtitle, labels, values, unit="", co
             r = 7.5 if i == len(pts) - 1 else 5.5
             dots_svg.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{color}" stroke="#ffffff" stroke-width="2.5"/>')
             if i == len(pts) - 1:
-                v_str = f"{v:,.2f}{unit}" if abs(v) < 100 else f"{v:,.0f}{unit}"
-                dots_svg.append(f'<rect x="{x - 82:.1f}" y="{y - 42:.1f}" width="96" height="30" rx="8" fill="{color}"/>')
-                dots_svg.append(f'<text x="{x - 34:.1f}" y="{y - 22:.1f}" fill="#ffffff" font-family="Pretendard, sans-serif" font-size="15" font-weight="800" text-anchor="middle">{v_str}</text>')
+                v_str = fmt_val(v, unit)
+                dots_svg.append(f'<rect x="{x - 90:.1f}" y="{y - 42:.1f}" width="106" height="30" rx="8" fill="{color}"/>')
+                dots_svg.append(f'<text x="{x - 37:.1f}" y="{y - 22:.1f}" fill="#ffffff" font-family="Pretendard, sans-serif" font-size="15" font-weight="800" text-anchor="middle">{v_str}</text>')
 
     ann_svg = ""
     if annotations:

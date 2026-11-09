@@ -38,6 +38,7 @@
     function formatPrice(q) {
         if (!q || q.price === undefined) return "-";
         const num = Number(q.price);
+        if (q.unit === "만원") return Math.round(num) + "만원";
         if (q.unit === "원") return num.toLocaleString("ko-KR", { maximumFractionDigits: 0 }) + "원";
         if (q.unit === "$") return "$" + num.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         if (q.unit === "%") return num.toFixed(2) + "%";

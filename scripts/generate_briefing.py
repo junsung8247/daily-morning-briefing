@@ -33,7 +33,7 @@ MARKET_SYMBOLS = [
     {"symbol": "^TNX", "id": "us10y", "name": "미 10년물 국채금리", "category": "macro", "unit": "%", "color": "#f43f5e"},
     {"symbol": "KRW=X", "id": "usdkrw", "name": "원/달러 환율", "category": "macro", "unit": "원", "color": "#10b981"},
     {"symbol": "GC=F", "id": "gold", "name": "금 선물 ($/oz)", "category": "gold", "unit": "$", "color": "#fbbf24"},
-    {"symbol": "BTC-USD", "id": "btc", "name": "비트코인 ($)", "category": "crypto", "unit": "$", "color": "#f97316"},
+    {"symbol": "BTC-KRW", "id": "btc", "name": "비트코인 (만원)", "category": "crypto", "unit": "만원", "color": "#f97316", "scale": 0.0001},
     {"symbol": "NVDA", "id": "nvda", "name": "엔비디아 (NVDA)", "category": "tech", "unit": "$", "color": "#22c55e"},
     {"symbol": "TSM", "id": "tsm", "name": "TSMC (TSM)", "category": "tech", "unit": "$", "color": "#06b6d4"},
     {"symbol": "005930.KS", "id": "samsung", "name": "삼성전자", "category": "tech", "unit": "원", "color": "#3b82f6"},
@@ -121,12 +121,14 @@ def fetch_market_data():
                 day_chg_pct = ((price - prev_day) / prev_day * 100.0) if prev_day else 0.0
                 month_chg_pct = ((price - month_start) / month_start * 100.0) if month_start else 0.0
 
+                scale = item.get("scale", 1.0)
+                scaled_price = round(price * scale) if scale != 1.0 else (round(price, 2) if price else 0)
                 labels = [datetime.datetime.fromtimestamp(ts).strftime("%m/%d") for ts, _ in valid_pts[-10:]]
-                vals = [round(c, 2) for _, c in valid_pts[-10:]]
+                vals = [round(c * scale) if scale != 1.0 else round(c, 2) for _, c in valid_pts[-10:]]
 
                 results.append({
                     **item,
-                    "price": round(price, 2) if price else 0,
+                    "price": scaled_price,
                     "dayChangePct": round(day_chg_pct, 2),
                     "monthChangePct": round(month_chg_pct, 2),
                     "historyLabels": labels,
@@ -179,7 +181,13 @@ def inject_live_market_into_agendas(agendas, market_data):
             if m.get("historyLabels") and len(m["historyLabels"]) >= 5:
                 ag["chartConfig"]["labels"] = m["historyLabels"]
                 ag["chartConfig"]["values"] = m["historyValues"]
-                ag["chartConfig"]["badge_text"] = f"LIVE {m['price']:,.2f}{m['unit']}"
+                if m["unit"] == "만원":
+                    p_str = f"{int(round(m['price']))}만원"
+                else:
+                    p_str = f"{m['price']:,.2f}{m['unit']}"
+                ag["chartConfig"]["badge_text"] = f"LIVE {p_str}"
+                if aid == "agenda_16" and ag.get("keyMetrics"):
+                    ag["keyMetrics"][0]["value"] = p_str
     return agendas
 
 
@@ -232,15 +240,16 @@ def generate_all_charts(agendas, market_data):
     for m in market_data:
         if m.get("historyLabels") and m.get("historyValues"):
             live_svg_path = os.path.join(charts_dir, f"live_{m['id']}.svg")
+            p_str = f"{int(round(m['price']))}만원" if m["unit"] == "만원" else f"{m['price']:,.2f}{m['unit']}"
             create_line_chart_svg(
                 filepath=live_svg_path,
                 title=f"{m['name']} 최근 시세 추이",
-                subtitle=f"현재가: {m['price']:,.2f}{m['unit']} (일간 {m['dayChangePct']:+.2f}% / 1개월 {m['monthChangePct']:+.2f}%)",
+                subtitle=f"현재가: {p_str} (일간 {m['dayChangePct']:+.2f}% / 1개월 {m['monthChangePct']:+.2f}%)",
                 labels=m["historyLabels"],
                 values=m["historyValues"],
                 unit=m["unit"],
                 color=m["color"],
-                badge_text=f"LIVE: {m['price']:,.2f}{m['unit']}"
+                badge_text=f"LIVE: {p_str}"
             )
 
 
