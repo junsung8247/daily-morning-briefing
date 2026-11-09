@@ -1,6 +1,6 @@
 {
   "editionId": "2026-11-09_2000",
-  "generatedAt": "2026-11-10 04:38:58 KST",
+  "generatedAt": "2026-11-10 04:55:18 KST",
   "displayDate": "2026년 11월 09일",
   "shortDate": "11/09 20:00",
   "slotLabel": "20:00 PM 이브닝 에디션",
@@ -21,9 +21,9 @@
       "category": "macro",
       "unit": "",
       "color": "#38bdf8",
-      "price": 7565.09,
-      "dayChangePct": 2.55,
-      "monthChangePct": -3.15,
+      "price": 7555.8,
+      "dayChangePct": 2.43,
+      "monthChangePct": -3.27,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -46,7 +46,7 @@
         7688.62,
         7353.73,
         7376.86,
-        7565.09
+        7555.8
       ]
     },
     {
@@ -56,9 +56,9 @@
       "category": "macro",
       "unit": "",
       "color": "#818cf8",
-      "price": 25294.85,
-      "dayChangePct": 2.91,
-      "monthChangePct": -7.57,
+      "price": 25255.69,
+      "dayChangePct": 2.75,
+      "monthChangePct": -7.71,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -81,7 +81,7 @@
         25736.51,
         24315.0,
         24579.43,
-        25294.85
+        25255.69
       ]
     },
     {
@@ -91,9 +91,9 @@
       "category": "tech",
       "unit": "",
       "color": "#a855f7",
-      "price": 10038.51,
-      "dayChangePct": 6.9,
-      "monthChangePct": -20.15,
+      "price": 9995.66,
+      "dayChangePct": 6.45,
+      "monthChangePct": -20.5,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -116,7 +116,7 @@
         10268.65,
         9011.14,
         9390.25,
-        10038.51
+        9995.66
       ]
     },
     {
@@ -126,9 +126,9 @@
       "category": "macro",
       "unit": "%",
       "color": "#f43f5e",
-      "price": 4.88,
-      "dayChangePct": 0.35,
-      "monthChangePct": -7.02,
+      "price": 4.86,
+      "dayChangePct": 0.1,
+      "monthChangePct": -7.25,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -151,7 +151,7 @@
         4.89,
         4.84,
         4.86,
-        4.88
+        4.86
       ]
     },
     {
@@ -161,9 +161,9 @@
       "category": "macro",
       "unit": "원",
       "color": "#10b981",
-      "price": 1342.28,
-      "dayChangePct": -1.04,
-      "monthChangePct": -0.05,
+      "price": 1339.72,
+      "dayChangePct": -1.23,
+      "monthChangePct": -0.24,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -186,7 +186,7 @@
         1342.9,
         1340.07,
         1356.34,
-        1342.28
+        1339.72
       ]
     },
     {
@@ -196,9 +196,9 @@
       "category": "gold",
       "unit": "$",
       "color": "#fbbf24",
-      "price": 4120.7,
-      "dayChangePct": 1.12,
-      "monthChangePct": -2.27,
+      "price": 4136.3,
+      "dayChangePct": 1.51,
+      "monthChangePct": -1.9,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -221,7 +221,7 @@
         4073.0,
         4113.5,
         4074.9,
-        4120.7
+        4136.3
       ]
     },
     {
@@ -232,9 +232,9 @@
       "unit": "만원",
       "color": "#f97316",
       "scale": 0.0001,
-      "price": 10017,
-      "dayChangePct": -1.53,
-      "monthChangePct": -9.47,
+      "price": 10026,
+      "dayChangePct": -1.44,
+      "monthChangePct": -9.39,
       "historyLabels": [
         "10/31",
         "11/01",
@@ -257,7 +257,7 @@
         10330,
         10330,
         10173,
-        10017
+        10026
       ]
     },
     {
@@ -267,9 +267,9 @@
       "category": "tech",
       "unit": "$",
       "color": "#22c55e",
-      "price": 176.71,
-      "dayChangePct": -5.32,
-      "monthChangePct": -22.93,
+      "price": 176.64,
+      "dayChangePct": -5.36,
+      "monthChangePct": -22.96,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -292,7 +292,7 @@
         200.13,
         181.6,
         186.64,
-        176.71
+        176.64
       ]
     },
     {
@@ -302,9 +302,9 @@
       "category": "tech",
       "unit": "$",
       "color": "#06b6d4",
-      "price": 391.4,
-      "dayChangePct": 4.25,
-      "monthChangePct": -13.66,
+      "price": 390.32,
+      "dayChangePct": 3.96,
+      "monthChangePct": -13.9,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -327,7 +327,7 @@
         395.75,
         353.1,
         375.44,
-        391.4
+        390.32
       ]
     },
     {
@@ -407,9 +407,9 @@
       "category": "macro",
       "unit": "$",
       "color": "#eab308",
-      "price": 86.86,
-      "dayChangePct": -4.37,
-      "monthChangePct": -5.43,
+      "price": 85.74,
+      "dayChangePct": -5.6,
+      "monthChangePct": -6.65,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -432,7 +432,7 @@
         88.12,
         90.52,
         90.83,
-        86.86
+        85.74
       ]
     },
     {
@@ -442,9 +442,9 @@
       "category": "macro",
       "unit": "",
       "color": "#94a3b8",
-      "price": 101.77,
-      "dayChangePct": -0.52,
-      "monthChangePct": -0.44,
+      "price": 101.69,
+      "dayChangePct": -0.6,
+      "monthChangePct": -0.51,
       "historyLabels": [
         "10/27",
         "10/28",
@@ -467,7 +467,7 @@
         101.51,
         101.55,
         102.3,
-        101.76
+        101.69
       ]
     }
   ],
@@ -510,6 +510,20 @@
     {
       "category": "tech",
       "source": "CNBC Tech",
+      "title": "Elizabeth Warren set to take over the Senate banking committee. Here's what she plans to do",
+      "link": "https://www.cnbc.com/2026/11/09/elizabeth-warren-senate-banking-agenda.html",
+      "pubDate": "Mon, 09 Nov 2026 19:34:43"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+      "link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+      "pubDate": "Mon, 09 Nov 2026 19:33:23"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
       "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
       "link": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
       "pubDate": "Mon, 09 Nov 2026 19:00:01"
@@ -527,20 +541,6 @@
       "title": "Jim Cramer says this is the stock to buy as data center development slows",
       "link": "https://www.cnbc.com/investingclub/2026/11/09/cramer-says-this-is-the-stock-to-buy-as-data-center-development-slows.html",
       "pubDate": "Mon, 09 Nov 2026 17:22:48"
-    },
-    {
-      "category": "tech",
-      "source": "CNBC Tech",
-      "title": "Stocks making the biggest moves midday: AST SpaceMobile, First Solar, Coherent & more  — Live updates",
-      "link": "https://www.cnbc.com/2026/11/09/stock-market-movers-live-updates.html",
-      "pubDate": "Mon, 09 Nov 2026 17:59:19"
-    },
-    {
-      "category": "tech",
-      "source": "CNBC Tech",
-      "title": "CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth",
-      "link": "https://www.cnbc.com/2026/11/09/coreweave-debt-credit-risk-neoclouds.html",
-      "pubDate": "Mon, 09 Nov 2026 12:00:01"
     },
     {
       "category": "realestate",
@@ -780,13 +780,13 @@
           4.89,
           4.84,
           4.86,
-          4.88
+          4.86
         ],
         "unit": "%",
         "color": "#f59e0b",
         "benchmark_val": 4.5,
         "benchmark_label": "주식시장 부담 임계선 4.50%",
-        "badge_text": "LIVE 4.88%",
+        "badge_text": "LIVE 4.86%",
         "annotations": [
           {
             "index": 6,
@@ -1064,13 +1064,13 @@
           1342.9,
           1340.07,
           1356.34,
-          1342.28
+          1339.72
         ],
         "unit": "원",
         "color": "#10b981",
         "benchmark_val": 1350.0,
         "benchmark_label": "1차 저항선 1,350원",
-        "badge_text": "LIVE 1,342.28원"
+        "badge_text": "LIVE 1,339.72원"
       },
       "keyMetrics": [
         {
@@ -1685,13 +1685,13 @@
           4073.0,
           4113.5,
           4074.9,
-          4120.7
+          4136.3
         ],
         "unit": "$",
         "color": "#fbbf24",
         "benchmark_val": 4000.0,
         "benchmark_label": "구조적 지지선 $4,000/oz",
-        "badge_text": "LIVE 4,120.70$",
+        "badge_text": "LIVE 4,136.30$",
         "annotations": [
           {
             "index": 4,
@@ -2027,13 +2027,13 @@
           10330,
           10330,
           10173,
-          10017
+          10026
         ],
         "unit": "만원",
         "color": "#f97316",
         "benchmark_val": 10800.0,
         "benchmark_label": "핵심 저항선 10800만원",
-        "badge_text": "LIVE 10017만원",
+        "badge_text": "LIVE 10026만원",
         "annotations": [
           {
             "index": 6,
@@ -2044,7 +2044,7 @@
       "keyMetrics": [
         {
           "label": "비트코인 시세",
-          "value": "10017만원",
+          "value": "10026만원",
           "change": "1개월 -8.99% 조정"
         },
         {

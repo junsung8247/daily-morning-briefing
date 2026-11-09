@@ -53,35 +53,27 @@ RSS_FEEDS = [
 
 def get_target_edition_slot(now=None):
     """
-    현재 시각을 기준으로 생성해야 할 목표 에디션(08:00 또는 20:00) 정보를 반환합니다.
-    - 08:00 ~ 19:59 -> 당일 08:00 AM 모닝 에디션 (8시에 꺼져 있다가 9시~19시에 켜도 08:00 에디션으로 생성)
-    - 20:00 ~ 23:59 -> 당일 20:00 PM 이브닝 에디션
-    - 00:00 ~ 07:59 -> 직전 밤 20:00 PM 에디션(이미 있으면 유지, 없으면 당일 모닝 준비본)
+    현재 시각을 기준으로 이미 도래한 가장 최근 정규 에디션(08:00 또는 20:00)을 반환합니다.
+    (아직 도래하지 않은 미래 시각의 에디션은 절대 미리 생성하지 않습니다.)
+    - 00:00 ~ 07:59 -> 전일 20:00 PM 이브닝 에디션 (어제 20시)
+    - 08:00 ~ 19:59 -> 당일 08:00 AM 모닝 에디션 (오늘 08시)
+    - 20:00 ~ 23:59 -> 당일 20:00 PM 이브닝 에디션 (오늘 20시)
     """
     if now is None:
         now = datetime.datetime.now()
 
-    if 8 <= now.hour < 20:
+    if now.hour < 8:
+        target_date = (now - datetime.timedelta(days=1)).date()
+        slot_code = "2000"
+        slot_label = "20:00 PM 이브닝 에디션"
+    elif 8 <= now.hour < 20:
         target_date = now.date()
         slot_code = "0800"
         slot_label = "08:00 AM 모닝 에디션"
-    elif now.hour >= 20:
+    else:
         target_date = now.date()
         slot_code = "2000"
         slot_label = "20:00 PM 이브닝 에디션"
-    else:
-        # 새벽 00:00 ~ 07:59 사이: 어제 2000 에디션이 없으면 어제 2000, 있으면 오늘 0800 사전 빌드
-        yesterday = (now - datetime.timedelta(days=1)).date()
-        y_id = f"{yesterday.strftime('%Y-%m-%d')}_2000"
-        y_file = os.path.join(BASE_DIR, "data", "editions", f"{y_id}.json")
-        if not os.path.exists(y_file):
-            target_date = yesterday
-            slot_code = "2000"
-            slot_label = "20:00 PM 이브닝 에디션"
-        else:
-            target_date = now.date()
-            slot_code = "0800"
-            slot_label = "08:00 AM 모닝 에디션"
 
     edition_id = f"{target_date.strftime('%Y-%m-%d')}_{slot_code}"
     display_date = target_date.strftime("%Y년 %m월 %d일")
