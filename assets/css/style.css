@@ -1,7 +1,7 @@
 /* ==========================================================================
    데일리 모닝 & 이브닝 브리핑 포털 스타일시트
-   - 그림자 제거 (Flat & Clean Border Design)
-   - 큰 글씨, 넓은 여백, 제목과 시사점 중심, 페이지 이동형 구조
+   - PC 화면: 큰 글씨, 넓은 여백, 제목과 시사점 중심 (기존 스타일 100% 유지)
+   - 모바일 화면 (max-width: 768px): 중첩 여백 제거, 모바일 뉴스앱 황금 타이포그래피 적용
    ========================================================================== */
 :root {
     --bg-page: #f6f8fb;
@@ -34,6 +34,7 @@ html, body {
     line-height: 1.7;
     letter-spacing: -0.015em;
     font-size: 18px;
+    -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -41,15 +42,15 @@ a {
     text-decoration: none;
 }
 
+/* ==========================================================================
+   PC 기본 레이아웃 (769px 이상에서는 현재의 시원시원한 PC 레이아웃 그대로 유지)
+   ========================================================================== */
 .container {
     max-width: 1120px;
     margin: 0 auto;
     padding: 32px 24px 90px;
 }
 
-/* ==========================================================================
-   1. 상단 헤더 & 6대 핵심 지표 요약 바 (그림자 없음)
-   ========================================================================== */
 .site-header {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -115,13 +116,6 @@ a {
     margin-top: 20px;
 }
 
-@media (max-width: 960px) {
-    .core-metrics-bar { grid-template-columns: repeat(3, 1fr); }
-}
-@media (max-width: 560px) {
-    .core-metrics-bar { grid-template-columns: repeat(2, 1fr); }
-}
-
 .core-metric-item {
     background: var(--bg-subtle);
     border: 1px solid var(--border-light);
@@ -150,9 +144,7 @@ a {
 .core-metric-chg.up { color: #059669; }
 .core-metric-chg.down { color: #e11d48; }
 
-/* ==========================================================================
-   2. 계층형 브리핑 보관함 (최근 7일 원본 / 7일 합산 / 30일 합산 / 120일 합산)
-   ========================================================================== */
+/* 계층형 브리핑 보관함 */
 .archive-tier-section {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -181,13 +173,6 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-}
-
-@media (max-width: 900px) {
-    .archive-tier-tabs { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 540px) {
-    .archive-tier-tabs { grid-template-columns: 1fr; }
 }
 
 .tier-tab-btn {
@@ -229,7 +214,6 @@ a {
     display: block;
 }
 
-/* 최근 7일 에디션 날짜/회차 선택 바 */
 .edition-history-bar {
     margin-top: 16px;
     padding-top: 14px;
@@ -268,9 +252,7 @@ a {
     color: #92400e;
 }
 
-/* ==========================================================================
-   3. 카테고리 & 시사점 필터 섹션 (그림자 없음)
-   ========================================================================== */
+/* 카테고리 & 시사점 필터 섹션 */
 .filter-section {
     background: var(--bg-card);
     border: 1px solid var(--border-light);
@@ -345,9 +327,7 @@ a {
     border-color: #0f172a;
 }
 
-/* ==========================================================================
-   4. 메인 목록 안건 카드 (그림자 완전 제거 · 초대형 제목 · 큰 시사점 글씨)
-   ========================================================================== */
+/* 메인 목록 안건 카드 */
 .agenda-list {
     display: flex;
     flex-direction: column;
@@ -416,7 +396,6 @@ a {
 .badge-delta.NEW { background: #f0f9ff; color: #0369a1; border: 1px solid #7dd3fc; }
 .badge-delta.MAINTAINED { background: #fffbeb; color: #b45309; border: 1px solid #fcd34d; }
 
-/* 가장 눈에 잘 들어오는 초대형 제목 */
 .card-main-title {
     font-size: 27px;
     font-weight: 900;
@@ -443,10 +422,6 @@ a {
     grid-template-columns: 1.35fr 1fr;
     gap: 24px;
     align-items: stretch;
-}
-
-@media (max-width: 900px) {
-    .card-split-body { grid-template-columns: 1fr; }
 }
 
 .card-implication-box {
@@ -521,9 +496,7 @@ a {
     color: var(--accent-blue);
 }
 
-/* ==========================================================================
-   5. 상세 페이지 (detail.html) 전용 스타일 (그림자 없음)
-   ========================================================================== */
+/* 상세 페이지 (detail.html) PC 스타일 */
 .detail-nav-bar {
     display: flex;
     justify-content: space-between;
@@ -560,10 +533,6 @@ a {
     border-radius: 20px;
     padding: 42px 46px;
     box-shadow: none;
-}
-
-@media (max-width: 768px) {
-    .detail-article { padding: 26px 20px; }
 }
 
 .detail-title {
@@ -650,10 +619,6 @@ a {
     margin-bottom: 34px;
 }
 
-@media (max-width: 720px) {
-    .detail-metrics-grid { grid-template-columns: 1fr; }
-}
-
 .detail-metric-box {
     background: #f8fafc;
     border: 1px solid var(--border-light);
@@ -725,10 +690,6 @@ a {
     margin-top: 16px;
 }
 
-@media (max-width: 768px) {
-    .detail-timeline-grid { grid-template-columns: 1fr; }
-}
-
 .detail-timeline-card {
     background: #f8fafc;
     border: 1px solid var(--border-strong);
@@ -743,10 +704,6 @@ a {
     margin-top: 28px;
 }
 
-@media (max-width: 720px) {
-    .detail-prev-next-bar { grid-template-columns: 1fr; }
-}
-
 .prev-next-card {
     background: #ffffff;
     border: 1px solid var(--border-light);
@@ -758,4 +715,496 @@ a {
 .prev-next-card:hover {
     border-color: var(--accent-blue);
     background: #f0f9ff;
+}
+
+/* 태블릿 중간 해상도 대응 (769px ~ 960px) */
+@media (max-width: 960px) and (min-width: 769px) {
+    .core-metrics-bar { grid-template-columns: repeat(3, 1fr); }
+    .archive-tier-tabs { grid-template-columns: repeat(2, 1fr); }
+    .card-split-body { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   📱 모바일 전용 화면 최적화 (max-width: 768px)
+   - PC 화면은 건드리지 않고 스마트폰 화면에서만 가독성을 극대화합니다.
+   - 중첩된 좌우 여백(Padding)을 걷어내어 글자 표시 폭을 넓히고,
+     모바일 화면 폭(360~430px)에 딱 맞는 황금 비율 타이포그래피를 적용합니다.
+   ========================================================================== */
+@media (max-width: 768px) {
+    html, body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* 1. 바깥 여백 최소화 -> 텍스트 가용 폭 최대 확보 */
+    .container {
+        padding: 12px 12px 60px;
+    }
+
+    /* 2. 모바일 상단 헤더 컴팩트화 */
+    .site-header {
+        padding: 18px 16px;
+        border-radius: 14px;
+        margin-bottom: 12px;
+    }
+
+    .header-meta-row {
+        gap: 6px;
+        margin-bottom: 10px;
+    }
+
+    .edition-tag, .schedule-tag {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    #read-status-label {
+        font-size: 12.5px !important;
+    }
+
+    .site-main-title {
+        font-size: 21px;
+        line-height: 1.35;
+    }
+
+    .site-exec-box {
+        margin-top: 12px;
+        padding: 12px 14px;
+        font-size: 14.5px;
+        line-height: 1.55;
+        border-left-width: 4px;
+    }
+
+    /* 모바일 6대 핵심 지표: 3열 2줄 컴팩트 그리드로 한눈에 배치 */
+    .core-metrics-bar {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        margin-top: 14px;
+    }
+
+    .core-metric-item {
+        padding: 8px 8px;
+        border-radius: 8px;
+    }
+
+    .core-metric-name {
+        font-size: 11px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .core-metric-val {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    .core-metric-chg {
+        font-size: 11px;
+        margin-top: 1px;
+    }
+
+    /* 3. 모바일 보관함(7일/30일/120일) 탭: 2열 2줄 컴팩트 배치 */
+    .archive-tier-section {
+        padding: 14px 14px;
+        border-radius: 14px;
+        margin-bottom: 12px;
+    }
+
+    .archive-tier-header {
+        margin-bottom: 10px;
+        gap: 4px;
+    }
+
+    .archive-tier-title {
+        font-size: 15px;
+    }
+
+    .archive-tier-header span:last-child {
+        font-size: 12px !important;
+        line-height: 1.4;
+    }
+
+    .archive-tier-tabs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .tier-tab-btn {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+    .tier-tab-name {
+        font-size: 13.5px;
+    }
+
+    .tier-tab-sub {
+        font-size: 11px;
+        margin-top: 2px;
+        line-height: 1.3;
+    }
+
+    .edition-history-bar {
+        margin-top: 10px;
+        padding-top: 10px;
+        gap: 6px;
+    }
+
+    .edition-history-bar > span {
+        font-size: 12px !important;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .edition-slot-btn {
+        font-size: 12.5px;
+        padding: 6px 10px;
+    }
+
+    .rollup-info-banner {
+        margin-top: 10px;
+        padding: 10px 12px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    /* 4. 모바일 섹션 & 시사점 필터: 컴팩트 2열/랩 버튼 */
+    .filter-section {
+        padding: 14px 14px;
+        border-radius: 14px;
+        margin-bottom: 14px;
+    }
+
+    .tab-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
+        width: 100%;
+    }
+
+    .tab-btn {
+        font-size: 13px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .delta-filter-row {
+        margin-top: 10px;
+        padding-top: 10px;
+        gap: 6px;
+    }
+
+    .delta-filter-row > span {
+        font-size: 12px !important;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .delta-chip {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* 5. 모바일 안건 목록 카드 — 중첩 박스 여백 제거 & 제목·시사점 가독성 극대화 */
+    .agenda-list {
+        gap: 14px;
+    }
+
+    .agenda-list-card {
+        padding: 18px 16px;
+        border-radius: 14px;
+    }
+
+    .card-top-badges {
+        gap: 6px;
+        margin-bottom: 10px;
+    }
+
+    .badge-cat {
+        font-size: 12px;
+        padding: 4px 9px;
+        border-radius: 6px;
+    }
+
+    .badge-tier {
+        font-size: 11.5px;
+        padding: 3px 8px;
+    }
+
+    .badge-delta {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    /* 모바일 제목: 한 줄에 15~18자씩 또렷하게 들어오는 20px */
+    .card-main-title {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 6px;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .card-subtitle {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 14px;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .card-split-body {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    /* 모바일 시사점 박스: 중첩 패딩을 확 줄여 글자 폭을 넓힘 */
+    .card-implication-box {
+        padding: 14px 14px;
+        border-radius: 10px;
+        gap: 12px;
+    }
+
+    .imp-item-label {
+        font-size: 12.5px;
+        margin-bottom: 4px;
+    }
+
+    .imp-item-label.highlight {
+        font-size: 13.5px;
+    }
+
+    /* 모바일 핵심 시사점: 16.5px로 선명하고 줄바꿈이 자연스럽게 */
+    .imp-updated-text {
+        font-size: 16.5px;
+        line-height: 1.58;
+        padding: 10px 12px;
+        border-left-width: 4px;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .imp-prev-text {
+        font-size: 14.5px;
+        line-height: 1.58;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .card-chart-preview {
+        border-radius: 10px;
+    }
+
+    .card-footer-row {
+        margin-top: 14px;
+        padding-top: 12px;
+        gap: 8px;
+    }
+
+    .card-footer-row > span:first-child {
+        font-size: 12px !important;
+        width: 100%;
+    }
+
+    .go-detail-link {
+        font-size: 14.5px;
+        width: 100%;
+        text-align: right;
+        display: block;
+    }
+
+    /* 6. 모바일 상세 페이지 (detail.html) 가독성 최적화 */
+    .detail-nav-bar {
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+
+    .back-btn {
+        font-size: 13.5px;
+        padding: 8px 13px;
+        border-radius: 8px;
+    }
+
+    .detail-article {
+        padding: 20px 16px;
+        border-radius: 14px;
+    }
+
+    #btn-pin-archive {
+        font-size: 12px !important;
+        padding: 5px 10px !important;
+    }
+
+    .detail-title {
+        font-size: 22px;
+        line-height: 1.38;
+        margin: 12px 0 8px;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .detail-subtitle {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 18px;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    /* 모바일 상세 시사점 박스: 중첩 여백 최소화 */
+    .detail-implication-hero {
+        padding: 16px 14px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+
+    .detail-imp-heading {
+        font-size: 16.5px;
+        margin-bottom: 12px;
+    }
+
+    .detail-imp-step {
+        padding: 12px 13px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .detail-imp-label {
+        font-size: 13.5px;
+        margin-bottom: 4px;
+    }
+
+    .detail-imp-text {
+        font-size: 16px;
+        line-height: 1.6;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .detail-imp-step.updated .detail-imp-text {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    /* 모바일 차트 프레임: 패딩을 4px로 줄여 차트 이미지를 화면 가득 크게 표시 */
+    .detail-chart-frame {
+        padding: 4px;
+        border-radius: 10px;
+        margin-bottom: 18px;
+    }
+
+    /* 모바일 핵심 수치 3단 */
+    .detail-metrics-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-bottom: 22px;
+    }
+
+    .detail-metric-box {
+        padding: 12px 14px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .detail-metric-label {
+        font-size: 13.5px;
+    }
+
+    .detail-metric-val {
+        font-size: 17px;
+        margin-top: 0;
+    }
+
+    .detail-metric-chg {
+        font-size: 12.5px;
+        width: 100%;
+        text-align: right;
+        margin-top: 0;
+    }
+
+    /* 모바일 상세 본문: 스마트폰 리딩에 가장 편안한 16.5px & 줄간격 1.75 */
+    .detail-section-title {
+        font-size: 18px;
+        margin: 24px 0 12px;
+        padding-bottom: 8px;
+    }
+
+    .detail-body-paragraphs p {
+        font-size: 16.5px;
+        line-height: 1.75;
+        margin-bottom: 16px;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .detail-timeline-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .detail-timeline-card {
+        padding: 12px 14px;
+        border-radius: 10px;
+    }
+
+    .detail-timeline-card div:first-child {
+        font-size: 13px !important;
+        margin-bottom: 3px !important;
+    }
+
+    .detail-timeline-card div:last-child {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+
+    .detail-action-box {
+        padding: 16px 16px;
+        border-radius: 12px;
+        margin-top: 22px;
+    }
+
+    .detail-action-box > div:first-child {
+        font-size: 16.5px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .detail-action-list {
+        padding-left: 18px;
+        font-size: 15.5px;
+        line-height: 1.65;
+    }
+
+    .detail-action-list li {
+        margin-bottom: 8px;
+    }
+
+    .detail-prev-next-bar {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .prev-next-card {
+        padding: 14px 16px;
+        border-radius: 10px;
+        text-align: left !important;
+    }
+
+    .prev-next-card div:first-child {
+        font-size: 12.5px !important;
+    }
+
+    .prev-next-card div:last-child {
+        font-size: 15.5px !important;
+    }
 }
