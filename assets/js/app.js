@@ -88,6 +88,83 @@
         syncCategoryTabs();
         renderAgendaList();
         bindEvents();
+        fetchLiveQuotesOnOpen();
+        setInterval(fetchLiveQuotesOnOpen, 60000); // 페이지가 열려 있는 동안 1분마다 실시간 갱신
+    }
+
+    async function fetchLiveQuotesOnOpen() {
+        const statusEl = document.getElementById("live-quote-status");
+        if (statusEl) {
+            statusEl.textContent = "🔄 실시간 시세 동기화 중...";
+        }
+
+        const ed = getActiveEditionObj();
+        const quotes = ed.marketQuotes || currentEdition.marketQuotes || [];
+        const qMap = {};
+        quotes.forEach(q => { qMap[q.id] = q; });
+
+        const parseNum = (str) => {
+            if (str === undefined || str === null) return NaN;
+            return parseFloat(String(str).replace(/[,%+\s]/g, ""));
+        };
+
+        try {
+            // 1. CNBC 실시간 글로벌 지표 API (미 10년물 금리, S&P500, 필라델피아 반도체, 금 선물 $/oz, 원/달러 환율)
+            const cnbcUrl = "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y%7C.SPX%7C.SOX%7C%40GC.1%7CKRW%3D&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json";
+            const cnbcPromise = fetch(cnbcUrl, { cache: "no-store" })
+                .then(r => r.json())
+                .then(data => {
+                    const list = (data && data.FormattedQuoteResult && data.FormattedQuoteResult.FormattedQuote) || [];
+                    const symToId = {
+                        "US10Y": "us10y",
+                        ".SPX": "sp500",
+                        ".SOX": "sox",
+                        "@GC.1": "gold",
+                        "KRW=": "usdkrw"
+                    };
+                    list.forEach(item => {
+                        const targetId = symToId[item.symbol];
+                        if (targetId && qMap[targetId]) {
+                            const priceVal = parseNum(item.last);
+                            const chgVal = parseNum(item.change_pct);
+                            if (!isNaN(priceVal)) qMap[targetId].price = priceVal;
+                            if (!isNaN(chgVal)) qMap[targetId].dayChangePct = chgVal;
+                        }
+                    });
+                })
+                .catch(() => {});
+
+            // 2. 업비트(Upbit) 실시간 원화 비트코인 API (만원 단위 변환)
+            const upbitUrl = "https://api.upbit.com/v1/ticker?markets=KRW-BTC";
+            const btcPromise = fetch(upbitUrl, { cache: "no-store" })
+                .then(r => r.json())
+                .then(arr => {
+                    if (Array.isArray(arr) && arr[0] && qMap["btc"]) {
+                        const tradePrice = Number(arr[0].trade_price);
+                        const chgRate = Number(arr[0].signed_change_rate) * 100.0;
+                        if (tradePrice > 0) {
+                            qMap["btc"].price = Math.round(tradePrice / 10000);
+                            qMap["btc"].unit = "만원";
+                        }
+                        if (!isNaN(chgRate)) {
+                            qMap["btc"].dayChangePct = chgRate;
+                        }
+                    }
+                })
+                .catch(() => {});
+
+            await Promise.all([cnbcPromise, btcPromise]);
+            renderHeader();
+
+            const nowStr = new Date().toLocaleTimeString("ko-KR", { hour12: false });
+            if (statusEl) {
+                statusEl.textContent = `🟢 실시간 시세 연동됨 (페이지 열 때마다 자동 갱신 · ${nowStr} 기준)`;
+            }
+        } catch (err) {
+            if (statusEl) {
+                statusEl.textContent = "🟢 시세 표시 중 (브리핑 기준 시세)";
+            }
+        }
     }
 
     function renderHeader() {
@@ -287,6 +364,13 @@
     }
 
     function bindEvents() {
+        const refreshBtn = document.getElementById("btn-refresh-quotes");
+        if (refreshBtn) {
+            refreshBtn.addEventListener("click", () => {
+                fetchLiveQuotesOnOpen();
+            });
+        }
+
         // 아카이브 티어 탭 전환
         document.querySelectorAll(".tier-tab-btn").forEach(btn => {
             btn.addEventListener("click", () => {
