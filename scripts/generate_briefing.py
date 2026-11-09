@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-데일리 모닝 & 이브닝 인텔리전스 브리핑 생성 엔진 (08:00 / 20:00 정각 실행)
-- 12시간마다 리셋되지 않고 최근 7일치(14회차) 전체 원본을 그대로 누적 보존
-- 7일 경과 시 중요 안건을 걸러내어 [7일 단위 합산] ➔ [30일 단위 합산] ➔ [120일(1분기) 합산]으로 계층형 영구 아카이빙
+데일리 모닝 & 이브닝 인텔리전스 브리핑 생성 엔진 (08:00 / 20:00 정각 + 늦게 켰을 때 자동 보충 실행)
+- 08:00 ~ 19:59 구간: 당일 '08:00 AM 모닝 에디션 (YYYY-MM-DD_0800)' 생성
+- 20:00 ~ 익일 07:59 구간: '20:00 PM 이브닝 에디션 (YYYY-MM-DD_2000)' 생성
+- 실시간 시장 지표를 안건 수치(keyMetrics)와 차트에 동적으로 주입하여 클라우드 단독 실행 시에도 최신 수치 보장
 """
 import os
 import sys
@@ -50,6 +51,50 @@ RSS_FEEDS = [
 ]
 
 
+def get_target_edition_slot(now=None):
+    """
+    현재 시각을 기준으로 생성해야 할 목표 에디션(08:00 또는 20:00) 정보를 반환합니다.
+    - 08:00 ~ 19:59 -> 당일 08:00 AM 모닝 에디션 (8시에 꺼져 있다가 9시~19시에 켜도 08:00 에디션으로 생성)
+    - 20:00 ~ 23:59 -> 당일 20:00 PM 이브닝 에디션
+    - 00:00 ~ 07:59 -> 직전 밤 20:00 PM 에디션(이미 있으면 유지, 없으면 당일 모닝 준비본)
+    """
+    if now is None:
+        now = datetime.datetime.now()
+
+    if 8 <= now.hour < 20:
+        target_date = now.date()
+        slot_code = "0800"
+        slot_label = "08:00 AM 모닝 에디션"
+    elif now.hour >= 20:
+        target_date = now.date()
+        slot_code = "2000"
+        slot_label = "20:00 PM 이브닝 에디션"
+    else:
+        # 새벽 00:00 ~ 07:59 사이: 어제 2000 에디션이 없으면 어제 2000, 있으면 오늘 0800 사전 빌드
+        yesterday = (now - datetime.timedelta(days=1)).date()
+        y_id = f"{yesterday.strftime('%Y-%m-%d')}_2000"
+        y_file = os.path.join(BASE_DIR, "data", "editions", f"{y_id}.json")
+        if not os.path.exists(y_file):
+            target_date = yesterday
+            slot_code = "2000"
+            slot_label = "20:00 PM 이브닝 에디션"
+        else:
+            target_date = now.date()
+            slot_code = "0800"
+            slot_label = "08:00 AM 모닝 에디션"
+
+    edition_id = f"{target_date.strftime('%Y-%m-%d')}_{slot_code}"
+    display_date = target_date.strftime("%Y년 %m월 %d일")
+    short_date = f"{target_date.strftime('%m/%d')} {'08:00' if slot_code == '0800' else '20:00'}"
+    return {
+        "editionId": edition_id,
+        "displayDate": display_date,
+        "shortDate": short_date,
+        "slotCode": slot_code,
+        "slotLabel": slot_label,
+    }
+
+
 def fetch_market_data():
     results = []
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -76,8 +121,8 @@ def fetch_market_data():
                 day_chg_pct = ((price - prev_day) / prev_day * 100.0) if prev_day else 0.0
                 month_chg_pct = ((price - month_start) / month_start * 100.0) if month_start else 0.0
 
-                labels = [datetime.datetime.fromtimestamp(ts).strftime("%m/%d") for ts, _ in valid_pts[-15:]]
-                vals = [round(c, 2) for _, c in valid_pts[-15:]]
+                labels = [datetime.datetime.fromtimestamp(ts).strftime("%m/%d") for ts, _ in valid_pts[-10:]]
+                vals = [round(c, 2) for _, c in valid_pts[-10:]]
 
                 results.append({
                     **item,
@@ -116,6 +161,26 @@ def fetch_live_rss_headlines():
         except Exception as e:
             print(f"[WARN] RSS fetch skipped for {feed['source']}: {e}")
     return headlines
+
+
+def inject_live_market_into_agendas(agendas, market_data):
+    """실시간 시장 시세를 관련 안건의 keyMetrics 및 시계열 차트에 동적으로 반영합니다."""
+    qmap = {m["id"]: m for m in market_data}
+    agenda_live_binding = {
+        "agenda_02": "us10y",
+        "agenda_05": "usdkrw",
+        "agenda_12": "gold",
+        "agenda_16": "btc",
+    }
+    for ag in agendas:
+        aid = ag["id"]
+        if aid in agenda_live_binding and agenda_live_binding[aid] in qmap:
+            m = qmap[agenda_live_binding[aid]]
+            if m.get("historyLabels") and len(m["historyLabels"]) >= 5:
+                ag["chartConfig"]["labels"] = m["historyLabels"]
+                ag["chartConfig"]["values"] = m["historyValues"]
+                ag["chartConfig"]["badge_text"] = f"LIVE {m['price']:,.2f}{m['unit']}"
+    return agendas
 
 
 def generate_all_charts(agendas, market_data):
@@ -181,17 +246,16 @@ def generate_all_charts(agendas, market_data):
 
 def build_briefing_edition():
     now = datetime.datetime.now()
-    slot = "08:00 AM 모닝 에디션" if now.hour < 14 else "20:00 PM 이브닝 에디션"
-    slot_code = "0800" if now.hour < 14 else "2000"
-    edition_id = f"{now.strftime('%Y-%m-%d')}_{slot_code}"
+    slot_info = get_target_edition_slot(now)
+    edition_id = slot_info["editionId"]
 
-    print(f"[1/5] 실시간 글로벌 시장 지표 수집 중... ({edition_id})")
+    print(f"[1/5] 실시간 글로벌 시장 지표 수집 중... (목표 에디션: {edition_id})")
     market_data = fetch_market_data()
 
     print("[2/5] 실시간 국내외 RSS 뉴스 헤드라인 수집 중...")
     rss_headlines = fetch_live_rss_headlines()
 
-    agendas = AGENDAS_PART1 + AGENDAS_PART2
+    agendas = inject_live_market_into_agendas(AGENDAS_PART1 + AGENDAS_PART2, market_data)
     print(f"[3/5] 총 {len(agendas)}개 심층 안건 전용 고해상도 차트/인포그래픽 SVG 생성 중...")
     generate_all_charts(agendas, market_data)
 
@@ -203,10 +267,10 @@ def build_briefing_edition():
     edition_payload = {
         "editionId": edition_id,
         "generatedAt": now.strftime("%Y-%m-%d %H:%M:%S KST"),
-        "displayDate": now.strftime("%Y년 %m월 %d일"),
-        "shortDate": f"{now.strftime('%m/%d')} {'08:00' if slot_code == '0800' else '20:00'}",
-        "slotLabel": slot,
-        "scheduleInfo": "매일 08:00 / 20:00 정각 자동 발행 (7일 원본 보존 + 7/30/120일 핵심 합산)",
+        "displayDate": slot_info["displayDate"],
+        "shortDate": slot_info["shortDate"],
+        "slotLabel": slot_info["slotLabel"],
+        "scheduleInfo": "매일 08:00 / 20:00 정각 발행 (꺼져 있을 시 부팅 즉시 자동 보충 실행)",
         "totalAgendas": len(agendas),
         "deltaSummary": delta_counts,
         "executiveHeadline": "연준 12월 추가 금리 인상 경계감(10년물 4.88%) 속 반도체·비트코인 단기 밸류에이션 조정 vs 금($4,132/oz) 중앙은행 매집 방어 및 한국 부동산 스트레스 DSR 발 권역별 양극화 심화",
@@ -262,7 +326,6 @@ def build_briefing_edition():
 
     print(f"[5/5] 브리핑 및 7/30/120일 아카이브 빌드 완료! ({js_bundle_path})")
 
-    # 로컬에서 실행 시 GitHub Pages 원격 저장소에도 자동 동기화 (노트북을 닫아도 최신 본 유지)
     if not os.environ.get("GITHUB_ACTIONS"):
         try:
             import subprocess
@@ -270,7 +333,7 @@ def build_briefing_edition():
             if os.path.exists(git_dir):
                 print("[SYNC] 공유 웹페이지(GitHub Pages)로 최신 브리핑 자동 업로드 중...")
                 subprocess.run(["git", "add", "-A"], cwd=BASE_DIR, check=False)
-                commit_msg = f"update: briefing {edition_id}"
+                commit_msg = f"update: briefing {edition_id} ({now.strftime('%H:%M KST')})"
                 subprocess.run(["git", "commit", "-m", commit_msg], cwd=BASE_DIR, check=False, capture_output=True)
                 subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=False, capture_output=True)
                 print("[SYNC] 공유 웹페이지 동기화 완료!")
