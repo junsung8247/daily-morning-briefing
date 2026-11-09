@@ -274,7 +274,7 @@ def build_briefing_edition():
         "scheduleInfo": "매일 08:00 / 20:00 정각 발행 (꺼져 있을 시 부팅 즉시 자동 보충 실행)",
         "totalAgendas": len(agendas),
         "deltaSummary": delta_counts,
-        "executiveHeadline": "연준 12월 추가 금리 인상 경계감(10년물 4.88%) 속 반도체·비트코인 단기 밸류에이션 조정 vs 금($4,132/oz) 중앙은행 매집 방어 및 한국 부동산 스트레스 DSR 발 권역별 양극화 심화",
+        "executiveHeadline": "[11/10 모닝] 연준 12월 금리 인상 확률 81% 급등·WTI 유가 $88 하락 속 베라 루빈 HBM4(대역폭 +30%·전력 -15%) 로드맵 확정, 금(JPM $6,300 vs GS $4,800) 목표가 격돌, 블랙록 IBIT 환매 해부 및 서울 아파트 59㎡ 쏠림·핵심구 전세가율 역대 최저 근접",
         "marketQuotes": market_data,
         "liveHeadlines": rss_headlines,
         "agendas": agendas

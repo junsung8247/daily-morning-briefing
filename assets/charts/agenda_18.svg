@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">비트코인 코인베이스 프리미엄 지수(Coinbase Premium Index) 추이 (%)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">0% 기준선 하회로 미국 기관/거액 투자자들의 현물 매수세 위축 반영… 플러스(+) 복귀 여부가 핵심</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">ETF 환매 물량의 코인베이스 프라임 정산 영향으로 -0.11% 음수권 체류… 0% 돌파 여부가 수급 전환 핵심</text>
     
         <rect x="660" y="22" width="190" height="34" rx="17" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.8"/>
         <text x="755" y="44" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">Coinbase Premium -0.11%</text>
