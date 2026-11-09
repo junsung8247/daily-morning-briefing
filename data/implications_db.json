@@ -1,0 +1,231 @@
+{
+  "lastUpdated": "2026-11-10 02:14:12 KST",
+  "activeEdition": "2026-11-10_0800",
+  "implications": [
+    {
+      "agendaId": "agenda_01",
+      "category": "macro",
+      "title": "FOMC 3.75~4.00% 금리 동결 속 '인상 소수의견' 등장과 12월 추가 인상 리스크",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "인플레이션이 완만하게 둔화되면서 연준이 금리 동결 후 점진적인 금리 인하(완화) 사이클로 복귀할 것이라는 기대감이 기술주 밸류에이션을 지지함.",
+      "newCatalyst": "FOMC 내 2명의 금리 인상 소수의견 발생 + 견조한 고용(실업률 4.1%) 및 월가 IB들의 12월 추가 금리 인상(Re-hiking) 전망 공식화.",
+      "updatedImplication": "금리 인하 기대감은 사실상 소멸되고 '재인상(Re-hiking) 리스크'가 시장의 핵심 변수로 전환됨. 할인율 상승에 취약한 적자 성장주·고멀티플 주식의 비중 축소 및 압도적 현금흐름을 보유한 기업으로의 압축 대응 필요."
+    },
+    {
+      "agendaId": "agenda_02",
+      "category": "macro",
+      "title": "미 10년물 국채금리 4.85~4.88% 돌파: GDP 6% 재정적자와 기간 프리미엄의 역습",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "장기 국채금리가 4.5% 이하에서 안정화되며 기술주 멀티플 확장을 허용할 것이라는 시사점.",
+      "newCatalyst": "미 10년물 금리 4.88% 도달 및 GDP 대비 6% 수준의 구조적 재정적자·국채 이자비용 부담 부각.",
+      "updatedImplication": "'고금리 뉴노멀(Higher for Longer)' 시사점이 한층 더 강화됨. 금리 4.8% 이상 구간에서는 실적이 아무리 좋아도 주가수익비율(PER)이 높은 종목은 차익실현 표적이 되므로 밸류에이션 정당화 여부가 최우선 기준이 됨."
+    },
+    {
+      "agendaId": "agenda_03",
+      "category": "macro",
+      "title": "미 비농업 고용 서프라이즈 및 실업률 4.1%: '노 랜딩(No Landing)'의 양날의 검",
+      "deltaStatus": "MAINTAINED",
+      "previousImplication": "고용 시장이 점진적으로 냉각되면서 임금 인플레이션이 잡히고 연착륙(Soft Landing)에 도달할 것이라는 시사점.",
+      "newCatalyst": "비농업 고용 서프라이즈 및 실업률 4.1% 하락으로 미국 경제가 '노 랜딩(No Landing·무착륙 과열)' 양상을 보임.",
+      "updatedImplication": "실물 경기 침체로 인한 기업 이익 급감 우려는 낮으나, 금융 여건 긴축으로 인한 밸류에이션 조정이 진행되는 혼조 국면. 향후 발표될 CPI/PPI 물가 지표가 시장 방향성을 결정할 최대 분수령."
+    },
+    {
+      "agendaId": "agenda_04",
+      "category": "macro",
+      "title": "미 중간선거 결과 의회 권력 분점(Divided Government)과 2027 재정적자 축소 기대",
+      "deltaStatus": "NEW",
+      "previousImplication": "워싱턴의 멈추지 않는 재정 지출과 적자 국채 발행이 10년물 금리를 끝없이 밀어 올릴 것이라는 우려.",
+      "newCatalyst": "미 중간선거 결과 양원 분점 구도 확정으로 2027년 신규 대규모 재정부양책 통과 가능성 급감.",
+      "updatedImplication": "정치적 입법 교착이 역설적으로 '재정 규율(Fiscal Discipline)' 효과를 내며 중장기 국채 발행 물량 부담을 덜어줄 수 있음. 단기 통화정책 발 금리 발작이 지나가면 장기채 금리는 점차 고점을 확인할 가능성."
+    },
+    {
+      "agendaId": "agenda_05",
+      "category": "macro",
+      "title": "원/달러 환율 1,345원대 및 달러 인덱스(DXY) 101.9선: 한·미 금리차와 외국인 수급",
+      "deltaStatus": "MAINTAINED",
+      "previousImplication": "달러 강세 진정과 함께 원/달러 환율이 1,300원 초반으로 안착하며 외국인 자금이 유입될 것이라는 시사점.",
+      "newCatalyst": "미 금리 재인상 경계감에 따른 한·미 금리차 유지 및 외국인 반도체 차익실현 수급.",
+      "updatedImplication": "환율 자체가 외환위기급 리스크를 유발할 수준(1,400원대)은 아니나, 미 금리 인하가 지연됨에 따라 1,330~1,360원 박스권이 장기화될 전망. 달러 자산과 원화 자산의 균형 잡힌 통화 분산 유지."
+    },
+    {
+      "agendaId": "agenda_06",
+      "category": "tech",
+      "title": "엔비디아, 삼성·SK하이닉스·마이크론에 차세대 커스텀 HBM 베이스 다이 'TSMC 3나노' 채택 요구",
+      "deltaStatus": "NEW",
+      "previousImplication": "HBM 시장은 메모리 3사(SK하이닉스·삼성전자·마이크론)의 D램 적층 기술력만으로 승부가 갈릴 것이라는 시사점.",
+      "newCatalyst": "엔비디아가 메모리 3사 모두에 커스텀 HBM 베이스 다이용으로 'TSMC 3나노 공정' 활용을 요구.",
+      "updatedImplication": "차세대 HBM 패권은 'D램 코어 다이 기술력 + TSMC 선단 공정 및 CoWoS 패키징 생태계와의 매끄러운 결합 능력'이 좌우함. TSMC는 GPU뿐만 아니라 HBM 베이스 다이 물량까지 흡수하며 AI 밸류체인 내 독점적 지위가 한층 더 강화됨."
+    },
+    {
+      "agendaId": "agenda_07",
+      "category": "tech",
+      "title": "TSMC 연간 설비투자(CapEx) 600~640억 달러 상향과 2나노(N2)·차세대 A16 공정 질주",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "2나노 공정 전환 비용이 너무 높아 빅테크 고객사들의 초기 채택 속도가 3나노 때보다 느릴 수 있다는 우려.",
+      "newCatalyst": "TSMC CapEx 600~640억 달러 전격 상향 및 2나노(N2)·A16 노드의 가파른 웨이퍼 생산 능력 확장 확인.",
+      "updatedImplication": "AI 데이터센터의 전력 효율 문제 해결을 위해 빅테크들이 비용을 불문하고 2나노 GAA 및 후면전력공급 공정으로 직행하고 있음이 증명됨. ASML(EUV)·어플라이드머티어리얼즈 등 2나노 전공정 장비 및 소재 밸류체인 수혜 시사점 대폭 강화."
+    },
+    {
+      "agendaId": "agenda_08",
+      "category": "tech",
+      "title": "AI 칩 최대 병목 'CoWoS 패키징' 수요 3배 폭증과 TSMC 패키징 단가 10~20% 인상",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "후공정(패키징)은 전공정 파운드리에 비해 부가가치와 마진율이 낮은 보조 공정이라는 전통적 시각.",
+      "newCatalyst": "CoWoS 수요 3배 폭증에 따른 패키징 단가 10~20% 인상 및 월 13만 장 이상 대규모 증설·외주 생태계 확장.",
+      "updatedImplication": "첨단 패키징(CoWoS)이 AI 칩 출하량을 결정짓는 핵심 전략 자산이자 고마진 캐시카우로 완전히 격상됨. 패키징 기판·인터포저·TC본더 장비 기업들의 수주 모멘텀 지속."
+    },
+    {
+      "agendaId": "agenda_09",
+      "category": "tech",
+      "title": "SK하이닉스·마이크론 HBM 영업이익률 80% 기염 속 반도체 지수(SOX) -20% 급락의 역설",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "HBM과 AI 칩 실적이 워낙 강력하므로 거시경제 금리와 무관하게 반도체 주가가 일방적인 우상향을 이어갈 것이라는 시사점.",
+      "newCatalyst": "HBM 영업이익률 80% 달성에도 불구하고 미 금리 급등 여파로 SOX 지수 -20.5%, 엔비디아 -22.9% 등 급격한 멀티플 조정 발생.",
+      "updatedImplication": "실적(EPS)은 여전히 상향 중이나 금리 상승이 밸류에이션(PER)을 누르는 구간. 무리한 레버리지나 단기 추격 매수는 금물이며, 과매도 구간에서 분할 매수로 접근하되 금리 진정 시그널(CPI 둔화 등)을 확인하며 비중을 늘려야 함."
+    },
+    {
+      "agendaId": "agenda_10",
+      "category": "tech",
+      "title": "MS·구글·메타·아마존의 AI 인프라 CapEx 질주와 자체 맞춤형 칩(ASIC) 내재화 가속",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "빅테크의 AI CapEx가 엔비디아의 범용 GPU 구매에만 90% 이상 독점적으로 집중될 것이라는 시사점.",
+      "newCatalyst": "빅테크 FCF 수익성 검증 압박 심화 및 MS·구글·메타·아마존의 자체 커스텀 AI 가속기(ASIC) 양산 물량 급증.",
+      "updatedImplication": "AI 투자의 총량(CapEx)은 계속 커지되, 그 내부 구성이 '범용 GPU(학습 및 고성능 추론) + 자체 커스텀 ASIC(대규모 서비스 추론 비용 절감)'의 투트랙으로 빠르게 분화됨."
+    },
+    {
+      "agendaId": "agenda_11",
+      "category": "tech",
+      "title": "AI 데이터센터 '전력 장벽(Power Wall)'과 엔비디아 '피지컬 AI·디지털 트윈' 한국 제조업 결합",
+      "deltaStatus": "NEW",
+      "previousImplication": "AI 테마는 오직 반도체 칩과 클라우드 소프트웨어 기업만의 영역이라는 시사점.",
+      "newCatalyst": "데이터센터 전력 장벽(Power Wall) 본격화 및 엔비디아-한국 대기업(삼성·SK·현대차·LG) 간 피지컬 AI·옴니버스 동맹 발표.",
+      "updatedImplication": "AI 인프라 투자의 수혜가 변압기·전력망·원전·냉각 시스템 등 에너지 인프라와, 디지털 트윈·로보틱스를 도입해 공정 수율을 높이는 피지컬 AI 제조업으로 폭넓게 확산됨."
+    },
+    {
+      "agendaId": "agenda_12",
+      "category": "gold",
+      "title": "국제 금 시세 온스당 $4,050~$4,132/oz 박스권 공방: 미 고금리 압박 vs 구조적 안전자산 수요",
+      "deltaStatus": "MAINTAINED",
+      "previousImplication": "실질금리가 상승하면 금 가격이 $4,000/oz 아래로 급격히 되밀릴 수 있다는 전통적 거시경제 시각.",
+      "newCatalyst": "미 10년물 금리 4.88% 도달 및 연준 매파 전환 속에서도 금 시세가 $4,050~$4,132/oz 구간을 견고하게 방어.",
+      "updatedImplication": "금과 미 실질금리 간의 전통적 역상관관계가 깨지고 '재정적자 및 지정학적 헤지 자산'으로서의 프리미엄이 상수로 자리 잡음. $4,000~$4,050/oz 부근은 중장기 비중 확대의 핵심 지지 구간."
+    },
+    {
+      "agendaId": "agenda_13",
+      "category": "gold",
+      "title": "세계금협회(WGC) 발표 '3분기 중앙은행 금 순매입 321톤(+42% YoY)': 월평균 60톤의 구조적 바닥",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "금 가격이 온스당 $4,000를 넘어서면 가격 부담을 느낀 각국 중앙은행들이 금 매입 속도를 줄일 것이라는 우려.",
+      "newCatalyst": "WGC 3분기 중앙은행 금 순매입 321톤(+42% YoY) 및 YTD 675톤으로 역대 최고 페이스 경신 확인.",
+      "updatedImplication": "중앙은행들의 금 매입은 단기 시세 차익 목적이 아니라 '달러 국채 편중 리스크 축소'라는 국가 전략적 차원에서 이루어지고 있어, 금값이 $4,000/oz를 넘어도 매수세가 꺾이지 않음이 입증됨."
+    },
+    {
+      "agendaId": "agenda_14",
+      "category": "gold",
+      "title": "월가 IB 금 목표가 격돌: 골드만삭스 '단기 금리 반영해 연말 $4,150(27년 $4,800) 조정' vs JP모건 '장기 $6,000'",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "금 가격이 연내 아무런 저항 없이 온스당 $4,650~$5,000까지 수직 상승할 것이라는 과열된 기대.",
+      "newCatalyst": "골드만삭스, 연준 매파 전환을 반영해 2026년 말 금 목표가를 $4,650 ➔ $4,150/oz(2027년 말 $4,800/oz)로 하향 조정.",
+      "updatedImplication": "단기(향후 1~2개월)에는 연준 금리 부담으로 $4,050~$4,150 박스권 숨고르기가 예상되므로 단기 레버리지 베팅은 지양해야 함. 그러나 수정된 2027년 목표가($4,800)조차 현 시세 대비 약 +16~18%의 업사이드를 가리키므로 중장기 보유 시사점은 여전히 유효."
+    },
+    {
+      "agendaId": "agenda_15",
+      "category": "gold",
+      "title": "온스당 $4,100 시대 금 채굴 기업(Gold Miners)의 현금흐름 폭발과 멀티에셋 방어 전략",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "국채만 보유해도 주식 하락장을 충분히 방어할 수 있다는 전통적 60/40 자산배분 공식.",
+      "newCatalyst": "끈적한 인플레이션으로 주식과 국채 가격이 동반 약세를 보이는 가운데 금($4,132/oz)만 독보적 가치 유지.",
+      "updatedImplication": "고금리·인플레이션 국면에서는 국채 대신 금(Gold)이 포트폴리오의 진정한 안전판 역할을 수행함. 실물 금 ETF와 함께 배당 여력이 커진 우량 금광 기업(GDX 등)에 대한 관심 유효."
+    },
+    {
+      "agendaId": "agenda_16",
+      "category": "crypto",
+      "title": "[BTC 핵심] 비트코인 $81,000 돌파 실패 후 $74,500~$75,129 급락: 파생상품 10억 달러 롱 청산의 전말",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "비트코인이 매크로 금리와 무관하게 독자적인 랠리를 펼치며 $81,000를 뚫고 단숨에 신고가로 직행할 것이라는 낙관론.",
+      "newCatalyst": "$81,000 돌파 실패 후 미 금리 상승 여파로 10억 달러 규모의 선물 롱 청산 발생 및 $75,129선 후퇴.",
+      "updatedImplication": "단기적으로 비트코인은 금(Gold)보다 나스닥 고베타 기술주 및 글로벌 달러 유동성에 더 민감하게 동조화되고 있음. 레버리지 투자는 철저히 배제하고 $73,500~$75,000 지지 구간의 현물 수급 안정을 확인해야 함."
+    },
+    {
+      "agendaId": "agenda_17",
+      "category": "crypto",
+      "title": "[BTC 수급] 미 비트코인 현물 ETF 주간 12.8억 달러 순유출: 블랙록 IBIT 연속 환매의 의미",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "블랙록 IBIT 등 미국 비트코인 현물 ETF는 가격과 무관하게 매일 기계적인 순매수만 유입되는 일방통행 수급 창구라는 믿음.",
+      "newCatalyst": "미 비트코인 현물 ETF 주간 12.8억 달러 순유출 및 블랙록 IBIT의 연속 환매 발생.",
+      "updatedImplication": "비트코인 현물 ETF가 월가 주류 금융상품으로 완전히 편입된 대가로, 매크로 금리 발작 시에는 기관들의 기계적인 리스크 패리티(Risk-Parity) 매도 물량이 나오는 '양방향 수급 자산'이 되었음을 직시해야 함."
+    },
+    {
+      "agendaId": "agenda_18",
+      "category": "crypto",
+      "title": "[BTC 온체인] 코인베이스 프리미엄 마이너스(-) 전환과 스테이블코인 유동성 정체 진단",
+      "deltaStatus": "MAINTAINED",
+      "previousImplication": "선물 시장 청산만 끝나면 즉각적으로 V자 급반등이 나올 것이라는 기술적 분석 시각.",
+      "newCatalyst": "코인베이스 프리미엄 음수(-) 지속 및 스테이블코인 공급 정체로 현물 매수 대기 자금 부족 확인.",
+      "updatedImplication": "진정한 추세 반전은 선물 숏 커버링이 아니라 '미국 현물 매수세(코인베이스 프리미엄 양전 + 스테이블코인 발행 재개)'가 동반될 때 일어남. CPI 물가 지표 확인 전까지는 $73.5K~$77K 박스권 등락 염두."
+    },
+    {
+      "agendaId": "agenda_19",
+      "category": "crypto",
+      "title": "[BTC 장기 구조] 단기 조정에도 흔들림 없는 전통 금융권(스탠다드차타드·비트와이즈)의 비트코인 금융 인프라 통합",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "비트코인 가격이 하락하면 전통 금융기관들이 가상화폐 관련 사업과 인프라 투자를 철회할 것이라는 우려.",
+      "newCatalyst": "스탠다드차타드 등 글로벌 은행의 하이브리드 블록체인 결제 인프라 확장 및 기관 장기 자산배분 리포트 발간 지속.",
+      "updatedImplication": "단기 시세(Price)와 장기 인프라 채택(Adoption)이 디커플링됨. 전통 금융권의 비트코인 인프라 내재화는 비가역적 트렌드이므로, 매크로 조정기는 장기 투자자에게 비트코인 수량을 늘리는 기회."
+    },
+    {
+      "agendaId": "agenda_20",
+      "category": "crypto",
+      "title": "[크립토 시장 구조] 비트코인 도미넌스(Dominance) 독주 고착화와 알트코인 무차별 디레버리징 주의보",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "비트코인이 조정을 받거나 횡보하면 자금이 알트코인으로 흘러가 알트코인 강세장이 열릴 것이라는 과거 사이클의 관성.",
+      "newCatalyst": "매크로 긴축 및 유동성 축소 국면에서 알트코인 유동성 증발 및 비트코인 도미넌스 초강세 고착화.",
+      "updatedImplication": "크립토 투자의 정답은 '비트코인 95% 이상 집중'임이 다시금 입증됨. 기타 코인은 SEC 규제 판결이나 국가 단위 채택 같은 역사적 대사건이 발생하지 않는 한 철저히 배제하는 것이 계좌를 지키는 길."
+    },
+    {
+      "agendaId": "agenda_21",
+      "category": "realestate",
+      "title": "[대출 정책] 스트레스 DSR 전면 강화 및 수도권 1주택자 전세대출 DSR 편입: 실수요 대출 한도 수천만 원 축소",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "한국은행 기준금리 인하 기대감만 있으면 은행권 주담대를 풀로 일으켜 서울 아파트 추격 매수가 계속될 것이라는 시사점.",
+      "newCatalyst": "수도권 스트레스 DSR 3단계급 강화 및 1주택자 전세대출 이자 DSR 산정 편입으로 은행권 대출 문턱 대폭 상승.",
+      "updatedImplication": "금리 수준보다 '대출 총량(DSR 한도) 규제'가 수도권 부동산 시장을 지배하는 핵심 변수가 됨. 대출 레버리지에 의존한 추격 매수세가 차단되면서 자기자본(현금) 보유 여부에 따라 매수 가능 급지가 엄격히 제한됨."
+    },
+    {
+      "agendaId": "agenda_22",
+      "category": "realestate",
+      "title": "[서울 시황] 서울 아파트 매물 8만 건 돌파 및 상승폭 3주 연속 둔화: 강남 고가 약세 vs 강북·전세 디커플링",
+      "deltaStatus": "MAINTAINED",
+      "previousImplication": "강남 3구 초고가 아파트가 끝없이 신고가를 경신하며 서울 전체 집값을 일제히 끌어올릴 것이라는 시사점.",
+      "newCatalyst": "서울 아파트 매물 8만 건 돌파, 3주 연속 상승폭 둔화 및 강남 3구 일부 하락 거래 vs 강북 중소형·전세 상승세.",
+      "updatedImplication": "서울 매매 시장은 '전면 상승장'에서 '매물 소화 및 키맞추기 국면'으로 진입함. 고가 단지의 추격 매수는 불리하며, 전세가율이 뒷받침되는 실수요 역세권 단지나 급매물 위주의 선별적 접근이 유효."
+    },
+    {
+      "agendaId": "agenda_23",
+      "category": "realestate",
+      "title": "[재건축·정비사업] 1기 신도시(분당·일산·평촌) 선도지구 후속 드라이브와 '공사비·추가 분담금'의 현실적 벽",
+      "deltaStatus": "CHALLENGED",
+      "previousImplication": "1기 신도시 특별법과 선도지구 지정만 되면 모든 노후 아파트가 일제히 빠른 속도로 재건축되어 큰 시세차익을 줄 것이라는 기대.",
+      "newCatalyst": "선도지구 후속 절차 돌입 과정에서 급등한 공사비로 인한 수억 원대 추가 분담금 산출 및 주민 갈등 표출.",
+      "updatedImplication": "재건축 투자의 핵심 기준이 '정책 규제 완화 여부'에서 '높은 일반분양가로 공사비를 상쇄할 수 있는 입지(강남·여의도·목동·분당 핵심지)와 평균 대지지분'으로 완전히 이동함."
+    },
+    {
+      "agendaId": "agenda_24",
+      "category": "realestate",
+      "title": "[서울 대형 개발] 국토부 '용산 국제업무지구 주택 공급 물량 확대' 추진과 서울 도심 개발 마스터플랜",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "서울 외곽 그린벨트 해제 위주로만 공급 대책이 나와 도심 핵심지 공급 및 개발 모멘텀은 정체될 것이라는 시각.",
+      "newCatalyst": "국토부의 용산 국제업무지구 내 주택 공급 확대 공식 추진 및 도심 정비사업 활성화 드라이브.",
+      "updatedImplication": "서울 부동산의 장기 성장은 '용산-서울역-여의도-강남'으로 이어지는 도심 복합개발 및 일자리 축에 완전히 수렴함. 용산 일대 및 인접 정비사업 구역의 중장기 희소가치 시사점 강화."
+    },
+    {
+      "agendaId": "agenda_25",
+      "category": "realestate",
+      "title": "[수도권 교통·개발] GTX(A·B·C) 노선 개통·연장 추진과 '인덕원 등 핵심 환승역세권' 초양극화 현상",
+      "deltaStatus": "REINFORCED",
+      "previousImplication": "GTX 노선이 지나가는 수도권 지자체 전체가 무차별적인 집값 상승 수혜를 입을 것이라는 막연한 기대.",
+      "newCatalyst": "대출 한도 축소(스트레스 DSR)와 맞물려 GTX 개통/환승 수혜가 집중되는 초역세권 신축 단지로만 매수세가 선별 유입됨.",
+      "updatedImplication": "수도권 부동산 투자는 '행정구역(시·군)' 단위가 아니라 'GTX 및 핵심 노선 환승역 반경 500m 이내 + 신축 대단지'라는 핀셋 기준으로 좁혀야 함."
+    }
+  ]
+}

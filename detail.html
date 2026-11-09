@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>안건 상세 브리핑 — 데일리 모닝 & 이브닝 브리핑</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- 상단 목록 복귀 & 이전/다음 안건 이동 바 -->
+        <nav class="detail-nav-bar">
+            <a class="back-btn" id="btn-back-list" href="index.html">← 전체 브리핑 목록으로 돌아가기</a>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;" id="top-prev-next"></div>
+        </nav>
+
+        <!-- 상세 브리핑 본문 아티클 -->
+        <article class="detail-article" id="detail-article-container"></article>
+
+        <!-- 하단 이전/다음 안건 이동 카드 -->
+        <section class="detail-prev-next-bar" id="bottom-prev-next"></section>
+
+        <div style="margin-top:28px;text-align:center;">
+            <a class="back-btn" id="btn-back-list-bottom" href="index.html">← 전체 브리핑 목록으로 돌아가기</a>
+        </div>
+
+    </main>
+
+    <script src="data/briefing_data.js"></script>
+    <script src="assets/js/detail.js"></script>
+</body>
+</html>

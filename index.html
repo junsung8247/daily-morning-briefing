@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>데일리 모닝 & 이브닝 브리핑 (08:00 / 20:00)</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- 1. 상단 헤더 & 6대 핵심 시장 지표 -->
+        <header class="site-header">
+            <div class="header-meta-row">
+                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+                    <span class="edition-tag" id="edition-badge">2026년 11월 10일 · 08:00 AM 에디션</span>
+                    <span class="schedule-tag">⏰ 매일 08:00 / 20:00 정각 누적 발행</span>
+                </div>
+                <span style="font-size:15px;font-weight:700;color:var(--text-muted);" id="read-status-label">열람 완료: 0건</span>
+            </div>
+
+            <h1 class="site-main-title">📈 데일리 모닝 & 이브닝 핵심 시사점 브리핑</h1>
+
+            <div class="site-exec-box" id="exec-summary-box"></div>
+
+            <div class="core-metrics-bar" id="core-metrics-bar"></div>
+        </header>
+
+        <!-- 2. 계층형 브리핑 보관함 선택 (최근 7일 원본 / 7일 합산 / 30일 합산 / 120일 합산) -->
+        <section class="archive-tier-section">
+            <div class="archive-tier-header">
+                <span class="archive-tier-title">🗂️ 브리핑 보관함 및 기간별 최중요 합산 선택</span>
+                <span style="font-size:14px;font-weight:700;color:var(--text-muted);">7일치 전체 원본은 그대로 보존되며, 만료 시 중요 안건만 7일 ➔ 30일 ➔ 120일(1분기) 순으로 자동 합산됩니다</span>
+            </div>
+
+            <div class="archive-tier-tabs">
+                <button class="tier-tab-btn active" data-tier="daily7d">
+                    <span class="tier-tab-name">📅 최근 7일 브리핑 원본</span>
+                    <span class="tier-tab-sub" id="sub-daily7d">12시간마다 누적 · 6일 뒤에도 열람</span>
+                </button>
+                <button class="tier-tab-btn" data-tier="weekly7d">
+                    <span class="tier-tab-name">📌 7일 단위 최중요 합산</span>
+                    <span class="tier-tab-sub" id="sub-weekly7d">7일마다 걸러진 핵심 안건 합산</span>
+                </button>
+                <button class="tier-tab-btn" data-tier="monthly30d">
+                    <span class="tier-tab-name">🏆 30일 단위 최중요 합산</span>
+                    <span class="tier-tab-sub" id="sub-monthly30d">7일 합산본에서 최상위 안건 추출</span>
+                </button>
+                <button class="tier-tab-btn" data-tier="quarterly120d">
+                    <span class="tier-tab-name">🏛️ 120일(1분기) 최중요 합산</span>
+                    <span class="tier-tab-sub" id="sub-quarterly120d">30일 브리핑을 모은 분기 빅픽처</span>
+                </button>
+            </div>
+
+            <!-- 최근 7일 회차 선택 바 또는 합산 안내 배너 -->
+            <div id="tier-sub-control"></div>
+        </section>
+
+        <!-- 3. 섹션 탭 & 시사점 변화 필터 -->
+        <section class="filter-section">
+            <div class="filter-row">
+                <div class="tab-group" id="category-tabs">
+                    <button class="tab-btn active" data-cat="all">전체 안건</button>
+                    <button class="tab-btn" data-cat="macro">🏛️ 거시경제 · 금리</button>
+                    <button class="tab-btn" data-cat="tech">🔬 반도체 · 빅테크 · 2나노</button>
+                    <button class="tab-btn" data-cat="gold">🥇 금($/oz) · 전망</button>
+                    <button class="tab-btn" data-cat="crypto">₿ 비트코인 95%+</button>
+                    <button class="tab-btn" data-cat="realestate">🏢 한국 부동산 · 정책</button>
+                </div>
+            </div>
+
+            <div class="delta-filter-row">
+                <span style="font-size:15px;font-weight:800;color:var(--text-muted);margin-right:4px;">시사점 변화별 보기:</span>
+                <button class="delta-chip active" data-delta="ALL">전체 보기</button>
+                <button class="delta-chip" data-delta="REINFORCED">🟢 시사점 강화</button>
+                <button class="delta-chip" data-delta="CHALLENGED">🔴 시사점 약화 · 전환</button>
+                <button class="delta-chip" data-delta="NEW">🆕 신규 시사점</button>
+                <button class="delta-chip" data-delta="MAINTAINED">🟡 기조 유지 · 혼조</button>
+            </div>
+        </section>
+
+        <!-- 4. 안건 목록 (클릭 시 상세 페이지로 이동) -->
+        <section class="agenda-list" id="agenda-list"></section>
+
+    </main>
+
+    <script src="data/briefing_data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

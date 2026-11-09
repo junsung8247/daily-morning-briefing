@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+    <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">차세대 AI 인프라의 2대 확장 축: 전력/열관리 인프라 & 피지컬 AI(Physical AI)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">데이터센터의 물리적 한계(Power Wall) 돌파와 제조 현장(로보틱스·디지털 트윈)으로의 AI 확산</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    
+    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
+    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">Next AI Wave</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">전력망 & 피지컬 AI</text>
+    
+    
+        <g>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">전력 장벽 (Power Wall)</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">원전·지열·전력망 직결</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">데이터센터 배포 속도의 최대 결정 변수</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">차세대 액침/수랭 냉각</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">2nm·고밀도 랙 열관리</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">공랭식 한계 초과로 액체 냉각 필수화</text>
+        </g>
+        
+        <g>
+            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
+            <text x="190" y="347" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">반도체 팹 디지털 트윈</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">삼성·SK하이닉스 도입</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">NVIDIA Omniverse로 실시간 공정 최적화</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#7c3aed" stroke-width="2.4"/>
+            <text x="710" y="347" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">피지컬 AI & 로보틱스</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">현대차·LG전자 협력</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">자율주행·휴머노이드·스마트팩토리 확장</text>
+        </g>
+        
+</svg>
