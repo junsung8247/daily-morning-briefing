@@ -20,6 +20,8 @@
     const catParam = params.get("cat") || "all";
     const agendaId = params.get("id") || "";
 
+    const READ_STORAGE_KEY = "briefing_read_map_v2";
+
     function loadJson(key, fallback) {
         try {
             const raw = localStorage.getItem(key);
@@ -35,10 +37,36 @@
         } catch (e) {}
     }
 
+    function getCurrentScopeId() {
+        if (tierParam === "daily7d") {
+            const foundEd = recent7dEditions.find(e => e.editionId === editionParam) || recent7dEditions[0] || currentEdition;
+            return foundEd.editionId || editionParam || currentEdition.editionId || "default";
+        }
+        return tierParam;
+    }
+
     function markAsRead(id) {
-        const map = loadJson("briefing_read_map_v1", {});
-        map[id] = true;
-        saveJson("briefing_read_map_v1", map);
+        const merged = {};
+        try {
+            const rawLocal = localStorage.getItem(READ_STORAGE_KEY);
+            if (rawLocal) Object.assign(merged, JSON.parse(rawLocal));
+        } catch (e) {}
+        try {
+            if (window.name && window.name.startsWith("BRIEFING_STATE:")) {
+                const parsed = JSON.parse(window.name.slice("BRIEFING_STATE:".length));
+                if (parsed && parsed.readMap) Object.assign(merged, parsed.readMap);
+            }
+        } catch (e) {}
+
+        const scopeId = getCurrentScopeId();
+        merged[`${scopeId}::${id}`] = true;
+
+        try {
+            localStorage.setItem(READ_STORAGE_KEY, JSON.stringify(merged));
+        } catch (e) {}
+        try {
+            window.name = "BRIEFING_STATE:" + JSON.stringify({ readMap: merged });
+        } catch (e) {}
     }
 
     function getActiveAgendasList() {

@@ -17,12 +17,14 @@
 
     const params = new URLSearchParams(window.location.search);
 
+    const READ_STORAGE_KEY = "briefing_read_map_v2";
+
     const state = {
         tier: params.get("tier") || "daily7d", // daily7d | weekly7d | monthly30d | quarterly120d
         selectedEditionId: params.get("edition") || currentEdition.editionId || "",
         category: params.get("cat") || "all",
         deltaFilter: "ALL",
-        readMap: loadJson("briefing_read_map_v1", {}),
+        readMap: loadReadMap(),
         pinnedMap: loadJson("briefing_pinned_map_v1", {}) // 사용자가 직접 지정한 장기 보존 안건
     };
 
@@ -33,6 +35,59 @@
         } catch (e) {
             return fallback;
         }
+    }
+
+    function loadReadMap() {
+        const merged = {};
+        try {
+            const rawLocal = localStorage.getItem(READ_STORAGE_KEY);
+            if (rawLocal) {
+                Object.assign(merged, JSON.parse(rawLocal));
+            }
+        } catch (e) {}
+        try {
+            if (window.name && window.name.startsWith("BRIEFING_STATE:")) {
+                const parsed = JSON.parse(window.name.slice("BRIEFING_STATE:".length));
+                if (parsed && parsed.readMap) {
+                    Object.assign(merged, parsed.readMap);
+                }
+            }
+        } catch (e) {}
+        return merged;
+    }
+
+    function saveReadMap(map) {
+        state.readMap = map;
+        try {
+            localStorage.setItem(READ_STORAGE_KEY, JSON.stringify(map));
+        } catch (e) {}
+        try {
+            window.name = "BRIEFING_STATE:" + JSON.stringify({ readMap: map });
+        } catch (e) {}
+    }
+
+    function getCurrentScopeId() {
+        if (state.tier === "daily7d") {
+            const ed = getActiveEditionObj();
+            return ed.editionId || currentEdition.editionId || "default";
+        }
+        return state.tier;
+    }
+
+    function makeReadKey(scopeId, agendaId) {
+        return `${scopeId}::${agendaId}`;
+    }
+
+    function isAgendaRead(agendaId, scopeId) {
+        const sid = scopeId || getCurrentScopeId();
+        return !!state.readMap[makeReadKey(sid, agendaId)];
+    }
+
+    function markAgendaRead(agendaId, scopeId) {
+        const sid = scopeId || getCurrentScopeId();
+        const map = loadReadMap();
+        map[makeReadKey(sid, agendaId)] = true;
+        saveReadMap(map);
     }
 
     function formatPrice(q) {
@@ -187,11 +242,14 @@
             execEl.innerHTML = `<span style="color:#0284c7;margin-right:8px;">[핵심 시사점 총평]</span>${ed.executiveHeadline || currentEdition.executiveHeadline || ""}`;
         }
 
+        state.readMap = loadReadMap();
+        const scopeId = getCurrentScopeId();
         const activeAgendas = getActiveAgendasList();
-        const readCount = activeAgendas.filter(a => !!state.readMap[a.id]).length;
+        const readCount = activeAgendas.filter(a => isAgendaRead(a.id, scopeId)).length;
         const readEl = document.getElementById("read-status-label");
         if (readEl) {
-            readEl.textContent = `열람 완료: ${readCount} / ${activeAgendas.length}건`;
+            const scopeLabel = state.tier === "daily7d" ? (ed.shortDate || ed.editionId || "") : "합산본";
+            readEl.textContent = `열람 완료 (${scopeLabel}): ${readCount} / ${activeAgendas.length}건`;
         }
 
         const marketQuotes = ed.marketQuotes || currentEdition.marketQuotes || [];
@@ -236,9 +294,11 @@
             const buttonsHtml = recent7dEditions.map(ed => {
                 const isAct = ed.editionId === (getActiveEditionObj().editionId);
                 const label = ed.shortDate || `${ed.displayDate} ${ed.slotLabel}`;
+                const edAgendas = ed.agendas || [];
+                const edReadCount = edAgendas.filter(a => isAgendaRead(a.id, ed.editionId)).length;
                 return `
                     <button class="edition-slot-btn ${isAct ? "active" : ""}" data-select-edition="${ed.editionId}">
-                        🗓️ ${label} (${(ed.agendas || []).length}건)
+                        🗓️ ${label} (열람 ${edReadCount}/${edAgendas.length}건)
                     </button>
                 `;
             }).join("");
@@ -313,13 +373,16 @@
             return;
         }
 
+        const scopeId = getCurrentScopeId();
+        const activeEditionId = (getActiveEditionObj().editionId) || state.selectedEditionId;
+
         listEl.innerHTML = filtered.map((ag, idx) => {
-            const isRead = !!state.readMap[ag.id];
-            const detailUrl = `detail.html?id=${encodeURIComponent(ag.id)}&tier=${encodeURIComponent(state.tier)}&edition=${encodeURIComponent(state.selectedEditionId)}&cat=${encodeURIComponent(state.category)}`;
+            const isRead = isAgendaRead(ag.id, scopeId);
+            const detailUrl = `detail.html?id=${encodeURIComponent(ag.id)}&tier=${encodeURIComponent(state.tier)}&edition=${encodeURIComponent(activeEditionId)}&cat=${encodeURIComponent(state.category)}`;
             const tierBadge = ag.archiveTier ? `<span class="badge-tier">🗂️ ${ag.archiveTier}</span>` : "";
 
             return `
-                <a class="agenda-list-card ${isRead ? "is-read" : ""}" href="${detailUrl}">
+                <a class="agenda-list-card ${isRead ? "is-read" : ""}" href="${detailUrl}" data-agenda-id="${ag.id}" data-scope-id="${scopeId}">
                     <div class="card-top-badges">
                         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                             <span class="badge-cat ${ag.category}">안건 #${idx + 1} · ${ag.categoryLabel}</span>
@@ -382,7 +445,7 @@
             });
         });
 
-        // 최근 7일 회차 선택 위임 이벤트
+        // 최근 7일 회차 선택 및 안건 클릭 시 즉시 열람 기록 위임 이벤트
         document.body.addEventListener("click", e => {
             const edBtn = e.target.closest("[data-select-edition]");
             if (edBtn) {
@@ -391,7 +454,34 @@
                 renderTierControls();
                 syncCategoryTabs();
                 renderAgendaList();
+                return;
             }
+
+            const cardEl = e.target.closest(".agenda-list-card[data-agenda-id]");
+            if (cardEl) {
+                const aid = cardEl.getAttribute("data-agenda-id");
+                const sid = cardEl.getAttribute("data-scope-id") || getCurrentScopeId();
+                if (aid) {
+                    markAgendaRead(aid, sid);
+                    cardEl.classList.add("is-read");
+                    renderHeader();
+                    renderTierControls();
+                }
+            }
+        });
+
+        // 브라우저 뒤로가기(BFCache 복원) 및 탭 포커스 복귀 시 열람 카운트 즉시 동기화
+        const syncReadStateFromStorage = () => {
+            state.readMap = loadReadMap();
+            renderHeader();
+            renderTierControls();
+            renderAgendaList();
+        };
+        window.addEventListener("pageshow", syncReadStateFromStorage);
+        window.addEventListener("focus", syncReadStateFromStorage);
+        window.addEventListener("storage", syncReadStateFromStorage);
+        document.addEventListener("visibilitychange", () => {
+            if (!document.hidden) syncReadStateFromStorage();
         });
 
         // 카테고리 탭
