@@ -336,6 +336,7 @@ def build_briefing_edition():
                 subprocess.run(["git", "add", "-A"], cwd=BASE_DIR, check=False)
                 commit_msg = f"update: briefing {edition_id} ({now.strftime('%H:%M KST')})"
                 subprocess.run(["git", "commit", "-m", commit_msg], cwd=BASE_DIR, check=False, capture_output=True)
+                subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"], cwd=BASE_DIR, check=False, capture_output=True)
                 subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=False, capture_output=True)
                 print("[SYNC] 공유 웹페이지 동기화 완료!")
         except Exception as e:
