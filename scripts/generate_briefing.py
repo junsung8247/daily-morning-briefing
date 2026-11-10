@@ -274,7 +274,7 @@ def build_briefing_edition():
         "scheduleInfo": "매일 08:00 / 20:00 정각 발행 (꺼져 있을 시 부팅 즉시 자동 보충 실행)",
         "totalAgendas": len(agendas),
         "deltaSummary": delta_counts,
-        "executiveHeadline": "[11/10 모닝] 연준 12월 금리 인상 확률 81% 급등·WTI 유가 $88 하락 속 베라 루빈 HBM4(대역폭 +30%·전력 -15%) 로드맵 확정, 금(JPM $6,300 vs GS $4,800) 목표가 격돌, 블랙록 IBIT 환매 해부 및 서울 아파트 59㎡ 쏠림·핵심구 전세가율 역대 최저 근접",
+        "executiveHeadline": "[11/10 이브닝] WTI 유가 $85.39 안도 속 반도체지수(SOX) +6.85%·SK하이닉스 121.2만 원(+6.69%) 대반등 및 원/달러 1,338.38원(-1.78%) 급락, 금 $4,082.80 돌파, 비트코인 9918만원 속 피델리티(FBTC) +$93.1M 역발상 순유입·씨티그룹 WM 편입 권고, 스트레스 DSR 3단계 수도권 1.5%p 정조준과 서울 59㎡·용산 초양극화",
         "marketQuotes": market_data,
         "liveHeadlines": rss_headlines,
         "agendas": agendas

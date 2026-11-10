@@ -1,41 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">엔비디아 베라 루빈(Vera Rubin) HBM4 & TSMC 3나노 커스텀 베이스 다이(NVHBM) 혁신</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">메모리 컨트롤러를 GPU에서 HBM 베이스 다이로 이관하여 대역폭 +30% 극대화 및 전력 소모 -15% 절감</text>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">엔비디아 베라 루빈(Vera Rubin) 풀스택 아키텍처 & HBM4(288GB · 22TB/s) 스펙</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">TSMC 3nm/3P 공정 3,360억 트랜지스터 6칩 코디자인 + 8단/12단 HBM4 최대 288GB(대역폭 22TB/s) 탑재</text>
     <line x1="450" y1="268" x2="190" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#6d28d9" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
     <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
     <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
-    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">Vera Rubin HBM4</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">대역폭+30% · 전력-15%</text>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">Vera Rubin 플랫폼</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">288GB HBM4 · 22TB/s</text>
     
     
         <g>
             <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">2027 Q2 대량 양산</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">8단 HBM4 본격 출하</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">SK하이닉스·삼성, 루빈/루빈 울트라 탑재</text>
+            <text x="190" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">6-Chip 극한 코디자인</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">3,360억 트랜지스터</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">TSMC 3nm/3P 공정 + 네이티브 FP4 추론</text>
         </g>
         
         <g>
             <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">NVHBM 커스텀 아키텍처</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">대역폭 +30% · 전력 -15%</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">메모리 컨트롤러를 3nm 베이스 다이에 통합</text>
+            <text x="710" y="157" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">초대용량 HBM4 탑재</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">최대 288GB · 22TB/s</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">8단/12단 구성으로 초거대 모델 추론 가속</text>
         </g>
         
         <g>
             <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="190" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">삼성 2나노 공정 검토</text>
-            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">파운드리 컨틴전시 옵션</text>
-            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">첨단 베이스 다이용 자체 2nm 활용 타진</text>
+            <text x="190" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">NVHBM 커스텀 베이스 다이</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">대역폭 +30% · 전력 -15%</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">메모리 컨트롤러를 파운드리 로직 다이에 통합</text>
         </g>
         
         <g>
             <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#6d28d9" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#6d28d9" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">2030 장기 공급 계약</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">AI 메모리 파이프라인 락인</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">빅테크-한국 메모리 3사 수십억 달러 프레임워크</text>
+            <text x="710" y="347" fill="#6d28d9" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">2027 Q1~Q2 양산 출하</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">SK하이닉스·삼성 주력</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">루빈 및 루빈 울트라 향 대량 공급 돌입</text>
         </g>
         
 </svg>

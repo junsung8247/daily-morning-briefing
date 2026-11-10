@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">기가와트(GW)급 AI 데이터센터 전력 장벽 돌파 & 피지컬 AI 통합 아키텍처</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">SK그룹-엔비디아 멀티 기가와트 AI 클라우드 구축(2027 목표) 및 HBM4 전력효율 40%+ 개선 결합</text>
-    <line x1="450" y1="268" x2="190" y2="175" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">루빈 NVL72 초고밀도 열관리(Liquid Cooling) & 2GW+ AI 데이터센터 전력 통합</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">랙당 열설계전력(TDP) 급증에 따른 액체냉각 필수화 및 2기가와트(2GW+)급 전력망·그린에너지 결합</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
     <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
     <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
-    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">GW급 AI 인프라</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">전력망 · 액체냉각 · HBM4</text>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">Rubin NVL72 & 2GW+</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">액체냉각 · 전력망 직결</text>
     
     
         <g>
-            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">SK-NVIDIA GW급 동맹</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">2027 메가 클라우드 가동</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">기가와트급 에너지 고효율 AI 데이터센터 구축</text>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">Rubin NVL72 고밀도 랙</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">극한 TDP · 액체냉각 필수</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">공랭식 불가, 직결 수랭/액침냉각 표준화</text>
         </g>
         
         <g>
-            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">HBM4 에너지 혁신</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">전력효율 40%+ 개선</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">구세대 대비 압도적 저전력·열관리 구현</text>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">2GW+ 메가 에너지 통합</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">SK-NVIDIA 인프라 프레임</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">2기가와트급 전력망·그린에너지 초기 설계</text>
         </g>
         
         <g>

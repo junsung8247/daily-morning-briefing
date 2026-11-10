@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">글로벌 중앙은행 금 순매입량 비교 (톤, Metric Tons)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">2022년 외환보유고 동결 사태 이전(월 17톤) 대비 3.5배인 월평균 60톤 매입세가 2026~2027년 내내 이어질 전망</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">2022년 외환동결 이후 월평균 60톤(분기 321톤)으로 구조화된 공식 부문 수요가 금 시장의 영구적 하방 안전망 구축</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#d97706"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">중앙은행 금 순매입량 (톤)</text>

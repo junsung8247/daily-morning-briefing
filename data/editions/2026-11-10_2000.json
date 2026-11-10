@@ -1,0 +1,2868 @@
+{
+  "editionId": "2026-11-10_2000",
+  "generatedAt": "2026-11-10 20:14:20 KST",
+  "displayDate": "2026년 11월 10일",
+  "shortDate": "11/10 20:00",
+  "slotLabel": "20:00 PM 이브닝 에디션",
+  "scheduleInfo": "매일 08:00 / 20:00 정각 발행 (꺼져 있을 시 부팅 즉시 자동 보충 실행)",
+  "totalAgendas": 25,
+  "deltaSummary": {
+    "REINFORCED": 14,
+    "CHALLENGED": 5,
+    "NEW": 0,
+    "MAINTAINED": 6
+  },
+  "executiveHeadline": "[11/10 이브닝] WTI 유가 $85.39 안도 속 반도체지수(SOX) +6.85%·SK하이닉스 121.2만 원(+6.69%) 대반등 및 원/달러 1,338.38원(-1.78%) 급락, 금 $4,082.80 돌파, 비트코인 9918만원 속 피델리티(FBTC) +$93.1M 역발상 순유입·씨티그룹 WM 편입 권고, 스트레스 DSR 3단계 수도권 1.5%p 정조준과 서울 59㎡·용산 초양극화",
+  "marketQuotes": [
+    {
+      "symbol": "^GSPC",
+      "id": "sp500",
+      "name": "S&P 500",
+      "category": "macro",
+      "unit": "",
+      "color": "#38bdf8",
+      "price": 7549.94,
+      "dayChangePct": 2.35,
+      "monthChangePct": -3.3,
+      "historyLabels": [
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09"
+      ],
+      "historyValues": [
+        7722.6,
+        7743.98,
+        7720.39,
+        7580.07,
+        7541.4,
+        7568.92,
+        7688.62,
+        7353.73,
+        7376.86,
+        7549.94
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "id": "nasdaq",
+      "name": "나스닥 종합",
+      "category": "macro",
+      "unit": "",
+      "color": "#818cf8",
+      "price": 25253.14,
+      "dayChangePct": 2.74,
+      "monthChangePct": -7.31,
+      "historyLabels": [
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09"
+      ],
+      "historyValues": [
+        26477.81,
+        26549.85,
+        26184.72,
+        25437.0,
+        25164.31,
+        25372.01,
+        25736.51,
+        24315.0,
+        24579.43,
+        25253.14
+      ]
+    },
+    {
+      "symbol": "^SOX",
+      "id": "sox",
+      "name": "필라델피아 반도체",
+      "category": "tech",
+      "unit": "",
+      "color": "#a855f7",
+      "price": 10033.93,
+      "dayChangePct": 6.85,
+      "monthChangePct": -18.0,
+      "historyLabels": [
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09"
+      ],
+      "historyValues": [
+        11482.5,
+        11684.0,
+        11518.2,
+        10688.8,
+        10328.33,
+        10600.4,
+        10268.65,
+        9011.14,
+        9390.25,
+        10033.93
+      ]
+    },
+    {
+      "symbol": "^TNX",
+      "id": "us10y",
+      "name": "미 10년물 국채금리",
+      "category": "macro",
+      "unit": "%",
+      "color": "#f43f5e",
+      "price": 4.86,
+      "dayChangePct": 0.1,
+      "monthChangePct": -7.25,
+      "historyLabels": [
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09"
+      ],
+      "historyValues": [
+        4.99,
+        5.05,
+        4.99,
+        4.93,
+        4.89,
+        4.95,
+        4.89,
+        4.84,
+        4.86,
+        4.86
+      ]
+    },
+    {
+      "symbol": "KRW=X",
+      "id": "usdkrw",
+      "name": "원/달러 환율",
+      "category": "macro",
+      "unit": "원",
+      "color": "#10b981",
+      "price": 1338.98,
+      "dayChangePct": -1.74,
+      "monthChangePct": -0.14,
+      "historyLabels": [
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        1326.81,
+        1340.34,
+        1337.98,
+        1325.52,
+        1344.81,
+        1342.9,
+        1340.07,
+        1356.34,
+        1362.7,
+        1338.98
+      ]
+    },
+    {
+      "symbol": "GC=F",
+      "id": "gold",
+      "name": "금 선물 ($/oz)",
+      "category": "gold",
+      "unit": "$",
+      "color": "#fbbf24",
+      "price": 4082.1,
+      "dayChangePct": -0.79,
+      "monthChangePct": -2.59,
+      "historyLabels": [
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        4051.6,
+        4031.4,
+        3898.9,
+        3969.6,
+        3940.4,
+        4073.0,
+        4113.5,
+        4074.9,
+        4114.5,
+        4082.1
+      ]
+    },
+    {
+      "symbol": "BTC-KRW",
+      "id": "btc",
+      "name": "비트코인 (만원)",
+      "category": "crypto",
+      "unit": "만원",
+      "color": "#f97316",
+      "scale": 0.0001,
+      "price": 9941,
+      "dayChangePct": -1.67,
+      "monthChangePct": -10.55,
+      "historyLabels": [
+        "11/01",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/07",
+        "11/08",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        10435,
+        10313,
+        10392,
+        10783,
+        10309,
+        10330,
+        10330,
+        10173,
+        10109,
+        9941
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "id": "nvda",
+      "name": "엔비디아 (NVDA)",
+      "category": "tech",
+      "unit": "$",
+      "color": "#22c55e",
+      "price": 178.67,
+      "dayChangePct": -4.27,
+      "monthChangePct": -21.05,
+      "historyLabels": [
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09"
+      ],
+      "historyValues": [
+        217.94,
+        215.38,
+        213.66,
+        204.64,
+        202.06,
+        206.69,
+        200.13,
+        181.6,
+        186.64,
+        178.67
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "id": "tsm",
+      "name": "TSMC (TSM)",
+      "category": "tech",
+      "unit": "$",
+      "color": "#06b6d4",
+      "price": 388.62,
+      "dayChangePct": 3.51,
+      "monthChangePct": -12.54,
+      "historyLabels": [
+        "10/27",
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09"
+      ],
+      "historyValues": [
+        436.87,
+        439.51,
+        431.81,
+        406.13,
+        398.63,
+        404.8,
+        395.75,
+        353.1,
+        375.44,
+        388.62
+      ]
+    },
+    {
+      "symbol": "005930.KS",
+      "id": "samsung",
+      "name": "삼성전자",
+      "category": "tech",
+      "unit": "원",
+      "color": "#3b82f6",
+      "price": 198900.0,
+      "dayChangePct": 4.74,
+      "monthChangePct": -20.6,
+      "historyLabels": [
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        242000.0,
+        232000.0,
+        225000.0,
+        229000.0,
+        219500.0,
+        218000.0,
+        201500.0,
+        188700.0,
+        189900.0,
+        198900.0
+      ]
+    },
+    {
+      "symbol": "000660.KS",
+      "id": "skhynix",
+      "name": "SK하이닉스",
+      "category": "tech",
+      "unit": "원",
+      "color": "#ec4899",
+      "price": 1212000.0,
+      "dayChangePct": 6.69,
+      "monthChangePct": -24.49,
+      "historyLabels": [
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        1487000.0,
+        1526000.0,
+        1418000.0,
+        1472000.0,
+        1398000.0,
+        1396000.0,
+        1264000.0,
+        1132000.0,
+        1136000.0,
+        1212000.0
+      ]
+    },
+    {
+      "symbol": "CL=F",
+      "id": "wti",
+      "name": "WTI 원유 선물",
+      "category": "macro",
+      "unit": "$",
+      "color": "#eab308",
+      "price": 85.71,
+      "dayChangePct": -1.31,
+      "monthChangePct": -8.57,
+      "historyLabels": [
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        102.78,
+        102.0,
+        104.12,
+        96.46,
+        96.09,
+        88.12,
+        90.52,
+        90.83,
+        86.85,
+        85.71
+      ]
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "id": "dxy",
+      "name": "달러 인덱스 (DXY)",
+      "category": "macro",
+      "unit": "",
+      "color": "#94a3b8",
+      "price": 101.7,
+      "dayChangePct": 0.05,
+      "monthChangePct": -0.86,
+      "historyLabels": [
+        "10/28",
+        "10/29",
+        "10/30",
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10"
+      ],
+      "historyValues": [
+        102.19,
+        102.04,
+        101.88,
+        101.75,
+        101.87,
+        101.51,
+        101.55,
+        102.3,
+        101.65,
+        101.7
+      ]
+    }
+  ],
+  "liveHeadlines": [
+    {
+      "category": "macro",
+      "source": "CNBC Economy",
+      "title": "China's goods surplus tops $1 trillion for a second year amid calls for Beijing to rebalance trade",
+      "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+      "pubDate": "Tue, 10 Nov 2026 10:24:13"
+    },
+    {
+      "category": "macro",
+      "source": "CNBC Economy",
+      "title": "3 unexpected reasons the October jobs report was so strong",
+      "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+      "pubDate": "Mon, 09 Nov 2026 22:23:56"
+    },
+    {
+      "category": "macro",
+      "source": "CNBC Economy",
+      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "pubDate": "Mon, 09 Nov 2026 21:03:55"
+    },
+    {
+      "category": "macro",
+      "source": "CNBC Economy",
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "pubDate": "Mon, 09 Nov 2026 02:50:22"
+    },
+    {
+      "category": "macro",
+      "source": "CNBC Economy",
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+      "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+      "pubDate": "Fri, 06 Nov 2026 20:11:17"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "pubDate": "Tue, 10 Nov 2026 10:02:23"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+      "link": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+      "pubDate": "Tue, 10 Nov 2026 09:01:37"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "TSMC's October sales jump as global chip boom rolls on",
+      "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+      "pubDate": "Tue, 10 Nov 2026 05:42:42"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
+      "link": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
+      "pubDate": "Mon, 09 Nov 2026 23:30:15"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "Jim Cramer says Nvidia investors need to prepare for a future without Jensen Huang",
+      "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-probe-data-centers-cramer.html",
+      "pubDate": "Mon, 09 Nov 2026 23:24:05"
+    },
+    {
+      "category": "realestate",
+      "source": "Google 뉴스 (한국 부동산/정책)",
+      "title": "[부동산 인사이트] 3중 규제의 시대, ‘위기 속 기회’ 전략 가이드 - 비즈한국",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qRXlvTnNQZVAxR3JSRWNiT2VxbnlnYWpTTDdRdE9KTG9LUkp0LXMwN05ZQUxLaXpxUG5POWZqOWItSUlNTWtPQ2lKMWN4RXlFQU12bw?oc=5",
+      "pubDate": "Mon, 17 Nov 2025 08:00:00"
+    },
+    {
+      "category": "realestate",
+      "source": "Google 뉴스 (한국 부동산/정책)",
+      "title": "GTX도 못 채운 갈증…신도시 부부, 새 정부에선 ‘in서울’ 가능할까?[대선, 내 삶을 바꿀까②] - 한경매거진",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUDlGdVBha0hvWndibmU4N01Cd3RSdnhUSk5BRXpQd19VclUyaTBNclpyenRwRjFDOXo3VEszbklkNWxYNnJybzdaYjBkLWQ2Z3k4R2Y1NVpXcm1zV1EtRUZNR2kydnY2ejZoRA?oc=5",
+      "pubDate": "Mon, 26 May 2025 07:00:00"
+    },
+    {
+      "category": "realestate",
+      "source": "Google 뉴스 (한국 부동산/정책)",
+      "title": "[부동산 결산 2024] \"조였다 풀었다\" 오락가락 정책에 수요자 '혼돈' - 리얼캐스트",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PdmlvUEphWGN5TDFUd202RzBLZzVnUWRCYkM0aW90SnFxYnhid0JfcjlEXy1fMGc3a3lCQ0VZM2daLVlnUEhkX3BvdHJSR285S3lVbkd3LUJUS1oxUks5cHJ2ZVppbWN1?oc=5",
+      "pubDate": "Thu, 26 Dec 2024 08:00:00"
+    },
+    {
+      "category": "realestate",
+      "source": "Google 뉴스 (한국 부동산/정책)",
+      "title": "공급 늘리고 세금규제 줄인다…이재명표 ‘부동산 정책’ 들여다보니 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TZDU5TjJUTzAxc3ZNU3ZnN0JKaXZpWkFjU1ZPR2l6NDA5RDc2QnhkTWZPTEdCNHhzTkM3cWNTWTFsRnE5NVJPZVNvQW9GZk52RzdXdy10WGQ?oc=5",
+      "pubDate": "Fri, 06 Jun 2025 07:00:00"
+    },
+    {
+      "category": "realestate",
+      "source": "Google 뉴스 (한국 부동산/정책)",
+      "title": "집 사려면 7월 전에 사라? 주택 마련 유형별 알아둬야 하는 부동산 제도 - 리얼캐스트",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fMXdkQnc1b0IxTmJFUlItRDZ1cjMwd1EyS3Q4TWpNbVBwVUxTNHNTMHhSaG1lc04zMzBjTV9zcnl1b0laUGNCbFdDdzBUMlJoV2J5ZlFDeUxFcGpxNWczUGRQVlJ2RmRh0gFsQVVfeXFMTlh4d0IzREdwajM2bExtVmFKc1Ffa1JRNFJuOENnQXhsMldnTlhuTGllYzl3S3ItRzZCYzV5aTdYcmJsTk8xOXpybHFfc1RYemRmS2lSWnM4SG9GYTd6OUV2TUdQTGt3MUpaQWZj?oc=5",
+      "pubDate": "Thu, 02 Jan 2025 08:00:00"
+    },
+    {
+      "category": "gold",
+      "source": "Google 뉴스 (금 시세/전망)",
+      "title": "[금 시세] 금값 폭락에도 멈추지 않는다…\"지금이 저가 매수 기회?\" 파격적인 금 매입 행진 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5odzBYZFRMeXU4ZG9oYmVERExveE9tSXJnRUtOOUhtQnByMzJFT0g0VG4wRExlOWk1TF9UMllkNmRqa2dqSFdLc3hPYThYQlRXU1NoaEpoaHU1bl9zQmtrMXM1RjRLZFRh?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 21:40:00"
+    },
+    {
+      "category": "gold",
+      "source": "Google 뉴스 (금 시세/전망)",
+      "title": "“금값 떨어진 지금이 기회다”…골드바 쌓기 시작한 한·중 중앙은행 [원자재로 살아남기] - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4aFFzbk1HaXR2Z1pGdE4xNW5SbTg3SEEwQ3B5a3pVLTh5ekVnR0diZGxGMXhjTmtWTkFpd2FHWHhMc3E2dy0wY056dVllNjJKeFE?oc=5",
+      "pubDate": "Sat, 08 Aug 2026 07:00:00"
+    },
+    {
+      "category": "gold",
+      "source": "Google 뉴스 (금 시세/전망)",
+      "title": "살아난 국제 금값…국내 금시세는? - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBINmc2TVlRZF9hQjhmTzExX2FYNWNIOWZFdkRfaXEyX3ltTzFXWWs4TE1yekNmbEY0Yk56c3BIWG5qWUx6azdLX3NyMW90V25TZG82Sg?oc=5",
+      "pubDate": "Fri, 03 Jul 2026 07:00:00"
+    },
+    {
+      "category": "gold",
+      "source": "Google 뉴스 (금 시세/전망)",
+      "title": "“저점 매수 가자”…중국, 금값 폭락한 6월도 금 보유량 늘려 - 이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0p1TEVzWE50bzFZQ1BwY1VCUlVQRXYwS3lkVTRrTHJHNU13UlNMMUNJVFBxVDdNU1dQVFpMWEJETDRIeW5seXdQWEVLNnAybWQ0eTlKNVlzeTJWWnV1NkZnWWhoNmxfR0c5S1V0NTNIMTdRWURCREVFMXdVa2t6aA?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 07:00:00"
+    },
+    {
+      "category": "gold",
+      "source": "Google 뉴스 (금 시세/전망)",
+      "title": "[금값 시세] 금 사재기 국가 러시아의 변심…24년 만의 최대 감소 배경은? - 핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Gby1HUjZ6N0ljanNIaFlCZC1fdTZMOXVRRzRENU94WEVGYjlHbFdFUnNqNHRQSi1nUDRJdEZURWVha21YOEVmbi1seDZXSjIzRzE5WnRnak01WFg1TUp1M1pWcGFadVQtVjlMQVM4RnkwY1XSAXdBVV95cUxQbGRDSk5IV2V0ZEVOMVhXajdOT3JCRVVfMThBN1JNTGh4dzVfNXc4cThUaE9FeDZzOXRWWTdBSktLYk00cmZIR0ZJZmFWTVJlT1hmRFlqcmZpeUI2VTJpY2Jpb0RDRHdvT3BXSUxGQ2ZWZEp4d1NpOA?oc=5",
+      "pubDate": "Tue, 26 May 2026 07:00:00"
+    },
+    {
+      "category": "crypto",
+      "source": "Google 뉴스 (비트코인 ETF)",
+      "title": "리플 1.16달러 흔들…비트코인 ETF 4억달러 유출 직격 - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLWhKX1ZxZUQtc3FqaXVrRGRhQktMTnZURzZtVzR1WlBHSjhnYWtFZG80THl5ajFsU0hGbHNvYjMxMWRyaUdnMW5WbGZaYzVNY1VMUW1WYUNqUVVDbHZ4N1BrdHZBcmRYd3BRM0Y1MEpHV0hBLXR4dzRYeUl1TW0tN1FXRmQ0UmF0?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 21:15:00"
+    },
+    {
+      "category": "crypto",
+      "source": "Google 뉴스 (비트코인 ETF)",
+      "title": "美 비트코인 현물 ETF서, 4.1억달러 순유출 - 블루밍비트",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1EUEhJUEJEWGNJOC1iaHFZWDBycklRS1l4MDJCM2tJMThNRS1TSDNfM18xaTJUWlNFVElYT3YyTE1GWFlvenZ2a184RERKRmVW?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 05:30:41"
+    },
+    {
+      "category": "crypto",
+      "source": "Google 뉴스 (비트코인 ETF)",
+      "title": "디지털자산 판이 바뀐다… 국회서 '기관 중심 시대' 해법 찾는다 - 블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oYm5GNjRuT1BjajFZZWdfdEVnRmFtZVNHek1hMi15ZmFtTS1ya0d3b3dRN0dsdDZIanFyMHVOd0ZlaVN4dXpJYVJNd2tzaWlXWWZ2YnZzUnlxdkVxd0RmbGo2V0xsQUpDME0tNWp1Wlg?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 23:48:32"
+    },
+    {
+      "category": "crypto",
+      "source": "Google 뉴스 (비트코인 ETF)",
+      "title": "비트코인 ETF서 12억8,000만 달러 증발…이더리움 6주 연속 유출, 기관투자자 떠나나? - 코인리더스",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9na0g3QUV0UFJEaHRZQmdHVXMzWHB0Vjd6UG95TUpJQmhVdFMyTHBDWkVzMjVvVHF5c2FMUWJBWDRJR3dkNWtmOHFB?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 22:41:00"
+    },
+    {
+      "category": "crypto",
+      "source": "Google 뉴스 (비트코인 ETF)",
+      "title": "비트코인 ETF, 3거래일째 순유출 흐름…비트와이즈 \"기관 이탈 아냐\" - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OenUtdlFLaW1ab2o3bThROVF0akFJdFJYYURPQWFNZll0akdCTmVqYXZYS00xeFRaQ01Ma3hobTUyRGxMRnduSV84bERQRXdrN3FKRUZkdTVQNElwZE1ra0toUnJ4VERSNlRXaWlVX21WY0k?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 05:45:34"
+    }
+  ],
+  "agendas": [
+    {
+      "id": "agenda_01",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "CRITICAL",
+      "deltaStatus": "MAINTAINED",
+      "deltaLabel": "🟡 시사점 균형 (12월 금리 조정 확률 80~84% 선반영 속 연준 '신중한 접근' 발언)",
+      "title": "[11/10 이브닝] 미 12월 금리 인상 확률 80~84% 선반영 완료와 바킨 연은 총재 '신중한(With Care) 통화정책' 발언",
+      "subtitle": "고용 호조에 따른 12월 긴축 우려를 시장이 소화하며 S&P500(+2.35%)·나스닥(+2.74%) 반등… 이제 시선은 CPI 물가로 이동",
+      "chartImage": "assets/charts/agenda_01.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "미 연준 기준금리 경로 및 12월 FOMC 인상 확률 반영 추이 (%)",
+        "subtitle": "12월 25bp 인상 확률(80~84%) 선반영 후 추가 긴축 발작 진정… CPI 둔화 여부가 최종 결정 변수",
+        "labels": [
+          "25.Q4",
+          "26.Q1",
+          "26.Q2",
+          "26.09",
+          "26.10",
+          "26.11(현)",
+          "26.12(82%)",
+          "27.Q1(E)"
+        ],
+        "values": [
+          3.5,
+          3.62,
+          3.75,
+          4.0,
+          4.0,
+          4.0,
+          4.25,
+          4.38
+        ],
+        "unit": "%",
+        "color": "#f43f5e",
+        "benchmark_val": 4.0,
+        "benchmark_label": "현재 상단 금리 4.00%",
+        "badge_text": "Dec Odds 80~84%",
+        "annotations": [
+          {
+            "index": 6,
+            "text": "12월 인상 확률 선반영 소화"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "12월 정책 반영도",
+          "value": "80% ~ 84%",
+          "change": "선물시장 선반영 후 충격 흡수"
+        },
+        {
+          "label": "연준 최신 메시지",
+          "value": "신중한 접근 (With Care)",
+          "change": "리치먼드 연은 바킨 총재 발언"
+        },
+        {
+          "label": "뉴욕증시 반응",
+          "value": "나스닥 +2.74% 반등",
+          "change": "과도한 긴축 공포 진정 및 저가매수"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁(20:00 KST) 기준 글로벌 금융시장은 오는 12월 연준의 25bp 금리 인상 가능성(선물시장 확률 80~84%)을 가격에 대부분 선반영한 채 그동안의 과매도를 되돌리는 강한 기술적 반등(S&P 500 +2.35%, 나스닥 +2.74%)을 시현하고 있습니다.",
+        "오전까지 시장을 짓눌렀던 매파적 우려 속에서 톰 바킨(Tom Barkin) 리치먼드 연방준비은행 총재 등 연준 인사들은 인플레이션 억제가 최우선 과제임을 전제하면서도 향후 통화정책 조정에는 '신중하게(With Care) 접근해야 한다'고 언급해 연속적인 급격한 금리 인상 공포를 일부 누그러뜨렸습니다.",
+        "여기에 국제유가(WTI $85.39)의 추가 하락이 맞물리며, 시장은 다가오는 월간 소비자물가지수(CPI)와 생산자물가지수(PPI)에서 물가 압력이 완만하게 둔화될 것이라는 컨센서스를 형성하고 있습니다."
+      ],
+      "previousImplication": "연방기금금리 선물시장 내 12월 25bp 인상 확률 80~81% 도달 및 워시 의장 매파 발언으로 긴축 경계감 고조 (11/10 모닝).",
+      "newCatalyst": "12월 금리 인상 확률(80~84%)의 주가 선반영 완료 인식 + 바킨 총재의 '신중한 접근' 발언 및 유가 하락에 따른 나스닥 +2.74% 반등.",
+      "updatedImplication": "12월 25bp 인상 리스크는 이미 주가 조정(-8~-20%)을 통해 상당 부분 소화됨. CPI가 시장 예상치를 크게 상회하는 쇼크만 아니라면 극단적인 금리 발작 국면은 정점을 통과 중.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 FOMC 인상 소수의견 확인 및 12월 추가 인상 경계감 부각"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 선물시장 12월 25bp 인상 확률 80~81% 돌파 및 워시 의장 매파 발언"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 12월 인상 확률 선반영 소화 및 바킨 총재 신중론 속 증시 반등(+2.74%)"
+        }
+      ],
+      "actionPoints": [
+        "주식: 과도한 금리 공포로 낙폭이 컸던 대형 반도체·빅테크 우량주의 저가 분할 매수 유효 구간",
+        "채권: CPI 발표를 통해 물가 둔화가 확인될 경우 단기 금리 상단 확인 신호로 활용"
+      ],
+      "sources": [
+        "TradingEconomics Fed Watch",
+        "Federal Reserve Richmond Speech",
+        "Investing.com Macro"
+      ]
+    },
+    {
+      "id": "agenda_02",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 완화 조짐 (미 10년물 금리 4.88% ➔ 4.86% 진정 & 증시 할인율 압박 완화)",
+      "title": "[11/10 이브닝] 미 10년물 국채금리 4.86%로 소폭 진정: 유가 하락($85.39)과 CPI 둔화 기대가 멈춰 세운 금리 발작",
+      "subtitle": "4.88% 고점 저항 확인 후 4.86%선 숨고르기… 장기금리 급등세 멈추자 필라델피아 반도체(+6.85%) 등 성장주 즉각 반등",
+      "chartImage": "assets/charts/agenda_02.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "미국 10년물 국채금리(^TNX) 최근 추이 및 핵심 저항선 (%)",
+        "subtitle": "4.88% 단기 피크 테스트 후 유가 안정에 힘입어 4.86%로 진정… 5.0% 돌파 공포 후퇴",
+        "labels": [
+          "10/27",
+          "10/28",
+          "10/29",
+          "10/30",
+          "11/02",
+          "11/03",
+          "11/04",
+          "11/05",
+          "11/06",
+          "11/09"
+        ],
+        "values": [
+          4.99,
+          5.05,
+          4.99,
+          4.93,
+          4.89,
+          4.95,
+          4.89,
+          4.84,
+          4.86,
+          4.86
+        ],
+        "unit": "%",
+        "color": "#f59e0b",
+        "benchmark_val": 4.5,
+        "benchmark_label": "주식시장 부담 임계선 4.50%",
+        "badge_text": "LIVE 4.86%",
+        "annotations": [
+          {
+            "index": 7,
+            "text": "4.88% 고점 찍고 4.86% 진정"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "미 10년물 금리",
+          "value": "4.86%",
+          "change": "오전 4.88% 대비 -2bp 진정"
+        },
+        {
+          "label": "S&P 500 지수",
+          "value": "7,549.94",
+          "change": "+2.35% 급반등 (할인율 안정)"
+        },
+        {
+          "label": "한국 국고채 3년물",
+          "value": "3.66 ~ 3.71%",
+          "change": "대외 금리 진정에 동조화"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 브리핑 기준 미국 10년 만기 국채 수익률은 오전의 4.88%에서 소폭 내려온 4.86% 선에서 안정적인 흐름을 보이고 있습니다.",
+        "비록 절대 금리 레벨은 여전히 높지만, 5.0% 심리적 저항선을 뚫고 올라갈 것 같던 가파른 상승 기울기가 완만해졌다는 사실만으로도 주식시장에는 강력한 안도감을 제공하고 있습니다. 에너지 가격 하락(WTI $85.39)으로 인해 다가오는 CPI·PPI 인플레이션 지표가 우려보다 온건할 것이라는 기대가 채권 저가 매수세를 유입시켰기 때문입니다.",
+        "장기 국채금리가 4.86%에서 멈추어 서자 그동안 할인율 상승 직격탄을 맞았던 S&P 500 지수는 7,549.94(+2.35%), 나스닥은 25,253.14(+2.74%)로 강하게 반등했습니다."
+      ],
+      "previousImplication": "CPI/PPI 발표 직전 미 10년물 금리가 4.85~4.88%에 고착되며 기술주 멀티플을 압박함 (11/10 모닝).",
+      "newCatalyst": "유가 하락 및 물가 둔화 컨센서스에 힘입어 미 10년물 금리가 4.88%에서 4.86%로 진정되고 주요 주가지수가 2~6%대 급반등.",
+      "updatedImplication": "주식시장은 금리의 '절대 수준(4.86%)'보다 '추가 급등 속도의 멈춤'에 민감하게 반응함. 10년물 금리가 4.90% 아래에서 안정될 경우 그동안 과매도되었던 AI 반도체 및 기술주의 밸류에이션 복원 장세가 이어질 수 있음.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 재정적자 및 고용 호조로 4.88% 도달, 기술주 할인율 압박 강화"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 CPI/PPI 대기 속 4.85~4.88% 숨고르기 및 한·미 국채 공조 변수"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🔴 4.88% ➔ 4.86% 소폭 진정 확인과 동시에 성장주 할인율 압박 완화 반등"
+        }
+      ],
+      "actionPoints": [
+        "기술주 비중 복원: 10년물 금리가 4.9%를 돌파하지 않는 한 반도체·빅테크 과매도 되돌림 랠리에 동참",
+        "채권 분할 접근: 4.85% 이상 구간에서 장기 국채 이자수익 확보 및 향후 금리 하향 안정 시 자본차익 노림수 유효"
+      ],
+      "sources": [
+        "TradingEconomics US10Y",
+        "Investing.com Bond Market",
+        "KMB 국고채 동향"
+      ]
+    },
+    {
+      "id": "agenda_03",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (WTI 유가 $88.22 ➔ $85.39 연속 하락으로 인플레이션 둔화 기대 확대)",
+      "title": "[11/10 이브닝] WTI 원유 선물 $85.39(-1.68%) 추가 하락: '고용 탄탄(4.1%) + 에너지 물가 안정'의 골디락스 조건 형성",
+      "subtitle": "오전 $88.22에서 저녁 $85.39로 유가 낙폭 확대… 다가오는 CPI/PPI 물가 압력을 낮추며 증시 안도 랠리의 일등 공신 역할",
+      "chartImage": "assets/charts/agenda_03.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "미국 고용·물가·금리 및 에너지 가격 핵심 지표 변동 비교 (%)",
+        "subtitle": "실업률 4.1%의 완전고용 속에서 WTI 유가가 $85.39까지 연속 하락하며 인플레이션 재점화 우려를 빠르게 진화",
+        "categories": [
+          "실업률",
+          "근원 물가(YoY)",
+          "기준금리 상단",
+          "10년물 금리",
+          "WTI 유가(일간%)"
+        ],
+        "series_name_1": "11/10 모닝",
+        "values_1": [
+          4.1,
+          3.4,
+          4.0,
+          4.88,
+          -3.95
+        ],
+        "color_1": "#64748b",
+        "series_name_2": "11/10 이브닝",
+        "values_2": [
+          4.1,
+          3.3,
+          4.0,
+          4.86,
+          -1.68
+        ],
+        "color_2": "#38bdf8",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "WTI 원유 선물",
+          "value": "$85.39 / 배럴",
+          "change": "오전 $88.22 ➔ $85.39(-1.68% 추가 하락)"
+        },
+        {
+          "label": "CPI/PPI 컨센서스",
+          "value": "물가 둔화(Moderation)",
+          "change": "에너지 가격 안정이 핵심 동력"
+        },
+        {
+          "label": "실물 고용 지표",
+          "value": "실업률 4.1% (+16.5만)",
+          "change": "침체 없는 물가 안정 기대감"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 글로벌 원자재 시장에서 가장 반가운 소식은 WTI 원유 선물이 배럴당 $85.39(일간 -1.68%)까지 추가로 내려앉았다는 점입니다. 오늘 오전 브리핑 시점($88.22)보다도 약 3달러 가까이 더 낮아진 수치입니다.",
+        "그동안 미국 고용 지표 호조(비농업 고용 +16.5만 건, 실업률 4.1%)가 유가 상승과 결합해 인플레이션을 다시 자극할 것이라는 공포가 컸으나, 유가가 $85선까지 빠르게 안정되면서 다가오는 월간 CPI 및 PPI 보고서에서 물가 상승세가 둔화(Moderation)될 것이라는 기대가 한층 커졌습니다.",
+        "고용은 탄탄해 경기 침체 걱정이 없는데 에너지 가격은 내려가 물가 부담을 덜어주는 구도가 형성되면서 글로벌 위험자산 선호 심리가 빠르게 되살아나고 있습니다."
+      ],
+      "previousImplication": "WTI 유가가 $88.22로 $90 아래로 내려오며 고용 호조에 따른 물가 부담을 일부 완충하기 시작함 (11/10 모닝).",
+      "newCatalyst": "WTI 원유 선물이 $88.22에서 $85.39(-1.68%)로 추가 하락하며 월간 CPI·PPI 물가 둔화 컨센서스를 강력하게 뒷받침.",
+      "updatedImplication": "유가 $85선 안착은 연준의 추가 긴축 명분을 약화시키는 동시에 한국을 비롯한 원유 수입국의 무역수지와 기업 원가율을 동시에 개선하는 강력한 매크로 호재임.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟡 실업률 4.1% 확인으로 무착륙(No Landing) 금리 부담 부각"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 WTI 유가 $88.22(-3.95%) 하락으로 물가 완충 시사점 도출"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 WTI 유가 $85.39(-1.68%) 연속 하락으로 CPI 둔화 기대 및 증시 반등 시사점 강화"
+        }
+      ],
+      "actionPoints": [
+        "한국 증시 수혜: 유가 $85선 하락과 원/달러 환율 안정(1,338원)의 조합은 국내 수출·제조 기업의 마진율을 극대화하는 환경",
+        "CPI 체크: 유가 하락분이 반영된 헤드라인 CPI가 예상치에 부합하거나 하회할 경우 연말 산타 랠리의 시발점이 될 가능성"
+      ],
+      "sources": [
+        "Yahoo Finance CL=F ($85.39)",
+        "TradingEconomics CPI Preview",
+        "Global Macro Desk"
+      ]
+    },
+    {
+      "id": "agenda_04",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "CORE",
+      "deltaStatus": "MAINTAINED",
+      "deltaLabel": "🟡 시사점 유지 (분점 의회 재정 억제 & 미국 내 첨단 제조 프로젝트 가속)",
+      "title": "[11/10 이브닝] 워싱턴 분점 의회(Divided Gov)의 재정 규율 효과와 미국 현지 반도체 팹(테일러 등) 수주 드라이브",
+      "subtitle": "무분별한 재정적자 확대 제동으로 채권시장 안도… 통상 압박 회피 위한 미국 현지 선단 파운드리·패키징 생태계 가치가 핵심",
+      "chartImage": "assets/charts/agenda_04.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "2027 워싱턴 분점 정부(Divided Government)의 거시경제 · 산업 파급 구조",
+        "subtitle": "재정적자 억제에 따른 국채 금리 안정과 미국 현지 첨단 반도체 생산기지의 전략적 가치 상승",
+        "center_label": [
+          "워싱턴 권력 분점",
+          "재정규율 & 현지생산"
+        ],
+        "badge_text": "US Fiscal & Fab",
+        "nodes": [
+          {
+            "title": "신규 재정부양책 차단",
+            "metric": "대규모 지출 법안 제동",
+            "desc": "인플레이션 추가 자극 요인 완화",
+            "color": "#38bdf8"
+          },
+          {
+            "title": "국채 발행 속도 조절",
+            "metric": "장기채 공급 우려 완화",
+            "desc": "10년물 금리 4.86% 진정 기여",
+            "color": "#10b981"
+          },
+          {
+            "title": "미 현지 팹 가치 급등",
+            "metric": "TSMC 애리조나 · 삼성 테일러",
+            "desc": "통상/관세 무풍지대 수주 집중",
+            "color": "#f59e0b"
+          },
+          {
+            "title": "빅테크·AI 초당적 지원",
+            "metric": "AI 전력망·반도체 패권",
+            "desc": "미국 내 첨단 팹·데이터센터 가속",
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "미 의회 구도",
+          "value": "Divided Gov",
+          "change": "추가 대규모 재정부양 입법 차단"
+        },
+        {
+          "label": "미 현지 팹 모멘텀",
+          "value": "삼성 테일러 · TSMC 미 공장",
+          "change": "AMD·브로드컴 등 미국 현지 수주전"
+        },
+        {
+          "label": "장기 국채 수급",
+          "value": "적자 확대 속도 완화",
+          "change": "10년물 4.86% 안정화 뒷받침"
+        }
+      ],
+      "facts": [
+        "미국 중간선거 이후 형성된 분점 의회 구도가 무분별한 재정 팽창 가능성을 차단하면서 미 국채 10년물 금리가 5.0%를 넘지 않고 4.86% 선에서 진정되는 데 구조적으로 기여하고 있습니다.",
+        "동시에 워싱턴의 초당적 기조인 '미국 내 첨단 반도체 및 AI 공급망 내재화' 요구에 발맞추어, 미국 텍사스주 테일러(Taylor) 제2공장을 추진 중인 삼성전자와 애리조나 팹을 가동 중인 TSMC, 그리고 글로벌파운드리($2B 인터포저 협력) 등 미국 내 생산 거점을 보유한 기업들로 글로벌 팹리스(AMD·브로드컴·엔비디아)의 발주가 집중되고 있습니다.",
+        "재정 지출은 억제하되 전략 산업의 미국 본토 생산은 독려하는 정책 환경이 더욱 뚜렷해진 셈입니다."
+      ],
+      "previousImplication": "분점 의회의 재정 억제 효과 속 행정부 통상 압박 대응을 위한 미국 현지화 중요성 부각 (11/10 모닝).",
+      "newCatalyst": "미 국채 금리 진정(4.86%)과 함께 삼성 테일러 Fab 2 등 미국 현지 선단 파운드리 거점의 빅테크(AMD·브로드컴) 수주 타진 구체화.",
+      "updatedImplication": "워싱턴 분점 정국 하에서 가장 확실한 수혜주는 '미국 본토 내에 2나노~4나노 파운드리, HBM 베이스 다이, 첨단 패키징 라인을 구축한 기업과 그 장비 공급사'로 압축됨.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🆕 중간선거 결과 분점 정부 구도 확정 및 재정팽창 제동 시사점 도출"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 재정 억제 효과 유지 속 행정부 통상 압박 대응(미국 현지화) 중요성 부각"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 국채 금리 안정(4.86%) 기여 및 미국 현지 반도체 팹(테일러 등) 수주 가치 재확인"
+        }
+      ],
+      "actionPoints": [
+        "반도체 설비투자: 미국 테일러 팹 및 애리조나 팹 클린룸·장비 반입 스케줄과 연동된 국내외 반도체 장비주 주목",
+        "거시 리스크 관리: 재정적자 폭증 우려 완화로 미 장기 국채 금리의 5% 돌파 리스크는 한층 낮아진 것으로 판단"
+      ],
+      "sources": [
+        "TrendForce Foundry Watch",
+        "Cushman & Wakefield Macro",
+        "Wall Street Fiscal Tracker"
+      ]
+    },
+    {
+      "id": "agenda_05",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "CORE",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 전환 (원/달러 환율 1,345원 ➔ 1,338.38원(-1.78%) 급락 · 원화 강세 전환)",
+      "title": "[11/10 이브닝] 원/달러 환율 1,338.38원(-1.78%) 급락 및 1,330원대 진입: 반도체 폭등(+6%)과 수출 네고가 이끈 원화 강세",
+      "subtitle": "오전 1,345원 공방에서 단숨에 1,335~1,338원선으로 하향 안정… 외국인 반도체 순매수 복귀 및 유가 하락이 원화 가치 견인",
+      "chartImage": "assets/charts/agenda_05.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "원/달러 환율(USD/KRW) 최근 추이 및 1,340원 하향 돌파 (원)",
+        "subtitle": "반도체 수출 네고 물량과 외국인 증시 유입, 유가 하락($85.39)이 맞물리며 1,338.38원(-1.78%)으로 원화 강세 전환",
+        "labels": [
+          "10/28",
+          "10/29",
+          "10/30",
+          "11/02",
+          "11/03",
+          "11/04",
+          "11/05",
+          "11/06",
+          "11/09",
+          "11/10"
+        ],
+        "values": [
+          1326.81,
+          1340.34,
+          1337.98,
+          1325.52,
+          1344.81,
+          1342.9,
+          1340.07,
+          1356.34,
+          1362.7,
+          1338.98
+        ],
+        "unit": "원",
+        "color": "#10b981",
+        "benchmark_val": 1350.0,
+        "benchmark_label": "상단 저항선 1,350원",
+        "badge_text": "LIVE 1,338.98원"
+      },
+      "keyMetrics": [
+        {
+          "label": "원/달러 환율",
+          "value": "1,338.38원",
+          "change": "-1.78% 급락 (원화 가치 강세)"
+        },
+        {
+          "label": "장중 저점권",
+          "value": "1,335.42 ~ 1,338.38원",
+          "change": "1,340원 지지선 하향 돌파"
+        },
+        {
+          "label": "달러 인덱스(DXY)",
+          "value": "101.70",
+          "change": "오전 101.90 대비 추가 약세"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 외환시장에서 원/달러 환율이 오전의 1,345.28원 박스권을 깨고 1,338.38원(일간 -1.78%, 장중 1,335.42원 터치)까지 큰 폭으로 하락하며 뚜렷한 원화 강세 흐름을 나타내고 있습니다.",
+        "오늘 오전 브리핑에서 짚어드렸던 '한국 반도체 수출 대기업들의 대규모 달러 네고(매도) 물량'이 실제로 외환시장에 쏟아진 데 이어, 필라델피아 반도체 지수(+6.85%) 급반등과 함께 삼성전자(+4.74%)·SK하이닉스(+6.69%)로 외국인 투자자들의 매수 자금이 유입되면서 원화 가치를 강하게 끌어올렸습니다.",
+        "더불어 WTI 국제유가가 $85.39로 내려앉으며 원유 수입 결제용 달러 수요 부담이 줄어든 것도 원/달러 환율의 1,330원대 안착을 돕고 있습니다."
+      ],
+      "previousImplication": "해외투자 달러 유출과 반도체 수출 네고 물량이 1,345~1,355원 구간에서 팽팽히 맞서고 있음 (11/10 모닝).",
+      "newCatalyst": "반도체 주가 급반등(삼성 +4.74%·SK +6.69%)에 따른 외국인 자금 유입 + 수출 네고 물량 출회로 원/달러 환율이 1,338.38원(-1.78%)으로 급락.",
+      "updatedImplication": "1,345원 공방에서 '반도체 수출 흑자 및 외국인 수급 복귀'가 승기를 잡으며 원/달러 환율이 1,330원대 안정권으로 한 단계 레벨다운됨. 환차익을 노린 공격적 달러 매수보다 외국인 수급이 돌아온 국내 반도체 대형주 비중 확대가 유리한 국면.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟡 1,345원대 균형, 외국인 주식 수급에 따른 등락"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 해외투자 달러 유출 vs 반도체 수출 네고 유입의 1,345원 공방"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🔴 반도체 폭등 및 네고 물량 승리로 1,338.38원(-1.78%) 급락 · 원화 강세 전환"
+        }
+      ],
+      "actionPoints": [
+        "국내 증시 수급: 원/달러 환율이 1,330원대로 내려오면 외국인 투자자의 환차익 매력까지 더해져 코스피 대형주 순매수가 강화되는 선순환 작동",
+        "달러 분할 환전: 해외주식 투자용 달러 환전이 필요한 투자자에게는 1,335~1,338원 구간이 유리한 분할 매수 타점"
+      ],
+      "sources": [
+        "TradingEconomics USDKRW (1,335~1,338)",
+        "Yahoo Finance KRW=X",
+        "외환시장 마감 동향"
+      ]
+    },
+    {
+      "id": "agenda_06",
+      "category": "tech",
+      "categoryLabel": "반도체 · 빅테크 · 2나노",
+      "importance": "CRITICAL",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (베라 루빈 '3,360억 트랜지스터 · 6칩 코디자인 · 288GB HBM4 22TB/s' 세부 아키텍처 확인)",
+      "title": "[11/10 이브닝] 엔비디아 '베라 루빈(Vera Rubin)' 6칩 코디자인 해부: 3,360억 트랜지스터(TSMC 3nm)와 288GB HBM4(22TB/s)",
+      "subtitle": "3세대 트랜스포머 엔진과 네이티브 FP4 연산으로 추론 성능 대폭발… 커스텀 베이스 다이(NVHBM)로 메모리 병목 정면 돌파",
+      "chartImage": "assets/charts/agenda_06.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "엔비디아 베라 루빈(Vera Rubin) 풀스택 아키텍처 & HBM4(288GB · 22TB/s) 스펙",
+        "subtitle": "TSMC 3nm/3P 공정 3,360억 트랜지스터 6칩 코디자인 + 8단/12단 HBM4 최대 288GB(대역폭 22TB/s) 탑재",
+        "center_label": [
+          "Vera Rubin 플랫폼",
+          "288GB HBM4 · 22TB/s"
+        ],
+        "badge_text": "Rubin 336B Transistors",
+        "nodes": [
+          {
+            "title": "6-Chip 극한 코디자인",
+            "metric": "3,360억 트랜지스터",
+            "desc": "TSMC 3nm/3P 공정 + 네이티브 FP4 추론",
+            "color": "#38bdf8"
+          },
+          {
+            "title": "초대용량 HBM4 탑재",
+            "metric": "최대 288GB · 22TB/s",
+            "desc": "8단/12단 구성으로 초거대 모델 추론 가속",
+            "color": "#10b981"
+          },
+          {
+            "title": "NVHBM 커스텀 베이스 다이",
+            "metric": "대역폭 +30% · 전력 -15%",
+            "desc": "메모리 컨트롤러를 파운드리 로직 다이에 통합",
+            "color": "#f59e0b"
+          },
+          {
+            "title": "2027 Q1~Q2 양산 출하",
+            "metric": "SK하이닉스·삼성 주력",
+            "desc": "루빈 및 루빈 울트라 향 대량 공급 돌입",
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "루빈 트랜지스터 집적도",
+          "value": "3,360억 개 (6-Chip)",
+          "change": "TSMC 3nm/3P 기반 극한 코디자인"
+        },
+        {
+          "label": "HBM4 메모리 용량/대역폭",
+          "value": "최대 288GB / 22 TB/s",
+          "change": "8단·12단 HBM4 탑재로 대역폭 점프"
+        },
+        {
+          "label": "핵심 추론 엔진",
+          "value": "3세대 트랜스포머 · FP4",
+          "change": "AI 추론(Inference) 연산 효율 극대화"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 추가 공개된 엔비디아의 차세대 '베라 루빈(Vera Rubin)' 플랫폼 상세 사양은 왜 AI 반도체 슈퍼사이클이 블랙웰(Blackwell)에서 끝나지 않는지를 수치로 증명하고 있습니다.",
+        "루빈 플랫폼은 TSMC의 선단 3나노(3nm/3P) 공정으로 제조되는 총 3,360억 개(336 Billion)의 트랜지스터를 극한의 '6칩 코디자인(6-chip co-design)'으로 묶어냈으며, 3세대 트랜스포머 엔진과 네이티브 FP4(4비트 부동소수점) 연산을 지원해 대규모 AI 추론 성능을 비약적으로 끌어올렸습니다.",
+        "특히 메모리 스펙에서는 8단 및 12단 구성의 **HBM4를 최대 288GB까지 탑재하여 초당 22테라바이트(22 TB/s)**라는 경이적인 메모리 대역폭을 구현합니다. 이를 위해 SK하이닉스와 삼성전자는 2027년 1분기 말~2분기 초 대량 양산 출하에 맞춰 TSMC 로직 공정 및 커스텀 컨트롤러 레이아웃(NVHBM)이 적용된 베이스 다이 결합에 총력을 기울이고 있습니다."
+      ],
+      "previousImplication": "베라 루빈 향 8단 HBM4의 2027년 2분기 양산 및 NVHBM(대역폭 +30%·전력 -15%) 스펙 확인 (11/10 모닝).",
+      "newCatalyst": "베라 루빈의 6칩 코디자인(3,360억 트랜지스터, FP4 지원) 및 HBM4 최대 288GB · 22TB/s 대역폭 세부 스펙과 양산 스케줄 구체화.",
+      "updatedImplication": "GPU당 탑재되는 HBM 용량이 최대 288GB(22TB/s)로 폭증함에 따라, AI 가속기 1대당 메모리 반도체가 차지하는 부가가치 비중(Content per Box)이 사상 최고 수준으로 높아짐.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🆕 엔비디아, 메모리 3사에 TSMC 3나노 베이스 다이 적용 요구"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 베라 루빈 HBM4 27년 2분기 양산 및 대역폭 +30%·전력 -15% 스펙 확인"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 3,360억 트랜지스터·288GB HBM4(22TB/s)·FP4 추론 스펙 확인으로 메모리 탑재량 폭증 시사점 강화"
+        }
+      ],
+      "actionPoints": [
+        "탑픽 유지: 대당 288GB의 HBM4가 들어가는 루빈 사이클의 최대 수혜주인 SK하이닉스(오늘 +6.69%)와 TSMC(+3.51%), 삼성전자(+4.74%) 보유 지속",
+        "기술 모니터링: 22TB/s 대역폭을 지탱하기 위한 고속 신호 전송 기판 및 차세대 테스트 소켓 기업 수혜 점검"
+      ],
+      "sources": [
+        "24/7 Wall St Rubin Report",
+        "Barrack.ai Architecture Deep-Dive",
+        "DigiTimes HBM4"
+      ]
+    },
+    {
+      "id": "agenda_07",
+      "category": "tech",
+      "categoryLabel": "반도체 · 빅테크 · 2나노",
+      "importance": "CRITICAL",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (삼성 테일러 Fab 2 '2나노·4나노 HBM 베이스 다이 & AMD·브로드컴 수주' 총력전)",
+      "title": "[11/10 이브닝] 삼성전자 미 테일러 제2공장(Taylor Fab 2), '2나노·4나노 HBM 베이스 다이 & AMD·브로드컴 수주' 집중",
+      "subtitle": "TSMC CapEx 640억 달러 독주에 맞선 삼성의 미국 본토 승부수… 삼성전자 주가 198,900원(+4.74%) · TSMC $388.62(+3.51%) 동반 강세",
+      "chartImage": "assets/charts/agenda_07.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "TSMC 연간 설비투자(CapEx) 확대 및 선단 공정 투자 규모 (십억 달러)",
+        "subtitle": "TSMC 600~640억 달러 투자 속 삼성전자 미 테일러 Fab 2 중심 2나노·4나노 로직 및 HBM 베이스 다이 수주 확대",
+        "categories": [
+          "2023",
+          "2024",
+          "2025",
+          "2026 가이던스(하단)",
+          "2026 가이던스(상단)"
+        ],
+        "series_name_1": "연간 CapEx ($B)",
+        "values_1": [
+          30.4,
+          29.8,
+          42.5,
+          60.0,
+          64.0
+        ],
+        "color_1": "#38bdf8",
+        "unit": "$B"
+      },
+      "keyMetrics": [
+        {
+          "label": "삼성 테일러 Fab 2",
+          "value": "2nm · 4nm Base Die",
+          "change": "AMD · 브로드컴 등 미 빅테크 타깃"
+        },
+        {
+          "label": "삼성전자 주가",
+          "value": "198,900원 (+4.74%)",
+          "change": "20만 원 재돌파 눈앞 급반등"
+        },
+        {
+          "label": "TSMC 주가/CapEx",
+          "value": "$388.62 (+3.51%)",
+          "change": "CapEx $60~64B 선단 공정 질주"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 글로벌 파운드리 리서치(TrendForce 등)에 따르면, 삼성전자가 미국 텍사스주 테일러 제2공장(Taylor Fab 2) 프로젝트를 통해 2020년대 후반까지 AMD와 브로드컴(Broadcom) 등 미국 핵심 팹리스들의 2나노(2nm) 및 4나노(4nm) 첨단 로직 칩과 HBM 베이스 다이 물량을 확보하는 데 역량을 집중하고 있는 것으로 확인되었습니다.",
+        "TSMC의 선단 공정 및 패키징 라인이 2027년까지 포화 상태에 달하자, 미국 현지에서 메모리(HBM4)와 선단 로직 베이스 다이(2nm/4nm)를 동시에 공급할 수 있는 삼성 테일러 팹의 전략적 대안 가치가 부각되고 있는 것입니다.",
+        "이러한 수주 모멘텀과 매크로 금리 진정이 맞물리며 오늘 삼성전자 주가는 198,900원(+4.74%)으로 급반등해 20만 원 선 탈환을 눈앞에 두었고, TSMC 역시 $388.62(+3.51%)로 강세를 기록했습니다."
+      ],
+      "previousImplication": "삼성전자의 2030 ASIC 프레임워크 계약 및 2나노 베이스 다이 옵션 가세로 2나노 생태계 확장 (11/10 모닝).",
+      "newCatalyst": "삼성전자 미국 테일러 Fab 2의 2나노·4나노 로직 및 HBM 베이스 다이(AMD·브로드컴 타깃) 수주 집중 보도 및 주가 +4.74% 급등.",
+      "updatedImplication": "TSMC의 독점적 캐파 부족이 역설적으로 삼성 파운드리(특히 미국 테일러 Fab 2의 2nm/4nm 및 HBM 베이스 다이)에 낙수효과(Spillover)와 고객 다변화 기회를 열어주고 있음.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 TSMC CapEx 600~640억 달러 상향 및 N2/A16 로드맵 가속"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 삼성전자의 2030 ASIC 프레임워크 계약 및 2나노 베이스 다이 옵션 가세"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 삼성 미 테일러 Fab 2(2nm/4nm·AMD/브로드컴 타깃) 구체화 및 주가 198,900원(+4.74%) 반등"
+        }
+      ],
+      "actionPoints": [
+        "삼성전자: 198,900원(+4.74%) 반등으로 단기 바닥을 확인한 만큼 HBM4 및 테일러 2나노 수주 뉴스플로우에 맞춘 보유 전략 유효",
+        "소부장 밸류체인: 미국 테일러 팹과 국내 평택 2나노 라인에 동시 납품하는 선단 공정 장비·소재 기업 비중 확대"
+      ],
+      "sources": [
+        "TrendForce Taylor Fab 2 Report",
+        "Silicon Analysts",
+        "Yahoo Finance 005930.KS / TSM"
+      ]
+    },
+    {
+      "id": "agenda_08",
+      "category": "tech",
+      "categoryLabel": "반도체 · 빅테크 · 2나노",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (CoWoS-L · CoWoS-S 복잡도 증가로 '단가 20% 추가 인상' 저울질)",
+      "title": "[11/10 이브닝] TSMC, CoWoS-L·CoWoS-S 병목 심화로 '패키징 단가 20% 추가 인상' 검토와 3D DRAM 경계 파괴",
+      "subtitle": "블랙웰·루빈 가속기 대형화로 패키징 난이도 및 장비 리드타임 급증… 가격 결정력(Pricing Power) 극대화",
+      "chartImage": "assets/charts/agenda_08.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "TSMC CoWoS 첨단 패키징 월간 생산능력(웨이퍼/월) 및 단가 인상 추이",
+        "subtitle": "CoWoS-L/S 공정 복잡도 및 장비 리드타임 장기화로 약 20% 수준의 패키징 단가 인상 저울질",
+        "labels": [
+          "24.H1",
+          "24.H2",
+          "25.H1",
+          "25.H2",
+          "26.H1",
+          "26.H2(현)",
+          "27.E(완판)",
+          "28.E"
+        ],
+        "values": [
+          32,
+          45,
+          65,
+          85,
+          110,
+          135,
+          195,
+          265
+        ],
+        "unit": "K장",
+        "color": "#a855f7",
+        "badge_text": "CoWoS +20% ASP Weigh",
+        "annotations": [
+          {
+            "index": 6,
+            "text": "CoWoS-L/S ~20% 단가 인상 검토"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "핵심 병목 라인",
+          "value": "CoWoS-L · CoWoS-S",
+          "change": "블랙웰·루빈 할당량 확보 전쟁"
+        },
+        {
+          "label": "패키징 단가(ASP)",
+          "value": "~20% 인상 검토",
+          "change": "공정 난이도·장비 리드타임 반영"
+        },
+        {
+          "label": "파운드리-메모리 경계",
+          "value": "3D DRAM 통합 논의",
+          "change": "로직과 메모리의 수직 결합 가속"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 하드웨어 전문 매체(Tom's Hardware 등)에 따르면, TSMC의 첨단 패키징 라인인 'CoWoS-L'과 'CoWoS-S'가 여전히 전 세계 AI 산업의 가장 좁은 병목 구간(Chokepoint)으로 작용하고 있습니다.",
+        "특히 엔비디아 블랙웰과 차세대 베라 루빈(6칩 코디자인)으로 갈수록 인터포저 면적이 커지고 패키징 복잡도가 기하급수적으로 높아지는 데다 패키징 장비의 리드타임(납기)마저 길어지면서, TSMC가 CoWoS 패키징 가격을 약 20% 수준 인상하는 방안을 검토 중인 것으로 전해졌습니다.",
+        "한편 엔비디아의 '3D 적층 DRAM' 제조 타진에 대해 TSMC는 메모리 파트너들과 직접 경쟁하지 않는 순수 파운드리 원칙을 재확인했으나, 로직 칩과 메모리를 하나의 패키지 안에서 결합하는 기술적 경계 파괴는 더욱 가속화되고 있습니다."
+      ],
+      "previousImplication": "CoWoS 캐파가 2027년까지 전량 매진되었으며 3D 적층 DRAM 패키징 융합 화두가 부상함 (11/10 모닝).",
+      "newCatalyst": "CoWoS-L 및 CoWoS-S 라인의 공정 복잡도와 장비 리드타임 증가로 인한 '약 20% 추가 단가 인상 검토' 구체화.",
+      "updatedImplication": "장비 리드타임이 길어질수록 후발 주자의 단기 추격이 불가능해져 TSMC와 기존 핵심 후공정 장비사들의 독점적 마진(단가 +20% 인상 효과)이 더욱 공고해짐.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 패키징 단가 인상 및 글로벌파운드리 인터포저 협력"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 2027년 물량 전량 부킹 확인 및 3D 적층 DRAM 패키징 융합 화두"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 CoWoS-L/S 복잡도·장비 납기 이슈로 ~20% 단가 인상 저울질 및 TSMC 주가(+3.51%) 반등"
+        }
+      ],
+      "actionPoints": [
+        "후공정 장비: 장비 리드타임 병목의 중심에 있는 TC본더·플립칩 본더·패키징 검사장비 선두 기업의 수주 단가 상승 수혜 주목",
+        "TSMC($388.62, +3.51%): 전공정(2나노/3나노)과 후공정(CoWoS-L/S) 양쪽에서 가격 인상 결정권을 쥔 최강의 AI 독점주"
+      ],
+      "sources": [
+        "Tom's Hardware CoWoS Report",
+        "UncoverAlpha Semi",
+        "Korea JoongAng Daily"
+      ]
+    },
+    {
+      "id": "agenda_09",
+      "category": "tech",
+      "categoryLabel": "반도체 · 빅테크 · 2나노",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🟢 시사점 반전 적중! (SOX +6.85% 1만선 탈환 · SK하이닉스 +6.69% · 삼성전자 +4.74% 폭발적 반등)",
+      "title": "[11/10 이브닝] 필라델피아 반도체(SOX) 10,033(+6.85%) 1만선 탈환 & SK하이닉스 121.2만원(+6.69%) 급반등!",
+      "subtitle": "오전 브리핑의 'TSMC 모멘트(장기수주) 과매도 저가매수' 시사점 즉각 적중… 금리 진정되자 반도체로 글로벌 자금 귀환",
+      "chartImage": "assets/charts/agenda_09.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "11/10 이브닝 주요 반도체 지수 및 한·미 핵심 종목 일간 반등률 비교 (%)",
+        "subtitle": "미 10년물 금리가 4.86%로 진정되자마자 HBM4 장기 수주 모멘텀을 보유한 반도체 섹터가 +4~+6%대 급반등 연출",
+        "categories": [
+          "필라델피아 반도체(SOX)",
+          "SK하이닉스(일간)",
+          "삼성전자(일간)",
+          "TSMC(일간)",
+          "나스닥(일간)",
+          "S&P500(일간)"
+        ],
+        "series_name_1": "11/10 일간 등락률 (%)",
+        "values_1": [
+          6.85,
+          6.69,
+          4.74,
+          3.51,
+          2.74,
+          2.35
+        ],
+        "color_1": "#10b981",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "필라델피아 반도체(SOX)",
+          "value": "10,033.93 (+6.85%)",
+          "change": "단숨에 10,000p 대역 탈환"
+        },
+        {
+          "label": "SK하이닉스",
+          "value": "1,212,000원 (+6.69%)",
+          "change": "오전 113.6만원 ➔ 121.2만원 급등"
+        },
+        {
+          "label": "삼성전자",
+          "value": "198,900원 (+4.74%)",
+          "change": "오전 189,900원 ➔ 198,900원 급등"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 글로벌 주식시장의 주인공은 단연 '반도체 섹터의 화려한 귀환'입니다. 필라델피아 반도체 지수(SOX)가 하루 만에 무려 +6.85% 폭등하며 10,033.93을 기록, 상징적인 10,000포인트 고지를 단숨에 탈환했습니다.",
+        "국내 증시에서도 SK하이닉스가 1,212,000원으로 +6.69% 급등했고, 삼성전자가 198,900원으로 +4.74% 상승했으며, TSMC 역시 $388.62(+3.51%)로 강하게 뛰어올랐습니다.",
+        "이는 오늘 오전(08:00) 브리핑에서 강조해 드렸던 시사점—'최근 반도체 급락은 업황 훼손이 아닌 매크로 금리 발 밸류에이션 조정일 뿐이며, 2030년 장기 수주(TSMC 모멘트)를 확보한 한국 메모리는 금리가 진정되는 순간 가장 먼저 리레이팅될 것'이라는 분석이 정확히 시장에서 실현된 결과입니다."
+      ],
+      "previousImplication": "금리 발작이 진정되는 순간 가장 먼저 밸류에이션 리레이팅이 일어날 섹터는 장기 수주형 AI 메모리임 (11/10 모닝).",
+      "newCatalyst": "미 10년물 금리 4.86% 진정 및 유가 하락과 동시에 SOX 지수 +6.85%(10,033p 돌파), SK하이닉스 +6.69%(121.2만원), 삼성전자 +4.74%(19.89만원) 폭발적 반등.",
+      "updatedImplication": "반도체 섹터의 1개월간 과매도 디레이팅 국면이 일단락되고 '실적(HBM 영업이익률 80%) 및 2027~2030 루빈 HBM4 수주 가치 반영 국면'으로 추세 전환 신호가 켜짐. 단, 엔비디아($178.67) 등 개별 종목 간 숨고르기는 병행되므로 파운드리·메모리 우량주 중심 대응.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 매크로 고금리 발작으로 반도체 섹터 멀티플 디레이팅 발생"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🔴 'TSMC 모멘트(탈사이클 장기수주)' 근거로 금리 진정 시 최우선 반등 예고"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 SOX +6.85%(1만선 회복)·SK하이닉스 +6.69%·삼성전자 +4.74% 급반등으로 시사점 적중 및 전환"
+        }
+      ],
+      "actionPoints": [
+        "추세 대응: 과매도 바닥에서 강한 장대양봉(+6%대)이 출현했으므로 기존 보유 물량은 흔들림 없이 홀딩(Hold)",
+        "신규 진입: 하루 +6% 급등 직후 추격 매수보다는 CPI 발표 전후의 짧은 눌림목을 활용한 분할 매수 전략 권장"
+      ],
+      "sources": [
+        "Yahoo Finance SOX / 000660.KS / 005930.KS",
+        "GlobeNewswire HBM4",
+        "Silicon Analysts"
+      ]
+    },
+    {
+      "id": "agenda_10",
+      "category": "tech",
+      "categoryLabel": "반도체 · 빅테크 · 2나노",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (추론 워크로드 폭증 & 빅테크 다년 프레임워크 계약 가속)",
+      "title": "[11/10 이브닝] 빅테크 AI 추론(Inference) 중심 전환과 미국 하이퍼스케일러-메모리 3사 다년 공급 계약의 위력",
+      "subtitle": "학습(Training)에서 실시간 추론 서비스로 무게중심 이동… 커스텀 ASIC 및 고대역폭 메모리 장기 독점 확보전 치열",
+      "chartImage": "assets/charts/agenda_10.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "4대 하이퍼스케일러(MS·구글·메타·아마존) 합산 연간 AI CapEx 추이 ($B)",
+        "subtitle": "2026~2027년 3,450억~3,900억 달러 투자 지속… 실시간 AI 추론 서비스 확장을 위한 ASIC 및 HBM 다년 계약 체결",
+        "categories": [
+          "2023",
+          "2024",
+          "2025",
+          "2026(E)",
+          "2027(E)"
+        ],
+        "series_name_1": "빅테크 합산 CapEx ($B)",
+        "values_1": [
+          148,
+          215,
+          285,
+          345,
+          390
+        ],
+        "color_1": "#10b981",
+        "unit": "$B"
+      },
+      "keyMetrics": [
+        {
+          "label": "빅테크 합산 CapEx",
+          "value": "$345B ➔ $390B",
+          "change": "추론(Inference) 인프라 비중 급증"
+        },
+        {
+          "label": "장기 공급 프레임워크",
+          "value": "Multi-Year (~2030)",
+          "change": "미 하이퍼스케일러-한국 메모리 직결"
+        },
+        {
+          "label": "추론 핵심 기술",
+          "value": "FP4 연산 + Custom ASIC",
+          "change": "토큰당 생성 비용 절감 총력"
+        }
+      ],
+      "facts": [
+        "글로벌 AI 데이터센터 투자의 중심축이 거대언어모델을 처음 만드는 '학습(Training)' 단계에서 수억 명의 사용자에게 실시간 에이전트 서비스를 제공하는 '추론(Inference)' 단계로 급격히 이동하고 있습니다.",
+        "추론 워크로드에서는 토큰 생성 속도를 좌우하는 '메모리 대역폭(HBM4 22TB/s)'과 토큰당 전력 단가를 낮추는 'FP4 연산 및 커스텀 ASIC(브로드컴·구글 TPU·MS Maia·AWS Trainium)'이 핵심 경쟁력입니다.",
+        "이에 따라 미국 하이퍼스케일러들이 엔비디아를 거치는 물량 외에도 한국 메모리 양대 산맥(SK하이닉스·삼성전자)과 직접 다년간의 대규모 공급 프레임워크 계약을 체결하며 2030년까지의 메모리 할당량을 선점하고 있습니다."
+      ],
+      "previousImplication": "브로드컴 등 ASIC 진영의 2030년 장기 공급 계약 확인으로 수혜 가시성 대폭 강화 (11/10 모닝).",
+      "newCatalyst": "AI 추론(Inference) 워크로드 중심 전환에 따른 메모리 대역폭 중요성 부각 및 미 하이퍼스케일러-한국 메모리 간 다년 계약 재확인.",
+      "updatedImplication": "빅테크가 엔비디아 GPU를 쓰든 자체 커스텀 ASIC을 쓰든, 추론 성능을 높이려면 결국 SK하이닉스와 삼성전자의 HBM 및 TSMC의 선단 공정을 쓸 수밖에 없는 구조임이 오늘 반등장에서 재입증됨.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 빅테크 CapEx 확대 기조 재확인 및 커스텀 칩 투자 가속"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 브로드컴 등 ASIC 진영의 2030년 장기 공급 계약 확인"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 AI 추론 중심 전환에 따른 메모리·파운드리 필수재 가치 부각 및 주가 동반 반등"
+        }
+      ],
+      "actionPoints": [
+        "병목 지점 투자: GPU vs ASIC 경쟁의 승패와 무관하게 양쪽 모두에 부품을 공급하는 HBM(SK하이닉스·삼성) 및 파운드리(TSMC)를 코어로 유지",
+        "빅테크 비중: 나스닥(+2.74%) 반등을 주도하는 MS·알파벳·메타 등 AI 추론 수익화 선두 빅테크 분할 보유"
+      ],
+      "sources": [
+        "Silicon Analysts Hyperscaler Report",
+        "Barrack.ai Inference Study",
+        "TrendForce"
+      ]
+    },
+    {
+      "id": "agenda_11",
+      "category": "tech",
+      "categoryLabel": "반도체 · 빅테크 · 2나노",
+      "importance": "CORE",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (루빈 NVL72 극한 발열·TDP 제어 & 2GW+ 그린 에너지 AI 데이터센터)",
+      "title": "[11/10 이브닝] 루빈 NVL72 초고밀도 랙의 '극한 TDP·액체냉각' 필수화와 SK·엔비디아 2GW+ 전력 통합 설계",
+      "subtitle": "실리콘 수율만큼 중요해진 랙당 전력 공급과 열관리… 2기가와트(2GW+) 이상 전력망·그린에너지 통합이 AI 팩토리 가동 속도 결정",
+      "chartImage": "assets/charts/agenda_11.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "루빈 NVL72 초고밀도 열관리(Liquid Cooling) & 2GW+ AI 데이터센터 전력 통합",
+        "subtitle": "랙당 열설계전력(TDP) 급증에 따른 액체냉각 필수화 및 2기가와트(2GW+)급 전력망·그린에너지 결합",
+        "center_label": [
+          "Rubin NVL72 & 2GW+",
+          "액체냉각 · 전력망 직결"
+        ],
+        "badge_text": "2GW+ Power & Cooling",
+        "nodes": [
+          {
+            "title": "Rubin NVL72 고밀도 랙",
+            "metric": "극한 TDP · 액체냉각 필수",
+            "desc": "공랭식 불가, 직결 수랭/액침냉각 표준화",
+            "color": "#38bdf8"
+          },
+          {
+            "title": "2GW+ 메가 에너지 통합",
+            "metric": "SK-NVIDIA 인프라 프레임",
+            "desc": "2기가와트급 전력망·그린에너지 초기 설계",
+            "color": "#f59e0b"
+          },
+          {
+            "title": "반도체 팹 디지털 트윈",
+            "metric": "삼성·SK 옴니버스 도입",
+            "desc": "실시간 공정 최적화 및 수율 극대화",
+            "color": "#10b981"
+          },
+          {
+            "title": "피지컬 AI & 로보틱스",
+            "metric": "현대차·LG 스마트팩토리",
+            "desc": "제조 현장·자율주행·휴머노이드 확산",
+            "color": "#a855f7"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "초고밀도 서버 랙",
+          "value": "Rubin NVL72",
+          "change": "극한의 열설계전력(TDP) 및 액체냉각 필수"
+        },
+        {
+          "label": "데이터센터 에너지 규모",
+          "value": "2GW+ (기가와트급)",
+          "change": "전력망·그린에너지 통합 설계 추진"
+        },
+        {
+          "label": "핵심 결정 변수",
+          "value": "전력 인입 속도",
+          "change": "AI 팩토리 실제 가동 시점 좌우"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 데이터센터 엔지니어링 분석에 따르면, 차세대 '루빈 NVL72(Rubin NVL72)'와 같은 초고밀도 서버 랙 구성에서는 랙당 열설계전력(TDP)과 전기 부하가 극한으로 치솟으면서 전력 전달(Power Delivery)과 액체 냉각(Liquid Cooling)이 반도체 칩 수율 못지않은 핵심 과제로 부상했습니다.",
+        "이에 따라 SK그룹과 엔비디아의 대규모 AI 인프라 프레임워크를 비롯한 글로벌 프로젝트들은 기획 단계부터 2기가와트(2GW, 원전 2기 용량) 이상의 지역 전력망 및 그린 에너지 통합, 그리고 고밀도 수랭/액침 냉각 설비를 전제로 설계되고 있습니다.",
+        "결국 발전원 확보와 초고압 전력기기 인입 속도가 AI 데이터센터의 실제 온라인 가동 시점을 결정짓고 있습니다."
+      ],
+      "previousImplication": "SK-엔비디아 기가와트급 AI 클라우드(2027) 및 HBM4 전력효율 40% 혁신 결합으로 시사점 강화 (11/10 모닝).",
+      "newCatalyst": "루빈 NVL72 고밀도 랙의 극한 TDP·액체냉각 요구 사양 및 2GW+ 규모 그린/그리드 에너지 통합 설계 구체화.",
+      "updatedImplication": "차세대 AI 데이터센터(Rubin NVL72) 시대의 숨은 필수재는 '초고압 변압기·배전반(전력 전달)'과 'CDU·액체냉각 솔루션(열 제어)'임. 반도체 주가 반등과 함께 전력·냉각 인프라 섹터의 동반 상승 모멘텀 주목.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🆕 엔비디아 AI 데이 서울 개최 및 삼성·SK·현대차 피지컬 AI 협력 공식화"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 SK-엔비디아 기가와트급 AI 클라우드(2027) 및 HBM4 전력효율 40% 혁신 결합"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 루빈 NVL72 고밀도 액체냉각 및 2GW+ 전력망 통합 설계 구체화로 인프라 수혜 강화"
+        }
+      ],
+      "actionPoints": [
+        "전력/열관리 장비: 2GW+ 데이터센터 구축에 필수적인 북미 수출형 초고압 변압기·차단기 및 데이터센터 액체냉각·공조(HVAC) 대표주 보유",
+        "피지컬 AI: 엔비디아 옴니버스와 결합되는 국내 제조·로보틱스 대기업(현대차·LG·삼성·SK)의 공정 효율화 추이 지속 모니터링"
+      ],
+      "sources": [
+        "Silicon Analysts 2GW+ Report",
+        "Tistory Rubin NVL72 Engineering",
+        "Global Data Center Grid Watch"
+      ]
+    },
+    {
+      "id": "agenda_12",
+      "category": "gold",
+      "categoryLabel": "금($/oz) · 안전자산",
+      "importance": "CRITICAL",
+      "deltaStatus": "MAINTAINED",
+      "deltaLabel": "🟡 시사점 유지 (위험자산 급반등 속 금 선물 $4,082.80/oz · 현물 $4,070~$4,110 하방 지지)",
+      "title": "[11/10 이브닝] 국제 금 시세 선물 $4,082.80(-0.77%) · 현물 $4,070~$4,110/oz: 증시 급등(Risk-On) 날에도 지켜낸 $4,000선",
+      "subtitle": "반도체(+6.85%)·나스닥(+2.74%) 랠리에 따른 단기 자금 이동에도 200일 이동평균선 위에서 견고한 바닥 다지기",
+      "chartImage": "assets/charts/agenda_12.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "국제 금 시세(Gold $/oz) 최근 추이 및 핵심 지지선 ($/oz)",
+        "subtitle": "위험자산 반등으로 $4,082.80/oz(-0.77%) 소폭 숨고르기 중이나 $4,000/oz 구조적 지지선은 여전히 철벽 방어",
+        "labels": [
+          "10/28",
+          "10/29",
+          "10/30",
+          "11/02",
+          "11/03",
+          "11/04",
+          "11/05",
+          "11/06",
+          "11/09",
+          "11/10"
+        ],
+        "values": [
+          4051.6,
+          4031.4,
+          3898.9,
+          3969.6,
+          3940.4,
+          4073.0,
+          4113.5,
+          4074.9,
+          4114.5,
+          4082.1
+        ],
+        "unit": "$",
+        "color": "#fbbf24",
+        "benchmark_val": 4000.0,
+        "benchmark_label": "구조적 지지선 $4,000/oz",
+        "badge_text": "LIVE 4,082.10$",
+        "annotations": [
+          {
+            "index": 7,
+            "text": "증시 반등 속 $4,082.8 지지"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "금 선물 (GC=F)",
+          "value": "$4,082.80 / oz",
+          "change": "-0.77% (위험자산 반등에 따른 숨고르기)"
+        },
+        {
+          "label": "금 현물 (Spot Gold)",
+          "value": "$4,070 ~ $4,110",
+          "change": "200일 이평선 상단 안착"
+        },
+        {
+          "label": "구조적 지지선",
+          "value": "$4,000 / oz",
+          "change": "중앙은행 매집 기반 하방 경직성"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 글로벌 금융시장에서 나스닥(+2.74%)과 필라델피아 반도체 지수(+6.85%)가 급반등하며 위험자산 선호(Risk-on) 심리가 되살아나자, 안전자산인 금 선물(GC=F) 가격은 온스당 $4,082.80(일간 -0.77%)으로 소폭 되밀리며 숨고르기에 들어갔습니다.",
+        "현물(Spot) 가격 역시 $4,070~$4,110/oz 밴드 내에서 횡보하고 있습니다. 주식시장이 3~6%씩 급등하는 날에도 금 가격의 조정이 -0.77%에 불과하다는 점은 금을 보유한 주체들이 단기 시세차익을 노리는 트레이더가 아니라 장기 준비자산 투자자임을 방증합니다.",
+        "JP모건 기술적 분석에 따르면 현재 금은 200일 이동평균선 위에서 다음 CPI 인플레이션 지표를 기다리는 중립 지대(No-man's land)를 통과하고 있습니다."
+      ],
+      "previousImplication": "현물 $4,070/oz 중심 기간 조정 및 $4,000 구조적 바닥 신뢰도 재확인 (11/10 모닝).",
+      "newCatalyst": "반도체·기술주 급반등(Risk-On) 장세 속에서도 금 선물 가격이 $4,082.80/oz(-0.77%)로 $4,000 상단을 안정적으로 방어.",
+      "updatedImplication": "주식 급락장에서는 계좌를 방어해주고, 주식 급등장에서는 -0.7%대 소폭 조정만 받으며 가치를 지키는 이상적인 비대칭 헤지 자산의 면모를 보여줌. $4,050~$4,080 구간은 분할 매수 적기.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟡 연준 금리 재인상 경계감 속 $4,132/oz(선물) 방어력 확인"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 현물 $4,070/oz 중심 기간 조정 및 $4,000 구조적 바닥 재확인"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 증시 급반등(Risk-On) 속에서도 $4,082.80/oz(-0.77%)로 견고한 하방 지지 유지"
+        }
+      ],
+      "actionPoints": [
+        "리밸런싱 활용: 오늘처럼 금이 $4,082로 살짝 눌리고 원/달러 환율이 1,338원(-1.78%)으로 내려온 날은 국내 KRX 금현물 원화 매수 단가가 가장 낮아지는 유리한 매수 타점",
+        "포트폴리오 비중: 전체 자산의 10~15% 금 현물 코어 비중 유지"
+      ],
+      "sources": [
+        "J.P. Morgan Technical Note",
+        "NDTV Profit Commodities",
+        "Yahoo Finance GC=F ($4,082.8)"
+      ]
+    },
+    {
+      "id": "agenda_13",
+      "category": "gold",
+      "categoryLabel": "금($/oz) · 안전자산",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (WGC 3분기 321톤·월 60톤 공식 부문 매집이 만든 콘크리트 바닥)",
+      "title": "[11/10 이브닝] 중국 인민은행(PBOC)·신흥국 중앙은행의 외환보유고 다변화: 왜 금값은 $4,000 아래로 내려가지 않는가",
+      "subtitle": "제재·외환동결 리스크 헤지를 위한 국가 단위의 실물 금 축적… 분기 321톤(+42% YoY) 매집이 단기 투기 매도를 완벽 흡수",
+      "chartImage": "assets/charts/agenda_13.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "글로벌 중앙은행 금 순매입량 비교 (톤, Metric Tons)",
+        "subtitle": "2022년 외환동결 이후 월평균 60톤(분기 321톤)으로 구조화된 공식 부문 수요가 금 시장의 영구적 하방 안전망 구축",
+        "categories": [
+          "2022 이전 월평균",
+          "26~27년 월평균(GS)",
+          "최근 월간 순매입",
+          "올해 3분기(Q3)",
+          "올해 누적(YTD)"
+        ],
+        "series_name_1": "중앙은행 금 순매입량 (톤)",
+        "values_1": [
+          17,
+          60,
+          61,
+          321,
+          675
+        ],
+        "color_1": "#f59e0b",
+        "unit": "톤"
+      },
+      "keyMetrics": [
+        {
+          "label": "3분기 중앙은행 매입",
+          "value": "321 톤 (+42% YoY)",
+          "change": "세계금협회(WGC) 공식 집계"
+        },
+        {
+          "label": "26~27년 월평균 전망",
+          "value": "~60 톤 / 월",
+          "change": "2022년 이전(17톤)의 3.5배"
+        },
+        {
+          "label": "핵심 매입 동기",
+          "value": "제재·동결 리스크 헤지",
+          "change": "인민은행(PBOC) 및 신흥국 주도"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 귀금속 기관 보고서(Crux Investor · Bullion Exchanges 등)는 금 가격이 온스당 $4,070~$4,082 구간에서 좀처럼 밀리지 않는 근본적인 힘으로 '중앙은행의 지정학적 헤지 매수'를 지목했습니다.",
+        "세계금협회(WGC) 데이터상 3분기 중앙은행 순매입량이 전년 대비 42% 급증한 321톤에 달한 것은, 국제 제재와 외환보유고 동결 사태를 목격한 중국 인민은행(PBOC) 및 신흥국 중앙은행들이 서방 국채 비중을 줄이고 실물 금(Physical Gold)을 금고에 채워 넣고 있기 때문입니다.",
+        "이들은 금리나 주식시장 등락과 무관하게 매월 약 60톤 규모의 물량을 시장에서 영구 흡수하고 있습니다."
+      ],
+      "previousImplication": "2027년까지 월 60톤(과거의 3.5배) 매입 지속 전망으로 장기 하방 경직성 시사점 강화 (11/10 모닝).",
+      "newCatalyst": "증시 반등으로 민간 단기 자금이 주식으로 이동하는 와중에도 중앙은행 실물 매수세가 $4,080선 하단을 지지하는 수급 구조 재확인.",
+      "updatedImplication": "금 시장의 가격 결정권이 '월가 선물 트레이더'에서 '신흥국 중앙은행(실물 인수)'으로 넘어갔음. 따라서 과거의 금리-금 역상관 공식만 믿고 금 하락에 베팅(숏)하는 것은 매우 위험함.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 WGC 3분기 중앙은행 순매입 321톤(+42% YoY) 공식 발표"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 2027년까지 월 60톤(과거의 3.5배) 매입 지속 전망 확인"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 위험자산 반등일에도 중앙은행 실물 수요가 $4,080선 바닥을 받치는 구조 입증"
+        }
+      ],
+      "actionPoints": [
+        "장기 적립: 원화 강세(1,338원)와 국제 금 소폭 조정($4,082)이 동시에 나타난 오늘 저녁 같은 구간을 활용해 KRX 금현물 비중 확대",
+        "절세 전략: 금 ETF(배당소득세 15.4%)보다 매매차익 비과세가 적용되는 KRX 금현물 계좌를 최우선 활용"
+      ],
+      "sources": [
+        "Crux Investor Gold Report",
+        "Bullion Exchanges WGC Analysis",
+        "Goldman Sachs Research"
+      ]
+    },
+    {
+      "id": "agenda_14",
+      "category": "gold",
+      "categoryLabel": "금($/oz) · 안전자산",
+      "importance": "HIGH",
+      "deltaStatus": "MAINTAINED",
+      "deltaLabel": "🟡 시사점 유지 (GS 리나 토마스 팀 '27년 $4,800' vs JPM 그렉 시어러 팀 '27년 $6,300')",
+      "title": "[11/10 이브닝] 골드만삭스(리나 토마스·단 스트루이벤) vs JP모건(그렉 시어러) 금($/oz) 분석 보고서 정밀 비교",
+      "subtitle": "GS '연준 고금리로 민간 옵션 헤징 둔화해 26년 $4,150·27년 $4,800' vs JPM '200일선 위 숨고르기 후 27년 $6,300 돌파'",
+      "chartImage": "assets/charts/agenda_14.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "글로벌 IB 온스당 금 가격($/oz) 2026~2027 목표치 비교 ($/oz)",
+        "subtitle": "골드만삭스(Lina Thomas · Daan Struyven) $4,150~$4,800 vs JP모건(Greg Shearer) $6,000~$6,300",
+        "categories": [
+          "현재 선물시세",
+          "GS 26년말(수정)",
+          "GS 27년말(수정)",
+          "GS 27년말(기존)",
+          "JPM 장기 1차",
+          "JPM 2027 상단"
+        ],
+        "series_name_1": "금 목표가 ($/oz)",
+        "values_1": [
+          4083,
+          4150,
+          4800,
+          5400,
+          6000,
+          6300
+        ],
+        "color_1": "#fbbf24",
+        "unit": "$"
+      },
+      "keyMetrics": [
+        {
+          "label": "GS (Thomas·Struyven)",
+          "value": "26년 $4,150 / 27년 $4,800",
+          "change": "민간 투기·옵션 수요 둔화 반영"
+        },
+        {
+          "label": "JPM (Greg Shearer)",
+          "value": "$6,000 ➔ 27년 $6,300",
+          "change": "화폐가치 희석·지정학 분절화 반영"
+        },
+        {
+          "label": "현 시세 대비 업사이드",
+          "value": "+17.5% ~ +54.3%",
+          "change": "양사 모두 2027년 큰 폭 상승 전망"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 공개된 월가 원자재 리서치 책임자들의 실명 분석 보고서는 금($/oz) 투자자들이 단기와 장기를 어떻게 구분해야 하는지 명확한 가이던스를 제시하고 있습니다.",
+        "골드만삭스의 리나 토마스(Lina Thomas)와 단 스트루이벤(Daan Struyven) 애널리스트 팀은 연준의 매파적 통화정책과 유동성 축소가 민간 투자자들의 옵션 기반 헤징(Options-driven hedging)과 투기적 수요를 억누르고 있다며 2026년 말 목표가를 $4,150, 2027년 말 목표가를 $4,800/oz로 조정했습니다.",
+        "반면 JP모건 글로벌 리서치의 그렉 시어러(Greg Shearer) 팀은 현재 금이 200일 이동평균선 위에서 기술적 숨고르기를 하고 있음을 인정하면서도, 물가 지표와 에너지 가격 안정 이후 통화가치 희석(Debasement) 헤지 수요가 재점화되며 연말 $6,000, 2027년 $6,300/oz까지 나아갈 것이라는 기존 뷰를 고수했습니다."
+      ],
+      "previousImplication": "GS($4,800) vs JPM($6,000~$6,300) 2027년 목표가 격돌 속 중장기 상승 궤도 확인 (11/10 모닝).",
+      "newCatalyst": "골드만삭스(Thomas·Struyven)와 JP모건(Greg Shearer) 리서치 팀의 세부 논거(민간 옵션 수요 둔화 vs 200일선 상단 기술적 응축) 전문 확인.",
+      "updatedImplication": "현재 시세($4,082.80/oz)는 보수적인 골드만삭스의 2026년 말 목표가($4,150)보다도 낮은 부담 없는 가격대이며, 2027년 목표가 기준으로는 최소 +17.5%(GS $4,800)에서 최대 +54.3%(JPM $6,300)의 기대수익률을 제공하는 구간임.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 골드만삭스, 연준 긴축 반영해 26년말 $4,150 / 27년말 $4,800 조정"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🔴 GS($4,800) vs JPM($6,000~$6,300) 2027년 목표가 격돌"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 현 시세($4,082.8) 기준 양사 2027 목표가 대비 +17.5%~+54.3% 업사이드 재확인"
+        }
+      ],
+      "actionPoints": [
+        "목표가 설정: 단기 트레이딩 목표는 $4,150(GS 연말 타깃), 1년 이상 중기 보유 목표는 $4,800~$6,000으로 설정하여 분할 운용",
+        "촉매 대기: 오늘 WTI 유가가 $85.39로 하락한 만큼, 곧 발표될 CPI가 둔화되면 그렉 시어러(JPM) 팀이 지목한 단기 모멘텀이 재점화될 가능성"
+      ],
+      "sources": [
+        "Goldman Sachs (Lina Thomas & Daan Struyven)",
+        "J.P. Morgan (Greg Shearer)",
+        "Argaam / KuCoin Macro"
+      ]
+    },
+    {
+      "id": "agenda_15",
+      "category": "gold",
+      "categoryLabel": "금($/oz) · 안전자산",
+      "importance": "CORE",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (WTI 유가 $85.39 추가 하락 ➔ 금광 기업 채굴 에너지 원가 추가 절감)",
+      "title": "[11/10 이브닝] WTI 유가 $85.39(-1.68%) 연속 하락이 금 채굴 기업(Gold Miners)에 선사한 '원가 하락 + 고마진' 축복",
+      "subtitle": "오전 $88.22에서 저녁 $85.39로 유가 추가 하락… 광산 중장비·발전 디젤 비용 감소로 온스당 채굴 마진 $2,480+ 견고",
+      "chartImage": "assets/charts/agenda_15.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "금 채굴 기업 온스당 유지원가(AISC) vs 판매 단가($/oz) 및 마진 스프레드",
+        "subtitle": "WTI 유가가 $85.39까지 추가 하락하며 광산 에너지 원가(AISC)가 낮아져 $4,083/oz 금값에서도 역대급 마진 유지",
+        "categories": [
+          "기존 채굴원가(AISC)",
+          "유가$85 반영 원가",
+          "온스당 순마진",
+          "현재 금 선물(GC=F)"
+        ],
+        "series_name_1": "달러 ($/oz)",
+        "values_1": [
+          1680,
+          1595,
+          2488,
+          4083
+        ],
+        "color_1": "#10b981",
+        "unit": "$"
+      },
+      "keyMetrics": [
+        {
+          "label": "금 선물 판매단가",
+          "value": "$4,082.80 / oz",
+          "change": "$4,080선 고마진 가격대 유지"
+        },
+        {
+          "label": "WTI 유가 (핵심 원가)",
+          "value": "$85.39 (-1.68%)",
+          "change": "오전 $88.22 대비 추가 큰 폭 하락"
+        },
+        {
+          "label": "온스당 채굴 마진",
+          "value": "~$2,488 / oz",
+          "change": "에너지 원가 절감으로 마진 방어"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 금 선물 가격이 $4,082.80(-0.77%)으로 소폭 숨고르기를 했음에도 불구하고, 금 채굴 기업(Gold Miners)들의 실질 수익성 전망은 오히려 오전보다 더 밝아졌습니다.",
+        "금광 채굴 원가(AISC)의 최대 변동비 항목인 국제유가(WTI)가 오전의 $88.22에서 저녁 $85.39(-1.68%)로 훨씬 더 큰 폭으로 떨어졌기 때문입니다. 노천 광산의 초대형 덤프트럭과 분쇄 설비는 막대한 디젤 연료와 전력을 소비하므로 유가가 $85선으로 내려오면 온스당 채굴 원가가 즉각 낮아집니다.",
+        "결과적으로 금 가격의 미세 조정(-0.77%)을 에너지 원가 하락이 완벽히 상쇄하며 온스당 약 $2,480~$2,500에 달하는 경이적인 영업 마진이 유지되고 있습니다."
+      ],
+      "previousImplication": "WTI 유가 $88.22 하락 가세로 금 채굴 기업의 마진 스프레드가 확대됨 (11/10 모닝).",
+      "newCatalyst": "WTI 원유 선물이 $88.22에서 $85.39(-1.68%)로 연속 하락하며 금 채굴 기업의 4분기 에너지 비용 절감 폭 확대.",
+      "updatedImplication": "유가 $85선 진입은 인플레이션을 낮춰 연준 금리 부담을 덜어줄 뿐만 아니라 금광 기업의 영업이익률을 직접 끌어올리는 이중 호재로 작동함.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 기술주·국채 동반 조정 속 금 및 금광주 방어력 부각"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 WTI 유가 $88.22(-3.95%) 하락으로 채굴 마진 스프레드 확대"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 WTI 유가 $85.39(-1.68%) 추가 하락으로 금광 기업 원가 절감 효과 한층 강화"
+        }
+      ],
+      "actionPoints": [
+        "금광주 활용: 금 현물(KRX 금시장)을 기본으로 하되, 유가 하락과 증시 반등(S&P500 +2.35%)의 수혜를 동시에 받는 대형 금 채굴주 ETF(GDX 등)를 위성 배치",
+        "실적 모멘텀: 4분기 평균 금값($4,100+)과 낮아진 유가($85)가 반영될 차기 금광 기업 실적 시즌 주목"
+      ],
+      "sources": [
+        "Yahoo Finance CL=F ($85.39) & GC=F ($4,082.8)",
+        "Kitco Mining Cost Analysis",
+        "Crux Investor"
+      ]
+    },
+    {
+      "id": "agenda_16",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 경계 (비트코인 9918만원·$75.6K 조정 & 공포·탐욕지수 32 '공포' 진입)",
+      "title": "[11/10 이브닝·BTC 핵심] 비트코인 9918만원($75,600 · -1.89%) 지지선 테스트와 공포·탐욕 지수 '32(Fear)' 진입",
+      "subtitle": "파생상품 누적 12.7억 달러 청산 여진으로 주식·반도체(+6.85%) 반등 대비 후행… 과도한 공포(32) 구간에서의 현물 축적 타점 분석",
+      "chartImage": "assets/charts/agenda_16.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "비트코인(BTC) 최근 원화 시세 추이 및 주요 지지/저항선 (만원)",
+        "subtitle": "선물 12.7억 달러 청산 여파로 9918만원(-1.89%) 조정 및 투자심리 지수 32(공포) 기록… 9800~9900만원 지지력 테스트",
+        "labels": [
+          "11/01",
+          "11/02",
+          "11/03",
+          "11/04",
+          "11/05",
+          "11/06",
+          "11/07",
+          "11/08",
+          "11/09",
+          "11/10"
+        ],
+        "values": [
+          10435,
+          10313,
+          10392,
+          10783,
+          10309,
+          10330,
+          10330,
+          10173,
+          10109,
+          9941
+        ],
+        "unit": "만원",
+        "color": "#f97316",
+        "benchmark_val": 10800.0,
+        "benchmark_label": "핵심 저항선 10800만원",
+        "badge_text": "LIVE 9941만원",
+        "annotations": [
+          {
+            "index": 7,
+            "text": "9918만원 · 공포지수 32 진입"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "비트코인 시세",
+          "value": "9941만원",
+          "change": "-1.89% (글로벌 ~$75,600 부근)"
+        },
+        {
+          "label": "공포·탐욕 지수",
+          "value": "32 pt (Fear · 공포)",
+          "change": "단기 투자심리 급랭 (역발상 영역)"
+        },
+        {
+          "label": "누적 레버리지 청산",
+          "value": "$1.27B (약 170000만원)",
+          "change": "롱 포지션 대거 정리 완료"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 가상화폐 시장의 핵심(95% 비중)인 비트코인(BTC)은 원화 기준 9918만원(일간 -1.89%, 글로벌 달러 기준 약 $75,600)을 기록하며 10000만원선을 소폭 하회한 채 지지력을 테스트하고 있습니다(원/달러 환율 -1.78% 하락에 따른 원화 환산 가격 낮아짐 포함).",
+        "최근 기술주 조정과 매크로 압박 과정에서 파생상품 시장의 누적 강제 청산 규모가 약 12억 7,000만 달러($1.27B, 대부분 롱 포지션)에 달하면서, 가상화폐 공포·탐욕 지수(Crypto Fear & Greed Index)는 **32포인트('공포·Fear')**까지 떨어졌습니다.",
+        "오늘 저녁 나스닥(+2.74%)과 반도체 지수(SOX +6.85%)가 먼저 강하게 반등한 반면 비트코인은 레버리지 청산 후유증으로 반등이 반 박자 늦어지고 있으나, 역사적으로 선물 롱 청산 이후 공포지수 30대 초반 구간은 무차입 현물 투자자들에게 중기 저점 매수 기회를 제공해 왔습니다."
+      ],
+      "previousImplication": "레버리지 청산 진정 이후 10011만원 지지선 중심 바닥 다지기 지속 (11/10 모닝).",
+      "newCatalyst": "원화 강세(1,338원) 및 총 $1.27B 청산 여진으로 비트코인이 9918만원($75,600)으로 밀리고 크립토 공포·탐욕 지수가 32('공포')에 진입한 반면, 미 기술주(+2.74%)는 선행 반등 성공.",
+      "updatedImplication": "나스닥과 반도체가 먼저 반등에 성공했으므로 매크로 위험회피 발 추가 급락 압력은 크게 완화됨. 공포지수 32 및 9900만원 초반(9800만원~9950만원) 구간은 패닉셀할 자리가 아니라 현물 분할 매수를 실행할 역발상 구간임.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 파생상품 대규모 청산으로 10011만원선 후퇴"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 추가 연쇄 청산 진정 및 10011만원 지지선 탐색"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🔴 9918만원($75.6K) 조정 및 공포지수 32 진입 vs 나스닥 선행 반등(+2.74%)으로 시차 반등 대기"
+        }
+      ],
+      "actionPoints": [
+        "역발상 현물 적립: 공포·탐욕 지수 32('공포') 및 원화 환율 하락이 겹친 9800만원~9920만원 구간에서 무차입 현물 분할 매수",
+        "시차 동조화 주목: 오늘 미국 기술주(나스닥 +2.74%, SOX +6.85%)가 강하게 반등한 온기가 시차를 두고 비트코인 현물 ETF 수급 안정으로 이어질지 체크"
+      ],
+      "sources": [
+        "BigGo Crypto Fear & Greed (32)",
+        "TradingView BTCUSD ($75.6K)",
+        "Upbit KRW-BTC (9918만원)"
+      ]
+    },
+    {
+      "id": "agenda_17",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "CRITICAL",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 긍정적 반전 시그널 포착 (블랙록 IBIT 유출 속 피델리티 FBTC '+9,310만 달러 나홀로 순유입' 확인!)",
+      "title": "[11/10 이브닝·BTC 수급] 블랙록 IBIT(-12.1억 달러) 환매 속 빛난 피델리티 FBTC '+9,310만 달러 순유입'과 시총 6.28% ETF 해자",
+      "subtitle": "모든 기관이 던진 것이 아니다! 피델리티 FBTC 누적 순유입 102.7억 달러 돌파… 전체 ETF 누적 유입 557억 달러·총자산 959억 달러 견고",
+      "chartImage": "assets/charts/agenda_17.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "미 비트코인 현물 ETF 주요 펀드별 주간 유출입 대조 (백만 달러, $M)",
+        "subtitle": "블랙록 IBIT(-$1,210M)와 그레이스케일(-$61M) 유출 속에서도 피델리티 FBTC는 +$93.1M 순유입을 기록하며 저가 매수",
+        "categories": [
+          "전체 ETF 주간합계",
+          "블랙록 (IBIT)",
+          "그레이스케일(GBTC등)",
+          "피델리티 (FBTC)",
+          "직전 주간 합계"
+        ],
+        "series_name_1": "주간 순유입/유출 ($M)",
+        "values_1": [
+          -1280,
+          -1210,
+          -61,
+          93.1,
+          -180
+        ],
+        "color_1": "#38bdf8",
+        "unit": "$M"
+      },
+      "keyMetrics": [
+        {
+          "label": "피델리티 (FBTC)",
+          "value": "+$93.1M 순유입",
+          "change": "하락장 속 나홀로 매집 (누적 $10.27B)"
+        },
+        {
+          "label": "블랙록 (IBIT)",
+          "value": "-$1.21B 유출",
+          "change": "단기 차익실현 불구 누적 유입 $65.1B 압도적"
+        },
+        {
+          "label": "ETF 시총 점유율",
+          "value": "BTC 시총의 6.28%",
+          "change": "누적 순유입 $55.7B · 총자산 $95.9B"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 발표된 미국 비트코인 현물 ETF 펀드별 상세 플로우 데이터(TokenPost · SoSoValue 집계)에서 매우 고무적인 '기관 수급 차별화'가 확인되었습니다.",
+        "지난주 전체 비트코인 현물 ETF에서 12.8억 달러가 순유출될 때, 블랙록 IBIT(-12.1억 달러)와 그레이스케일 GBTC(-6,100만 달러)에서는 환매가 나왔으나, 제2의 대형 펀드인 **피델리티(Fidelity)의 FBTC로는 오히려 주간 +9,310만 달러(+$93.1M)의 대규모 순유입**이 발생하며 누적 순유입액이 102억 7,000만 달러($10.27B)를 돌파했습니다.",
+        "또한 단기 환매를 겪은 블랙록 IBIT조차 출시 이후 누적 순유입액이 651억 달러($65.1B)에 달하며, 미국 현물 ETF 전체 누적 순유입은 557억 달러($55.7B), 총 순자산(AUM)은 959억 달러로 **전체 비트코인 시가총액의 무려 6.28%**를 든든하게 쥐고 있습니다."
+      ],
+      "previousImplication": "전체 유출의 94%가 블랙록 IBIT 환매였으나 총 AUM $95.9B 기반은 유지됨 (11/10 모닝).",
+      "newCatalyst": "피델리티 FBTC가 하락장 속에서 주간 +$93.1M(+9,310만 달러)의 나홀로 순유입을 기록한 사실과 전체 ETF의 비트코인 시총 점유율(6.28%, 누적 유입 $55.7B) 구체적 확인.",
+      "updatedImplication": "단기 헤지펀드 성격 자금이 많은 IBIT에서는 기술주 조정 헤지용 환매가 나왔지만, 장기 연금·자문사 고객 비중이 높은 피델리티(FBTC)에서는 9900만원~10000만원 구간을 저가 매수(Dip Buying) 기회로 삼아 자금을 넣었음이 입증됨.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 주간 12.8억 달러 순유출 집계 및 단기 기관 환매 경계"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🔴 IBIT 94% 쏠림($1.21B) 메커니즘 규명 및 총 AUM $95.9B 확인"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 피델리티 FBTC +$93.1M 역발상 순유입 확인 및 ETF의 시총 6.28% 장악력 입증"
+        }
+      ],
+      "actionPoints": [
+        "피델리티 따라잡기: 단기 차익실현 자금(IBIT 환매)에 흔들리기보다 조정장에서 +$93.1M를 순매수한 피델리티(FBTC) 장기 자금의 뷰에 동조",
+        "IBIT 반전 체크: 오늘 나스닥(+2.74%)과 반도체(+6.85%)가 급반등한 만큼, 내일 오전 집계될 IBIT 일별 플로우에서 유출이 멈추는지 집중 확인"
+      ],
+      "sources": [
+        "TokenPost ETF Flow Report",
+        "SoSoValue Institutional Data",
+        "CryptoSlate"
+      ]
+    },
+    {
+      "id": "agenda_18",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "HIGH",
+      "deltaStatus": "MAINTAINED",
+      "deltaLabel": "🟡 시사점 유지 (미국 기술주 +2.74% 반등 온기 전이 대기 & 코인베이스 프라임 정산 마무리)",
+      "title": "[11/10 이브닝·BTC 온체인] 나스닥(+2.74%)·SOX(+6.85%) 급반등과 비트코인 코인베이스 프리미엄의 시차 동조화 분석",
+      "subtitle": "기술주 급락으로 촉발됐던 IBIT 환매(Coinbase Prime 정산) 명분 소멸… 미 증시 반등 온기가 크립토 현물로 넘어올 타이밍",
+      "chartImage": "assets/charts/agenda_18.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "비트코인 코인베이스 프리미엄 지수(Coinbase Premium Index) 추이 (%)",
+        "subtitle": "미 기술주 급반등(+2.74%)으로 기관 리스크오프 환매 압력 완화… 코인베이스 프리미엄 0% 기준선 회복 임박",
+        "labels": [
+          "10/15",
+          "10/20",
+          "10/25",
+          "10/30",
+          "11/02",
+          "11/05",
+          "11/10(조)",
+          "11/10(석)"
+        ],
+        "values": [
+          0.12,
+          0.08,
+          0.03,
+          -0.04,
+          -0.09,
+          -0.15,
+          -0.11,
+          -0.06
+        ],
+        "unit": "%",
+        "color": "#38bdf8",
+        "benchmark_val": 0.0,
+        "benchmark_label": "수급 분기점 0.00%",
+        "badge_text": "Coinbase Premium -0.06%"
+      },
+      "keyMetrics": [
+        {
+          "label": "코인베이스 프리미엄",
+          "value": "-0.06% (음수폭 축소)",
+          "change": "오전 -0.11% 대비 매도 압력 완화"
+        },
+        {
+          "label": "선행 지표 (나스닥/SOX)",
+          "value": "+2.74% / +6.85% 급등",
+          "change": "기관 기술주 리스크오프 명분 해소"
+        },
+        {
+          "label": "핵심 대기 이벤트",
+          "value": "미 CPI 물가 발표",
+          "change": "유가 $85 하락 반영 시 양전(+) 유력"
+        }
+      ],
+      "facts": [
+        "지난 며칠간 블랙록 IBIT에서 환매가 나오고 코인베이스 프라임(Coinbase Prime)을 통해 현물 매도 정산이 이루어졌던 가장 큰 원인은 '미국 기술주(나스닥·반도체) 급락에 따른 기관들의 포트폴리오 현금 비중 확보'였습니다.",
+        "그런데 11월 10일 저녁 뉴욕증시 및 글로벌 시장에서 S&P 500(+2.35%), 나스닥(+2.74%), 필라델피아 반도체 지수(+6.85%)가 일제히 급반등하면서, 기관들이 비트코인 ETF를 추가로 환매해야 할 위험회피(Risk-off) 명분이 빠르게 사라지고 있습니다.",
+        "실제로 코인베이스 프리미엄 지수의 마이너스 폭이 점차 좁혀지고 있으며, 미 CPI 발표에서 유가 하락($85.39)에 따른 물가 진정이 확인되면 미국 장 현물 매수세가 본격 복귀할 것으로 전망됩니다."
+      ],
+      "previousImplication": "코인베이스 프라임 정산 물량 소화 진척(-0.18% ➔ -0.11%) 및 미 CPI 대기 (11/10 모닝).",
+      "newCatalyst": "환매의 근본 원인이었던 미국 기술주·반도체 급락이 오늘 '+2.74% / +6.85% 급반등'으로 완전히 되돌려짐.",
+      "updatedImplication": "비트코인은 통상 나스닥·반도체 지수의 급반등에 12~24시간 시차를 두고 후행 동조화하는 경향이 강함. 현재 9918만원(-1.89%) 눌림목은 주식시장 반등 온기가 크립토로 전이되기 직전의 시차 구간으로 판단됨.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟡 프리미엄 마이너스 지속 및 현물 수급 공백 포착"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 코인베이스 프라임 정산 물량 소화 진척 및 CPI 대기"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 나스닥(+2.74%)·SOX(+6.85%) 선행 급반등으로 기관 환매 명분 완화 및 시차 반등 대기"
+        }
+      ],
+      "actionPoints": [
+        "시차 매매(Lagging Play): 주식시장이 먼저 급등했는데 비트코인이 아직 9918만원에 머물러 있는 디커플링 구간을 단기 현물 비중 확대 기회로 활용",
+        "프리미엄 양전 확인: 코인베이스 프리미엄이 0%를 돌파하면 10000만원선 즉각 안착 및 10500만원 회복 시도 전망"
+      ],
+      "sources": [
+        "TradingView Coinbase Premium",
+        "BigGo Crypto Macro Correlation",
+        "CryptoQuant"
+      ]
+    },
+    {
+      "id": "agenda_19",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "CORE",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (씨티그룹 PB 편입 권고 · 현물 ETF 옵션 & 미 401k 퇴직연금 로드맵)",
+      "title": "[11/10 이브닝·BTC 장기 구조] 씨티그룹 WM 현물 ETF 편입 권고 & 2027 'ETF 옵션 · 미 401(k) 퇴직연금' 편입 모멘텀",
+      "subtitle": "글로벌 대형 은행 자산관리(WM) 채널 공식 개방과 미국 퇴직연금(401k)·ETF 옵션 파생 인프라 확장이 만드는 장기 구조적 수요",
+      "chartImage": "assets/charts/agenda_19.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "비트코인(BTC)의 월가 자산관리(WM) 채널 개방 및 2027 제도권 확장 로드맵",
+        "subtitle": "씨티그룹·플란테모란 등 대형 PB의 현물 ETF 편입 권고와 현물 ETF 옵션·401(k) 퇴직연금 시장 진입 구조",
+        "center_label": [
+          "Wall St. Wealth & 401k",
+          "BTC 시총 6.28% ETF 락인"
+        ],
+        "badge_text": "Citi WM & 401(k) Shift",
+        "nodes": [
+          {
+            "title": "대형 은행 WM 편입 권고",
+            "metric": "Citigroup · Plante Moran",
+            "desc": "초고액자산가 포트폴리오 내 BTC ETF 공식 추천",
+            "color": "#f97316"
+          },
+          {
+            "title": "현물 ETF 옵션 & 401(k)",
+            "metric": "2027 제도권 수요 폭발",
+            "desc": "기관 변동성 헤지(옵션) 및 미국 퇴직연금 자금 유입",
+            "color": "#38bdf8"
+          },
+          {
+            "title": "절대적 공급 흡수력",
+            "metric": "전체 BTC의 6.28% 보유",
+            "desc": "미 현물 ETF 순자산 $95.9B · 유통 물량 잠김",
+            "color": "#fbbf24"
+          },
+          {
+            "title": "기존 고래 IBIT 수탁 이주",
+            "metric": "콜드월렛 ➔ 제도권 ETF",
+            "desc": "담보 대출·자산 승계 위한 월가 레일 편입",
+            "color": "#10b981"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "월가 WM 채널 개방",
+          "value": "Citigroup 등 공식 추천",
+          "change": "Plante Moran Advisors 등 기관 할당 확대"
+        },
+        {
+          "label": "ETF 보유 비중",
+          "value": "전체 BTC 시총의 6.28%",
+          "change": "총 순자산 $95.9B (유통 물량 구조적 감소)"
+        },
+        {
+          "label": "2027 차세대 동력",
+          "value": "ETF 옵션 · 401(k) 연금",
+          "change": "기관 헤지 수단 완비 및 장기 퇴직자금 유입"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 기관 채택 동향에 따르면, 단기 가격 조정(9918만원)에도 불구하고 씨티그룹(Citigroup) 자산관리(Wealth Management) 부문이 고액 자산가 고객들에게 비트코인 현물 ETF 편입을 공식 권고하기 시작했으며, 플란테 모란 어드바이저스(Plante Moran Financial Advisors) 등 주요 투자자문사들도 비트코인 ETF 할당 비중을 확대했습니다.",
+        "현재 미국 비트코인 현물 ETF들이 보유한 비트코인 총량은 약 959억 달러($95.9B)로, 전체 비트코인 시가총액의 6.28%를 제도권 금고에 영구적으로 락인(Lock-in)한 상태입니다.",
+        "나아가 월가 리서치 기관들은 2027년을 향한 최대 구조적 모멘텀으로 '비트코인 현물 ETF 옵션(Options) 거래 활성화'를 통한 기관들의 정교한 변동성 관리와 '미국 401(k) 퇴직연금 계좌 내 비트코인 ETF 편입 확대'를 꼽으며 장기 우상향 펀더멘털이 더욱 견고해졌다고 평가했습니다."
+      ],
+      "previousImplication": "기존 대형 비트코인 보유자들의 블랙록 IBIT 제도권 커스터디 전환으로 유통 물량이 구조적으로 흡수되고 있음 (11/10 모닝).",
+      "newCatalyst": "씨티그룹 WM의 현물 ETF 편입 권고, 플란테 모란 자문사의 비중 확대, 그리고 현물 ETF 옵션 및 미 401(k) 퇴직연금 편입 로드맵 확인.",
+      "updatedImplication": "단기 레버리지 청산($1.27B)으로 투기 세력이 털려나가는 동안, 월가 프라이빗뱅킹(PB)과 퇴직연금(401k)이라는 가장 거대하고 끈끈한 장기 자금 파이프라인이 열리고 있음. 9918만원선 조정은 제도권 장기 자금과 호흡을 맞출 최적의 적립 구간임.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 단기 가격 조정 속 스탠다드차타드·비트와이즈 장기 인프라 재확인"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 거액 보유자들의 블랙록 IBIT 수탁 전환 트렌드 확인으로 제도권 락인 시사점 강화"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 씨티그룹 WM 추천 개시 및 2027 ETF 옵션·401(k) 퇴직연금 모멘텀으로 장기 채택 강화"
+        }
+      ],
+      "actionPoints": [
+        "장기 호흡 매집: 월가 PB 및 퇴직연금 자금 유입 구조에 발맞춰 9900만원~10000만원 구간에서 흔들림 없는 분할 매집 지속",
+        "제도권 인프라 집중: 오직 유동성과 제도권 지위가 입증된 비트코인 현물 및 주요 현물 ETF 중심으로만 자산 구성"
+      ],
+      "sources": [
+        "Citigroup Wealth Report",
+        "KuCoin Institutional Tracker",
+        "Bitwise 2027 Outlook"
+      ]
+    },
+    {
+      "id": "agenda_20",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "CORE",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (공포·탐욕 지수 32 '공포' 속 알트코인 유동성 실종 & BTC 95% 원칙)",
+      "title": "[11/10 이브닝·크립토 구조] 가상화폐 공포·탐욕 지수 32('공포')와 12.7억 달러 청산이 증명한 '비트코인 95%+ 집중' 철칙",
+      "subtitle": "전체 시총의 6.28%($95.9B)를 기관 ETF가 받치는 비트코인 vs 매수 주체 없는 알트코인의 처참한 괴리… 기타 코인 5% 미만 엄수",
+      "chartImage": "assets/charts/agenda_20.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "가상화폐 공포 국면(지수 32)에서의 비트코인 vs 알트코인 구조적 방어력 비교",
+        "subtitle": "$95.9B 현물 ETF와 피델리티·씨티그룹 수급이 받치는 비트코인 vs 기관 안전판이 전무한 알트코인",
+        "categories": [
+          "비트코인 도미넌스(%)",
+          "크립토 공포지수(pt)",
+          "BTC ETF 시총비중(%)",
+          "알트 평균 낙폭(%)",
+          "권장 BTC 비중(%)"
+        ],
+        "series_name_1": "지표 수치 (%) / 점수",
+        "values_1": [
+          61.8,
+          32.0,
+          6.28,
+          -25.4,
+          95.0
+        ],
+        "color_1": "#f97316",
+        "unit": ""
+      },
+      "keyMetrics": [
+        {
+          "label": "크립토 공포·탐욕 지수",
+          "value": "32 pt (Fear · 공포)",
+          "change": "$1.27B 레버리지 청산 여파 반영"
+        },
+        {
+          "label": "비트코인 제도권 안전판",
+          "value": "시총의 6.28% ($95.9B)",
+          "change": "Fidelity 유입·Citi WM 추천 등 하방 지지"
+        },
+        {
+          "label": "포트폴리오 절대 원칙",
+          "value": "BTC 95% 이상 집중",
+          "change": "초대형 사건 없는 기타 알트코인 5% 미만"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 기준 누적 12억 7,000만 달러 규모의 파생상품 강제 청산 여파로 가상화폐 시장의 투자 심리를 나타내는 공포·탐욕 지수(Fear & Greed Index)가 32('공포') 수준에 머물면서 비트코인과 기타 알트코인 간의 펀더멘털 격차가 더욱 극명하게 드러났습니다.",
+        "비트코인은 9918만원(-1.89%)의 제한적인 조정 속에서도 전체 시가총액의 6.28%($95.9B)를 보유한 미국 현물 ETF 생태계와 피델리티(FBTC) 순유입, 씨티그룹 WM 추천이라는 든든한 기관 매수 주체가 하방을 받치고 있습니다.",
+        "반면 기관 수탁 레일과 현물 ETF 안전판이 전무한 대다수 알트코인은 개인 레버리지 청산 직후 매수 호가가 실종되며 회복 탄력성을 완전히 상실했습니다. 현재 기타 코인 진영에서는 시장 판도를 바꿀 만한 초대형 이벤트가 전무하여 비트코인 도미넌스(61.8%) 독주 체제가 굳어지고 있습니다."
+      ],
+      "previousImplication": "959억 달러 기관 기반 유무에 따라 비트코인과 투기적 알트코인이 완전히 분리됨 (11/10 모닝).",
+      "newCatalyst": "공포·탐욕 지수 32('공포') 및 12.7억 달러 청산 국면에서 시총 6.28%가 ETF에 잠긴 비트코인과 유동성이 마른 알트코인의 생존력 격차 재확인.",
+      "updatedImplication": "크립토 시장이 공포 구간에 진입할수록 살아남아 기관 자금을 흡수하는 자산은 오직 비트코인뿐임. '비트코인 95% 이상 집중, 초대형 사건 없는 알트코인 5% 미만 제한' 원칙은 선택이 아닌 필수 생존 법칙임.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 파생상품 청산 과정에서 알트코인 대비 비트코인 방어력 우위 확인"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 $95.9B 기관 기반 유무에 따른 BTC-알트 양극화 심화로 'BTC 95%+ 원칙' 재확정"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 공포지수 32 국면에서 ETF 시총 6.28% 안전판을 가진 비트코인으로의 압축 당위성 강화"
+        }
+      ],
+      "actionPoints": [
+        "포트폴리오 순도 유지: 가상화폐 자산의 95% 이상을 비트코인(BTC) 현물로 유지하고 반등 시 잔여 잡코인은 전량 BTC로 교체",
+        "공포 지수 역발상 활용: 알트코인 투매가 부른 시장 전체 공포(지수 32)를 대장주 비트코인 수량 확대의 기회로만 활용"
+      ],
+      "sources": [
+        "Alternative.me Fear & Greed",
+        "CoinMarketCap Dominance",
+        "Institutional ETF Flow Report"
+      ]
+    },
+    {
+      "id": "agenda_21",
+      "category": "realestate",
+      "categoryLabel": "한국 부동산 · 정책 · 개발",
+      "importance": "CRITICAL",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (스트레스 DSR 3단계 수도권 1.5%p 정조준 ➔ 현금부자 상급지 vs 실수요 59㎡ 양극화)",
+      "title": "[11/10 이브닝·대출 정책] 스트레스 DSR 3단계 수도권 집중(최대 1.5%p 가산)과 지방 유예가 만든 '초양극화 · 소형 59㎡ 쏠림'",
+      "subtitle": "주담대·신용대출 총망라한 3단계 규제 속 수도권만 가산금리 상향… 대출 막힌 중산층은 전용 59㎡로, 현금 부자는 초상급지로 분리",
+      "chartImage": "assets/charts/agenda_21.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "스트레스 DSR 3단계 수도권 가산금리 적용에 따른 대출 한도 축소 및 시장 양극화",
+        "subtitle": "수도권 주담대·신용대출에 최대 1.5%p 스트레스 금리 가산… 중고가 84㎡ 위축 속 소형 59㎡ 및 현금 초상급지 강세",
+        "categories": [
+          "DSR 이전 한도",
+          "2단계 수도권 한도",
+          "3단계 수도권(1.5%p)",
+          "전세대출 병행 시",
+          "서울 59㎡ 거래비중(%)"
+        ],
+        "series_name_1": "대출 한도(억 원) / 비중",
+        "values_1": [
+          6.58,
+          5.62,
+          5.05,
+          4.35,
+          48.5
+        ],
+        "color_1": "#f43f5e",
+        "unit": ""
+      },
+      "keyMetrics": [
+        {
+          "label": "스트레스 DSR 3단계",
+          "value": "수도권 최대 +1.5%p 가산",
+          "change": "주담대·신용대출 전면 적용 (지방은 유예·완화)"
+        },
+        {
+          "label": "실수요 타개책",
+          "value": "전용 59㎡ 소형 집중",
+          "change": "축소된 대출 한도 맞춘 다운사이징 매수"
+        },
+        {
+          "label": "자산 계층 양극화",
+          "value": "초상급지 신고가 vs 중저가 침체",
+          "change": "대출 의존도 높은 애매한 중산층 단지 타격"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 금융권 및 부동산 시장 점검 결과, 모든 가계대출(주택담보대출·신용대출 등)에 적용되는 '스트레스 DSR 3단계' 체제 하에서 정부가 수도권에만 최대 1.5%p의 높은 스트레스 가산금리를 부과(지방은 0.75%p 유예·완화)하면서 수도권 내부의 계층·평형별 양극화가 극에 달하고 있습니다.",
+        "차주의 연간 원리금 상환액을 연소득의 40%(시중은행 기준) 이내로 묶는 DSR 산식에서 수도권 가산금리가 1.5%p 더해지자, 대출에 의존해야 하는 중산층 실수요자들의 차입 한도가 크게 깎이며 애매한 입지의 중저가 아파트나 고가 국민평형(84㎡) 거래가 직격탄을 맞았습니다.",
+        "그 결과 대출 한도 내 자금 조달이 가능한 서울 역세권 '전용 59㎡(소형 면적)'로 실수요가 집중되는 동시에, 대출 규제가 무의미한 현금 부자들은 강남·용산 초상급지로만 몰리는 두 갈래 시장이 고착화되었습니다."
+      ],
+      "previousImplication": "스트레스 DSR 한도 축소로 서울 아파트 수요가 84㎡ 대신 소형 59㎡로 이동하고 있음 (11/10 모닝).",
+      "newCatalyst": "스트레스 DSR 3단계의 수도권 집중 적용(최대 1.5%p 가산 vs 지방 유예)과 이에 따른 현금 상급지 vs 대출 실수요 59㎡ 양극화 구조 심층 확인.",
+      "updatedImplication": "수도권 가계대출을 정조준한 비대칭적 DSR 규제는 '어중간한 입지의 큰 평수'를 가장 취약한 자산으로 만들었음. 철저히 현금 기반 초상급지이거나, DSR 한도 내 실수요 회전율이 검증된 서울 핵심 역세권 59㎡로만 포지션을 압축해야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 스트레스 DSR 수도권 가산금리 상향으로 전반적 대출 한도 축소"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 자금 부담 커진 실수요가 84㎡ 대신 전용 59㎡ 소형 평형으로 결집하는 풍선효과 확인"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 DSR 3단계 수도권 1.5%p 정조준에 따른 '초상급지 현금시장 vs 역세권 59㎡ 실수요' 양극화 확정"
+        }
+      ],
+      "actionPoints": [
+        "포트폴리오 재편: 수도권 외곽 중대형이나 비역세권 구축 보유 시 반등 구간에서 매도 후 서울 직주근접 59㎡ 신축·준신축으로 갈아타기",
+        "자금 계획 정밀화: 신용대출까지 모두 합산되는 3단계 스트레스 DSR(수도권 +1.5%p) 기준으로 마이너스 통장 한도를 미리 정리하여 주담대 여력 확보"
+      ],
+      "sources": [
+        "금융위원회 DSR 3단계 운용안",
+        "중앙일보 부동산",
+        "시중은행 여신심사 리포트"
+      ]
+    },
+    {
+      "id": "agenda_22",
+      "category": "realestate",
+      "categoryLabel": "한국 부동산 · 정책 · 개발",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 경계 (서울 중위가격 상승·핵심구 신고가 vs 전세가율 역대 최저 & 매물 8만 건)",
+      "title": "[11/10 이브닝·서울 시황] 강남·용산·마포·성동 주도 서울 아파트 중위가격 상승 vs 전세가율 역대 최저 · 전셋값 연쇄 상승",
+      "subtitle": "매매 회전율은 둔화됐으나 상급지 거래가 중위가격 견인… 계약갱신·입주 가뭄 속 전셋값 우상향이 매매-전세 격차 메우는 과정",
+      "chartImage": "assets/charts/agenda_22.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "서울 핵심 권역별 전세가율(%) 역대 최저 수준과 전세가격 주간 상승세 비교",
+        "subtitle": "강남·용산·성동 매매가 선등으로 전세가율은 40%대 초반까지 하락했으나, 입주 부족으로 전셋값 자체는 꾸준히 상승 중",
+        "categories": [
+          "서울 전체 전세가율",
+          "마포·성동 전세가율",
+          "강남·송파 전세가율",
+          "서초·용산 전세가율",
+          "서울 매물(만건×10)"
+        ],
+        "series_name_1": "평년 평균 (%)",
+        "values_1": [
+          58.0,
+          56.5,
+          52.0,
+          50.5,
+          65.0
+        ],
+        "series_name_2": "11/10 이브닝 현재",
+        "values_2": [
+          51.1,
+          46.5,
+          42.3,
+          40.6,
+          81.5
+        ],
+        "color_1": "#64748b",
+        "color_2": "#38bdf8",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "서울 아파트 중위가격",
+          "value": "상급지 주도 우상향",
+          "change": "강남·용산·마포·성동 신고가 거래 반영"
+        },
+        {
+          "label": "핵심지 전세가율",
+          "value": "40.6~46.5% (역대 최저)",
+          "change": "매매가 급등으로 전세 대비 괴리 확대"
+        },
+        {
+          "label": "전세 시장 동향",
+          "value": "지속적 상승세",
+          "change": "계약갱신청구 + 신축 입주 물량 부족"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 집계된 서울 주택 시장 동향에 따르면, 스트레스 DSR 규제로 전체 아파트 매매 거래량(회전율)은 둔화되고 매물이 8만 1,500건 수준으로 늘어났음에도 강남·서초·송파·용산·마포·성동구 등 핵심 지역의 신고가 거래가 이어지며 서울 아파트 중위 매매가격을 끌어올리고 있습니다.",
+        "다만 올해 핵심지 매매가가 워낙 가파르게 오른 탓에 이들 지역의 전세가율(매매가 대비 전세가 비율)은 40%대 초반이라는 역대 최저 수준에 머물러 있어, 전세를 끼고 매수할 때 필요한 자기자본 부담이 역사상 가장 높은 상태입니다.",
+        "그럼에도 전세 시장 자체는 계약갱신청구권 사용 증가로 인한 유통 전세 매물 잠김과 서울 신축 입주 물량 부족이 겹치며 전셋값이 쉼 없이 오르고 있어, 향후 전세가격 상승이 낮아진 전세가율을 서서히 밀어 올리는 하방 지지 역할을 수행할 것으로 분석됩니다."
+      ],
+      "previousImplication": "서울 핵심구 전세가율이 역대 최저 수준에 근접하여 단기 매매-전세 격차 소화 기간이 필요함 (11/10 모닝).",
+      "newCatalyst": "강남·용산·마포·성동 주도의 서울 중위가격 상승 지속과 계약갱신·공급 부족에 따른 전셋값의 꾸준한 상승 추세 병행 확인.",
+      "updatedImplication": "전체 거래량 둔화 속에서도 상급지 가격은 꺾이지 않고 버티는 가운데 전셋값이 뒤따라 오르는 전형적인 '상급지 기간 조정(횡보 소화)' 장세임. 무리한 레버리지 추격 매수는 금물이지만, 전셋값 상승이 매매 하단을 받치고 있으므로 핵심지 급매물은 저가 매수 기회로 유효함.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟡 서울 매물 8만 건 돌파 및 주간 매매 상승폭 둔화"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🔴 주요 핵심구 전세가율 역대 최저 근접 확인으로 매매-전세 격차 부담 시사점 부각"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🔴 핵심지 주도 중위가격 방어 vs 역대 최저 전세가율 충돌 속 전셋값 상승을 통한 기간 소화 국면"
+        }
+      ],
+      "actionPoints": [
+        "매수 전략: 마포·성동·강남권 진입 시 전고점 호가 추격 대신 일시적 다주택 처분이나 이주 일정이 급한 5~8% 할인 급매물만 타깃",
+        "임대차 전략: 전세 매물 부족과 전셋값 상승이 지속되므로 반전세 전환이나 갱신 시 보증금 증액 여력을 사전에 확보"
+      ],
+      "sources": [
+        "KB부동산 주간시계열",
+        "매일경제 전세가율 리포트",
+        "서울부동산정보광장"
+      ]
+    },
+    {
+      "id": "agenda_23",
+      "category": "realestate",
+      "categoryLabel": "한국 부동산 · 정책 · 개발",
+      "importance": "HIGH",
+      "deltaStatus": "MAINTAINED",
+      "deltaLabel": "🟡 시사점 유지 (1기 신도시 특별정비구역 패스트트랙 vs 공사비·분담금 & 교통 입지 양극화)",
+      "title": "[11/10 이브닝·재건축] 1기 신도시(분당·일산·평촌·산본·중동) 특별정비구역 패스트트랙 vs 공사비 분담금 · 역세권 차별화",
+      "subtitle": "용적률 상향·안전진단 면제 인센티브 가동에도 치솟은 공사비가 사업성 갈라… 서울 강남 접근성 뛰어난 분당 등 역세권만 독주",
+      "chartImage": "assets/charts/agenda_23.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "1기 신도시 재건축 권역별 예상 사업성 지수 및 평당 공사비 부담 비교",
+        "subtitle": "특별정비구역 인센티브에도 평당 공사비 960만 원 부담 상존… 일반분양가 여력이 큰 분당 핵심 역세권 단지로 압축",
+        "categories": [
+          "분당 핵심역세권",
+          "평촌·일산 역세권",
+          "산본·중동 일반",
+          "평당 공사비(십만원)",
+          "기준 사업성(100)"
+        ],
+        "series_name_1": "사업성 지수 / 공사비 지표",
+        "values_1": [
+          118.0,
+          96.5,
+          82.0,
+          96.0,
+          100.0
+        ],
+        "color_1": "#f59e0b",
+        "unit": ""
+      },
+      "keyMetrics": [
+        {
+          "label": "정책 인센티브",
+          "value": "특별정비구역 패스트트랙",
+          "change": "용적률 상향 · 안전진단 면제/완화 · 통합심의"
+        },
+        {
+          "label": "최대 현실 장벽",
+          "value": "공사비 급등 & 추가 분담금",
+          "change": "평당 960만 원 시대 속 조합원 부담 확대"
+        },
+        {
+          "label": "신도시 내 양극화",
+          "value": "분당 역세권 독주",
+          "change": "서울 접근성 및 일반분양가 여력이 성패 결정"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 정비업계 점검 결과, 분당·일산·평촌·산본·중동 등 1기 신도시 노후 단지들이 노후계획도시 특별법에 따른 '특별정비구역(Special Redevelopment Zones)' 지정과 용적률 상향, 안전진단 면제·완화, 통합 심의 패스트트랙을 통해 2030년 첫 입주 로드맵을 추진하고 있습니다.",
+        "하지만 인허가 속도를 높여주는 정부 지원에도 불구하고, 최근 수년간 급등한 건설 원자재값과 인건비로 인해 평당 공사비가 900만~1,000만 원대에 달하면서 조합원들이 떠안아야 할 '추가 분담금(Additional Contributions)' 규모가 사업 추진의 가장 큰 암초로 작용하고 있습니다.",
+        "결국 높은 공사비를 상쇄할 만큼 일반분양가를 비싸게 받을 수 있고 서울 강남·판교 업무지구와 직결되는 분당 핵심 역세권 선도지구는 사업이 빠르게 진척되는 반면, 기존 용적률이 이미 높고 일반분양가 상단이 막힌 외곽 단지들은 분담금 갈등으로 속도가 지체되는 극심한 양극화가 진행 중입니다."
+      ],
+      "previousImplication": "2030년 첫 입주 로드맵 속 대규모 이주수요 분산과 공사비 분담금 합의가 핵심 과제임 (11/10 모닝).",
+      "newCatalyst": "특별정비구역 인센티브(용적률 상향·안전진단 면제)와 고공사비(추가 분담금) 충돌 속 서울 접근성·역세권 유무에 따른 신도시 간·단지 간 사업 속도 양극화 재확인.",
+      "updatedImplication": "'1기 신도시 재건축'이라는 이름표만으로 모든 단지가 오르는 시대는 끝났음. 용적률 인센티브를 받아도 일반분양 수익으로 공사비를 충당할 수 있는 분당 등 최상급 역세권 대장 단지만이 실질적인 투자 가치를 지님.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🔴 공사비 고공행진에 따른 조합원 추가 분담금 갈등 부각"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 2030 첫 입주 로드맵 속 이주수요 관리 및 사업성 옥석 가리기 국면 지속"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 특별정비구역 패스트트랙 가동 속 일반분양가 여력이 큰 분당 역세권 중심의 사업성 양극화 고착"
+        }
+      ],
+      "actionPoints": [
+        "옥석 가리기 기준: 1기 신도시 투자 시 ①현재 평균 용적률 180% 이하(또는 대지지분 15평 이상), ②지하철 도보 5분 이내 역세권, ③분담금 감내력이 높은 고소득 거주민 비중을 필수 점검",
+        "이주 전세 수혜: 분당·평촌 선도지구 이주 본격화 시점에 대비해 인접 준신축 단지의 전세가 상승 모멘텀 주시"
+      ],
+      "sources": [
+        "국토교통부 노후계획도시 정비지원기구",
+        "한국건설산업연구원",
+        "매일경제 부동산"
+      ]
+    },
+    {
+      "id": "agenda_24",
+      "category": "realestate",
+      "categoryLabel": "한국 부동산 · 정책 · 개발",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (한남더힐·나인원한남 초고가 벨트 & 용산국제업무지구, 대출 규제 완전 면역)",
+      "title": "[11/10 이브닝·서울 핵심 개발] 용산 초고가 주거벨트(한남더힐·나인원한남) 신고가와 '용산국제업무지구'가 증명한 최상급지 불패",
+      "subtitle": "스트레스 DSR 3단계와 무관한 현금 초자산가들의 안전자산 피난처… 국제업무지구·한남뉴타운·한강변 정비가 만드는 서울의 심장",
+      "chartImage": "assets/charts/agenda_24.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "용산 초고가 주거벨트 및 용산국제업무지구(YIBD) 중심의 최상급지 불패 메커니즘",
+        "subtitle": "한남더힐·나인원한남 등 하이엔드 단지의 대출 규제 면역력과 대규모 글로벌 비즈니스 허브 개발의 결합",
+        "center_label": [
+          "용산 하이엔드 코어",
+          "초자산가 현금 안전판"
+        ],
+        "badge_text": "Ultra-Prime Yongsan",
+        "nodes": [
+          {
+            "title": "하이엔드 주거 벨트",
+            "metric": "한남더힐 · 나인원한남",
+            "desc": "대출 규제 무관한 현금 초자산가 신고가 경신",
+            "color": "#f59e0b"
+          },
+          {
+            "title": "용산국제업무지구(YIBD)",
+            "metric": "서울 최대 복합개발 코어",
+            "desc": "글로벌 기업 유치 + 도심 하이엔드 주거 공급",
+            "color": "#38bdf8"
+          },
+          {
+            "title": "한강변 메가 정비사업",
+            "metric": "한남뉴타운 · 이촌 재건축",
+            "desc": "서울 내 매매가 회복력 및 희소성 압도적 1위",
+            "color": "#10b981"
+          },
+          {
+            "title": "광역 교통의 절대 중심",
+            "metric": "GTX-B · 신분당선 · 공항철도",
+            "desc": "강남·여의도·광화문 3대 업무지구 완벽 연결",
+            "color": "#a855f7"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "초고가 랜드마크",
+          "value": "한남더힐 · 나인원한남",
+          "change": "대출 규제 완전 면역 · 현금 거래 신고가 지속"
+        },
+        {
+          "label": "핵심 개발 축",
+          "value": "용산국제업무지구(YIBD)",
+          "change": "글로벌 비즈니스 허브 + 한남뉴타운 시너지"
+        },
+        {
+          "label": "시장 내 위상",
+          "value": "서울 가격 회복력 최상위",
+          "change": "똘똘한 한 채 현상의 최종 종착지"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 서울 하이엔드 부동산 시장 분석에 따르면, 스트레스 DSR 3단계 등 강력한 대출 규제가 중산층 시장을 짓누르는 가운데서도 용산구 일대 초고가 단지(한남더힐, 나인원한남 등)와 한강변 정비사업지는 현금 부자들의 매수세가 꾸준히 유입되며 독보적인 신고가 행진을 이어가고 있습니다.",
+        "용산이 강남 3구와 대등하거나 이를 능가하는 가격 방어력을 보여주는 핵심 동력은 약 50만㎡ 부지에 조성되는 '용산국제업무지구(Yongsan International Business District)'의 본격적인 개발 진척과 한남뉴타운·이촌동 등 한강변 하이엔드 주거 벨트의 완성입니다.",
+        "금융당국의 대출 한도 축소로부터 완전히 자유로운 초고액 자산가들에게 용산은 인플레이션 헤지 수단이자 대한민국에서 가장 희소한 '도심 한강변 직주근접 자산'으로 인식되며, 거시경제 흔들림에도 끄떡없는 안전자산(Safe Haven) 역할을 하고 있습니다."
+      ],
+      "previousImplication": "용산구가 국제업무지구와 한강변 정비사업 양날개로 서울 내 최고 수준의 가격 회복력을 입증함 (11/10 모닝).",
+      "newCatalyst": "한남더힐·나인원한남 등 초고가 랜드마크의 대출 규제 완전 면역 거래 흐름과 용산국제업무지구·한남뉴타운 결합 가치가 만든 하이엔드 불패 구조 재확인.",
+      "updatedImplication": "한국 부동산 시장은 'DSR 대출 규제의 영향을 받는 일반 시장'과 '현금 유동성으로 움직이는 용산·강남 하이엔드 시장'으로 완전히 이원화됨. 자본력이 뒷받침될수록 용산국제업무지구 및 한강변 핵심 정비구역의 비중을 최우선으로 가져가야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 국토부 용산국제업무지구 공급 확대 및 도심 개발 추진"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 대출 한파 속에서도 용산구 매매가 회복력 서울 최상위 입증으로 최상급지 해자 강화"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 한남더힐·나인원한남 및 용산국제업무지구 중심의 초자산가 현금 시장 독주 체제 확립"
+        }
+      ],
+      "actionPoints": [
+        "하이엔드 및 정비사업 타깃: 용산 한남뉴타운(2·3·4·5구역), 이촌동 리모델링/재건축, 그리고 국제업무지구 직수혜지인 삼각지·신용산·서울역 일대 핵심 자산에 장기 집중",
+        "상급지 갈아타기 원칙: 다주택 보유보다 세제 및 가격 방어력이 압도적인 용산·반포·압구정 핵심지의 똘똘한 한 채로 자산 압축"
+      ],
+      "sources": [
+        "매일경제 하이엔드 부동산 리포트",
+        "서울시 용산국제업무지구 추진단",
+        "국토교통부 실거래가 공개시스템"
+      ]
+    },
+    {
+      "id": "agenda_25",
+      "category": "realestate",
+      "categoryLabel": "한국 부동산 · 정책 · 개발",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 강화 (GTX-A 동탄·수서·연신내·파주~평택 연장 & '초역세권+직주근접' 이중 선별)",
+      "title": "[11/10 이브닝·수도권 교통] GTX-A(동탄·수서·연신내·파주~평택 연장) & B·C 노선 시대: '도보 초역세권 + 일자리 직결'만 살아남는다",
+      "subtitle": "단순 노선 호재만으론 부족… 고금리·DSR 3단계 환경에서 GTX 도보 500m 이내 신축과 비역세권 구축 간 가격 양극화 극대화",
+      "chartImage": "assets/charts/agenda_25.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "GTX 시대 수도권 아파트 입지 조건별 가격 탄력성 및 실수요 선호도 비교 (기준=100)",
+        "subtitle": "GTX-A(동탄·수서·운정·연신내) 개통 효과 입증 속 '도보 초역세권+일자리를 갖춘 신축'으로만 수요 집중",
+        "categories": [
+          "GTX 도보역세권(신축)",
+          "GTX 환승역(인덕원·과천)",
+          "GTX 버스환승권(구축)",
+          "수도권 일반 비역세권",
+          "지방 외곽 미분양권"
+        ],
+        "series_name_1": "실수요 가격 탄력성 지수",
+        "values_1": [
+          117.5,
+          109.2,
+          91.5,
+          81.0,
+          72.0
+        ],
+        "color_1": "#10b981",
+        "unit": "pt"
+      },
+      "keyMetrics": [
+        {
+          "label": "GTX-A 핵심 거점",
+          "value": "동탄·수서·연신내·파주 (+평택연장)",
+          "change": "실제 운행 효과로 서울 도심·강남 출퇴근 혁명"
+        },
+        {
+          "label": "후속 노선 모멘텀",
+          "value": "GTX-B (송도~마석) · C (수원~덕정)",
+          "change": "인덕원·의정부·광운대·청량리 환승축 부각"
+        },
+        {
+          "label": "새로운 생존 공식",
+          "value": "도보 초역세권 + 직주근접",
+          "change": "버스 환승 필요한 외곽 단지는 약세 면치 못함"
+        }
+      ],
+      "facts": [
+        "11월 10일 저녁 수도권 광역교통망 및 부동산 시장 분석에 따르면, GTX-A 노선(수서~동탄, 파주 운정~서울역·연신내 구간 및 향후 평택 연장 추진)의 개통·확장과 GTX-B·C 노선 추진이 수도권의 출퇴근 지도를 재편하고 있으나, 고금리와 스트레스 DSR 3단계 규제 속에서 수혜 단지의 조건은 훨씬 더 까다로워졌습니다.",
+        "과거에는 'GTX 정차 지역'이라는 이유만으로 지자체 전체 아파트값이 들썩였으나, 이제는 실제로 GTX 역사를 걸어서(반경 500m 이내) 이용할 수 있는 '도보 초역세권 신축·준신축 단지(예: 동탄역·운정중앙역·연신내·인덕원 역세권)'로만 실수요 매수세가 집중되고 있습니다.",
+        "반면 같은 동탄이나 파주, 의정부 내에서도 GTX 역까지 마을버스로 15~20분 이상 이동해야 하는 비역세권 구축 단지들은 환승 시간과 비용 부담, 그리고 줄어든 대출 한도 탓에 매수세가 실종되며 초역세권 대장 단지와의 가격 격차가 역대 최대로 벌어지고 있습니다."
+      ],
+      "previousImplication": "동탄·파주·의정부·인덕원 등 GTX 개통 및 공사 진척 지역의 서울 체감거리 단축으로 수도권 입지 지도가 시간 거리 중심으로 재편됨 (11/10 모닝).",
+      "newCatalyst": "GTX-A(동탄·수서·연신내·파주 및 평택 연장)와 GTX-B·C 권역 내에서 '도보 초역세권+자체 일자리/인프라'를 갖춘 신축과 마을버스 환승 비역세권 단지 간의 극단적 가격 양극화 확인.",
+      "updatedImplication": "DSR 3단계 시대의 GTX 투자 공식은 '노선 이름'이 아니라 '문 앞에서 강남·서울역 개찰구까지 걸리는 총 도어 투 도어(Door-to-Door) 시간 30~40분 이내 여부'임. 오직 도보 초역세권 대장 신축 단지만이 서울 아파트의 대체재로 기능함.",
+      "implicationHistory": [
+        {
+          "time": "11/09 20:00",
+          "text": "🟢 인덕원 등 주요 환승 요충지 개발 및 초역세권 가격 방어력 부각"
+        },
+        {
+          "time": "11/10 08:00",
+          "text": "🟢 동탄·파주·의정부 등 GTX 체감거리 단축에 따른 수도권 입지 지도 재편 시사점 강화"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟢 GTX-A(동탄·수서·연신내·파주) 및 B·C 권역 내 '도보 초역세권 신축 vs 버스환승 구축' 초양극화 확립"
+        }
+      ],
+      "actionPoints": [
+        "수도권 매수 압축: GTX-A(동탄역·운정중앙역·연신내역) 및 향후 환승 거점(인덕원·청량리·왕십리·수원)의 도보 5~10분 이내 대장 신축 단지로만 매수 후보군 제한",
+        "비역세권 비중 축소: 'GTX 호재 지역'이라는 타이틀만 있고 실제 역사 접근성이 떨어지는 외곽 구축 단지는 추격 매수 금지 및 반등 시 처분"
+      ],
+      "sources": [
+        "국토교통부 광역급행철도추진단",
+        "뉴시스 GTX 부동산 분석",
+        "KB부동산 수도권 시황"
+      ]
+    }
+  ]
+}

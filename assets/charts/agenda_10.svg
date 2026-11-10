@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">4대 하이퍼스케일러(MS·구글·메타·아마존) 합산 연간 AI CapEx 추이 ($B)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">2026~2027년 3,450억~3,900억 달러 투자 지속… 커스텀 ASIC 비중 확대로 2030년까지 공급 계약 장기화</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">2026~2027년 3,450억~3,900억 달러 투자 지속… 실시간 AI 추론 서비스 확장을 위한 ASIC 및 HBM 다년 계약 체결</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#059669"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">빅테크 합산 CapEx ($B)</text>
