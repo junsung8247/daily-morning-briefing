@@ -2,7 +2,7 @@
 window.BRIEFING_PORTAL_DATA = {
   "currentEdition": {
     "editionId": "2026-11-10_2000",
-    "generatedAt": "2026-11-10 20:14:20 KST",
+    "generatedAt": "2026-11-11 03:30:06 KST",
     "displayDate": "2026년 11월 10일",
     "shortDate": "11/10 20:00",
     "slotLabel": "20:00 PM 이브닝 에디션",
@@ -23,11 +23,10 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "",
         "color": "#38bdf8",
-        "price": 7549.94,
-        "dayChangePct": 2.35,
-        "monthChangePct": -3.3,
+        "price": 7485.85,
+        "dayChangePct": -0.85,
+        "monthChangePct": -4.12,
         "historyLabels": [
-          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -36,10 +35,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09"
+          "11/09",
+          "11/10"
         ],
         "historyValues": [
-          7722.6,
           7743.98,
           7720.39,
           7580.07,
@@ -48,7 +47,8 @@ window.BRIEFING_PORTAL_DATA = {
           7688.62,
           7353.73,
           7376.86,
-          7549.94
+          7549.94,
+          7485.85
         ]
       },
       {
@@ -58,11 +58,10 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "",
         "color": "#818cf8",
-        "price": 25253.14,
-        "dayChangePct": 2.74,
-        "monthChangePct": -7.31,
+        "price": 24898.39,
+        "dayChangePct": -1.4,
+        "monthChangePct": -8.62,
         "historyLabels": [
-          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -71,10 +70,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09"
+          "11/09",
+          "11/10"
         ],
         "historyValues": [
-          26477.81,
           26549.85,
           26184.72,
           25437.0,
@@ -83,7 +82,8 @@ window.BRIEFING_PORTAL_DATA = {
           25736.51,
           24315.0,
           24579.43,
-          25253.14
+          25253.14,
+          24898.39
         ]
       },
       {
@@ -93,11 +93,10 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "tech",
         "unit": "",
         "color": "#a855f7",
-        "price": 10033.93,
-        "dayChangePct": 6.85,
-        "monthChangePct": -18.0,
+        "price": 9855.04,
+        "dayChangePct": -1.78,
+        "monthChangePct": -19.46,
         "historyLabels": [
-          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -106,10 +105,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09"
+          "11/09",
+          "11/10"
         ],
         "historyValues": [
-          11482.5,
           11684.0,
           11518.2,
           10688.8,
@@ -118,7 +117,8 @@ window.BRIEFING_PORTAL_DATA = {
           10268.65,
           9011.14,
           9390.25,
-          10033.93
+          10033.93,
+          9855.04
         ]
       },
       {
@@ -128,11 +128,10 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "%",
         "color": "#f43f5e",
-        "price": 4.86,
-        "dayChangePct": 0.1,
-        "monthChangePct": -7.25,
+        "price": 5.01,
+        "dayChangePct": 2.96,
+        "monthChangePct": -4.43,
         "historyLabels": [
-          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -141,10 +140,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09"
+          "11/09",
+          "11/10"
         ],
         "historyValues": [
-          4.99,
           5.05,
           4.99,
           4.93,
@@ -153,7 +152,8 @@ window.BRIEFING_PORTAL_DATA = {
           4.89,
           4.84,
           4.86,
-          4.86
+          4.86,
+          5.01
         ]
       },
       {
@@ -163,9 +163,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "원",
         "color": "#10b981",
-        "price": 1338.98,
-        "dayChangePct": -1.74,
-        "monthChangePct": -0.14,
+        "price": 1343.71,
+        "dayChangePct": -1.39,
+        "monthChangePct": 0.21,
         "historyLabels": [
           "10/28",
           "10/29",
@@ -188,7 +188,7 @@ window.BRIEFING_PORTAL_DATA = {
           1340.07,
           1356.34,
           1362.7,
-          1338.98
+          1343.71
         ]
       },
       {
@@ -198,9 +198,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "gold",
         "unit": "$",
         "color": "#fbbf24",
-        "price": 4082.1,
-        "dayChangePct": -0.79,
-        "monthChangePct": -2.59,
+        "price": 4027.5,
+        "dayChangePct": -2.11,
+        "monthChangePct": -3.89,
         "historyLabels": [
           "10/28",
           "10/29",
@@ -223,7 +223,7 @@ window.BRIEFING_PORTAL_DATA = {
           4113.5,
           4074.9,
           4114.5,
-          4082.1
+          4027.5
         ]
       },
       {
@@ -234,9 +234,9 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "만원",
         "color": "#f97316",
         "scale": 0.0001,
-        "price": 9941,
-        "dayChangePct": -1.67,
-        "monthChangePct": -10.55,
+        "price": 9841,
+        "dayChangePct": -2.66,
+        "monthChangePct": -11.45,
         "historyLabels": [
           "11/01",
           "11/02",
@@ -259,7 +259,7 @@ window.BRIEFING_PORTAL_DATA = {
           10330,
           10173,
           10109,
-          9941
+          9841
         ]
       },
       {
@@ -269,11 +269,10 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "tech",
         "unit": "$",
         "color": "#22c55e",
-        "price": 178.67,
-        "dayChangePct": -4.27,
-        "monthChangePct": -21.05,
+        "price": 167.62,
+        "dayChangePct": -6.18,
+        "monthChangePct": -25.94,
         "historyLabels": [
-          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -282,10 +281,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09"
+          "11/09",
+          "11/10"
         ],
         "historyValues": [
-          217.94,
           215.38,
           213.66,
           204.64,
@@ -294,7 +293,8 @@ window.BRIEFING_PORTAL_DATA = {
           200.13,
           181.6,
           186.64,
-          178.67
+          178.67,
+          167.62
         ]
       },
       {
@@ -304,11 +304,10 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "tech",
         "unit": "$",
         "color": "#06b6d4",
-        "price": 388.62,
-        "dayChangePct": 3.51,
-        "monthChangePct": -12.54,
+        "price": 390.13,
+        "dayChangePct": 0.39,
+        "monthChangePct": -12.2,
         "historyLabels": [
-          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -317,10 +316,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09"
+          "11/09",
+          "11/10"
         ],
         "historyValues": [
-          436.87,
           439.51,
           431.81,
           406.13,
@@ -329,7 +328,8 @@ window.BRIEFING_PORTAL_DATA = {
           395.75,
           353.1,
           375.44,
-          388.62
+          388.62,
+          390.13
         ]
       },
       {
@@ -340,9 +340,10 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "원",
         "color": "#3b82f6",
         "price": 198900.0,
-        "dayChangePct": 4.74,
+        "dayChangePct": 5.41,
         "monthChangePct": -20.6,
         "historyLabels": [
+          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -351,10 +352,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09",
-          "11/10"
+          "11/09"
         ],
         "historyValues": [
+          222000.0,
           242000.0,
           232000.0,
           225000.0,
@@ -363,8 +364,7 @@ window.BRIEFING_PORTAL_DATA = {
           218000.0,
           201500.0,
           188700.0,
-          189900.0,
-          198900.0
+          189900.0
         ]
       },
       {
@@ -375,9 +375,10 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "원",
         "color": "#ec4899",
         "price": 1212000.0,
-        "dayChangePct": 6.69,
+        "dayChangePct": 7.07,
         "monthChangePct": -24.49,
         "historyLabels": [
+          "10/27",
           "10/28",
           "10/29",
           "10/30",
@@ -386,10 +387,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/04",
           "11/05",
           "11/06",
-          "11/09",
-          "11/10"
+          "11/09"
         ],
         "historyValues": [
+          1341000.0,
           1487000.0,
           1526000.0,
           1418000.0,
@@ -398,8 +399,7 @@ window.BRIEFING_PORTAL_DATA = {
           1396000.0,
           1264000.0,
           1132000.0,
-          1136000.0,
-          1212000.0
+          1136000.0
         ]
       },
       {
@@ -409,9 +409,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "$",
         "color": "#eab308",
-        "price": 85.71,
-        "dayChangePct": -1.31,
-        "monthChangePct": -8.57,
+        "price": 86.19,
+        "dayChangePct": -0.76,
+        "monthChangePct": -8.05,
         "historyLabels": [
           "10/28",
           "10/29",
@@ -434,7 +434,7 @@ window.BRIEFING_PORTAL_DATA = {
           90.52,
           90.83,
           86.85,
-          85.71
+          86.19
         ]
       },
       {
@@ -444,9 +444,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "",
         "color": "#94a3b8",
-        "price": 101.7,
-        "dayChangePct": 0.05,
-        "monthChangePct": -0.86,
+        "price": 102.32,
+        "dayChangePct": 0.66,
+        "monthChangePct": -0.26,
         "historyLabels": [
           "10/28",
           "10/29",
@@ -469,11 +469,18 @@ window.BRIEFING_PORTAL_DATA = {
           101.55,
           102.3,
           101.65,
-          101.7
+          102.32
         ]
       }
     ],
     "liveHeadlines": [
+      {
+        "category": "macro",
+        "source": "CNBC Economy",
+        "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+        "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+        "pubDate": "Tue, 10 Nov 2026 16:47:05"
+      },
       {
         "category": "macro",
         "source": "CNBC Economy",
@@ -503,46 +510,39 @@ window.BRIEFING_PORTAL_DATA = {
         "pubDate": "Mon, 09 Nov 2026 02:50:22"
       },
       {
-        "category": "macro",
-        "source": "CNBC Economy",
-        "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
-        "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
-        "pubDate": "Fri, 06 Nov 2026 20:11:17"
+        "category": "tech",
+        "source": "CNBC Tech",
+        "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
+        "link": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
+        "pubDate": "Tue, 10 Nov 2026 15:01:21"
       },
       {
         "category": "tech",
         "source": "CNBC Tech",
-        "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
-        "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-        "pubDate": "Tue, 10 Nov 2026 10:02:23"
+        "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+        "link": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+        "pubDate": "Tue, 10 Nov 2026 18:23:36"
       },
       {
         "category": "tech",
         "source": "CNBC Tech",
-        "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
-        "link": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
-        "pubDate": "Tue, 10 Nov 2026 09:01:37"
+        "title": "China panel chair Moolenaar demands answers on Nvidia CEO's alleged affair with a Chinese spy",
+        "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+        "pubDate": "Tue, 10 Nov 2026 18:22:44"
       },
       {
         "category": "tech",
         "source": "CNBC Tech",
-        "title": "TSMC's October sales jump as global chip boom rolls on",
-        "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
-        "pubDate": "Tue, 10 Nov 2026 05:42:42"
+        "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+        "link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+        "pubDate": "Tue, 10 Nov 2026 15:04:23"
       },
       {
         "category": "tech",
         "source": "CNBC Tech",
-        "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
-        "link": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
-        "pubDate": "Mon, 09 Nov 2026 23:30:15"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "Jim Cramer says Nvidia investors need to prepare for a future without Jensen Huang",
-        "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-probe-data-centers-cramer.html",
-        "pubDate": "Mon, 09 Nov 2026 23:24:05"
+        "title": "Nvidia scandal fails to bring down the tech bulls as spy investigation widens",
+        "link": "https://www.cnbc.com/2026/11/10/nvidia-scandal-fails-to-bring-down-the-tech-bulls-as-spy-investigation-widens.html",
+        "pubDate": "Tue, 10 Nov 2026 11:41:56"
       },
       {
         "category": "realestate",
@@ -617,6 +617,13 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "crypto",
         "source": "Google 뉴스 (비트코인 ETF)",
+        "title": "비트코인 ETF, 규제 풀리면 곧바로 나올 수 있을까 - 한경매거진",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZU1M0b05vNE1RVl9ZdEN0M3Zacmc0UXREYktNLTl2Sy1oSENHZjJBSUZ3N1JzMk9UV29FUHh5UVZIRmpCUUJfTTQzbHZFN3hDMkdDSUtOSURJV0VGN25RX1NteFBVOVlt?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 21:00:00"
+      },
+      {
+        "category": "crypto",
+        "source": "Google 뉴스 (비트코인 ETF)",
         "title": "리플 1.16달러 흔들…비트코인 ETF 4억달러 유출 직격 - 글로벌이코노믹",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLWhKX1ZxZUQtc3FqaXVrRGRhQktMTnZURzZtVzR1WlBHSjhnYWtFZG80THl5ajFsU0hGbHNvYjMxMWRyaUdnMW5WbGZaYzVNY1VMUW1WYUNqUVVDbHZ4N1BrdHZBcmRYd3BRM0Y1MEpHV0hBLXR4dzRYeUl1TW0tN1FXRmQ0UmF0?oc=5",
         "pubDate": "Sun, 08 Nov 2026 21:15:00"
@@ -631,13 +638,6 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "crypto",
         "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "디지털자산 판이 바뀐다… 국회서 '기관 중심 시대' 해법 찾는다 - 블록체인투데이",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oYm5GNjRuT1BjajFZZWdfdEVnRmFtZVNHek1hMi15ZmFtTS1ya0d3b3dRN0dsdDZIanFyMHVOd0ZlaVN4dXpJYVJNd2tzaWlXWWZ2YnZzUnlxdkVxd0RmbGo2V0xsQUpDME0tNWp1Wlg?oc=5",
-        "pubDate": "Mon, 09 Nov 2026 23:48:32"
-      },
-      {
-        "category": "crypto",
-        "source": "Google 뉴스 (비트코인 ETF)",
         "title": "비트코인 ETF서 12억8,000만 달러 증발…이더리움 6주 연속 유출, 기관투자자 떠나나? - 코인리더스",
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9na0g3QUV0UFJEaHRZQmdHVXMzWHB0Vjd6UG95TUpJQmhVdFMyTHBDWkVzMjVvVHF5c2FMUWJBWDRJR3dkNWtmOHFB?oc=5",
         "pubDate": "Sun, 08 Nov 2026 22:41:00"
@@ -645,9 +645,9 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "crypto",
         "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "비트코인 ETF, 3거래일째 순유출 흐름…비트와이즈 \"기관 이탈 아냐\" - 디지털투데이",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OenUtdlFLaW1ab2o3bThROVF0akFJdFJYYURPQWFNZll0akdCTmVqYXZYS00xeFRaQ01Ma3hobTUyRGxMRnduSV84bERQRXdrN3FKRUZkdTVQNElwZE1ra0toUnJ4VERSNlRXaWlVX21WY0k?oc=5",
-        "pubDate": "Thu, 05 Nov 2026 05:45:34"
+        "title": "디지털자산 판이 바뀐다… 국회서 '기관 중심 시대' 해법 찾는다 - 블록체인투데이",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oYm5GNjRuT1BjajFZZWdfdEVnRmFtZVNHek1hMi15ZmFtTS1ya0d3b3dRN0dsdDZIanFyMHVOd0ZlaVN4dXpJYVJNd2tzaWlXWWZ2YnZzUnlxdkVxd0RmbGo2V0xsQUpDME0tNWp1Wlg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 23:48:32"
       }
     ],
     "agendas": [
@@ -761,7 +761,6 @@ window.BRIEFING_PORTAL_DATA = {
           "title": "미국 10년물 국채금리(^TNX) 최근 추이 및 핵심 저항선 (%)",
           "subtitle": "4.88% 단기 피크 테스트 후 유가 안정에 힘입어 4.86%로 진정… 5.0% 돌파 공포 후퇴",
           "labels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -770,10 +769,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "values": [
-            4.99,
             5.05,
             4.99,
             4.93,
@@ -782,13 +781,14 @@ window.BRIEFING_PORTAL_DATA = {
             4.89,
             4.84,
             4.86,
-            4.86
+            4.86,
+            5.01
           ],
           "unit": "%",
           "color": "#f59e0b",
           "benchmark_val": 4.5,
           "benchmark_label": "주식시장 부담 임계선 4.50%",
-          "badge_text": "LIVE 4.86%",
+          "badge_text": "LIVE 5.01%",
           "annotations": [
             {
               "index": 7,
@@ -1066,13 +1066,13 @@ window.BRIEFING_PORTAL_DATA = {
             1340.07,
             1356.34,
             1362.7,
-            1338.98
+            1343.71
           ],
           "unit": "원",
           "color": "#10b981",
           "benchmark_val": 1350.0,
           "benchmark_label": "상단 저항선 1,350원",
-          "badge_text": "LIVE 1,338.98원"
+          "badge_text": "LIVE 1,343.71원"
         },
         "keyMetrics": [
           {
@@ -1687,13 +1687,13 @@ window.BRIEFING_PORTAL_DATA = {
             4113.5,
             4074.9,
             4114.5,
-            4082.1
+            4027.5
           ],
           "unit": "$",
           "color": "#fbbf24",
           "benchmark_val": 4000.0,
           "benchmark_label": "구조적 지지선 $4,000/oz",
-          "badge_text": "LIVE 4,082.10$",
+          "badge_text": "LIVE 4,027.50$",
           "annotations": [
             {
               "index": 7,
@@ -2029,13 +2029,13 @@ window.BRIEFING_PORTAL_DATA = {
             10330,
             10173,
             10109,
-            9941
+            9841
           ],
           "unit": "만원",
           "color": "#f97316",
           "benchmark_val": 10800.0,
           "benchmark_label": "핵심 저항선 10800만원",
-          "badge_text": "LIVE 9941만원",
+          "badge_text": "LIVE 9841만원",
           "annotations": [
             {
               "index": 7,
@@ -2046,7 +2046,7 @@ window.BRIEFING_PORTAL_DATA = {
         "keyMetrics": [
           {
             "label": "비트코인 시세",
-            "value": "9941만원",
+            "value": "9841만원",
             "change": "-1.89% (글로벌 ~$75,600 부근)"
           },
           {
@@ -2871,7 +2871,7 @@ window.BRIEFING_PORTAL_DATA = {
   "recent7dEditions": [
     {
       "editionId": "2026-11-10_2000",
-      "generatedAt": "2026-11-10 20:14:20 KST",
+      "generatedAt": "2026-11-11 03:30:06 KST",
       "displayDate": "2026년 11월 10일",
       "shortDate": "11/10 20:00",
       "slotLabel": "20:00 PM 이브닝 에디션",
@@ -2892,11 +2892,10 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "",
           "color": "#38bdf8",
-          "price": 7549.94,
-          "dayChangePct": 2.35,
-          "monthChangePct": -3.3,
+          "price": 7485.85,
+          "dayChangePct": -0.85,
+          "monthChangePct": -4.12,
           "historyLabels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -2905,10 +2904,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "historyValues": [
-            7722.6,
             7743.98,
             7720.39,
             7580.07,
@@ -2917,7 +2916,8 @@ window.BRIEFING_PORTAL_DATA = {
             7688.62,
             7353.73,
             7376.86,
-            7549.94
+            7549.94,
+            7485.85
           ]
         },
         {
@@ -2927,11 +2927,10 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "",
           "color": "#818cf8",
-          "price": 25253.14,
-          "dayChangePct": 2.74,
-          "monthChangePct": -7.31,
+          "price": 24898.39,
+          "dayChangePct": -1.4,
+          "monthChangePct": -8.62,
           "historyLabels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -2940,10 +2939,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "historyValues": [
-            26477.81,
             26549.85,
             26184.72,
             25437.0,
@@ -2952,7 +2951,8 @@ window.BRIEFING_PORTAL_DATA = {
             25736.51,
             24315.0,
             24579.43,
-            25253.14
+            25253.14,
+            24898.39
           ]
         },
         {
@@ -2962,11 +2962,10 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "tech",
           "unit": "",
           "color": "#a855f7",
-          "price": 10033.93,
-          "dayChangePct": 6.85,
-          "monthChangePct": -18.0,
+          "price": 9855.04,
+          "dayChangePct": -1.78,
+          "monthChangePct": -19.46,
           "historyLabels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -2975,10 +2974,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "historyValues": [
-            11482.5,
             11684.0,
             11518.2,
             10688.8,
@@ -2987,7 +2986,8 @@ window.BRIEFING_PORTAL_DATA = {
             10268.65,
             9011.14,
             9390.25,
-            10033.93
+            10033.93,
+            9855.04
           ]
         },
         {
@@ -2997,11 +2997,10 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "%",
           "color": "#f43f5e",
-          "price": 4.86,
-          "dayChangePct": 0.1,
-          "monthChangePct": -7.25,
+          "price": 5.01,
+          "dayChangePct": 2.96,
+          "monthChangePct": -4.43,
           "historyLabels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -3010,10 +3009,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "historyValues": [
-            4.99,
             5.05,
             4.99,
             4.93,
@@ -3022,7 +3021,8 @@ window.BRIEFING_PORTAL_DATA = {
             4.89,
             4.84,
             4.86,
-            4.86
+            4.86,
+            5.01
           ]
         },
         {
@@ -3032,9 +3032,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "원",
           "color": "#10b981",
-          "price": 1338.98,
-          "dayChangePct": -1.74,
-          "monthChangePct": -0.14,
+          "price": 1343.71,
+          "dayChangePct": -1.39,
+          "monthChangePct": 0.21,
           "historyLabels": [
             "10/28",
             "10/29",
@@ -3057,7 +3057,7 @@ window.BRIEFING_PORTAL_DATA = {
             1340.07,
             1356.34,
             1362.7,
-            1338.98
+            1343.71
           ]
         },
         {
@@ -3067,9 +3067,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "gold",
           "unit": "$",
           "color": "#fbbf24",
-          "price": 4082.1,
-          "dayChangePct": -0.79,
-          "monthChangePct": -2.59,
+          "price": 4027.5,
+          "dayChangePct": -2.11,
+          "monthChangePct": -3.89,
           "historyLabels": [
             "10/28",
             "10/29",
@@ -3092,7 +3092,7 @@ window.BRIEFING_PORTAL_DATA = {
             4113.5,
             4074.9,
             4114.5,
-            4082.1
+            4027.5
           ]
         },
         {
@@ -3103,9 +3103,9 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "만원",
           "color": "#f97316",
           "scale": 0.0001,
-          "price": 9941,
-          "dayChangePct": -1.67,
-          "monthChangePct": -10.55,
+          "price": 9841,
+          "dayChangePct": -2.66,
+          "monthChangePct": -11.45,
           "historyLabels": [
             "11/01",
             "11/02",
@@ -3128,7 +3128,7 @@ window.BRIEFING_PORTAL_DATA = {
             10330,
             10173,
             10109,
-            9941
+            9841
           ]
         },
         {
@@ -3138,11 +3138,10 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "tech",
           "unit": "$",
           "color": "#22c55e",
-          "price": 178.67,
-          "dayChangePct": -4.27,
-          "monthChangePct": -21.05,
+          "price": 167.62,
+          "dayChangePct": -6.18,
+          "monthChangePct": -25.94,
           "historyLabels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -3151,10 +3150,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "historyValues": [
-            217.94,
             215.38,
             213.66,
             204.64,
@@ -3163,7 +3162,8 @@ window.BRIEFING_PORTAL_DATA = {
             200.13,
             181.6,
             186.64,
-            178.67
+            178.67,
+            167.62
           ]
         },
         {
@@ -3173,11 +3173,10 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "tech",
           "unit": "$",
           "color": "#06b6d4",
-          "price": 388.62,
-          "dayChangePct": 3.51,
-          "monthChangePct": -12.54,
+          "price": 390.13,
+          "dayChangePct": 0.39,
+          "monthChangePct": -12.2,
           "historyLabels": [
-            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -3186,10 +3185,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09"
+            "11/09",
+            "11/10"
           ],
           "historyValues": [
-            436.87,
             439.51,
             431.81,
             406.13,
@@ -3198,7 +3197,8 @@ window.BRIEFING_PORTAL_DATA = {
             395.75,
             353.1,
             375.44,
-            388.62
+            388.62,
+            390.13
           ]
         },
         {
@@ -3209,9 +3209,10 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "원",
           "color": "#3b82f6",
           "price": 198900.0,
-          "dayChangePct": 4.74,
+          "dayChangePct": 5.41,
           "monthChangePct": -20.6,
           "historyLabels": [
+            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -3220,10 +3221,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09",
-            "11/10"
+            "11/09"
           ],
           "historyValues": [
+            222000.0,
             242000.0,
             232000.0,
             225000.0,
@@ -3232,8 +3233,7 @@ window.BRIEFING_PORTAL_DATA = {
             218000.0,
             201500.0,
             188700.0,
-            189900.0,
-            198900.0
+            189900.0
           ]
         },
         {
@@ -3244,9 +3244,10 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "원",
           "color": "#ec4899",
           "price": 1212000.0,
-          "dayChangePct": 6.69,
+          "dayChangePct": 7.07,
           "monthChangePct": -24.49,
           "historyLabels": [
+            "10/27",
             "10/28",
             "10/29",
             "10/30",
@@ -3255,10 +3256,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/04",
             "11/05",
             "11/06",
-            "11/09",
-            "11/10"
+            "11/09"
           ],
           "historyValues": [
+            1341000.0,
             1487000.0,
             1526000.0,
             1418000.0,
@@ -3267,8 +3268,7 @@ window.BRIEFING_PORTAL_DATA = {
             1396000.0,
             1264000.0,
             1132000.0,
-            1136000.0,
-            1212000.0
+            1136000.0
           ]
         },
         {
@@ -3278,9 +3278,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "$",
           "color": "#eab308",
-          "price": 85.71,
-          "dayChangePct": -1.31,
-          "monthChangePct": -8.57,
+          "price": 86.19,
+          "dayChangePct": -0.76,
+          "monthChangePct": -8.05,
           "historyLabels": [
             "10/28",
             "10/29",
@@ -3303,7 +3303,7 @@ window.BRIEFING_PORTAL_DATA = {
             90.52,
             90.83,
             86.85,
-            85.71
+            86.19
           ]
         },
         {
@@ -3313,9 +3313,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "",
           "color": "#94a3b8",
-          "price": 101.7,
-          "dayChangePct": 0.05,
-          "monthChangePct": -0.86,
+          "price": 102.32,
+          "dayChangePct": 0.66,
+          "monthChangePct": -0.26,
           "historyLabels": [
             "10/28",
             "10/29",
@@ -3338,11 +3338,18 @@ window.BRIEFING_PORTAL_DATA = {
             101.55,
             102.3,
             101.65,
-            101.7
+            102.32
           ]
         }
       ],
       "liveHeadlines": [
+        {
+          "category": "macro",
+          "source": "CNBC Economy",
+          "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+          "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+          "pubDate": "Tue, 10 Nov 2026 16:47:05"
+        },
         {
           "category": "macro",
           "source": "CNBC Economy",
@@ -3372,46 +3379,39 @@ window.BRIEFING_PORTAL_DATA = {
           "pubDate": "Mon, 09 Nov 2026 02:50:22"
         },
         {
-          "category": "macro",
-          "source": "CNBC Economy",
-          "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
-          "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
-          "pubDate": "Fri, 06 Nov 2026 20:11:17"
+          "category": "tech",
+          "source": "CNBC Tech",
+          "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
+          "link": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
+          "pubDate": "Tue, 10 Nov 2026 15:01:21"
         },
         {
           "category": "tech",
           "source": "CNBC Tech",
-          "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
-          "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-          "pubDate": "Tue, 10 Nov 2026 10:02:23"
+          "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+          "link": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+          "pubDate": "Tue, 10 Nov 2026 18:23:36"
         },
         {
           "category": "tech",
           "source": "CNBC Tech",
-          "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
-          "link": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
-          "pubDate": "Tue, 10 Nov 2026 09:01:37"
+          "title": "China panel chair Moolenaar demands answers on Nvidia CEO's alleged affair with a Chinese spy",
+          "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+          "pubDate": "Tue, 10 Nov 2026 18:22:44"
         },
         {
           "category": "tech",
           "source": "CNBC Tech",
-          "title": "TSMC's October sales jump as global chip boom rolls on",
-          "link": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
-          "pubDate": "Tue, 10 Nov 2026 05:42:42"
+          "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+          "link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+          "pubDate": "Tue, 10 Nov 2026 15:04:23"
         },
         {
           "category": "tech",
           "source": "CNBC Tech",
-          "title": "Jim Cramer says Anthropic's IPO could make or break the AI trade. Here's why",
-          "link": "https://www.cnbc.com/2026/11/09/anthropic-ipo-ai-trade-jim-cramer.html",
-          "pubDate": "Mon, 09 Nov 2026 23:30:15"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "Jim Cramer says Nvidia investors need to prepare for a future without Jensen Huang",
-          "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-probe-data-centers-cramer.html",
-          "pubDate": "Mon, 09 Nov 2026 23:24:05"
+          "title": "Nvidia scandal fails to bring down the tech bulls as spy investigation widens",
+          "link": "https://www.cnbc.com/2026/11/10/nvidia-scandal-fails-to-bring-down-the-tech-bulls-as-spy-investigation-widens.html",
+          "pubDate": "Tue, 10 Nov 2026 11:41:56"
         },
         {
           "category": "realestate",
@@ -3486,6 +3486,13 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "crypto",
           "source": "Google 뉴스 (비트코인 ETF)",
+          "title": "비트코인 ETF, 규제 풀리면 곧바로 나올 수 있을까 - 한경매거진",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZU1M0b05vNE1RVl9ZdEN0M3Zacmc0UXREYktNLTl2Sy1oSENHZjJBSUZ3N1JzMk9UV29FUHh5UVZIRmpCUUJfTTQzbHZFN3hDMkdDSUtOSURJV0VGN25RX1NteFBVOVlt?oc=5",
+          "pubDate": "Mon, 09 Nov 2026 21:00:00"
+        },
+        {
+          "category": "crypto",
+          "source": "Google 뉴스 (비트코인 ETF)",
           "title": "리플 1.16달러 흔들…비트코인 ETF 4억달러 유출 직격 - 글로벌이코노믹",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLWhKX1ZxZUQtc3FqaXVrRGRhQktMTnZURzZtVzR1WlBHSjhnYWtFZG80THl5ajFsU0hGbHNvYjMxMWRyaUdnMW5WbGZaYzVNY1VMUW1WYUNqUVVDbHZ4N1BrdHZBcmRYd3BRM0Y1MEpHV0hBLXR4dzRYeUl1TW0tN1FXRmQ0UmF0?oc=5",
           "pubDate": "Sun, 08 Nov 2026 21:15:00"
@@ -3500,13 +3507,6 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "crypto",
           "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "디지털자산 판이 바뀐다… 국회서 '기관 중심 시대' 해법 찾는다 - 블록체인투데이",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oYm5GNjRuT1BjajFZZWdfdEVnRmFtZVNHek1hMi15ZmFtTS1ya0d3b3dRN0dsdDZIanFyMHVOd0ZlaVN4dXpJYVJNd2tzaWlXWWZ2YnZzUnlxdkVxd0RmbGo2V0xsQUpDME0tNWp1Wlg?oc=5",
-          "pubDate": "Mon, 09 Nov 2026 23:48:32"
-        },
-        {
-          "category": "crypto",
-          "source": "Google 뉴스 (비트코인 ETF)",
           "title": "비트코인 ETF서 12억8,000만 달러 증발…이더리움 6주 연속 유출, 기관투자자 떠나나? - 코인리더스",
           "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9na0g3QUV0UFJEaHRZQmdHVXMzWHB0Vjd6UG95TUpJQmhVdFMyTHBDWkVzMjVvVHF5c2FMUWJBWDRJR3dkNWtmOHFB?oc=5",
           "pubDate": "Sun, 08 Nov 2026 22:41:00"
@@ -3514,9 +3514,9 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "crypto",
           "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "비트코인 ETF, 3거래일째 순유출 흐름…비트와이즈 \"기관 이탈 아냐\" - 디지털투데이",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OenUtdlFLaW1ab2o3bThROVF0akFJdFJYYURPQWFNZll0akdCTmVqYXZYS00xeFRaQ01Ma3hobTUyRGxMRnduSV84bERQRXdrN3FKRUZkdTVQNElwZE1ra0toUnJ4VERSNlRXaWlVX21WY0k?oc=5",
-          "pubDate": "Thu, 05 Nov 2026 05:45:34"
+          "title": "디지털자산 판이 바뀐다… 국회서 '기관 중심 시대' 해법 찾는다 - 블록체인투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oYm5GNjRuT1BjajFZZWdfdEVnRmFtZVNHek1hMi15ZmFtTS1ya0d3b3dRN0dsdDZIanFyMHVOd0ZlaVN4dXpJYVJNd2tzaWlXWWZ2YnZzUnlxdkVxd0RmbGo2V0xsQUpDME0tNWp1Wlg?oc=5",
+          "pubDate": "Mon, 09 Nov 2026 23:48:32"
         }
       ],
       "agendas": [
@@ -3630,7 +3630,6 @@ window.BRIEFING_PORTAL_DATA = {
             "title": "미국 10년물 국채금리(^TNX) 최근 추이 및 핵심 저항선 (%)",
             "subtitle": "4.88% 단기 피크 테스트 후 유가 안정에 힘입어 4.86%로 진정… 5.0% 돌파 공포 후퇴",
             "labels": [
-              "10/27",
               "10/28",
               "10/29",
               "10/30",
@@ -3639,10 +3638,10 @@ window.BRIEFING_PORTAL_DATA = {
               "11/04",
               "11/05",
               "11/06",
-              "11/09"
+              "11/09",
+              "11/10"
             ],
             "values": [
-              4.99,
               5.05,
               4.99,
               4.93,
@@ -3651,13 +3650,14 @@ window.BRIEFING_PORTAL_DATA = {
               4.89,
               4.84,
               4.86,
-              4.86
+              4.86,
+              5.01
             ],
             "unit": "%",
             "color": "#f59e0b",
             "benchmark_val": 4.5,
             "benchmark_label": "주식시장 부담 임계선 4.50%",
-            "badge_text": "LIVE 4.86%",
+            "badge_text": "LIVE 5.01%",
             "annotations": [
               {
                 "index": 7,
@@ -3935,13 +3935,13 @@ window.BRIEFING_PORTAL_DATA = {
               1340.07,
               1356.34,
               1362.7,
-              1338.98
+              1343.71
             ],
             "unit": "원",
             "color": "#10b981",
             "benchmark_val": 1350.0,
             "benchmark_label": "상단 저항선 1,350원",
-            "badge_text": "LIVE 1,338.98원"
+            "badge_text": "LIVE 1,343.71원"
           },
           "keyMetrics": [
             {
@@ -4556,13 +4556,13 @@ window.BRIEFING_PORTAL_DATA = {
               4113.5,
               4074.9,
               4114.5,
-              4082.1
+              4027.5
             ],
             "unit": "$",
             "color": "#fbbf24",
             "benchmark_val": 4000.0,
             "benchmark_label": "구조적 지지선 $4,000/oz",
-            "badge_text": "LIVE 4,082.10$",
+            "badge_text": "LIVE 4,027.50$",
             "annotations": [
               {
                 "index": 7,
@@ -4898,13 +4898,13 @@ window.BRIEFING_PORTAL_DATA = {
               10330,
               10173,
               10109,
-              9941
+              9841
             ],
             "unit": "만원",
             "color": "#f97316",
             "benchmark_val": 10800.0,
             "benchmark_label": "핵심 저항선 10800만원",
-            "badge_text": "LIVE 9941만원",
+            "badge_text": "LIVE 9841만원",
             "annotations": [
               {
                 "index": 7,
@@ -4915,7 +4915,7 @@ window.BRIEFING_PORTAL_DATA = {
           "keyMetrics": [
             {
               "label": "비트코인 시세",
-              "value": "9941만원",
+              "value": "9841만원",
               "change": "-1.89% (글로벌 ~$75,600 부근)"
             },
             {
