@@ -1,41 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">엔비디아 베라 루빈 'NVHBM' 커스텀 베이스 다이(TSMC 3nm) 및 12단/16단 전략</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">GPU 다이의 메모리 컨트롤러를 HBM 베이스 다이(TSMC 3nm)로 이동 + SK하이닉스 MR-MUF·삼성 턴키 실용주의 결합</text>
-    <line x1="450" y1="268" x2="190" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#6d28d9" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">엔비디아(NVDA) 최근 10거래일 주가 추이 및 $173.73(+2.87%) 반등 ($)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">전일 $168.89 저점에서 코어위브(CoreWeave) AI 클라우드 호실적에 힘입어 $173.73(+2.87%)으로 즉각 반등 성공</text>
     
-    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
-    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
-    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">NVHBM Custom Logic</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">TSMC 3nm Base Die</text>
+        <rect x="660" y="22" width="190" height="34" rx="17" fill="#f0f9ff" stroke="#16a34a" stroke-width="1.8"/>
+        <text x="755" y="44" fill="#16a34a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">NVDA $173.73 (+2.87%)</text>
+        
+    <line x1="105" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">222$</text><line x1="105" y1="181.2" x2="850" y2="181.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="186.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">207$</text><line x1="105" y1="257.5" x2="850" y2="257.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="262.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">192$</text><line x1="105" y1="333.8" x2="850" y2="333.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="338.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">177$</text><line x1="105" y1="410.0" x2="850" y2="410.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="415.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">163$</text>
+    <polygon points="105.0,410.0 105.0,146.6 187.8,193.1 270.6,206.5 353.3,182.6 436.1,216.4 518.9,312.1 601.7,286.0 684.4,327.2 767.2,377.7 850.0,352.7 850.0,410.0" fill="#16a34a" fill-opacity="0.12"/>
+    <polyline fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="105.0,146.6 187.8,193.1 270.6,206.5 353.3,182.6 436.1,216.4 518.9,312.1 601.7,286.0 684.4,327.2 767.2,377.7 850.0,352.7"/>
     
+        <line x1="105" y1="371.9" x2="850" y2="371.9" stroke="#e11d48" stroke-width="2.2" stroke-dasharray="7,5"/>
+        <rect x="630" y="341.9" width="215" height="28" rx="6" fill="#ffe4e6" stroke="#fda4af" stroke-width="1.2"/>
+        <text x="738" y="360.9" fill="#be123c" font-family="Pretendard, sans-serif" font-size="14" font-weight="800" text-anchor="middle">핵심 지지선 $170.0</text>
+        
+    <circle cx="105.0" cy="146.6" r="5.5" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/><circle cx="767.2" cy="377.7" r="5.5" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/><circle cx="850.0" cy="352.7" r="7.5" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/><rect x="760.0" y="310.7" width="106" height="30" rx="8" fill="#16a34a"/><text x="813.0" y="330.7" fill="#ffffff" font-family="Pretendard, sans-serif" font-size="15" font-weight="800" text-anchor="middle">174$</text>
     
-        <g>
-            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">NVHBM 컨트롤러 이식</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">GPU ➔ HBM 베이스 다이</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">메모리 컨트롤러를 HBM 최하단 로직 층에 직접 통합</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">TSMC 3나노 공정 통일</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">SK · 삼성 공통 채택</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">엔비디아 요청으로 베이스 다이 로직을 TSMC 3nm로 표준화</text>
-        </g>
-        
-        <g>
-            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="190" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">12단(36GB) 주력 + 16단(48GB)</text>
-            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">수율·발열 최적 밸런스</text>
-            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">대량 양산은 12단 HBM4 주력, 초고밀도용 16단 병행</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#6d28d9" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#6d28d9" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">2,048비트 I/O & MR-MUF</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">초광대역 · 휨(Warpage) 제어</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">SK하이닉스 Advanced MR-MUF 등 극한 패키징 적용</text>
-        </g>
-        
+            <line x1="850.0" y1="352.7" x2="850.0" y2="308.7" stroke="#d97706" stroke-width="2"/>
+            <rect x="735.0" y="278.7" width="230" height="30" rx="7" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="850.0" y="298.7" fill="#92400e" font-family="Pretendard, sans-serif" font-size="14" font-weight="800" text-anchor="middle">코어위브 호실적으로 +2.87% 반등</text>
+            
+    <text x="105.0" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">10/29</text><text x="187.8" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">10/30</text><text x="270.6" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/02</text><text x="353.3" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/03</text><text x="436.1" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/04</text><text x="518.9" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/05</text><text x="601.7" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/06</text><text x="684.4" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/09</text><text x="767.2" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/10</text><text x="850.0" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/11</text>
 </svg>

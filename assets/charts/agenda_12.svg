@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">로켓 발사체 세대별 kg당 저궤도(LEO) 발사 비용 감소 추이 및 스타십 목표치 ($/kg)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">스타십 15차 비행의 '부스터+스타십 상단 양방향 젓가락 로봇팔 캐치' 성공 시 우주 물류비 혁명적 하락 예고</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">내일(11/13) 스타십 15차 비행의 '슈퍼헤비 V3 부스터 + 스타십 상단 연속 타워 캐치' 성공 시 우주 경제 빅뱅 예고</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#0284c7"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">kg당 발사 비용 ($/kg)</text>

@@ -1,7 +1,7 @@
 {
   "title": "📌 7일 단위 최중요 브리핑 합산 (Weekly Core)",
   "description": "7일마다 만료되는 일별 브리핑 중에서 중요도가 높은 핵심 안건(CRITICAL 및 시사점 전환·신규·강화)만 걸러내어 합산한 주간 핵심 아카이브입니다.",
-  "updatedAt": "2026-11-11 20:00:00 KST",
+  "updatedAt": "2026-11-12 08:00:00 KST",
   "agendas": [
     {
       "id": "agenda_01",
@@ -100,7 +100,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_09",
@@ -187,7 +187,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_16",
@@ -290,7 +290,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_17",
@@ -375,7 +375,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_21",
@@ -460,7 +460,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_06",
@@ -559,7 +559,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_37",
@@ -644,7 +644,92 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
+    },
+    {
+      "id": "agenda_40",
+      "category": "realestate",
+      "categoryLabel": "한국 부동산 · 정책 · 개발",
+      "importance": "CRITICAL",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🔵 돈이 되는 부동산 세테크 추가 (서울 아파트값 상승발 '종부세(종합부동산세) 급증 시뮬레이션' & '부담부증여·일시적 2주택' 절세 공식 + GTX 선별)",
+      "title": "[11/12 모닝·부동산 세테크 & GTX] 서울 아파트 보유세(종부세) 급증 시뮬레이션 경고와 '부담부증여 · 일시적 2주택 비과세' 실전 절세법",
+      "subtitle": "올해 서울 상급지 매매가·공시가격 상승으로 종합부동산세 부담 급증 예고… 다주택자·고가주택 보유자의 '부담부증여' 활용 및 GTX 옥석 가리기",
+      "chartImage": "assets/charts/agenda_40.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "서울 고가·다주택 보유세(종부세) 부담 증가 및 절세 전략(부담부증여·일시적2주택) 적용 시 절감 효과 비교",
+        "subtitle": "서울 주요 아파트 가격 상승으로 종부세 시뮬레이션 세액 급증… 전세보증금 낀 '부담부증여' 및 '일시적 2주택 비과세'로 수천만 원 절세",
+        "categories": [
+          "서울핵심지 종부세증가율(%)",
+          "일반증여시 세금부담(지수)",
+          "부담부증여시 절세후부담",
+          "일시적2주택 비과세절감",
+          "GTX-A 개통지 실수요지수"
+        ],
+        "series_name_1": "증가율 (%) / 세금부담·수요 지수 (기준=100)",
+        "values_1": [
+          38.5,
+          100.0,
+          62.0,
+          15.0,
+          119.5
+        ],
+        "color_1": "#10b981",
+        "unit": ""
+      },
+      "keyMetrics": [
+        {
+          "label": "11~12월 보유세 이슈",
+          "value": "서울 아파트 종부세 부담 급증",
+          "change": "강남·한강벨트 등 매매가 상승분이 공시가격에 반영되며 보유세 시뮬레이션 점프"
+        },
+        {
+          "label": "실전 절세 1 (부담부증여)",
+          "value": "전세 끼고 증여해 세율 구간 낮추기",
+          "change": "전세보증금(채무) 부분은 양도세로, 순자산만 증여세로 계산해 누진세율 대폭 절감"
+        },
+        {
+          "label": "실전 절세 2 & GTX 선별",
+          "value": "일시적 2주택 비과세 · GTX-A 우선",
+          "change": "종전주택 3년 내 처분 시 12억 비과세 + GTX는 실개통(동탄·파주) 중심 압축"
+        }
+      ],
+      "facts": [
+        "11월 12일 오전 세무 및 부동산 시황에 따르면, 올해 강남 3구와 마포·성동·용산 등 서울 주요 아파트 가격이 크게 오른 여파로 **올해 말 고지될 종합부동산세(종부세)와 내년 보유세 시뮬레이션 금액이 큰 폭으로 뛰어오르면서** 자산가들의 절세 상담이 폭주하고 있습니다.",
+        "**첫째(부담부증여 · Burdened Gift 전략)**: 다주택자나 고가 주택 보유자가 종부세와 향후 양도세를 동시에 줄이는 가장 강력한 합법적 기술은 **'전세보증금이나 대출(채무)을 끼고 자녀·배우자에게 증여하는 부담부증여'**입니다. 전체 집값에 높은 증여세 누진세율(10~50%)을 맞는 대신, 전세보증금만큼은 유상양도(양도세)로 빼고 나머지 순자산에 대해서만 증여세를 내기 때문에 전체 세금을 수천만 원 아낄 수 있습니다.",
+        "**둘째(일시적 1가구 2주택 비과세 & GTX 선별)**: 갈아타기 실수요자는 신규 주택 취득 후 **3년 이내에 기존 주택을 매도하면 양도가액 12억 원까지 비과세(초과분도 최대 80% 장기보유특별공제)**를 받는 규정을 철저히 지켜야 합니다. 또한 수도권 외곽 투자 시에는 개통 시차가 큰 후속 노선보다 **실제 개통 효과가 검증된 GTX-A(동탄·파주 운정)** 초역세권으로 압축해야 보유세 대비 실익을 지킬 수 있습니다."
+      ],
+      "previousImplication": "동탄·파주(실개통 체감) vs 양주·평택(착공·연장 시차 및 선반영 점검) 거점별 온도차가 규명됨 (11/11 이브닝).",
+      "newCatalyst": "서울 아파트 가격 상승에 따른 '종합부동산세(종부세) 급증 시뮬레이션' 발표 및 자산가들의 '부담부증여·일시적 2주택 비과세' 절세 전략 수요 급증.",
+      "updatedImplication": "부동산에서도 '얼마에 사느냐'만큼 '보유세(종부세)와 양도세·증여세를 어떻게 줄이느냐'가 실질 수익률을 좌우함. 어설픈 외곽 다주택(GTX 미개통 비역세권 등)을 여러 채 들고 있으면서 종부세와 양도세 중과를 맞기보다, 일시적 2주택 비과세나 부담부증여를 활용해 '서울 핵심지 또는 GTX-A 실개통 초역세권의 똘똘한 1채(또는 부부 공동명의)'로 압축하는 것이 세테크와 자산 증식을 동시에 잡는 길임.",
+      "implicationHistory": [
+        {
+          "time": "11/11 08:00",
+          "text": "🟢 GTX-A 개통 및 B·C 공사 속도전 속 '역세권 접근성·입주물량·대출능력' 3대 선별 공식 확립"
+        },
+        {
+          "time": "11/11 20:00",
+          "text": "🟡 동탄·파주(실개통 체감) vs 양주·평택(착공·연장 시차 및 선반영 점검) 거점별 온도차 규명"
+        },
+        {
+          "time": "11/12 08:00",
+          "text": "🔵 서울 종부세 급증 대비 '부담부증여·부부 공동명의·일시적 2주택 비과세' 절세 공식 및 GTX-A 압축 전략 확립"
+        }
+      ],
+      "actionPoints": [
+        "1주택자 종부세 절세(공동명의): 공시가격 12억 원이 넘는 서울 고가 1주택자는 단독명의(12억 공제)보다 부부 공동명의(각 9억씩 총 18억 원 공제)가 유리한지 이번 달 세무 시뮬레이션 필수",
+        "다주택자 부담부증여 점검: 전세가율이 50% 이상으로 올라온 서울 중상급지 아파트를 자녀에게 증여할 때는 전세보증금을 활용한 '부담부증여'와 일반 증여의 세액을 비교한 뒤 실행"
+      ],
+      "sources": [
+        "국세청 종합부동산세 및 부담부증여 가이드",
+        "서울 주요 단지 보유세 시뮬레이션 리포트",
+        "국토교통부 GTX 추진단"
+      ],
+      "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
+      "importanceScore": 80,
+      "archiveTier": "7일 주간 핵심",
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_02",
@@ -747,7 +832,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_07",
@@ -832,7 +917,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_20",
@@ -917,7 +1002,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_27",
@@ -1020,7 +1105,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_32",
@@ -1105,7 +1190,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_36",
@@ -1190,7 +1275,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_14",
@@ -1277,7 +1362,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_23",
@@ -1362,7 +1447,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_18",
@@ -1455,7 +1540,7 @@
       "sourceEdition": "2026년 11월 11일 08:00 AM 모닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_15",
@@ -1540,7 +1625,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 60,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_39",
@@ -1639,7 +1724,92 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 60,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
+    },
+    {
+      "id": "agenda_33",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "HIGH",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🔵 신규 밸류에이션 지표 ('비트코인 대 금 비율(BTC-to-Gold Ratio) 17~21배' 저평가 구간 도달 + 나스닥(+1.60%) 동조화 반등)",
+      "title": "[11/12 모닝·BTC/Gold 상대가치] '비트코인 1개 = 금 17~21온스(BTC/Gold Ratio)' 상대적 저평가 구간 도달과 기술주 동조화 반등",
+      "subtitle": "금값이 $4,000선으로 오른 반면 비트코인이 9872만원($74.6K)으로 쉬어가며 금 대비 비트코인 교환비율 17~21배 바닥권 진입… 순환매 매력 부각",
+      "chartImage": "assets/charts/agenda_33.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "비트코인 대 금 교환비율(BTC-to-Gold Ratio, 온스) 추이 및 상대적 밸류에이션 비교",
+        "subtitle": "과거 고점기(1 BTC = 금 35~37온스) 대비 현재 1 BTC = 금 17~21온스 수준으로 압축… 금 대비 비트코인의 상대적 가격 매력 급증",
+        "categories": [
+          "과거 고점기(온스)",
+          "장기 적정평균(온스)",
+          "현재 비율 상단(21x)",
+          "현재 비율 하단(17x)",
+          "향후 리레이팅 목표"
+        ],
+        "series_name_1": "비트코인 1개당 금 온스 수 (oz)",
+        "values_1": [
+          36.0,
+          28.0,
+          21.0,
+          17.5,
+          30.0
+        ],
+        "color_1": "#a855f7",
+        "unit": "oz"
+      },
+      "keyMetrics": [
+        {
+          "label": "BTC-to-Gold 비율",
+          "value": "1 BTC = 금 17 ~ 21 온스",
+          "change": "금값 강세($4,000+) 대비 비트코인 기간 조정으로 상대 비율 대폭 하락"
+        },
+        {
+          "label": "기관 상대가치 평가",
+          "value": "디지털 골드의 저평가 영역",
+          "change": "물리적 금 대비 비트코인의 희소성(2,100만 개 한도) 재부각 타점"
+        },
+        {
+          "label": "단기 반등 촉매",
+          "value": "나스닥 +1.60% · SOX +5.66%",
+          "change": "간밤 기술주 급반등에 따른 크립토 시차(Lagging) 캐치업 시동"
+        }
+      ],
+      "facts": [
+        "11월 12일 오전 글로벌 매크로 및 디지털자산 분석가들이 가장 주목하는 상대가치 지표는 **'비트코인 대 금 비율(BTC-to-Gold Ratio, 비트코인 1개로 살 수 있는 금의 온스 수)'**입니다.",
+        "올해 국제 금 가격이 온스당 $4,000~$4,050선으로 크게 뛰어오른 반면 비트코인이 최근 9872만원($74,600) 구간에서 조정을 거치면서, 현재 **비트코인 1개는 금 약 17~21온스(17x~21x)** 수준에서 거래되고 있습니다. 이는 과거 상승장 당시 1 BTC가 금 35온스 이상과 맞먹었던 것과 비교하면 **금 대비 비트코인이 역사적 저평가 영역**에 와 있음을 뜻합니다.",
+        "특히 간밤 뉴욕 증시에서 기술주(SOX +5.66%, 나스닥 +1.60%)가 강하게 턴어라운드하고 금 선물($3,994.30)이 소폭 숨고르기에 들어가면서, 매크로 헤지펀드들 사이에서 **'많이 오른 금과 반도체 수익의 일부를 상대적으로 덜 오른 비트코인(17~21x Gold)으로 순환 배치'**하려는 움직임이 포착되고 있습니다."
+      ],
+      "previousImplication": "기관의 '미 금리·AI 자본경쟁·입법 명확성' 3대 리스크 재산정이 확인되며 AI 반도체-BTC 병행 보유가 유효함 (11/11 이브닝).",
+      "newCatalyst": "'BTC-to-Gold 비율 17~21배' 상대적 저평가 지표 부각 및 간밤 나스닥(+1.60%)·SOX(+5.66%) 랠리에 힘입은 $74,600(9872만원) 회복.",
+      "updatedImplication": "금과 비트코인은 경쟁 관계가 아니라 서로 시차를 두고 오르는 '형제 희소자산'임. 금이 먼저 $4,000 시대를 열어젖히며 BTC/Gold 비율이 17~21배까지 낮아진 지금은, 비트코인이 그 격차를 메우기 위해 뒤따라 오를 차례임.",
+      "implicationHistory": [
+        {
+          "time": "11/11 08:00",
+          "text": "🔴 미 CPI 쇼크 및 IBIT 7일 연속 환매로 코인베이스 마이너스 프리미엄(할인) 재확대 경계"
+        },
+        {
+          "time": "11/11 20:00",
+          "text": "🟡 기관의 '미 금리·AI 자본경쟁·입법 명확성' 3대 리스크 재산정 확인… AI 반도체-BTC 병행 보유 유효"
+        },
+        {
+          "time": "11/12 08:00",
+          "text": "🔵 'BTC-to-Gold 비율 17~21배' 상대적 저평가 도달 및 미 기술주 랠리 연동 $74,600(9872만원) 캐치업 개시"
+        }
+      ],
+      "actionPoints": [
+        "금 + 비트코인 바벨 완성: 안전자산인 금($3,994.30)과 고탄력 희소자산인 비트코인(9872만원, 금 대비 17~21배 저평가)을 함께 보유해 시소 수익 극대화",
+        "기술주 동조화 활용: 미국 나스닥·반도체 강세가 이어지는 구간에서 비트코인 현물 비중 유지"
+      ],
+      "sources": [
+        "BTC-to-Gold Ratio Valuation Analysis (17x~21x)",
+        "TradingView Macro Charts",
+        "CoinDesk Institutional Report"
+      ],
+      "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
+      "importanceScore": 60,
+      "archiveTier": "7일 주간 핵심",
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_12",
@@ -1742,7 +1912,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_22",
@@ -1836,7 +2006,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_31",
@@ -1939,7 +2109,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     },
     {
       "id": "agenda_08",
@@ -2036,177 +2206,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 50,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
-    },
-    {
-      "id": "agenda_10",
-      "category": "tech",
-      "categoryLabel": "반도체 · 빅테크 · 2나노",
-      "importance": "HIGH",
-      "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (빅테크 자체 AI 칩 ASIC 확대)",
-      "title": "MS·구글·메타·아마존의 AI 인프라 CapEx 질주와 자체 맞춤형 칩(ASIC) 내재화 가속",
-      "subtitle": "잉여현금흐름(FCF) 수익화 검증 요구 속 엔비디아 의존도 낮추기 위한 Maia·TPU 등 자체 실리콘 확대",
-      "chartImage": "assets/charts/agenda_10.svg",
-      "chartConfig": {
-        "type": "bar",
-        "title": "4대 하이퍼스케일러(MS·구글·메타·아마존) 합산 연간 AI CapEx 추이 ($B)",
-        "subtitle": "다년간의 인프라 구축 사이클 지속… 비용 효율화를 위해 자체 주문형 반도체(ASIC) 비중 급증",
-        "categories": [
-          "2023",
-          "2024",
-          "2025",
-          "2026(E)",
-          "2027(E)"
-        ],
-        "series_name_1": "빅테크 합산 CapEx ($B)",
-        "values_1": [
-          148,
-          215,
-          285,
-          345,
-          390
-        ],
-        "color_1": "#10b981",
-        "unit": "$B"
-      },
-      "keyMetrics": [
-        {
-          "label": "빅테크 AI 투자 시계",
-          "value": "Multi-Decade",
-          "change": "수십 년 단위의 기간 인프라 구축"
-        },
-        {
-          "label": "핵심 전략 변화",
-          "value": "Custom ASIC 확대",
-          "change": "MS Maia · Google TPU · AWS Trainium"
-        },
-        {
-          "label": "월가 핵심 요구",
-          "value": "FCF 수익화 증명",
-          "change": "투자 대비 현금흐름 회수 타임라인 점검"
-        }
-      ],
-      "facts": [
-        "마이크로소프트(Microsoft), 구글(Alphabet), 메타(Meta), 아마존(AWS) 등 4대 하이퍼스케일러의 연간 설비투자(CapEx) 예산이 역대 최고치를 경신하며 전 세계 AI 데이터센터 확장을 주도하고 있습니다. 빅테크 경영진은 이번 AI 인프라 투자를 단순한 1~2년짜리 IT 사이클이 아닌 향후 수십 년간 지속될 기반 시설 구축으로 규정하고 있습니다.",
-        "다만 월가 투자자들은 막대한 CapEx 지출이 실제 잉여현금흐름(FCF)과 소프트웨어 매출로 얼마나 빠르게 회수되는지(Monetization Timeline)를 엄격하게 따지기 시작했습니다.",
-        "이러한 수익성 압박을 타개하기 위해 빅테크들이 선택한 핵심 돌파구는 '자체 AI 칩(Custom Silicon / ASIC) 내재화'입니다. 범용 GPU를 전량 구매하는 대신 자사 워크로드에 최적화된 자체 가속기(구글 TPU, MS Maia, AWS Trainium 등) 비중을 높여 총소유비용(TCO)을 낮추고 있으며, 이는 TSMC와 삼성 파운드리, 그리고 브로드컴(Broadcom)·마벨 등 ASIC 설계 파트너들에게 새로운 대형 수주 기회를 열어주고 있습니다."
-      ],
-      "previousImplication": "빅테크의 AI CapEx가 엔비디아의 범용 GPU 구매에만 90% 이상 독점적으로 집중될 것이라는 시사점.",
-      "newCatalyst": "빅테크 FCF 수익성 검증 압박 심화 및 MS·구글·메타·아마존의 자체 커스텀 AI 가속기(ASIC) 양산 물량 급증.",
-      "updatedImplication": "AI 투자의 총량(CapEx)은 계속 커지되, 그 내부 구성이 '범용 GPU(학습 및 고성능 추론) + 자체 커스텀 ASIC(대규모 서비스 추론 비용 절감)'의 투트랙으로 빠르게 분화됨.",
-      "implicationHistory": [
-        {
-          "time": "1개월 전",
-          "text": "🟡 빅테크 과잉투자 논란 대두"
-        },
-        {
-          "time": "12시간 전",
-          "text": "🟢 빅테크 CapEx 확대 기조 재확인 및 커스텀 칩 투자 가속"
-        },
-        {
-          "time": "현재 브리핑",
-          "text": "🟢 ASIC 생태계 및 선단 파운드리 수혜 시사점 강화"
-        }
-      ],
-      "actionPoints": [
-        "수혜 다변화: 엔비디아 일변도에서 브로드컴(AVGO) 등 커스텀 ASIC 설계 기업 및 파운드리(TSMC)로 AI 포트폴리오 다각화",
-        "빅테크 선별: 자체 클라우드와 광고/B2B 소프트웨어에서 즉각적인 AI 매출 전환이 확인되는 메타·MS·구글 선호"
-      ],
-      "sources": [
-        "FutureX Capital Research",
-        "BusinessKorea Tech",
-        "Hyperscaler Earnings Transcripts"
-      ],
-      "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
-      "importanceScore": 50,
-      "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
-    },
-    {
-      "id": "agenda_13",
-      "category": "gold",
-      "categoryLabel": "금($/oz) · 안전자산",
-      "importance": "HIGH",
-      "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (중앙은행 3분기 321톤 폭풍 매집)",
-      "title": "세계금협회(WGC) 발표 '3분기 중앙은행 금 순매입 321톤(+42% YoY)': 월평균 60톤의 구조적 바닥",
-      "subtitle": "중국 인민은행·폴란드 등 신흥국 외환보유고 다변화 가속… 2022년 이전 평균(월 17톤)의 3.5배 달해",
-      "chartImage": "assets/charts/agenda_13.svg",
-      "chartConfig": {
-        "type": "bar",
-        "title": "글로벌 중앙은행 금 순매입량 비교 (톤, Metric Tons)",
-        "subtitle": "3분기 321톤(+42% YoY) 기록… 월평균 60톤 매입으로 과거 평년(월 17톤) 대비 3.5배 이상의 구조적 수요 지속",
-        "categories": [
-          "2022 이전 월평균",
-          "현재 월평균(GS추정)",
-          "전년 3분기(Q3)",
-          "올해 3분기(Q3)",
-          "올해 누적(YTD)"
-        ],
-        "series_name_1": "중앙은행 금 순매입량 (톤)",
-        "values_1": [
-          17,
-          60,
-          226,
-          321,
-          675
-        ],
-        "color_1": "#f59e0b",
-        "unit": "톤"
-      },
-      "keyMetrics": [
-        {
-          "label": "3분기 중앙은행 매입",
-          "value": "321 톤 (Tons)",
-          "change": "+42% YoY 급증"
-        },
-        {
-          "label": "연간 누적(YTD) 매입",
-          "value": "675 톤",
-          "change": "전년 역대 최고 페이스를 +6% 상회"
-        },
-        {
-          "label": "월평균 구조적 수요",
-          "value": "~60 톤 / 월",
-          "change": "2022년 이전(17톤) 대비 3.5배"
-        }
-      ],
-      "facts": [
-        "세계금협회(World Gold Council, WGC)가 발표한 최신 데이터에 따르면, 전 세계 중앙은행들은 지난 3분기에만 순매수 기준 무려 321메트릭톤(mt)의 금을 사들였습니다. 이는 전년 동기 대비 42% 급증한 수치이자 2024년 말 이후 가장 높은 분기 매입량입니다. 올해 누적(YTD) 순매입량 역시 675톤에 달해 지난해의 사상 최고 기록 페이스를 약 6% 앞지르고 있습니다.",
-        "이러한 공식 부문(Official Sector)의 금 축적은 중국 인민은행(PBOC)의 다년간에 걸친 연속 매입 행진과 폴란드 등 동유럽·신흥국 중앙은행들의 외환보유고 다변화 전략이 주도하고 있습니다.",
-        "골드만삭스 분석에 따르면 글로벌 중앙은행들은 향후 수년간 월평균 약 60톤의 금을 꾸준히 매입할 것으로 추산됩니다. 이는 2022년 러시아-우크라이나 전쟁 및 외환보유고 동결 사태 이전의 역사적 월평균 매입량(약 17톤)보다 3.5배 이상 높은 수준으로, 금 시장에서 가격에 구애받지 않는 거대한 '구조적 안전망(Structural Floor)' 역할을 하고 있습니다."
-      ],
-      "previousImplication": "금 가격이 온스당 $4,000를 넘어서면 가격 부담을 느낀 각국 중앙은행들이 금 매입 속도를 줄일 것이라는 우려.",
-      "newCatalyst": "WGC 3분기 중앙은행 금 순매입 321톤(+42% YoY) 및 YTD 675톤으로 역대 최고 페이스 경신 확인.",
-      "updatedImplication": "중앙은행들의 금 매입은 단기 시세 차익 목적이 아니라 '달러 국채 편중 리스크 축소'라는 국가 전략적 차원에서 이루어지고 있어, 금값이 $4,000/oz를 넘어도 매수세가 꺾이지 않음이 입증됨.",
-      "implicationHistory": [
-        {
-          "time": "1개월 전",
-          "text": "🟢 신흥국 중앙은행 외환보유고 내 금 비중 확대 지속"
-        },
-        {
-          "time": "12시간 전",
-          "text": "🟢 WGC 3분기 중앙은행 순매입 321톤(+42% YoY) 공식 발표"
-        },
-        {
-          "time": "현재 브리핑",
-          "text": "🟢 월 60톤 규모의 중앙은행 수요가 금값 폭락을 막는 절대 방어선으로 확정"
-        }
-      ],
-      "actionPoints": [
-        "장기 투자 시계: 중앙은행이 파는 것이 아니라 오히려 매입량을 42% 늘리고 있다는 점은 금의 장기 우상향 사이클이 끝나지 않았음을 시사",
-        "환율 연동: 원/달러 환율 1,345원대와 결합되어 국내 원화 기준 금 가격 역시 탄탄한 하방 지지력 유지"
-      ],
-      "sources": [
-        "World Gold Council (WGC)",
-        "Kitco News",
-        "TheStreet Commodities"
-      ],
-      "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
-      "importanceScore": 50,
-      "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-11"
+      "promotedAt": "2026-11-12"
     }
   ]
 }
