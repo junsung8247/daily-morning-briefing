@@ -278,7 +278,8 @@
         const subMonthly = document.getElementById("sub-monthly30d");
         const subQuarterly = document.getElementById("sub-quarterly120d");
 
-        if (subDaily) subDaily.textContent = `보관 에디션 ${recent7dEditions.length}회차 (회차당 25건 전체 보존)`;
+        const curCount = (currentEdition.agendas || []).length || 40;
+        if (subDaily) subDaily.textContent = `보관 에디션 ${recent7dEditions.length}회차 (회차당 ${curCount}건 전체 보존)`;
         if (subWeekly) subWeekly.textContent = `중요 선별 ${(weeklyRollup.agendas || []).length}건 합산 보관 중`;
         if (subMonthly) subMonthly.textContent = `최중요 선별 ${(monthlyRollup.agendas || []).length}건 합산 보관 중`;
         if (subQuarterly) subQuarterly.textContent = `분기 핵심 ${(quarterlyRollup.agendas || []).length}건 영구 합산 중`;
@@ -332,7 +333,17 @@
 
     function syncCategoryTabs() {
         const activeAgendas = getActiveAgendasList();
-        const counts = { all: activeAgendas.length, macro: 0, tech: 0, gold: 0, crypto: 0, realestate: 0 };
+        const counts = {
+            all: activeAgendas.length,
+            macro: 0,
+            tech: 0,
+            frontier: 0,
+            geopolitics: 0,
+            equities: 0,
+            gold: 0,
+            crypto: 0,
+            realestate: 0
+        };
         activeAgendas.forEach(a => {
             counts[a.category] = (counts[a.category] || 0) + 1;
         });
@@ -340,8 +351,11 @@
         const labels = {
             all: `전체 안건 (${counts.all})`,
             macro: `🏛️ 거시경제 · 금리 (${counts.macro})`,
-            tech: `🔬 반도체 · 빅테크 · 2나노 (${counts.tech})`,
-            gold: `🥇 금($/oz) · 전망 (${counts.gold})`,
+            tech: `🔬 반도체 · AI 빅테크 (${counts.tech})`,
+            frontier: `🚀 미래기술 · 우주 · 로봇 · 바이오 (${counts.frontier})`,
+            geopolitics: `🌍 전쟁 · 지정학 · 방산 · 원자재 (${counts.geopolitics})`,
+            equities: `📈 한·미 증시 · 산업 · 세테크 (${counts.equities})`,
+            gold: `🥇 금($/oz) · 안전자산 (${counts.gold})`,
             crypto: `₿ 비트코인 95%+ (${counts.crypto})`,
             realestate: `🏢 한국 부동산 · 정책 (${counts.realestate})`
         };

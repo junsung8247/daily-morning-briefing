@@ -1,10 +1,7 @@
 name: Daily Morning & Evening Briefing Auto-Update
 
 on:
-  schedule:
-    # 한국시간(KST) 매일 08:00 (UTC 23:00) 및 20:00 (UTC 11:00) 정각 실행
-    - cron: '0 23,11 * * *'
-  workflow_dispatch: # GitHub 웹에서 언제든 수동 실행 가능
+  workflow_dispatch: # 로컬 AI 에이전트가 정밀 리서치 후 직접 푸시하며, 필요 시 수동 실행만 허용
 
 permissions:
   contents: write

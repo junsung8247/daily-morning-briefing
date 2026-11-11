@@ -24,6 +24,7 @@ from chart_generator import (
 )
 from agendas_part1 import AGENDAS_PART1
 from agendas_part2 import AGENDAS_PART2
+from agendas_part3 import AGENDAS_PART3
 from archive_manager import process_tiered_archives
 
 MARKET_SYMBOLS = [
@@ -38,16 +39,24 @@ MARKET_SYMBOLS = [
     {"symbol": "TSM", "id": "tsm", "name": "TSMC (TSM)", "category": "tech", "unit": "$", "color": "#06b6d4"},
     {"symbol": "005930.KS", "id": "samsung", "name": "삼성전자", "category": "tech", "unit": "원", "color": "#3b82f6"},
     {"symbol": "000660.KS", "id": "skhynix", "name": "SK하이닉스", "category": "tech", "unit": "원", "color": "#ec4899"},
-    {"symbol": "CL=F", "id": "wti", "name": "WTI 원유 선물", "category": "macro", "unit": "$", "color": "#eab308"},
+    {"symbol": "CL=F", "id": "wti", "name": "WTI 원유 선물", "category": "geopolitics", "unit": "$", "color": "#eab308"},
     {"symbol": "DX-Y.NYB", "id": "dxy", "name": "달러 인덱스 (DXY)", "category": "macro", "unit": "", "color": "#94a3b8"},
 ]
 
 RSS_FEEDS = [
     {"category": "macro", "source": "CNBC Economy", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"},
     {"category": "tech", "source": "CNBC Tech", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910"},
+    {"category": "frontier", "source": "Google 뉴스 (우주/로봇/SMR/바이오)", "url": "https://news.google.com/rss/search?q=SpaceX+SMR+%EC%9B%90%EC%A0%84+%ED%9C%B4%EB%A8%B8%EB%85%B8%EC%9D%B4%EB%93%9C+%EB%B9%84%EB%A7%8C%EC%B9%98%EB%A3%8C%EC%A0%9C+%EC%96%91%EC%9E%90%EC%BB%B4%ED%93%A8%ED%8C%85&hl=ko&gl=KR&ceid=KR:ko"},
+    {"category": "geopolitics", "source": "Google 뉴스 (전쟁/지정학/방산/원자재)", "url": "https://news.google.com/rss/search?q=%EB%B0%A9%EC%82%B0+%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98+%EC%A4%91%EB%8F%99+%EA%B4%80%EC%84%B8+%EC%9A%B0%EB%9D%BC%EB%8A%AC+%EA%B5%AC%EB%A6%AC&hl=ko&gl=KR&ceid=KR:ko"},
+    {"category": "equities", "source": "Google 뉴스 (증시/밸류업/절세/ISA)", "url": "https://news.google.com/rss/search?q=%EB%B0%B8%EB%A5%98%EC%97%85+ISA+%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8+%EB%B0%B0%EB%8B%B9+%EC%A1%B0%EC%84%A0&hl=ko&gl=KR&ceid=KR:ko"},
     {"category": "realestate", "source": "Google 뉴스 (한국 부동산/정책)", "url": "https://news.google.com/rss/search?q=%EB%B6%80%EB%8F%99%EC%82%B0+%EC%A0%95%EC%B1%85+%EC%9E%AC%EA%B1%B4%EC%B6%95+DSR+GTX&hl=ko&gl=KR&ceid=KR:ko"},
     {"category": "gold", "source": "Google 뉴스 (금 시세/전망)", "url": "https://news.google.com/rss/search?q=%EA%B8%88+%EC%8B%9C%EC%84%B8+%EC%98%A8%EC%8A%A4+%EC%A4%91%EC%95%99%EC%9D%80%ED%96%89+%EA%B8%88%EA%B0%92&hl=ko&gl=KR&ceid=KR:ko"},
     {"category": "crypto", "source": "Google 뉴스 (비트코인 ETF)", "url": "https://news.google.com/rss/search?q=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8+%ED%98%84%EB%AC%BC+ETF+%EA%B8%B0%EA%B4%80&hl=ko&gl=KR&ceid=KR:ko"},
+]
+
+UNPRODUCTIVE_KEYWORDS = [
+    "연예", "아이돌", "걸그룹", "보이그룹", "예능", "드라마", "열애", "결혼", "이혼", "가수", "배우",
+    "스타", "화보", "팬미팅", "콘서트", "음원", "가십", "celebrity", "gossip", "hollywood", "k-pop"
 ]
 
 
@@ -140,11 +149,14 @@ def fetch_live_rss_headlines():
             with urllib.request.urlopen(req, timeout=6) as resp:
                 xml_bytes = resp.read()
                 root = ET.fromstring(xml_bytes)
-                for item in root.findall(".//item")[:5]:
+                for item in root.findall(".//item")[:6]:
                     title = item.findtext("title") or ""
                     link = item.findtext("link") or ""
                     pub_date = item.findtext("pubDate") or ""
                     if title:
+                        low_t = title.lower()
+                        if any(kw in low_t for kw in UNPRODUCTIVE_KEYWORDS):
+                            continue
                         headlines.append({
                             "category": feed["category"],
                             "source": feed["source"],
@@ -163,8 +175,8 @@ def inject_live_market_into_agendas(agendas, market_data):
     agenda_live_binding = {
         "agenda_02": "us10y",
         "agenda_05": "usdkrw",
-        "agenda_12": "gold",
-        "agenda_16": "btc",
+        "agenda_27": "gold",
+        "agenda_31": "btc",
     }
     for ag in agendas:
         aid = ag["id"]
@@ -178,7 +190,7 @@ def inject_live_market_into_agendas(agendas, market_data):
                 else:
                     p_str = f"{m['price']:,.2f}{m['unit']}"
                 ag["chartConfig"]["badge_text"] = f"LIVE {p_str}"
-                if aid == "agenda_16" and ag.get("keyMetrics"):
+                if aid == "agenda_31" and ag.get("keyMetrics"):
                     ag["keyMetrics"][0]["value"] = p_str
     return agendas
 
@@ -245,6 +257,31 @@ def generate_all_charts(agendas, market_data):
             )
 
 
+def update_html_cache_busters(version_tag):
+    """브라우저 캐시 때문에 이전 회차가 보이는 현상을 방지하기 위해 HTML 스크립트 태그에 버전 쿼리를 갱신합니다."""
+    import re
+    for html_name in ["index.html", "detail.html"]:
+        hpath = os.path.join(BASE_DIR, html_name)
+        if os.path.exists(hpath):
+            try:
+                with open(hpath, "r", encoding="utf-8") as f:
+                    content = f.read()
+                content = re.sub(
+                    r'src="data/briefing_data\.js(\?v=[^"]*)?"',
+                    f'src="data/briefing_data.js?v={version_tag}"',
+                    content
+                )
+                content = re.sub(
+                    r'src="assets/js/(app|detail)\.js(\?v=[^"]*)?"',
+                    rf'src="assets/js/\1.js?v={version_tag}"',
+                    content
+                )
+                with open(hpath, "w", encoding="utf-8") as f:
+                    f.write(content)
+            except Exception as e:
+                print(f"[WARN] HTML cache buster update skipped ({html_name}): {e}")
+
+
 def build_briefing_edition():
     now = datetime.datetime.now()
     slot_info = get_target_edition_slot(now)
@@ -253,10 +290,10 @@ def build_briefing_edition():
     print(f"[1/5] 실시간 글로벌 시장 지표 수집 중... (목표 에디션: {edition_id})")
     market_data = fetch_market_data()
 
-    print("[2/5] 실시간 국내외 RSS 뉴스 헤드라인 수집 중...")
+    print("[2/5] 실시간 국내외 RSS 뉴스 헤드라인 수집 중 (생산성 없는 연예/가십 원천 배제)...")
     rss_headlines = fetch_live_rss_headlines()
 
-    agendas = inject_live_market_into_agendas(AGENDAS_PART1 + AGENDAS_PART2, market_data)
+    agendas = inject_live_market_into_agendas(AGENDAS_PART1 + AGENDAS_PART2 + AGENDAS_PART3, market_data)
     print(f"[3/5] 총 {len(agendas)}개 심층 안건 전용 고해상도 차트/인포그래픽 SVG 생성 중...")
     generate_all_charts(agendas, market_data)
 
@@ -271,10 +308,10 @@ def build_briefing_edition():
         "displayDate": slot_info["displayDate"],
         "shortDate": slot_info["shortDate"],
         "slotLabel": slot_info["slotLabel"],
-        "scheduleInfo": "매일 08:00 / 20:00 정각 발행 (꺼져 있을 시 부팅 즉시 자동 보충 실행)",
+        "scheduleInfo": "매일 08:00 / 20:00 정각 발행 · 8대 영역 40건 돈이 되는 지식 브리핑",
         "totalAgendas": len(agendas),
         "deltaSummary": delta_counts,
-        "executiveHeadline": "[11/11 이브닝] 미 10년물 4.98% 고금리 속에서도 원/달러 환율 1,336.82원(-0.52%) 역행 강세 및 SK하이닉스 1,277,000원(+5.36%)·삼성전자 206,000원(+3.57%) 폭등, 리벨리온 R200 NVLink Fusion 통합과 엔비디아 HBM4 커스텀 베이스다이(TSMC 3나노)·DSX AI 팩토리, 금 $4,059.20(+0.72%) 즉각 반등, 비트코인 9865만원(IBIT 순자산 $59.29B·FBTC $13.07B 건재), 서울 전세가율 양극화(외곽 50~55% vs 상급지 40%)와 용산 3대 개발 마일스톤",
+        "executiveHeadline": "[11/11 이브닝 · 40대 심층안건] ①거시: 미 10년물 4.98% 속 원/달러 1,336.82원(-0.52%) 역행 강세 · ②반도체: SK하이닉스(+5.36%)·삼성전자(+3.57%) 폭등 및 리벨리온 R200 NVLink·HBM4 TSMC 3나노 베이스다이 · ③미래기술: 스페이스X 스타십 15차 비행(11/13)·미 NRC 60년 만의 SMR 4기 건설 허가·일라이릴리 경구용 비만약 3상·IBM 520큐비트 양자칩 · ④전쟁/지정학: 아부다비 미·러·우 3자 회담·한화에어로 미 탄약공장+LNG 패키지·우라늄/구리 슈퍼사이클 · ⑤증시/세테크: 버핏 현금규율·K조선 밸류업·해외주식 양도세 22% 절세 및 ISA/연금/환노출 채권 공식 · ⑥금($4,059.2 반등)·⑦비트코인(9865만원·IBIT $59.29B)·⑧부동산(서울 전세가율 디커플링·용산 3대 호재)",
         "marketQuotes": market_data,
         "liveHeadlines": rss_headlines,
         "agendas": agendas
@@ -325,20 +362,32 @@ def build_briefing_edition():
         json.dump(portal_bundle, f, ensure_ascii=False, indent=2)
         f.write(";\n")
 
-    print(f"[5/5] 브리핑 및 7/30/120일 아카이브 빌드 완료! ({js_bundle_path})")
+    version_tag = now.strftime("%Y%m%d_%H%M%S")
+    update_html_cache_busters(version_tag)
+
+    print(f"[5/5] 브리핑(총 {len(agendas)}건) 및 7/30/120일 아카이브 빌드 완료! ({js_bundle_path})")
 
     if not os.environ.get("GITHUB_ACTIONS"):
         try:
             import subprocess
+            import shutil
             git_dir = os.path.join(BASE_DIR, ".git")
             if os.path.exists(git_dir):
                 print("[SYNC] 공유 웹페이지(GitHub Pages)로 최신 브리핑 자동 업로드 중...")
+                # 만약 이전 rebase 중단 상태가 남아있다면 안전하게 정리 후 현재 워킹트리를 main 브랜치로 고정
+                for rb_folder in ["rebase-merge", "rebase-apply"]:
+                    rb_path = os.path.join(git_dir, rb_folder)
+                    if os.path.exists(rb_path):
+                        shutil.rmtree(rb_path, ignore_errors=True)
+                subprocess.run(["git", "checkout", "-B", "main"], cwd=BASE_DIR, check=False, capture_output=True)
                 subprocess.run(["git", "add", "-A"], cwd=BASE_DIR, check=False)
-                commit_msg = f"update: briefing {edition_id} ({now.strftime('%H:%M KST')})"
+                commit_msg = f"update: briefing {edition_id} 40-agendas ({now.strftime('%H:%M KST')})"
                 subprocess.run(["git", "commit", "-m", commit_msg], cwd=BASE_DIR, check=False, capture_output=True)
-                subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"], cwd=BASE_DIR, check=False, capture_output=True)
-                subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=False, capture_output=True)
-                print("[SYNC] 공유 웹페이지 동기화 완료!")
+                push_res = subprocess.run(["git", "push", "--force", "origin", "HEAD:main"], cwd=BASE_DIR, check=False, capture_output=True, text=True)
+                if push_res.returncode == 0:
+                    print("[SYNC] 공유 웹페이지(GitHub Pages) 강제 동기화 완료!")
+                else:
+                    print(f"[WARN] GitHub push 결과 ({push_res.returncode}): {push_res.stderr}")
         except Exception as e:
             print(f"[WARN] GitHub 자동 동기화 건너뜀: {e}")
 

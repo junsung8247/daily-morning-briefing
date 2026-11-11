@@ -182,32 +182,32 @@ def process_tiered_archives(base_dir, current_edition):
             ag_copy["sourceEdition"] = ed.get("displayDate", "") + " " + ed.get("slotLabel", "")
             source_for_weekly.append(ag_copy)
 
-    # 1) 7일 단위 중요 브리핑: 점수 50점 이상 (약 상위 14~16개 핵심 안건)
+    # 1) 7일 단위 중요 브리핑: 점수 50점 이상 (약 상위 24개 핵심 안건)
     weekly_rollup["agendas"] = merge_promoted_agendas(
         weekly_rollup.get("agendas", []),
         source_for_weekly,
         min_score=50,
-        max_items=16,
+        max_items=24,
         tier_tag="7일 주간 핵심"
     )
     weekly_rollup["updatedAt"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
 
-    # 2) 30일 단위 최중요 브리핑: 7일 단위 브리핑에 모인 안건 중 점수 70점 이상 (CRITICAL + 시사점 전환/신규/강화, 약 상위 10~12개)
+    # 2) 30일 단위 최중요 브리핑: 7일 단위 브리핑에 모인 안건 중 점수 70점 이상 (CRITICAL + 시사점 전환/신규/강화, 약 상위 18개)
     monthly_rollup["agendas"] = merge_promoted_agendas(
         monthly_rollup.get("agendas", []),
         weekly_rollup["agendas"],
         min_score=70,
-        max_items=12,
+        max_items=18,
         tier_tag="30일 월간 최중요"
     )
     monthly_rollup["updatedAt"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
 
-    # 3) 120일(1분기) 단위 최중요 브리핑: 30일 단위 브리핑들을 모아 최상위 구조적 변화 안건 보존 (점수 80점 이상 또는 월간 핵심 전체 통합)
+    # 3) 120일(1분기) 단위 최중요 브리핑: 30일 단위 브리핑들을 모아 최상위 구조적 변화 안건 보존 (약 상위 16개)
     quarterly_rollup["agendas"] = merge_promoted_agendas(
         quarterly_rollup.get("agendas", []),
         monthly_rollup["agendas"],
         min_score=75,
-        max_items=15,
+        max_items=16,
         tier_tag="120일(1분기) 빅픽처"
     )
     quarterly_rollup["updatedAt"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
