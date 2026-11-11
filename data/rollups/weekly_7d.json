@@ -1,7 +1,7 @@
 {
   "title": "📌 7일 단위 최중요 브리핑 합산 (Weekly Core)",
   "description": "7일마다 만료되는 일별 브리핑 중에서 중요도가 높은 핵심 안건(CRITICAL 및 시사점 전환·신규·강화)만 걸러내어 합산한 주간 핵심 아카이브입니다.",
-  "updatedAt": "2026-11-10 20:00:00 KST",
+  "updatedAt": "2026-11-11 20:00:00 KST",
   "agendas": [
     {
       "id": "agenda_01",
@@ -100,7 +100,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_09",
@@ -187,7 +187,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_16",
@@ -290,7 +290,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_17",
@@ -375,7 +375,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_21",
@@ -460,7 +460,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_06",
@@ -559,7 +559,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_02",
@@ -662,7 +662,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_07",
@@ -747,7 +747,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_14",
@@ -834,7 +834,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_23",
@@ -919,7 +919,100 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
+    },
+    {
+      "id": "agenda_18",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (BTC 95%+)",
+      "importance": "HIGH",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 경계 (미 CPI 쇼크로 코인베이스 프리미엄 음수 지속 & 미 장 시간대 현물 할인 거래)",
+      "title": "[11/11 모닝·BTC 온체인] 코인베이스 프리미엄 마이너스(-) 지속의 의미: 미 CPI 쇼크와 IBIT 7일 연속 환매가 만든 미국발 할인",
+      "subtitle": "글로벌 거래소 대비 미국 코인베이스에서 비트코인이 싸게 거래되는 현상 지속… 미국 기관 매도 압력 진정 여부의 핵심 리트머스",
+      "chartImage": "assets/charts/agenda_18.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "비트코인 코인베이스 프리미엄 지수(Coinbase Premium Index) 추이 (%)",
+        "subtitle": "미 CPI 서프라이즈 및 IBIT 7일 연속 유출 정산 여파로 코인베이스 프리미엄이 다시 -0.12% 음수 영역에 머무름",
+        "labels": [
+          "10/20",
+          "10/25",
+          "10/30",
+          "11/02",
+          "11/05",
+          "11/09",
+          "11/10(석)",
+          "11/11(조)"
+        ],
+        "values": [
+          0.08,
+          0.03,
+          -0.04,
+          -0.09,
+          -0.15,
+          -0.11,
+          -0.06,
+          -0.12
+        ],
+        "unit": "%",
+        "color": "#f43f5e",
+        "benchmark_val": 0.0,
+        "benchmark_label": "수급 균형선 0.00%",
+        "badge_text": "Coinbase Discount -0.12%"
+      },
+      "keyMetrics": [
+        {
+          "label": "코인베이스 프리미엄",
+          "value": "-0.12% (Negative)",
+          "change": "글로벌 벤치마크 대비 코인베이스 할인 거래"
+        },
+        {
+          "label": "온체인 투자심리",
+          "value": "Fear (공포 구간 유지)",
+          "change": "미국 기관 단기 리스크 축소 반영"
+        },
+        {
+          "label": "수급 연동 고리",
+          "value": "IBIT 환매 ➔ 코인베이스 매도",
+          "change": "미 국채금리 4.98% 안정 시 해소 전망"
+        }
+      ],
+      "facts": [
+        "11월 11일 오전 온체인 및 거래소 간 가격 스프레드 분석(TradingView 등)에 따르면, 글로벌 거래소(바이낸스 등) 대비 미국 코인베이스(Coinbase) 내 비트코인 가격 차이를 나타내는 **'코인베이스 프리미엄(Coinbase Premium)'이 여전히 마이너스(Negative, 할인 거래) 영역**에 머물러 있습니다.",
+        "어제 저녁 미 기술주 반등과 함께 잠시 축소되었던 코인베이스 할인 폭은, 간밤 미국 CPI(+0.4%) 쇼크와 미 10년물 국채금리의 4.98% 급등, 그리고 블랙록 IBIT의 7거래일 연속 환매(-$1.66B) 정산 물량이 미국 장 시간대에 출회되면서 다시 확대되었습니다.",
+        "즉, 현재 9884만원까지의 비트코인 가격 조정은 아시아나 개인 투자자들의 투매 때문이 아니라, 미국 거시경제(금리 인상 확률 99%)와 의회 입법(CLARITY Act) 불확실성에 반응한 미국 내 ETF 보유 기관들의 단기 비중 축소(Risk trimming)가 코인베이스 현물 시장을 통해 집행되고 있기 때문입니다."
+      ],
+      "previousImplication": "나스닥 급반등으로 기관 환매 명분이 완화되며 코인베이스 프리미엄이 0%로 회복될 것 (11/10 이브닝).",
+      "newCatalyst": "간밤 미 CPI 서프라이즈 및 국채금리 4.98% 급등으로 미국 내 기관 리스크오프가 재연되며 코인베이스 부정적 프리미엄(할인 거래) 지속.",
+      "updatedImplication": "미국 기관들이 수탁사로 사용하는 코인베이스에서 할인이 지속되는 동안에는 성급한 돌파 매매를 자제해야 함. 반대로 원화 기준 9884만원(원/달러 1,342원 안정 효과 포함)은 미국발 매도 물량을 아시아 현물 투자자가 저렴하게 받아낼 수 있는 구간이기도 함.",
+      "implicationHistory": [
+        {
+          "time": "11/10 08:00",
+          "text": "🟡 코인베이스 프라임 정산 물량 소화 진척 및 CPI 대기"
+        },
+        {
+          "time": "11/10 20:00",
+          "text": "🟡 나스닥(+2.74%)·SOX(+6.85%) 선행 급반등으로 기관 환매 명분 완화 및 시차 반등 대기"
+        },
+        {
+          "time": "11/11 08:00",
+          "text": "🔴 미 CPI 쇼크 및 IBIT 7일 연속 환매로 코인베이스 마이너스 프리미엄(할인) 재확대 경계"
+        }
+      ],
+      "actionPoints": [
+        "확인 매매: 단기 반등 추격은 반드시 코인베이스 프리미엄이 마이너스(-)에서 플러스(+)로 전환되는 것을 확인한 뒤 실행",
+        "환율 효과 활용: 국내 업비트/빗썸 원화 가격(9884만원)은 원/달러 환율이 1,342원으로 낮아진 덕분에 원화 기준 진입 단가가 더욱 낮아진 상태"
+      ],
+      "sources": [
+        "TradingView Coinbase Premium",
+        "CryptoQuant On-Chain Watch",
+        "Cryptopolitan"
+      ],
+      "sourceEdition": "2026년 11월 11일 08:00 AM 모닝 에디션",
+      "importanceScore": 65,
+      "archiveTier": "7일 주간 핵심",
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_12",
@@ -1022,7 +1115,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_22",
@@ -1116,7 +1209,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_08",
@@ -1213,7 +1306,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 50,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_10",
@@ -1298,7 +1391,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 50,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     },
     {
       "id": "agenda_13",
@@ -1383,106 +1476,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 50,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
-    },
-    {
-      "id": "agenda_24",
-      "category": "realestate",
-      "categoryLabel": "한국 부동산 · 정책 · 개발",
-      "importance": "HIGH",
-      "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (용산 국제업무지구 주택 공급 확대 & 도심 복합개발)",
-      "title": "[서울 대형 개발] 국토부 '용산 국제업무지구 주택 공급 물량 확대' 추진과 서울 도심 개발 마스터플랜",
-      "subtitle": "서울 도심 공급 부족 해소 위해 용산국제업무지구 내 주거 비중 상향 논의… 서울시-정부 조율 속 용산-서울역-여의도 축 부각",
-      "chartImage": "assets/charts/agenda_24.svg",
-      "chartConfig": {
-        "type": "infographic",
-        "title": "서울 핵심 도심 복합개발 축: 용산 국제업무지구 및 공급 확대 구상",
-        "subtitle": "글로벌 비즈니스 허브 조성과 도심 직주근접 주택 공급 확대를 결합한 메가 프로젝트",
-        "center_label": [
-          "용산 국제업무지구",
-          "도심 공급 & 글로벌 허브"
-        ],
-        "badge_text": "Yongsan Masterplan",
-        "nodes": [
-          {
-            "title": "용산국제업무지구",
-            "metric": "주택 공급 물량 확대 추진",
-            "desc": "국토부, 도심 공급 부족 해소 총동원",
-            "color": "#38bdf8"
-          },
-          {
-            "title": "용산공원 부지 논의",
-            "metric": "정부·여당 vs 서울시 조율",
-            "desc": "글로벌 업무 기능 vs 주거 확대 균형점 탐색",
-            "color": "#f59e0b"
-          },
-          {
-            "title": "도심 정비사업 활성화",
-            "metric": "재개발·재건축 인허가 단축",
-            "desc": "서울 핵심지 신축 공급 파이프라인 확충",
-            "color": "#10b981"
-          },
-          {
-            "title": "광역 교통 허브 결합",
-            "metric": "GTX-B · 신분당선 · 공항철도",
-            "desc": "용산-서울역-여의도 트라이앵글 가치 극대화",
-            "color": "#a855f7"
-          }
-        ]
-      },
-      "keyMetrics": [
-        {
-          "label": "핵심 개발지",
-          "value": "용산 국제업무지구",
-          "change": "지구 내 주택 공급 물량 확대 추진"
-        },
-        {
-          "label": "정책 핵심 기조",
-          "value": "도심 공급 총력전",
-          "change": "국토부, 정비사업 및 가용부지 총동원"
-        },
-        {
-          "label": "주요 관전 포인트",
-          "value": "국토부-서울시 조율",
-          "change": "업무지구 정체성 vs 주택 물량 비율 협의"
-        }
-      ],
-      "facts": [
-        "정부와 국토교통부가 서울 도심의 구조적인 주택 공급 부족 우려를 해소하기 위해 재개발·재건축 등 정비사업을 활성화하는 동시에, 단군 이래 최대 도심 개발 사업으로 꼽히는 '용산 국제업무지구' 내 주택 공급 물량을 당초 계획보다 확대하는 방안을 적극 추진하고 있습니다.",
-        "국토부는 서울 내 선호도 높은 핵심 입지에 실질적인 주거 물량을 늘리기 위해 가용한 모든 수단을 총동원하겠다는 입장을 거듭 강조하고 있습니다. 다만 용산공원 주변 및 국제업무지구 내 주거 비중을 과도하게 높일 경우 글로벌 헤드쿼터 유치라는 본래의 국제업무 기능이 희석될 수 있다는 서울시 측의 입장과 정부·여당 간의 세부 논의가 이어지며 최적의 개발 밀도와 공급 호수를 조율하고 있습니다.",
-        "어느 쪽으로 결론이 나든 용산 국제업무지구는 고밀도 복합개발(업무·주거·상업·문화)의 상징으로 자리매김하고 있으며, 서울역 북부역세권 개발 및 여의도 금융중심지 재건축과 맞물려 서울의 중심축을 한강변과 용산 일대로 더욱 공고히 이동시키고 있습니다."
-      ],
-      "previousImplication": "서울 외곽 그린벨트 해제 위주로만 공급 대책이 나와 도심 핵심지 공급 및 개발 모멘텀은 정체될 것이라는 시각.",
-      "newCatalyst": "국토부의 용산 국제업무지구 내 주택 공급 확대 공식 추진 및 도심 정비사업 활성화 드라이브.",
-      "updatedImplication": "서울 부동산의 장기 성장은 '용산-서울역-여의도-강남'으로 이어지는 도심 복합개발 및 일자리 축에 완전히 수렴함. 용산 일대 및 인접 정비사업 구역의 중장기 희소가치 시사점 강화.",
-      "implicationHistory": [
-        {
-          "time": "1개월 전",
-          "text": "🟢 용산 국제업무지구 구역 지정 및 기반시설 계획 구체화"
-        },
-        {
-          "time": "12시간 전",
-          "text": "🟢 국토부, 용산국제업무지구 주택 공급 확대 및 도심 정비 활성화 천명"
-        },
-        {
-          "time": "현재 브리핑",
-          "text": "🟢 서울시-정부 간 세부 물량 조율 속 도심 핵심축 개발 가치 재확인"
-        }
-      ],
-      "actionPoints": [
-        "핵심지 집중: 대출 규제로 다주택 확장이 불가능한 시대이므로 '똘똘한 한 채'의 기준을 용산·강남·여의도 등 대규모 업무지구 개발 축과 직결된 곳으로 압축",
-        "청약/공급 모니터링: 향후 용산 국제업무지구 및 도심 공공주택 복합사업에서 나오는 분양/공급 일정 상시 체크"
-      ],
-      "sources": [
-        "국토교통부 주택공급정책",
-        "이데일리 부동산",
-        "Investing.com Korea"
-      ],
-      "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
-      "importanceScore": 50,
-      "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-10"
+      "promotedAt": "2026-11-11"
     }
   ]
 }

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">TSMC CoWoS 첨단 패키징 월간 생산능력(웨이퍼/월) 및 단가 인상 추이</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">CoWoS-L/S 공정 복잡도 및 장비 리드타임 장기화로 약 20% 수준의 패키징 단가 인상 저울질</text>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">TSMC CoWoS 패키징 생산능력 확장 및 HBM4 3nm 베이스 다이 결합 수요</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">전공정(2nm/3nm GPU) + 후공정(CoWoS-L/S)에 이어 메모리 컨트롤러 베이스 다이(3nm)까지 TSMC 라인으로 집중</text>
     
         <rect x="660" y="22" width="190" height="34" rx="17" fill="#f0f9ff" stroke="#7c3aed" stroke-width="1.8"/>
-        <text x="755" y="44" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">CoWoS +20% ASP Weigh</text>
+        <text x="755" y="44" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">TSMC Triple Monopoly</text>
         
     <line x1="105" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">307K장</text><line x1="105" y1="181.2" x2="850" y2="181.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="186.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">230K장</text><line x1="105" y1="257.5" x2="850" y2="257.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="262.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">153K장</text><line x1="105" y1="333.8" x2="850" y2="333.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="338.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">76.27K장</text><line x1="105" y1="410.0" x2="850" y2="410.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="415.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">-0.62K장</text>
     <polygon points="105.0,410.0 105.0,377.7 211.4,364.8 317.9,344.9 424.3,325.1 530.7,300.3 637.1,275.5 743.6,216.0 850.0,146.6 850.0,410.0" fill="#7c3aed" fill-opacity="0.12"/>
@@ -14,7 +14,7 @@
     
             <line x1="743.6" y1="216.0" x2="743.6" y2="172.0" stroke="#d97706" stroke-width="2"/>
             <rect x="628.6" y="142.0" width="230" height="30" rx="7" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-            <text x="743.6" y="162.0" fill="#92400e" font-family="Pretendard, sans-serif" font-size="14" font-weight="800" text-anchor="middle">CoWoS-L/S ~20% 단가 인상 검토</text>
+            <text x="743.6" y="162.0" fill="#92400e" font-family="Pretendard, sans-serif" font-size="14" font-weight="800" text-anchor="middle">GPU+CoWoS+BaseDie 3중 독식</text>
             
     <text x="105.0" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">24.H1</text><text x="211.4" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">24.H2</text><text x="317.9" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">25.H1</text><text x="424.3" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">25.H2</text><text x="530.7" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">26.H1</text><text x="637.1" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">26.H2(현)</text><text x="743.6" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">27.E(완판)</text><text x="850.0" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">28.E</text>
 </svg>
