@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">엔비디아(NVDA) 최근 10거래일 주가 추이 및 $173.73(+2.87%) 반등 ($)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">전일 $168.89 저점에서 코어위브(CoreWeave) AI 클라우드 호실적에 힘입어 $173.73(+2.87%)으로 즉각 반등 성공</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">코어위브 호실적으로 $173.73(+2.87%) 반등 안착… 차세대 루빈 아키텍처의 핵심 병목은 GPU 코어가 아닌 HBM4 메모리 대역폭</text>
     
         <rect x="660" y="22" width="190" height="34" rx="17" fill="#f0f9ff" stroke="#16a34a" stroke-width="1.8"/>
         <text x="755" y="44" fill="#16a34a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">NVDA $173.73 (+2.87%)</text>
@@ -18,7 +18,7 @@
     
             <line x1="850.0" y1="352.7" x2="850.0" y2="308.7" stroke="#d97706" stroke-width="2"/>
             <rect x="735.0" y="278.7" width="230" height="30" rx="7" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-            <text x="850.0" y="298.7" fill="#92400e" font-family="Pretendard, sans-serif" font-size="14" font-weight="800" text-anchor="middle">코어위브 호실적으로 +2.87% 반등</text>
+            <text x="850.0" y="298.7" fill="#92400e" font-family="Pretendard, sans-serif" font-size="14" font-weight="800" text-anchor="middle">HBM4 메모리 병목 시대 도래</text>
             
     <text x="105.0" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">10/29</text><text x="187.8" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">10/30</text><text x="270.6" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/02</text><text x="353.3" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/03</text><text x="436.1" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/04</text><text x="518.9" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/05</text><text x="601.7" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/06</text><text x="684.4" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/09</text><text x="767.2" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/10</text><text x="850.0" y="456" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="middle">11/11</text>
 </svg>
