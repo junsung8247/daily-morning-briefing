@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">AI 데이터센터 세대별 단일 서버 랙(Rack)당 소비전력 급증 추이 (kW/Rack)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">일반 서버(12kW) ➔ 호퍼(40kW) ➔ 블랙웰(120kW) ➔ 베라 루빈 NVL72(200~230kW)로 랙당 전력·열밀도 기하급수 폭증</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">일반 서버(12kW) ➔ 호퍼(40kW) ➔ 블랙웰(120kW) ➔ 베라 루빈 NVL72(200~230kW)로 전력·열밀도 폭증… 변압기·액체냉각 필수</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#d97706"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">랙당 소비전력 (kW)</text>

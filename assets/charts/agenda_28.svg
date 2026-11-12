@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">글로벌 중앙은행 금 순매입 속도(톤/월·분기) 및 선물($3,958) vs 현물($4,040) 방어력 비교</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">선물 시장의 투기적 매도에도 불구하고 월 60~85톤(3분기 321톤)에 달하는 중앙은행 실물 매집이 현물 $4,040 바닥을 지탱</text>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">글로벌 중앙은행 금 순매입 속도(톤/월·분기) 및 선물 투매기 실물 흡수 구조</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">선물 시장이 미 금리 5.10%에 놀라 $3,881.70으로 투매할 때, 월 60~85톤을 사는 중앙은행들은 저가 실물 인수를 가속화</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#d97706"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">중앙은행 순매입량 (톤)</text>
