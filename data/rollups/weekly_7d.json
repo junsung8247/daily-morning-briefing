@@ -1,7 +1,7 @@
 {
   "title": "📌 7일 단위 최중요 브리핑 합산 (Weekly Core)",
   "description": "7일마다 만료되는 일별 브리핑 중에서 중요도가 높은 핵심 안건(CRITICAL 및 시사점 전환·신규·강화)만 걸러내어 합산한 주간 핵심 아카이브입니다.",
-  "updatedAt": "2026-11-13 20:00:00 KST",
+  "updatedAt": "2026-11-14 08:00:00 KST",
   "agendas": [
     {
       "id": "agenda_01",
@@ -100,7 +100,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_09",
@@ -187,7 +187,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_16",
@@ -290,7 +290,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_17",
@@ -375,7 +375,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_21",
@@ -460,7 +460,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_06",
@@ -559,7 +559,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_37",
@@ -644,7 +644,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_40",
@@ -729,7 +729,7 @@
       "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_02",
@@ -832,7 +832,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_07",
@@ -917,7 +917,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_20",
@@ -1002,7 +1002,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_27",
@@ -1105,7 +1105,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_32",
@@ -1190,7 +1190,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_36",
@@ -1275,7 +1275,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_26",
@@ -1360,7 +1360,7 @@
       "sourceEdition": "2026년 11월 12일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_14",
@@ -1447,7 +1447,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_23",
@@ -1532,7 +1532,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_18",
@@ -1625,7 +1625,7 @@
       "sourceEdition": "2026년 11월 11일 08:00 AM 모닝 에디션",
       "importanceScore": 65,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_15",
@@ -1710,7 +1710,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 60,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_39",
@@ -1809,7 +1809,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 60,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_33",
@@ -1894,7 +1894,7 @@
       "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
       "importanceScore": 60,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_12",
@@ -1997,7 +1997,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_22",
@@ -2091,7 +2091,7 @@
       "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     },
     {
       "id": "agenda_31",
@@ -2194,7 +2194,7 @@
       "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
       "importanceScore": 55,
       "archiveTier": "7일 주간 핵심",
-      "promotedAt": "2026-11-13"
+      "promotedAt": "2026-11-14"
     }
   ]
 }
