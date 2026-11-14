@@ -30,9 +30,13 @@ from archive_manager import process_tiered_archives
 MARKET_SYMBOLS = [
     {"symbol": "^GSPC", "id": "sp500", "name": "S&P 500", "category": "macro", "unit": "", "color": "#38bdf8"},
     {"symbol": "^IXIC", "id": "nasdaq", "name": "나스닥 종합", "category": "macro", "unit": "", "color": "#818cf8"},
+    {"symbol": "^DJI", "id": "dow", "name": "다우존스 산업", "category": "macro", "unit": "", "color": "#0284c7"},
     {"symbol": "^SOX", "id": "sox", "name": "필라델피아 반도체", "category": "tech", "unit": "", "color": "#a855f7"},
+    {"symbol": "^KS11", "id": "kospi", "name": "코스피 (KOSPI)", "category": "equities", "unit": "", "color": "#059669"},
+    {"symbol": "^KQ11", "id": "kosdaq", "name": "코스닥 (KOSDAQ)", "category": "equities", "unit": "", "color": "#14b8a6"},
     {"symbol": "^TNX", "id": "us10y", "name": "미 10년물 국채금리", "category": "macro", "unit": "%", "color": "#f43f5e"},
     {"symbol": "KRW=X", "id": "usdkrw", "name": "원/달러 환율", "category": "macro", "unit": "원", "color": "#10b981"},
+    {"symbol": "DX-Y.NYB", "id": "dxy", "name": "달러 인덱스 (DXY)", "category": "macro", "unit": "", "color": "#94a3b8"},
     {"symbol": "GC=F", "id": "gold", "name": "금 선물 ($/oz)", "category": "gold", "unit": "$", "color": "#fbbf24"},
     {"symbol": "BTC-KRW", "id": "btc", "name": "비트코인 (만원)", "category": "crypto", "unit": "만원", "color": "#f97316", "scale": 0.0001},
     {"symbol": "NVDA", "id": "nvda", "name": "엔비디아 (NVDA)", "category": "tech", "unit": "$", "color": "#22c55e"},
@@ -40,7 +44,7 @@ MARKET_SYMBOLS = [
     {"symbol": "005930.KS", "id": "samsung", "name": "삼성전자", "category": "tech", "unit": "원", "color": "#3b82f6"},
     {"symbol": "000660.KS", "id": "skhynix", "name": "SK하이닉스", "category": "tech", "unit": "원", "color": "#ec4899"},
     {"symbol": "CL=F", "id": "wti", "name": "WTI 원유 선물", "category": "geopolitics", "unit": "$", "color": "#eab308"},
-    {"symbol": "DX-Y.NYB", "id": "dxy", "name": "달러 인덱스 (DXY)", "category": "macro", "unit": "", "color": "#94a3b8"},
+    {"symbol": "HG=F", "id": "copper", "name": "구리 선물 ($/lb)", "category": "geopolitics", "unit": "$", "color": "#d97706"},
 ]
 
 RSS_FEEDS = [
@@ -266,6 +270,11 @@ def update_html_cache_busters(version_tag):
             try:
                 with open(hpath, "r", encoding="utf-8") as f:
                     content = f.read()
+                content = re.sub(
+                    r'href="assets/css/style\.css(\?v=[^"]*)?"',
+                    f'href="assets/css/style.css?v={version_tag}"',
+                    content
+                )
                 content = re.sub(
                     r'src="data/briefing_data\.js(\?v=[^"]*)?"',
                     f'src="data/briefing_data.js?v={version_tag}"',

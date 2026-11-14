@@ -5,95 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>데일리 모닝 & 이브닝 브리핑 (08:00 / 20:00)</title>
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20261114_182355" />
 </head>
 <body>
 
-    <main class="container">
+    <main class="container portal-layout">
 
-        <!-- 1. 상단 헤더 & 6대 핵심 시장 지표 -->
-        <header class="site-header">
-            <div class="header-meta-row">
-                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
-                    <span class="edition-tag" id="edition-badge">2026년 11월 14일 · 08:00 AM 모닝 에디션</span>
-                    <span class="schedule-tag">⏰ 매일 08:00 / 20:00 정각 누적 발행</span>
+        <!-- [좌측 사이드바 - PC 전용 좌측 여백 활용 / 모바일에선 헤더 아래 배치]
+             위에서부터 차례대로: ① 날짜·회차 및 보관함 -> ② 브리핑 종류(카테고리) -> ③ 시사점 변화별 -->
+        <aside class="pc-left-sidebar">
+
+            <!-- ① 날짜 · 회차 선택 및 기간별 보관함 -->
+            <section class="archive-tier-section">
+                <div class="archive-tier-header">
+                    <span class="archive-tier-title">📅 날짜 · 브리핑 회차 선택</span>
+                    <span class="archive-tier-desc" style="font-size:13px;font-weight:700;color:var(--text-muted);">최근 7일 원본 보존 및 7·30·120일 핵심 자동 합산</span>
                 </div>
-                <span style="font-size:15px;font-weight:700;color:var(--text-muted);" id="read-status-label">열람 완료: 0건</span>
-            </div>
 
-            <h1 class="site-main-title">📈 데일리 모닝 & 이브닝 핵심 시사점 브리핑</h1>
+                <!-- 날짜 / 회차 선택 바 (PC 좌측 최상단 배치) -->
+                <div id="tier-sub-control" class="date-selector-top"></div>
 
-            <div class="site-exec-box" id="exec-summary-box"></div>
+                <div class="sidebar-sub-divider"></div>
+                <div class="sidebar-sub-label">🗂️ 보관함 기간 전환</div>
 
-            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-top:20px;margin-bottom:8px;">
-                <span style="font-size:13.5px;font-weight:800;color:#059669;" id="live-quote-status">🟢 실시간 시세 불러오는 중... (페이지 열 때마다 자동 갱신)</span>
-                <button type="button" id="btn-refresh-quotes" style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px;padding:4px 10px;font-size:12.5px;font-weight:800;color:#334155;cursor:pointer;">🔄 시세 즉시 새로고침</button>
-            </div>
-            <div class="core-metrics-bar" id="core-metrics-bar" style="margin-top:0;"></div>
-        </header>
-
-        <!-- 2. 계층형 브리핑 보관함 선택 (최근 7일 원본 / 7일 합산 / 30일 합산 / 120일 합산) -->
-        <section class="archive-tier-section">
-            <div class="archive-tier-header">
-                <span class="archive-tier-title">🗂️ 브리핑 보관함 및 기간별 최중요 합산 선택</span>
-                <span style="font-size:14px;font-weight:700;color:var(--text-muted);">7일치 전체 원본은 그대로 보존되며, 만료 시 중요 안건만 7일 ➔ 30일 ➔ 120일(1분기) 순으로 자동 합산됩니다</span>
-            </div>
-
-            <div class="archive-tier-tabs">
-                <button class="tier-tab-btn active" data-tier="daily7d">
-                    <span class="tier-tab-name">📅 최근 7일 브리핑 원본</span>
-                    <span class="tier-tab-sub" id="sub-daily7d">12시간마다 누적 · 6일 뒤에도 열람</span>
-                </button>
-                <button class="tier-tab-btn" data-tier="weekly7d">
-                    <span class="tier-tab-name">📌 7일 단위 최중요 합산</span>
-                    <span class="tier-tab-sub" id="sub-weekly7d">7일마다 걸러진 핵심 안건 합산</span>
-                </button>
-                <button class="tier-tab-btn" data-tier="monthly30d">
-                    <span class="tier-tab-name">🏆 30일 단위 최중요 합산</span>
-                    <span class="tier-tab-sub" id="sub-monthly30d">7일 합산본에서 최상위 안건 추출</span>
-                </button>
-                <button class="tier-tab-btn" data-tier="quarterly120d">
-                    <span class="tier-tab-name">🏛️ 120일(1분기) 최중요 합산</span>
-                    <span class="tier-tab-sub" id="sub-quarterly120d">30일 브리핑을 모은 분기 빅픽처</span>
-                </button>
-            </div>
-
-            <!-- 최근 7일 회차 선택 바 또는 합산 안내 배너 -->
-            <div id="tier-sub-control"></div>
-        </section>
-
-        <!-- 3. 섹션 탭 & 시사점 변화 필터 -->
-        <section class="filter-section">
-            <div class="filter-row">
-                <div class="tab-group" id="category-tabs">
-                    <button class="tab-btn active" data-cat="all">전체 안건 (40)</button>
-                    <button class="tab-btn" data-cat="macro">🏛️ 거시경제 · 금리</button>
-                    <button class="tab-btn" data-cat="tech">🔬 반도체 · AI 빅테크</button>
-                    <button class="tab-btn" data-cat="frontier">🚀 미래기술 · 우주 · 로봇 · 바이오</button>
-                    <button class="tab-btn" data-cat="geopolitics">🌍 전쟁 · 지정학 · 방산 · 원자재</button>
-                    <button class="tab-btn" data-cat="equities">📈 한·미 증시 · 산업 · 세테크</button>
-                    <button class="tab-btn" data-cat="gold">🥇 금($/oz) · 안전자산</button>
-                    <button class="tab-btn" data-cat="crypto">₿ 비트코인 95%+</button>
-                    <button class="tab-btn" data-cat="realestate">🏢 한국 부동산 · 정책</button>
+                <div class="archive-tier-tabs">
+                    <button class="tier-tab-btn active" data-tier="daily7d">
+                        <span class="tier-tab-name">📅 최근 7일 브리핑 원본</span>
+                        <span class="tier-tab-sub" id="sub-daily7d">12시간마다 누적 · 6일 뒤에도 열람</span>
+                    </button>
+                    <button class="tier-tab-btn" data-tier="weekly7d">
+                        <span class="tier-tab-name">📌 7일 단위 최중요 합산</span>
+                        <span class="tier-tab-sub" id="sub-weekly7d">7일마다 걸러진 핵심 안건 합산</span>
+                    </button>
+                    <button class="tier-tab-btn" data-tier="monthly30d">
+                        <span class="tier-tab-name">🏆 30일 단위 최중요 합산</span>
+                        <span class="tier-tab-sub" id="sub-monthly30d">7일 합산본에서 최상위 안건 추출</span>
+                    </button>
+                    <button class="tier-tab-btn" data-tier="quarterly120d">
+                        <span class="tier-tab-name">🏛️ 120일(1분기) 최중요 합산</span>
+                        <span class="tier-tab-sub" id="sub-quarterly120d">30일 브리핑을 모은 분기 빅픽처</span>
+                    </button>
                 </div>
-            </div>
+            </section>
 
-            <div class="delta-filter-row">
-                <span style="font-size:15px;font-weight:800;color:var(--text-muted);margin-right:4px;">시사점 변화별 보기:</span>
-                <button class="delta-chip active" data-delta="ALL">전체 보기</button>
-                <button class="delta-chip" data-delta="REINFORCED">🟢 시사점 강화</button>
-                <button class="delta-chip" data-delta="CHALLENGED">🔴 시사점 약화 · 전환</button>
-                <button class="delta-chip" data-delta="NEW">🆕 신규 시사점</button>
-                <button class="delta-chip" data-delta="MAINTAINED">🟡 기조 유지 · 혼조</button>
-            </div>
-        </section>
+            <!-- ② 브리핑 종류 (카테고리) & ③ 시사점 변화별 필터 -->
+            <section class="filter-section">
+                <div class="sidebar-section-heading">📂 브리핑 종류 (8대 핵심 영역)</div>
+                <div class="filter-row">
+                    <div class="tab-group" id="category-tabs">
+                        <button class="tab-btn active" data-cat="all">전체 안건 (40)</button>
+                        <button class="tab-btn" data-cat="macro">🏛️ 거시경제 · 금리</button>
+                        <button class="tab-btn" data-cat="tech">🔬 반도체 · AI 빅테크</button>
+                        <button class="tab-btn" data-cat="frontier">🚀 미래기술 · 우주 · 로봇 · 바이오</button>
+                        <button class="tab-btn" data-cat="geopolitics">🌍 전쟁 · 지정학 · 방산 · 원자재</button>
+                        <button class="tab-btn" data-cat="equities">📈 한·미 증시 · 산업 · 세테크</button>
+                        <button class="tab-btn" data-cat="gold">🥇 금($/oz) · 안전자산</button>
+                        <button class="tab-btn" data-cat="crypto">₿ 비트코인 95%+</button>
+                        <button class="tab-btn" data-cat="realestate">🏢 한국 부동산 · 정책</button>
+                    </div>
+                </div>
 
-        <!-- 4. 안건 목록 (클릭 시 상세 페이지로 이동) -->
-        <section class="agenda-list" id="agenda-list"></section>
+                <div class="delta-filter-row">
+                    <span class="delta-filter-heading" style="font-size:15px;font-weight:800;color:var(--text-muted);margin-right:4px;">🧭 시사점 변화별 보기</span>
+                    <button class="delta-chip active" data-delta="ALL">전체 보기</button>
+                    <button class="delta-chip" data-delta="REINFORCED">🟢 시사점 강화</button>
+                    <button class="delta-chip" data-delta="CHALLENGED">🔴 시사점 약화 · 전환</button>
+                    <button class="delta-chip" data-delta="NEW">🆕 신규 시사점</button>
+                    <button class="delta-chip" data-delta="MAINTAINED">🟡 기조 유지 · 혼조</button>
+                </div>
+            </section>
+
+        </aside>
+
+        <!-- [중앙 메인 컬럼 - 상단 핵심 총평 헤더 + 40대 심층 안건 목록] -->
+        <div class="pc-main-center">
+
+            <!-- 1. 상단 헤더 (모바일에서는 기존 6대 지표 바 포함, PC에서는 우측 사이드바로 시세 분리) -->
+            <header class="site-header">
+                <div class="header-meta-row">
+                    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+                        <span class="edition-tag" id="edition-badge">2026년 11월 14일 · 08:00 AM 모닝 에디션</span>
+                        <span class="schedule-tag">⏰ 매일 08:00 / 20:00 정각 누적 발행</span>
+                    </div>
+                    <span style="font-size:15px;font-weight:700;color:var(--text-muted);" id="read-status-label">열람 완료: 0건</span>
+                </div>
+
+                <h1 class="site-main-title">📈 데일리 모닝 & 이브닝 핵심 시사점 브리핑</h1>
+
+                <div class="site-exec-box" id="exec-summary-box"></div>
+
+                <!-- 모바일/태블릿 전용 상단 시세 바 (PC 화면에서는 우측 전용 시세 패널이 표시되므로 숨김) -->
+                <div class="mobile-only-metrics">
+                    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-top:20px;margin-bottom:8px;">
+                        <span style="font-size:13.5px;font-weight:800;color:#059669;" id="live-quote-status" class="js-quote-status">🟢 실시간 시세 불러오는 중... (접속 · 수동클릭 시 갱신)</span>
+                        <button type="button" id="btn-refresh-quotes" class="js-refresh-quotes" style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:6px;padding:4px 10px;font-size:12.5px;font-weight:800;color:#334155;cursor:pointer;">🔄 시세 즉시 새로고침</button>
+                    </div>
+                    <div class="core-metrics-bar" id="core-metrics-bar" style="margin-top:0;"></div>
+                </div>
+            </header>
+
+            <!-- 2. 안건 목록 (클릭 시 상세 페이지로 이동) -->
+            <section class="agenda-list" id="agenda-list"></section>
+
+        </div>
+
+        <!-- [우측 사이드바 - PC 전용 우측 여백 활용: 외부 API 연동 실시간 시세 보드] -->
+        <aside class="pc-right-sidebar">
+            <section class="right-market-panel">
+                <div class="right-market-header">
+                    <div class="right-market-title-row">
+                        <span class="right-market-title">📊 실시간 시세 보드</span>
+                        <button type="button" id="btn-refresh-quotes-pc" class="js-refresh-quotes right-refresh-btn">🔄 새로고침</button>
+                    </div>
+                    <div id="live-quote-status-pc" class="js-quote-status right-market-status">
+                        🟢 외부 API 연동 중...
+                    </div>
+                    <div class="right-market-subnote">
+                        외부 API(CNBC·Upbit·ER) 연동 · 접속 및 수동 클릭 시 갱신
+                    </div>
+                </div>
+
+                <div id="right-market-list" class="right-market-groups"></div>
+            </section>
+        </aside>
 
     </main>
 
-    <script src="data/briefing_data.js?v=20261114_080325"></script>
-    <script src="assets/js/app.js?v=20261114_080325"></script>
+    <script src="data/briefing_data.js?v=20261114_182355"></script>
+    <script src="assets/js/app.js?v=20261114_182355"></script>
 </body>
 </html>

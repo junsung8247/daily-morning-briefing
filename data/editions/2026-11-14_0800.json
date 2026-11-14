@@ -1,6 +1,6 @@
 {
   "editionId": "2026-11-14_0800",
-  "generatedAt": "2026-11-14 08:03:25 KST",
+  "generatedAt": "2026-11-14 18:23:55 KST",
   "displayDate": "2026년 11월 14일",
   "shortDate": "11/14 08:00",
   "slotLabel": "08:00 AM 모닝 에디션",
@@ -85,6 +85,41 @@
       ]
     },
     {
+      "symbol": "^DJI",
+      "id": "dow",
+      "name": "다우존스 산업",
+      "category": "macro",
+      "unit": "",
+      "color": "#0284c7",
+      "price": 52347.55,
+      "dayChangePct": 0.1,
+      "monthChangePct": 1.41,
+      "historyLabels": [
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13"
+      ],
+      "historyValues": [
+        51983.98,
+        51786.72,
+        53356.12,
+        51523.06,
+        51285.73,
+        52389.75,
+        52231.89,
+        52486.49,
+        52297.09,
+        52347.55
+      ]
+    },
+    {
       "symbol": "^SOX",
       "id": "sox",
       "name": "필라델피아 반도체",
@@ -117,6 +152,76 @@
         10564.11,
         10506.67,
         10146.32
+      ]
+    },
+    {
+      "symbol": "^KS11",
+      "id": "kospi",
+      "name": "코스피 (KOSPI)",
+      "category": "equities",
+      "unit": "",
+      "color": "#059669",
+      "price": 5290.53,
+      "dayChangePct": -0.98,
+      "monthChangePct": -12.34,
+      "historyLabels": [
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13"
+      ],
+      "historyValues": [
+        5859.08,
+        5648.79,
+        5683.8,
+        5383.8,
+        5059.69,
+        5018.85,
+        5239.13,
+        5375.36,
+        5342.73,
+        5290.53
+      ]
+    },
+    {
+      "symbol": "^KQ11",
+      "id": "kosdaq",
+      "name": "코스닥 (KOSDAQ)",
+      "category": "equities",
+      "unit": "",
+      "color": "#14b8a6",
+      "price": 699.66,
+      "dayChangePct": 0.45,
+      "monthChangePct": -16.41,
+      "historyLabels": [
+        "11/02",
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13"
+      ],
+      "historyValues": [
+        734.36,
+        704.39,
+        714.95,
+        678.41,
+        644.27,
+        638.97,
+        667.61,
+        705.1,
+        696.53,
+        699.66
       ]
     },
     {
@@ -161,9 +266,44 @@
       "category": "macro",
       "unit": "원",
       "color": "#10b981",
-      "price": 1335.11,
-      "dayChangePct": -0.09,
-      "monthChangePct": 0.07,
+      "price": 1336.2,
+      "dayChangePct": 0.18,
+      "monthChangePct": -0.31,
+      "historyLabels": [
+        "11/03",
+        "11/04",
+        "11/05",
+        "11/06",
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13",
+        "11/14"
+      ],
+      "historyValues": [
+        1344.81,
+        1342.9,
+        1340.07,
+        1356.34,
+        1362.7,
+        1343.84,
+        1341.91,
+        1336.26,
+        1333.78,
+        1336.2
+      ]
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "id": "dxy",
+      "name": "달러 인덱스 (DXY)",
+      "category": "macro",
+      "unit": "",
+      "color": "#94a3b8",
+      "price": 103.41,
+      "dayChangePct": 0.23,
+      "monthChangePct": 0.84,
       "historyLabels": [
         "11/02",
         "11/03",
@@ -177,16 +317,16 @@
         "11/13"
       ],
       "historyValues": [
-        1325.52,
-        1344.81,
-        1342.9,
-        1340.07,
-        1356.34,
-        1362.7,
-        1343.84,
-        1341.91,
-        1336.26,
-        1335.11
+        101.75,
+        101.87,
+        101.51,
+        101.55,
+        102.3,
+        101.65,
+        102.23,
+        102.91,
+        103.17,
+        103.41
       ]
     },
     {
@@ -196,9 +336,9 @@
       "category": "gold",
       "unit": "$",
       "color": "#fbbf24",
-      "price": 3887.6,
-      "dayChangePct": 0.06,
-      "monthChangePct": -6.94,
+      "price": 3886.3,
+      "dayChangePct": 0.03,
+      "monthChangePct": -5.39,
       "historyLabels": [
         "11/02",
         "11/03",
@@ -221,7 +361,7 @@
         4030.2,
         4000.5,
         3885.3,
-        3887.6
+        3886.3
       ]
     },
     {
@@ -232,11 +372,10 @@
       "unit": "만원",
       "color": "#f97316",
       "scale": 0.0001,
-      "price": 9096,
-      "dayChangePct": -4.43,
-      "monthChangePct": -18.3,
+      "price": 8955,
+      "dayChangePct": -1.74,
+      "monthChangePct": -18.05,
       "historyLabels": [
-        "11/04",
         "11/05",
         "11/06",
         "11/07",
@@ -245,10 +384,10 @@
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/14"
       ],
       "historyValues": [
-        10783,
         10309,
         10330,
         10330,
@@ -257,7 +396,8 @@
         9896,
         9885,
         9518,
-        9096
+        9113,
+        8955
       ]
     },
     {
@@ -407,9 +547,9 @@
       "category": "geopolitics",
       "unit": "$",
       "color": "#eab308",
-      "price": 88.92,
-      "dayChangePct": 0.2,
-      "monthChangePct": -5.54,
+      "price": 88.56,
+      "dayChangePct": -0.2,
+      "monthChangePct": -6.87,
       "historyLabels": [
         "11/02",
         "11/03",
@@ -432,19 +572,19 @@
         86.04,
         86.53,
         88.74,
-        88.92
+        88.56
       ]
     },
     {
-      "symbol": "DX-Y.NYB",
-      "id": "dxy",
-      "name": "달러 인덱스 (DXY)",
-      "category": "macro",
-      "unit": "",
-      "color": "#94a3b8",
-      "price": 103.41,
-      "dayChangePct": 0.23,
-      "monthChangePct": 1.2,
+      "symbol": "HG=F",
+      "id": "copper",
+      "name": "구리 선물 ($/lb)",
+      "category": "geopolitics",
+      "unit": "$",
+      "color": "#d97706",
+      "price": 6.09,
+      "dayChangePct": -1.5,
+      "monthChangePct": -7.89,
       "historyLabels": [
         "11/02",
         "11/03",
@@ -458,16 +598,16 @@
         "11/13"
       ],
       "historyValues": [
-        101.75,
-        101.87,
-        101.51,
-        101.55,
-        102.3,
-        101.65,
-        102.23,
-        102.91,
-        103.17,
-        103.41
+        6.54,
+        6.38,
+        6.4,
+        6.25,
+        6.22,
+        6.33,
+        6.22,
+        6.27,
+        6.18,
+        6.08
       ]
     }
   ],
@@ -517,9 +657,23 @@
     {
       "category": "tech",
       "source": "CNBC Tech",
+      "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+      "pubDate": "Sat, 14 Nov 2026 07:08:45"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
+      "title": "SpaceX launches Starship in key test flight of massive rocket",
+      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+      "pubDate": "Sat, 14 Nov 2026 01:18:51"
+    },
+    {
+      "category": "tech",
+      "source": "CNBC Tech",
       "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
       "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "pubDate": "Fri, 13 Nov 2026 22:28:19"
+      "pubDate": "Fri, 13 Nov 2026 23:54:36"
     },
     {
       "category": "tech",
@@ -531,9 +685,9 @@
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "pubDate": "Fri, 13 Nov 2026 19:11:13"
+      "pubDate": "Fri, 13 Nov 2026 23:42:18"
     },
     {
       "category": "tech",
@@ -541,20 +695,6 @@
       "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
       "link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
       "pubDate": "Fri, 13 Nov 2026 18:56:26"
-    },
-    {
-      "category": "tech",
-      "source": "CNBC Tech",
-      "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
-      "link": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
-      "pubDate": "Fri, 13 Nov 2026 20:07:30"
-    },
-    {
-      "category": "tech",
-      "source": "CNBC Tech",
-      "title": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-founder-ceo-transition.html",
-      "pubDate": "Fri, 13 Nov 2026 15:03:10"
     },
     {
       "category": "equities",
@@ -650,9 +790,9 @@
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "ETF 상장도 역부족...'알트코인 시즌' 언제 올까 - 블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZR25vTUh1UWp1dmJ0Y2plN1ZXd3huQ1FVRl9CaTVjTEJvaS1DYk56S0ZhOHFoQnBkZHNUXzRMZXB1enVEWURqLU1oWjVQRGtf?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 07:39:05"
+      "title": "비트코인·알트코인 줄줄이 추락…투자자 '한숨만' - 블루밍비트",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GdmxqZl9nMTRHTHhNTERxYWNhbURJUHdkZWxTcHQ3RUNGalpoSm9BMXlDV3Y5a1hWdUxSdHVQLXRqZ05qYmlJNkdPdGV6MmZG?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 04:00:48"
     },
     {
       "category": "crypto",
@@ -660,13 +800,6 @@
       "title": "엔비디아 CEO 사임에 비트코인 1억원 붕괴…'기술주 종속' 드러나 - 리드경제",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UblIyNXBLUV9uTlFrX1lpREFvZ3NLTVBRTm52bElIN2tWX2RiV0wxVndSdzFpVFE4VXUzTWdUZEhPZklwQl80TGhyT3FyVWZZSnh0WFJhYlEtYjFKRFctQXpicENjUWhKZ2hibkJyNU4?oc=5",
       "pubDate": "Fri, 13 Nov 2026 01:27:00"
-    },
-    {
-      "category": "crypto",
-      "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "리플 1.16달러 흔들…비트코인 ETF 4억달러 유출 직격 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLWhKX1ZxZUQtc3FqaXVrRGRhQktMTnZURzZtVzR1WlBHSjhnYWtFZG80THl5ajFsU0hGbHNvYjMxMWRyaUdnMW5WbGZaYzVNY1VMUW1WYUNqUVVDbHZ4N1BrdHZBcmRYd3BRM0Y1MEpHV0hBLXR4dzRYeUl1TW0tN1FXRmQ0UmF0?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 21:15:00"
     },
     {
       "category": "crypto",
@@ -681,6 +814,13 @@
       "title": "바이낸스 리서치: 기관 자금은 왜 비트코인 ETF만 사고 액티브 펀드는 사지 않을까? - PANews",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YQ2U0SDA0NlhEM2V4ODJROFpISGw3NWlIV1lqOUFUSUdfaWJITGdDdnBtcEtMQ1NnT1BULWoyMkVQV19PN3V6TV8xaEZOLXlZbjBWVHRqMExYdDdqTDcxb2tnRjVmOGRLYmJNbkJMYjVLdHFaSHJGNkJRQm02Slk?oc=5",
       "pubDate": "Wed, 11 Nov 2026 12:36:10"
+    },
+    {
+      "category": "crypto",
+      "source": "Google 뉴스 (비트코인 ETF)",
+      "title": "바클레이즈, 비트코인 ETF 보유량 1분기새 50% 늘려…은행권 비중 확대 - 블루밍비트",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pMDhjSmc4SFo2THFVWU8yMjgzMzYtRHl5bkFwTHpOMi1pZU5sdnl2d0dtZUxhaTNNWkRZZ0tPOE1ab1hTbmtraF9EbUR1dlpY?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 12:14:22"
     },
     {
       "category": "crypto",
@@ -1098,7 +1238,6 @@
         "title": "원/달러 환율(USD/KRW) 최근 10거래일 추이 및 1,334.53원 강세 안착 (원)",
         "subtitle": "간밤 미 국채금리 5.10% 급등 및 달러 인덱스 103.17 돌파에도 전일 종가 대비 -0.55% 낮은 1,334.53원으로 초강세 지속",
         "labels": [
-          "11/02",
           "11/03",
           "11/04",
           "11/05",
@@ -1107,10 +1246,10 @@
           "11/10",
           "11/11",
           "11/12",
-          "11/13"
+          "11/13",
+          "11/14"
         ],
         "values": [
-          1325.52,
           1344.81,
           1342.9,
           1340.07,
@@ -1119,13 +1258,14 @@
           1343.84,
           1341.91,
           1336.26,
-          1335.11
+          1333.78,
+          1336.2
         ],
         "unit": "원",
         "color": "#10b981",
         "benchmark_val": 1340.0,
         "benchmark_label": "핵심 저항선 1,340원",
-        "badge_text": "LIVE 1,335.11원",
+        "badge_text": "LIVE 1,336.20원",
         "annotations": [
           {
             "index": 9,
@@ -3032,13 +3172,13 @@
           4030.2,
           4000.5,
           3885.3,
-          3887.6
+          3886.3
         ],
         "unit": "$",
         "color": "#fbbf24",
         "benchmark_val": 3900.0,
         "benchmark_label": "핵심 실물 지지선 $3,900/oz",
-        "badge_text": "LIVE 3,887.60$",
+        "badge_text": "LIVE 3,886.30$",
         "annotations": [
           {
             "index": 9,
@@ -3351,7 +3491,6 @@
         "title": "비트코인(BTC) 최근 10일간 원화 시세 추이 및 9524만원(글로벌 200일선) 지지 구간 (만원)",
         "subtitle": "미 10년물 5.10% 상승 및 원화 강세(1,334.53원) 반영으로 원화 시세 9524만원(-3.65%) 도달… 글로벌 $73,700(200일 이평선) 방어",
         "labels": [
-          "11/04",
           "11/05",
           "11/06",
           "11/07",
@@ -3360,10 +3499,10 @@
           "11/10",
           "11/11",
           "11/12",
-          "11/13"
+          "11/13",
+          "11/14"
         ],
         "values": [
-          10783,
           10309,
           10330,
           10330,
@@ -3372,13 +3511,14 @@
           9896,
           9885,
           9518,
-          9096
+          9113,
+          8955
         ],
         "unit": "만원",
         "color": "#f97316",
         "benchmark_val": 9500.0,
         "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-        "badge_text": "LIVE 9096만원",
+        "badge_text": "LIVE 8955만원",
         "annotations": [
           {
             "index": 9,
@@ -3389,7 +3529,7 @@
       "keyMetrics": [
         {
           "label": "비트코인 시세 (만원)",
-          "value": "9096만원",
+          "value": "8955만원",
           "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
         },
         {

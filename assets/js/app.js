@@ -1,7 +1,7 @@
 // ==========================================================================
 // 데일리 브리핑 메인 목록 페이지 스크립트 (app.js)
-// - 최근 7일 브리핑 원본(최대 14회차) 보존 및 회차 전환
-// - 7일 / 30일 / 120일(1분기) 단위 최중요 브리핑 계층형 합산 뷰 지원
+// - PC 3단 레이아웃 지원: 좌측(날짜·회차 / 브리핑 종류 / 시사점 변화별) · 중앙(브리핑 본문) · 우측(실시간 시세 보드)
+// - 외부 API(CNBC · Upbit · Open ER · Binance) 연동 실시간 시세 표시 (접속 시 및 수동 클릭 시에만 갱신)
 // - 안건 클릭 시 독립된 상세 페이지(detail.html)로 이동
 // ==========================================================================
 
@@ -25,8 +25,41 @@
         category: params.get("cat") || "all",
         deltaFilter: "ALL",
         readMap: loadReadMap(),
-        pinnedMap: loadJson("briefing_pinned_map_v1", {}) // 사용자가 직접 지정한 장기 보존 안건
+        pinnedMap: loadJson("briefing_pinned_map_v1", {}),
+        liveQuotesMap: {}
     };
+
+    // 우측 실시간 시세 보드 기본 항목 및 그룹 정의
+    const DEFAULT_MARKET_ITEMS = [
+        { id: "us10y", name: "미 10년물 국채금리", unit: "%", price: 5.14, dayChangePct: 0.71, src: "CNBC", group: "rates_fx" },
+        { id: "us2y", name: "미 2년물 국채금리", unit: "%", price: 4.85, dayChangePct: 0.03, src: "CNBC", group: "rates_fx" },
+        { id: "usdkrw", name: "원/달러 환율", unit: "원", price: 1336.5, dayChangePct: 0.02, src: "CNBC·FX", group: "rates_fx" },
+        { id: "dxy", name: "달러 인덱스 (DXY)", unit: "", price: 103.41, dayChangePct: 0.23, src: "CNBC", group: "rates_fx" },
+
+        { id: "sp500", name: "S&P 500", unit: "", price: 7561.67, dayChangePct: -0.40, src: "CNBC", group: "indices" },
+        { id: "nasdaq", name: "나스닥 종합", unit: "", price: 25136.27, dayChangePct: -0.91, src: "CNBC", group: "indices" },
+        { id: "dow", name: "다우존스 산업", unit: "", price: 52347.55, dayChangePct: 0.10, src: "CNBC", group: "indices" },
+        { id: "sox", name: "필라델피아 반도체", unit: "", price: 10146.32, dayChangePct: -3.43, src: "CNBC", group: "indices" },
+        { id: "kospi", name: "코스피 (KOSPI)", unit: "", price: 5290.53, dayChangePct: -0.98, src: "CNBC·KRX", group: "indices" },
+        { id: "kosdaq", name: "코스닥 (KOSDAQ)", unit: "", price: 699.66, dayChangePct: 0.45, src: "CNBC·KRX", group: "indices" },
+
+        { id: "nvda", name: "엔비디아 (NVDA)", unit: "$", price: 162.85, dayChangePct: -2.01, src: "CNBC", group: "tech" },
+        { id: "tsm", name: "TSMC (TSM)", unit: "$", price: 398.73, dayChangePct: -1.67, src: "CNBC", group: "tech" },
+        { id: "samsung", name: "삼성전자", unit: "원", price: 206000, dayChangePct: -0.96, src: "KRX·YF", group: "tech" },
+        { id: "skhynix", name: "SK하이닉스", unit: "원", price: 1216000, dayChangePct: -3.03, src: "KRX·YF", group: "tech" },
+
+        { id: "btc", name: "비트코인 (만원)", unit: "만원", price: 9810, dayChangePct: 5.87, src: "Upbit", group: "assets" },
+        { id: "gold", name: "금 선물 ($/oz)", unit: "$", price: 3887.60, dayChangePct: 0.06, src: "CNBC·COMEX", group: "assets" },
+        { id: "wti", name: "WTI 원유 선물", unit: "$", price: 88.92, dayChangePct: 0.20, src: "CNBC·NYMEX", group: "assets" },
+        { id: "copper", name: "구리 선물 ($/lb)", unit: "$", price: 6.06, dayChangePct: -2.14, src: "CNBC·COMEX", group: "assets" }
+    ];
+
+    const MARKET_GROUPS = [
+        { key: "rates_fx", title: "🏛️ 금리 · 환율" },
+        { key: "indices", title: "📈 한 · 미 주요 지수" },
+        { key: "tech", title: "🔬 반도체 · AI 빅테크" },
+        { key: "assets", title: "🥇 비트코인 · 금 · 원자재" }
+    ];
 
     function loadJson(key, fallback) {
         try {
@@ -91,10 +124,14 @@
     }
 
     function formatPrice(q) {
-        if (!q || q.price === undefined) return "-";
+        if (!q || q.price === undefined || q.price === null) return "-";
         const num = Number(q.price);
-        if (q.unit === "만원") return Math.round(num) + "만원";
-        if (q.unit === "원") return num.toLocaleString("ko-KR", { maximumFractionDigits: 0 }) + "원";
+        if (isNaN(num)) return "-";
+        if (q.unit === "만원") return Math.round(num).toLocaleString("ko-KR") + "만원";
+        if (q.unit === "원") {
+            if (num >= 10000) return Math.round(num).toLocaleString("ko-KR") + "원";
+            return num.toLocaleString("ko-KR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "원";
+        }
         if (q.unit === "$") return "$" + num.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         if (q.unit === "%") return num.toFixed(2) + "%";
         return num.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -105,8 +142,27 @@
         return found || recent7dEditions[0] || currentEdition;
     }
 
+    function getMergedMarketQuotes() {
+        const ed = getActiveEditionObj();
+        const baseQuotes = ed.marketQuotes || currentEdition.marketQuotes || [];
+        const baseMap = {};
+        baseQuotes.forEach(q => {
+            if (q && q.id) baseMap[q.id] = q;
+        });
+
+        return DEFAULT_MARKET_ITEMS.map(defItem => {
+            const fromEd = baseMap[defItem.id] || {};
+            const fromLive = state.liveQuotesMap[defItem.id] || {};
+            return Object.assign({}, defItem, fromEd, fromLive, {
+                name: defItem.name,
+                unit: defItem.unit,
+                src: fromLive.src || defItem.src,
+                group: defItem.group
+            });
+        });
+    }
+
     function getActiveAgendasList() {
-        // 사용자가 직접 '★ 중요 보존' 지정한 안건들도 롤업 뷰에 누락 없이 병합
         const pinnedIds = Object.keys(state.pinnedMap).filter(k => state.pinnedMap[k]);
         const allKnownAgendas = (currentEdition.agendas || []);
 
@@ -137,89 +193,167 @@
         return ed.agendas || [];
     }
 
+    function setQuoteStatusText(msg) {
+        document.querySelectorAll(".js-quote-status").forEach(el => {
+            el.textContent = msg;
+        });
+    }
+
     function init() {
         renderHeader();
+        renderRightMarketSidebar();
         renderTierControls();
         syncCategoryTabs();
+        syncDeltaChips();
         renderAgendaList();
         bindEvents();
+        // 새로고침 빈도: 웹페이지 접속 시 1회 자동 호출 + 사용자 수동 클릭 시에만 호출 (주기적 타이머 없음)
         fetchLiveQuotesOnOpen();
-        setInterval(fetchLiveQuotesOnOpen, 60000); // 페이지가 열려 있는 동안 1분마다 실시간 갱신
     }
 
     async function fetchLiveQuotesOnOpen() {
-        const statusEl = document.getElementById("live-quote-status");
-        if (statusEl) {
-            statusEl.textContent = "🔄 실시간 시세 동기화 중...";
-        }
-
-        const ed = getActiveEditionObj();
-        const quotes = ed.marketQuotes || currentEdition.marketQuotes || [];
-        const qMap = {};
-        quotes.forEach(q => { qMap[q.id] = q; });
+        setQuoteStatusText("🔄 외부 API에서 실시간 시세 수신 중...");
 
         const parseNum = (str) => {
             if (str === undefined || str === null) return NaN;
             return parseFloat(String(str).replace(/[,%+\s]/g, ""));
         };
 
+        let updatedCount = 0;
+
         try {
-            // 1. CNBC 실시간 글로벌 지표 API (미 10년물 금리, S&P500, 필라델피아 반도체, 금 선물 $/oz, 원/달러 환율)
-            const cnbcUrl = "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y%7C.SPX%7C.SOX%7C%40GC.1%7CKRW%3D&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json";
+            // 1. CNBC 글로벌 실시간 시세 웹서비스 API (금리, 한·미 지수, 환율, 반도체, 원자재)
+            const cnbcSymbols = [
+                "US10Y", "US2Y", ".SPX", ".IXIC", ".DJI", ".SOX",
+                ".KS11", ".KQ11", "@GC.1", "@CL.1", "@HG.1", ".DXY", "KRW=", "NVDA", "TSM"
+            ].join("|");
+            const cnbcUrl = `https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=${encodeURIComponent(cnbcSymbols)}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json`;
+
             const cnbcPromise = fetch(cnbcUrl, { cache: "no-store" })
                 .then(r => r.json())
                 .then(data => {
                     const list = (data && data.FormattedQuoteResult && data.FormattedQuoteResult.FormattedQuote) || [];
                     const symToId = {
                         "US10Y": "us10y",
+                        "US2Y": "us2y",
                         ".SPX": "sp500",
+                        ".IXIC": "nasdaq",
+                        ".DJI": "dow",
                         ".SOX": "sox",
+                        ".KS11": "kospi",
+                        ".KQ11": "kosdaq",
                         "@GC.1": "gold",
-                        "KRW=": "usdkrw"
+                        "@CL.1": "wti",
+                        "@HG.1": "copper",
+                        ".DXY": "dxy",
+                        "KRW=": "usdkrw",
+                        "NVDA": "nvda",
+                        "TSM": "tsm"
                     };
                     list.forEach(item => {
                         const targetId = symToId[item.symbol];
-                        if (targetId && qMap[targetId]) {
+                        if (targetId) {
                             const priceVal = parseNum(item.last);
                             const chgVal = parseNum(item.change_pct);
-                            if (!isNaN(priceVal)) qMap[targetId].price = priceVal;
-                            if (!isNaN(chgVal)) qMap[targetId].dayChangePct = chgVal;
+                            if (!isNaN(priceVal) && priceVal > 0) {
+                                state.liveQuotesMap[targetId] = {
+                                    price: priceVal,
+                                    dayChangePct: !isNaN(chgVal) ? chgVal : 0.0,
+                                    src: "CNBC LIVE"
+                                };
+                                updatedCount++;
+                            }
                         }
                     });
                 })
                 .catch(() => {});
 
-            // 2. 업비트(Upbit) 실시간 원화 비트코인 API (만원 단위 변환)
+            // 2. 업비트(Upbit) 실시간 원화 비트코인 외부 API (만원 단위 표기)
             const upbitUrl = "https://api.upbit.com/v1/ticker?markets=KRW-BTC";
             const btcPromise = fetch(upbitUrl, { cache: "no-store" })
                 .then(r => r.json())
                 .then(arr => {
-                    if (Array.isArray(arr) && arr[0] && qMap["btc"]) {
+                    if (Array.isArray(arr) && arr[0]) {
                         const tradePrice = Number(arr[0].trade_price);
                         const chgRate = Number(arr[0].signed_change_rate) * 100.0;
                         if (tradePrice > 0) {
-                            qMap["btc"].price = Math.round(tradePrice / 10000);
-                            qMap["btc"].unit = "만원";
-                        }
-                        if (!isNaN(chgRate)) {
-                            qMap["btc"].dayChangePct = chgRate;
+                            state.liveQuotesMap["btc"] = {
+                                price: Math.round(tradePrice / 10000),
+                                unit: "만원",
+                                dayChangePct: !isNaN(chgRate) ? chgRate : 0.0,
+                                src: "Upbit LIVE"
+                            };
+                            updatedCount++;
                         }
                     }
                 })
                 .catch(() => {});
 
-            await Promise.all([cnbcPromise, btcPromise]);
+            // 3. Open Exchange Rates API (원/달러 환율 보조 외부 API)
+            const fxUrl = "https://open.er-api.com/v6/latest/USD";
+            const fxPromise = fetch(fxUrl, { cache: "no-store" })
+                .then(r => r.json())
+                .then(data => {
+                    if (data && data.rates && data.rates.KRW && !state.liveQuotesMap["usdkrw"]) {
+                        state.liveQuotesMap["usdkrw"] = {
+                            price: Number(data.rates.KRW),
+                            dayChangePct: 0.0,
+                            src: "ER-API LIVE"
+                        };
+                        updatedCount++;
+                    }
+                })
+                .catch(() => {});
+
+            await Promise.all([cnbcPromise, btcPromise, fxPromise]);
+
             renderHeader();
+            renderRightMarketSidebar();
 
             const nowStr = new Date().toLocaleTimeString("ko-KR", { hour12: false });
-            if (statusEl) {
-                statusEl.textContent = `🟢 실시간 시세 연동됨 (페이지 열 때마다 자동 갱신 · ${nowStr} 기준)`;
+            if (updatedCount > 0) {
+                setQuoteStatusText(`🟢 외부 API 실시간 연동됨 (${nowStr} 기준)`);
+            } else {
+                setQuoteStatusText(`🟢 브리핑 기준 시세 표시 중 (${nowStr})`);
             }
         } catch (err) {
-            if (statusEl) {
-                statusEl.textContent = "🟢 시세 표시 중 (브리핑 기준 시세)";
-            }
+            setQuoteStatusText("🟢 시세 표시 중 (브리핑 기준 시세)");
         }
+    }
+
+    function renderRightMarketSidebar() {
+        const rightListEl = document.getElementById("right-market-list");
+        if (!rightListEl) return;
+
+        const allQuotes = getMergedMarketQuotes();
+
+        rightListEl.innerHTML = MARKET_GROUPS.map(grp => {
+            const items = allQuotes.filter(q => q.group === grp.key);
+            const rowsHtml = items.map(q => {
+                const chg = Number(q.dayChangePct) || 0;
+                const isUp = chg >= 0;
+                const sign = isUp ? "+" : "";
+                return `
+                    <div class="right-quote-row">
+                        <div class="right-quote-left">
+                            <div class="right-quote-name">${q.name}</div>
+                            <div class="right-quote-src">${q.src || "LIVE"}</div>
+                        </div>
+                        <div class="right-quote-right">
+                            <div class="right-quote-val">${formatPrice(q)}</div>
+                            <div class="right-quote-chg ${isUp ? "up" : "down"}">${sign}${chg.toFixed(2)}%</div>
+                        </div>
+                    </div>
+                `;
+            }).join("");
+
+            return `
+                <div class="market-group-block">
+                    <div class="market-group-title">${grp.title}</div>
+                    ${rowsHtml}
+                </div>
+            `;
+        }).join("");
     }
 
     function renderHeader() {
@@ -252,19 +386,21 @@
             readEl.textContent = `열람 완료 (${scopeLabel}): ${readCount} / ${activeAgendas.length}건`;
         }
 
-        const marketQuotes = ed.marketQuotes || currentEdition.marketQuotes || [];
+        // 모바일 상단 6대 핵심 지표 바 렌더링
+        const allQuotes = getMergedMarketQuotes();
         const coreIds = ["us10y", "sp500", "sox", "gold", "btc", "usdkrw"];
         const coreBar = document.getElementById("core-metrics-bar");
-        if (coreBar && marketQuotes.length > 0) {
-            const coreItems = coreIds.map(id => marketQuotes.find(m => m.id === id)).filter(Boolean);
+        if (coreBar && allQuotes.length > 0) {
+            const coreItems = coreIds.map(id => allQuotes.find(m => m.id === id)).filter(Boolean);
             coreBar.innerHTML = coreItems.map(q => {
-                const isUp = q.dayChangePct >= 0;
+                const chg = Number(q.dayChangePct) || 0;
+                const isUp = chg >= 0;
                 const sign = isUp ? "+" : "";
                 return `
                     <div class="core-metric-item">
                         <div class="core-metric-name">${q.name}</div>
                         <div class="core-metric-val">${formatPrice(q)}</div>
-                        <div class="core-metric-chg ${isUp ? "up" : "down"}">${sign}${q.dayChangePct.toFixed(2)}%</div>
+                        <div class="core-metric-chg ${isUp ? "up" : "down"}">${sign}${chg.toFixed(2)}%</div>
                     </div>
                 `;
             }).join("");
@@ -272,14 +408,13 @@
     }
 
     function renderTierControls() {
-        // 각 탭 부제에 건수 표시
         const subDaily = document.getElementById("sub-daily7d");
         const subWeekly = document.getElementById("sub-weekly7d");
         const subMonthly = document.getElementById("sub-monthly30d");
         const subQuarterly = document.getElementById("sub-quarterly120d");
 
         const curCount = (currentEdition.agendas || []).length || 40;
-        if (subDaily) subDaily.textContent = `보관 에디션 ${recent7dEditions.length}회차 (회차당 ${curCount}건 전체 보존)`;
+        if (subDaily) subDaily.textContent = `보관 에디션 ${recent7dEditions.length}회차 (회차당 ${curCount}건 보존)`;
         if (subWeekly) subWeekly.textContent = `중요 선별 ${(weeklyRollup.agendas || []).length}건 합산 보관 중`;
         if (subMonthly) subMonthly.textContent = `최중요 선별 ${(monthlyRollup.agendas || []).length}건 합산 보관 중`;
         if (subQuarterly) subQuarterly.textContent = `분기 핵심 ${(quarterlyRollup.agendas || []).length}건 영구 합산 중`;
@@ -299,33 +434,34 @@
                 const edReadCount = edAgendas.filter(a => isAgendaRead(a.id, ed.editionId)).length;
                 return `
                     <button class="edition-slot-btn ${isAct ? "active" : ""}" data-select-edition="${ed.editionId}">
-                        🗓️ ${label} (열람 ${edReadCount}/${edAgendas.length}건)
+                        <span>🗓️ ${label}</span>
+                        <span style="font-size:12px;opacity:0.85;">열람 ${edReadCount}/${edAgendas.length}</span>
                     </button>
                 `;
             }).join("");
 
             subCtrl.innerHTML = `
                 <div class="edition-history-bar">
-                    <span style="font-size:14.5px;font-weight:800;color:var(--text-muted);margin-right:6px;">최근 7일 회차 선택 (최대 14회차 자동 누적):</span>
+                    <span style="font-size:13.5px;font-weight:800;color:var(--text-muted);">최근 7일 날짜·회차 선택 (최대 14회차):</span>
                     ${buttonsHtml}
                 </div>
             `;
         } else if (state.tier === "weekly7d") {
             subCtrl.innerHTML = `
                 <div class="rollup-info-banner">
-                    📌 <strong>[7일 단위 최중요 브리핑 합산]</strong> 7일이 지나 일별 보관함에서 걸러지는 브리핑 중 중요도가 높은 핵심 안건(CRITICAL 및 시사점 전환·신규·강화)만 자동 추출하여 합산한 목록입니다.
+                    📌 <strong>[7일 최중요 합산]</strong> 최근 7일 브리핑 중 시사점 전환·신규·강화 핵심 안건만 자동 추출한 목록입니다.
                 </div>
             `;
         } else if (state.tier === "monthly30d") {
             subCtrl.innerHTML = `
                 <div class="rollup-info-banner">
-                    🏆 <strong>[30일 단위 최중요 브리핑 합산]</strong> 7일 단위 중요 브리핑에 모인 안건들 중에서도 거시경제·반도체·금·비트코인·부동산의 구조적 추세를 바꾼 최상위 안건만 뽑아 남긴 월간 통합본입니다.
+                    🏆 <strong>[30일 최중요 합산]</strong> 7일 중요 브리핑 중 구조적 추세를 바꾼 최상위 안건만 남긴 월간 통합본입니다.
                 </div>
             `;
         } else {
             subCtrl.innerHTML = `
                 <div class="rollup-info-banner">
-                    🏛️ <strong>[120일(1분기) 단위 최중요 브리핑 합산]</strong> 30일 단위 최중요 브리핑들을 하나로 모아 최근 1분기(120일) 동안의 핵심 시사점 변화를 한눈에 복기할 수 있는 분기 빅픽처 보관함입니다.
+                    🏛️ <strong>[120일(1분기) 합산]</strong> 최근 1분기 동안의 핵심 시사점 변화를 복기하는 분기 빅픽처 보관함입니다.
                 </div>
             `;
         }
@@ -364,6 +500,35 @@
             const cat = btn.getAttribute("data-cat");
             if (labels[cat]) btn.textContent = labels[cat];
             btn.classList.toggle("active", cat === state.category);
+        });
+    }
+
+    function syncDeltaChips() {
+        const activeAgendas = getActiveAgendasList();
+        const catFiltered = activeAgendas.filter(ag => state.category === "all" || ag.category === state.category);
+        const dCounts = {
+            ALL: catFiltered.length,
+            REINFORCED: 0,
+            CHALLENGED: 0,
+            NEW: 0,
+            MAINTAINED: 0
+        };
+        catFiltered.forEach(ag => {
+            dCounts[ag.deltaStatus] = (dCounts[ag.deltaStatus] || 0) + 1;
+        });
+
+        const dLabels = {
+            ALL: `전체 보기 (${dCounts.ALL})`,
+            REINFORCED: `🟢 시사점 강화 (${dCounts.REINFORCED})`,
+            CHALLENGED: `🔴 시사점 약화 · 전환 (${dCounts.CHALLENGED})`,
+            NEW: `🆕 신규 시사점 (${dCounts.NEW})`,
+            MAINTAINED: `🟡 기조 유지 · 혼조 (${dCounts.MAINTAINED})`
+        };
+
+        document.querySelectorAll(".delta-chip").forEach(chip => {
+            const dKey = chip.getAttribute("data-delta");
+            if (dLabels[dKey]) chip.textContent = dLabels[dKey];
+            chip.classList.toggle("active", dKey === state.deltaFilter);
         });
     }
 
@@ -441,20 +606,22 @@
     }
 
     function bindEvents() {
-        const refreshBtn = document.getElementById("btn-refresh-quotes");
-        if (refreshBtn) {
-            refreshBtn.addEventListener("click", () => {
+        // 수동 클릭 시에만 실시간 시세 새로고침 호출
+        document.querySelectorAll(".js-refresh-quotes").forEach(btn => {
+            btn.addEventListener("click", () => {
                 fetchLiveQuotesOnOpen();
             });
-        }
+        });
 
         // 아카이브 티어 탭 전환
         document.querySelectorAll(".tier-tab-btn").forEach(btn => {
             btn.addEventListener("click", () => {
                 state.tier = btn.getAttribute("data-tier") || "daily7d";
                 renderHeader();
+                renderRightMarketSidebar();
                 renderTierControls();
                 syncCategoryTabs();
+                syncDeltaChips();
                 renderAgendaList();
             });
         });
@@ -465,8 +632,10 @@
             if (edBtn) {
                 state.selectedEditionId = edBtn.getAttribute("data-select-edition");
                 renderHeader();
+                renderRightMarketSidebar();
                 renderTierControls();
                 syncCategoryTabs();
+                syncDeltaChips();
                 renderAgendaList();
                 return;
             }
@@ -503,6 +672,7 @@
             btn.addEventListener("click", () => {
                 state.category = btn.getAttribute("data-cat") || "all";
                 syncCategoryTabs();
+                syncDeltaChips();
                 renderAgendaList();
             });
         });
@@ -510,9 +680,8 @@
         // 시사점 필터
         document.querySelectorAll(".delta-chip").forEach(chip => {
             chip.addEventListener("click", () => {
-                document.querySelectorAll(".delta-chip").forEach(c => c.classList.remove("active"));
-                chip.classList.add("active");
                 state.deltaFilter = chip.getAttribute("data-delta") || "ALL";
+                syncDeltaChips();
                 renderAgendaList();
             });
         });

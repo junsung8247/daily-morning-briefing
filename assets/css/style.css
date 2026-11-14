@@ -43,12 +43,357 @@ a {
 }
 
 /* ==========================================================================
-   PC 기본 레이아웃 (769px 이상에서는 현재의 시원시원한 PC 레이아웃 그대로 유지)
+   PC 기본 레이아웃 & 3단 와이드 포털 그리드 (여백 약 25~28% 유지 · 좌/우 여백 고효율 활용)
+   - 좌측 사이드바: ① 날짜·회차 선택 ➔ ② 브리핑 종류(카테고리) ➔ ③ 시사점 변화별 필터
+   - 중앙 메인: 핵심 총평 헤더 + 40대 심층 안건 카드
+   - 우측 사이드바: 외부 API 연동 실시간 글로벌·국내 시세 보드 (접속 및 수동클릭 갱신)
    ========================================================================== */
 .container {
     max-width: 1120px;
     margin: 0 auto;
     padding: 32px 24px 90px;
+}
+
+.sidebar-sub-divider {
+    height: 1px;
+    background: var(--border-light);
+    margin: 14px 0 12px;
+}
+
+.sidebar-sub-label,
+.sidebar-section-heading {
+    font-size: 15px;
+    font-weight: 900;
+    color: var(--text-title);
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media (min-width: 1081px) {
+    .container.portal-layout {
+        /* 전체 화면 폭의 약 74.5%를 콘텐츠(좌·중·우 3단)로 활용하고,
+           좌우 바깥 여백(약 25.5%) + 컬럼 간격을 합쳐 피로감 없는 25% 이상 여백 황금비율 구현 */
+        width: 74.5%;
+        max-width: 1580px;
+        min-width: 1050px;
+        margin: 0 auto;
+        padding: 28px 0 90px;
+        display: grid;
+        grid-template-columns: clamp(230px, 14.5vw, 265px) minmax(0, 1fr) clamp(245px, 15.5vw, 285px);
+        gap: 20px;
+        align-items: start;
+    }
+
+    .pc-left-sidebar,
+    .pc-right-sidebar {
+        position: sticky;
+        top: 20px;
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #cbd5e1 transparent;
+    }
+
+    .pc-left-sidebar::-webkit-scrollbar,
+    .pc-right-sidebar::-webkit-scrollbar {
+        width: 5px;
+    }
+    .pc-left-sidebar::-webkit-scrollbar-thumb,
+    .pc-right-sidebar::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 99px;
+    }
+
+    .pc-main-center {
+        min-width: 0;
+    }
+
+    /* PC에서는 우측 전용 실시간 시세 사이드바가 표시되므로 헤더 내부의 중복 6대 지표 바는 숨김 */
+    .mobile-only-metrics {
+        display: none !important;
+    }
+
+    /* 좌측 사이드바 내부: 위에서부터 ① 날짜·회차 ➔ ② 브리핑 종류 ➔ ③ 시사점 변화별 세로 정렬 */
+    .pc-left-sidebar .archive-tier-section {
+        padding: 18px 16px;
+        border-radius: 14px;
+        margin-bottom: 14px;
+    }
+
+    .pc-left-sidebar .archive-tier-header {
+        margin-bottom: 10px;
+        gap: 4px;
+    }
+
+    .pc-left-sidebar .archive-tier-title {
+        font-size: 15.5px;
+    }
+
+    .pc-left-sidebar .archive-tier-desc {
+        font-size: 12px !important;
+        line-height: 1.4;
+    }
+
+    .pc-left-sidebar .edition-history-bar {
+        margin-top: 4px;
+        padding-top: 0;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+    }
+
+    .pc-left-sidebar .edition-history-bar > span {
+        font-size: 12.5px !important;
+        margin-bottom: 2px;
+    }
+
+    .pc-left-sidebar .edition-slot-btn {
+        width: 100%;
+        text-align: left;
+        padding: 8px 11px;
+        font-size: 13px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pc-left-sidebar .archive-tier-tabs {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .pc-left-sidebar .tier-tab-btn {
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+
+    .pc-left-sidebar .tier-tab-name {
+        font-size: 13.5px;
+    }
+
+    .pc-left-sidebar .tier-tab-sub {
+        font-size: 11.5px;
+        margin-top: 2px;
+    }
+
+    .pc-left-sidebar .rollup-info-banner {
+        margin-top: 6px;
+        padding: 10px 12px;
+        font-size: 12.5px;
+        line-height: 1.45;
+    }
+
+    .pc-left-sidebar .filter-section {
+        padding: 18px 16px;
+        border-radius: 14px;
+        margin-bottom: 0;
+    }
+
+    .pc-left-sidebar .tab-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: 100%;
+    }
+
+    .pc-left-sidebar .tab-btn {
+        width: 100%;
+        text-align: left;
+        padding: 9px 12px;
+        border-radius: 9px;
+        font-size: 13.5px;
+    }
+
+    .pc-left-sidebar .delta-filter-row {
+        margin-top: 16px;
+        padding-top: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+    }
+
+    .pc-left-sidebar .delta-filter-heading {
+        font-size: 14.5px !important;
+        color: var(--text-title) !important;
+        font-weight: 900 !important;
+        margin-bottom: 4px;
+    }
+
+    .pc-left-sidebar .delta-chip {
+        width: 100%;
+        text-align: left;
+        padding: 8px 12px;
+        border-radius: 9px;
+        font-size: 13px;
+    }
+}
+
+/* 우측 실시간 시세 보드 (PC 전용 우측 사이드바 스타일) */
+.right-market-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 14px;
+    padding: 18px 16px;
+    box-shadow: none;
+}
+
+.right-market-header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 12px;
+}
+
+.right-market-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.right-market-title {
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--text-title);
+}
+
+.right-refresh-btn {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #0f172a;
+    cursor: pointer;
+    transition: border-color 0.15s, background-color 0.15s;
+}
+
+.right-refresh-btn:hover {
+    border-color: var(--accent-blue);
+    background: #f0f9ff;
+    color: var(--accent-blue);
+}
+
+.right-market-status {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #059669;
+    line-height: 1.4;
+}
+
+.right-market-subnote {
+    margin-top: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.right-market-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.market-group-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.market-group-title {
+    font-size: 12.5px;
+    font-weight: 900;
+    color: #475569;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed var(--border-light);
+}
+
+.right-quote-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-light);
+    border-radius: 9px;
+    padding: 8px 10px;
+    gap: 6px;
+}
+
+.right-quote-left {
+    min-width: 0;
+}
+
+.right-quote-name {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--text-title);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.right-quote-src {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.right-quote-right {
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.right-quote-val {
+    font-size: 13.5px;
+    font-weight: 900;
+    color: var(--text-title);
+}
+
+.right-quote-chg {
+    font-size: 11.5px;
+    font-weight: 800;
+    margin-top: 1px;
+}
+.right-quote-chg.up { color: #059669; }
+.right-quote-chg.down { color: #e11d48; }
+
+/* 모바일 및 소형 태블릿 (1080px 이하): 기존 단일 컬럼 순서(헤더 -> 보관함/필터 -> 안건 목록) 100% 유지 */
+@media (max-width: 1080px) {
+    .container.portal-layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pc-main-center {
+        display: contents;
+    }
+
+    .site-header {
+        order: 1;
+    }
+
+    .pc-left-sidebar {
+        order: 2;
+    }
+
+    .agenda-list {
+        order: 3;
+    }
+
+    .pc-right-sidebar {
+        display: none !important;
+    }
+
+    .sidebar-sub-divider,
+    .sidebar-sub-label,
+    .sidebar-section-heading {
+        display: none;
+    }
 }
 
 .site-header {
