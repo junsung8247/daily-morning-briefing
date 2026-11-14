@@ -72,16 +72,23 @@ a {
 
 @media (min-width: 1081px) {
     .container.portal-layout {
-        /* 좌우 바깥 여백을 과감하게 총 10%(좌 5% · 우 5%) 수준으로 낮추고,
-           전체 화면 폭의 90%를 좌·중·우 3단 와이드 포털로 꽉 차게 활용 */
-        width: 90%;
-        max-width: 2400px;
-        min-width: 1050px;
-        margin: 0 auto;
-        padding: 24px 0 90px;
+        /* [창 크기에 따라 자동 비례하는 4대 균등 공백 시스템]
+           ① 화면 맨 왼쪽 ~ 좌측 사이드바 공백 = var(--side-gap)
+           ② 좌측 사이드바 ~ 중앙 본정보 공백 = var(--side-gap)
+           ③ 중앙 본정보 ~ 우측 사이드바 공백 = var(--side-gap)
+           ④ 우측 사이드바 ~ 화면 맨 오른쪽 공백 = var(--side-gap)
+           -> 4개의 공백이 모두 정확히 2.5vw(합계 10% 여백)로 1:1:1:1 완벽 일치하여,
+              창 크기를 어떻게 조절해도 양 사이드 정보가 각 사이드 공간의 정중앙에 위치함 */
+        --side-gap: clamp(14px, 2.5vw, 72px);
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 24px var(--side-gap) 90px;
         display: grid;
-        grid-template-columns: clamp(260px, 16vw, 320px) minmax(0, 1fr) clamp(280px, 17vw, 340px);
-        gap: 20px;
+        grid-template-columns: clamp(235px, 16.5vw, 350px) minmax(0, 1fr) clamp(250px, 17.5vw, 370px);
+        column-gap: var(--side-gap);
+        row-gap: 20px;
         align-items: start;
     }
 

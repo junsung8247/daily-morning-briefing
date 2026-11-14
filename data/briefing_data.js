@@ -2,7 +2,7 @@
 window.BRIEFING_PORTAL_DATA = {
   "currentEdition": {
     "editionId": "2026-11-14_2000",
-    "generatedAt": "2026-11-14 20:07:22 KST",
+    "generatedAt": "2026-11-14 20:38:59 KST",
     "displayDate": "2026년 11월 14일",
     "shortDate": "11/14 20:00",
     "slotLabel": "20:00 PM 이브닝 에디션",
@@ -374,9 +374,9 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "만원",
         "color": "#f97316",
         "scale": 0.0001,
-        "price": 8969,
-        "dayChangePct": -1.58,
-        "monthChangePct": -17.91,
+        "price": 8960,
+        "dayChangePct": -1.68,
+        "monthChangePct": -18.0,
         "historyLabels": [
           "11/05",
           "11/06",
@@ -399,7 +399,7 @@ window.BRIEFING_PORTAL_DATA = {
           9885,
           9518,
           9113,
-          8969
+          8960
         ]
       },
       {
@@ -3514,13 +3514,13 @@ window.BRIEFING_PORTAL_DATA = {
             9885,
             9518,
             9113,
-            8969
+            8960
           ],
           "unit": "만원",
           "color": "#f97316",
           "benchmark_val": 9500.0,
           "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-          "badge_text": "LIVE 8969만원",
+          "badge_text": "LIVE 8960만원",
           "annotations": [
             {
               "index": 9,
@@ -3531,7 +3531,7 @@ window.BRIEFING_PORTAL_DATA = {
         "keyMetrics": [
           {
             "label": "비트코인 시세 (만원)",
-            "value": "8969만원",
+            "value": "8960만원",
             "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
           },
           {
@@ -4339,7 +4339,7 @@ window.BRIEFING_PORTAL_DATA = {
   "recent7dEditions": [
     {
       "editionId": "2026-11-14_2000",
-      "generatedAt": "2026-11-14 20:07:22 KST",
+      "generatedAt": "2026-11-14 20:38:59 KST",
       "displayDate": "2026년 11월 14일",
       "shortDate": "11/14 20:00",
       "slotLabel": "20:00 PM 이브닝 에디션",
@@ -4711,9 +4711,9 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "만원",
           "color": "#f97316",
           "scale": 0.0001,
-          "price": 8969,
-          "dayChangePct": -1.58,
-          "monthChangePct": -17.91,
+          "price": 8960,
+          "dayChangePct": -1.68,
+          "monthChangePct": -18.0,
           "historyLabels": [
             "11/05",
             "11/06",
@@ -4736,7 +4736,7 @@ window.BRIEFING_PORTAL_DATA = {
             9885,
             9518,
             9113,
-            8969
+            8960
           ]
         },
         {
@@ -7851,13 +7851,13 @@ window.BRIEFING_PORTAL_DATA = {
               9885,
               9518,
               9113,
-              8969
+              8960
             ],
             "unit": "만원",
             "color": "#f97316",
             "benchmark_val": 9500.0,
             "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-            "badge_text": "LIVE 8969만원",
+            "badge_text": "LIVE 8960만원",
             "annotations": [
               {
                 "index": 9,
@@ -7868,7 +7868,7 @@ window.BRIEFING_PORTAL_DATA = {
           "keyMetrics": [
             {
               "label": "비트코인 시세 (만원)",
-              "value": "8969만원",
+              "value": "8960만원",
               "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
             },
             {
