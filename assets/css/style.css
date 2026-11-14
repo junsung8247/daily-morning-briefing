@@ -49,9 +49,10 @@ a {
    - 우측 사이드바: 외부 API 연동 실시간 글로벌·국내 시세 보드 (접속 및 수동클릭 갱신)
    ========================================================================== */
 .container {
-    max-width: 1120px;
+    width: 90%;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 32px 24px 90px;
+    padding: 28px 0 90px;
 }
 
 .sidebar-sub-divider {
@@ -71,15 +72,15 @@ a {
 
 @media (min-width: 1081px) {
     .container.portal-layout {
-        /* 전체 화면 폭의 약 74.5%를 콘텐츠(좌·중·우 3단)로 활용하고,
-           좌우 바깥 여백(약 25.5%) + 컬럼 간격을 합쳐 피로감 없는 25% 이상 여백 황금비율 구현 */
-        width: 74.5%;
-        max-width: 1580px;
+        /* 좌우 바깥 여백을 과감하게 총 10%(좌 5% · 우 5%) 수준으로 낮추고,
+           전체 화면 폭의 90%를 좌·중·우 3단 와이드 포털로 꽉 차게 활용 */
+        width: 90%;
+        max-width: 2400px;
         min-width: 1050px;
         margin: 0 auto;
-        padding: 28px 0 90px;
+        padding: 24px 0 90px;
         display: grid;
-        grid-template-columns: clamp(230px, 14.5vw, 265px) minmax(0, 1fr) clamp(245px, 15.5vw, 285px);
+        grid-template-columns: clamp(260px, 16vw, 320px) minmax(0, 1fr) clamp(280px, 17vw, 340px);
         gap: 20px;
         align-items: start;
     }
@@ -448,10 +449,33 @@ a {
     border-left: 5px solid #0284c7;
     border-radius: 10px;
     padding: 18px 22px;
+    font-size: 17.5px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.65;
+}
+
+.exec-head-line {
     font-size: 18.5px;
+    font-weight: 900;
+    color: #0369a1;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #bae6fd;
+}
+
+.exec-bullet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.exec-item-line {
+    font-size: 17px;
     font-weight: 700;
     color: #0f172a;
     line-height: 1.6;
+    padding-left: 4px;
 }
 
 .core-metrics-bar {
@@ -1086,6 +1110,8 @@ a {
 
     /* 1. 바깥 여백 최소화 -> 텍스트 가용 폭 최대 확보 */
     .container {
+        width: 100%;
+        max-width: 100%;
         padding: 12px 12px 60px;
     }
 
@@ -1121,6 +1147,18 @@ a {
         font-size: 14.5px;
         line-height: 1.55;
         border-left-width: 4px;
+    }
+
+    .exec-head-line {
+        font-size: 15px;
+        margin-bottom: 8px;
+        padding-bottom: 6px;
+    }
+
+    .exec-item-line {
+        font-size: 14px;
+        line-height: 1.55;
+        padding-left: 0;
     }
 
     /* 모바일 6대 핵심 지표: 3열 2줄 컴팩트 그리드로 한눈에 배치 */

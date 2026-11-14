@@ -356,6 +356,40 @@
         }).join("");
     }
 
+    function formatExecutiveHeadlineHtml(rawText) {
+        if (!rawText) return `<div class="exec-head-line">🧭 [핵심 시사점 총평]</div>`;
+        const parts = String(rawText)
+            .split(/(?=[①②③④⑤⑥⑦⑧⑨⑩])/)
+            .map(s => s.replace(/\s*·\s*$/, "").trim())
+            .filter(Boolean);
+
+        let headPrefix = "";
+        const bulletItems = [];
+
+        parts.forEach(part => {
+            if (/^[①②③④⑤⑥⑦⑧⑨⑩]/.test(part)) {
+                // "①거시: 내용" 또는 "⑥금(내용)" 형태에서 앞부분 카테고리명을 굵게 강조
+                const formatted = part
+                    .replace(/^([①②③④⑤⑥⑦⑧⑨⑩][^:：(（]{1,14}[:：])/, '<strong style="color:#0369a1;">$1</strong> ')
+                    .replace(/^([①②③④⑤⑥⑦⑧⑨⑩][^(（:：]{1,10})\((.+)\)$/, '<strong style="color:#0369a1;">$1:</strong> $2');
+                bulletItems.push(`<div class="exec-item-line">${formatted}</div>`);
+            } else {
+                headPrefix = part;
+            }
+        });
+
+        if (bulletItems.length === 0) {
+            return `<div class="exec-head-line">🧭 [핵심 시사점 총평]</div><div class="exec-item-line">${rawText}</div>`;
+        }
+
+        return `
+            <div class="exec-head-line">🧭 [핵심 시사점 총평] ${headPrefix}</div>
+            <div class="exec-bullet-list">
+                ${bulletItems.join("")}
+            </div>
+        `;
+    }
+
     function renderHeader() {
         const ed = getActiveEditionObj();
         const badgeEl = document.getElementById("edition-badge");
@@ -373,7 +407,8 @@
 
         const execEl = document.getElementById("exec-summary-box");
         if (execEl) {
-            execEl.innerHTML = `<span style="color:#0284c7;margin-right:8px;">[핵심 시사점 총평]</span>${ed.executiveHeadline || currentEdition.executiveHeadline || ""}`;
+            const rawHeadline = ed.executiveHeadline || currentEdition.executiveHeadline || "";
+            execEl.innerHTML = formatExecutiveHeadlineHtml(rawHeadline);
         }
 
         state.readMap = loadReadMap();
