@@ -4,7 +4,7 @@
 - 1단계 (최근 7일): 12시간마다 생성된 브리핑 원본 전체를 그대로 보존 (최대 14회차, 6일 뒤에도 전체 열람 가능)
 - 2단계 (7일 단위 합산): 7일이 경과해 걸러지는 에디션에서 중요 안건(CRITICAL / 시사점 전환·신규·강화)만 추출하여 7일 단위로 합산
 - 3단계 (30일 단위 합산): 7일 단위 중요 브리핑 중에서 핵심 구조적 변화 안건만 다시 뽑아 30일 단위로 합산
-- 4단계 (120일/1분기 합산): 30일 단위 브리핑들을 모아 120일(1분기) 최중요 브리핑으로 통합 보존
+- 4단계 (120일/1분기 합산): 30일 단위 브리핑들을 모아 120일 최중요 브리핑으로 통합 보존
 """
 import os
 import json
@@ -74,7 +74,7 @@ def process_tiered_archives(base_dir, current_edition):
     1) 최근 7일 이내(14회차) 원본 에디션 리스트 유지
     2) 7일 단위 중요 브리핑 합산 (weekly_7d.json)
     3) 30일 단위 최중요 브리핑 합산 (monthly_30d.json)
-    4) 120일(1분기) 단위 최중요 브리핑 합산 (quarterly_120d.json)
+    4) 120일 단위 최중요 브리핑 합산 (quarterly_120d.json)
     을 생성 및 갱신합니다.
     """
     editions_dir = os.path.join(base_dir, "data", "editions")
@@ -139,8 +139,8 @@ def process_tiered_archives(base_dir, current_edition):
     )
     quarterly_rollup = load_rollup(
         quarterly_path,
-        "🏛️ 120일(1분기) 단위 최중요 브리핑 합산 (Quarterly 120-Day Core)",
-        "30일 단위 최중요 브리핑들을 모아 120일(1분기) 동안의 거시경제·반도체·금·비트코인·한국 부동산 대세 흐름을 집대성한 분기 아카이브입니다."
+        "🏛️ 120일 단위 최중요 브리핑 합산 (Quarterly 120-Day Core)",
+        "30일 단위 최중요 브리핑들을 모아 120일 동안의 거시경제·반도체·금·비트코인·한국 부동산 대세 흐름을 집대성한 분기 아카이브입니다."
     )
 
     # 승격 헬퍼: 중복 안건(같은 제목 또는 ID)은 최신 시사점 상태로 병합·업데이트
@@ -202,13 +202,13 @@ def process_tiered_archives(base_dir, current_edition):
     )
     monthly_rollup["updatedAt"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
 
-    # 3) 120일(1분기) 단위 최중요 브리핑: 30일 단위 브리핑들을 모아 최상위 구조적 변화 안건 보존 (약 상위 16개)
+    # 3) 120일 단위 최중요 브리핑: 30일 단위 브리핑들을 모아 최상위 구조적 변화 안건 보존 (약 상위 16개)
     quarterly_rollup["agendas"] = merge_promoted_agendas(
         quarterly_rollup.get("agendas", []),
         monthly_rollup["agendas"],
         min_score=75,
         max_items=16,
-        tier_tag="120일(1분기) 빅픽처"
+        tier_tag="120일 빅픽처"
     )
     quarterly_rollup["updatedAt"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
 

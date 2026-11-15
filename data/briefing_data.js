@@ -2,7 +2,7 @@
 window.BRIEFING_PORTAL_DATA = {
   "currentEdition": {
     "editionId": "2026-11-15_0800",
-    "generatedAt": "2026-11-15 08:01:42 KST",
+    "generatedAt": "2026-11-15 14:01:40 KST",
     "displayDate": "2026년 11월 15일",
     "shortDate": "11/15 08:00",
     "slotLabel": "08:00 AM 모닝 에디션",
@@ -281,7 +281,7 @@ window.BRIEFING_PORTAL_DATA = {
           "11/11",
           "11/12",
           "11/13",
-          "11/14"
+          "11/15"
         ],
         "historyValues": [
           1344.81,
@@ -305,7 +305,7 @@ window.BRIEFING_PORTAL_DATA = {
         "color": "#94a3b8",
         "price": 103.41,
         "dayChangePct": 0.23,
-        "monthChangePct": 0.84,
+        "monthChangePct": 1.38,
         "historyLabels": [
           "11/02",
           "11/03",
@@ -340,7 +340,7 @@ window.BRIEFING_PORTAL_DATA = {
         "color": "#fbbf24",
         "price": 3886.3,
         "dayChangePct": 0.03,
-        "monthChangePct": -5.39,
+        "monthChangePct": -6.81,
         "historyLabels": [
           "11/02",
           "11/03",
@@ -374,9 +374,9 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "만원",
         "color": "#f97316",
         "scale": 0.0001,
-        "price": 8480,
-        "dayChangePct": -6.95,
-        "monthChangePct": -22.39,
+        "price": 8678,
+        "dayChangePct": -4.78,
+        "monthChangePct": -21.22,
         "historyLabels": [
           "11/05",
           "11/06",
@@ -387,7 +387,7 @@ window.BRIEFING_PORTAL_DATA = {
           "11/11",
           "11/12",
           "11/13",
-          "11/14"
+          "11/15"
         ],
         "historyValues": [
           10309,
@@ -399,7 +399,7 @@ window.BRIEFING_PORTAL_DATA = {
           9885,
           9518,
           9113,
-          8480
+          8678
         ]
       },
       {
@@ -551,7 +551,7 @@ window.BRIEFING_PORTAL_DATA = {
         "color": "#eab308",
         "price": 88.56,
         "dayChangePct": -0.2,
-        "monthChangePct": -6.87,
+        "monthChangePct": -9.6,
         "historyLabels": [
           "11/02",
           "11/03",
@@ -586,7 +586,7 @@ window.BRIEFING_PORTAL_DATA = {
         "color": "#d97706",
         "price": 6.09,
         "dayChangePct": -1.5,
-        "monthChangePct": -7.89,
+        "monthChangePct": -6.47,
         "historyLabels": [
           "11/02",
           "11/03",
@@ -609,7 +609,7 @@ window.BRIEFING_PORTAL_DATA = {
           6.22,
           6.27,
           6.18,
-          6.08
+          6.09
         ]
       }
     ],
@@ -659,9 +659,16 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "tech",
         "source": "CNBC Tech",
+        "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
+        "link": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+        "pubDate": "Sat, 14 Nov 2026 22:54:47"
+      },
+      {
+        "category": "tech",
+        "source": "CNBC Tech",
         "title": "SpaceX catches upper stage of Starship rocket in historic first",
         "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
-        "pubDate": "Sat, 14 Nov 2026 21:52:01"
+        "pubDate": "Sat, 14 Nov 2026 23:10:14"
       },
       {
         "category": "tech",
@@ -690,13 +697,6 @@ window.BRIEFING_PORTAL_DATA = {
         "title": "Meet the seven co-founders of Anthropic",
         "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
         "pubDate": "Sat, 14 Nov 2026 12:15:01"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-        "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-        "pubDate": "Sat, 14 Nov 2026 12:00:01"
       },
       {
         "category": "equities",
@@ -792,6 +792,20 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "crypto",
         "source": "Google 뉴스 (비트코인 ETF)",
+        "title": "비트코인 6만5000달러대로 후퇴…기관 투자금까지 빠져나가며 시장 긴장 고조 - 제민일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YUHdHQmcxRy1SV0xOT2ZtbU1nT3daeWhIYXVtN2Zzdi0weHlmXzF3ZDBnVmlqSjJ2N3MyQnpncF9pWWtOcXpZR25fbVk2M042YnpVNzJ4bzNOQTRtbkp4QkJEaVJiZVU?oc=5",
+        "pubDate": "Sun, 15 Nov 2026 04:48:20"
+      },
+      {
+        "category": "crypto",
+        "source": "Google 뉴스 (비트코인 ETF)",
+        "title": "비트코인 현물 ETF 10억 7,000만 달러 이탈…기관 매수세 약화에 시장 급락 - 코인리더스",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wSlBhZkJnQXYzVW1JS3A5NmVNRUh1VzQ1QW5XUGVYTXRtYWFIenBBel9aN3NxR3MxRDhFWnZ5YlVfeWRYbF9kUVpB?oc=5",
+        "pubDate": "Sat, 14 Nov 2026 23:10:00"
+      },
+      {
+        "category": "crypto",
+        "source": "Google 뉴스 (비트코인 ETF)",
         "title": "비트코인 현물 ETF, 1억8540만달러 순유출…7거래일 연속 - 블루밍비트",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBODZUNWpOdDMtak9qOHZMUXBYYmp1dVdvcHJFNXRYbnBmaEVCWGE2dzRNLS0wUy1pU2paaVllXzJmbnpLWUg3a3I4VXBJOUZs?oc=5",
         "pubDate": "Sat, 14 Nov 2026 06:27:09"
@@ -806,13 +820,6 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "crypto",
         "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "비트코인 또 급락! 물가 충격에 ETF 자금까지 이탈…7만 달러 경고등 - 코인리더스",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBWSkJTaVNEeFlnazB5N0NGUGh0SUlqTmZ0c2VLaEh6UEpYZ25IcHBUc20wQnpJWDhOd0VJd1FVczJEbzRIMkJ4QWFR?oc=5",
-        "pubDate": "Tue, 10 Nov 2026 21:51:00"
-      },
-      {
-        "category": "crypto",
-        "source": "Google 뉴스 (비트코인 ETF)",
         "title": "비트코인 ETF, 규제 풀리면 곧바로 나올 수 있을까 - 한경매거진",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZU1M0b05vNE1RVl9ZdEN0M3Zacmc0UXREYktNLTl2Sy1oSENHZjJBSUZ3N1JzMk9UV29FUHh5UVZIRmpCUUJfTTQzbHZFN3hDMkdDSUtOSURJV0VGN25RX1NteFBVOVlt?oc=5",
         "pubDate": "Mon, 09 Nov 2026 21:00:00"
@@ -823,13 +830,6 @@ window.BRIEFING_PORTAL_DATA = {
         "title": "[크립토 브리핑] 비트코인 1억원 붕괴, 9600만원대로 추락…美 금리 공포에 투매 확산 - 테크M",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIWFNLVHdPaHREUU9OTld1ZHpPUTVBdXZzdl9mRGxqMUl3MWFiUXNNMnQyamwyVDYwV19KWHNEaENtWkpiMFpreDV2QXROZG92MVo3Z0txMGFodk1ZdjA0d2txQnFmd9IBakFVX3lxTFBWWFdMM2FtU09WMjdoQU00YlN6UGVOWUVZQ0hCb3hXMWRtcG8wUGI4YWFLWkx4aVVUMVROS1pzTDNWVnZIRmVSei1XWFZ3LS1pY3VFWG0zLUJqUlg0TXBBUERKdE5IbzFVSUE?oc=5",
         "pubDate": "Thu, 12 Nov 2026 23:50:10"
-      },
-      {
-        "category": "crypto",
-        "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "바클레이즈, 비트코인 ETF 보유량 1분기새 50% 늘려…은행권 비중 확대 - 블루밍비트",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pMDhjSmc4SFo2THFVWU8yMjgzMzYtRHl5bkFwTHpOMi1pZU5sdnl2d0dtZUxhaTNNWkRZZ0tPOE1ab1hTbmtraF9EbUR1dlpY?oc=5",
-        "pubDate": "Wed, 11 Nov 2026 12:14:22"
       }
     ],
     "agendas": [
@@ -1249,7 +1249,7 @@ window.BRIEFING_PORTAL_DATA = {
             "11/11",
             "11/12",
             "11/13",
-            "11/14"
+            "11/15"
           ],
           "values": [
             1344.81,
@@ -3502,7 +3502,7 @@ window.BRIEFING_PORTAL_DATA = {
             "11/11",
             "11/12",
             "11/13",
-            "11/14"
+            "11/15"
           ],
           "values": [
             10309,
@@ -3514,13 +3514,13 @@ window.BRIEFING_PORTAL_DATA = {
             9885,
             9518,
             9113,
-            8480
+            8678
           ],
           "unit": "만원",
           "color": "#f97316",
           "benchmark_val": 9500.0,
           "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-          "badge_text": "LIVE 8480만원",
+          "badge_text": "LIVE 8678만원",
           "annotations": [
             {
               "index": 9,
@@ -3531,7 +3531,7 @@ window.BRIEFING_PORTAL_DATA = {
         "keyMetrics": [
           {
             "label": "비트코인 시세 (만원)",
-            "value": "8480만원",
+            "value": "8678만원",
             "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
           },
           {
@@ -4339,7 +4339,7 @@ window.BRIEFING_PORTAL_DATA = {
   "recent7dEditions": [
     {
       "editionId": "2026-11-15_0800",
-      "generatedAt": "2026-11-15 08:01:42 KST",
+      "generatedAt": "2026-11-15 14:01:40 KST",
       "displayDate": "2026년 11월 15일",
       "shortDate": "11/15 08:00",
       "slotLabel": "08:00 AM 모닝 에디션",
@@ -4618,7 +4618,7 @@ window.BRIEFING_PORTAL_DATA = {
             "11/11",
             "11/12",
             "11/13",
-            "11/14"
+            "11/15"
           ],
           "historyValues": [
             1344.81,
@@ -4642,7 +4642,7 @@ window.BRIEFING_PORTAL_DATA = {
           "color": "#94a3b8",
           "price": 103.41,
           "dayChangePct": 0.23,
-          "monthChangePct": 0.84,
+          "monthChangePct": 1.38,
           "historyLabels": [
             "11/02",
             "11/03",
@@ -4677,7 +4677,7 @@ window.BRIEFING_PORTAL_DATA = {
           "color": "#fbbf24",
           "price": 3886.3,
           "dayChangePct": 0.03,
-          "monthChangePct": -5.39,
+          "monthChangePct": -6.81,
           "historyLabels": [
             "11/02",
             "11/03",
@@ -4711,9 +4711,9 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "만원",
           "color": "#f97316",
           "scale": 0.0001,
-          "price": 8480,
-          "dayChangePct": -6.95,
-          "monthChangePct": -22.39,
+          "price": 8678,
+          "dayChangePct": -4.78,
+          "monthChangePct": -21.22,
           "historyLabels": [
             "11/05",
             "11/06",
@@ -4724,7 +4724,7 @@ window.BRIEFING_PORTAL_DATA = {
             "11/11",
             "11/12",
             "11/13",
-            "11/14"
+            "11/15"
           ],
           "historyValues": [
             10309,
@@ -4736,7 +4736,7 @@ window.BRIEFING_PORTAL_DATA = {
             9885,
             9518,
             9113,
-            8480
+            8678
           ]
         },
         {
@@ -4888,7 +4888,7 @@ window.BRIEFING_PORTAL_DATA = {
           "color": "#eab308",
           "price": 88.56,
           "dayChangePct": -0.2,
-          "monthChangePct": -6.87,
+          "monthChangePct": -9.6,
           "historyLabels": [
             "11/02",
             "11/03",
@@ -4923,7 +4923,7 @@ window.BRIEFING_PORTAL_DATA = {
           "color": "#d97706",
           "price": 6.09,
           "dayChangePct": -1.5,
-          "monthChangePct": -7.89,
+          "monthChangePct": -6.47,
           "historyLabels": [
             "11/02",
             "11/03",
@@ -4946,7 +4946,7 @@ window.BRIEFING_PORTAL_DATA = {
             6.22,
             6.27,
             6.18,
-            6.08
+            6.09
           ]
         }
       ],
@@ -4996,9 +4996,16 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "tech",
           "source": "CNBC Tech",
+          "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
+          "link": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+          "pubDate": "Sat, 14 Nov 2026 22:54:47"
+        },
+        {
+          "category": "tech",
+          "source": "CNBC Tech",
           "title": "SpaceX catches upper stage of Starship rocket in historic first",
           "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
-          "pubDate": "Sat, 14 Nov 2026 21:52:01"
+          "pubDate": "Sat, 14 Nov 2026 23:10:14"
         },
         {
           "category": "tech",
@@ -5027,13 +5034,6 @@ window.BRIEFING_PORTAL_DATA = {
           "title": "Meet the seven co-founders of Anthropic",
           "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
           "pubDate": "Sat, 14 Nov 2026 12:15:01"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-          "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-          "pubDate": "Sat, 14 Nov 2026 12:00:01"
         },
         {
           "category": "equities",
@@ -5129,6 +5129,20 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "crypto",
           "source": "Google 뉴스 (비트코인 ETF)",
+          "title": "비트코인 6만5000달러대로 후퇴…기관 투자금까지 빠져나가며 시장 긴장 고조 - 제민일보",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YUHdHQmcxRy1SV0xOT2ZtbU1nT3daeWhIYXVtN2Zzdi0weHlmXzF3ZDBnVmlqSjJ2N3MyQnpncF9pWWtOcXpZR25fbVk2M042YnpVNzJ4bzNOQTRtbkp4QkJEaVJiZVU?oc=5",
+          "pubDate": "Sun, 15 Nov 2026 04:48:20"
+        },
+        {
+          "category": "crypto",
+          "source": "Google 뉴스 (비트코인 ETF)",
+          "title": "비트코인 현물 ETF 10억 7,000만 달러 이탈…기관 매수세 약화에 시장 급락 - 코인리더스",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wSlBhZkJnQXYzVW1JS3A5NmVNRUh1VzQ1QW5XUGVYTXRtYWFIenBBel9aN3NxR3MxRDhFWnZ5YlVfeWRYbF9kUVpB?oc=5",
+          "pubDate": "Sat, 14 Nov 2026 23:10:00"
+        },
+        {
+          "category": "crypto",
+          "source": "Google 뉴스 (비트코인 ETF)",
           "title": "비트코인 현물 ETF, 1억8540만달러 순유출…7거래일 연속 - 블루밍비트",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBODZUNWpOdDMtak9qOHZMUXBYYmp1dVdvcHJFNXRYbnBmaEVCWGE2dzRNLS0wUy1pU2paaVllXzJmbnpLWUg3a3I4VXBJOUZs?oc=5",
           "pubDate": "Sat, 14 Nov 2026 06:27:09"
@@ -5143,13 +5157,6 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "crypto",
           "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "비트코인 또 급락! 물가 충격에 ETF 자금까지 이탈…7만 달러 경고등 - 코인리더스",
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBWSkJTaVNEeFlnazB5N0NGUGh0SUlqTmZ0c2VLaEh6UEpYZ25IcHBUc20wQnpJWDhOd0VJd1FVczJEbzRIMkJ4QWFR?oc=5",
-          "pubDate": "Tue, 10 Nov 2026 21:51:00"
-        },
-        {
-          "category": "crypto",
-          "source": "Google 뉴스 (비트코인 ETF)",
           "title": "비트코인 ETF, 규제 풀리면 곧바로 나올 수 있을까 - 한경매거진",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZU1M0b05vNE1RVl9ZdEN0M3Zacmc0UXREYktNLTl2Sy1oSENHZjJBSUZ3N1JzMk9UV29FUHh5UVZIRmpCUUJfTTQzbHZFN3hDMkdDSUtOSURJV0VGN25RX1NteFBVOVlt?oc=5",
           "pubDate": "Mon, 09 Nov 2026 21:00:00"
@@ -5160,13 +5167,6 @@ window.BRIEFING_PORTAL_DATA = {
           "title": "[크립토 브리핑] 비트코인 1억원 붕괴, 9600만원대로 추락…美 금리 공포에 투매 확산 - 테크M",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIWFNLVHdPaHREUU9OTld1ZHpPUTVBdXZzdl9mRGxqMUl3MWFiUXNNMnQyamwyVDYwV19KWHNEaENtWkpiMFpreDV2QXROZG92MVo3Z0txMGFodk1ZdjA0d2txQnFmd9IBakFVX3lxTFBWWFdMM2FtU09WMjdoQU00YlN6UGVOWUVZQ0hCb3hXMWRtcG8wUGI4YWFLWkx4aVVUMVROS1pzTDNWVnZIRmVSei1XWFZ3LS1pY3VFWG0zLUJqUlg0TXBBUERKdE5IbzFVSUE?oc=5",
           "pubDate": "Thu, 12 Nov 2026 23:50:10"
-        },
-        {
-          "category": "crypto",
-          "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "바클레이즈, 비트코인 ETF 보유량 1분기새 50% 늘려…은행권 비중 확대 - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pMDhjSmc4SFo2THFVWU8yMjgzMzYtRHl5bkFwTHpOMi1pZU5sdnl2d0dtZUxhaTNNWkRZZ0tPOE1ab1hTbmtraF9EbUR1dlpY?oc=5",
-          "pubDate": "Wed, 11 Nov 2026 12:14:22"
         }
       ],
       "agendas": [
@@ -5586,7 +5586,7 @@ window.BRIEFING_PORTAL_DATA = {
               "11/11",
               "11/12",
               "11/13",
-              "11/14"
+              "11/15"
             ],
             "values": [
               1344.81,
@@ -7839,7 +7839,7 @@ window.BRIEFING_PORTAL_DATA = {
               "11/11",
               "11/12",
               "11/13",
-              "11/14"
+              "11/15"
             ],
             "values": [
               10309,
@@ -7851,13 +7851,13 @@ window.BRIEFING_PORTAL_DATA = {
               9885,
               9518,
               9113,
-              8480
+              8678
             ],
             "unit": "만원",
             "color": "#f97316",
             "benchmark_val": 9500.0,
             "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-            "badge_text": "LIVE 8480만원",
+            "badge_text": "LIVE 8678만원",
             "annotations": [
               {
                 "index": 9,
@@ -7868,7 +7868,7 @@ window.BRIEFING_PORTAL_DATA = {
           "keyMetrics": [
             {
               "label": "비트코인 시세 (만원)",
-              "value": "8480만원",
+              "value": "8678만원",
               "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
             },
             {
@@ -53338,8 +53338,8 @@ window.BRIEFING_PORTAL_DATA = {
     ]
   },
   "quarterlyRollup": {
-    "title": "🏛️ 120일(1분기) 단위 최중요 브리핑 합산 (Quarterly 120-Day Core)",
-    "description": "30일 단위 최중요 브리핑들을 모아 120일(1분기) 동안의 거시경제·반도체·금·비트코인·한국 부동산 대세 흐름을 집대성한 분기 아카이브입니다.",
+    "title": "🏛️ 120일 단위 최중요 브리핑 합산 (Quarterly 120-Day Core)",
+    "description": "30일 단위 최중요 브리핑들을 모아 120일 동안의 거시경제·반도체·금·비트코인·한국 부동산 대세 흐름을 집대성한 분기 아카이브입니다.",
     "updatedAt": "2026-11-15 08:00:00 KST",
     "agendas": [
       {
@@ -53438,7 +53438,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
         "importanceScore": 85,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -53525,7 +53525,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
         "importanceScore": 85,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -53628,7 +53628,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
         "importanceScore": 85,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -53713,7 +53713,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
         "importanceScore": 85,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -53798,7 +53798,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
         "importanceScore": 85,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -53897,7 +53897,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 09일 20:00 PM 이브닝 에디션",
         "importanceScore": 80,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -53982,7 +53982,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 11일 20:00 PM 이브닝 에디션",
         "importanceScore": 80,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       },
       {
@@ -54067,7 +54067,7 @@ window.BRIEFING_PORTAL_DATA = {
         ],
         "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
         "importanceScore": 80,
-        "archiveTier": "120일(1분기) 빅픽처",
+        "archiveTier": "120일 빅픽처",
         "promotedAt": "2026-11-15"
       }
     ]

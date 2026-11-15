@@ -187,7 +187,7 @@
             return withUserPinned(monthlyRollup.agendas || [], "30일 월간 최중요");
         }
         if (state.tier === "quarterly120d") {
-            return withUserPinned(quarterlyRollup.agendas || [], "120일(1분기) 빅픽처");
+            return withUserPinned(quarterlyRollup.agendas || [], "120일 빅픽처");
         }
         const ed = getActiveEditionObj();
         return ed.agendas || [];
@@ -401,7 +401,7 @@
             } else if (state.tier === "monthly30d") {
                 badgeEl.textContent = "🏆 30일 단위 최중요 브리핑 합산본";
             } else {
-                badgeEl.textContent = "🏛️ 120일(1분기) 최중요 브리핑 합산본";
+                badgeEl.textContent = "🏛️ 120일 최중요 브리핑 합산본";
             }
         }
 
@@ -496,7 +496,7 @@
         } else {
             subCtrl.innerHTML = `
                 <div class="rollup-info-banner">
-                    🏛️ <strong>[120일(1분기) 합산]</strong> 최근 1분기 동안의 핵심 시사점 변화를 복기하는 분기 빅픽처 보관함입니다.
+                    🏛️ <strong>[120일 합산]</strong> 최근 1분기 동안의 핵심 시사점 변화를 복기하는 분기 빅픽처 보관함입니다.
                 </div>
             `;
         }

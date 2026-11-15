@@ -333,7 +333,7 @@ def build_briefing_edition():
     with open(edition_file, "w", encoding="utf-8") as f:
         json.dump(edition_payload, f, ensure_ascii=False, indent=2)
 
-    print("[4/5] 7일 원본 보관함 및 7일 / 30일 / 120일(1분기) 최중요 브리핑 계층형 합산(Roll-up) 처리 중...")
+    print("[4/5] 7일 원본 보관함 및 7일 / 30일 / 120일 최중요 브리핑 계층형 합산(Roll-up) 처리 중...")
     archive_result = process_tiered_archives(BASE_DIR, edition_payload)
 
     implications_db = {
