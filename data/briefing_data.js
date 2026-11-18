@@ -2,7 +2,7 @@
 window.BRIEFING_PORTAL_DATA = {
   "currentEdition": {
     "editionId": "2026-11-18_2000",
-    "generatedAt": "2026-11-18 20:02:06 KST",
+    "generatedAt": "2026-11-18 23:14:35 KST",
     "displayDate": "2026년 11월 18일",
     "shortDate": "11/18 20:00",
     "slotLabel": "20:00 PM 이브닝 에디션",
@@ -234,10 +234,9 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "%",
         "color": "#f43f5e",
         "price": 5.1,
-        "dayChangePct": -0.35,
-        "monthChangePct": -0.64,
+        "dayChangePct": -0.04,
+        "monthChangePct": -0.68,
         "historyLabels": [
-          "11/04",
           "11/05",
           "11/06",
           "11/09",
@@ -246,10 +245,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/12",
           "11/13",
           "11/16",
-          "11/17"
+          "11/17",
+          "11/18"
         ],
         "historyValues": [
-          4.89,
           4.84,
           4.86,
           4.86,
@@ -258,6 +257,7 @@ window.BRIEFING_PORTAL_DATA = {
           5.1,
           5.15,
           5.12,
+          5.1,
           5.1
         ]
       },
@@ -268,8 +268,8 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "원",
         "color": "#10b981",
-        "price": 1332.28,
-        "dayChangePct": -0.25,
+        "price": 1332.22,
+        "dayChangePct": -0.26,
         "monthChangePct": -0.09,
         "historyLabels": [
           "11/05",
@@ -293,7 +293,7 @@ window.BRIEFING_PORTAL_DATA = {
           1333.78,
           1333.25,
           1335.67,
-          1332.28
+          1332.22
         ]
       },
       {
@@ -303,9 +303,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "macro",
         "unit": "",
         "color": "#94a3b8",
-        "price": 103.75,
-        "dayChangePct": 0.25,
-        "monthChangePct": 1.74,
+        "price": 103.8,
+        "dayChangePct": 0.3,
+        "monthChangePct": 1.78,
         "historyLabels": [
           "11/05",
           "11/06",
@@ -328,7 +328,7 @@ window.BRIEFING_PORTAL_DATA = {
           103.41,
           103.55,
           103.49,
-          103.75
+          103.8
         ]
       },
       {
@@ -338,9 +338,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "gold",
         "unit": "$",
         "color": "#fbbf24",
-        "price": 3771.9,
-        "dayChangePct": -2.39,
-        "monthChangePct": -9.33,
+        "price": 3786.8,
+        "dayChangePct": -2.0,
+        "monthChangePct": -8.97,
         "historyLabels": [
           "11/05",
           "11/06",
@@ -363,7 +363,7 @@ window.BRIEFING_PORTAL_DATA = {
           3886.3,
           3853.0,
           3864.2,
-          3771.9
+          3786.8
         ]
       },
       {
@@ -374,9 +374,9 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "만원",
         "color": "#f97316",
         "scale": 0.0001,
-        "price": 8563,
-        "dayChangePct": -1.04,
-        "monthChangePct": -21.76,
+        "price": 8513,
+        "dayChangePct": -1.62,
+        "monthChangePct": -22.22,
         "historyLabels": [
           "11/09",
           "11/10",
@@ -399,7 +399,7 @@ window.BRIEFING_PORTAL_DATA = {
           8725,
           8664,
           8653,
-          8563
+          8513
         ]
       },
       {
@@ -549,9 +549,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "geopolitics",
         "unit": "$",
         "color": "#eab308",
-        "price": 83.18,
-        "dayChangePct": -3.29,
-        "monthChangePct": -19.76,
+        "price": 83.76,
+        "dayChangePct": -2.62,
+        "monthChangePct": -19.2,
         "historyLabels": [
           "11/05",
           "11/06",
@@ -574,7 +574,7 @@ window.BRIEFING_PORTAL_DATA = {
           88.56,
           85.72,
           86.01,
-          83.18
+          83.76
         ]
       },
       {
@@ -584,9 +584,9 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "geopolitics",
         "unit": "$",
         "color": "#d97706",
-        "price": 5.75,
-        "dayChangePct": -3.73,
-        "monthChangePct": -12.01,
+        "price": 5.7,
+        "dayChangePct": -4.69,
+        "monthChangePct": -12.88,
         "historyLabels": [
           "11/05",
           "11/06",
@@ -609,7 +609,7 @@ window.BRIEFING_PORTAL_DATA = {
           6.08,
           6.0,
           5.98,
-          5.75
+          5.7
         ]
       }
     ],
@@ -619,7 +619,7 @@ window.BRIEFING_PORTAL_DATA = {
         "source": "CNBC Economy",
         "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
         "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-        "pubDate": "Wed, 18 Nov 2026 08:09:43"
+        "pubDate": "Wed, 18 Nov 2026 14:09:26"
       },
       {
         "category": "macro",
@@ -659,44 +659,44 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "tech",
         "source": "CNBC Tech",
+        "title": "Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up",
+        "link": "https://www.cnbc.com/2026/11/18/nvidias-numbers-and-anthropic-anticipation-drive-nasdaq-futures-up.html",
+        "pubDate": "Wed, 18 Nov 2026 13:05:24"
+      },
+      {
+        "category": "tech",
+        "source": "CNBC Tech",
+        "title": "Booking Holdings creates new enterprise division as AI reshapes travel planning",
+        "link": "https://www.cnbc.com/2026/11/18/booking-holdings-enterprise.html",
+        "pubDate": "Wed, 18 Nov 2026 12:55:01"
+      },
+      {
+        "category": "tech",
+        "source": "CNBC Tech",
+        "title": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+        "pubDate": "Wed, 18 Nov 2026 13:48:38"
+      },
+      {
+        "category": "tech",
+        "source": "CNBC Tech",
+        "title": "Dealbook Summit 2026 live updates: Vance, Altman to speak at conference",
+        "link": "https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html",
+        "pubDate": "Wed, 18 Nov 2026 13:12:24"
+      },
+      {
+        "category": "tech",
+        "source": "CNBC Tech",
+        "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says",
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+        "pubDate": "Wed, 18 Nov 2026 10:45:01"
+      },
+      {
+        "category": "tech",
+        "source": "CNBC Tech",
         "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
         "link": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html",
         "pubDate": "Wed, 18 Nov 2026 09:45:01"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
-        "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
-        "pubDate": "Wed, 18 Nov 2026 10:58:22"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-        "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-        "pubDate": "Wed, 18 Nov 2026 08:09:43"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "Emergency alerts and $75,000 rewards: South Korea fights high-tech exam cheating",
-        "link": "https://www.cnbc.com/2026/11/18/south-korea-exam-cheating-.html",
-        "pubDate": "Wed, 18 Nov 2026 07:00:39"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
-        "link": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
-        "pubDate": "Wed, 18 Nov 2026 06:21:45"
-      },
-      {
-        "category": "tech",
-        "source": "CNBC Tech",
-        "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
-        "link": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
-        "pubDate": "Wed, 18 Nov 2026 03:15:00"
       },
       {
         "category": "equities",
@@ -785,9 +785,16 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "gold",
         "source": "Google 뉴스 (금 시세/전망)",
-        "title": "中인민은행, 금값 하락 속 23개월 연속 금 보유량 늘려 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZNW82TDVRZml0eTAwT18xTGlCS25jc1ZweGxLSGRwcmctSWJfVlV3RlBQX3U0WVZqVnctRFFtY1BhcVRtbG9aRWJadGJWYjc2aHF5Z2phZ3I5NDDSAWBBVV95cUxQVXFjOXVIclZ5RGozUVZDOXFjcEVYTlNZUE1wS0FXcHd0OTVteTVib2JubFRQMndsTi1NSG02bThoVFB2MGNWWlJhZ2c4MzRrY19yWDdsVThVYXp3R0luOXM?oc=5",
-        "pubDate": "Wed, 07 Oct 2026 07:00:00"
+        "title": "금 공급량: 장기 가격 변동에 작용하는 보이지 않는 손 - CME Group",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWplOGpnQXRfb2xsNVBYTDVCRUl2NXNOTk4yMG4xUW9PV081TGsyLVo1SlB5ZmFzREJKU1hqbGJ3OG5VdjBSNTVnUkFqUVBwcXlNblRONU9GcWpQQ3kwcFR4Y19PUk90YjF6R0daYUdGRUJNOC1fUG5YaEU4d2o0RnlJbHBKMExqNmlLZ1I3RkREdFdiVXo4YWhHc3pNY1dYYTlidE5ncndzaFFiaHY0bnJ5eWNxczhZYkxyQW9nUHgwcnh4NUVMcWZn?oc=5",
+        "pubDate": "Thu, 13 Jul 2023 07:00:00"
+      },
+      {
+        "category": "crypto",
+        "source": "Google 뉴스 (비트코인 ETF)",
+        "title": "美 비트코인 현물 ETF, 하루만에 순유출 전환…약 3195억원 빠져 - 블루밍비트",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SNHVOR2VObDZHNl9GQUk4bzFqOVM0TmhkRTJaeXptVWRYOGI3Yzh5YVF5SzIxX1duT2RDU1VfVU9ubkliVUxoYVVzRHNoTGlE?oc=5",
+        "pubDate": "Wed, 18 Nov 2026 05:44:44"
       },
       {
         "category": "crypto",
@@ -809,13 +816,6 @@ window.BRIEFING_PORTAL_DATA = {
         "title": "약세장 비웃은 월가 큰손들…3분기 비트코인 ETF 폭풍 매수 - 블록체인투데이",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QSEdJOG1hUFhNVURoX1FwbV9oN1BUdkFDMFhPLXRiV1RQZnpkR2ZxRHBnUElGM3o5c0RJSGhmQnV3OFVGQk5FMHp6XzMxWnVobnR1b3Rodmdxa3pjVmV2U0Z5QnVrQjBTVkhDeTFBNFY?oc=5",
         "pubDate": "Wed, 18 Nov 2026 04:48:37"
-      },
-      {
-        "category": "crypto",
-        "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "美 비트코인 현물 ETF, 2주간 23억5000만달러 순유출…블랙록 중심 자금 이탈 - 블루밍비트",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qVUgyWDBSWGVjcDM4VVFGRGRVMVpHVHZkT3dkelpSZzVpbERBNy12Q0JzSzVXV3ZRaUZ4WVFRWE5ZQUhqeUMxNVBseDhFREh5?oc=5",
-        "pubDate": "Mon, 16 Nov 2026 00:40:36"
       },
       {
         "category": "crypto",
@@ -947,7 +947,6 @@ window.BRIEFING_PORTAL_DATA = {
           "title": "미국 10년물 국채금리(^TNX) 최근 10거래일 추이 및 5.10% 돌파 (%)",
           "subtitle": "현물 채권시장 재개장과 함께 5.00%에서 5.10%(+2.10%)로 점프… 1개월 변동은 -2.61%로 고점권 저항 테스트 및 고금리 매수 유입 구간",
           "labels": [
-            "11/04",
             "11/05",
             "11/06",
             "11/09",
@@ -956,10 +955,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/12",
             "11/13",
             "11/16",
-            "11/17"
+            "11/17",
+            "11/18"
           ],
           "values": [
-            4.89,
             4.84,
             4.86,
             4.86,
@@ -968,6 +967,7 @@ window.BRIEFING_PORTAL_DATA = {
             5.1,
             5.15,
             5.12,
+            5.1,
             5.1
           ],
           "unit": "%",
@@ -1261,13 +1261,13 @@ window.BRIEFING_PORTAL_DATA = {
             1333.78,
             1333.25,
             1335.67,
-            1332.28
+            1332.22
           ],
           "unit": "원",
           "color": "#10b981",
           "benchmark_val": 1340.0,
           "benchmark_label": "핵심 저항선 1,340원",
-          "badge_text": "LIVE 1,332.28원",
+          "badge_text": "LIVE 1,332.22원",
           "annotations": [
             {
               "index": 9,
@@ -3174,13 +3174,13 @@ window.BRIEFING_PORTAL_DATA = {
             3886.3,
             3853.0,
             3864.2,
-            3771.9
+            3786.8
           ],
           "unit": "$",
           "color": "#fbbf24",
           "benchmark_val": 3900.0,
           "benchmark_label": "핵심 실물 지지선 $3,900/oz",
-          "badge_text": "LIVE 3,771.90$",
+          "badge_text": "LIVE 3,786.80$",
           "annotations": [
             {
               "index": 9,
@@ -3514,13 +3514,13 @@ window.BRIEFING_PORTAL_DATA = {
             8725,
             8664,
             8653,
-            8563
+            8513
           ],
           "unit": "만원",
           "color": "#f97316",
           "benchmark_val": 9500.0,
           "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-          "badge_text": "LIVE 8563만원",
+          "badge_text": "LIVE 8513만원",
           "annotations": [
             {
               "index": 9,
@@ -3531,7 +3531,7 @@ window.BRIEFING_PORTAL_DATA = {
         "keyMetrics": [
           {
             "label": "비트코인 시세 (만원)",
-            "value": "8563만원",
+            "value": "8513만원",
             "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
           },
           {
@@ -4339,7 +4339,7 @@ window.BRIEFING_PORTAL_DATA = {
   "recent7dEditions": [
     {
       "editionId": "2026-11-18_2000",
-      "generatedAt": "2026-11-18 20:02:06 KST",
+      "generatedAt": "2026-11-18 23:14:35 KST",
       "displayDate": "2026년 11월 18일",
       "shortDate": "11/18 20:00",
       "slotLabel": "20:00 PM 이브닝 에디션",
@@ -4571,10 +4571,9 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "%",
           "color": "#f43f5e",
           "price": 5.1,
-          "dayChangePct": -0.35,
-          "monthChangePct": -0.64,
+          "dayChangePct": -0.04,
+          "monthChangePct": -0.68,
           "historyLabels": [
-            "11/04",
             "11/05",
             "11/06",
             "11/09",
@@ -4583,10 +4582,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/12",
             "11/13",
             "11/16",
-            "11/17"
+            "11/17",
+            "11/18"
           ],
           "historyValues": [
-            4.89,
             4.84,
             4.86,
             4.86,
@@ -4595,6 +4594,7 @@ window.BRIEFING_PORTAL_DATA = {
             5.1,
             5.15,
             5.12,
+            5.1,
             5.1
           ]
         },
@@ -4605,8 +4605,8 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "원",
           "color": "#10b981",
-          "price": 1332.28,
-          "dayChangePct": -0.25,
+          "price": 1332.22,
+          "dayChangePct": -0.26,
           "monthChangePct": -0.09,
           "historyLabels": [
             "11/05",
@@ -4630,7 +4630,7 @@ window.BRIEFING_PORTAL_DATA = {
             1333.78,
             1333.25,
             1335.67,
-            1332.28
+            1332.22
           ]
         },
         {
@@ -4640,9 +4640,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "macro",
           "unit": "",
           "color": "#94a3b8",
-          "price": 103.75,
-          "dayChangePct": 0.25,
-          "monthChangePct": 1.74,
+          "price": 103.8,
+          "dayChangePct": 0.3,
+          "monthChangePct": 1.78,
           "historyLabels": [
             "11/05",
             "11/06",
@@ -4665,7 +4665,7 @@ window.BRIEFING_PORTAL_DATA = {
             103.41,
             103.55,
             103.49,
-            103.75
+            103.8
           ]
         },
         {
@@ -4675,9 +4675,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "gold",
           "unit": "$",
           "color": "#fbbf24",
-          "price": 3771.9,
-          "dayChangePct": -2.39,
-          "monthChangePct": -9.33,
+          "price": 3786.8,
+          "dayChangePct": -2.0,
+          "monthChangePct": -8.97,
           "historyLabels": [
             "11/05",
             "11/06",
@@ -4700,7 +4700,7 @@ window.BRIEFING_PORTAL_DATA = {
             3886.3,
             3853.0,
             3864.2,
-            3771.9
+            3786.8
           ]
         },
         {
@@ -4711,9 +4711,9 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "만원",
           "color": "#f97316",
           "scale": 0.0001,
-          "price": 8563,
-          "dayChangePct": -1.04,
-          "monthChangePct": -21.76,
+          "price": 8513,
+          "dayChangePct": -1.62,
+          "monthChangePct": -22.22,
           "historyLabels": [
             "11/09",
             "11/10",
@@ -4736,7 +4736,7 @@ window.BRIEFING_PORTAL_DATA = {
             8725,
             8664,
             8653,
-            8563
+            8513
           ]
         },
         {
@@ -4886,9 +4886,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "geopolitics",
           "unit": "$",
           "color": "#eab308",
-          "price": 83.18,
-          "dayChangePct": -3.29,
-          "monthChangePct": -19.76,
+          "price": 83.76,
+          "dayChangePct": -2.62,
+          "monthChangePct": -19.2,
           "historyLabels": [
             "11/05",
             "11/06",
@@ -4911,7 +4911,7 @@ window.BRIEFING_PORTAL_DATA = {
             88.56,
             85.72,
             86.01,
-            83.18
+            83.76
           ]
         },
         {
@@ -4921,9 +4921,9 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "geopolitics",
           "unit": "$",
           "color": "#d97706",
-          "price": 5.75,
-          "dayChangePct": -3.73,
-          "monthChangePct": -12.01,
+          "price": 5.7,
+          "dayChangePct": -4.69,
+          "monthChangePct": -12.88,
           "historyLabels": [
             "11/05",
             "11/06",
@@ -4946,7 +4946,7 @@ window.BRIEFING_PORTAL_DATA = {
             6.08,
             6.0,
             5.98,
-            5.75
+            5.7
           ]
         }
       ],
@@ -4956,7 +4956,7 @@ window.BRIEFING_PORTAL_DATA = {
           "source": "CNBC Economy",
           "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
           "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-          "pubDate": "Wed, 18 Nov 2026 08:09:43"
+          "pubDate": "Wed, 18 Nov 2026 14:09:26"
         },
         {
           "category": "macro",
@@ -4996,44 +4996,44 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "tech",
           "source": "CNBC Tech",
+          "title": "Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up",
+          "link": "https://www.cnbc.com/2026/11/18/nvidias-numbers-and-anthropic-anticipation-drive-nasdaq-futures-up.html",
+          "pubDate": "Wed, 18 Nov 2026 13:05:24"
+        },
+        {
+          "category": "tech",
+          "source": "CNBC Tech",
+          "title": "Booking Holdings creates new enterprise division as AI reshapes travel planning",
+          "link": "https://www.cnbc.com/2026/11/18/booking-holdings-enterprise.html",
+          "pubDate": "Wed, 18 Nov 2026 12:55:01"
+        },
+        {
+          "category": "tech",
+          "source": "CNBC Tech",
+          "title": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+          "link": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+          "pubDate": "Wed, 18 Nov 2026 13:48:38"
+        },
+        {
+          "category": "tech",
+          "source": "CNBC Tech",
+          "title": "Dealbook Summit 2026 live updates: Vance, Altman to speak at conference",
+          "link": "https://www.cnbc.com/2026/11/18/dealbook-summit-2026-live-updates.html",
+          "pubDate": "Wed, 18 Nov 2026 13:12:24"
+        },
+        {
+          "category": "tech",
+          "source": "CNBC Tech",
+          "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says",
+          "link": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+          "pubDate": "Wed, 18 Nov 2026 10:45:01"
+        },
+        {
+          "category": "tech",
+          "source": "CNBC Tech",
           "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
           "link": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html",
           "pubDate": "Wed, 18 Nov 2026 09:45:01"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
-          "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
-          "pubDate": "Wed, 18 Nov 2026 10:58:22"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-          "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-          "pubDate": "Wed, 18 Nov 2026 08:09:43"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "Emergency alerts and $75,000 rewards: South Korea fights high-tech exam cheating",
-          "link": "https://www.cnbc.com/2026/11/18/south-korea-exam-cheating-.html",
-          "pubDate": "Wed, 18 Nov 2026 07:00:39"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
-          "link": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html",
-          "pubDate": "Wed, 18 Nov 2026 06:21:45"
-        },
-        {
-          "category": "tech",
-          "source": "CNBC Tech",
-          "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
-          "link": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html",
-          "pubDate": "Wed, 18 Nov 2026 03:15:00"
         },
         {
           "category": "equities",
@@ -5122,9 +5122,16 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "gold",
           "source": "Google 뉴스 (금 시세/전망)",
-          "title": "中인민은행, 금값 하락 속 23개월 연속 금 보유량 늘려 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZNW82TDVRZml0eTAwT18xTGlCS25jc1ZweGxLSGRwcmctSWJfVlV3RlBQX3U0WVZqVnctRFFtY1BhcVRtbG9aRWJadGJWYjc2aHF5Z2phZ3I5NDDSAWBBVV95cUxQVXFjOXVIclZ5RGozUVZDOXFjcEVYTlNZUE1wS0FXcHd0OTVteTVib2JubFRQMndsTi1NSG02bThoVFB2MGNWWlJhZ2c4MzRrY19yWDdsVThVYXp3R0luOXM?oc=5",
-          "pubDate": "Wed, 07 Oct 2026 07:00:00"
+          "title": "금 공급량: 장기 가격 변동에 작용하는 보이지 않는 손 - CME Group",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWplOGpnQXRfb2xsNVBYTDVCRUl2NXNOTk4yMG4xUW9PV081TGsyLVo1SlB5ZmFzREJKU1hqbGJ3OG5VdjBSNTVnUkFqUVBwcXlNblRONU9GcWpQQ3kwcFR4Y19PUk90YjF6R0daYUdGRUJNOC1fUG5YaEU4d2o0RnlJbHBKMExqNmlLZ1I3RkREdFdiVXo4YWhHc3pNY1dYYTlidE5ncndzaFFiaHY0bnJ5eWNxczhZYkxyQW9nUHgwcnh4NUVMcWZn?oc=5",
+          "pubDate": "Thu, 13 Jul 2023 07:00:00"
+        },
+        {
+          "category": "crypto",
+          "source": "Google 뉴스 (비트코인 ETF)",
+          "title": "美 비트코인 현물 ETF, 하루만에 순유출 전환…약 3195억원 빠져 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SNHVOR2VObDZHNl9GQUk4bzFqOVM0TmhkRTJaeXptVWRYOGI3Yzh5YVF5SzIxX1duT2RDU1VfVU9ubkliVUxoYVVzRHNoTGlE?oc=5",
+          "pubDate": "Wed, 18 Nov 2026 05:44:44"
         },
         {
           "category": "crypto",
@@ -5146,13 +5153,6 @@ window.BRIEFING_PORTAL_DATA = {
           "title": "약세장 비웃은 월가 큰손들…3분기 비트코인 ETF 폭풍 매수 - 블록체인투데이",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QSEdJOG1hUFhNVURoX1FwbV9oN1BUdkFDMFhPLXRiV1RQZnpkR2ZxRHBnUElGM3o5c0RJSGhmQnV3OFVGQk5FMHp6XzMxWnVobnR1b3Rodmdxa3pjVmV2U0Z5QnVrQjBTVkhDeTFBNFY?oc=5",
           "pubDate": "Wed, 18 Nov 2026 04:48:37"
-        },
-        {
-          "category": "crypto",
-          "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "美 비트코인 현물 ETF, 2주간 23억5000만달러 순유출…블랙록 중심 자금 이탈 - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qVUgyWDBSWGVjcDM4VVFGRGRVMVpHVHZkT3dkelpSZzVpbERBNy12Q0JzSzVXV3ZRaUZ4WVFRWE5ZQUhqeUMxNVBseDhFREh5?oc=5",
-          "pubDate": "Mon, 16 Nov 2026 00:40:36"
         },
         {
           "category": "crypto",
@@ -5284,7 +5284,6 @@ window.BRIEFING_PORTAL_DATA = {
             "title": "미국 10년물 국채금리(^TNX) 최근 10거래일 추이 및 5.10% 돌파 (%)",
             "subtitle": "현물 채권시장 재개장과 함께 5.00%에서 5.10%(+2.10%)로 점프… 1개월 변동은 -2.61%로 고점권 저항 테스트 및 고금리 매수 유입 구간",
             "labels": [
-              "11/04",
               "11/05",
               "11/06",
               "11/09",
@@ -5293,10 +5292,10 @@ window.BRIEFING_PORTAL_DATA = {
               "11/12",
               "11/13",
               "11/16",
-              "11/17"
+              "11/17",
+              "11/18"
             ],
             "values": [
-              4.89,
               4.84,
               4.86,
               4.86,
@@ -5305,6 +5304,7 @@ window.BRIEFING_PORTAL_DATA = {
               5.1,
               5.15,
               5.12,
+              5.1,
               5.1
             ],
             "unit": "%",
@@ -5598,13 +5598,13 @@ window.BRIEFING_PORTAL_DATA = {
               1333.78,
               1333.25,
               1335.67,
-              1332.28
+              1332.22
             ],
             "unit": "원",
             "color": "#10b981",
             "benchmark_val": 1340.0,
             "benchmark_label": "핵심 저항선 1,340원",
-            "badge_text": "LIVE 1,332.28원",
+            "badge_text": "LIVE 1,332.22원",
             "annotations": [
               {
                 "index": 9,
@@ -7511,13 +7511,13 @@ window.BRIEFING_PORTAL_DATA = {
               3886.3,
               3853.0,
               3864.2,
-              3771.9
+              3786.8
             ],
             "unit": "$",
             "color": "#fbbf24",
             "benchmark_val": 3900.0,
             "benchmark_label": "핵심 실물 지지선 $3,900/oz",
-            "badge_text": "LIVE 3,771.90$",
+            "badge_text": "LIVE 3,786.80$",
             "annotations": [
               {
                 "index": 9,
@@ -7851,13 +7851,13 @@ window.BRIEFING_PORTAL_DATA = {
               8725,
               8664,
               8653,
-              8563
+              8513
             ],
             "unit": "만원",
             "color": "#f97316",
             "benchmark_val": 9500.0,
             "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-            "badge_text": "LIVE 8563만원",
+            "badge_text": "LIVE 8513만원",
             "annotations": [
               {
                 "index": 9,
@@ -7868,7 +7868,7 @@ window.BRIEFING_PORTAL_DATA = {
           "keyMetrics": [
             {
               "label": "비트코인 시세 (만원)",
-              "value": "8563만원",
+              "value": "8513만원",
               "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
             },
             {
