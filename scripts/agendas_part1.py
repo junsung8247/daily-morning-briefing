@@ -13,8 +13,8 @@ AGENDAS_PART1 = [
         "categoryLabel": "거시경제 · 금리",
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
-        "deltaLabel": "🟢 시사점 반전 포착! (미 10월 핵심 소매판매 +0.6% 호조 속 정규장 S&P500 7,340.53(-1.03%) 마감 직후, 엔비디아 역대급 실적 서프라이즈로 시간외 선물 급반등! 오늘 밤 FOMC 의사록)",
-        "title": "[11/18 모닝·수요일 반등장 개막] 미 10월 소매판매(+0.2%·핵심 +0.6%) 통과와 엔비디아 시간외 축포: 코스피 5,000선 탈환 및 오늘 밤 FOMC 의사록 전략",
+        "deltaLabel": "🟢 모닝 시사점 100% 적중!! (엔비디아 축포에 코스피 +1.99%(5,067.44) 단숨에 5,000선 탈환! 원/달러 환율 1,333.0원(-5.2원) 급락 안정 & 미 10년물 5.10% 속 오늘 밤 FOMC 의사록)",
+        "title": "[11/18 이브닝·코스피 5,067 탈환!] 모닝 브리핑 예고대로 단 하루 만에 '5,067.44(+1.99%)' 회복 & 환율 '1,333.0원' 안착: 오늘 밤 FOMC 의사록 관전법",
         "subtitle": "휴장 마친 채권시장의 사후 금리 반영(5.00% ➔ 5.10%)에도 S&P500 7,592pt·필라델피아 반도체(SOX) 10,506pt 사수… AI 실적 장세 굳건",
         "chartImage": "assets/charts/agenda_01.svg",
         "chartConfig": {
@@ -61,7 +61,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
         "deltaLabel": "🔴 시사점 점검 (미 현물 국채 재개장 후 10년물 금리 5.10%(+2.10%) 급등… 단 1개월 고점 대비 -2.61% 낮은 구간으로 '연 5.1% 확정금리' 매수 호기)",
-        "title": "[11/18 모닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
+        "title": "[11/18 이브닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
         "subtitle": "재향군인의 날 휴장 후 열린 현물 채권시장에 CPI 잔여 매물 및 국채 입찰 물량 일시 반영… 1개월 전 고점(5.23%)보다는 여전히 낮은 고금리 파킹 구간",
         "chartImage": "assets/charts/agenda_02.svg",
         "chartConfig": {
@@ -108,7 +108,7 @@ AGENDAS_PART1 = [
         "importance": "HIGH",
         "deltaStatus": "MAINTAINED",
         "deltaLabel": "🟢 시사점 강화 (BofA 리포트 '미 가계 가성비 유통 채널로 하향 소비(Trading Down) 뚜렷' & WTI 유가 $88.56~$88.92로 2주 연속 주간 하락 안정)",
-        "title": "[11/18 모닝] 고물가에 지친 미국 소비자의 '트레이딩 다운(가성비 이동)'과 2주 연속 하락한 WTI 유가($88.56): 필수소비재·할인점 대장주 부각",
+        "title": "[11/18 이브닝] 고물가에 지친 미국 소비자의 '트레이딩 다운(가성비 이동)'과 2주 연속 하락한 WTI 유가($88.56): 필수소비재·할인점 대장주 부각",
         "subtitle": "최근 2주간 $104.12 ➔ $85.69 폭락에 따른 저가 매수 및 러·우 정유소 타격으로 $88.70 반등… 인플레 위험선($90~$100) 아래 안정 지속",
         "chartImage": "assets/charts/agenda_03.svg",
         "chartConfig": {
@@ -155,7 +155,7 @@ AGENDAS_PART1 = [
         "importance": "CORE",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 강화 (미 10년물 5.10% 도달에도 원/달러 환율 1,334.53원(-0.55%) 철벽 방어! 한국 외환보유고 미 국채 운용 수익 극대화)",
-        "title": "[11/18 모닝] 미 금리가 5.10%로 뛰었는데 한국 환율은 1,334원(-0.55%)으로 안정된 기적: 한은(2.50%)과 외환보유고($443B+)의 미소",
+        "title": "[11/18 이브닝] 미 금리가 5.10%로 뛰었는데 한국 환율은 1,334원(-0.55%)으로 안정된 기적: 한은(2.50%)과 외환보유고($443B+)의 미소",
         "subtitle": "한·미 금리차 확대에도 흔들리지 않는 원화 가치… 한국 당국의 '미 장기 국채 전략 매입'은 연 5.10% 고금리로 이자수익 대박 예고",
         "chartImage": "assets/charts/agenda_04.svg",
         "chartConfig": {
@@ -202,7 +202,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 강화 (달러 인덱스 103.41(+0.23%) 강세에도 역외 원/달러 환율 '1,335.0원' 하향 안정! 1,335원 구간 달러 분할 매수 찬스)",
-        "title": "[11/18 모닝] 달러 인덱스(DXY) '103.41' 돌파에도 역외 원/달러 환율은 '1,335.00원' 안착: 주말 환테크·달러RP 확보 골든타임",
+        "title": "[11/18 이브닝] 달러 인덱스(DXY) '103.41' 돌파에도 역외 원/달러 환율은 '1,335.00원' 안착: 주말 환테크·달러RP 확보 골든타임",
         "subtitle": "미 금리 5.10% 발 글로벌 강달러(DXY 103.17) 폭풍을 정면으로 이겨낸 원화… 달러 자산(미국 주식·5.10% 미국채·금·BTC) 환전 찬스 지속",
         "chartImage": "assets/charts/agenda_05.svg",
         "chartConfig": {
@@ -252,8 +252,8 @@ AGENDAS_PART1 = [
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "CRITICAL",
         "deltaStatus": "NEW",
-        "deltaLabel": "🟢 시사점 역사적 폭발!! (엔비디아 3분기 매출 '$115.8B(+103% YoY)' 어닝 서프라이즈 & 4분기 가이던스 '$130B' + 자사주 매입 '$150B 추가(총 $227B)' + 베라 루빈 NVL72 출하 공식화!)",
-        "title": "[11/18 모닝·엔비디아 실적 대폭발] 매출 $115.8B(+103%)·차기 가이던스 $130B·자사주 $150B 폭격! '베라 루빈 NVL72 대량 출하'가 증명한 K-반도체 반격",
+        "deltaLabel": "🟢 시사점 대폭발! (베라 루빈 NVL72 랙당 'HBM4 무려 20.7TB 탑재' 괴물 스펙 확인! 오늘 SK하이닉스 +4.19%·삼성전자 +2.31% 동반 급등 이끈 진짜 동력)",
+        "title": "[11/18 이브닝·루빈 랙당 HBM4 20.7TB] 엔비디아 베라 루빈 NVL72 '랙당 HBM4 20.7TB 흡수'와 K-반도체 급반등(SK +4.19%·삼성 +2.31%)",
         "subtitle": "미 금리 5.10% 여파로 주가는 $166.19(-4.34%) 숨고르기… 11/19 실적 앞두고 메모리 의존도 낮추고 대역폭 극대화하는 자체 베이스다이·3D D램 구상 부각",
         "chartImage": "assets/charts/agenda_06.svg",
         "chartConfig": {
@@ -300,7 +300,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 강화 (삼성전자 190,300원(-3.30%) 과매도 진입! 구글·AWS·AMD 다변화된 하이퍼스케일러 HBM 수주 버퍼 + '1c D램 HBM4' 퀄테스트 모멘텀)",
-        "title": "[11/18 모닝·삼성전자 19만원선 점검] 삼성전자(190,300원, -3.30%) 과매도 구간 진입: 구글·AWS·AMD 멀티 고객망과 '1c D램 HBM4' 반격 카드",
+        "title": "[11/18 이브닝·삼성전자 19만원선 점검] 삼성전자(190,300원, -3.30%) 과매도 구간 진입: 구글·AWS·AMD 멀티 고객망과 '1c D램 HBM4' 반격 카드",
         "subtitle": "카운터포인트·VLSI 분석 '전례 없는 메모리 가격 결정권 슈퍼사이클'… 올해 HBM4가 HBM3E의 매출과 출하량을 모두 추월한다",
         "chartImage": "assets/charts/agenda_07.svg",
         "chartConfig": {
@@ -347,7 +347,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 대폭발! (TSMC 'CoWoS 패키징 최대 20% · 2나노 선단공정 5~10% 가격 인상' 검토! 엔비디아 서버 15%+ 인상에 이은 독점 공급망의 완벽한 가격 전가)",
-        "title": "[11/18 모닝·TSMC 가격인상] TSMC 'CoWoS 패키징 20% · 2나노 공정 5~10% 단가 인상' 추진: 반도체 조정장을 압도할 슈퍼을(乙)의 가격결정력",
+        "title": "[11/18 이브닝·TSMC 가격인상] TSMC 'CoWoS 패키징 20% · 2나노 공정 5~10% 단가 인상' 추진: 반도체 조정장을 압도할 슈퍼을(乙)의 가격결정력",
         "subtitle": "엔비디아가 -4.34% 빠진 날에도 TSMC는 단 -1.90% 조정으로 $405 안착… 파운드리와 메모리가 하나로 합쳐지는 'HBM4 3nm 베이스다이' 독점 효과",
         "chartImage": "assets/charts/agenda_08.svg",
         "chartConfig": {
@@ -394,7 +394,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 대폭발! (SK하이닉스 '엔비디아 베라 루빈 초기 HBM4 물량 70% 독점 확보' 및 장기선급금(LTA) 락인! 오늘 1,098,000원(-1.96%)은 바겐세일)",
-        "title": "[11/18 모닝·SK하이닉스 109.8만원] 엔비디아 베라 루빈 '초기 HBM4 물량 70% 독식'과 선수금(LTA) 락인: 110만 원 하회는 펀더멘털 괴리 저가매수 찬스",
+        "title": "[11/18 이브닝·SK하이닉스 109.8만원] 엔비디아 베라 루빈 '초기 HBM4 물량 70% 독식'과 선수금(LTA) 락인: 110만 원 하회는 펀더멘털 괴리 저가매수 찬스",
         "subtitle": "메모리 맨 아래층이 단순 버퍼에서 '초정밀 로직 프로세서'로 진화… 파운드리-메모리 권력 재편 속 한국 양대 반도체의 서로 다른 필승 공식",
         "chartImage": "assets/charts/agenda_09.svg",
         "chartConfig": {
@@ -440,8 +440,8 @@ AGENDAS_PART1 = [
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "HIGH",
         "deltaStatus": "REINFORCED",
-        "deltaLabel": "🟢 시사점 대폭발! (엔비디아, '삼성전기(ABF 기판 2028년까지 증설) · 앰코(인터포저 4배 확장) · TSMC' 차세대 패키징 동맹 공식 발표! 후공정·기판 슈퍼사이클)",
-        "title": "[11/18 모닝·엔비디아 패키징 동맹] 엔비디아가 지목한 병목 해결사: '삼성전기(2028 ABF 기판 증설) · 앰코(인터포저 4배)'와 HBM4 후공정 장비 대호황",
+        "deltaLabel": "🟢 시사점 대강화! (엔비디아 2028 ABF 기판 동맹 '삼성전기', 수랭식 베라 루빈 서버용 '초고용량 AI MLCC + FC-BGA 기판' 쌍끌이 수혜 폭발!)",
+        "title": "[11/18 이브닝·삼성전기 기판·MLCC 독식] 엔비디아 베라 루빈이 쏘아 올린 '삼성전기(ABF 기판 2028 증설 + AI 서버용 고온 MLCC)'와 후공정 슈퍼사이클",
         "subtitle": "전일 +5.66% 폭등 후 단 -0.54% 조정으로 10,500선 안착한 SOX… 완판된 LTA 물량 맞추려면 삼성 온양 5라인·SK 청주 팹에 패키징 장비 계속 넣어야",
         "chartImage": "assets/charts/agenda_10.svg",
         "chartConfig": {
@@ -485,7 +485,7 @@ AGENDAS_PART1 = [
         "importance": "HIGH",
         "deltaStatus": "MAINTAINED",
         "deltaLabel": "🟢 시사점 강화 (블랙웰 NVL72(120~140kW) 발열 설계 개량 완료 & 베라 루빈(190~230kW)·루빈 울트라(600kW) 시대 '직결 수랭식(Liquid Cooling)' 100% 의무화!)",
-        "title": "[11/18 모닝·AI 열관리 혁명] 공랭식의 종말과 '직결 액체냉각(Liquid Cooling)' 의무화: 블랙웰(140kW) 넘어 루빈(230kW)·울트라(600kW)가 부른 수랭식 슈퍼사이클",
+        "title": "[11/18 이브닝·AI 열관리 혁명] 공랭식의 종말과 '직결 액체냉각(Liquid Cooling)' 의무화: 블랙웰(140kW) 넘어 루빈(230kW)·울트라(600kW)가 부른 수랭식 슈퍼사이클",
         "subtitle": "빅테크가 3년 치 HBM4를 입도선매했다는 것은 3년 치 변압기·배전반·수랭식 냉각기도 똑같이 사들여야 한다는 뜻… 전력 인프라 수주 잔고 직결",
         "chartImage": "assets/charts/agenda_11.svg",
         "chartConfig": {
@@ -533,7 +533,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 대폭발! (일론 머스크 차세대 '스타십 V4(상단 70m·길이 40% 확장·9엔진)' 전격 공개! 배스트럽 기가샛 공장과 우주 AI 데이터센터 '스타마인드' 수송력 극대화)",
-        "title": "[11/18 모닝·스타십 V4 전격 공개] 상단 우주선 길이 40% 키운 '스타십 V4(70m·9엔진)' 로드맵과 우주 AI 데이터센터 '스타마인드' 대량 발사 시대",
+        "title": "[11/18 이브닝·스타십 V4 전격 공개] 상단 우주선 길이 40% 키운 '스타십 V4(70m·9엔진)' 로드맵과 우주 AI 데이터센터 '스타마인드' 대량 발사 시대",
         "subtitle": "미 텍사스 스타베이스 발사대 출격… 1단 슈퍼헤비 포획 + 저궤도(LEO)에 차세대 스타링크 V3 위성 26기 배치 + 2단 스타십 상단 타워 포획까지 연속 도전!",
         "chartImage": "assets/charts/agenda_12.svg",
         "chartConfig": {
@@ -577,7 +577,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "MAINTAINED",
         "deltaLabel": "🟢 시사점 강화 (두산에너빌리티, 뉴스케일 SMR 상업 본생산 + '미국향 대형 가스터빈 수출 및 AI 디지털트윈 원전 용접 자동화' 완성! AI 전력망 올라운더)",
-        "title": "[11/18 모닝·두산에너빌리티 양날개] 뉴스케일 SMR 상업 본생산 + '미국향 가스터빈 수출 & AI 디지털트윈 원전 제조': AI 데이터센터 전력 독점",
+        "title": "[11/18 이브닝·두산에너빌리티 양날개] 뉴스케일 SMR 상업 본생산 + '미국향 가스터빈 수출 & AI 디지털트윈 원전 제조': AI 데이터센터 전력 독점",
         "subtitle": "캐나다 달링턴 SMR 일정 지연이 증명한 서방의 제조력 부재… 도면을 실제 강철 원자로 모듈로 만들어낼 곳은 한국(두산)뿐",
         "chartImage": "assets/charts/agenda_13.svg",
         "chartConfig": {
@@ -621,7 +621,7 @@ AGENDAS_PART1 = [
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 대폭발! (테슬라 운전대·페달 없는 '사이버캡(Cybercab) 개인 판매($29,990 + 월 $299 자율주행 의무구독)' 전격 개시! 하드웨어+SaaS 고마진 모델 완성)",
-        "title": "[11/18 모닝·사이버캡 개인 판매 개시] 운전대 없는 테슬라 '사이버캡 $29,990 + 월 $299 의무 구독' 전격 오픈: 2027 Q2 개인 로보택시 네트워크 연결!",
+        "title": "[11/18 이브닝·사이버캡 개인 판매 개시] 운전대 없는 테슬라 '사이버캡 $29,990 + 월 $299 의무 구독' 전격 오픈: 2027 Q2 개인 로보택시 네트워크 연결!",
         "subtitle": "인간 안전요원 없이 하루 24시간 돌아가는 로보택시 + 가상·현실 자가대결(Self-play)로 수천 대 로봇을 동시에 훈련시켜 기업에 렌탈(RaaS)하는 제국",
         "chartImage": "assets/charts/agenda_14.svg",
         "chartConfig": {
@@ -664,8 +664,8 @@ AGENDAS_PART1 = [
         "categoryLabel": "미래기술 · 우주 · 로봇 · 바이오",
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
-        "deltaLabel": "🟢 시사점 강화 (일라이 릴리 엔비디아 기반 AI 슈퍼컴 '릴리팟(LillyPod)' 가동 & 크레용바이오 '양자화학 기반 RNA 신약' 동맹! + EloraTZP -23% 감량)",
-        "title": "[11/18 모닝·AI·양자 신약 제국] 일라이 릴리의 초격차 비결: 엔비디아 AI 슈퍼컴 '릴리팟(LillyPod)'과 양자화학 RNA 신약 + EloraTZP -23% 감량",
+        "deltaLabel": "🟢 시사점 대폭발! (일라이 릴리 2026 연간 매출 가이던스 '$91B~$92B(약 122조 원)' 전격 상향! 마운자로·젭바운드·경구용 파운다요 삼각편대와 정밀항암 M&A)",
+        "title": "[11/18 이브닝·연매출 122조 바이오 제국] 일라이 릴리 2026 가이던스 '$91B~$92B' 상향! 마운자로·젭바운드·파운다요 독주와 항암 바이오텍 M&A",
         "subtitle": "중국 국가약품감독관리국(NMPA)으로부터 경구용 GLP-1 체중관리 신약 최초 승인 획득… 미 Hims & Hers 원격의료 직판과 함께 미·중 G2 평정",
         "chartImage": "assets/charts/agenda_15.svg",
         "chartConfig": {
@@ -709,7 +709,7 @@ AGENDAS_PART1 = [
         "importance": "CORE",
         "deltaStatus": "REINFORCED",
         "deltaLabel": "🟢 시사점 강화 ('IBM 퀀텀 개발자 컨퍼런스(11/11~11/13)' 최종일! Nighthawk 프로세서 & 광자(Photonic)·결함허용 양자 스케일링 + 양자보안 PQC)",
-        "title": "[11/18 모닝·양자컴퓨팅 컨퍼런스] 오늘 폐막하는 'IBM 퀀텀 개발자 컨퍼런스(11/11~13)' 총정리: Nighthawk 칩과 결함허용(Fault-Tolerant) 양자 스케일링",
+        "title": "[11/18 이브닝·양자컴퓨팅 컨퍼런스] 오늘 폐막하는 'IBM 퀀텀 개발자 컨퍼런스(11/11~13)' 총정리: Nighthawk 칩과 결함허용(Fault-Tolerant) 양자 스케일링",
         "subtitle": "3일간의 IBM Quantum Developer Conference에서 입증된 양자-AI 하이브리드 우위… 광자(Photonic) 양자 확장과 양자내성암호(PQC) 도입 시급성 부각",
         "chartImage": "assets/charts/agenda_16.svg",
         "chartConfig": {
