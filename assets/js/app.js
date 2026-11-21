@@ -449,7 +449,7 @@
         const subQuarterly = document.getElementById("sub-quarterly120d");
 
         const curCount = (currentEdition.agendas || []).length || 40;
-        if (subDaily) subDaily.textContent = `보관 에디션 ${recent7dEditions.length}회차 (회차당 ${curCount}건 보존)`;
+        if (subDaily) subDaily.textContent = `보관 에디션 ${recent7dEditions.length}회차 (최소 40건+ · 금회 ${curCount}건)`;
         if (subWeekly) subWeekly.textContent = `중요 선별 ${(weeklyRollup.agendas || []).length}건 합산 보관 중`;
         if (subMonthly) subMonthly.textContent = `최중요 선별 ${(monthlyRollup.agendas || []).length}건 합산 보관 중`;
         if (subQuarterly) subQuarterly.textContent = `분기 핵심 ${(quarterlyRollup.agendas || []).length}건 영구 합산 중`;

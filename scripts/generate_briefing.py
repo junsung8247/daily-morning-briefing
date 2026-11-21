@@ -25,6 +25,10 @@ from chart_generator import (
 from agendas_part1 import AGENDAS_PART1
 from agendas_part2 import AGENDAS_PART2
 from agendas_part3 import AGENDAS_PART3
+try:
+    from agendas_extra import AGENDAS_EXTRA
+except ImportError:
+    AGENDAS_EXTRA = []
 from archive_manager import process_tiered_archives
 
 MARKET_SYMBOLS = [
@@ -302,7 +306,7 @@ def build_briefing_edition():
     print("[2/5] 실시간 국내외 RSS 뉴스 헤드라인 수집 중 (생산성 없는 연예/가십 원천 배제)...")
     rss_headlines = fetch_live_rss_headlines()
 
-    agendas = inject_live_market_into_agendas(AGENDAS_PART1 + AGENDAS_PART2 + AGENDAS_PART3, market_data)
+    agendas = inject_live_market_into_agendas(AGENDAS_PART1 + AGENDAS_PART2 + AGENDAS_PART3 + AGENDAS_EXTRA, market_data)
     print(f"[3/5] 총 {len(agendas)}개 심층 안건 전용 고해상도 차트/인포그래픽 SVG 생성 중...")
     generate_all_charts(agendas, market_data)
 
@@ -317,10 +321,10 @@ def build_briefing_edition():
         "displayDate": slot_info["displayDate"],
         "shortDate": slot_info["shortDate"],
         "slotLabel": slot_info["slotLabel"],
-        "scheduleInfo": "매일 08:00 / 20:00 정각 발행 · 8대 영역 40건 돈이 되는 지식 브리핑",
+        "scheduleInfo": f"매일 08:00 / 20:00 정각 발행 · 8대 영역 최소 40건+ (금회 {len(agendas)}건) 돈이 되는 지식 브리핑",
         "totalAgendas": len(agendas),
         "deltaSummary": delta_counts,
-        "executiveHeadline": "[11/21 모닝 · 40대 심층안건] ①거시: 금요일 글로벌 기술주·AI 동반 투매 쇼크로 나스닥 -5.28%(22,617·연초대비 상승분 전액 반납)·S&P500 -3.70%(6,910·조정장 진입)·코스피 -5.21%(4,869.96) 급락! 반면 안전자산 쏠림에 미 10년물 금리는 4.95%로 5% 하회 & 원/달러 환율은 1,336.20원 선방 · ②반도체: 글로벌 투매에 삼성전자 182,500원(-7.31%)·SK하이닉스 1,105,000원(-6.59%) 동반 급락했으나, 엔비디아 $390B 장기약정·베라 루빈 HBM4(12단+27년 8단)·삼성전기 세종/부산 기판 증설 등 펀더멘털 이상 무 · ③미래기술: 테슬라 텍사스 하루 최다 사이버캡 200대 신규 등록(누적 1,500대 돌파·개인용 12월 인도)·스페이스X 스타십 V4(70m·9엔진)·두산에너빌리티 뉴스케일 SMR 상업 본생산 · ④전쟁/지정학: 영국 $3.16억 동계 방공 패키지(미사일 1,000발+) 긴급 지원·구리 고점 대비 -20% 약세장 추락(LME $12,235/t) & WTI 3주 연속 하락 $83.98 vs 우라늄 $90.10/lb 철벽 방어 · ⑤증시/세테크: 증시 -5% 폭락장에서 미 10년물 국채(4.95%)가 입증한 버핏식 바벨 전략의 방어력 및 연말 해외주식 양도세 22% 손익통산 · ⑥금: 12월 연준 금리인상 확률 90% 반영·강달러에 금 현물 $3,600 하회($3,540~$3,575/oz) 급락 · ⑦비트코인: ETF 10억 달러+ 환매 및 위험회피에 원화 8,250만원~8,350만원($61,500~$63,000) 급락 및 스트래티지(MSTR) 지수 리밸런싱 압박 · ⑧부동산: 스트레스 DSR 현금 장벽에 서울 아파트 '가격 방어+거래절벽' 고착화 및 전·월세 상승 압력 심화",
+        "executiveHeadline": "[11/21 모닝 · 52대 확장 심층안건 (누락분 포함)] ①거시: 금요일 글로벌 AI·기술주 투매 쇼크로 나스닥 -5.28%(22,617)·S&P500 7일 연속 하락 -3.70%(6,910·공식 조정장)·코스피 -5.21%(4,869.96) 폭락! 안전자산 쏠림에 미 10년물 4.95% 하회·환율 1,336.2원 방어 + 일본 Q3 GDP 역성장·중국 10월 CPI 0.7% 속 24% 보복관세 유예 연장 · ②반도체: 앤트로픽(Anthropic) 메가 IPO 이틀째 급락과 미 대중 AI 칩 수출통제 재강화(삼성·TSMC 특정 중국 고객 출하 중단) 쇼크로 삼성전자 182,500원(-7.31%)·SK하이닉스 1,105,000원(-6.59%)·삼성전기(-12%+) 급락 vs 엔비디아 $390B 장기약정·HBM4 펀더멘털 건재 · ③미래기술: 미 중간선거 후 AI 데이터센터 전력·환경 규제 우려 속 무탄소 SMR(두산에너빌리티)·궤도형 우주 AI(스타마인드) 반사이익 & 테슬라 텍사스 사이버캡 하루 200대 등록(누적 1,500대 돌파) · ④전쟁/지정학: 영국 $3.16억 동계 방공 패키지(미사일 1,000발+) 긴급 지원·구리 펀드 청산에 -20% 약세장 추락(LME $12,235/t) vs 중국 실물 프리미엄 사상 최고 괴리 & WTI $83.98·우라늄 $90.10/lb 철벽 방어 · ⑤증시/세테크: 코스피·코스닥 동시 매도 사이드카 발동(외인 -1.14조·기관 -9,510억 vs 개인 +1.6조) & 연말 '고배당 기업 배당소득 분리과세 특례'·'생산적금융 ISA'·ISA 만기자금 연금 이전(+300만 원 추가 세액공제) 총정리 · ⑥금: 12월 연준 금리인상 90% 선반영·마진콜 현금화에 $3,600 하회($3,540~$3,575/oz) 급락 ➔ KRX 금현물 분할매수 타점 · ⑦비트코인: ETF 10억 달러+ 순유출 & 스트래티지(MSTR) 지수 편출 이중 충격에 8,250만원~8,350만원($61.5K~$63K) 급락 ➔ 현물 BTC 95%+ 무레버리지 철칙 · ⑧부동산: 스트레스 DSR 현금 장벽에 서울 아파트 '가격 방어+거래절벽' 고착화 및 전·월세 상승 압력 심화",
         "marketQuotes": market_data,
         "liveHeadlines": rss_headlines,
         "agendas": agendas
@@ -390,7 +394,7 @@ def build_briefing_edition():
                         shutil.rmtree(rb_path, ignore_errors=True)
                 subprocess.run(["git", "checkout", "-B", "main"], cwd=BASE_DIR, check=False, capture_output=True)
                 subprocess.run(["git", "add", "-A"], cwd=BASE_DIR, check=False)
-                commit_msg = f"update: briefing {edition_id} 40-agendas ({now.strftime('%H:%M KST')})"
+                commit_msg = f"update: briefing {edition_id} {len(agendas)}-agendas ({now.strftime('%H:%M KST')})"
                 subprocess.run(["git", "commit", "-m", commit_msg], cwd=BASE_DIR, check=False, capture_output=True)
                 push_res = subprocess.run(["git", "push", "--force", "origin", "HEAD:main"], cwd=BASE_DIR, check=False, capture_output=True, text=True)
                 if push_res.returncode == 0:
