@@ -2,7 +2,7 @@
 window.BRIEFING_PORTAL_DATA = {
   "currentEdition": {
     "editionId": "2026-11-21_0800",
-    "generatedAt": "2026-11-21 09:38:38 KST",
+    "generatedAt": "2026-11-21 11:03:25 KST",
     "displayDate": "2026년 11월 21일",
     "shortDate": "11/21 08:00",
     "slotLabel": "08:00 AM 모닝 에디션",
@@ -374,9 +374,9 @@ window.BRIEFING_PORTAL_DATA = {
         "unit": "만원",
         "color": "#f97316",
         "scale": 0.0001,
-        "price": 7940,
-        "dayChangePct": -3.9,
-        "monthChangePct": -28.78,
+        "price": 7933,
+        "dayChangePct": -3.99,
+        "monthChangePct": -28.84,
         "historyLabels": [
           "11/11",
           "11/12",
@@ -399,7 +399,7 @@ window.BRIEFING_PORTAL_DATA = {
           8653,
           8386,
           8262,
-          7940
+          7933
         ]
       },
       {
@@ -413,6 +413,7 @@ window.BRIEFING_PORTAL_DATA = {
         "dayChangePct": -14.01,
         "monthChangePct": -43.45,
         "historyLabels": [
+          "11/06",
           "11/09",
           "11/10",
           "11/11",
@@ -421,10 +422,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/16",
           "11/17",
           "11/18",
-          "11/19",
-          "11/20"
+          "11/19"
         ],
         "historyValues": [
+          186.64,
           178.67,
           168.89,
           173.73,
@@ -433,9 +434,23 @@ window.BRIEFING_PORTAL_DATA = {
           156.14,
           155.46,
           150.96,
-          145.98,
-          125.53
-        ]
+          145.98
+        ],
+        "marketCap": 3025000000000,
+        "marketCapCurrency": "USD",
+        "netIncome4Q": 226256000000,
+        "netIncome1Q": 65287000000,
+        "netIncomeCurrency": "USD",
+        "latestQuarterDate": "2026-10-31",
+        "quartersUsed": [
+          "2026-01-31",
+          "2026-04-30",
+          "2026-07-31",
+          "2026-10-31"
+        ],
+        "per4Q": 13.37,
+        "per1Qx4": 11.58,
+        "valuationNote": "최근 4Q(Q4'26~Q3'27)"
       },
       {
         "symbol": "TSM",
@@ -448,6 +463,7 @@ window.BRIEFING_PORTAL_DATA = {
         "dayChangePct": -9.48,
         "monthChangePct": -26.21,
         "historyLabels": [
+          "11/06",
           "11/09",
           "11/10",
           "11/11",
@@ -456,10 +472,10 @@ window.BRIEFING_PORTAL_DATA = {
           "11/16",
           "11/17",
           "11/18",
-          "11/19",
-          "11/20"
+          "11/19"
         ],
         "historyValues": [
+          375.44,
           388.62,
           396.48,
           413.35,
@@ -468,9 +484,160 @@ window.BRIEFING_PORTAL_DATA = {
           373.45,
           359.69,
           362.62,
-          352.09,
-          318.71
-        ]
+          352.09
+        ],
+        "marketCap": 1653000000000,
+        "marketCapCurrency": "USD",
+        "netIncome4Q": 76695335447,
+        "netIncome1Q": 23154036351,
+        "netIncomeCurrency": "TWD",
+        "netIncome4QRawTwd": 2527571475000,
+        "netIncome1QRawTwd": 763064422000,
+        "usdTwdRate": 32.956,
+        "latestQuarterDate": "2026-09-30",
+        "quartersUsed": [
+          "2025-12-31",
+          "2026-03-31",
+          "2026-06-30",
+          "2026-09-30"
+        ],
+        "per4Q": 21.55,
+        "per1Qx4": 17.85,
+        "valuationNote": "TWD➔USD 환산"
+      },
+      {
+        "symbol": "GOOGL",
+        "id": "google",
+        "name": "구글 (Alphabet 통합)",
+        "category": "tech",
+        "unit": "$",
+        "color": "#4285f4",
+        "price": 265.29,
+        "dayChangePct": -2.7,
+        "monthChangePct": -20.75,
+        "historyLabels": [
+          "11/06",
+          "11/09",
+          "11/10",
+          "11/11",
+          "11/12",
+          "11/13",
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19"
+        ],
+        "historyValues": [
+          284.78,
+          288.15,
+          287.38,
+          293.45,
+          298.7,
+          295.77,
+          283.72,
+          280.2,
+          282.44,
+          272.66
+        ],
+        "marketCap": 3194000000000,
+        "marketCapCurrency": "USD",
+        "netIncome4Q": 235694000000,
+        "netIncome1Q": 26468000000,
+        "netIncomeCurrency": "USD",
+        "latestQuarterDate": "2026-09-30",
+        "quartersUsed": [
+          "2025-12-31",
+          "2026-03-31",
+          "2026-06-30",
+          "2026-09-30"
+        ],
+        "per4Q": 13.55,
+        "per1Qx4": 30.17,
+        "valuationNote": "알파벳 A+C 합산"
+      },
+      {
+        "symbol": "AMD",
+        "id": "amd",
+        "name": "AMD (AMD)",
+        "category": "tech",
+        "unit": "$",
+        "color": "#ef4444",
+        "price": 424.39,
+        "dayChangePct": -13.25,
+        "monthChangePct": -23.22,
+        "historyLabels": [
+          "11/06",
+          "11/09",
+          "11/10",
+          "11/11",
+          "11/12",
+          "11/13",
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19"
+        ],
+        "historyValues": [
+          449.04,
+          508.58,
+          515.21,
+          552.9,
+          585.3,
+          534.06,
+          504.28,
+          503.41,
+          530.14,
+          489.19
+        ],
+        "marketCap": 696037000000,
+        "marketCapCurrency": "USD",
+        "netIncome4Q": 7619000000,
+        "netIncome1Q": 2428000000,
+        "netIncomeCurrency": "USD",
+        "latestQuarterDate": "2026-09-30",
+        "quartersUsed": [
+          "2025-12-31",
+          "2026-03-31",
+          "2026-06-30",
+          "2026-09-30"
+        ],
+        "per4Q": 91.36,
+        "per1Qx4": 71.67,
+        "valuationNote": "GAAP 분기순이익"
+      },
+      {
+        "symbol": "ANT",
+        "id": "anthropic",
+        "name": "앤트로픽 (ANT)",
+        "category": "tech",
+        "unit": "$",
+        "color": "#d97706",
+        "price": 88.91,
+        "dayChangePct": -8.5,
+        "monthChangePct": -8.5,
+        "historyLabels": [
+          "11/19",
+          "11/20"
+        ],
+        "historyValues": [
+          97.17,
+          88.91
+        ],
+        "marketCap": 1164000000000,
+        "marketCapCurrency": "USD",
+        "netIncome4Q": -120849000000,
+        "netIncome1Q": -23291000000,
+        "netIncomeCurrency": "USD",
+        "latestQuarterDate": "2026-09-30",
+        "quartersUsed": [
+          "2025-12-31",
+          "2026-03-31",
+          "2026-06-30",
+          "2026-09-30"
+        ],
+        "per4Q": -9.63,
+        "per1Qx4": -12.49,
+        "valuationNote": "S-1·분기 GAAP(비현금 평가손 포함)"
       },
       {
         "symbol": "005930.KS",
@@ -479,8 +646,8 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "tech",
         "unit": "원",
         "color": "#3b82f6",
-        "price": 183100.0,
-        "dayChangePct": -7.01,
+        "price": 180900,
+        "dayChangePct": -8.13,
         "monthChangePct": -13.43,
         "historyLabels": [
           "11/09",
@@ -505,7 +672,22 @@ window.BRIEFING_PORTAL_DATA = {
           194700.0,
           196900.0,
           183100.0
-        ]
+        ],
+        "marketCap": 1171849500000000,
+        "marketCapCurrency": "KRW",
+        "netIncome4Q": 212870846000000,
+        "netIncome1Q": 75208134000000,
+        "netIncomeCurrency": "KRW",
+        "latestQuarterDate": "2026-09-30",
+        "quartersUsed": [
+          "2025-12-31",
+          "2026-03-31",
+          "2026-06-30",
+          "2026-09-30"
+        ],
+        "per4Q": 5.5,
+        "per1Qx4": 3.9,
+        "valuationNote": "보통주+우선주 합산"
       },
       {
         "symbol": "000660.KS",
@@ -514,8 +696,8 @@ window.BRIEFING_PORTAL_DATA = {
         "category": "tech",
         "unit": "원",
         "color": "#ec4899",
-        "price": 1113000.0,
-        "dayChangePct": -5.92,
+        "price": 1100000,
+        "dayChangePct": -7.02,
         "monthChangePct": -8.99,
         "historyLabels": [
           "11/09",
@@ -540,7 +722,22 @@ window.BRIEFING_PORTAL_DATA = {
           1144000.0,
           1183000.0,
           1113000.0
-        ]
+        ],
+        "marketCap": 777479000000000,
+        "marketCapCurrency": "KRW",
+        "netIncome4Q": 188904587000000,
+        "netIncome1Q": 39534392000000,
+        "netIncomeCurrency": "KRW",
+        "latestQuarterDate": "2026-09-30",
+        "quartersUsed": [
+          "2025-12-31",
+          "2026-03-31",
+          "2026-06-30",
+          "2026-09-30"
+        ],
+        "per4Q": 4.12,
+        "per1Qx4": 4.92,
+        "valuationNote": "연결 분기순이익"
       },
       {
         "symbol": "CL=F",
@@ -764,27 +961,6 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "gold",
         "source": "Google 뉴스 (금 시세/전망)",
-        "title": "살아난 국제 금값…국내 금시세는? - 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBINmc2TVlRZF9hQjhmTzExX2FYNWNIOWZFdkRfaXEyX3ltTzFXWWs4TE1yekNmbEY0Yk56c3BIWG5qWUx6azdLX3NyMW90V25TZG82Sg?oc=5",
-        "pubDate": "Fri, 03 Jul 2026 07:00:00"
-      },
-      {
-        "category": "gold",
-        "source": "Google 뉴스 (금 시세/전망)",
-        "title": "“저점 매수 가자”…중국, 금값 폭락한 6월도 금 보유량 늘려 - edaily.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0p1TEVzWE50bzFZQ1BwY1VCUlVQRXYwS3lkVTRrTHJHNU13UlNMMUNJVFBxVDdNU1dQVFpMWEJETDRIeW5seXdQWEVLNnAybWQ0eTlKNVlzeTJWWnV1NkZnWWhoNmxfR0c5S1V0NTNIMTdRWURCREVFMXdVa2t6aA?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 07:00:00"
-      },
-      {
-        "category": "gold",
-        "source": "Google 뉴스 (금 시세/전망)",
-        "title": "금 1㎏이면 일본 소도시 집 한 채 산다? 골드만삭스 ‘금값 5천달러’ 전망 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55LVlYUEkwZXc0R1lIWmhZX3hVaG1hR2xiZURVcWpDc3plVHVxN1NlNzZHQ3YzZlloSndNeDJFXy1lY25pWUJSQW9NOXBVZGlxQnQ5ZEd6WEFMeGREZDA3Q0JpeTlyeGtoVF85Yks2SHFQQQ?oc=5",
-        "pubDate": "Sat, 16 May 2026 07:00:00"
-      },
-      {
-        "category": "gold",
-        "source": "Google 뉴스 (금 시세/전망)",
         "title": "\"중앙은행 금 매입 지속…금값 추가 상승 여력 여전\" - KB Think",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jX0doWkZvamlTdUZuNWlVVlFPb01hSjIweUlJWTVPYXFEOEt5RDVsaU5RTUZKd24tbWFkakFHMEtzd1lQSFU2MHc1VmhWdHBWcEpuUGMyYlNSbzQtZTNFUVhleFo5VEd6MzFsV1B3LWdldw?oc=5",
         "pubDate": "Fri, 07 Aug 2026 07:00:00"
@@ -792,9 +968,44 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "gold",
         "source": "Google 뉴스 (금 시세/전망)",
-        "title": "금 공급량: 장기 가격 변동에 작용하는 보이지 않는 손 - CME Group",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWplOGpnQXRfb2xsNVBYTDVCRUl2NXNOTk4yMG4xUW9PV081TGsyLVo1SlB5ZmFzREJKU1hqbGJ3OG5VdjBSNTVnUkFqUVBwcXlNblRONU9GcWpQQ3kwcFR4Y19PUk90YjF6R0daYUdGRUJNOC1fUG5YaEU4d2o0RnlJbHBKMExqNmlLZ1I3RkREdFdiVXo4YWhHc3pNY1dYYTlidE5ncndzaFFiaHY0bnJ5eWNxczhZYkxyQW9nUHgwcnh4NUVMcWZn?oc=5",
-        "pubDate": "Thu, 13 Jul 2023 07:00:00"
+        "title": "[금 시세] 금값 폭락에도 멈추지 않는다…\"지금이 저가 매수 기회?\" 파격적인 금 매입 행진 - CBC뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5odzBYZFRMeXU4ZG9oYmVERExveE9tSXJnRUtOOUhtQnByMzJFT0g0VG4wRExlOWk1TF9UMllkNmRqa2dqSFdLc3hPYThYQlRXU1NoaEpoaHU1bl9zQmtrMXM1RjRLZFRh?oc=5",
+        "pubDate": "Sun, 08 Nov 2026 08:00:00"
+      },
+      {
+        "category": "gold",
+        "source": "Google 뉴스 (금 시세/전망)",
+        "title": "NYT \"신흥국 등 각국 중앙은행 '골드러시'...중국 최대 규모 금 매입\" - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IYmpzUGhxalRGU0pxTnd6TXU3cENJeDU4Vmp2VU1JN1BmRnBRYW5MTERKN1ZEYXZUYTQ2OEV5RVk3YVlJcS0zYlpvNWNScldwMXJYak4wN3d1aDE0TWc?oc=5",
+        "pubDate": "Sat, 02 May 2026 07:00:00"
+      },
+      {
+        "category": "gold",
+        "source": "Google 뉴스 (금 시세/전망)",
+        "title": "[올댓차이나] 인민은행, 10월 금 83만 온스 매수…24개월째 보유고 늘려 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSMzN4UUFTYm5vNHNwNVYyS2hoN3dvVm1fOWhiNEtCbkFtU29iWjhqcFphU3UxLWk2YlJWbTRlMDRSeGF4YV9KejlsTjJNTlhIVXZrQ3YwOUxINDFZazdwb9IBeEFVX3lxTE1hV1AtUzkwZWdqTDNQRGl0eE1rMGxjeTZ3S0E1eVl1V3Z6UDN5N0Y0SXhEdnBIYnNYbzlEMkhUQ1llWG91ZE80aUhtZzJUMFBEMGcwQVQtR0VQNE1PTlM3ZU12VlIwcWxpa0xiZW9oOEFmQ0FfdkZyWQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 08:00:00"
+      },
+      {
+        "category": "gold",
+        "source": "Google 뉴스 (금 시세/전망)",
+        "title": "살아난 국제 금값…국내 금시세는? - 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBINmc2TVlRZF9hQjhmTzExX2FYNWNIOWZFdkRfaXEyX3ltTzFXWWs4TE1yekNmbEY0Yk56c3BIWG5qWUx6azdLX3NyMW90V25TZG82Sg?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 07:00:00"
+      },
+      {
+        "category": "crypto",
+        "source": "Google 뉴스 (비트코인 ETF)",
+        "title": "비트코인 6만 달러선 붕괴…기관 자금 이탈에 가상자산 시장 급락 - 산경투데이",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1haXJILXFBUFd1aUVzMlo5aU9JcENmMlUxUmh4amN2b0JTd0xyYzFaRF9oM1RvT2NSaDNBQnQ4NktadEJsbGV0aHNxRFJ4R1dPLVQwQ3N6MTlja25VMXhjUU9IRWV6dHptTWIwdFB5NFLSAXRBVV95cUxPa3c2VFZaa1doemEyLW9hUFlWYmhLRWNxYVd6WWpJdGN0Umo1eDJMckJVRmdfbm1Jd040Rm9fNUJxT0JLbnloaXlBeVRxZzRMdjhVRk1oRHp4VmpyX00tanpQUFFhcEZjRURrcmJvc25zUFU2Xw?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 00:56:45"
+      },
+      {
+        "category": "crypto",
+        "source": "Google 뉴스 (비트코인 ETF)",
+        "title": "비트코인, 2년 만에 최저치…스트래티지·코인베이스 주가 20~30% 급락 - 블루밍비트",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TRlIzQlRtS045eW9RRGpBZ3VUcGJvb0ZQRHAxSDBlbjNPUjg0Q0lQd0RvdFhORDNFU3JVZy15M19iekE5amN2d0pINDlXTUxs?oc=5",
+        "pubDate": "Fri, 20 Nov 2026 23:05:54"
       },
       {
         "category": "crypto",
@@ -813,13 +1024,6 @@ window.BRIEFING_PORTAL_DATA = {
       {
         "category": "crypto",
         "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "블랙록 비트코인 현물 ETF, 출시 이후 최대 일일 순유출 기록 - 블루밍비트",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VOHk5NDZvdF9mZGVhRXRNM0ZCd09mWmctOTY0Nm9jcXlmM1JRZ0xIejYwNl9WM0V6dTVhSllWakY0cUpqSFZMREVhb1J1bFY5?oc=5",
-        "pubDate": "Fri, 20 Nov 2026 07:00:46"
-      },
-      {
-        "category": "crypto",
-        "source": "Google 뉴스 (비트코인 ETF)",
         "title": "비트코인 6만 달러 위협…현물 ETF서 29억 달러 이탈, 블랙록에 83% 집중 - 비온미디어",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xeHgwZVhtQUVPYUlieExpUlFWUjlfZFQwMWNjTXA4VFBhMG5LUTBYXzlKRU5RYkRUUW9ZWHkzN0hwaWdUVWlEZ01KSlJKYlJjbVV5N0ZTWUZVY0xnWlBNN3Zvei1xeEXSAWtBVV95cUxPU05BV0JCQnJhRlNfM1JYWlpUWWRPb1lXUzNTYk1HdUFFMW1aYnRpYTRwT1dBQlNpcWtQZkx6OUxtSWFkOUxBNjFiTXU2TXNBVUxuVDdNMHlwazBWNHJaUjdZOGF5VkU1MGoxTQ?oc=5",
         "pubDate": "Fri, 20 Nov 2026 05:04:37"
@@ -830,13 +1034,6 @@ window.BRIEFING_PORTAL_DATA = {
         "title": "[위기의 코인시장①] 1억원 내준 비트코인, 반등 실종…일주일째 9000만원 아래 - 뉴시안",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56RHUyazdxX3BOUXZWc29lbzR0by1mWkcwdFNmT3hBbmQwOTk4WDJNTG9SY3BaY1dQNWZSQmZZOXBIME15LVpRRk1KUU9xMXZFQ1hLeURaU0U1VjBzTXdfcWRkS0Y5QjZaWkQ5YQ?oc=5",
         "pubDate": "Wed, 18 Nov 2026 00:57:19"
-      },
-      {
-        "category": "crypto",
-        "source": "Google 뉴스 (비트코인 ETF)",
-        "title": "기관, 비트코인 ETF 다시 담았다…보유 규모 사상 최대 - 블루밍비트",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmdUZXYmhvN2RTSTFiYkFZcEdmbUYyOTdiVGdMQjRKeldlTXo1NlZGT1I1djN2MTBkQnlFOWVZeEMzQl9QZHpFWEJnRmU0cTh1?oc=5",
-        "pubDate": "Fri, 20 Nov 2026 04:16:20"
       }
     ],
     "agendas": [
@@ -3521,13 +3718,13 @@ window.BRIEFING_PORTAL_DATA = {
             8653,
             8386,
             8262,
-            7940
+            7933
           ],
           "unit": "만원",
           "color": "#f97316",
           "benchmark_val": 9500.0,
           "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-          "badge_text": "LIVE 7940만원",
+          "badge_text": "LIVE 7933만원",
           "annotations": [
             {
               "index": 9,
@@ -3538,7 +3735,7 @@ window.BRIEFING_PORTAL_DATA = {
         "keyMetrics": [
           {
             "label": "비트코인 시세 (만원)",
-            "value": "7940만원",
+            "value": "7933만원",
             "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
           },
           {
@@ -5277,7 +5474,7 @@ window.BRIEFING_PORTAL_DATA = {
   "recent7dEditions": [
     {
       "editionId": "2026-11-21_0800",
-      "generatedAt": "2026-11-21 09:38:38 KST",
+      "generatedAt": "2026-11-21 11:03:25 KST",
       "displayDate": "2026년 11월 21일",
       "shortDate": "11/21 08:00",
       "slotLabel": "08:00 AM 모닝 에디션",
@@ -5649,9 +5846,9 @@ window.BRIEFING_PORTAL_DATA = {
           "unit": "만원",
           "color": "#f97316",
           "scale": 0.0001,
-          "price": 7940,
-          "dayChangePct": -3.9,
-          "monthChangePct": -28.78,
+          "price": 7933,
+          "dayChangePct": -3.99,
+          "monthChangePct": -28.84,
           "historyLabels": [
             "11/11",
             "11/12",
@@ -5674,7 +5871,7 @@ window.BRIEFING_PORTAL_DATA = {
             8653,
             8386,
             8262,
-            7940
+            7933
           ]
         },
         {
@@ -5688,6 +5885,7 @@ window.BRIEFING_PORTAL_DATA = {
           "dayChangePct": -14.01,
           "monthChangePct": -43.45,
           "historyLabels": [
+            "11/06",
             "11/09",
             "11/10",
             "11/11",
@@ -5696,10 +5894,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/16",
             "11/17",
             "11/18",
-            "11/19",
-            "11/20"
+            "11/19"
           ],
           "historyValues": [
+            186.64,
             178.67,
             168.89,
             173.73,
@@ -5708,9 +5906,23 @@ window.BRIEFING_PORTAL_DATA = {
             156.14,
             155.46,
             150.96,
-            145.98,
-            125.53
-          ]
+            145.98
+          ],
+          "marketCap": 3025000000000,
+          "marketCapCurrency": "USD",
+          "netIncome4Q": 226256000000,
+          "netIncome1Q": 65287000000,
+          "netIncomeCurrency": "USD",
+          "latestQuarterDate": "2026-10-31",
+          "quartersUsed": [
+            "2026-01-31",
+            "2026-04-30",
+            "2026-07-31",
+            "2026-10-31"
+          ],
+          "per4Q": 13.37,
+          "per1Qx4": 11.58,
+          "valuationNote": "최근 4Q(Q4'26~Q3'27)"
         },
         {
           "symbol": "TSM",
@@ -5723,6 +5935,7 @@ window.BRIEFING_PORTAL_DATA = {
           "dayChangePct": -9.48,
           "monthChangePct": -26.21,
           "historyLabels": [
+            "11/06",
             "11/09",
             "11/10",
             "11/11",
@@ -5731,10 +5944,10 @@ window.BRIEFING_PORTAL_DATA = {
             "11/16",
             "11/17",
             "11/18",
-            "11/19",
-            "11/20"
+            "11/19"
           ],
           "historyValues": [
+            375.44,
             388.62,
             396.48,
             413.35,
@@ -5743,9 +5956,160 @@ window.BRIEFING_PORTAL_DATA = {
             373.45,
             359.69,
             362.62,
-            352.09,
-            318.71
-          ]
+            352.09
+          ],
+          "marketCap": 1653000000000,
+          "marketCapCurrency": "USD",
+          "netIncome4Q": 76695335447,
+          "netIncome1Q": 23154036351,
+          "netIncomeCurrency": "TWD",
+          "netIncome4QRawTwd": 2527571475000,
+          "netIncome1QRawTwd": 763064422000,
+          "usdTwdRate": 32.956,
+          "latestQuarterDate": "2026-09-30",
+          "quartersUsed": [
+            "2025-12-31",
+            "2026-03-31",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "per4Q": 21.55,
+          "per1Qx4": 17.85,
+          "valuationNote": "TWD➔USD 환산"
+        },
+        {
+          "symbol": "GOOGL",
+          "id": "google",
+          "name": "구글 (Alphabet 통합)",
+          "category": "tech",
+          "unit": "$",
+          "color": "#4285f4",
+          "price": 265.29,
+          "dayChangePct": -2.7,
+          "monthChangePct": -20.75,
+          "historyLabels": [
+            "11/06",
+            "11/09",
+            "11/10",
+            "11/11",
+            "11/12",
+            "11/13",
+            "11/16",
+            "11/17",
+            "11/18",
+            "11/19"
+          ],
+          "historyValues": [
+            284.78,
+            288.15,
+            287.38,
+            293.45,
+            298.7,
+            295.77,
+            283.72,
+            280.2,
+            282.44,
+            272.66
+          ],
+          "marketCap": 3194000000000,
+          "marketCapCurrency": "USD",
+          "netIncome4Q": 235694000000,
+          "netIncome1Q": 26468000000,
+          "netIncomeCurrency": "USD",
+          "latestQuarterDate": "2026-09-30",
+          "quartersUsed": [
+            "2025-12-31",
+            "2026-03-31",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "per4Q": 13.55,
+          "per1Qx4": 30.17,
+          "valuationNote": "알파벳 A+C 합산"
+        },
+        {
+          "symbol": "AMD",
+          "id": "amd",
+          "name": "AMD (AMD)",
+          "category": "tech",
+          "unit": "$",
+          "color": "#ef4444",
+          "price": 424.39,
+          "dayChangePct": -13.25,
+          "monthChangePct": -23.22,
+          "historyLabels": [
+            "11/06",
+            "11/09",
+            "11/10",
+            "11/11",
+            "11/12",
+            "11/13",
+            "11/16",
+            "11/17",
+            "11/18",
+            "11/19"
+          ],
+          "historyValues": [
+            449.04,
+            508.58,
+            515.21,
+            552.9,
+            585.3,
+            534.06,
+            504.28,
+            503.41,
+            530.14,
+            489.19
+          ],
+          "marketCap": 696037000000,
+          "marketCapCurrency": "USD",
+          "netIncome4Q": 7619000000,
+          "netIncome1Q": 2428000000,
+          "netIncomeCurrency": "USD",
+          "latestQuarterDate": "2026-09-30",
+          "quartersUsed": [
+            "2025-12-31",
+            "2026-03-31",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "per4Q": 91.36,
+          "per1Qx4": 71.67,
+          "valuationNote": "GAAP 분기순이익"
+        },
+        {
+          "symbol": "ANT",
+          "id": "anthropic",
+          "name": "앤트로픽 (ANT)",
+          "category": "tech",
+          "unit": "$",
+          "color": "#d97706",
+          "price": 88.91,
+          "dayChangePct": -8.5,
+          "monthChangePct": -8.5,
+          "historyLabels": [
+            "11/19",
+            "11/20"
+          ],
+          "historyValues": [
+            97.17,
+            88.91
+          ],
+          "marketCap": 1164000000000,
+          "marketCapCurrency": "USD",
+          "netIncome4Q": -120849000000,
+          "netIncome1Q": -23291000000,
+          "netIncomeCurrency": "USD",
+          "latestQuarterDate": "2026-09-30",
+          "quartersUsed": [
+            "2025-12-31",
+            "2026-03-31",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "per4Q": -9.63,
+          "per1Qx4": -12.49,
+          "valuationNote": "S-1·분기 GAAP(비현금 평가손 포함)"
         },
         {
           "symbol": "005930.KS",
@@ -5754,8 +6118,8 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "tech",
           "unit": "원",
           "color": "#3b82f6",
-          "price": 183100.0,
-          "dayChangePct": -7.01,
+          "price": 180900,
+          "dayChangePct": -8.13,
           "monthChangePct": -13.43,
           "historyLabels": [
             "11/09",
@@ -5780,7 +6144,22 @@ window.BRIEFING_PORTAL_DATA = {
             194700.0,
             196900.0,
             183100.0
-          ]
+          ],
+          "marketCap": 1171849500000000,
+          "marketCapCurrency": "KRW",
+          "netIncome4Q": 212870846000000,
+          "netIncome1Q": 75208134000000,
+          "netIncomeCurrency": "KRW",
+          "latestQuarterDate": "2026-09-30",
+          "quartersUsed": [
+            "2025-12-31",
+            "2026-03-31",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "per4Q": 5.5,
+          "per1Qx4": 3.9,
+          "valuationNote": "보통주+우선주 합산"
         },
         {
           "symbol": "000660.KS",
@@ -5789,8 +6168,8 @@ window.BRIEFING_PORTAL_DATA = {
           "category": "tech",
           "unit": "원",
           "color": "#ec4899",
-          "price": 1113000.0,
-          "dayChangePct": -5.92,
+          "price": 1100000,
+          "dayChangePct": -7.02,
           "monthChangePct": -8.99,
           "historyLabels": [
             "11/09",
@@ -5815,7 +6194,22 @@ window.BRIEFING_PORTAL_DATA = {
             1144000.0,
             1183000.0,
             1113000.0
-          ]
+          ],
+          "marketCap": 777479000000000,
+          "marketCapCurrency": "KRW",
+          "netIncome4Q": 188904587000000,
+          "netIncome1Q": 39534392000000,
+          "netIncomeCurrency": "KRW",
+          "latestQuarterDate": "2026-09-30",
+          "quartersUsed": [
+            "2025-12-31",
+            "2026-03-31",
+            "2026-06-30",
+            "2026-09-30"
+          ],
+          "per4Q": 4.12,
+          "per1Qx4": 4.92,
+          "valuationNote": "연결 분기순이익"
         },
         {
           "symbol": "CL=F",
@@ -6039,27 +6433,6 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "gold",
           "source": "Google 뉴스 (금 시세/전망)",
-          "title": "살아난 국제 금값…국내 금시세는? - 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBINmc2TVlRZF9hQjhmTzExX2FYNWNIOWZFdkRfaXEyX3ltTzFXWWs4TE1yekNmbEY0Yk56c3BIWG5qWUx6azdLX3NyMW90V25TZG82Sg?oc=5",
-          "pubDate": "Fri, 03 Jul 2026 07:00:00"
-        },
-        {
-          "category": "gold",
-          "source": "Google 뉴스 (금 시세/전망)",
-          "title": "“저점 매수 가자”…중국, 금값 폭락한 6월도 금 보유량 늘려 - edaily.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0p1TEVzWE50bzFZQ1BwY1VCUlVQRXYwS3lkVTRrTHJHNU13UlNMMUNJVFBxVDdNU1dQVFpMWEJETDRIeW5seXdQWEVLNnAybWQ0eTlKNVlzeTJWWnV1NkZnWWhoNmxfR0c5S1V0NTNIMTdRWURCREVFMXdVa2t6aA?oc=5",
-          "pubDate": "Wed, 08 Jul 2026 07:00:00"
-        },
-        {
-          "category": "gold",
-          "source": "Google 뉴스 (금 시세/전망)",
-          "title": "금 1㎏이면 일본 소도시 집 한 채 산다? 골드만삭스 ‘금값 5천달러’ 전망 - 한겨레",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55LVlYUEkwZXc0R1lIWmhZX3hVaG1hR2xiZURVcWpDc3plVHVxN1NlNzZHQ3YzZlloSndNeDJFXy1lY25pWUJSQW9NOXBVZGlxQnQ5ZEd6WEFMeGREZDA3Q0JpeTlyeGtoVF85Yks2SHFQQQ?oc=5",
-          "pubDate": "Sat, 16 May 2026 07:00:00"
-        },
-        {
-          "category": "gold",
-          "source": "Google 뉴스 (금 시세/전망)",
           "title": "\"중앙은행 금 매입 지속…금값 추가 상승 여력 여전\" - KB Think",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jX0doWkZvamlTdUZuNWlVVlFPb01hSjIweUlJWTVPYXFEOEt5RDVsaU5RTUZKd24tbWFkakFHMEtzd1lQSFU2MHc1VmhWdHBWcEpuUGMyYlNSbzQtZTNFUVhleFo5VEd6MzFsV1B3LWdldw?oc=5",
           "pubDate": "Fri, 07 Aug 2026 07:00:00"
@@ -6067,9 +6440,44 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "gold",
           "source": "Google 뉴스 (금 시세/전망)",
-          "title": "금 공급량: 장기 가격 변동에 작용하는 보이지 않는 손 - CME Group",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSWplOGpnQXRfb2xsNVBYTDVCRUl2NXNOTk4yMG4xUW9PV081TGsyLVo1SlB5ZmFzREJKU1hqbGJ3OG5VdjBSNTVnUkFqUVBwcXlNblRONU9GcWpQQ3kwcFR4Y19PUk90YjF6R0daYUdGRUJNOC1fUG5YaEU4d2o0RnlJbHBKMExqNmlLZ1I3RkREdFdiVXo4YWhHc3pNY1dYYTlidE5ncndzaFFiaHY0bnJ5eWNxczhZYkxyQW9nUHgwcnh4NUVMcWZn?oc=5",
-          "pubDate": "Thu, 13 Jul 2023 07:00:00"
+          "title": "[금 시세] 금값 폭락에도 멈추지 않는다…\"지금이 저가 매수 기회?\" 파격적인 금 매입 행진 - CBC뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5odzBYZFRMeXU4ZG9oYmVERExveE9tSXJnRUtOOUhtQnByMzJFT0g0VG4wRExlOWk1TF9UMllkNmRqa2dqSFdLc3hPYThYQlRXU1NoaEpoaHU1bl9zQmtrMXM1RjRLZFRh?oc=5",
+          "pubDate": "Sun, 08 Nov 2026 08:00:00"
+        },
+        {
+          "category": "gold",
+          "source": "Google 뉴스 (금 시세/전망)",
+          "title": "NYT \"신흥국 등 각국 중앙은행 '골드러시'...중국 최대 규모 금 매입\" - YTN",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IYmpzUGhxalRGU0pxTnd6TXU3cENJeDU4Vmp2VU1JN1BmRnBRYW5MTERKN1ZEYXZUYTQ2OEV5RVk3YVlJcS0zYlpvNWNScldwMXJYak4wN3d1aDE0TWc?oc=5",
+          "pubDate": "Sat, 02 May 2026 07:00:00"
+        },
+        {
+          "category": "gold",
+          "source": "Google 뉴스 (금 시세/전망)",
+          "title": "[올댓차이나] 인민은행, 10월 금 83만 온스 매수…24개월째 보유고 늘려 - 뉴시스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSMzN4UUFTYm5vNHNwNVYyS2hoN3dvVm1fOWhiNEtCbkFtU29iWjhqcFphU3UxLWk2YlJWbTRlMDRSeGF4YV9KejlsTjJNTlhIVXZrQ3YwOUxINDFZazdwb9IBeEFVX3lxTE1hV1AtUzkwZWdqTDNQRGl0eE1rMGxjeTZ3S0E1eVl1V3Z6UDN5N0Y0SXhEdnBIYnNYbzlEMkhUQ1llWG91ZE80aUhtZzJUMFBEMGcwQVQtR0VQNE1PTlM3ZU12VlIwcWxpa0xiZW9oOEFmQ0FfdkZyWQ?oc=5",
+          "pubDate": "Mon, 09 Nov 2026 08:00:00"
+        },
+        {
+          "category": "gold",
+          "source": "Google 뉴스 (금 시세/전망)",
+          "title": "살아난 국제 금값…국내 금시세는? - 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBINmc2TVlRZF9hQjhmTzExX2FYNWNIOWZFdkRfaXEyX3ltTzFXWWs4TE1yekNmbEY0Yk56c3BIWG5qWUx6azdLX3NyMW90V25TZG82Sg?oc=5",
+          "pubDate": "Fri, 03 Jul 2026 07:00:00"
+        },
+        {
+          "category": "crypto",
+          "source": "Google 뉴스 (비트코인 ETF)",
+          "title": "비트코인 6만 달러선 붕괴…기관 자금 이탈에 가상자산 시장 급락 - 산경투데이",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1haXJILXFBUFd1aUVzMlo5aU9JcENmMlUxUmh4amN2b0JTd0xyYzFaRF9oM1RvT2NSaDNBQnQ4NktadEJsbGV0aHNxRFJ4R1dPLVQwQ3N6MTlja25VMXhjUU9IRWV6dHptTWIwdFB5NFLSAXRBVV95cUxPa3c2VFZaa1doemEyLW9hUFlWYmhLRWNxYVd6WWpJdGN0Umo1eDJMckJVRmdfbm1Jd040Rm9fNUJxT0JLbnloaXlBeVRxZzRMdjhVRk1oRHp4VmpyX00tanpQUFFhcEZjRURrcmJvc25zUFU2Xw?oc=5",
+          "pubDate": "Sat, 21 Nov 2026 00:56:45"
+        },
+        {
+          "category": "crypto",
+          "source": "Google 뉴스 (비트코인 ETF)",
+          "title": "비트코인, 2년 만에 최저치…스트래티지·코인베이스 주가 20~30% 급락 - 블루밍비트",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1TRlIzQlRtS045eW9RRGpBZ3VUcGJvb0ZQRHAxSDBlbjNPUjg0Q0lQd0RvdFhORDNFU3JVZy15M19iekE5amN2d0pINDlXTUxs?oc=5",
+          "pubDate": "Fri, 20 Nov 2026 23:05:54"
         },
         {
           "category": "crypto",
@@ -6088,13 +6496,6 @@ window.BRIEFING_PORTAL_DATA = {
         {
           "category": "crypto",
           "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "블랙록 비트코인 현물 ETF, 출시 이후 최대 일일 순유출 기록 - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VOHk5NDZvdF9mZGVhRXRNM0ZCd09mWmctOTY0Nm9jcXlmM1JRZ0xIejYwNl9WM0V6dTVhSllWakY0cUpqSFZMREVhb1J1bFY5?oc=5",
-          "pubDate": "Fri, 20 Nov 2026 07:00:46"
-        },
-        {
-          "category": "crypto",
-          "source": "Google 뉴스 (비트코인 ETF)",
           "title": "비트코인 6만 달러 위협…현물 ETF서 29억 달러 이탈, 블랙록에 83% 집중 - 비온미디어",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xeHgwZVhtQUVPYUlieExpUlFWUjlfZFQwMWNjTXA4VFBhMG5LUTBYXzlKRU5RYkRUUW9ZWHkzN0hwaWdUVWlEZ01KSlJKYlJjbVV5N0ZTWUZVY0xnWlBNN3Zvei1xeEXSAWtBVV95cUxPU05BV0JCQnJhRlNfM1JYWlpUWWRPb1lXUzNTYk1HdUFFMW1aYnRpYTRwT1dBQlNpcWtQZkx6OUxtSWFkOUxBNjFiTXU2TXNBVUxuVDdNMHlwazBWNHJaUjdZOGF5VkU1MGoxTQ?oc=5",
           "pubDate": "Fri, 20 Nov 2026 05:04:37"
@@ -6105,13 +6506,6 @@ window.BRIEFING_PORTAL_DATA = {
           "title": "[위기의 코인시장①] 1억원 내준 비트코인, 반등 실종…일주일째 9000만원 아래 - 뉴시안",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56RHUyazdxX3BOUXZWc29lbzR0by1mWkcwdFNmT3hBbmQwOTk4WDJNTG9SY3BaY1dQNWZSQmZZOXBIME15LVpRRk1KUU9xMXZFQ1hLeURaU0U1VjBzTXdfcWRkS0Y5QjZaWkQ5YQ?oc=5",
           "pubDate": "Wed, 18 Nov 2026 00:57:19"
-        },
-        {
-          "category": "crypto",
-          "source": "Google 뉴스 (비트코인 ETF)",
-          "title": "기관, 비트코인 ETF 다시 담았다…보유 규모 사상 최대 - 블루밍비트",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmdUZXYmhvN2RTSTFiYkFZcEdmbUYyOTdiVGdMQjRKeldlTXo1NlZGT1I1djN2MTBkQnlFOWVZeEMzQl9QZHpFWEJnRmU0cTh1?oc=5",
-          "pubDate": "Fri, 20 Nov 2026 04:16:20"
         }
       ],
       "agendas": [
@@ -8796,13 +9190,13 @@ window.BRIEFING_PORTAL_DATA = {
               8653,
               8386,
               8262,
-              7940
+              7933
             ],
             "unit": "만원",
             "color": "#f97316",
             "benchmark_val": 9500.0,
             "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-            "badge_text": "LIVE 7940만원",
+            "badge_text": "LIVE 7933만원",
             "annotations": [
               {
                 "index": 9,
@@ -8813,7 +9207,7 @@ window.BRIEFING_PORTAL_DATA = {
           "keyMetrics": [
             {
               "label": "비트코인 시세 (만원)",
-              "value": "7940만원",
+              "value": "7933만원",
               "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
             },
             {

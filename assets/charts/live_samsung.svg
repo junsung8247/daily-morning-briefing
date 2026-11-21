@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">삼성전자 최근 시세 추이</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">현재가: 183,100.00원 (일간 -7.01% / 1개월 -13.43%)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">현재가: 180,900.00원 (일간 -8.13% / 1개월 -13.43%)</text>
     
         <rect x="660" y="22" width="190" height="34" rx="17" fill="#f0f9ff" stroke="#3b82f6" stroke-width="1.8"/>
-        <text x="755" y="44" fill="#3b82f6" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">LIVE: 183,100.00원</text>
+        <text x="755" y="44" fill="#3b82f6" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">LIVE: 180,900.00원</text>
         
     <line x1="105" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">212,482원</text><line x1="105" y1="181.2" x2="850" y2="181.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="186.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">204,265원</text><line x1="105" y1="257.5" x2="850" y2="257.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="262.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">196,048원</text><line x1="105" y1="333.8" x2="850" y2="333.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="338.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">187,831원</text><line x1="105" y1="410.0" x2="850" y2="410.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="91" y="415.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">179,614원</text>
     <polygon points="105.0,410.0 105.0,314.6 187.8,231.0 270.6,165.1 353.3,146.6 436.1,165.1 518.9,250.5 601.7,310.8 684.4,270.0 767.2,249.6 850.0,377.7 850.0,410.0" fill="#3b82f6" fill-opacity="0.12"/>

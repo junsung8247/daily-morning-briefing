@@ -310,13 +310,83 @@ a {
 
 .right-quote-row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     background: var(--bg-subtle);
     border: 1px solid var(--border-light);
     border-radius: 9px;
     padding: 8px 10px;
     gap: 6px;
+}
+
+.right-quote-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+}
+
+.right-quote-per-wrap {
+    border-top: 1px dashed var(--border-light);
+    padding-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.right-quote-mc-line {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-muted);
+    line-height: 1.3;
+    word-break: keep-all;
+}
+
+.right-quote-mc-line strong {
+    color: var(--text-title);
+    font-weight: 900;
+}
+
+.right-quote-per-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.per-pill-box {
+    background: #ffffff;
+    border: 1px solid var(--border-light);
+    border-radius: 7px;
+    padding: 5px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.per-pill-label {
+    font-size: 10px;
+    font-weight: 800;
+    color: #475569;
+    line-height: 1.25;
+}
+
+.per-pill-val {
+    font-size: 13px;
+    font-weight: 900;
+    color: var(--accent-blue);
+    line-height: 1.3;
+}
+
+.per-pill-val.loss {
+    color: var(--accent-red);
+    font-size: 12px;
+}
+
+.per-pill-sub {
+    font-size: 9.5px;
+    font-weight: 700;
+    color: var(--text-muted);
+    line-height: 1.2;
 }
 
 .right-quote-left {

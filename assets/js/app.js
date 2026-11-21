@@ -43,10 +43,13 @@
         { id: "kospi", name: "코스피 (KOSPI)", unit: "", price: 5290.53, dayChangePct: -0.98, src: "CNBC·KRX", group: "indices" },
         { id: "kosdaq", name: "코스닥 (KOSDAQ)", unit: "", price: 699.66, dayChangePct: 0.45, src: "CNBC·KRX", group: "indices" },
 
-        { id: "nvda", name: "엔비디아 (NVDA)", unit: "$", price: 162.85, dayChangePct: -2.01, src: "CNBC", group: "tech" },
-        { id: "tsm", name: "TSMC (TSM)", unit: "$", price: 398.73, dayChangePct: -1.67, src: "CNBC", group: "tech" },
-        { id: "samsung", name: "삼성전자", unit: "원", price: 206000, dayChangePct: -0.96, src: "KRX·YF", group: "tech" },
-        { id: "skhynix", name: "SK하이닉스", unit: "원", price: 1216000, dayChangePct: -3.03, src: "KRX·YF", group: "tech" },
+        { id: "nvda", name: "엔비디아 (NVDA)", unit: "$", price: 125.53, dayChangePct: -14.01, src: "CNBC", group: "tech", marketCap: 3025000000000, marketCapCurrency: "USD", netIncome4Q: 226256000000, netIncome1Q: 65287000000, per4Q: 13.37, per1Qx4: 11.58, valuationNote: "최근 4Q(Q4'26~Q3'27)" },
+        { id: "tsm", name: "TSMC (TSM)", unit: "$", price: 318.71, dayChangePct: -9.48, src: "CNBC", group: "tech", marketCap: 1653000000000, marketCapCurrency: "USD", netIncome4Q: 76695340000, netIncome1Q: 23154036000, netIncomeCurrency: "TWD", netIncome4QRawTwd: 2527571475000, netIncome1QRawTwd: 763064422000, usdTwdRate: 32.956, per4Q: 21.55, per1Qx4: 17.85, valuationNote: "TWD➔USD 환산" },
+        { id: "google", name: "구글 (Alphabet 통합)", unit: "$", price: 265.29, dayChangePct: -2.70, src: "CNBC", group: "tech", marketCap: 3194000000000, marketCapCurrency: "USD", netIncome4Q: 235694000000, netIncome1Q: 26468000000, per4Q: 13.55, per1Qx4: 30.17, valuationNote: "알파벳 A+C 합산" },
+        { id: "amd", name: "AMD (AMD)", unit: "$", price: 424.39, dayChangePct: -13.25, src: "CNBC", group: "tech", marketCap: 696037000000, marketCapCurrency: "USD", netIncome4Q: 7619000000, netIncome1Q: 2428000000, per4Q: 91.36, per1Qx4: 71.67, valuationNote: "GAAP 분기순이익" },
+        { id: "anthropic", name: "앤트로픽 (ANT)", unit: "$", price: 88.91, dayChangePct: -8.50, src: "CNBC", group: "tech", marketCap: 1164000000000, marketCapCurrency: "USD", netIncome4Q: -120849000000, netIncome1Q: -23291000000, per4Q: -9.63, per1Qx4: -12.49, valuationNote: "S-1·분기 GAAP(비현금 평가손 포함)" },
+        { id: "samsung", name: "삼성전자", unit: "원", price: 180900, dayChangePct: -8.13, src: "KRX·Naver", group: "tech", marketCap: 1171849500000000, marketCapCurrency: "KRW", netIncome4Q: 212870846000000, netIncome1Q: 75208134000000, per4Q: 5.50, per1Qx4: 3.90, valuationNote: "보통주+우선주 합산" },
+        { id: "skhynix", name: "SK하이닉스", unit: "원", price: 1100000, dayChangePct: -7.02, src: "KRX·Naver", group: "tech", marketCap: 777479000000000, marketCapCurrency: "KRW", netIncome4Q: 188904587000000, netIncome1Q: 39534392000000, per4Q: 4.12, per1Qx4: 4.92, valuationNote: "연결 분기순이익" },
 
         { id: "btc", name: "비트코인 (만원)", unit: "만원", price: 9810, dayChangePct: 5.87, src: "Upbit", group: "assets" },
         { id: "gold", name: "금 선물 ($/oz)", unit: "$", price: 3887.60, dayChangePct: 0.06, src: "CNBC·COMEX", group: "assets" },
@@ -142,6 +145,47 @@
         return found || recent7dEditions[0] || currentEdition;
     }
 
+    function parseMktCapStr(str) {
+        if (!str) return NaN;
+        const s = String(str).trim().toUpperCase().replace(/[,$\s]/g, "");
+        let mult = 1;
+        let numPart = s;
+        if (s.endsWith("T")) { mult = 1e12; numPart = s.slice(0, -1); }
+        else if (s.endsWith("B")) { mult = 1e9; numPart = s.slice(0, -1); }
+        else if (s.endsWith("M")) { mult = 1e6; numPart = s.slice(0, -1); }
+        const val = parseFloat(numPart);
+        return isNaN(val) ? NaN : val * mult;
+    }
+
+    function formatMarketCap(mc, currency) {
+        if (!mc || isNaN(mc)) return "-";
+        if (currency === "KRW") {
+            return (mc / 1e12).toFixed(1) + "조";
+        }
+        if (mc >= 1e12) return "$" + (mc / 1e12).toFixed(2) + "T";
+        return "$" + (mc / 1e9).toFixed(1) + "B";
+    }
+
+    function formatNetIncomeShort(ni, currency) {
+        if (ni === undefined || ni === null || isNaN(ni)) return "-";
+        const sign = ni < 0 ? "-" : "";
+        const abs = Math.abs(ni);
+        if (currency === "KRW") {
+            return sign + (abs / 1e12).toFixed(1) + "조";
+        }
+        return sign + "$" + (abs / 1e9).toFixed(1) + "B";
+    }
+
+    function formatPerBadge(perVal) {
+        if (perVal === undefined || perVal === null || isNaN(perVal) || !isFinite(perVal)) {
+            return { text: "-", isLoss: false };
+        }
+        if (perVal < 0) {
+            return { text: `적자 (${perVal.toFixed(1)}배)`, isLoss: true };
+        }
+        return { text: `${perVal.toFixed(1)}배`, isLoss: false };
+    }
+
     function getMergedMarketQuotes() {
         const ed = getActiveEditionObj();
         const baseQuotes = ed.marketQuotes || currentEdition.marketQuotes || [];
@@ -150,15 +194,38 @@
             if (q && q.id) baseMap[q.id] = q;
         });
 
+        const liveUsdTwd = (state.liveQuotesMap._twd && state.liveQuotesMap._twd.price) || null;
+
         return DEFAULT_MARKET_ITEMS.map(defItem => {
             const fromEd = baseMap[defItem.id] || {};
             const fromLive = state.liveQuotesMap[defItem.id] || {};
-            return Object.assign({}, defItem, fromEd, fromLive, {
+            const merged = Object.assign({}, defItem, fromEd, fromLive, {
                 name: defItem.name,
                 unit: defItem.unit,
                 src: fromLive.src || defItem.src,
                 group: defItem.group
             });
+
+            // 반도체·AI 빅테크 종목은 실시간 시총 & 최근 4분기/최근 1분기 순이익을 바탕으로 PER 2종을 즉시 재계산
+            if (merged.group === "tech" && merged.marketCap) {
+                let ni4q = Number(merged.netIncome4Q);
+                let ni1q = Number(merged.netIncome1Q);
+                if (merged.netIncomeCurrency === "TWD" && merged.netIncome4QRawTwd && merged.netIncome1QRawTwd) {
+                    const fx = liveUsdTwd || Number(merged.usdTwdRate) || 32.956;
+                    ni4q = Number(merged.netIncome4QRawTwd) / fx;
+                    ni1q = Number(merged.netIncome1QRawTwd) / fx;
+                    merged.netIncome4Q = ni4q;
+                    merged.netIncome1Q = ni1q;
+                }
+                const liveMc = Number(merged.marketCap);
+                if (liveMc > 0 && !isNaN(ni4q) && ni4q !== 0) {
+                    merged.per4Q = liveMc / ni4q;
+                }
+                if (liveMc > 0 && !isNaN(ni1q) && ni1q !== 0) {
+                    merged.per1Qx4 = liveMc / (ni1q * 4);
+                }
+            }
+            return merged;
         });
     }
 
@@ -222,10 +289,11 @@
         let updatedCount = 0;
 
         try {
-            // 1. CNBC 글로벌 실시간 시세 웹서비스 API (금리, 한·미 지수, 환율, 반도체, 원자재)
+            // 1. CNBC 글로벌 실시간 시세 웹서비스 API (금리, 한·미 지수, 환율, 반도체·AI 5대 미국종목 시총 포함, 원자재)
             const cnbcSymbols = [
                 "US10Y", "US2Y", ".SPX", ".IXIC", ".DJI", ".SOX",
-                ".KS11", ".KQ11", "@GC.1", "@CL.1", "@HG.1", ".DXY", "KRW=", "NVDA", "TSM"
+                ".KS11", ".KQ11", "@GC.1", "@CL.1", "@HG.1", ".DXY", "KRW=", "TWD=",
+                "NVDA", "TSM", "GOOGL", "AMD", "ANT"
             ].join("|");
             const cnbcUrl = `https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=${encodeURIComponent(cnbcSymbols)}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json`;
 
@@ -248,19 +316,35 @@
                         ".DXY": "dxy",
                         "KRW=": "usdkrw",
                         "NVDA": "nvda",
-                        "TSM": "tsm"
+                        "TSM": "tsm",
+                        "GOOGL": "google",
+                        "AMD": "amd",
+                        "ANT": "anthropic"
                     };
                     list.forEach(item => {
+                        if (item.symbol === "TWD=") {
+                            const twdVal = parseNum(item.last);
+                            if (!isNaN(twdVal) && twdVal > 0) {
+                                state.liveQuotesMap["_twd"] = { price: twdVal };
+                            }
+                            return;
+                        }
                         const targetId = symToId[item.symbol];
                         if (targetId) {
                             const priceVal = parseNum(item.last);
                             const chgVal = parseNum(item.change_pct);
+                            const liveMc = parseMktCapStr(item.mktcapView);
                             if (!isNaN(priceVal) && priceVal > 0) {
-                                state.liveQuotesMap[targetId] = {
+                                const liveObj = {
                                     price: priceVal,
                                     dayChangePct: !isNaN(chgVal) ? chgVal : 0.0,
                                     src: "CNBC LIVE"
                                 };
+                                if (!isNaN(liveMc) && liveMc > 0) {
+                                    liveObj.marketCap = liveMc;
+                                    liveObj.marketCapCurrency = "USD";
+                                }
+                                state.liveQuotesMap[targetId] = liveObj;
                                 updatedCount++;
                             }
                         }
@@ -333,16 +417,50 @@
                 const chg = Number(q.dayChangePct) || 0;
                 const isUp = chg >= 0;
                 const sign = isUp ? "+" : "";
+
+                let perBlockHtml = "";
+                if (grp.key === "tech" && q.marketCap) {
+                    const mcStr = formatMarketCap(q.marketCap, q.marketCapCurrency);
+                    const ni4qStr = formatNetIncomeShort(q.netIncome4Q, q.marketCapCurrency);
+                    const ni1qStr = formatNetIncomeShort(q.netIncome1Q, q.marketCapCurrency);
+                    const p4 = formatPerBadge(q.per4Q);
+                    const p1 = formatPerBadge(q.per1Qx4);
+                    const noteTag = q.valuationNote ? ` · ${q.valuationNote}` : "";
+
+                    perBlockHtml = `
+                        <div class="right-quote-per-wrap">
+                            <div class="right-quote-mc-line">
+                                <span>시총 <strong>${mcStr}</strong>${noteTag}</span>
+                            </div>
+                            <div class="right-quote-per-grid">
+                                <div class="per-pill-box">
+                                    <span class="per-pill-label">최근 4분기 PER</span>
+                                    <span class="per-pill-val ${p4.isLoss ? "loss" : ""}">${p4.text}</span>
+                                    <span class="per-pill-sub">4Q순익 ${ni4qStr}</span>
+                                </div>
+                                <div class="per-pill-box">
+                                    <span class="per-pill-label">최근 1분기 X4 PER</span>
+                                    <span class="per-pill-val ${p1.isLoss ? "loss" : ""}">${p1.text}</span>
+                                    <span class="per-pill-sub">1Q순익 ${ni1qStr}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
                 return `
-                    <div class="right-quote-row">
-                        <div class="right-quote-left">
-                            <div class="right-quote-name">${q.name}</div>
-                            <div class="right-quote-src">${q.src || "LIVE"}</div>
+                    <div class="right-quote-row ${perBlockHtml ? "has-per" : ""}">
+                        <div class="right-quote-top">
+                            <div class="right-quote-left">
+                                <div class="right-quote-name">${q.name}</div>
+                                <div class="right-quote-src">${q.src || "LIVE"}</div>
+                            </div>
+                            <div class="right-quote-right">
+                                <div class="right-quote-val">${formatPrice(q)}</div>
+                                <div class="right-quote-chg ${isUp ? "up" : "down"}">${sign}${chg.toFixed(2)}%</div>
+                            </div>
                         </div>
-                        <div class="right-quote-right">
-                            <div class="right-quote-val">${formatPrice(q)}</div>
-                            <div class="right-quote-chg ${isUp ? "up" : "down"}">${sign}${chg.toFixed(2)}%</div>
-                        </div>
+                        ${perBlockHtml}
                     </div>
                 `;
             }).join("");

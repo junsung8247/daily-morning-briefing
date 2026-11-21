@@ -45,6 +45,9 @@ MARKET_SYMBOLS = [
     {"symbol": "BTC-KRW", "id": "btc", "name": "비트코인 (만원)", "category": "crypto", "unit": "만원", "color": "#f97316", "scale": 0.0001},
     {"symbol": "NVDA", "id": "nvda", "name": "엔비디아 (NVDA)", "category": "tech", "unit": "$", "color": "#22c55e"},
     {"symbol": "TSM", "id": "tsm", "name": "TSMC (TSM)", "category": "tech", "unit": "$", "color": "#06b6d4"},
+    {"symbol": "GOOGL", "id": "google", "name": "구글 (Alphabet 통합)", "category": "tech", "unit": "$", "color": "#4285f4"},
+    {"symbol": "AMD", "id": "amd", "name": "AMD (AMD)", "category": "tech", "unit": "$", "color": "#ef4444"},
+    {"symbol": "ANT", "id": "anthropic", "name": "앤트로픽 (ANT)", "category": "tech", "unit": "$", "color": "#d97706"},
     {"symbol": "005930.KS", "id": "samsung", "name": "삼성전자", "category": "tech", "unit": "원", "color": "#3b82f6"},
     {"symbol": "000660.KS", "id": "skhynix", "name": "SK하이닉스", "category": "tech", "unit": "원", "color": "#ec4899"},
     {"symbol": "CL=F", "id": "wti", "name": "WTI 원유 선물", "category": "geopolitics", "unit": "$", "color": "#eab308"},
@@ -146,6 +149,224 @@ def fetch_market_data():
         except Exception as e:
             print(f"[WARN] Failed to fetch {sym}: {e}")
     return results
+
+
+def _parse_cnbc_mktcap(text):
+    """'3.025T', '696.037B', '520.1M' 문자열을 달러 숫자(원화/달러 원본)로 변환합니다."""
+    if not text:
+        return None
+    s = str(text).strip().upper().replace(",", "").replace("$", "")
+    mult = 1.0
+    if s.endswith("T"):
+        mult = 1e12
+        s = s[:-1]
+    elif s.endswith("B"):
+        mult = 1e9
+        s = s[:-1]
+    elif s.endswith("M"):
+        mult = 1e6
+        s = s[:-1]
+    try:
+        return float(s) * mult
+    except Exception:
+        return None
+
+
+def _parse_naver_krw_mktcap(text):
+    """'1,057조 5,918억' 형식의 네이버 시가총액 문자열을 원(KRW) 숫자로 변환합니다."""
+    if not text:
+        return None
+    import re
+    s = str(text).replace(",", "").strip()
+    jo_m = re.search(r"(\d+)\s*조", s)
+    eok_m = re.search(r"(\d+)\s*억", s)
+    total = 0.0
+    if jo_m:
+        total += float(jo_m.group(1)) * 1e12
+    if eok_m:
+        total += float(eok_m.group(1)) * 1e8
+    return total if total > 0 else None
+
+
+def fetch_stock_valuation_fundamentals(market_data):
+    """
+    반도체·AI 빅테크 7대 종목(NVDA, TSM, GOOGL[A+C 통합], AMD, ANT, 삼성전자[보통+우선 통합], SK하이닉스)의
+    최신 시가총액 + 최근 4개 분기 순이익 합계 + 최근 1개 분기 순이익을 매일 실시간 API에서 수집하여
+    ① '최근 4분기 PER' (= 현재 시총 ÷ 최근 4분기 순이익 합계)
+    ② '최근 1분기 X4 PER' (= 현재 시총 ÷ (최근 1분기 순이익 × 4))
+    를 정확히 산출합니다. (전년도 연간 순이익 기반 PER 절대 사용 안 함)
+    """
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    now_ts = int(datetime.datetime.now().timestamp())
+    start_ts = now_ts - 620 * 86400
+
+    # 1. CNBC 실시간 시총 & USD/TWD 환율 수집 (NVDA, TSM, GOOGL[A+B+C 통합], AMD, ANT, TWD=)
+    cnbc_info = {}
+    usd_twd = 32.95
+    try:
+        cnbc_syms = "NVDA|TSM|GOOGL|AMD|ANT|TWD="
+        url = f"https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols={urllib.parse.quote(cnbc_syms)}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            raw = json.loads(resp.read().decode("utf-8"))
+            for q in raw.get("FormattedQuoteResult", {}).get("FormattedQuote", []):
+                sym = q.get("symbol")
+                if sym == "TWD=":
+                    try:
+                        usd_twd = float(str(q.get("last")).replace(",", ""))
+                    except Exception:
+                        pass
+                else:
+                    mc = _parse_cnbc_mktcap(q.get("mktcapView"))
+                    try:
+                        lp = float(str(q.get("last")).replace(",", ""))
+                    except Exception:
+                        lp = None
+                    try:
+                        chg = float(str(q.get("change_pct")).replace("%", "").replace("+", "").replace(",", ""))
+                    except Exception:
+                        chg = None
+                    cnbc_info[sym] = {"marketCap": mc, "last": lp, "chg": chg}
+    except Exception as e:
+        print(f"[WARN] CNBC valuation fetch skipped: {e}")
+
+    # 2. 네이버 금융 실시간 API에서 삼성전자(보통주+우선주 합산) 및 SK하이닉스 최신 시총·종가 수집
+    naver_kr = {}
+    for code in ["005930", "005935", "000660"]:
+        entry = {"price": None, "chg": None, "mktcap": None}
+        try:
+            u_basic = f"https://m.stock.naver.com/api/stock/{code}/basic"
+            with urllib.request.urlopen(urllib.request.Request(u_basic, headers=headers), timeout=6) as r:
+                nb = json.loads(r.read().decode("utf-8"))
+                if nb.get("closePrice"):
+                    entry["price"] = float(str(nb["closePrice"]).replace(",", ""))
+                if nb.get("fluctuationsRatio") is not None:
+                    entry["chg"] = float(str(nb["fluctuationsRatio"]).replace(",", ""))
+            u_int = f"https://m.stock.naver.com/api/stock/{code}/integration"
+            with urllib.request.urlopen(urllib.request.Request(u_int, headers=headers), timeout=6) as r:
+                ni = json.loads(r.read().decode("utf-8"))
+                infos = {x.get("code"): x.get("value") for x in ni.get("totalInfos", [])}
+                entry["mktcap"] = _parse_naver_krw_mktcap(infos.get("marketValue"))
+        except Exception as e:
+            print(f"[WARN] Naver finance fetch skipped ({code}): {e}")
+        naver_kr[code] = entry
+
+    # 최근 공식 실적 공시 직후 Yahoo DB 반영 지연(며칠)을 보완하는 검증 분기 데이터 (Yahoo에 더 최신 분기가 뜨면 자동 덮어씀)
+    VERIFIED_RECENT_QUARTERS = {
+        "NVDA": {
+            "2026-10-31": 65287000000.0,  # Q3 FY2027 (2026-11-17 공식 발표 GAAP 순이익 $65.287B)
+        },
+        "ANT": {
+            # S-1 투자설명서 공시 기준 H1 2026(-$80.7B) 분기 분배 + Q3 2026(-$23.291B)
+            "2026-03-31": -38500000000.0,
+            "2026-06-30": -42200000000.0,
+            "2026-09-30": -23291000000.0,
+            "2025-12-31": -16858000000.0,
+        },
+    }
+
+    STOCK_CONFIGS = [
+        {"id": "nvda", "yf": "NVDA", "cnbc": "NVDA", "currency": "USD", "note": "최근 4Q(Q4'26~Q3'27)"},
+        {"id": "tsm", "yf": "TSM", "cnbc": "TSM", "currency": "USD", "ni_currency": "TWD", "note": "TWD➔USD 환산"},
+        {"id": "google", "yf": "GOOGL", "cnbc": "GOOGL", "currency": "USD", "note": "알파벳 A+C 합산"},
+        {"id": "amd", "yf": "AMD", "cnbc": "AMD", "currency": "USD", "note": "GAAP 분기순이익"},
+        {"id": "anthropic", "yf": "ANT", "cnbc": "ANT", "currency": "USD", "note": "S-1·분기 GAAP(비현금 평가손 포함)"},
+        {"id": "samsung", "yf": "005930.KS", "naver": "005930", "naver_pref": "005935", "currency": "KRW", "note": "보통주+우선주 합산"},
+        {"id": "skhynix", "yf": "000660.KS", "naver": "000660", "currency": "KRW", "note": "연결 분기순이익"},
+    ]
+
+    qmap = {m["id"]: m for m in market_data}
+
+    for cfg in STOCK_CONFIGS:
+        sid = cfg["id"]
+        yf_sym = cfg["yf"]
+        m_item = qmap.get(sid)
+        if not m_item:
+            continue
+
+        # A. 최근 분기별 당기순이익 수집 (Yahoo Finance fundamentals-timeseries: quarterlyNetIncome)
+        q_dict = {}
+        ni_curr = cfg.get("ni_currency", cfg["currency"])
+        try:
+            u_ts = f"https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/{urllib.parse.quote(yf_sym)}?type=quarterlyNetIncome&period1={start_ts}&period2={now_ts}"
+            with urllib.request.urlopen(urllib.request.Request(u_ts, headers=headers), timeout=8) as r:
+                td = json.loads(r.read().decode("utf-8"))
+                for blk in td.get("timeseries", {}).get("result", []):
+                    for pt in blk.get("quarterlyNetIncome", []):
+                        if pt and "reportedValue" in pt and pt.get("asOfDate"):
+                            q_dict[pt["asOfDate"]] = float(pt["reportedValue"]["raw"])
+                            if pt.get("currencyCode"):
+                                ni_curr = pt["currencyCode"]
+        except Exception as e:
+            print(f"[WARN] Quarterly net income fetch skipped ({yf_sym}): {e}")
+
+        # Yahoo에 아직 미반영된 최신 공시 분기가 있을 경우에만 보완 병합
+        for d_key, val in VERIFIED_RECENT_QUARTERS.get(yf_sym, {}).items():
+            if d_key not in q_dict:
+                q_dict[d_key] = val
+
+        sorted_dates = sorted(q_dict.keys())
+        last_4_dates = sorted_dates[-4:]
+        if len(last_4_dates) < 1:
+            continue
+
+        ni_4q_raw = sum(q_dict[d] for d in last_4_dates)
+        latest_date = last_4_dates[-1]
+        ni_1q_raw = q_dict[latest_date]
+
+        # 통화 통일 (TSM: TWD 순이익 ➔ 실시간 USD/TWD 환율로 USD 변환)
+        if cfg["currency"] == "USD" and ni_curr == "TWD":
+            ni_4q_val = ni_4q_raw / usd_twd
+            ni_1q_val = ni_1q_raw / usd_twd
+        else:
+            ni_4q_val = ni_4q_raw
+            ni_1q_val = ni_1q_raw
+
+        # B. 실시간 현재 시가총액 확정
+        mktcap = None
+        if "cnbc" in cfg:
+            ci = cnbc_info.get(cfg["cnbc"], {})
+            mktcap = ci.get("marketCap")
+            if ci.get("last"):
+                m_item["price"] = round(ci["last"], 2)
+            if ci.get("chg") is not None:
+                m_item["dayChangePct"] = round(ci["chg"], 2)
+        elif "naver" in cfg:
+            nv = naver_kr.get(cfg["naver"], {})
+            if nv.get("price"):
+                m_item["price"] = round(nv["price"])
+            if nv.get("chg") is not None:
+                m_item["dayChangePct"] = round(nv["chg"], 2)
+            mc_main = nv.get("mktcap") or 0.0
+            mc_pref = 0.0
+            if cfg.get("naver_pref"):
+                mc_pref = naver_kr.get(cfg["naver_pref"], {}).get("mktcap") or 0.0
+            if mc_main > 0:
+                mktcap = mc_main + mc_pref
+
+        if not mktcap or mktcap <= 0:
+            continue
+
+        # C. 최근 4분기 PER & 최근 1분기 X4 PER 정밀 계산
+        per_4q = round(mktcap / ni_4q_val, 2) if ni_4q_val != 0 else None
+        per_1q_x4 = round(mktcap / (ni_1q_val * 4.0), 2) if ni_1q_val != 0 else None
+
+        m_item["marketCap"] = round(mktcap)
+        m_item["marketCapCurrency"] = cfg["currency"]
+        m_item["netIncome4Q"] = round(ni_4q_val)
+        m_item["netIncome1Q"] = round(ni_1q_val)
+        m_item["netIncomeCurrency"] = ni_curr
+        if ni_curr == "TWD":
+            m_item["netIncome4QRawTwd"] = round(ni_4q_raw)
+            m_item["netIncome1QRawTwd"] = round(ni_1q_raw)
+            m_item["usdTwdRate"] = round(usd_twd, 4)
+        m_item["latestQuarterDate"] = latest_date
+        m_item["quartersUsed"] = last_4_dates
+        m_item["per4Q"] = per_4q
+        m_item["per1Qx4"] = per_1q_x4
+        m_item["valuationNote"] = cfg["note"]
+
+    return market_data
 
 
 def fetch_live_rss_headlines():
@@ -300,8 +521,9 @@ def build_briefing_edition():
     slot_info = get_target_edition_slot(now)
     edition_id = slot_info["editionId"]
 
-    print(f"[1/5] 실시간 글로벌 시장 지표 수집 중... (목표 에디션: {edition_id})")
+    print(f"[1/5] 실시간 글로벌 시장 지표 및 반도체·AI 7대 종목 분기순이익/시총 PER 수집 중... (목표 에디션: {edition_id})")
     market_data = fetch_market_data()
+    market_data = fetch_stock_valuation_fundamentals(market_data)
 
     print("[2/5] 실시간 국내외 RSS 뉴스 헤드라인 수집 중 (생산성 없는 연예/가십 원천 배제)...")
     rss_headlines = fetch_live_rss_headlines()
