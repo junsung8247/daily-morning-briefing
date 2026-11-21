@@ -1,7 +1,7 @@
 {
   "title": "🏆 30일 단위 최중요 브리핑 합산 (Monthly Core)",
   "description": "7일 단위 중요 브리핑들 중에서도 시장의 구조적 방향성을 바꾼 최중요 안건만 다시 추려 합산한 30일 단위 핵심 아카이브입니다.",
-  "updatedAt": "2026-11-21 20:00:00 KST",
+  "updatedAt": "2026-11-22 08:00:00 KST",
   "agendas": [
     {
       "id": "agenda_16",
@@ -104,7 +104,7 @@
       "sourceEdition": "2026년 11월 11일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_02",
@@ -113,7 +113,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
       "deltaLabel": "🔴 시사점 점검 (미 현물 국채 재개장 후 10년물 금리 5.10%(+2.10%) 급등… 단 1개월 고점 대비 -2.61% 낮은 구간으로 '연 5.1% 확정금리' 매수 호기)",
-      "title": "[11/14 이브닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
+      "title": "[11/15 모닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
       "subtitle": "재향군인의 날 휴장 후 열린 현물 채권시장에 CPI 잔여 매물 및 국채 입찰 물량 일시 반영… 1개월 전 고점(5.23%)보다는 여전히 낮은 고금리 파킹 구간",
       "chartImage": "assets/charts/agenda_02.svg",
       "chartConfig": {
@@ -204,10 +204,10 @@
         "Bloomberg US Treasury Desk",
         "CME FedWatch"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_42",
@@ -294,7 +294,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_49",
@@ -385,7 +385,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_51",
@@ -472,7 +472,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_52",
@@ -559,7 +559,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_40",
@@ -738,7 +738,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🟢 시사점 강화 (엔비디아 $162.85(-2.01%) 눌림목 & 콜레트 크레스 체제 '루빈/HBM4 로드맵 정상 가동 + TSMC 3nm NVHBM 베이스다이 표준화' 추진)",
-      "title": "[11/14 이브닝] 엔비디아($162.85) 콜레트 크레스 체제와 'TSMC 3nm NVHBM 베이스다이' 표준화: 메모리 하청화 우려를 돌파할 K-반도체의 해법",
+      "title": "[11/15 모닝] 엔비디아($162.85) 콜레트 크레스 체제와 'TSMC 3nm NVHBM 베이스다이' 표준화: 메모리 하청화 우려를 돌파할 K-반도체의 해법",
       "subtitle": "미 금리 5.10% 여파로 주가는 $166.19(-4.34%) 숨고르기… 11/19 실적 앞두고 메모리 의존도 낮추고 대역폭 극대화하는 자체 베이스다이·3D D램 구상 부각",
       "chartImage": "assets/charts/agenda_06.svg",
       "chartConfig": {
@@ -829,10 +829,10 @@
         "FinancialContent",
         "Yahoo Finance NVDA ($166.19)"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_36",
@@ -841,7 +841,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🔵 신규 대출 정책 포착 (스트레스 DSR '수도권 vs 지방 2원화 체제' 확정: 지방 주담대는 2026 상반기까지 2단계(1.5%·50%) 유예 vs 수도권은 3단계(3.0%+·100%) 직격탄!)",
-      "title": "[11/14 이브닝·스트레스 DSR 이원화] '지방은 풀어주고 수도권은 조인다': 지방 주담대 DSR 3단계 '2026 상반기까지 추가 유예(2단계 유지)' vs 수도권 100% 적용!",
+      "title": "[11/15 모닝·스트레스 DSR 이원화] '지방은 풀어주고 수도권은 조인다': 지방 주담대 DSR 3단계 '2026 상반기까지 추가 유예(2단계 유지)' vs 수도권 100% 적용!",
       "subtitle": "지방 부동산 침체 막기 위해 지방 주담대는 스트레스 금리 1.5%(50% 반영) 2단계 유지… 반면 서울·수도권 규제지역은 3.0%+(100% 반영) 3단계 풀가동",
       "chartImage": "assets/charts/agenda_36.svg",
       "chartConfig": {
@@ -914,10 +914,10 @@
         "뱅크샐러드",
         "시중은행 여신 가이드"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_41",
@@ -997,7 +997,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_44",
@@ -1070,7 +1070,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_53",
@@ -1157,7 +1157,7 @@
       "sourceEdition": "2026년 11월 21일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_54",
@@ -1244,7 +1244,7 @@
       "sourceEdition": "2026년 11월 21일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_27",
@@ -1253,7 +1253,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 (달러 인덱스 103.41·미 금리 5.14% 압박 속에서도 국제 금 선물 '$3,887.60~$3,896/oz' 상승 반전하며 $3,900 재돌파 시도!)",
-      "title": "[11/14 이브닝] 강달러(DXY 103.41) 이겨내고 '$3,887.60~$3,896/oz'로 고개 든 국제 금 시세: $3,900선 탈환 눈앞에 둔 KRX 금현물 전략",
+      "title": "[11/15 모닝] 강달러(DXY 103.41) 이겨내고 '$3,887.60~$3,896/oz'로 고개 든 국제 금 시세: $3,900선 탈환 눈앞에 둔 KRX 금현물 전략",
       "subtitle": "현물 국채 재개장(5.10%)과 달러 인덱스(103.17) 급등에 놀란 선물 레버리지 물량 일제 청산… 11/09 고점($4,114.5) 대비 -$233 할인된 기술적 바닥",
       "chartImage": "assets/charts/agenda_27.svg",
       "chartConfig": {
@@ -1344,10 +1344,10 @@
         "Kitco / Reuters Bullion Desk",
         "KRX 금시장"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_31",
@@ -1356,7 +1356,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 이브닝 시사점 정확히 적중! ($70,800 · 9266만원 선물 레버리지 대청소 직후 글로벌 BTC $73,400 · 원화 '9810만원(+5.87%)' V자 급반등 성공!)",
-      "title": "[11/14 이브닝·BTC V자 반등] 어제 저녁 '9266만원($70.8K)' 바닥 찍고 하룻밤 새 '9810만원($73,400, +5.87%)' 탈환한 비트코인: 레버리지 청산 후 숏스퀴즈!",
+      "title": "[11/15 모닝·BTC V자 반등] 어제 저녁 '9266만원($70.8K)' 바닥 찍고 하룻밤 새 '9810만원($73,400, +5.87%)' 탈환한 비트코인: 레버리지 청산 후 숏스퀴즈!",
       "subtitle": "미 국채금리 5.10% 점프와 원/달러 환율 하락(1,334.53원)이 만든 원화 가격 착시… 기관의 생명선인 '200일 이평선($73,700)'에서 9524만원 분할 매수 찬스!",
       "chartImage": "assets/charts/agenda_31.svg",
       "chartConfig": {
@@ -1373,7 +1373,7 @@
           "11/11",
           "11/12",
           "11/13",
-          "11/14"
+          "11/15"
         ],
         "values": [
           10309,
@@ -1385,13 +1385,13 @@
           9885,
           9518,
           9113,
-          8960
+          8678
         ],
         "unit": "만원",
         "color": "#f97316",
         "benchmark_val": 9500.0,
         "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-        "badge_text": "LIVE 8960만원",
+        "badge_text": "LIVE 8678만원",
         "annotations": [
           {
             "index": 9,
@@ -1402,7 +1402,7 @@
       "keyMetrics": [
         {
           "label": "비트코인 시세 (만원)",
-          "value": "8960만원",
+          "value": "8678만원",
           "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
         },
         {
@@ -1447,10 +1447,10 @@
         "Pluang / CoinDesk (BTC Holding ~$73,700 Near 200-Day Moving Average)",
         "TradingView"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_14",
@@ -1459,7 +1459,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 대강화! (테슬라 '텍사스·플로리다 24시간 연중무휴(24/7) 무인 로보택시 가동' & 수천 대 휴머노이드 자가학습 '옵티머스 아카데미' 구축!)",
-      "title": "[11/14 이브닝·테슬라 피지컬 AI] 텍사스·플로리다 '24/7 무인 로보택시' 상시 가동 & 수천 대 로봇 자가학습 '옵티머스 아카데미(Optimus Academy)' 공개!",
+      "title": "[11/15 모닝·테슬라 피지컬 AI] 텍사스·플로리다 '24/7 무인 로보택시' 상시 가동 & 수천 대 로봇 자가학습 '옵티머스 아카데미(Optimus Academy)' 공개!",
       "subtitle": "인간 안전요원 없이 하루 24시간 돌아가는 로보택시 + 가상·현실 자가대결(Self-play)로 수천 대 로봇을 동시에 훈련시켜 기업에 렌탈(RaaS)하는 제국",
       "chartImage": "assets/charts/agenda_14.svg",
       "chartConfig": {
@@ -1532,10 +1532,10 @@
         "Forbes",
         "조선일보"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_01",
@@ -1543,8 +1543,8 @@
       "categoryLabel": "거시경제 · 금리",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🔴 시사점 점검 (월러 연준 이사 '인플레 지속 시 12월 FOMC 강경 대응' 매파 발언! 미 10년물 5.14~5.15% · 2년물 4.85% 고금리 장기화 대비)",
-      "title": "[11/14 이브닝] 크리스토퍼 월러 연준 이사의 매파 경고와 미 국채 10년물 '5.14~5.15%' · 2년물 '4.85%': 금리 인하 기대 후퇴 속 생존 포트폴리오",
+      "deltaLabel": "🔴 시사점 점검 (월러·로건·보우먼 연준 매파 3인방 '인플레 2% 안착까지 긴축 고삐' 합창! 실업률 4.1% 견조 속 미 10년물 금리 5.14~5.15% 고착화)",
+      "title": "[11/15 모닝] 월러·로건·보우먼 연준 매파 3인방의 동시 경고와 미 10년물 '5.14~5.15%': 실업률 4.1% 탄탄한 고용이 부른 고금리 장기화 대응법",
       "subtitle": "휴장 마친 채권시장의 사후 금리 반영(5.00% ➔ 5.10%)에도 S&P500 7,592pt·필라델피아 반도체(SOX) 10,506pt 사수… AI 실적 장세 굳건",
       "chartImage": "assets/charts/agenda_01.svg",
       "chartConfig": {
@@ -1635,10 +1635,10 @@
         "CNBC Market Wrap",
         "WSJ"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_12",
@@ -1646,8 +1646,8 @@
       "categoryLabel": "미래기술 · 우주 · 로봇 · 바이오",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대폭발! (스타십 Flight 15 발사 성공! 상단 '쉽 42' 고도 275km 궤도 진입 및 '스타링크 V3 위성 26기 실전 사출' 쾌거 · 22시간 궤도 비행 돌입!)",
-      "title": "[11/14 이브닝·스타십 Flight 15 속보] 상단 '쉽 42(Don't Panic)' 275km 저궤도 진입 & '스타링크 V3 26기 사출' 성공! (부스터22 멕시코만 안전 착수)",
+      "deltaLabel": "🟢 시사점 역사적 정점! (인류 우주사 새 페이지! 스타십 Flight 15 상단 우주선 '쉽 42' 22.5시간 궤도 비행 및 대기권 재진입 후 '메카질라 로봇팔 포획(Tower Catch)' 사상 최초 성공!!)",
+      "title": "[11/15 모닝·인류 최초 쾌거] 스페이스X 스타십 상단 우주선 '쉽 42', 22.5시간 궤도 비행 후 발사대 '메카질라 로봇팔 포획(Ship Catch)' 사상 최초 성공!",
       "subtitle": "미 텍사스 스타베이스 발사대 출격… 1단 슈퍼헤비 포획 + 저궤도(LEO)에 차세대 스타링크 V3 위성 26기 배치 + 2단 스타십 상단 타워 포획까지 연속 도전!",
       "chartImage": "assets/charts/agenda_12.svg",
       "chartConfig": {
@@ -1720,10 +1720,10 @@
         "SpaceX Official",
         "NASASpaceFlight"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_37",
@@ -1731,8 +1731,8 @@
       "categoryLabel": "한국 부동산 · 정책 · 개발",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (강동 '올림픽파크포레온(1.2만 가구)' 실거주 의무 유예 종료·만기 도래 발 전월세 연쇄 이동 경보! 매매 관망세 속 전세만 독주)",
-      "title": "[11/14 이브닝·전세 시장 뇌관] 강동 '올림픽파크포레온' 실거주 의무 유예 종료·임대차 만기가 부르는 동남권 전월세 도미노와 실수요 내집마련 전략",
+      "deltaLabel": "🟢 시사점 강화 (서울 자치구 과반 '임대차 월세 비중 50% 돌파' 구조적 월세화 가속 & 강동 올림픽파크포레온 만기 맞물린 전월세 상승 압력!)",
+      "title": "[11/15 모닝·임대차 패러다임 변화] 서울 자치구 과반 '월세 비중 50% 돌파'와 전세 매물 잠김(+0.10%): 월세 수익형 현금흐름 vs 실수요 매수 손익계산",
       "subtitle": "한국부동산원 11월 2주 발표: 강남권 일부 급매·관망 속에서도 서울 매매 +0.07% 상승 지속, 반면 매물 마른 전세는 +0.10%로 상승 폭이 매매의 1.4배!",
       "chartImage": "assets/charts/agenda_37.svg",
       "chartConfig": {
@@ -1805,10 +1805,10 @@
         "데이터솜 / 네이트뉴스",
         "KB부동산"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_22",
@@ -1817,7 +1817,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 대적중! (미 10년물 금리 5.10%(+2.10%) 급등의 밤, 버핏식 '완판 독점주(TSMC·삼성·SK) 80% + 5.1% 현금 탄약 20%' 공식이 계좌를 지켰다!)",
-      "title": "[11/14 이브닝·버핏식 생존 공식] 미 국채금리 '5.10%'가 증명한 워런 버핏의 혜안: '2029년까지 완판된 독점주 80% + 연 5.1% 현금 탄약 20%'",
+      "title": "[11/15 모닝·버핏식 생존 공식] 미 국채금리 '5.10%'가 증명한 워런 버핏의 혜안: '2029년까지 완판된 독점주 80% + 연 5.1% 현금 탄약 20%'",
       "subtitle": "금리가 5.10%로 뛴 밤 적자 테마주는 흔들렸지만 SOX(10,506pt)·TSMC($405.49)는 버텼다… 아껴둔 20% 현금 탄약으로 오늘 눌림목 사냥 개시!",
       "chartImage": "assets/charts/agenda_22.svg",
       "chartConfig": {
@@ -1890,10 +1890,10 @@
         "Yahoo Finance ^TNX (5.10%) & ^GSPC (7,592.40)",
         "Counterpoint Research"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_17",
@@ -1902,7 +1902,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 (푸틴 DMZ 거부·우크라 대공습 여파로 폴란드·핀란드 등 NATO 동부전선 '다층 방공망·대드론·대전차 요새화' 예산 폭증!)",
-      "title": "[11/14 이브닝·전쟁/지정학] 푸틴 DMZ 거부 후 가속화된 NATO 동부전선(폴란드·핀란드) '다층 방공망·대드론 요새화': 유럽 재무장 최대 수혜국 한국",
+      "title": "[11/15 모닝·전쟁/지정학] 푸틴 DMZ 거부 후 가속화된 NATO 동부전선(폴란드·핀란드) '다층 방공망·대드론 요새화': 유럽 재무장 최대 수혜국 한국",
       "subtitle": "아부다비 3자 회담 이후에도 겨울철 앞둔 러·우 에너지 인프라 공습 격화… 유럽·중동의 다층 방공 미사일과 초고압 변압기 확보 전쟁",
       "chartImage": "assets/charts/agenda_17.svg",
       "chartConfig": {
@@ -1975,10 +1975,10 @@
         "Yahoo Finance CL=F ($88.70, +2.51%)",
         "World Bank RDNA"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_24",
@@ -1987,7 +1987,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 돈이 되는 실전 세테크 1 (간밤 엔비디아 $166.19(-4.34% · 1개월 -27.28%) 조정은 연말 '해외주식 양도세(22%) 손익통산'의 황금 찬스!)",
-      "title": "[11/14 이브닝·돈 되는 세테크 ①] 간밤 엔비디아($166.19, 1개월 -27%) 눌림목을 세금 수백만 원 아끼는 '양도세 22% 손익통산' 기회로 바꾸는 법!",
+      "title": "[11/15 모닝·돈 되는 세테크 ①] 간밤 엔비디아($166.19, 1개월 -27%) 눌림목을 세금 수백만 원 아끼는 '양도세 22% 손익통산' 기회로 바꾸는 법!",
       "subtitle": "고점에 물린 엔비디아·미국주식이 있다면 잠깐 팔아 손실을 확정(올해 양도세 22% 삭감)한 뒤 즉시 재매수하라! + 국외전출세 확대 체크",
       "chartImage": "assets/charts/agenda_24.svg",
       "chartConfig": {
@@ -2060,10 +2060,10 @@
         "미래에셋증권 세무 리포트 (손익통산 및 국외전출세)",
         "Yahoo Finance NVDA ($166.19)"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_09",
@@ -2072,7 +2072,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 대폭발! (SK하이닉스 6세대 'HBM4 양산 수율 70% 돌파' 쾌거! 금요일 1,216,000원(-3.03%) 눌림목을 압도하는 2029년 완판 펀더멘털)",
-      "title": "[11/14 이브닝] SK하이닉스(1,216,000원) 'HBM4 양산 수율 70% 전격 돌파'! HBM3E 매출 추월 카운트다운과 120만 원대 분할 매수 기회",
+      "title": "[11/15 모닝] SK하이닉스(1,216,000원) 'HBM4 양산 수율 70% 전격 돌파'! HBM3E 매출 추월 카운트다운과 120만 원대 분할 매수 기회",
       "subtitle": "메모리 맨 아래층이 단순 버퍼에서 '초정밀 로직 프로세서'로 진화… 파운드리-메모리 권력 재편 속 한국 양대 반도체의 서로 다른 필승 공식",
       "chartImage": "assets/charts/agenda_09.svg",
       "chartConfig": {
@@ -2163,10 +2163,10 @@
         "매일경제",
         "Yahoo Finance 000660.KS"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_21",
@@ -2259,8 +2259,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대폭발! (삼성전자·SK하이닉스 '탈(脫)엔비디아 편중 해법' 가동: 구글 상업용 AI 칩 'TPU 8i Max · 8tx' 및 브로드컴 향 HBM 공급 대확장!)",
-      "title": "[11/14 이브닝] 엔비디아 의존도 낮추는 삼성전자(206,000원)·SK하이닉스의 비장의 카드: '구글 TPU 8i Max · 8tx(브로드컴 동맹)' 향 HBM 공급 확대!",
+      "deltaLabel": "🟢 시사점 강화 (삼성전자 차세대 '3D Cube-H' 첨단 패키징 승부수 & 구글 상업용 TPU(8i Max·8tx)·브로드컴 향 HBM 공급 확대로 파운드리·메모리 동시 반격!)",
+      "title": "[11/15 모닝] 삼성전자(206,000원) 차세대 '3D Cube-H' 패키징과 구글 TPU(브로드컴 동맹) HBM 확장: TSMC 독주를 깨는 양날개 전략",
       "subtitle": "카운터포인트·VLSI 분석 '전례 없는 메모리 가격 결정권 슈퍼사이클'… 올해 HBM4가 HBM3E의 매출과 출하량을 모두 추월한다",
       "chartImage": "assets/charts/agenda_07.svg",
       "chartConfig": {
@@ -2351,10 +2351,10 @@
         "VLSI / 조선비즈 (SK Hynix Sold Out to 2029, Samsung 2027 LTA)",
         "Yahoo Finance 005930.KS"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_32",
@@ -2363,7 +2363,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 역발상 포착! (블랙록 IBIT '단일 -$269.7M 유출·연초대비 플로우 일시 음전' 극한 스트레스 테스트 통과! 200일선($73.7K) 방어로 '매도자 소진' 입증)",
-      "title": "[11/14 이브닝·BTC ETF 매도 소진] 블랙록 IBIT '-$269.7M 유출'에도 무너지지 않은 200일선($73,700 · 9524만원): 월가가 말하는 '매도자 고갈(Seller Exhaustion)'",
+      "title": "[11/15 모닝·BTC ETF 매도 소진] 블랙록 IBIT '-$269.7M 유출'에도 무너지지 않은 200일선($73,700 · 9524만원): 월가가 말하는 '매도자 고갈(Seller Exhaustion)'",
       "subtitle": "연말 기관 절세(손익통산)·거시 리밸런싱 물량이 IBIT에서 -$269.7M 쏟아졌음에도 $59B 코어 자산과 200일선은 굳건… 팔 사람은 다 팔았다!",
       "chartImage": "assets/charts/agenda_32.svg",
       "chartConfig": {
@@ -2436,10 +2436,10 @@
         "iShares Official",
         "Pluang"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_26",
@@ -2448,7 +2448,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 돈이 되는 채권·환율 공식 대폭발! (미 10년물 금리 '5.10%(+2.10%)' 점프인데 원/달러 환율은 '1,334.53원(-0.55%)' 그대로! 환노출 미국채 황금 타점)",
-      "title": "[11/14 이브닝·돈 되는 채권/환율 공식] 미 국채금리는 '5.10%(+2.10%)'로 뛰었는데 환율은 '1,334.53원'이다: 흔치 않은 '환노출 미국채' 잭팟 찬스!",
+      "title": "[11/15 모닝·돈 되는 채권/환율 공식] 미 국채금리는 '5.10%(+2.10%)'로 뛰었는데 환율은 '1,334.53원'이다: 흔치 않은 '환노출 미국채' 잭팟 찬스!",
       "subtitle": "보통 미 금리가 5.10%로 뛰면 환율도 1,370원으로 뛰어 비싸게 사야 하지만, 지금은 1,334원 싼 환율로 연 5.10% 미국채를 살 수 있는 기적의 구간!",
       "chartImage": "assets/charts/agenda_26.svg",
       "chartConfig": {
@@ -2521,10 +2521,10 @@
         "Bloomberg Bond Desk",
         "금융투자협회"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 70,
       "archiveTier": "30일 월간 최중요",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
-  "editionId": "2026-11-14_2000",
-  "generatedAt": "2026-11-14 20:38:59 KST",
-  "displayDate": "2026년 11월 14일",
-  "shortDate": "11/14 20:00",
-  "slotLabel": "20:00 PM 이브닝 에디션",
-  "scheduleInfo": "매일 08:00 / 20:00 정각 발행 · 8대 영역 40건 돈이 되는 지식 브리핑",
-  "totalAgendas": 40,
+  "editionId": "2026-11-22_0800",
+  "generatedAt": "2026-11-22 08:01:29 KST",
+  "displayDate": "2026년 11월 22일",
+  "shortDate": "11/22 08:00",
+  "slotLabel": "08:00 AM 모닝 에디션",
+  "scheduleInfo": "매일 08:00 / 20:00 정각 발행 · 8대 영역 최소 40건+ (금회 56건) 돈이 되는 지식 브리핑",
+  "totalAgendas": 56,
   "deltaSummary": {
-    "REINFORCED": 31,
-    "CHALLENGED": 1,
-    "NEW": 2,
+    "REINFORCED": 33,
+    "CHALLENGED": 7,
+    "NEW": 10,
     "MAINTAINED": 6
   },
-  "executiveHeadline": "[11/14 이브닝 · 40대 심층안건] ①거시: 월러 연준 이사 '12월 FOMC 매파 경계' 발언·미 10년물 5.14%·DXY 103.41 속 역외 원/달러 1,335.0원 하향 안정 & 미 소비자 '가성비 하향소비(Trading Down)' 뚜렷 · ②반도체: 삼성전자(206,000원)·SK하이닉스(1,216,000원) '구글 상업용 TPU 8i Max·8tx(브로드컴 동맹)' 향 HBM 공급 대확장으로 엔비디아 편중 탈피 & HBM4 수율 70% 돌파 · ③미래기술: 스페이스X 스타십 Flight 15 상단 '쉽42' 고도 275km 궤도 진입 및 '스타링크 V3 26기 사출 성공'(22시간 비행 돌입)·테슬라 무인 로보택시 & 옵티머스 · ④전쟁/지정학: 한화에어로(641,000원) '1,773억 독자 항공엔진 수주+미 한화시마론 인수'·우라늄($91.85/lb)·구리($13,610/t) 강세 vs WTI 유가($88.56) 2주 연속 하락 · ⑤증시/세테크: 미 국채 5.14%+환율 1,335원 채권 전략·연말 해외주식 양도세 22% 절세 · ⑥금: 강달러 뚫고 $3,887.6~$3,896/oz 반등하며 $3,900 재돌파 시도 · ⑦비트코인: 실시간 업비트 원화 시세 연동 및 기관 ETF 수급 점검 · ⑧부동산: 강동 올림픽파크포레온 실거주 유예 종료발 전월세 이동 경보·1주택 종부세 14억 공제 상향 및 비거주 차별 철폐 추진·GTX-A/C/D",
+  "executiveHeadline": "[11/22 모닝 · 56대 일요일 주간전략 확장안건] ①거시: 12/9 FOMC 전 마지막 물가지표 '11/25(수) 미 10월 근원 PCE(+3.2~3.3% YoY 예상)' & 블프 소비($1.013조 +4.2% 전망) + 11/26(목) 한은 금통위 '3.00%➔3.25% 인상 만장일치 전망 및 2027 초 3.50% 최종금리' 점도표 경계 · ②반도체: 앤트로픽(ANT) IPO 여파(OpenAI 상장 밸류 압박)·미 16nm 이하 대중 규제·DRAM 소송 노이즈 속 삼성·SK 100% 육박 풀가동(우측 실시간 시세보드 7종목 최근 4분기/1분기×4 PER 매일 자동 갱신) · ③미래기술: 머스크 '사이버캡 월 $299 구독료 향후 $115 인하·12월 개인 FSD 차량 로보택시 합류' 시사 & 베를린 €30억 공장 · 일라이 릴리 젭바운드 청소년(12~17세) 임상 대성공·캐나다 파운다요 승인 · 스페이스X 쉽42 은퇴 전시 · ④전쟁/지정학: 폴란드 추락 미사일 '러 Kh-101' 확인 불구 바르샤바 'NATO 제4조 발동 보류' ➔ 전면전 공포 진정 + 유럽 방공망·K-방산 수혜 유지 · ⑤증시/세테크: 지난주 나스닥 -10%·S&P -8.6% 급락 후 월요일 반대매매 소화 및 고배당 분리과세·생산적금융 ISA·연말정산 전략 · ⑥금: 과매도 RSI 극단 구간($3,550/oz) 속 11~1월 계절적 강세·기술적 반등 및 골드만 연말 $4,900 뷰 · ⑦비트코인: 간밤 $55,130(업비트 7,850만원) 순간 급락 및 $27억 강제청산 직후 일요일 아침 $60,200+(8,400만원대) V자 급반등! · ⑧부동산: 11/26 한은 3.25% 인상 임박·스트레스 DSR 3단계 속 토허제 강남·용산 숨고르기 vs 경기·비규제 1기 신도시 차별화",
   "marketQuotes": [
     {
       "symbol": "^GSPC",
@@ -21,32 +21,32 @@
       "category": "macro",
       "unit": "",
       "color": "#38bdf8",
-      "price": 7561.67,
-      "dayChangePct": -0.4,
-      "monthChangePct": -2.04,
+      "price": 6910.39,
+      "dayChangePct": -3.7,
+      "monthChangePct": -10.92,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        7541.4,
-        7568.92,
-        7688.62,
-        7353.73,
-        7376.86,
         7549.94,
         7520.93,
         7619.38,
         7592.4,
-        7561.67
+        7561.67,
+        7416.59,
+        7340.53,
+        7323.63,
+        7175.83,
+        6910.39
       ]
     },
     {
@@ -56,32 +56,32 @@
       "category": "macro",
       "unit": "",
       "color": "#818cf8",
-      "price": 25136.27,
-      "dayChangePct": -0.91,
-      "monthChangePct": -5.83,
+      "price": 22617.73,
+      "dayChangePct": -5.28,
+      "monthChangePct": -15.3,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        25164.31,
-        25372.01,
-        25736.51,
-        24315.0,
-        24579.43,
         25253.14,
         25065.87,
         25466.19,
         25366.09,
-        25136.27
+        25136.27,
+        24509.76,
+        24328.38,
+        24429.88,
+        23879.2,
+        22617.73
       ]
     },
     {
@@ -91,32 +91,32 @@
       "category": "macro",
       "unit": "",
       "color": "#0284c7",
-      "price": 52347.55,
-      "dayChangePct": 0.1,
-      "monthChangePct": 1.41,
+      "price": 48147.33,
+      "dayChangePct": -1.93,
+      "monthChangePct": -8.91,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        51983.98,
-        51786.72,
-        53356.12,
-        51523.06,
-        51285.73,
         52389.75,
         52231.89,
         52486.49,
         52297.09,
-        52347.55
+        52347.55,
+        51608.17,
+        50759.42,
+        50198.17,
+        49097.06,
+        48147.33
       ]
     },
     {
@@ -126,32 +126,32 @@
       "category": "tech",
       "unit": "",
       "color": "#a855f7",
-      "price": 10146.32,
-      "dayChangePct": -3.43,
-      "monthChangePct": -13.16,
+      "price": 8408.59,
+      "dayChangePct": -10.73,
+      "monthChangePct": -26.92,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        10328.33,
-        10600.4,
-        10268.65,
-        9011.14,
-        9390.25,
         10033.93,
         9998.33,
         10564.11,
         10506.67,
-        10146.32
+        10146.32,
+        9610.65,
+        9642.88,
+        9652.8,
+        9419.72,
+        8408.59
       ]
     },
     {
@@ -161,32 +161,32 @@
       "category": "equities",
       "unit": "",
       "color": "#059669",
-      "price": 5290.53,
-      "dayChangePct": -0.98,
-      "monthChangePct": -12.34,
+      "price": 4869.96,
+      "dayChangePct": -5.21,
+      "monthChangePct": -12.3,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        5859.08,
-        5648.79,
-        5683.8,
-        5383.8,
-        5059.69,
         5018.85,
         5239.13,
         5375.36,
         5342.73,
-        5290.53
+        5290.53,
+        5100.5,
+        4968.48,
+        5067.44,
+        5137.89,
+        4869.96
       ]
     },
     {
@@ -196,32 +196,32 @@
       "category": "equities",
       "unit": "",
       "color": "#14b8a6",
-      "price": 699.66,
-      "dayChangePct": 0.45,
-      "monthChangePct": -16.41,
+      "price": 645.68,
+      "dayChangePct": -5.71,
+      "monthChangePct": -17.43,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        734.36,
-        704.39,
-        714.95,
-        678.41,
-        644.27,
         638.97,
         667.61,
         705.1,
         696.53,
-        699.66
+        699.66,
+        665.65,
+        650.06,
+        662.81,
+        684.81,
+        645.68
       ]
     },
     {
@@ -231,32 +231,32 @@
       "category": "macro",
       "unit": "%",
       "color": "#f43f5e",
-      "price": 5.15,
-      "dayChangePct": 1.0,
-      "monthChangePct": -1.21,
+      "price": 4.91,
+      "dayChangePct": -2.77,
+      "monthChangePct": -4.01,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        4.89,
-        4.95,
-        4.89,
-        4.84,
-        4.86,
         4.86,
         4.98,
         5.0,
         5.1,
-        5.15
+        5.15,
+        5.12,
+        5.1,
+        5.07,
+        5.05,
+        4.91
       ]
     },
     {
@@ -266,32 +266,32 @@
       "category": "macro",
       "unit": "원",
       "color": "#10b981",
-      "price": 1336.2,
-      "dayChangePct": 0.18,
-      "monthChangePct": -0.31,
+      "price": 1346.13,
+      "dayChangePct": 1.18,
+      "monthChangePct": 1.68,
       "historyLabels": [
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
         "11/13",
-        "11/14"
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        1344.81,
-        1342.9,
-        1340.07,
-        1356.34,
         1362.7,
         1343.84,
         1341.91,
         1336.26,
         1333.78,
-        1336.2
+        1333.25,
+        1335.67,
+        1333.01,
+        1330.4,
+        1334.79
       ]
     },
     {
@@ -301,32 +301,32 @@
       "category": "macro",
       "unit": "",
       "color": "#94a3b8",
-      "price": 103.41,
-      "dayChangePct": 0.23,
-      "monthChangePct": 0.84,
+      "price": 103.84,
+      "dayChangePct": -0.06,
+      "monthChangePct": 2.02,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        101.75,
-        101.87,
-        101.51,
-        101.55,
-        102.3,
         101.65,
         102.23,
         102.91,
         103.17,
-        103.41
+        103.41,
+        103.55,
+        103.49,
+        103.86,
+        103.9,
+        103.81
       ]
     },
     {
@@ -336,32 +336,32 @@
       "category": "gold",
       "unit": "$",
       "color": "#fbbf24",
-      "price": 3886.3,
-      "dayChangePct": 0.03,
-      "monthChangePct": -5.39,
+      "price": 3515.4,
+      "dayChangePct": -4.62,
+      "monthChangePct": -15.29,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        3969.6,
-        3940.4,
-        4073.0,
-        4113.5,
-        4074.9,
         4114.5,
         4030.2,
         4000.5,
         3885.3,
-        3886.3
+        3886.3,
+        3853.0,
+        3864.2,
+        3741.9,
+        3685.5,
+        3515.4
       ]
     },
     {
@@ -372,32 +372,32 @@
       "unit": "만원",
       "color": "#f97316",
       "scale": 0.0001,
-      "price": 8960,
-      "dayChangePct": -1.68,
-      "monthChangePct": -18.0,
+      "price": 8079,
+      "dayChangePct": 2.07,
+      "monthChangePct": -27.53,
       "historyLabels": [
-        "11/05",
-        "11/06",
-        "11/07",
-        "11/08",
-        "11/09",
-        "11/10",
-        "11/11",
         "11/12",
         "11/13",
-        "11/14"
+        "11/14",
+        "11/15",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20",
+        "11/21"
       ],
       "historyValues": [
-        10309,
-        10330,
-        10330,
-        10173,
-        10109,
-        9896,
-        9885,
         9518,
         9113,
-        8960
+        8563,
+        8725,
+        8664,
+        8653,
+        8386,
+        8262,
+        7915,
+        8079
       ]
     },
     {
@@ -407,33 +407,48 @@
       "category": "tech",
       "unit": "$",
       "color": "#22c55e",
-      "price": 162.85,
-      "dayChangePct": -2.01,
-      "monthChangePct": -26.41,
+      "price": 125.53,
+      "dayChangePct": -14.01,
+      "monthChangePct": -43.45,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        202.06,
-        206.69,
-        200.13,
-        181.6,
-        186.64,
         178.67,
         168.89,
         173.73,
         166.19,
-        162.85
-      ]
+        162.85,
+        156.14,
+        155.46,
+        150.96,
+        145.98,
+        125.53
+      ],
+      "marketCap": 3025000000000,
+      "marketCapCurrency": "USD",
+      "netIncome4Q": 226256000000,
+      "netIncome1Q": 65287000000,
+      "netIncomeCurrency": "USD",
+      "latestQuarterDate": "2026-10-31",
+      "quartersUsed": [
+        "2026-01-31",
+        "2026-04-30",
+        "2026-07-31",
+        "2026-10-31"
+      ],
+      "per4Q": 13.37,
+      "per1Qx4": 11.58,
+      "valuationNote": "최근 4Q(Q4'26~Q3'27)"
     },
     {
       "symbol": "TSM",
@@ -442,33 +457,185 @@
       "category": "tech",
       "unit": "$",
       "color": "#06b6d4",
-      "price": 398.73,
-      "dayChangePct": -1.67,
-      "monthChangePct": -7.27,
+      "price": 318.71,
+      "dayChangePct": -9.48,
+      "monthChangePct": -26.21,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        398.63,
-        404.8,
-        395.75,
-        353.1,
-        375.44,
         388.62,
         396.48,
         413.35,
         405.49,
-        398.73
-      ]
+        398.73,
+        373.45,
+        359.69,
+        362.62,
+        352.09,
+        318.71
+      ],
+      "marketCap": 1653000000000,
+      "marketCapCurrency": "USD",
+      "netIncome4Q": 76695335447,
+      "netIncome1Q": 23154036351,
+      "netIncomeCurrency": "TWD",
+      "netIncome4QRawTwd": 2527571475000,
+      "netIncome1QRawTwd": 763064422000,
+      "usdTwdRate": 32.956,
+      "latestQuarterDate": "2026-09-30",
+      "quartersUsed": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "per4Q": 21.55,
+      "per1Qx4": 17.85,
+      "valuationNote": "TWD➔USD 환산"
+    },
+    {
+      "symbol": "GOOGL",
+      "id": "google",
+      "name": "구글 (Alphabet 통합)",
+      "category": "tech",
+      "unit": "$",
+      "color": "#4285f4",
+      "price": 265.29,
+      "dayChangePct": -2.7,
+      "monthChangePct": -20.75,
+      "historyLabels": [
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
+      ],
+      "historyValues": [
+        288.15,
+        287.38,
+        293.45,
+        298.7,
+        295.77,
+        283.72,
+        280.2,
+        282.44,
+        272.66,
+        265.29
+      ],
+      "marketCap": 3194000000000,
+      "marketCapCurrency": "USD",
+      "netIncome4Q": 235694000000,
+      "netIncome1Q": 26468000000,
+      "netIncomeCurrency": "USD",
+      "latestQuarterDate": "2026-09-30",
+      "quartersUsed": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "per4Q": 13.55,
+      "per1Qx4": 30.17,
+      "valuationNote": "알파벳 A+C 합산"
+    },
+    {
+      "symbol": "AMD",
+      "id": "amd",
+      "name": "AMD (AMD)",
+      "category": "tech",
+      "unit": "$",
+      "color": "#ef4444",
+      "price": 424.39,
+      "dayChangePct": -13.25,
+      "monthChangePct": -23.22,
+      "historyLabels": [
+        "11/09",
+        "11/10",
+        "11/11",
+        "11/12",
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
+      ],
+      "historyValues": [
+        508.58,
+        515.21,
+        552.9,
+        585.3,
+        534.06,
+        504.28,
+        503.41,
+        530.14,
+        489.19,
+        424.39
+      ],
+      "marketCap": 696037000000,
+      "marketCapCurrency": "USD",
+      "netIncome4Q": 7619000000,
+      "netIncome1Q": 2428000000,
+      "netIncomeCurrency": "USD",
+      "latestQuarterDate": "2026-09-30",
+      "quartersUsed": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "per4Q": 91.36,
+      "per1Qx4": 71.67,
+      "valuationNote": "GAAP 분기순이익"
+    },
+    {
+      "symbol": "ANT",
+      "id": "anthropic",
+      "name": "앤트로픽 (ANT)",
+      "category": "tech",
+      "unit": "$",
+      "color": "#d97706",
+      "price": 88.91,
+      "dayChangePct": -8.5,
+      "monthChangePct": -8.5,
+      "historyLabels": [
+        "11/19",
+        "11/20"
+      ],
+      "historyValues": [
+        97.17,
+        88.91
+      ],
+      "marketCap": 1164000000000,
+      "marketCapCurrency": "USD",
+      "netIncome4Q": -120849000000,
+      "netIncome1Q": -23291000000,
+      "netIncomeCurrency": "USD",
+      "latestQuarterDate": "2026-09-30",
+      "quartersUsed": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "per4Q": -9.63,
+      "per1Qx4": -12.49,
+      "valuationNote": "S-1·분기 GAAP(비현금 평가손 포함)"
     },
     {
       "symbol": "005930.KS",
@@ -477,33 +644,48 @@
       "category": "tech",
       "unit": "원",
       "color": "#3b82f6",
-      "price": 206000.0,
-      "dayChangePct": -0.96,
-      "monthChangePct": -11.21,
+      "price": 180900,
+      "dayChangePct": -8.13,
+      "monthChangePct": -13.43,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        229000.0,
-        219500.0,
-        218000.0,
-        201500.0,
-        188700.0,
         189900.0,
         198900.0,
         206000.0,
         208000.0,
-        206000.0
-      ]
+        206000.0,
+        196800.0,
+        190300.0,
+        194700.0,
+        196900.0,
+        183100.0
+      ],
+      "marketCap": 1171849500000000,
+      "marketCapCurrency": "KRW",
+      "netIncome4Q": 212870846000000,
+      "netIncome1Q": 75208134000000,
+      "netIncomeCurrency": "KRW",
+      "latestQuarterDate": "2026-09-30",
+      "quartersUsed": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "per4Q": 5.5,
+      "per1Qx4": 3.9,
+      "valuationNote": "보통주+우선주 합산"
     },
     {
       "symbol": "000660.KS",
@@ -512,33 +694,48 @@
       "category": "tech",
       "unit": "원",
       "color": "#ec4899",
-      "price": 1216000.0,
-      "dayChangePct": -3.03,
-      "monthChangePct": -15.73,
+      "price": 1100000,
+      "dayChangePct": -7.02,
+      "monthChangePct": -8.99,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        1472000.0,
-        1398000.0,
-        1396000.0,
-        1264000.0,
-        1132000.0,
         1136000.0,
         1212000.0,
         1277000.0,
         1254000.0,
-        1216000.0
-      ]
+        1216000.0,
+        1120000.0,
+        1098000.0,
+        1144000.0,
+        1183000.0,
+        1113000.0
+      ],
+      "marketCap": 777479000000000,
+      "marketCapCurrency": "KRW",
+      "netIncome4Q": 188904587000000,
+      "netIncome1Q": 39534392000000,
+      "netIncomeCurrency": "KRW",
+      "latestQuarterDate": "2026-09-30",
+      "quartersUsed": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ],
+      "per4Q": 4.12,
+      "per1Qx4": 4.92,
+      "valuationNote": "연결 분기순이익"
     },
     {
       "symbol": "CL=F",
@@ -547,32 +744,32 @@
       "category": "geopolitics",
       "unit": "$",
       "color": "#eab308",
-      "price": 88.56,
-      "dayChangePct": -0.2,
-      "monthChangePct": -6.87,
+      "price": 83.41,
+      "dayChangePct": 0.24,
+      "monthChangePct": -14.14,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        96.46,
-        96.09,
-        88.12,
-        90.52,
-        90.83,
         86.85,
         86.04,
         86.53,
         88.74,
-        88.56
+        88.56,
+        85.72,
+        86.01,
+        83.26,
+        83.21,
+        83.98
       ]
     },
     {
@@ -582,32 +779,32 @@
       "category": "geopolitics",
       "unit": "$",
       "color": "#d97706",
-      "price": 6.09,
-      "dayChangePct": -1.5,
-      "monthChangePct": -7.89,
+      "price": 5.49,
+      "dayChangePct": -2.49,
+      "monthChangePct": -16.17,
       "historyLabels": [
-        "11/02",
-        "11/03",
-        "11/04",
-        "11/05",
-        "11/06",
         "11/09",
         "11/10",
         "11/11",
         "11/12",
-        "11/13"
+        "11/13",
+        "11/16",
+        "11/17",
+        "11/18",
+        "11/19",
+        "11/20"
       ],
       "historyValues": [
-        6.54,
-        6.38,
-        6.4,
-        6.25,
-        6.22,
         6.33,
         6.22,
         6.27,
         6.18,
-        6.08
+        6.08,
+        6.0,
+        5.98,
+        5.66,
+        5.62,
+        5.48
       ]
     }
   ],
@@ -615,86 +812,86 @@
     {
       "category": "macro",
       "source": "CNBC Economy",
-      "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
-      "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
-      "pubDate": "Fri, 13 Nov 2026 21:18:30"
+      "title": "Tech outages are fueling a new doomsday economy",
+      "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
+      "pubDate": "Sat, 21 Nov 2026 15:04:56"
     },
     {
       "category": "macro",
       "source": "CNBC Economy",
-      "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-      "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-      "pubDate": "Fri, 13 Nov 2026 15:44:16"
+      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+      "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+      "pubDate": "Fri, 20 Nov 2026 01:49:03"
     },
     {
       "category": "macro",
       "source": "CNBC Economy",
-      "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
-      "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
-      "pubDate": "Fri, 13 Nov 2026 17:06:57"
+      "title": "Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "pubDate": "Wed, 18 Nov 2026 14:09:26"
     },
     {
       "category": "macro",
       "source": "CNBC Economy",
-      "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
-      "link": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html",
-      "pubDate": "Thu, 12 Nov 2026 08:02:15"
+      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+      "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
+      "pubDate": "Wed, 18 Nov 2026 07:57:37"
     },
     {
       "category": "macro",
       "source": "CNBC Economy",
-      "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "pubDate": "Thu, 12 Nov 2026 23:08:50"
+      "title": "Japan exports in October surge 20.5%, beating estimates on robust chip shipments",
+      "link": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
+      "pubDate": "Wed, 18 Nov 2026 00:35:31"
     },
     {
       "category": "macro",
       "source": "CNBC Economy",
-      "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
-      "link": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html",
-      "pubDate": "Wed, 11 Nov 2026 12:27:47"
+      "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+      "pubDate": "Tue, 17 Nov 2026 13:40:54"
     },
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
-      "pubDate": "Sat, 14 Nov 2026 07:08:45"
+      "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+      "link": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+      "pubDate": "Sat, 21 Nov 2026 16:57:34"
     },
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "SpaceX launches Starship in key test flight of massive rocket",
-      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
-      "pubDate": "Sat, 14 Nov 2026 01:18:51"
+      "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+      "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+      "pubDate": "Sat, 21 Nov 2026 16:40:05"
     },
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "pubDate": "Fri, 13 Nov 2026 23:54:36"
+      "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+      "link": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
+      "pubDate": "Fri, 20 Nov 2026 21:35:24"
     },
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-      "pubDate": "Fri, 13 Nov 2026 20:21:46"
+      "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+      "link": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+      "pubDate": "Fri, 20 Nov 2026 19:42:53"
     },
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "pubDate": "Fri, 13 Nov 2026 23:42:18"
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "pubDate": "Fri, 20 Nov 2026 22:59:33"
     },
     {
       "category": "tech",
       "source": "CNBC Tech",
-      "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
-      "link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
-      "pubDate": "Fri, 13 Nov 2026 18:56:26"
+      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "pubDate": "Fri, 20 Nov 2026 20:47:58"
     },
     {
       "category": "equities",
@@ -720,9 +917,9 @@
     {
       "category": "realestate",
       "source": "Google 뉴스 (한국 부동산/정책)",
-      "title": "[부동산 결산 2024] \"조였다 풀었다\" 오락가락 정책에 수요자 '혼돈' - 리얼캐스트",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PdmlvUEphWGN5TDFUd202RzBLZzVnUWRCYkM0aW90SnFxYnhid0JfcjlEXy1fMGc3a3lCQ0VZM2daLVlnUEhkX3BvdHJSR285S3lVbkd3LUJUS1oxUks5cHJ2ZVppbWN1?oc=5",
-      "pubDate": "Thu, 26 Dec 2024 08:00:00"
+      "title": "GTX도 못 채운 갈증…신도시 부부, 새 정부에선 ‘in서울’ 가능할까?[대선, 내 삶을 바꿀까②] - 한경매거진",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXUDlGdVBha0hvWndibmU4N01Cd3RSdnhUSk5BRXpQd19VclUyaTBNclpyenRwRjFDOXo3VEszbklkNWxYNnJybzdaYjBkLWQ2Z3k4R2Y1NVpXcm1zV1EtRUZNR2kydnY2ejZoRA?oc=5",
+      "pubDate": "Mon, 26 May 2025 07:00:00"
     },
     {
       "category": "realestate",
@@ -734,23 +931,23 @@
     {
       "category": "realestate",
       "source": "Google 뉴스 (한국 부동산/정책)",
-      "title": "‘GTX’ 수혜보고 ‘DSR’ 규제는 피했다 ‘힐스테이트 광주곤지암역’ 계약 속도 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ObkpqbFFMRHcwZ3NGd3g2NjZ2eG13TjRLYjByME1UOVpjZWJVUjhzNFg0V2FFYVBRc08wakxZbTlBeTlUNERwMW5GRzRQUW1hTEHSAVNBVV95cUxNcjN6Uk44RnhTbVBtcThVRFU1bm1wYW1rMVVRc1BGNzdJempiT1VxMmJ0ZnFJTlVsUE5TWThlbEY5TFZOUTAtTWNjN0F2MmxPWVhaQQ?oc=5",
-      "pubDate": "Thu, 05 Jun 2025 07:00:00"
-    },
-    {
-      "category": "realestate",
-      "source": "Google 뉴스 (한국 부동산/정책)",
       "title": "집 사려면 7월 전에 사라? 주택 마련 유형별 알아둬야 하는 부동산 제도 - 리얼캐스트",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fMXdkQnc1b0IxTmJFUlItRDZ1cjMwd1EyS3Q4TWpNbVBwVUxTNHNTMHhSaG1lc04zMzBjTV9zcnl1b0laUGNCbFdDdzBUMlJoV2J5ZlFDeUxFcGpxNWczUGRQVlJ2RmRh0gFsQVVfeXFMTlh4d0IzREdwajM2bExtVmFKc1Ffa1JRNFJuOENnQXhsMldnTlhuTGllYzl3S3ItRzZCYzV5aTdYcmJsTk8xOXpybHFfc1RYemRmS2lSWnM4SG9GYTd6OUV2TUdQTGt3MUpaQWZj?oc=5",
       "pubDate": "Thu, 02 Jan 2025 08:00:00"
     },
     {
+      "category": "realestate",
+      "source": "Google 뉴스 (한국 부동산/정책)",
+      "title": "‘GTX’ 수혜보고 ‘DSR’ 규제는 피했다 ‘힐스테이트 광주곤지암역’ 계약 속도 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ObkpqbFFMRHcwZ3NGd3g2NjZ2eG13TjRLYjByME1UOVpjZWJVUjhzNFg0V2FFYVBRc08wakxZbTlBeTlUNERwMW5GRzRQUW1hTEHSAVNBVV95cUxNcjN6Uk44RnhTbVBtcThVRFU1bm1wYW1rMVVRc1BGNzdJempiT1VxMmJ0ZnFJTlVsUE5TWThlbEY5TFZOUTAtTWNjN0F2MmxPWVhaQQ?oc=5",
+      "pubDate": "Thu, 05 Jun 2025 07:00:00"
+    },
+    {
       "category": "gold",
       "source": "Google 뉴스 (금 시세/전망)",
-      "title": "[금 시세] 금값 폭락에도 멈추지 않는다…\"지금이 저가 매수 기회?\" 파격적인 금 매입 행진 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5odzBYZFRMeXU4ZG9oYmVERExveE9tSXJnRUtOOUhtQnByMzJFT0g0VG4wRExlOWk1TF9UMllkNmRqa2dqSFdLc3hPYThYQlRXU1NoaEpoaHU1bl9zQmtrMXM1RjRLZFRh?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 21:40:00"
+      "title": "“금값 떨어진 지금이 기회다”…골드바 쌓기 시작한 한·중 중앙은행 [원자재로 살아남기] - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4aFFzbk1HaXR2Z1pGdE4xNW5SbTg3SEEwQ3B5a3pVLTh5ekVnR0diZGxGMXhjTmtWTkFpd2FHWHhMc3E2dy0wY056dVllNjJKeFE?oc=5",
+      "pubDate": "Sat, 08 Aug 2026 07:00:00"
     },
     {
       "category": "gold",
@@ -762,16 +959,16 @@
     {
       "category": "gold",
       "source": "Google 뉴스 (금 시세/전망)",
-      "title": "“저점 매수 가자”…중국, 금값 폭락한 6월도 금 보유량 늘려 - 이데일리",
+      "title": "“저점 매수 가자”…중국, 금값 폭락한 6월도 금 보유량 늘려 - edaily.co.kr",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0p1TEVzWE50bzFZQ1BwY1VCUlVQRXYwS3lkVTRrTHJHNU13UlNMMUNJVFBxVDdNU1dQVFpMWEJETDRIeW5seXdQWEVLNnAybWQ0eTlKNVlzeTJWWnV1NkZnWWhoNmxfR0c5S1V0NTNIMTdRWURCREVFMXdVa2t6aA?oc=5",
       "pubDate": "Wed, 08 Jul 2026 07:00:00"
     },
     {
       "category": "gold",
       "source": "Google 뉴스 (금 시세/전망)",
-      "title": "[금값 시세] 금 사재기 국가 러시아의 변심…24년 만의 최대 감소 배경은? - 핀포인트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Gby1HUjZ6N0ljanNIaFlCZC1fdTZMOXVRRzRENU94WEVGYjlHbFdFUnNqNHRQSi1nUDRJdEZURWVha21YOEVmbi1seDZXSjIzRzE5WnRnak01WFg1TUp1M1pWcGFadVQtVjlMQVM4RnkwY1XSAXdBVV95cUxQbGRDSk5IV2V0ZEVOMVhXajdOT3JCRVVfMThBN1JNTGh4dzVfNXc4cThUaE9FeDZzOXRWWTdBSktLYk00cmZIR0ZJZmFWTVJlT1hmRFlqcmZpeUI2VTJpY2Jpb0RDRHdvT3BXSUxGQ2ZWZEp4d1NpOA?oc=5",
-      "pubDate": "Tue, 26 May 2026 07:00:00"
+      "title": "금 1㎏이면 일본 소도시 집 한 채 산다? 골드만삭스 ‘금값 5천달러’ 전망 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55LVlYUEkwZXc0R1lIWmhZX3hVaG1hR2xiZURVcWpDc3plVHVxN1NlNzZHQ3YzZlloSndNeDJFXy1lY25pWUJSQW9NOXBVZGlxQnQ5ZEd6WEFMeGREZDA3Q0JpeTlyeGtoVF85Yks2SHFQQQ?oc=5",
+      "pubDate": "Sat, 16 May 2026 07:00:00"
     },
     {
       "category": "gold",
@@ -783,51 +980,51 @@
     {
       "category": "gold",
       "source": "Google 뉴스 (금 시세/전망)",
-      "title": "금 1㎏이면 일본 소도시 집 한 채 산다? 골드만삭스 ‘금값 5천달러’ 전망 - 한겨레",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55LVlYUEkwZXc0R1lIWmhZX3hVaG1hR2xiZURVcWpDc3plVHVxN1NlNzZHQ3YzZlloSndNeDJFXy1lY25pWUJSQW9NOXBVZGlxQnQ5ZEd6WEFMeGREZDA3Q0JpeTlyeGtoVF85Yks2SHFQQQ?oc=5",
-      "pubDate": "Sat, 16 May 2026 07:00:00"
+      "title": "Q&A로 풀어보는 금테크 - 톱클래스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuUkpVTGdvZDJ1ZkFmMTFSZHNpYlRzUGdDQlRKZDAtS0hJLTJoYnkwWWl1aHJ5WUthdDVPOHMyRmFsRDBTR19jRW5MLWtKME1DZjBkSEg1LXNpOTBjYXNDWE1PQVRqQXgzRzZiQ9IBcEFVX3lxTE05cVBYTnhDcjZ0dFZJZ3FOUW1CaHZ4eS1lZ0tFdHZnQ1ZlX1FNTWc3VlpVa1JFcFJvcl9QNVVGMTVXM2l4M2FKQzd6VUpBYXJRNVRNVVdjRy1PTzQ2RFZaZTNOUnhFTkJ4RzY4M0VtX3g?oc=5",
+      "pubDate": "Mon, 30 Jun 2025 13:01:42"
     },
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "비트코인 현물 ETF, 1억8540만달러 순유출…7거래일 연속 - 블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBODZUNWpOdDMtak9qOHZMUXBYYmp1dVdvcHJFNXRYbnBmaEVCWGE2dzRNLS0wUy1pU2paaVllXzJmbnpLWUg3a3I4VXBJOUZs?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 06:27:09"
+      "title": "비트코인 6만 달러선 붕괴…기관 자금 이탈에 가상자산 시장 급락 - 산경투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1haXJILXFBUFd1aUVzMlo5aU9JcENmMlUxUmh4amN2b0JTd0xyYzFaRF9oM1RvT2NSaDNBQnQ4NktadEJsbGV0aHNxRFJ4R1dPLVQwQ3N6MTlja25VMXhjUU9IRWV6dHptTWIwdFB5NFLSAXRBVV95cUxPa3c2VFZaa1doemEyLW9hUFlWYmhLRWNxYVd6WWpJdGN0Umo1eDJMckJVRmdfbm1Jd040Rm9fNUJxT0JLbnloaXlBeVRxZzRMdjhVRk1oRHp4VmpyX00tanpQUFFhcEZjRURrcmJvc25zUFU2Xw?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 00:56:45"
     },
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "엔비디아 CEO 사임에 비트코인 1억원 붕괴…'기술주 종속' 드러나 - 리드경제",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UblIyNXBLUV9uTlFrX1lpREFvZ3NLTVBRTm52bElIN2tWX2RiV0wxVndSdzFpVFE4VXUzTWdUZEhPZklwQl80TGhyT3FyVWZZSnh0WFJhYlEtYjFKRFctQXpicENjUWhKZ2hibkJyNU4?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 01:27:00"
+      "title": "비트코인, 6만1000달러대로 ‘뚝’…일주일 새 13%↓ - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GaUdMRHI2NjI1ZDlXZ0MyZmZFUkhTNzFsc3ZSZm81RFBvci12X2YxQjlhWS1wOW1CSGh1LU5jX0dNb1dsZ0pLaldBQzYzOC1kU0VyMUcxbWRZTEZvcjlwbFFFQmloUjFLNXRMOEtR?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 05:23:27"
     },
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "비트코인 또 급락! 물가 충격에 ETF 자금까지 이탈…7만 달러 경고등 - 코인리더스",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBWSkJTaVNEeFlnazB5N0NGUGh0SUlqTmZ0c2VLaEh6UEpYZ25IcHBUc20wQnpJWDhOd0VJd1FVczJEbzRIMkJ4QWFR?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 21:51:00"
+      "title": "[인사이트 뉴스] 비트코인 4개월 만에 6만달러 붕괴…2022년 이후 최장 약세 - https://www.moneystorm.kr/",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GODdCQm5sV0hoVGFTak9zM1A4eVhVbXFLMWVJU1c0Vi1xYUE3NGNTam5EQ2hYR3F5NzdnTGdEZE9aaWlCOFcyMTZzbkR1VHpTTWtsZ1N5azNKWnM5NnZFeXp6Q1lKaHk3NFE?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 23:35:02"
     },
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "비트코인 ETF, 규제 풀리면 곧바로 나올 수 있을까 - 한경매거진",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZU1M0b05vNE1RVl9ZdEN0M3Zacmc0UXREYktNLTl2Sy1oSENHZjJBSUZ3N1JzMk9UV29FUHh5UVZIRmpCUUJfTTQzbHZFN3hDMkdDSUtOSURJV0VGN25RX1NteFBVOVlt?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 21:00:00"
+      "title": "기관, 비트코인 ETF 다시 담았다…보유 규모 사상 최대 - 블루밍비트",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmdUZXYmhvN2RTSTFiYkFZcEdmbUYyOTdiVGdMQjRKeldlTXo1NlZGT1I1djN2MTBkQnlFOWVZeEMzQl9QZHpFWEJnRmU0cTh1?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 04:16:20"
     },
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "바이낸스 리서치: 기관 자금은 왜 비트코인 ETF만 사고 액티브 펀드는 사지 않을까? - PANews",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YQ2U0SDA0NlhEM2V4ODJROFpISGw3NWlIV1lqOUFUSUdfaWJITGdDdnBtcEtMQ1NnT1BULWoyMkVQV19PN3V6TV8xaEZOLXlZbjBWVHRqMExYdDdqTDcxb2tnRjVmOGRLYmJNbkJMYjVLdHFaSHJGNkJRQm02Slk?oc=5",
-      "pubDate": "Wed, 11 Nov 2026 12:36:10"
+      "title": "美 기관투자자들, 3개 분기 연속 매도 끝내고 비트코인 현물 ETF 대규모 매수 - 코인리더스",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBUMnBYVk5zME42QmJQcE9QLTA1bVNBeFpVSUFEcS1PRXRQd0xhVzJUWFptbmhoSEVDQlE1ODFkQzh5V2I4OGQtRXd3?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 11:27:00"
     },
     {
       "category": "crypto",
       "source": "Google 뉴스 (비트코인 ETF)",
-      "title": "비트코인·알트코인 줄줄이 추락…투자자 '한숨만' - 블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GdmxqZl9nMTRHTHhNTERxYWNhbURJUHdkZWxTcHQ3RUNGalpoSm9BMXlDV3Y5a1hWdUxSdHVQLXRqZ05qYmlJNkdPdGV6MmZG?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 04:00:48"
+      "title": "비트코인 6만 달러 위협…현물 ETF서 29억 달러 이탈, 블랙록에 83% 집중 - 비온미디어",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xeHgwZVhtQUVPYUlieExpUlFWUjlfZFQwMWNjTXA4VFBhMG5LUTBYXzlKRU5RYkRUUW9ZWHkzN0hwaWdUVWlEZ01KSlJKYlJjbVV5N0ZTWUZVY0xnWlBNN3Zvei1xeEXSAWtBVV95cUxPU05BV0JCQnJhRlNfM1JYWlpUWWRPb1lXUzNTYk1HdUFFMW1aYnRpYTRwT1dBQlNpcWtQZkx6OUxtSWFkOUxBNjFiTXU2TXNBVUxuVDdNMHlwazBWNHJaUjdZOGF5VkU1MGoxTQ?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 05:04:37"
     }
   ],
   "agendas": [
@@ -837,8 +1034,8 @@
       "categoryLabel": "거시경제 · 금리",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🔴 시사점 점검 (월러 연준 이사 '인플레 지속 시 12월 FOMC 강경 대응' 매파 발언! 미 10년물 5.14~5.15% · 2년물 4.85% 고금리 장기화 대비)",
-      "title": "[11/14 이브닝] 크리스토퍼 월러 연준 이사의 매파 경고와 미 국채 10년물 '5.14~5.15%' · 2년물 '4.85%': 금리 인하 기대 후퇴 속 생존 포트폴리오",
+      "deltaLabel": "🔴 시사점 긴급 전환! (금요일 글로벌 AI 투매 쇼크: 나스닥 -5.28%(22,617)·S&P500 -3.70%(6,910·조정장 진입)·코스피 -5.21%(4,869)! 반면 미 10년물 4.95% 급락 & 환율 1,336.2원 방어)",
+      "title": "[11/22 모닝·주말 긴급 시황] 나스닥 -5.28%·코스피 4,869(-5.21%) 폭락과 '12월 금리인상 90% 반영': 미 10년물 4.95% 하회 속 생존·저가매수 전략",
       "subtitle": "휴장 마친 채권시장의 사후 금리 반영(5.00% ➔ 5.10%)에도 S&P500 7,592pt·필라델피아 반도체(SOX) 10,506pt 사수… AI 실적 장세 굳건",
       "chartImage": "assets/charts/agenda_01.svg",
       "chartConfig": {
@@ -936,8 +1133,8 @@
       "categoryLabel": "거시경제 · 금리",
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
-      "deltaLabel": "🔴 시사점 점검 (미 현물 국채 재개장 후 10년물 금리 5.10%(+2.10%) 급등… 단 1개월 고점 대비 -2.61% 낮은 구간으로 '연 5.1% 확정금리' 매수 호기)",
-      "title": "[11/14 이브닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
+      "deltaLabel": "🟢 채권 시사점 대적중! (증시 폭락 속 안전자산 쏠림으로 미 10년물 국채금리 '5% 하회 ➔ 4.95%' 급락! 5.1%대 분할매수했던 미국채 완벽한 방패 역할)",
+      "title": "[11/22 모닝·국채의 귀환] 증시 -5% 폭락장에 빛난 안전자산 헤지: 미 10년물 금리 '4.95%' 하회(채권 가격 급등)와 바벨 포트폴리오의 위력",
       "subtitle": "재향군인의 날 휴장 후 열린 현물 채권시장에 CPI 잔여 매물 및 국채 입찰 물량 일시 반영… 1개월 전 고점(5.23%)보다는 여전히 낮은 고금리 파킹 구간",
       "chartImage": "assets/charts/agenda_02.svg",
       "chartConfig": {
@@ -945,34 +1142,34 @@
         "title": "미국 10년물 국채금리(^TNX) 최근 10거래일 추이 및 5.10% 돌파 (%)",
         "subtitle": "현물 채권시장 재개장과 함께 5.00%에서 5.10%(+2.10%)로 점프… 1개월 변동은 -2.61%로 고점권 저항 테스트 및 고금리 매수 유입 구간",
         "labels": [
-          "11/02",
-          "11/03",
-          "11/04",
-          "11/05",
-          "11/06",
           "11/09",
           "11/10",
           "11/11",
           "11/12",
-          "11/13"
+          "11/13",
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19",
+          "11/20"
         ],
         "values": [
-          4.89,
-          4.95,
-          4.89,
-          4.84,
-          4.86,
           4.86,
           4.98,
           5.0,
           5.1,
-          5.15
+          5.15,
+          5.12,
+          5.1,
+          5.07,
+          5.05,
+          4.91
         ],
         "unit": "%",
         "color": "#f43f5e",
         "benchmark_val": 5.0,
         "benchmark_label": "기준선 5.00%",
-        "badge_text": "LIVE 5.15%",
+        "badge_text": "LIVE 4.91%",
         "annotations": [
           {
             "index": 9,
@@ -1036,7 +1233,7 @@
       "importance": "HIGH",
       "deltaStatus": "MAINTAINED",
       "deltaLabel": "🟢 시사점 강화 (BofA 리포트 '미 가계 가성비 유통 채널로 하향 소비(Trading Down) 뚜렷' & WTI 유가 $88.56~$88.92로 2주 연속 주간 하락 안정)",
-      "title": "[11/14 이브닝] 고물가에 지친 미국 소비자의 '트레이딩 다운(가성비 이동)'과 2주 연속 하락한 WTI 유가($88.56): 필수소비재·할인점 대장주 부각",
+      "title": "[11/22 모닝] 고물가에 지친 미국 소비자의 '트레이딩 다운(가성비 이동)'과 2주 연속 하락한 WTI 유가($88.56): 필수소비재·할인점 대장주 부각",
       "subtitle": "최근 2주간 $104.12 ➔ $85.69 폭락에 따른 저가 매수 및 러·우 정유소 타격으로 $88.70 반등… 인플레 위험선($90~$100) 아래 안정 지속",
       "chartImage": "assets/charts/agenda_03.svg",
       "chartConfig": {
@@ -1134,8 +1331,8 @@
       "categoryLabel": "거시경제 · 금리",
       "importance": "CORE",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (미 10년물 5.10% 도달에도 원/달러 환율 1,334.53원(-0.55%) 철벽 방어! 한국 외환보유고 미 국채 운용 수익 극대화)",
-      "title": "[11/14 이브닝] 미 금리가 5.10%로 뛰었는데 한국 환율은 1,334원(-0.55%)으로 안정된 기적: 한은(2.50%)과 외환보유고($443B+)의 미소",
+      "deltaLabel": "🔴 채권시장 만장일치 경고 (11/26 한은 금통위 '3.00% ➔ 3.25% 인상' 압도적 컨센서스 + 2027 초 '최종금리 3.50%' 점도표 시사 전망! 주담대·부동산 압박)",
+      "title": "[11/22 모닝·한은 최종금리 3.50% 예고] 11/26 한은 3.25% 인상 만장일치 전망 & '2027 초 3.50% 최종금리' 점도표 경계: 채권·은행·주담대 대응",
       "subtitle": "한·미 금리차 확대에도 흔들리지 않는 원화 가치… 한국 당국의 '미 장기 국채 전략 매입'은 연 5.10% 고금리로 이자수익 대박 예고",
       "chartImage": "assets/charts/agenda_04.svg",
       "chartConfig": {
@@ -1230,7 +1427,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 (달러 인덱스 103.41(+0.23%) 강세에도 역외 원/달러 환율 '1,335.0원' 하향 안정! 1,335원 구간 달러 분할 매수 찬스)",
-      "title": "[11/14 이브닝] 달러 인덱스(DXY) '103.41' 돌파에도 역외 원/달러 환율은 '1,335.00원' 안착: 주말 환테크·달러RP 확보 골든타임",
+      "title": "[11/22 모닝] 달러 인덱스(DXY) '103.41' 돌파에도 역외 원/달러 환율은 '1,335.00원' 안착: 주말 환테크·달러RP 확보 골든타임",
       "subtitle": "미 금리 5.10% 발 글로벌 강달러(DXY 103.17) 폭풍을 정면으로 이겨낸 원화… 달러 자산(미국 주식·5.10% 미국채·금·BTC) 환전 찬스 지속",
       "chartImage": "assets/charts/agenda_05.svg",
       "chartConfig": {
@@ -1238,34 +1435,34 @@
         "title": "원/달러 환율(USD/KRW) 최근 10거래일 추이 및 1,334.53원 강세 안착 (원)",
         "subtitle": "간밤 미 국채금리 5.10% 급등 및 달러 인덱스 103.17 돌파에도 전일 종가 대비 -0.55% 낮은 1,334.53원으로 초강세 지속",
         "labels": [
-          "11/03",
-          "11/04",
-          "11/05",
-          "11/06",
           "11/09",
           "11/10",
           "11/11",
           "11/12",
           "11/13",
-          "11/14"
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19",
+          "11/20"
         ],
         "values": [
-          1344.81,
-          1342.9,
-          1340.07,
-          1356.34,
           1362.7,
           1343.84,
           1341.91,
           1336.26,
           1333.78,
-          1336.2
+          1333.25,
+          1335.67,
+          1333.01,
+          1330.4,
+          1334.79
         ],
         "unit": "원",
         "color": "#10b981",
         "benchmark_val": 1340.0,
         "benchmark_label": "핵심 저항선 1,340원",
-        "badge_text": "LIVE 1,336.20원",
+        "badge_text": "LIVE 1,346.13원",
         "annotations": [
           {
             "index": 9,
@@ -1328,8 +1525,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
-      "deltaLabel": "🟢 시사점 강화 (엔비디아 $162.85(-2.01%) 눌림목 & 콜레트 크레스 체제 '루빈/HBM4 로드맵 정상 가동 + TSMC 3nm NVHBM 베이스다이 표준화' 추진)",
-      "title": "[11/14 이브닝] 엔비디아($162.85) 콜레트 크레스 체제와 'TSMC 3nm NVHBM 베이스다이' 표준화: 메모리 하청화 우려를 돌파할 K-반도체의 해법",
+      "deltaLabel": "🟢 시사점 역사적 대폭발!! (엔비디아 '장기 공급계약·캐파 예약 약정액 1개 분기 만에 +$111B 폭증한 $390B(약 520조 원)' 달성! HBM4·CoWoS·기판 싹쓸이 입증)",
+      "title": "[11/22 모닝·엔비디아 520조 입도선매] 엔비디아 장기 공급약정액 '$390B(분기 +$111B 폭증)'의 충격: 삼성·SK HBM4와 TSMC 패키징을 통째로 예약했다!",
       "subtitle": "미 금리 5.10% 여파로 주가는 $166.19(-4.34%) 숨고르기… 11/19 실적 앞두고 메모리 의존도 낮추고 대역폭 극대화하는 자체 베이스다이·3D D램 구상 부각",
       "chartImage": "assets/charts/agenda_06.svg",
       "chartConfig": {
@@ -1427,8 +1624,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대폭발! (삼성전자·SK하이닉스 '탈(脫)엔비디아 편중 해법' 가동: 구글 상업용 AI 칩 'TPU 8i Max · 8tx' 및 브로드컴 향 HBM 공급 대확장!)",
-      "title": "[11/14 이브닝] 엔비디아 의존도 낮추는 삼성전자(206,000원)·SK하이닉스의 비장의 카드: '구글 TPU 8i Max · 8tx(브로드컴 동맹)' 향 HBM 공급 확대!",
+      "deltaLabel": "🔴 주가 vs 공장 가동률 괴리! (11/19 미 16nm 이하 대중 규제 발효에 삼성 180,900원(-8.13%) 급락… 그러나 실제 삼성·SK 메모리 팹 가동률은 '100% 육박 풀가동'!)",
+      "title": "[11/22 모닝·삼성전자 18.2만원 급락 점검] 글로벌 AI 투매에 -7.31%(182,500원) 밀린 삼성전자: 1c D램 HBM4·삼성전기 세종/부산 기판 증설 펀더멘털 점검",
       "subtitle": "카운터포인트·VLSI 분석 '전례 없는 메모리 가격 결정권 슈퍼사이클'… 올해 HBM4가 HBM3E의 매출과 출하량을 모두 추월한다",
       "chartImage": "assets/charts/agenda_07.svg",
       "chartConfig": {
@@ -1526,8 +1723,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (미 금리 5.10%·엔비디아 -4.34% 속에서도 TSMC $405.49(-1.90%)로 '$400 핵심 지지선' 철벽 방어! 파운드리-메모리 통합의 심장)",
-      "title": "[11/14 이브닝] 미 금리 5.10% 폭풍 속 '$405.49(-1.90%)'로 $400 지지선 지켜낸 TSMC: 모든 AI 칩과 HBM4 베이스다이가 지나는 관문",
+      "deltaLabel": "🟢 시사점 대폭발! (TSMC 'CoWoS 패키징 최대 20% · 2나노 선단공정 5~10% 가격 인상' 검토! 엔비디아 서버 15%+ 인상에 이은 독점 공급망의 완벽한 가격 전가)",
+      "title": "[11/22 모닝·TSMC 가격인상] TSMC 'CoWoS 패키징 20% · 2나노 공정 5~10% 단가 인상' 추진: 반도체 조정장을 압도할 슈퍼을(乙)의 가격결정력",
       "subtitle": "엔비디아가 -4.34% 빠진 날에도 TSMC는 단 -1.90% 조정으로 $405 안착… 파운드리와 메모리가 하나로 합쳐지는 'HBM4 3nm 베이스다이' 독점 효과",
       "chartImage": "assets/charts/agenda_08.svg",
       "chartConfig": {
@@ -1625,8 +1822,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대폭발! (SK하이닉스 6세대 'HBM4 양산 수율 70% 돌파' 쾌거! 금요일 1,216,000원(-3.03%) 눌림목을 압도하는 2029년 완판 펀더멘털)",
-      "title": "[11/14 이브닝] SK하이닉스(1,216,000원) 'HBM4 양산 수율 70% 전격 돌파'! HBM3E 매출 추월 카운트다운과 120만 원대 분할 매수 기회",
+      "deltaLabel": "🔴 시사점 점검 (글로벌 AI 투매 여파에 SK하이닉스 -6.59% 급락 '1,105,000원'! 12단 HBM4 완판·엔비디아 $390B 약정 대비 극단적 매크로 디커플링 구간)",
+      "title": "[11/22 모닝·SK하이닉스 110.5만 재조정] 펀더멘털(12단 HBM4·$390B 약정)은 그대로인데 주가만 -6.59%(1,105,000원): 변동성 장세 분할매수 기준선",
       "subtitle": "메모리 맨 아래층이 단순 버퍼에서 '초정밀 로직 프로세서'로 진화… 파운드리-메모리 권력 재편 속 한국 양대 반도체의 서로 다른 필승 공식",
       "chartImage": "assets/charts/agenda_09.svg",
       "chartConfig": {
@@ -1724,8 +1921,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (미 금리 5.10% 속 필라델피아 반도체 지수(SOX) 10,506.67(-0.54%)로 10,500pt 사수! 삼성 온양 5라인·SK MR-MUF 후공정 장비 발주 탄력)",
-      "title": "[11/14 이브닝] 미 금리 5.10%에도 '10,506pt(-0.54%)' 지켜낸 필라델피아 반도체(SOX): 2029년까지 완판된 HBM4가 부른 후공정 장비 대호황",
+      "deltaLabel": "🟢 시사점 대강화! (엔비디아 2028 ABF 기판 동맹 '삼성전기', 수랭식 베라 루빈 서버용 '초고용량 AI MLCC + FC-BGA 기판' 쌍끌이 수혜 폭발!)",
+      "title": "[11/22 모닝·삼성전기 기판·MLCC 독식] 엔비디아 베라 루빈이 쏘아 올린 '삼성전기(ABF 기판 2028 증설 + AI 서버용 고온 MLCC)'와 후공정 슈퍼사이클",
       "subtitle": "전일 +5.66% 폭등 후 단 -0.54% 조정으로 10,500선 안착한 SOX… 완판된 LTA 물량 맞추려면 삼성 온양 5라인·SK 청주 팹에 패키징 장비 계속 넣어야",
       "chartImage": "assets/charts/agenda_10.svg",
       "chartConfig": {
@@ -1805,8 +2002,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "HIGH",
       "deltaStatus": "MAINTAINED",
-      "deltaLabel": "🟡 시사점 유지 (2029년까지 완판된 HBM4를 가동할 물리적 전제조건: '랙당 200~230kW 루빈 전력망 · 800V DC 배전 · 직결 액체냉각')",
-      "title": "[11/14 이브닝] 2029년까지 완판된 HBM4와 루빈(230kW 랙)을 돌릴 전기와 냉각수: 금리 5.10%와 무관한 '초고압 변압기 · 액체냉각' 독주",
+      "deltaLabel": "🟢 시사점 강화 (블랙웰 NVL72(120~140kW) 발열 설계 개량 완료 & 베라 루빈(190~230kW)·루빈 울트라(600kW) 시대 '직결 수랭식(Liquid Cooling)' 100% 의무화!)",
+      "title": "[11/22 모닝·AI 열관리 혁명] 공랭식의 종말과 '직결 액체냉각(Liquid Cooling)' 의무화: 블랙웰(140kW) 넘어 루빈(230kW)·울트라(600kW)가 부른 수랭식 슈퍼사이클",
       "subtitle": "빅테크가 3년 치 HBM4를 입도선매했다는 것은 3년 치 변압기·배전반·수랭식 냉각기도 똑같이 사들여야 한다는 뜻… 전력 인프라 수주 잔고 직결",
       "chartImage": "assets/charts/agenda_11.svg",
       "chartConfig": {
@@ -1886,8 +2083,8 @@
       "categoryLabel": "미래기술 · 우주 · 로봇 · 바이오",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대폭발! (스타십 Flight 15 발사 성공! 상단 '쉽 42' 고도 275km 궤도 진입 및 '스타링크 V3 위성 26기 실전 사출' 쾌거 · 22시간 궤도 비행 돌입!)",
-      "title": "[11/14 이브닝·스타십 Flight 15 속보] 상단 '쉽 42(Don't Panic)' 275km 저궤도 진입 & '스타링크 V3 26기 사출' 성공! (부스터22 멕시코만 안전 착수)",
+      "deltaLabel": "🟢 시사점 강화 (스페이스X '스타십 궤도 연료 이송' 및 '테슬라 옵티머스 휴머노이드 탑승 화성 무인 선발대' 로드맵 가동! 우주-로봇-AI 삼각 생태계 결합)",
+      "title": "[11/22 모닝·우주·로봇 대통합] 스타십 V4 '궤도 연료 이송'과 '옵티머스 로봇 화성 선발대' 프로젝트: 스페이스X·테슬라·xAI 밸류체인 재평가",
       "subtitle": "미 텍사스 스타베이스 발사대 출격… 1단 슈퍼헤비 포획 + 저궤도(LEO)에 차세대 스타링크 V3 위성 26기 배치 + 2단 스타십 상단 타워 포획까지 연속 도전!",
       "chartImage": "assets/charts/agenda_12.svg",
       "chartConfig": {
@@ -1967,8 +2164,8 @@
       "categoryLabel": "미래기술 · 우주 · 로봇 · 바이오",
       "importance": "CRITICAL",
       "deltaStatus": "MAINTAINED",
-      "deltaLabel": "🟡 시사점 유지 (뉴스케일파워 '상업용 SMR 모듈 실물 제조' & 미 에너지부 HALEU 핵연료 지원 vs 캐나다 OPG 지연… 두산에너빌리티 독점 수혜)",
-      "title": "[11/14 이브닝·SMR 실물 제조] 미 금리 5.10%에도 흔들림 없는 '두산에너빌리티'의 해자: 뉴스케일 SMR 모듈 실물 제작과 서방 원전 시공 병목",
+      "deltaLabel": "🟢 시사점 강화 (뉴스케일 'Gordian AI 인허가 가속 플랫폼' 도입 & 미 뉴욕전력청(NYPA) SMR 파이프라인 가동! 경남·두산에너빌리티 글로벌 SMR 제조 허브 도약)",
+      "title": "[11/22 모닝·미국 SMR 인허가 가속] 뉴스케일 'AI 인허가 가속' & 뉴욕전력청(NYPA) SMR 추진: 글로벌 SMR 파운드리 두산에너빌리티 수주 확대",
       "subtitle": "캐나다 달링턴 SMR 일정 지연이 증명한 서방의 제조력 부재… 도면을 실제 강철 원자로 모듈로 만들어낼 곳은 한국(두산)뿐",
       "chartImage": "assets/charts/agenda_13.svg",
       "chartConfig": {
@@ -2048,8 +2245,8 @@
       "categoryLabel": "미래기술 · 우주 · 로봇 · 바이오",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대강화! (테슬라 '텍사스·플로리다 24시간 연중무휴(24/7) 무인 로보택시 가동' & 수천 대 휴머노이드 자가학습 '옵티머스 아카데미' 구축!)",
-      "title": "[11/14 이브닝·테슬라 피지컬 AI] 텍사스·플로리다 '24/7 무인 로보택시' 상시 가동 & 수천 대 로봇 자가학습 '옵티머스 아카데미(Optimus Academy)' 공개!",
+      "deltaLabel": "🟢 시사점 대폭발! (테슬라 텍사스 하루 최다 '사이버캡 200대 신규 등록 ➔ 누적 1,500대 돌파'! 개인용 12월 인도 개시 + 1~2개월 내 옵티머스 실전 데모 예고)",
+      "title": "[11/22 모닝·테슬라 로보택시 1,500대 돌파] 텍사스 하루 200대 등록·총 1,500대 넘어선 사이버캡과 12월 개인 인도 개시: 폭락장 속 피지컬 AI 성장 지표",
       "subtitle": "인간 안전요원 없이 하루 24시간 돌아가는 로보택시 + 가상·현실 자가대결(Self-play)로 수천 대 로봇을 동시에 훈련시켜 기업에 렌탈(RaaS)하는 제국",
       "chartImage": "assets/charts/agenda_14.svg",
       "chartConfig": {
@@ -2129,8 +2326,8 @@
       "categoryLabel": "미래기술 · 우주 · 로봇 · 바이오",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (일라이 릴리 경구용 비만약 '파운다요(Foundayo · 오포글리프론)' 중국 국가약품감독관리국(NMPA) 최초 승인 완료!)",
-      "title": "[11/14 이브닝·바이오 제국 완성] 중국 NMPA가 최초로 허가한 먹는 GLP-1 비만약: 일라이 릴리 '파운다요(Foundayo · 오포글리프론)'의 독식",
+      "deltaLabel": "🟢 시사점 대폭발! (일라이 릴리 2026 연간 매출 가이던스 '$91B~$92B(약 122조 원)' 전격 상향! 마운자로·젭바운드·경구용 파운다요 삼각편대와 정밀항암 M&A)",
+      "title": "[11/22 모닝·연매출 122조 바이오 제국] 일라이 릴리 2026 가이던스 '$91B~$92B' 상향! 마운자로·젭바운드·파운다요 독주와 항암 바이오텍 M&A",
       "subtitle": "중국 국가약품감독관리국(NMPA)으로부터 경구용 GLP-1 체중관리 신약 최초 승인 획득… 미 Hims & Hers 원격의료 직판과 함께 미·중 G2 평정",
       "chartImage": "assets/charts/agenda_15.svg",
       "chartConfig": {
@@ -2211,7 +2408,7 @@
       "importance": "CORE",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 ('IBM 퀀텀 개발자 컨퍼런스(11/11~11/13)' 최종일! Nighthawk 프로세서 & 광자(Photonic)·결함허용 양자 스케일링 + 양자보안 PQC)",
-      "title": "[11/14 이브닝·양자컴퓨팅 컨퍼런스] 오늘 폐막하는 'IBM 퀀텀 개발자 컨퍼런스(11/11~13)' 총정리: Nighthawk 칩과 결함허용(Fault-Tolerant) 양자 스케일링",
+      "title": "[11/22 모닝·양자컴퓨팅 컨퍼런스] 오늘 폐막하는 'IBM 퀀텀 개발자 컨퍼런스(11/11~13)' 총정리: Nighthawk 칩과 결함허용(Fault-Tolerant) 양자 스케일링",
       "subtitle": "3일간의 IBM Quantum Developer Conference에서 입증된 양자-AI 하이브리드 우위… 광자(Photonic) 양자 확장과 양자내성암호(PQC) 도입 시급성 부각",
       "chartImage": "assets/charts/agenda_16.svg",
       "chartConfig": {
@@ -2305,8 +2502,8 @@
       "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (푸틴 DMZ 거부·우크라 대공습 여파로 폴란드·핀란드 등 NATO 동부전선 '다층 방공망·대드론·대전차 요새화' 예산 폭증!)",
-      "title": "[11/14 이브닝·전쟁/지정학] 푸틴 DMZ 거부 후 가속화된 NATO 동부전선(폴란드·핀란드) '다층 방공망·대드론 요새화': 유럽 재무장 최대 수혜국 한국",
+      "deltaLabel": "🟢 시사점 강화 (영국 '£2.4억($3.16억) 동계 방공 패키지(미사일 1,000발+)' 긴급 지원 & 러 저가 제트 미사일 '반데롤' 소모전 격화! 요격탄·다층방공 수주 폭발)",
+      "title": "[11/22 모닝·유럽 동계 방공전 격화] 영국 $3.16억(미사일 1,000발+) 긴급 지원과 러 '반데롤' 소모전: 가성비 요격체계·K-방산 수혜 심화",
       "subtitle": "아부다비 3자 회담 이후에도 겨울철 앞둔 러·우 에너지 인프라 공습 격화… 유럽·중동의 다층 방공 미사일과 초고압 변압기 확보 전쟁",
       "chartImage": "assets/charts/agenda_17.svg",
       "chartConfig": {
@@ -2386,8 +2583,8 @@
       "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (한화에어로 641,000원(-1.99%) 숨고르기 속 '1,773억 독자 항공엔진 우선협상자 선정 + 미 한화시마론 인수 + 폴란드 유도탄 착공' 3대 모멘텀)",
-      "title": "[11/14 이브닝·K-방산 대표주 점검] 한화에어로스페이스(641,000원) '1,773억 독자 무인기 항공엔진 수주 + 미 한화시마론 인수': 조정장이 준 매수 찬스",
+      "deltaLabel": "🟢 시사점 강화 (미 에이태큼스(ATACMS) 등 고가 정밀유도탄 재고 고갈 직면! 가성비·대량양산 갖춘 한화에어로(천무·K9·독자 무인기 엔진 1,773억) 대체 불가 위상)",
+      "title": "[11/22 모닝·K-방산 대체불가 해자] 미국조차 바닥난 ATACMS 재고와 '가성비 대량양산' 전쟁 패러다임: 한화에어로스페이스(천무·무인기 엔진)의 독식",
       "subtitle": "폴란드 고주프 비엘코폴스키에 '한화-WB 어드밴스드 시스템' 유도탄 공장 첫 삽! 나토(NATO) 영토 내 미사일 생산기지 구축 + 친환경 해양 수소동력 선점",
       "chartImage": "assets/charts/agenda_18.svg",
       "chartConfig": {
@@ -2482,7 +2679,7 @@
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 (유럽은 '천무 CGR-080 유도탄 현지양산' · 중동은 '천궁-II + L-SAM + 천무 통합방공망'… 한국 유도무기 30년 소모품 연금 완성)",
-      "title": "[11/14 이브닝·글로벌 미사일 패권] 유럽(폴란드 CGR-080 착공)과 중동(UAE 천궁-II·L-SAM)이 동시에 한국 미사일을 택한 이유: '소모품 방산의 마법'",
+      "title": "[11/22 모닝·글로벌 미사일 패권] 유럽(폴란드 CGR-080 착공)과 중동(UAE 천궁-II·L-SAM)이 동시에 한국 미사일을 택한 이유: '소모품 방산의 마법'",
       "subtitle": "전차·자주포는 한 번 사면 오래 쓰지만, 유도탄(CGR-080)과 요격미사일(천궁-II·L-SAM)은 쏘는 순간 사라지는 고마진 소모품!",
       "chartImage": "assets/charts/agenda_19.svg",
       "chartConfig": {
@@ -2563,7 +2760,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 (미·중 디커플링 + '한국 HBM4 2027~2029년 완판'이 만든 기적: 미 금리 5.10%·DXY 103.17에도 원/달러 환율 1,334.53원 방어!)",
-      "title": "[11/14 이브닝·탈중국 병목의 위력] 미국 금리가 5.10%로 뛰어도 한국 환율이 1,334원인 이유: '2029년까지 완판된 한국의 5대 탈중국 병목 제조업'",
+      "title": "[11/22 모닝·탈중국 병목의 위력] 미국 금리가 5.10%로 뛰어도 한국 환율이 1,334원인 이유: '2029년까지 완판된 한국의 5대 탈중국 병목 제조업'",
       "subtitle": "중국산이 배제된 미국 시장에서 한국산 HBM4(2027~2029 완판)·초고압 변압기·북미 ESS·바이오 CDMO·방산/조선이 달러를 쓸어 담고 있다",
       "chartImage": "assets/charts/agenda_20.svg",
       "chartConfig": {
@@ -2643,8 +2840,8 @@
       "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
       "importance": "HIGH",
       "deltaStatus": "MAINTAINED",
-      "deltaLabel": "🟢 시사점 강화 (우라늄 현물 '$91.85/lb' 연중 최고권 돌파 & LME 구리 '$13,610/t(전년비 +20%)' 강세 vs WTI 유가 '$88.56' 2주 연속 주간 하락!)",
-      "title": "[11/14 이브닝·전략 원자재] 우라늄 '$91.85/lb' 추가 상승 & LME 구리 '$13,610/t(+20% YoY)' vs WTI 유가 '$88.56(2주 연속 하락)' 완벽 디커플링",
+      "deltaLabel": "🔴 원자재 극단적 차별화! (구리 2026 최악의 주간 폭락 '약세장 진입(LME $12,235/t · 고점 대비 -20%+)' & WTI 3주 연속 하락 $83.98 vs 우라늄 $90.10/lb 철벽 방어!)",
+      "title": "[11/22 모닝·구리 약세장 vs 우라늄 독주] 펀드 청산에 고점 대비 -20% 급락한 구리(중국 실물 프리미엄은 사상 최고!) vs $90.10/lb 사수한 우라늄",
       "subtitle": "WTI 유가는 $88.70 반등에도 한 달 새 -5.38% 하락… 반면 포탄·유도탄 증산과 AI 데이터센터 전력망이 집어삼키는 구리·우라늄은 장기 슈퍼사이클",
       "chartImage": "assets/charts/agenda_21.svg",
       "chartConfig": {
@@ -2724,7 +2921,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 대적중! (미 10년물 금리 5.10%(+2.10%) 급등의 밤, 버핏식 '완판 독점주(TSMC·삼성·SK) 80% + 5.1% 현금 탄약 20%' 공식이 계좌를 지켰다!)",
-      "title": "[11/14 이브닝·버핏식 생존 공식] 미 국채금리 '5.10%'가 증명한 워런 버핏의 혜안: '2029년까지 완판된 독점주 80% + 연 5.1% 현금 탄약 20%'",
+      "title": "[11/22 모닝·버핏식 생존 공식] 미 국채금리 '5.10%'가 증명한 워런 버핏의 혜안: '2029년까지 완판된 독점주 80% + 연 5.1% 현금 탄약 20%'",
       "subtitle": "금리가 5.10%로 뛴 밤 적자 테마주는 흔들렸지만 SOX(10,506pt)·TSMC($405.49)는 버텼다… 아껴둔 20% 현금 탄약으로 오늘 눌림목 사냥 개시!",
       "chartImage": "assets/charts/agenda_22.svg",
       "chartConfig": {
@@ -2805,7 +3002,7 @@
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 강화 (K-조선 3년+ 수주잔고에 더해진 '국내 최초 선박용 수소연료전지 한국선급 승인' & 아부다비 ADX ETF 오일머니 유입)",
-      "title": "[11/14 이브닝·K-조선 & 밸류업] 친환경 선박 초격차 완성: '국내 최초 선박용 수소연료전지 선급 승인'과 아부다비 오일머니가 사는 한국 대표주",
+      "title": "[11/22 모닝·K-조선 & 밸류업] 친환경 선박 초격차 완성: '국내 최초 선박용 수소연료전지 선급 승인'과 아부다비 오일머니가 사는 한국 대표주",
       "subtitle": "LNG선에 이어 무탄소 '수소연료전지 추진선' 기술 표준까지 한국(한화·HD현대)이 선점… 원화 강세(1,334원)·자사주 소각과 맞물린 밸류업 랠리",
       "chartImage": "assets/charts/agenda_23.svg",
       "chartConfig": {
@@ -2886,7 +3083,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 돈이 되는 실전 세테크 1 (간밤 엔비디아 $166.19(-4.34% · 1개월 -27.28%) 조정은 연말 '해외주식 양도세(22%) 손익통산'의 황금 찬스!)",
-      "title": "[11/14 이브닝·돈 되는 세테크 ①] 간밤 엔비디아($166.19, 1개월 -27%) 눌림목을 세금 수백만 원 아끼는 '양도세 22% 손익통산' 기회로 바꾸는 법!",
+      "title": "[11/22 모닝·돈 되는 세테크 ①] 간밤 엔비디아($166.19, 1개월 -27%) 눌림목을 세금 수백만 원 아끼는 '양도세 22% 손익통산' 기회로 바꾸는 법!",
       "subtitle": "고점에 물린 엔비디아·미국주식이 있다면 잠깐 팔아 손실을 확정(올해 양도세 22% 삭감)한 뒤 즉시 재매수하라! + 국외전출세 확대 체크",
       "chartImage": "assets/charts/agenda_24.svg",
       "chartConfig": {
@@ -2967,7 +3164,7 @@
       "importance": "HIGH",
       "deltaStatus": "MAINTAINED",
       "deltaLabel": "🟡 돈이 되는 실전 세테크 2 (미 금리 5.10%·환율 1,334원 시대의 필승 계좌: '중개형 ISA(2,000만) · 연금저축/IRP(900만)' 연말 세액공제 막차)",
-      "title": "[11/14 이브닝·돈 되는 세테크 ②] 연 5.10% 미국채 이자와 ETF 배당에 붙는 '15.4% 세금'을 0원~9.9%로 깎는 법: 중개형 ISA & 연금저축·IRP",
+      "title": "[11/22 모닝·돈 되는 세테크 ②] 연 5.10% 미국채 이자와 ETF 배당에 붙는 '15.4% 세금'을 0원~9.9%로 깎는 법: 중개형 ISA & 연금저축·IRP",
       "subtitle": "일반 계좌에서 미국채·배당 ETF 사면 이자의 15.4%를 떼이지만, ISA·연금계좌에서 사면 비과세·과세이연 + 연말 최대 148.5만 원 현금 환급!",
       "chartImage": "assets/charts/agenda_25.svg",
       "chartConfig": {
@@ -3062,7 +3259,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 돈이 되는 채권·환율 공식 대폭발! (미 10년물 금리 '5.10%(+2.10%)' 점프인데 원/달러 환율은 '1,334.53원(-0.55%)' 그대로! 환노출 미국채 황금 타점)",
-      "title": "[11/14 이브닝·돈 되는 채권/환율 공식] 미 국채금리는 '5.10%(+2.10%)'로 뛰었는데 환율은 '1,334.53원'이다: 흔치 않은 '환노출 미국채' 잭팟 찬스!",
+      "title": "[11/22 모닝·돈 되는 채권/환율 공식] 미 국채금리는 '5.10%(+2.10%)'로 뛰었는데 환율은 '1,334.53원'이다: 흔치 않은 '환노출 미국채' 잭팟 찬스!",
       "subtitle": "보통 미 금리가 5.10%로 뛰면 환율도 1,370원으로 뛰어 비싸게 사야 하지만, 지금은 1,334원 싼 환율로 연 5.10% 미국채를 살 수 있는 기적의 구간!",
       "chartImage": "assets/charts/agenda_26.svg",
       "chartConfig": {
@@ -3142,8 +3339,8 @@
       "categoryLabel": "금($/oz) · 안전자산",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (달러 인덱스 103.41·미 금리 5.14% 압박 속에서도 국제 금 선물 '$3,887.60~$3,896/oz' 상승 반전하며 $3,900 재돌파 시도!)",
-      "title": "[11/14 이브닝] 강달러(DXY 103.41) 이겨내고 '$3,887.60~$3,896/oz'로 고개 든 국제 금 시세: $3,900선 탈환 눈앞에 둔 KRX 금현물 전략",
+      "deltaLabel": "🔴 시사점 점검 (12월 미 연준 금리인상 확률 90% 급등·강달러 직격탄에 금 현물 '$3,600 하회 ➔ $3,540~$3,575/oz' 급락! 단기 패닉 셀링 속 분할매수 타점 재조정)",
+      "title": "[11/22 모닝·금 $3,600 하회 급락] 12월 연준 인상 우려(90%)가 부른 금 현물 '$3,540~$3,575/oz' 투매: 패닉 구간의 KRX 금현물 분할 대응 전략",
       "subtitle": "현물 국채 재개장(5.10%)과 달러 인덱스(103.17) 급등에 놀란 선물 레버리지 물량 일제 청산… 11/09 고점($4,114.5) 대비 -$233 할인된 기술적 바닥",
       "chartImage": "assets/charts/agenda_27.svg",
       "chartConfig": {
@@ -3151,34 +3348,34 @@
         "title": "국제 금 선물(GC=F, $/oz) 최근 10거래일 추이 및 $3,881.70 과매도 매수 구간 ($/oz)",
         "subtitle": "미 국채금리 5.10% 점프 및 DXY 103.17 돌파로 선물 투기 물량이 청산되며 $3,881.70(-2.97%) 도달… 10월 말 바닥권 지지선 진입",
         "labels": [
-          "11/02",
-          "11/03",
-          "11/04",
-          "11/05",
-          "11/06",
           "11/09",
           "11/10",
           "11/11",
           "11/12",
-          "11/13"
+          "11/13",
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19",
+          "11/20"
         ],
         "values": [
-          3969.6,
-          3940.4,
-          4073.0,
-          4113.5,
-          4074.9,
           4114.5,
           4030.2,
           4000.5,
           3885.3,
-          3886.3
+          3886.3,
+          3853.0,
+          3864.2,
+          3741.9,
+          3685.5,
+          3515.4
         ],
         "unit": "$",
         "color": "#fbbf24",
         "benchmark_val": 3900.0,
         "benchmark_label": "핵심 실물 지지선 $3,900/oz",
-        "badge_text": "LIVE 3,886.30$",
+        "badge_text": "LIVE 3,515.40$",
         "annotations": [
           {
             "index": 9,
@@ -3241,8 +3438,8 @@
       "categoryLabel": "금($/oz) · 안전자산",
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (금 선물 $3,881.70 투매를 두 팔 벌려 받아내는 '중국·신흥국 중앙은행 월 60~85톤 실물 매집'… $3,880~$3,900 진바닥 형성)",
-      "title": "[11/14 이브닝] 헤지펀드가 던진 '$3,881 금 선물'을 중국·신흥국 중앙은행이 웃으며 줍는 이유: 월 60~85톤 실물 금괴 흡수 메커니즘",
+      "deltaLabel": "🟢 시사점 강화 (세계금협회(WGC) 확인 '중국·폴란드·우즈베키스탄 중앙은행 공격적 금 매집' 지속! 미 금리 5.14% 속에서도 $3,850~$3,865/oz 철벽 지지)",
+      "title": "[11/22 모닝·세계금협회 중앙은행 수급] 중국·폴란드·우즈베키스탄 중앙은행이 쓸어담는 실물 금괴: $3,850~$3,865/oz 진바닥과 JP모건 $6,000+ 장기 뷰",
       "subtitle": "미 국채금리가 5.10%로 오를수록 신흥국 중앙은행의 '미 국채 매도 ➔ 실물 금 교체' 유인은 오히려 증가… $3,880~$3,900선은 중앙은행의 쇼핑 구간",
       "chartImage": "assets/charts/agenda_28.svg",
       "chartConfig": {
@@ -3322,8 +3519,8 @@
       "categoryLabel": "금($/oz) · 안전자산",
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대강화! (금 선물 $3,881.70 조정 덕분에 골드만삭스 12M 목표($4,750)까지 '+22.4%(+$868/oz)' · JP모건($6,300)까지 '+62.3%' 업사이드 폭발!)",
-      "title": "[11/14 이브닝] 금값 '$3,881.70' 조정이 열어젖힌 기대수익률: 골드만삭스 12개월 목표($4,750)까지 '+22.4%' · JP모건($6,300)까지 '+62.3%'!",
+      "deltaLabel": "🟢 시사점 강화 (국제 금 시세 기술적 반등 가속 & 골드만삭스 '연말 $4,150 · 2027년 $4,800/oz' 목표가 제시! 신흥국 중앙은행 월 60톤 매집이 만든 중장기 +16%+ 업사이드)",
+      "title": "[11/22 모닝·골드만삭스 금 전망] 골드만삭스 '연말 $4,150 · 2027년 $4,800/oz' 리포트 분석: 중앙은행 월 60톤 매집이 보장하는 금현물 분할매수",
       "subtitle": "매파 연준을 반영해 낮춰 잡은 골드만삭스의 올해 말 보수적 목표가($4,150) 대비로도 온스당 +$268.3(+6.9%) 저평가 구간 진입!",
       "chartImage": "assets/charts/agenda_29.svg",
       "chartConfig": {
@@ -3404,7 +3601,7 @@
       "importance": "CORE",
       "deltaStatus": "MAINTAINED",
       "deltaLabel": "🟡 시사점 유지 (금 선물 $3,881.70 조정 및 WTI 유가 $88.70(월간 -5.38%) 하에서도 금광 기업 온스당 순마진 '$2,271~$2,400/oz' 초호황 지속)",
-      "title": "[11/14 이브닝] 금값이 $3,881.70이어도 금광 기업은 온스당 '$2,271(마진율 58.5%)'를 남긴다: 채굴원가(AISC $1,610) 대비 압도적 현금창출력",
+      "title": "[11/22 모닝] 금값이 $3,881.70이어도 금광 기업은 온스당 '$2,271(마진율 58.5%)'를 남긴다: 채굴원가(AISC $1,610) 대비 압도적 현금창출력",
       "subtitle": "WTI 유가가 $88.70으로 한 달 전보다 -5.38% 낮아 채굴 원가는 ~$1,610에 고정… 금 선물 조정으로 금광 ETF(GDX)가 눌릴 때가 배당·실적주 매수 타점",
       "chartImage": "assets/charts/agenda_30.svg",
       "chartConfig": {
@@ -3482,8 +3679,8 @@
       "categoryLabel": "가상화폐 (BTC 95%+)",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 이브닝 시사점 정확히 적중! ($70,800 · 9266만원 선물 레버리지 대청소 직후 글로벌 BTC $73,400 · 원화 '9810만원(+5.87%)' V자 급반등 성공!)",
-      "title": "[11/14 이브닝·BTC V자 반등] 어제 저녁 '9266만원($70.8K)' 바닥 찍고 하룻밤 새 '9810만원($73,400, +5.87%)' 탈환한 비트코인: 레버리지 청산 후 숏스퀴즈!",
+      "deltaLabel": "🟢 레버리지 대청소 후 V자 반등! (간밤 BTC '$55,130 · 업비트 7,850만원' 순간 붕괴 및 $27억 강제청산 직후, 일요일 아침 '$60,200+ · 8,400만원대' 즉각 탈환!)",
+      "title": "[11/22 모닝·BTC $27억 청산 후 $60K 탈환] 업비트 '7,850만원($55.1K)' 순간 이탈하며 롱 레버리지 전멸 ➔ 일요일 아침 '$60,200+(8,400만원대)' 급반등!",
       "subtitle": "미 국채금리 5.10% 점프와 원/달러 환율 하락(1,334.53원)이 만든 원화 가격 착시… 기관의 생명선인 '200일 이평선($73,700)'에서 9524만원 분할 매수 찬스!",
       "chartImage": "assets/charts/agenda_31.svg",
       "chartConfig": {
@@ -3491,34 +3688,34 @@
         "title": "비트코인(BTC) 최근 10일간 원화 시세 추이 및 9524만원(글로벌 200일선) 지지 구간 (만원)",
         "subtitle": "미 10년물 5.10% 상승 및 원화 강세(1,334.53원) 반영으로 원화 시세 9524만원(-3.65%) 도달… 글로벌 $73,700(200일 이평선) 방어",
         "labels": [
-          "11/05",
-          "11/06",
-          "11/07",
-          "11/08",
-          "11/09",
-          "11/10",
-          "11/11",
           "11/12",
           "11/13",
-          "11/14"
+          "11/14",
+          "11/15",
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19",
+          "11/20",
+          "11/21"
         ],
         "values": [
-          10309,
-          10330,
-          10330,
-          10173,
-          10109,
-          9896,
-          9885,
           9518,
           9113,
-          8960
+          8563,
+          8725,
+          8664,
+          8653,
+          8386,
+          8262,
+          7915,
+          8079
         ],
         "unit": "만원",
         "color": "#f97316",
         "benchmark_val": 9500.0,
         "benchmark_label": "핵심 지지선 9500만원 (글로벌 200일선)",
-        "badge_text": "LIVE 8960만원",
+        "badge_text": "LIVE 8079만원",
         "annotations": [
           {
             "index": 9,
@@ -3529,7 +3726,7 @@
       "keyMetrics": [
         {
           "label": "비트코인 시세 (만원)",
-          "value": "8960만원",
+          "value": "8079만원",
           "change": "일간 -3.65% / 1개월 -12.74% (9500만원대 초반 핵심 지지권 도달)"
         },
         {
@@ -3582,7 +3779,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 역발상 포착! (블랙록 IBIT '단일 -$269.7M 유출·연초대비 플로우 일시 음전' 극한 스트레스 테스트 통과! 200일선($73.7K) 방어로 '매도자 소진' 입증)",
-      "title": "[11/14 이브닝·BTC ETF 매도 소진] 블랙록 IBIT '-$269.7M 유출'에도 무너지지 않은 200일선($73,700 · 9524만원): 월가가 말하는 '매도자 고갈(Seller Exhaustion)'",
+      "title": "[11/22 모닝·BTC ETF 매도 소진] 블랙록 IBIT '-$269.7M 유출'에도 무너지지 않은 200일선($73,700 · 9524만원): 월가가 말하는 '매도자 고갈(Seller Exhaustion)'",
       "subtitle": "연말 기관 절세(손익통산)·거시 리밸런싱 물량이 IBIT에서 -$269.7M 쏟아졌음에도 $59B 코어 자산과 200일선은 굳건… 팔 사람은 다 팔았다!",
       "chartImage": "assets/charts/agenda_32.svg",
       "chartConfig": {
@@ -3662,8 +3859,8 @@
       "categoryLabel": "가상화폐 (BTC 95%+)",
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (미 금리 5.10%에 금 선물(-2.97%)과 비트코인(-3.65%) 동반 눌림목! 'BTC-to-Gold 18.5~19.0배' & 양대 대체자산 동시 쌍바닥)",
-      "title": "[11/14 이브닝·금 vs 비트코인 동시 바닥] 미 금리 5.10%가 만든 기막힌 우연: '금($3,881.7 · 10/30 쌍바닥)'과 '비트코인(9524만원 · 200일선)'이 동시에 바닥에 왔다!",
+      "deltaLabel": "🟢 시사점 강화 (스트래티지(MSTR) 추가 매수로 '총 850,849 BTC(매입원가 $64.2B · 평단 $75,452)' 돌파! MSCI 지수 리밸런싱 노이즈 이겨내는 기관 실물 락업)",
+      "title": "[11/22 모닝·MSTR 85만849 BTC 돌파] 조정장에도 멈추지 않는 스트래티지 '850,849 BTC(평단 $75,452)' 매집과 금($3,850~$3,875/oz) 중앙은행 바닥권 지지",
       "subtitle": "BTC-to-Gold 비율 18.5~19.0배 역사적 저평가 구간 유지… 주식(반도체·방산) 수익금과 현금 탄약으로 '실물 골드 + 디지털 골드'를 한꺼번에 싸게 담을 날",
       "chartImage": "assets/charts/agenda_33.svg",
       "chartConfig": {
@@ -3743,8 +3940,8 @@
       "categoryLabel": "가상화폐 (BTC 95%+)",
       "importance": "CORE",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (미 국채금리 5.10% 돌파로 블록체인 기반 '토큰화 미 국채(RWA)' 수익률도 연 5.10% 시대로! ETF 옵션·WM·401k 인프라 요지부동)",
-      "title": "[11/14 이브닝·크립토 금융 인프라] 미 국채금리 5.10%가 부른 '토큰화 국채(RWA) 연 5.1% 수익' 열풍과 9524만원 비트코인을 받치는 월가 배관",
+      "deltaLabel": "🟢 시사점 강화 (블랙록 IBIT 등 '비트코인 현물 ETF 옵션' 활용한 월가 기관 커버드콜·프로텍티브 풋·델타헤징 급증! + 토큰화 미 국채(RWA) 연 5.1%+ 수익)",
+      "title": "[11/22 모닝·월가 IBIT 옵션 전략] 블랙록 비트코인 ETF(IBIT) 옵션 활용한 기관 '커버드콜·하방 헤징' 폭발과 연 5.1% 토큰화 국채(RWA) 인프라",
       "subtitle": "24시간 블록체인 위에서 연 5.10% 미국채 이자를 주는 블랙록 RWA 펀드 급성장… 현물 ETF 옵션·플란테모란/모건스탠리 WM·401(k) 인프라 건재",
       "chartImage": "assets/charts/agenda_34.svg",
       "chartConfig": {
@@ -3838,8 +4035,8 @@
       "categoryLabel": "가상화폐 (BTC 95%+)",
       "importance": "CORE",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (미 금리 5.10% 점프에 알트코인 유동성 급감 vs 200일선($73.7K · 9524만원) 지켜낸 '비트코인 95%+ 집중 / 알트 5% 미만' 철칙)",
-      "title": "[11/14 이브닝·크립토 생존 철칙] 미 금리 '5.10%'의 밤이 증명한 진리: 왜 가상화폐는 '비트코인(9524만원) 95% 이상 · 알트코인 5% 미만'이어야 하는가?",
+      "deltaLabel": "🟢 시사점 강화 (국내 법인·기관 가상자산 실명계좌 단계적 허용 및 과세 유예 논의 급물살! 기관 장세일수록 '비트코인 95%+ 집중 / 알트 5% 미만' 철칙 유효)",
+      "title": "[11/22 모닝·국내 법인계좌 허용과 BTC 집중] 한국도 '법인·기관 가상자산 계좌' 열린다: 알트 변동성 피하고 '비트코인 95% 이상'에 집중해야 할 이유",
       "subtitle": "금리가 5.10%로 뛰자 기관 ETF가 없는 잡코인은 속절없이 무너졌지만, 비트코인은 $59B IBIT 금고와 200일 이동평균선으로 버텨냈다!",
       "chartImage": "assets/charts/agenda_35.svg",
       "chartConfig": {
@@ -3919,8 +4116,8 @@
       "categoryLabel": "한국 부동산 · 정책 · 개발",
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
-      "deltaLabel": "🔵 신규 대출 정책 포착 (스트레스 DSR '수도권 vs 지방 2원화 체제' 확정: 지방 주담대는 2026 상반기까지 2단계(1.5%·50%) 유예 vs 수도권은 3단계(3.0%+·100%) 직격탄!)",
-      "title": "[11/14 이브닝·스트레스 DSR 이원화] '지방은 풀어주고 수도권은 조인다': 지방 주담대 DSR 3단계 '2026 상반기까지 추가 유예(2단계 유지)' vs 수도권 100% 적용!",
+      "deltaLabel": "🟢 시사점 강화 (2026년 11월 서울 아파트 '가격은 버티고 거래는 묶인 거래절벽' 고착화! 스트레스 DSR 현금 장벽에 대기 수요 전·월세 쏠림 가속)",
+      "title": "[11/22 모닝·서울 아파트 거래절벽과 전세난] 스트레스 DSR이 만든 '가격 방어 + 거래량 바닥' 장세: 현금 부자 중심 재편과 임대차 상승 압력",
       "subtitle": "지방 부동산 침체 막기 위해 지방 주담대는 스트레스 금리 1.5%(50% 반영) 2단계 유지… 반면 서울·수도권 규제지역은 3.0%+(100% 반영) 3단계 풀가동",
       "chartImage": "assets/charts/agenda_36.svg",
       "chartConfig": {
@@ -4000,8 +4197,8 @@
       "categoryLabel": "한국 부동산 · 정책 · 개발",
       "importance": "CRITICAL",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 강화 (강동 '올림픽파크포레온(1.2만 가구)' 실거주 의무 유예 종료·만기 도래 발 전월세 연쇄 이동 경보! 매매 관망세 속 전세만 독주)",
-      "title": "[11/14 이브닝·전세 시장 뇌관] 강동 '올림픽파크포레온' 실거주 의무 유예 종료·임대차 만기가 부르는 동남권 전월세 도미노와 실수요 내집마련 전략",
+      "deltaLabel": "🔴 서울·경기 국지적 반전 포착 (한국부동산원 주간: 스트레스 DSR 3단계 직격탄에 강남3구 일부·용산·동작 하락 전환 vs 경기 수원·안양·용인 대단지·평촌 A-17 시공사 선정 강세!)",
+      "title": "[11/22 모닝·서울 숨고르기 vs 경기 강세] 용산·동작·강남 일부 하락 전환 vs 수원·안양·용인 대단지 및 평촌 A-17 시공사 선정: 한은 3.25% 인상 변수 점검",
       "subtitle": "한국부동산원 11월 2주 발표: 강남권 일부 급매·관망 속에서도 서울 매매 +0.07% 상승 지속, 반면 매물 마른 전세는 +0.10%로 상승 폭이 매매의 1.4배!",
       "chartImage": "assets/charts/agenda_37.svg",
       "chartConfig": {
@@ -4081,8 +4278,8 @@
       "categoryLabel": "한국 부동산 · 정책 · 개발",
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 대강화! (국회 1기 신도시 '자율정비촉진법(사전승인 ➔ 사후보고 전환)' 발의! 분당 가격·시공사 선정 독주 + 비규제 '산본·중동' 거래량 급증!)",
-      "title": "[11/14 이브닝·1기 신도시 입법 & 풍선효과] 국회 '자율정비촉진법(사전승인➔사후보고)' 발의로 속도 2배! '분당' 독주 속 비규제 '산본·중동' 거래 폭발",
+      "deltaLabel": "🟢 시사점 강화 (1기 신도시 선도지구 내 '분당·평촌(높은 동의율·사업성)' 매수세 집중 vs 분담금 우려 지역 양극화 뚜렷! + 국회 '자율정비촉진법' 속도전)",
+      "title": "[11/22 모닝·1기 신도시 옥석 가리기] 선도지구 사업성 입증된 '분당·평촌' 대장주 집중과 국회 '자율정비촉진법(사후보고 전환)'이 가를 수익률 격차",
       "subtitle": "중앙정부 사전 협의·승인을 지자체 '사후 보고'로 바꾸는 노후계획도시정비법 개정안 추진! 대장주 분당의 시공사 선정 질주와 산본·중동의 가성비 반란",
       "chartImage": "assets/charts/agenda_38.svg",
       "chartConfig": {
@@ -4162,8 +4359,8 @@
       "categoryLabel": "한국 부동산 · 정책 · 개발",
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
-      "deltaLabel": "🟢 시사점 구체화! (용산국제업무지구 주택 공급 갈등 해법: 서울시 원안(6,000호)과 정부 목표(10,000호) 사이 ''8,000호 절충안' + 100층 랜드마크' 부상!)",
-      "title": "[11/14 이브닝·용산 마스터플랜 급진전] 용산국제업무지구 주택 공급 '8,000호 절충안' 부상: 6천 호(서울시)와 1만 호(국토부) 이견 좁히고 100층 랜드마크 속도!",
+      "deltaLabel": "🟢 시사점 강화 (단군 이래 최대 개발 '용산서울코어(용산국제업무지구)' 8,000호 절충안 & 100층 글로벌 오피스·MICE 허브 구체화! 강북·한강벨트 대장주 견인)",
+      "title": "[11/22 모닝·용산서울코어 가속화] 아태 비즈니스·MICE 허브 '용산서울코어(용산국제업무지구)' 8,000호 절충안과 한강벨트 핵심지 가치 재평가",
       "subtitle": "기반시설 과부하 막으면서 도심 주택 공급도 늘리는 '8,000가구 타협점' 조율… 사업 지연 리스크 해소로 용산·한강벨트 마스터플랜 가속 페달",
       "chartImage": "assets/charts/agenda_39.svg",
       "chartConfig": {
@@ -4258,7 +4455,7 @@
       "importance": "HIGH",
       "deltaStatus": "REINFORCED",
       "deltaLabel": "🟢 시사점 대폭발! (여당 '1주택자 종부세 기본공제 실거주 무관 14억 원 일괄 상향' 추진! + GTX-A 삼성역 · GTX-C 상록수 착공 · 5차 철도망 GTX-D)",
-      "title": "[11/14 이브닝·부동산 실용주의 세제개편] '1주택 종부세 기본공제 14억 상향 + 비거주 1주택 불이익 폐지' 급물살 & GTX-A/C/D 핵심 역세권 공략",
+      "title": "[11/22 모닝·부동산 실용주의 세제개편] '1주택 종부세 기본공제 14억 상향 + 비거주 1주택 불이익 폐지' 급물살 & GTX-A/C/D 핵심 역세권 공략",
       "subtitle": "말뿐인 계획이 아니라 실제 굴착기가 들어갔다! GTX-C 안산 상록수역 착공 & 제5차 국가철도망(2026~2035) 내 강남 직결 노선(GTX-D 등)과 종부세 절세",
       "chartImage": "assets/charts/agenda_40.svg",
       "chartConfig": {
@@ -4330,6 +4527,1242 @@
         "한국경제 / 뉴시스 (DL이앤씨 GTX-A 대심도 터널상 수상 · GTX-C 안산 상록수역 본착공)",
         "경기일보 (제5차 국가철도망 2026~2035 GTX-D 부천~사당~삼성)",
         "국토교통부"
+      ]
+    },
+    {
+      "id": "agenda_41",
+      "category": "tech",
+      "categoryLabel": "반도체 · AI 빅테크",
+      "importance": "CRITICAL",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 신규 초대형 촉매 (앤트로픽(Anthropic) 메가 IPO 이틀째 주가 급락 & AI 자금 블랙홀 여파! 나스닥 -5.28% 투매의 직접 도화선)",
+      "title": "[11/22 모닝·확장특집 41] '앤트로픽(Anthropic) IPO 이틀째 급락'이 부른 나스닥 -5.28% 폭락: AI 모델 거품론 vs 인프라 실적주 옥석 가리기",
+      "subtitle": "기존 AI·빅테크 자금을 빨아들인 초대형 IPO 직후 이틀 차 급락으로 '수천억 달러 AI CapEx ROI(투자수익률) 회의론' 폭발",
+      "chartImage": "assets/charts/agenda_41.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "11/20 글로벌 AI 투매 쇼크 주요 지수·반도체 일간 하락폭 비교 (%)",
+        "subtitle": "앤트로픽 IPO 2일차 급락과 AI ROI 회의론이 겹치며 한·미 기술주 동반 급락",
+        "categories": [
+          "S&P 500",
+          "코스피(KOSPI)",
+          "나스닥 종합",
+          "코스닥(KOSDAQ)",
+          "SK하이닉스",
+          "삼성전자",
+          "삼성전기"
+        ],
+        "series_name_1": "11/20 일간 변동률 (%)",
+        "values_1": [
+          -3.7,
+          -5.21,
+          -5.28,
+          -5.71,
+          -6.59,
+          -7.31,
+          -12.1
+        ],
+        "color_1": "#e11d48",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "나스닥 종합 (11/20)",
+          "value": "22,617.73 (-5.28%)",
+          "change": "일간 -1,261.47pt 폭락 · 2026년 연초 대비 상승분 전액 반납"
+        },
+        {
+          "label": "직접 도화선",
+          "value": "Anthropic IPO 2일차 급락",
+          "change": "상장 전 기존 AI주 매도(수급 쏠림) ➔ 상장 후 급락으로 AI 투심 연쇄 붕괴"
+        },
+        {
+          "label": "실적 괴리 핵심",
+          "value": "AI 모델사 적자 vs 칩·HBM4 흑자",
+          "change": "엔비디아 $390B 확정 약정과 모델 기업 밸류에이션 거품은 철저히 분리해야"
+        }
+      ],
+      "facts": [
+        "11월 20일(금) 글로벌 증시를 강타한 나스닥 -5.28%, 코스피 -5.21% 투매의 가장 직접적인 도화선 중 하나는 **초대형 AI 파운데이션 모델 기업 앤트로픽(Anthropic)의 IPO 이후 이틀째 주가 급락**이었습니다.",
+        "상장 전 기관·개인 자금이 앤트로픽 청약에 몰리며 기존 AI 하드웨어·빅테크에서 대규모 차익실현(Crowding-out)이 발생했는데, 정작 상장 직후 기대와 달리 주가가 급락하자 월가 전반에 **'수천억 달러의 AI 인프라 투자가 과연 단기 수익(ROI)으로 돌아올 것인가'**라는 회의론이 폭발했습니다.",
+        "그러나 투자 관점에서 **① 막대한 GPU 임차료를 지출하는 AI 소프트웨어/모델 기업**과 **② 이미 확정된 $390B 장기 약정과 선급금(LTA)을 받고 칩·HBM4·기판을 파는 인프라 공급자(엔비디아·TSMC·SK하이닉스·삼성전자)**의 현금흐름 구조는 정반대입니다."
+      ],
+      "previousImplication": "엔비디아 3분기 매출 $115.8B 어닝 서프라이즈 및 $390B 장기 공급약정으로 AI 슈퍼사이클 가시성이 재확인됨 (11/19 이브닝).",
+      "newCatalyst": "앤트로픽 메가 IPO 수급 이탈 및 상장 2일차 주가 급락이 AI ROI 회의론을 점화시키며 나스닥(-5.28%)·국내 반도체주 동반 투매 유발.",
+      "updatedImplication": "과거 닷컴버블 때도 적자 소프트웨어 기업은 무너졌지만 확정 현금흐름을 쥔 핵심 인프라 승자는 살아남았음. 앤트로픽 상장 변동성을 이유로 '이미 2027~2029년 물량이 완판된 HBM4·파운드리 대장주'까지 투매된 이번 급락은 오히려 현금창출력 1등 인프라주로 압축할 기회임.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🆕 앤트로픽 메가 IPO 2일차 급락 ➔ AI ROI 회의론 폭발 및 나스닥 -5.28% 폭락! 모델주 경계 vs 확정 현금흐름 인프라주 선별"
+        }
+      ],
+      "actionPoints": [
+        "AI 모델·고밸류 적자 소프트웨어 추격 매수 전면 금지: IPO 직후 변동성이 극심한 AI 애플리케이션 기업은 실적 증명 전까지 관망",
+        "확정 수주 기반 하드웨어 인프라 분할 대응: 현금흐름과 선급금(LTA)이 확인된 TSMC·SK하이닉스·삼성전자·삼성전기 급락 구간은 패닉 추격매도 금지"
+      ],
+      "sources": [
+        "The Guardian / CBC / LA Times (Anthropic IPO Day-2 plunge & Nasdaq -5.28% rout)",
+        "SBS / 매일경제"
+      ]
+    },
+    {
+      "id": "agenda_42",
+      "category": "tech",
+      "categoryLabel": "반도체 · AI 빅테크",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 전환 주의 (미 상무부 대중 AI 칩 수출 통제 추가 강화·AMD 조사설·삼성/TSMC 일부 중국향 출하 중단 보도로 K-반도체 급락!)",
+      "title": "[11/22 모닝·확장특집 42] 미 대중(對中) AI 칩 수출 통제 재강화와 삼성·TSMC 중국향 출하 중단 쇼크: 진짜 타격 규모 냉정 해부",
+      "subtitle": "AMD 대중 규제 준수 조사설과 삼성·TSMC의 특정 중국 고객사 출하 중단 보도가 삼성(-7.3%)·삼성전기(-12%) 투매 자극",
+      "chartImage": "assets/charts/agenda_42.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "미 대중 AI 반도체 수출 통제 재강화 파급 경로 및 한국 공급망 영향 분석",
+        "subtitle": "단기 중국 매출 노이즈 vs 미국 빅테크(AWS·MS·구글·메타·엔비디아) 85%+ 비중의 구조적 방어력",
+        "center_label": "대중 AI 칩\n수출통제 강화",
+        "badge_text": "GEO-TECH RISK",
+        "nodes": [
+          {
+            "title": "미국 수출통제 압박",
+            "metric": "AMD 규제 조사·추가 제재",
+            "desc": "중국 AI 기업의 미국산 첨단 가속기 우회 접근 원천 차단 시도",
+            "color": "#e11d48"
+          },
+          {
+            "title": "파운드리·메모리 출하 중단",
+            "metric": "TSMC·삼성 특정 고객 정지",
+            "desc": "미 상무부 가이드라인 준수 위해 일부 중국 AI 팹리스 출하 일시 중단",
+            "color": "#f97316"
+          },
+          {
+            "title": "국내 부품주 과매도",
+            "metric": "삼성전기 -12% · 삼성 -7%",
+            "desc": "실제 중국 AI 칩 매출 비중은 제한적이나 수급 공백에 투매 집중",
+            "color": "#8b5cf6"
+          },
+          {
+            "title": "북미 빅테크 대체 수요",
+            "metric": "북미 AI 매출 비중 85%+",
+            "desc": "엔비디아 $390B 약정·구글 TPU·AWS 등 북미 수요가 중국 공백 초과 흡수",
+            "color": "#059669"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "규제 핵심 보도",
+          "value": "미 대중 AI 칩 규제 추가 강화",
+          "change": "AMD 준수 여부 점검 및 TSMC·삼성 특정 중국 고객 출하 중단 보도"
+        },
+        {
+          "label": "11/20 국내 충격",
+          "value": "삼성 -7.31% · 삼성전기 -12%+",
+          "change": "글로벌 기술주 급락 + 대중 제재 우려가 겹치며 외국인 1.14조 매도 집중"
+        },
+        {
+          "label": "실질 이익 영향",
+          "value": "첨단 HBM4 매출 90%+ 비중국",
+          "change": "중국향 HBM 규제 타격은 제한적이며 북미 하이퍼스케일러 물량이 핵심"
+        }
+      ],
+      "facts": [
+        "11월 20일 국내 반도체 대형주와 기판·부품주(삼성전자 -7.31%, SK하이닉스 -6.59%, 삼성전기 -12%+)가 미국 증시보다도 과격하게 흔들린 배경에는 **미국 정부의 대중국 첨단 AI 프로세서 수출 통제 추가 강화 보도**가 있었습니다.",
+        "특히 **AMD의 대중 수출규제 준수 여부 조사설**과 함께 **TSMC 및 삼성전자가 강화된 미국 가이드라인에 맞춰 특정 중국 고객사향 첨단 칩 출하를 중단했다**는 소식이 전해지면서 투자 심리가 급속히 얼어붙었습니다.",
+        "다만 펀더멘털을 뜯어보면, 이미 첨단 HBM3E·HBM4 및 베라 루빈용 ABF 기판·MLCC 매출의 85~90% 이상은 엔비디아·구글·마이크로소프트·AWS·메타 등 **비중국(북미) 빅테크 고객사**에 묶여 있어, 중국향 단기 출하 제한이 2027~2028년 전체 영업이익을 훼손할 비율은 주가 폭락폭(-7%~-12%) 대비 극히 제한적입니다."
+      ],
+      "previousImplication": "미·중 디커플링이 장기적으로 한국 5대 탈중국 제조업의 반사이익으로 작용함 (11/19 이브닝).",
+      "newCatalyst": "미 상무부 대중 AI 칩 수출 통제 재강화, AMD 준수 점검 및 TSMC·삼성 특정 중국 고객 출하 중단 보도로 단기 실적 노이즈 확대.",
+      "updatedImplication": "미·중 반도체 제재 뉴스가 터질 때마다 국내 반도체주는 단기적으로 -5~-10% 과잉 반응하는 패턴을 반복해 왔음. 이번에도 중국 매출 비중이 높은 레거시 팹리스는 피하되, 북미 빅테크(엔비디아·구글·AWS)향 HBM4·기판 비중이 압도적인 대장주의 투매는 오히려 밸류에이션 정상화 구간으로 봐야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🔴 미 대중 AI 칩 수출통제 재강화 및 삼성·TSMC 일부 중국향 출하 중단 쇼크! 레거시 대중 의존주 회피 vs 북미 빅테크향 HBM4 주력주 선별"
+        }
+      ],
+      "actionPoints": [
+        "중국 매출 의존도가 높은 범용 반도체·소부장 종목은 비중 축소하고, 북미 빅테크 직납 비중이 80% 이상인 HBM4·ABF 기판 핵심주로 포트폴리오 정예화",
+        "삼성전기(-12% 급락)처럼 엔비디아 세종·부산 ABF 기판 장기 계약이 방금 체결된 종목의 제재 노이즈 동반 투매는 펀더멘털 재확인 후 분할 관찰"
+      ],
+      "sources": [
+        "한국경제 글로벌(KED Global) / SBS / 동아일보 (미 대중 AI 칩 수출 통제 강화 및 삼성·TSMC 출하 중단 보도)",
+        "뉴스1"
+      ]
+    },
+    {
+      "id": "agenda_43",
+      "category": "frontier",
+      "categoryLabel": "미래기술 · 우주 · 로봇 · 원전 · 바이오",
+      "importance": "HIGH",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 신규 정책 변수 (미 중간선거 이후 의회 구도 변화 ➔ '지상 초대형 AI 데이터센터 전력·환경 규제법' 우려 부상! SMR·우주 데이터센터 반사이익)",
+      "title": "[11/22 모닝·확장특집 43] 미 중간선거 후 'AI 데이터센터 전력·환경 규제' 우려 급부상: 지상 빅테크 역풍이 SMR 원전·우주 AI엔 호재인 이유",
+      "subtitle": "미 의회 내 규제 강화 기류로 지상 화석연료 데이터센터 인허가 제동 우려 ➔ 무탄소 SMR(두산에너빌리티)·궤도형 AI(스타마인드) 가치 폭등",
+      "chartImage": "assets/charts/agenda_43.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "미 의회 AI 데이터센터 전력·환경 규제 강화 시 인프라 유형별 수혜/타격 지수",
+        "subtitle": "지상 노후 전력망·화석연료 의존형 데이터센터는 인허가 지연 vs 무탄소 SMR·궤도형 우주 AI는 규제 해자 확보",
+        "categories": [
+          "노후 전력망 지상 DC",
+          "화석연료 발전 연계 DC",
+          "액체냉각 고효율 DC",
+          "SMR 원전 직결 DC",
+          "궤도형 우주 AI(스타마인드)"
+        ],
+        "series_name_1": "규제 대응력 및 구조적 수혜 지수 (100=중립)",
+        "values_1": [
+          68.0,
+          62.0,
+          118.0,
+          134.0,
+          138.0
+        ],
+        "color_1": "#4f46e5",
+        "unit": ""
+      },
+      "keyMetrics": [
+        {
+          "label": "신규 정치 리스크",
+          "value": "미 의회 AI 데이터센터 규제론",
+          "change": "중간선거 이후 의회 내 에너지 소비·전력망 과부하 규제 입법 압력 부상"
+        },
+        {
+          "label": "지상 해법 1순위",
+          "value": "SMR 무탄소 기저전원 + 수랭식",
+          "change": "전력망 민원·탄소 규제를 동시에 돌파할 유일한 지상 해법(두산에너빌리티)"
+        },
+        {
+          "label": "우주 해법",
+          "value": "스페이스X '스타마인드' 궤도 DC",
+          "change": "지상 전력망·토지·환경 인허가 규제가 아예 없는 우주 태양광·진공 냉각"
+        }
+      ],
+      "facts": [
+        "11월 20일 미국 빅테크 투매의 숨은 배경 중 하나로 **최근 미국 중간선거 결과 민주당의 의회 영향력이 커지면서, 초대형 AI 데이터센터의 무분별한 건설과 막대한 전력·수자원 소비를 규제하는 연방 법안이 추진될 수 있다는 우려**가 부각되었습니다(Morningstar 등 보도).",
+        "미국 지역사회에서 AI 데이터센터 때문에 일반 가정의 전기요금이 오르고 전력망이 과부하된다는 불만이 커지자, 정치권이 **'지상 전력망에 무임승차하는 데이터센터'에 환경·전력 부담금과 인허가 제한**을 걸려는 움직임이 가시화되고 있습니다.",
+        "역설적으로 이러한 규제는 ① 자체 무탄소 전용 전원을 확보한 **SMR(소형모듈원전) 결합형 데이터센터(뉴스케일·엑스에너지·두산에너빌리티)**, ② 에너지 소비를 획기적으로 줄이는 **100% 직결 액체냉각 시스템**, 그리고 ③ 지상 규제 자체를 우회하는 **스페이스X의 궤도형 우주 AI 데이터센터('스타마인드')**의 전략적 가치를 훨씬 더 높여주는 촉매가 됩니다."
+      ],
+      "previousImplication": "AI 데이터센터의 전력 부족이 SMR과 초고압 변압기 슈퍼사이클을 견인 중임 (11/19 이브닝).",
+      "newCatalyst": "미 중간선거 이후 의회 권력 변화로 'AI 데이터센터 전력 소비·건설 규제법' 리스크가 뉴욕 증시 하락 요인으로 본격 반영됨.",
+      "updatedImplication": "단순히 GPU만 많이 사면 되던 1단계 AI 시대가 끝나고, '전력·냉각·환경 규제 인허가를 누가 확보했는가'가 승패를 가르는 2단계 AI 시대가 열렸음. 규제 리스크가 커질수록 무탄소 SMR 주기기 독점(두산에너빌리티)과 고효율 수랭식·우주 인프라의 프리미엄은 더욱 커짐.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🆕 미 의회 AI 데이터센터 전력·환경 규제 리스크 부상! 단순 빅테크 역풍 속 SMR(두산에너빌리티)·수랭식·우주 데이터센터 구조적 반사이익"
+        }
+      ],
+      "actionPoints": [
+        "AI 전력 인프라 투자 시 화석연료 발전보다 '무탄소 SMR 원전 주기기(두산에너빌리티 등)' 및 '전력 효율 극대화 직결 수랭식 냉각·초고압 변압기' 우선 선별",
+        "미 의회 AI 데이터센터 규제 법안 발의 동향을 주시하며, 자체 발전원(원전 PPA)을 이미 계약한 하이퍼스케일러 위주로 압축"
+      ],
+      "sources": [
+        "Morningstar / Around Prague (US midterm congressional shift & AI data center regulatory overhang)",
+        "SpaceX / Doosan Enerbility"
+      ]
+    },
+    {
+      "id": "agenda_44",
+      "category": "equities",
+      "categoryLabel": "한·미 증시 · 산업 · 세테크",
+      "importance": "CRITICAL",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 국내 증시 긴급 수급 점검 (11/20 '블랙 프라이데이' 코스피·코스닥 동시 매도 사이드카 발동! 외인 1.14조·기관 9,510억 투매 vs 개인 1.6조 방어)",
+      "title": "[11/22 모닝·확장특집 44] 코스피(4,869)·코스닥(645) '동시 매도 사이드카' 발동의 역사적 교훈: 외국인 1.14조 투매 이후 수익률 통계",
+      "subtitle": "코스피 10개월 만의 최저치·코스닥 -5.71% 폭락 속 양대 시장 매도 사이드카 동시 가동… 과거 사이드카 발동 직후 1개월·3개월 반등 패턴",
+      "chartImage": "assets/charts/agenda_44.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "11/20 블랙 프라이데이 코스피 투자자별 순매수/순매도 수급 대전 (조 원)",
+        "subtitle": "외국인(-1.14조)·기관(-0.95조) 합산 2.09조 원 투매 vs 개인 투자자(+1.60조 원) 단독 방어",
+        "categories": [
+          "외국인 순매도",
+          "기관 순매도",
+          "외인+기관 합산",
+          "개인 순매수"
+        ],
+        "series_name_1": "순매매 금액 (조 원)",
+        "values_1": [
+          -1.14,
+          -0.95,
+          -2.09,
+          1.6
+        ],
+        "color_1": "#0284c7",
+        "unit": "조"
+      },
+      "keyMetrics": [
+        {
+          "label": "11/20 양대 지수",
+          "value": "코스피 4,869.96 / 코스닥 645.68",
+          "change": "코스피 -5.21%(10개월 최저) · 코스닥 -5.71% · 양 시장 매도 사이드카 발동"
+        },
+        {
+          "label": "수급 충돌",
+          "value": "외인 -1.14조 · 기관 -9,510억",
+          "change": "개인 투자자 +1.6조 원 순매수로 투매 물량 대거 받아내며 역대급 손바뀜"
+        },
+        {
+          "label": "외환시장 대조",
+          "value": "원/달러 환율 1,336.20원(+6.2원)",
+          "change": "지수 -5.2% 폭락 대비 환율은 극도로 안정 ➔ 외환위기 아닌 기술주 포지션 청산"
+        }
+      ],
+      "facts": [
+        "11월 20일(금) 한국 증시는 오전 **코스피 매도 사이드카**에 이어 오후 **코스닥 매도 사이드카**까지 하루에 양대 시장 프로그램 매도 호가 일시 효력정지가 동시 발동되는 '블랙 프라이데이'를 겪었습니다.",
+        "수급을 보면 **외국인이 코스피에서만 1조 1,400억 원, 기관이 9,510억 원 등 합산 2조 원 넘게 쏟아냈고**, 개인 투자자가 홀로 **1조 6,000억 원**을 순매수하며 방어에 나섰으나 코스피는 4,869.96(-5.21%), 코스닥은 645.68(-5.71%)로 마감했습니다.",
+        "핵심은 **역사적으로 코스피·코스닥 동시 매도 사이드카가 발동된 날은 대부분 시스템 펀드·반대매매 강제 청산이 몰리는 '단기 공포의 클라이맥스'**였다는 점입니다. 특히 이번에는 지수가 -5.2% 급락했는데도 **원/달러 환율이 1,336.2원으로 불과 +6.2원 상승에 그쳤다는 사실**이 대한민국 매크로 붕괴가 아닌 글로벌 AI 펀드의 일시적 패닉 리밸런싱임을 웅변합니다."
+      ],
+      "previousImplication": "코스피 5,000선 공방 속 환율 안정(1,330원대)이 한국 증시 하방 경직성을 입증함 (11/19 이브닝).",
+      "newCatalyst": "11/20 코스피(-5.21%)·코스닥(-5.71%) 동시 매도 사이드카 발동 및 외인·기관 2.09조 원 대규모 강제 청산성 매도 출회.",
+      "updatedImplication": "사이드카 발동 다음 거래일(월요일 장 초반)에는 개인 신용 반대매매 물량이 한 차례 더 출회되며 '진짜 단기 저점(언더슈팅)'을 만드는 경우가 많음. 금요일에 현금을 다 쓰기보다 월요일 오전 반대매매 소화 과정을 확인한 뒤 실적 1등주(반도체·방산·조선·고배당)로 3회 분할 매수하는 것이 승률 최고 전략임.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🆕 11/20 코스피·코스닥 동시 매도 사이드카 발동(외인 -1.14조)! 환율 1,336원 안정 확인 ➔ 월요일 오전 반대매매 소화 후 3회 분할 매수"
+        }
+      ],
+      "actionPoints": [
+        "월요일(11/23) 개장 직후 09:00~10:00 신용 반대매매 물량 출회 여부 확인: 패닉에 동참해 저점 투매 절대 금지",
+        "신용·미수 레버리지 전면 배제 및 현금 20~30% 바벨 비중을 활용해 3단계 분할 매수(1차 월요일 오전, 2차 미 증시 반등 확인, 3차 12월 FOMC 전후)"
+      ],
+      "sources": [
+        "SBS / 한국경제 / 뉴스1 / 디지털투데이 (11/20 코스피·코스닥 동시 매도 사이드카 발동 및 투자자별 수급)"
+      ]
+    },
+    {
+      "id": "agenda_45",
+      "category": "equities",
+      "categoryLabel": "한·미 증시 · 산업 · 세테크",
+      "importance": "HIGH",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 돈이 되는 절세 특집 (시행 중인 '고배당 기업 배당소득 분리과세 특례' 완전 해부! 금융소득종합과세 최고 49.5% 탈출 공식과 건보료 체크리스트)",
+      "title": "[11/22 모닝·확장특집 45] 폭락장이 준 고배당주 바겐세일 + '배당소득 분리과세 특례' 활용법: 최고 49.5% 종소세·건보료 피하는 연말 체크리스트",
+      "subtitle": "주가가 빠질수록 배당수익률은 올라간다! 밸류업 고배당 상장사 분리과세 선택 시 유불리(그로스업·세액공제 비교) 실전 시뮬레이션",
+      "chartImage": "assets/charts/agenda_45.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "금융소득 2,000만 원 초과 투자자의 과세 방식별 실효 세율 비교 (%)",
+        "subtitle": "종합소득세 최고세율 구간(지방세 포함 49.5%) 대비 고배당 기업 분리과세 및 ISA(9.9%)의 압도적 절세 효과",
+        "categories": [
+          "종소세 최고구간(49.5%)",
+          "종소세 중상위(38.5%)",
+          "일반 배당 원천징수(15.4%)",
+          "고배당 분리과세 특례",
+          "중개형 ISA 초과분(9.9%)"
+        ],
+        "series_name_1": "적용 세율 (지방소득세 포함, %)",
+        "values_1": [
+          49.5,
+          38.5,
+          15.4,
+          15.4,
+          9.9
+        ],
+        "color_1": "#059669",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "핵심 세제 혜택",
+          "value": "고배당 상장사 배당소득 분리과세",
+          "change": "요건 충족 고배당 기업 배당을 금융소득종합과세(최고 49.5%)에서 제외 가능"
+        },
+        {
+          "label": "주가 급락의 역설",
+          "value": "시가배당률 6~8%+ 구간 속출",
+          "change": "11/20 코스피 4,869 급락으로 우량 금융·지주·밸류업 고배당주 배당수익률 급등"
+        },
+        {
+          "label": "반드시 확인할 함정",
+          "value": "그로스업(배당세액공제) 및 건보료",
+          "change": "개인의 타 근로·사업소득 구간에 따라 종합과세 vs 분리과세 유불리 사전 계산 필수"
+        }
+      ],
+      "facts": [
+        "11월 20일 코스피 급락으로 대형 금융지주·통신·밸류업 우량 고배당주 주가가 동반 하락하면서, 연말 배당기준일을 앞둔 **기대 시가배당률이 연 6~8%대까지 치솟는 기현상**이 나타나고 있습니다.",
+        "여기에 세법 개정으로 시행 중인 **'밸류업 고배당 상장법인 배당소득 분리과세 특례'**를 활용하면, 이자·배당소득이 연 2,000만 원을 넘어 종합소득세(최고 49.5%)와 건강보험료 피부양자 탈락·지역건보료 폭탄을 맞던 자산가들이 **분리과세 선택을 통해 세 부담을 획기적으로 낮출 수 있습니다.**",
+        "단, 분리과세를 선택할 경우 **배당세액공제(Gross-up) 혜택이 배제**되므로, 본인의 종합소득 과세표준 구간(세율 24% 이하 vs 35% 이상)과 건강보험료 피부양자 유지 기준(연 금융소득 2,000만 원)을 12월 배당락 전에 반드시 시뮬레이션해야 합니다."
+      ],
+      "previousImplication": "ISA·연금저축·IRP 절세 계좌를 통한 연말 세액공제 및 과세이연 전략이 필수적임 (11/19 이브닝).",
+      "newCatalyst": "11월 증시 급락으로 고배당 밸류업 종목의 시가배당률이 급등함에 따라, 연말 배당기준일 전 '배당소득 분리과세 특례' 활용 실익이 극대화됨.",
+      "updatedImplication": "폭락장은 성장주만 싸게 사는 기회가 아니라, 향후 수년간 연 7% 내외 현금흐름을 세금 우대받으며 고정할 '고배당 밸류업주(은행·보험·지주·자사주소각주)' 매집의 황금기임. 12월 중순 전까지 금융소득 2,000만 원 초과 여부를 점검하고 일반계좌와 ISA 계좌에 배당주를 전략 배치해야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🆕 코스피 급락으로 시가배당률 6~8%+ 속출! '고배당 기업 배당소득 분리과세 특례' 및 연말 금융소득종합과세(2천만 원) 방어 전략"
+        }
+      ],
+      "actionPoints": [
+        "올해 1~11월 누적 이자·배당소득 조회(홈택스·증권사 MTS): 2,000만 원 임박 시 12월 배당락 전 일반계좌 보유 고배당주 일부를 ISA 계좌로 이동하거나 분리과세 적격 종목 확인",
+        "종소세율 35% 이상 고소득자·건보료 피부양자는 '고배당 분리과세 특례 대상 기업'과 '자사주 소각 중심 저배당·주가상승 밸류업주'를 조합해 세후 수익률 극대화"
+      ],
+      "sources": [
+        "신한투자증권 / 세법개정 안내 (고배당 기업 배당소득 분리과세 특례 및 금융소득종합과세 시뮬레이션)",
+        "기획재정부"
+      ]
+    },
+    {
+      "id": "agenda_46",
+      "category": "equities",
+      "categoryLabel": "한·미 증시 · 산업 · 세테크",
+      "importance": "HIGH",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 돈이 되는 절세 특집 2 (정부 추진 '생산적금융 ISA' 개편 & 12월 연말정산 'ISA 만기자금 연금계좌 이전 +300만 원 추가 세액공제' 필승 루트!)",
+      "title": "[11/22 모닝·확장특집 46] '생산적금융 ISA' 신설과 연말정산 환급 극대화: ISA 만기자금 연금 이전 시 세액공제 300만 원 추가 챙기는 법",
+      "subtitle": "국내 주식·펀드 투자 세제 혜택을 강화한 '생산적금융 ISA' 동향과 12월 31일 전 반드시 끝내야 할 ISA·연금저축·IRP 3단 절세 콤보",
+      "chartImage": "assets/charts/agenda_46.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "2026 연말정산 세액공제 극대화 'ISA ➔ 연금저축·IRP' 3단 절세 파이프라인",
+        "subtitle": "연금 900만 원 기본 한도에 ISA 만기자금 연금 전환(최대 300만 원 공제)을 더해 최대 1,200만 원 세액공제 달성",
+        "center_label": "연말정산\n최대 환급 루트",
+        "badge_text": "TAX ALPHA",
+        "nodes": [
+          {
+            "title": "1단계: 중개형/생산적금융 ISA",
+            "metric": "손익통산 + 9.9% 분리과세",
+            "desc": "폭락장 손실과 수익을 자동 상계(손익통산)하며 국내 투자 세제 우대 강화",
+            "color": "#0284c7"
+          },
+          {
+            "title": "2단계: 연금저축 + IRP 900만",
+            "metric": "최대 148.5만 원 환급",
+            "desc": "총급여 5,500만 이하 16.5%(148.5만), 초과 13.2%(118.8만) 즉시 세액공제",
+            "color": "#059669"
+          },
+          {
+            "title": "3단계: ISA 만기자금 연금전환",
+            "metric": "전환액 10%(한도 300만) 추가",
+            "desc": "만기 60일 내 연금계좌 이체 시 최대 300만 원 추가 공제(최대 +49.5만 환급)",
+            "color": "#d97706"
+          },
+          {
+            "title": "4단계: 세후 복리 자산배치",
+            "metric": "미국채·배당ETF·반도체",
+            "desc": "세금으로 나갈 15.4%를 계좌 안에 남겨 10년 복리 수익률 격차 극대화",
+            "color": "#7c3aed"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "신규 제도 주목",
+          "value": "생산적금융 ISA 추진",
+          "change": "국내 자본시장 장기투자 유도를 위해 국내 주식·펀드 비과세·소득공제 대폭 강화"
+        },
+        {
+          "label": "연말정산 데드라인",
+          "value": "2026년 12월 31일 입금 기준",
+          "change": "연금저축 600만 + IRP 300만 = 900만 원(최대 148.5만 원 현금 환급)"
+        },
+        {
+          "label": "숨은 보너스 공제",
+          "value": "ISA 만기 전환 +300만 원",
+          "change": "3년 만기 ISA 자금 3,000만 원 연금 이전 시 추가 300만 원 세액공제(최대 +49.5만)"
+        }
+      ],
+      "facts": [
+        "11월 하순으로 접어들며 연말정산 시즌이 임박한 가운데, 정부가 국내 주식·펀드 장기 투자에 강력한 비과세 및 소득공제 혜택을 부여하는 **'생산적금융 ISA'** 등 ISA 제도 개편을 추진하면서 개인 투자자들의 절세 계좌 재정비 열기가 뜨겁습니다.",
+        "특히 **11/20 같은 급락장에서는 중개형 ISA의 '손익통산' 기능이 빛을 발합니다.** 일반 계좌에서는 A ETF에서 500만 원 손실이 나고 B 배당ETF에서 500만 원 이익이 나도 이익 500만 원 전체에 15.4%(77만 원) 세금을 매기지만, ISA 계좌에서는 순이익 0원으로 통산해 세금을 1원도 내지 않습니다.",
+        "아울러 올해 3년 만기가 도래한 ISA 계좌가 있다면, 만기일로부터 **60일 이내에 연금저축이나 IRP로 자금을 이전할 경우 이전 금액의 10%(최대 300만 원 한도)**에 대해 추가로 세액공제(최대 49.5만 원 추가 환급)를 받을 수 있어, 기본 연금 한도 900만 원과 합산해 **총 1,200만 원 세액공제**를 달성할 수 있습니다."
+      ],
+      "previousImplication": "연말 전 중개형 ISA와 연금저축·IRP 납입 한도를 채워 과세이연과 세액공제를 챙겨야 함 (11/19 이브닝).",
+      "newCatalyst": "'생산적금융 ISA' 개편 추진 및 11월 급락장 속 ISA 손익통산·만기자금 연금 이전(+300만 원 추가 공제) 실익 부각.",
+      "updatedImplication": "증시가 흔들려 수익률이 불확실할수록 '100% 확정 수익률(연 13.2%~16.5%)'을 주는 연말정산 세액공제와 ISA 손익통산이 가장 강력한 알파(Alpha)임. 남은 40일 안에 연금 900만 원과 ISA 납입/만기전환 일정을 최우선으로 마무리해야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🆕 '생산적금융 ISA' 개편 동향 및 연말정산 3단 절세 콤보(연금 900만 + ISA 만기전환 300만 = 최대 198만 원 확정 환급) 가이드"
+        }
+      ],
+      "actionPoints": [
+        "2026년 12월 29~30일(영업일 기준 여유 있게) 전까지 연금저축(600만) + IRP(300만) = 900만 원 납입 완료하여 확정 세액공제 수령",
+        "3년 만기 도래 ISA 보유자는 해지 후 60일 내 연금계좌 이체로 300만 원 추가 세액공제 챙기고, 신규 중개형 ISA 재개설하여 급락장 저가매수 계좌로 활용"
+      ],
+      "sources": [
+        "연합인포맥스 (생산적금융 ISA 신설 및 세제개편 동향)",
+        "국세청 연말정산 가이드"
+      ]
+    },
+    {
+      "id": "agenda_47",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "HIGH",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 점검 (일본 3분기 GDP 역성장 쇼크! 일본은행(BOJ) 금리인상 딜레마 심화 ➔ 엔화 변동성 및 엔캐리 청산 경계)",
+      "title": "[11/22 모닝·확장특집 47] 일본 3분기 GDP 역성장 전환과 일본은행(BOJ)의 진퇴양난: 엔화 약세·엔캐리 트레이드 변동성 체크",
+      "subtitle": "성장 행진 멈춘 일본 경제 vs 2% 물가 안착을 위한 BOJ 금리 정상화 압박… 글로벌 유동성의 숨은 뇌관 '엔화' 점검",
+      "chartImage": "assets/charts/agenda_47.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "일본 3분기 GDP 역성장 이후 BOJ 통화정책 딜레마와 글로벌 자금 파급 시나리오",
+        "subtitle": "금리를 올리면 내수 침체 심화, 동결하면 엔저·수입물가 자극이라는 외통수 속 엔캐리 변동성 확대",
+        "center_label": "일본 Q3 GDP 역성장\nBOJ 외통수",
+        "badge_text": "BOJ & YEN",
+        "nodes": [
+          {
+            "title": "일본 Q3 GDP 위축",
+            "metric": "성장세 꺾이며 역성장",
+            "desc": "소비·설비투자 둔화로 직전 성장 흐름이 꺾이며 경기 방어 부담 급증",
+            "color": "#e11d48"
+          },
+          {
+            "title": "BOJ 내부 이견·딜레마",
+            "metric": "물가 2% vs 경기 침체",
+            "desc": "추가 금리인상 압박과 경기 위축 우려 사이 BOJ 위원 간 매파·비둘기파 충돌",
+            "color": "#d97706"
+          },
+          {
+            "title": "엔화 변동성 확대",
+            "metric": "재정확대·금리차 민감",
+            "desc": "미 연준 매파 기조와 일본 재정 우려 겹치며 엔화 약세 압력 및 개입 경계",
+            "color": "#0284c7"
+          },
+          {
+            "title": "한국 증시·수출 영향",
+            "metric": "엔캐리 청산 리스크 관리",
+            "desc": "BOJ 깜짝 인상 시 글로벌 기술주 변동성 증폭 가능성, 원/엔 환율 주시",
+            "color": "#059669"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "일본 경기 지표",
+          "value": "2026년 3분기 GDP 역성장",
+          "change": "연속 성장세 중단 · 내수 취약성 노출로 BOJ 긴축 속도조절 압박"
+        },
+        {
+          "label": "BOJ 통화정책",
+          "value": "인상 압박 vs 신중론 충돌",
+          "change": "물가 2% 안착 과제와 정치적 재정확대 변수 사이 불확실성 고조"
+        },
+        {
+          "label": "투자자 관전 포인트",
+          "value": "미·일 금리차 & 엔캐리 수급",
+          "change": "미 10년물 4.95% 하락 vs BOJ 12월 회의 스탠스가 엔화 방향 결정"
+        }
+      ],
+      "facts": [
+        "글로벌 거시경제에서 미 연준만큼 중요한 숨은 변수가 바로 일본입니다. 최근 발표된 **일본의 3분기 GDP가 직전 성장 행진을 마감하고 역성장(수축)으로 돌아서며** 일본은행(BOJ)의 통화정책이 극심한 진퇴양난에 빠졌습니다.",
+        "BOJ는 인플레이션을 2% 목표치에 안착시키고 과도한 엔저를 막기 위해 추가 금리 인상을 검토해 왔으나, **취약한 내수 성장 데이터와 위원회 내부의 신중론(이견), 그리고 일본 내 정치적 재정 확대 기조**가 맞물리며 정책 경로가 안갯속에 놓였습니다.",
+        "일본이 금리를 섣불리 올리면 2024년 8월처럼 글로벌 기술주·가상화폐를 강타하는 **'엔캐리 트레이드 청산'**이 재발할 수 있고, 반대로 동결을 길게 끌면 엔저 재심화로 아시아 통화 변동성이 커집니다."
+      ],
+      "previousImplication": "미 연준 고금리 장기화 여부가 글로벌 환율과 유동성의 핵심 축임 (11/19 이브닝).",
+      "newCatalyst": "일본 3분기 GDP 역성장 및 BOJ 내부 이견 노출로 미·일 금리차와 엔화 변동성이 글로벌 증시 불안 요인으로 부상.",
+      "updatedImplication": "12월에는 미 FOMC뿐 아니라 일본은행(BOJ) 금융정책결정회의까지 동시 빅이벤트가 대기 중임. 엔화 급등(BOJ 깜짝 매파) 시 기술주 단기 변동성 확대, 엔화 약세(BOJ 비둘기) 시 일본 증시·엔화 자산 분할 접근이라는 양방향 시나리오를 준비해야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🔴 일본 3분기 GDP 역성장 & BOJ 금리인상 딜레마 심화! 12월 FOMC·BOJ 동시 변곡점 앞둔 엔캐리 변동성 경계"
+        }
+      ],
+      "actionPoints": [
+        "엔화(원/엔 환율) 급락 구간에서는 단기 환차익 몰빵보다 여행·일본 자산 분산 목적의 소액 분할 환전 유지",
+        "12월 BOJ 회의 전후로 글로벌 기술주 레버리지 포지션을 최소화하여 돌발 엔캐리 청산 리스크 사전 차단"
+      ],
+      "sources": [
+        "Seeking Alpha / Haver Analytics / Global Banking & Finance (Japan Q3 GDP contraction & BOJ policy dilemma)"
+      ]
+    },
+    {
+      "id": "agenda_48",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "HIGH",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 중국 거시·무역 포착 (중국 10월 CPI 0.7% 저물가 속 '24% 보복관세 유예 연장' & 인민은행(PBOC) '자사주 매입 재대출' 증시 방어전!)",
+      "title": "[11/22 모닝·확장특집 48] 중국 10월 물가 0.7% 디플레 경고와 '24% 보복관세 유예 연장': 인민은행 자사주 매입 유동성의 한계와 기회",
+      "subtitle": "무역 마찰 확전을 피하려 보복관세 유예를 연장하고 PBOC 증시 부양 재대출을 가동한 베이징… 한국 수출·원자재에 주는 시사점",
+      "chartImage": "assets/charts/agenda_48.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "주요국 최근 소비자물가(CPI) 상승률 비교 — 미국의 인플레 vs 중국의 디플레(0.7%)",
+        "subtitle": "미국은 고물가로 금리인상 걱정, 중국은 0.7% 저물가로 경기부양 걱정하는 극단적 거시 디커플링",
+        "categories": [
+          "미국 CPI (고물가 경계)",
+          "유로존 CPI",
+          "한국 CPI (안정)",
+          "일본 CPI",
+          "중국 10월 CPI (저물가)"
+        ],
+        "series_name_1": "전년 동기 대비 CPI 상승률 (%)",
+        "values_1": [
+          3.2,
+          2.3,
+          2.0,
+          2.2,
+          0.7
+        ],
+        "color_1": "#0284c7",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "중국 10월 CPI",
+          "value": "+0.7% (YoY)",
+          "change": "내수 소비 부진 및 디플레이션 압력 지속 확인"
+        },
+        {
+          "label": "무역 정책 선회",
+          "value": "24% 보복관세 유예 연장",
+          "change": "수출 통로 안정화를 위해 중국 정부가 선별적 보복관세 유예 조치 연장"
+        },
+        {
+          "label": "PBOC 증시 부양",
+          "value": "자사주 매입 재대출 확대",
+          "change": "인민은행(PBOC) 특수 재대출 툴로 중국 상장사 자사주 매입·주가 하방 지지"
+        }
+      ],
+      "facts": [
+        "미국이 끈적한 인플레이션 때문에 12월 금리 인상까지 걱정하는 사이, 지구 반대편 **중국은 10월 소비자물가지수(CPI)가 전년 대비 +0.7%로 꺾이며 여전히 내수 부진과 디플레이션 압력**에 시달리고 있습니다.",
+        "이에 중국 정부는 대외 무역 충격까지 겹치는 것을 막기 위해 **특정 품목에 대한 24% 보복관세 유예 조치를 연장**하며 무역 채널 안정화에 나섰고, 동시에 **인민은행(PBOC)은 상장사 자사주 매입을 지원하는 특수 재대출(Relending) 기구**를 확대 가동해 자산 가격 하방을 방어하고 있습니다.",
+        "이는 글로벌 증시와 원자재에 두 가지 중요한 신호를 줍니다: ① 미·중 관세 전면전으로 최악의 무역 단절까지는 가지 않으려는 실용적 완충 장치가 작동 중이며, ② 다만 중국 내수 소비가 약해 전통 소비재·부동산 연동 원자재는 탄력이 약하므로 여전히 **미국·글로벌향 첨단 AI·조선·방산**이 압도적으로 유리합니다."
+      ],
+      "previousImplication": "미·중 관세 갈등이 한국의 탈중국 핵심 제조업에 반사이익을 제공함 (11/19 이브닝).",
+      "newCatalyst": "중국 10월 CPI 0.7% 저물가 확인 및 베이징의 '24% 보복관세 유예 연장 + PBOC 자사주 매입 재대출' 투트랙 방어 가동.",
+      "updatedImplication": "중국이 24% 보복관세 유예를 연장한 것은 무역전쟁 파국을 피하려는 현실적 신호이나, 0.7% 저물가가 보여주듯 중국 내수 회복만으로 한국 전통 경기민감주가 폭등하기는 어려움. 중국 내수 테마 추격보다 북미·유럽 수주 기반 한국 대표주에 집중하는 전략이 우월함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🆕 중국 10월 CPI 0.7% 저물가 & 24% 보복관세 유예 연장·PBOC 자사주 재대출! 무역 파국 완화 vs 중국 내수주 신중 접근"
+        }
+      ],
+      "actionPoints": [
+        "중국 경기부양 기대감에 의존하는 고변동성 중국 본토/홍콩 주식 추격 매수 자제(PBOC 재대출은 하방 방어용이지 추세 상승 동력이 아님)",
+        "한국 포트폴리오는 대중 내수 소비재보다 대미·대유럽 확정 수주 기반(HBM4·전력기기·방산·조선) 중심으로 유지"
+      ],
+      "sources": [
+        "TMGM / KuCoin / Haver Analytics (China Oct CPI 0.7%, 24% retaliatory tariff suspension extension & PBOC buyback relending)"
+      ]
+    },
+    {
+      "id": "agenda_49",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 기술적 변곡점 경보 (S&P 500 7거래일 연속 하락·고점 대비 -10%+ 공식 조정장(Correction) 진입 & 공포지수 VIX 급등! 강제 청산 클라이맥스 점검)",
+      "title": "[11/22 모닝·확장특집 49] S&P 500 '7거래일 연속 하락 · 공식 조정장(-10%+)'과 VIX 급등의 역사: 마진콜 투매 직후 시장은 어떻게 움직였나?",
+      "subtitle": "200일 이동평균선 하향 이탈로 기계적 CTA 펀드·마진콜 투매 폭발… 공포지수(VIX) 급등 구간에서의 냉정한 자금 투입 타임테이블",
+      "chartImage": "assets/charts/agenda_49.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "S&P 500 지수 고점 대비 -10%+ 공식 조정장(6,910.39) 진입 궤적 (pt)",
+        "subtitle": "7거래일 연속 하락하며 200일선을 이탈한 6,910.39 마감 — 시스템 펀드 강제 청산(Washout) 국면 진입",
+        "labels": [
+          "11/10",
+          "11/11",
+          "11/12",
+          "11/13",
+          "11/16",
+          "11/17",
+          "11/18",
+          "11/19",
+          "11/20"
+        ],
+        "values": [
+          7520.9,
+          7619.4,
+          7592.4,
+          7510.0,
+          7418.0,
+          7340.5,
+          7323.6,
+          7175.8,
+          6910.4
+        ],
+        "unit": "pt",
+        "color": "#e11d48",
+        "benchmark_val": 7000.0,
+        "benchmark_label": "심리적 지지선 7,000pt",
+        "badge_text": "S&P500 6,910.39 (-3.70%)",
+        "annotations": [
+          {
+            "index": 8,
+            "text": "7일 연속 하락·조정장(-10%+)"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "S&P 500 연속 하락",
+          "value": "7거래일 연속 하락 (6,910.39)",
+          "change": "고점 대비 -10% 이상 하락하며 다우지수와 동반 공식 조정장(Correction) 진입"
+        },
+        {
+          "label": "투매 메커니즘",
+          "value": "200일선 이탈 ➔ CTA·마진콜",
+          "change": "인간의 판단이 아닌 알고리즘 추세추종(CTA) 펀드의 기계적 매도 폭탄 작동"
+        },
+        {
+          "label": "역사적 기대수익",
+          "value": "공포 극단기 후 6~12개월 양호",
+          "change": "1950년 이후 경기침체 없는 -10% 조정장 진입 후 1년 평균 수익률 두 자릿수"
+        }
+      ],
+      "facts": [
+        "11월 20일(금) 뉴욕 증시에서 **S&P 500 지수가 -3.70%(-265.44pt) 급락한 6,910.39**로 마감하며 **7거래일 연속 하락**을 기록했고, 다우존스 지수와 함께 고점 대비 10% 이상 빠진 **공식 조정장(Correction Territory)**에 진입했습니다.",
+        "이날 하락폭이 막판에 급격히 커진 이유는 펀더멘털이 하루 만에 망가져서가 아니라, 지수가 **200일 이동평균선과 심리적 7,000선을 동시에 깨고 내려가면서 월가의 알고리즘 추세추종(CTA) 펀드와 레버리지 계좌의 기계적 마진콜(강제 청산)**이 연쇄적으로 터졌기 때문입니다.",
+        "월가 공포지수(**VIX**)가 치솟으며 패닉 셀링이 극에 달했지만, **미 10년물 국채금리가 4.95%로 5% 아래로 뚝 떨어지며 채권시장이 즉각 안전판(충격 흡수 장치)으로 작동하기 시작**했다는 점은 시스템 금융위기가 아닌 '밸류에이션·레버리지 대청소'임을 시사합니다."
+      ],
+      "previousImplication": "미 10년물 5.1%대 경계감 속 기술적 지지선 테스트가 진행 중이었음 (11/19 이브닝).",
+      "newCatalyst": "S&P 500 7거래일 연속 하락(6,910.39)으로 공식 조정장(-10%+) 진입, 200일선 이탈 및 VIX 급등 동반 마진콜 투매 발생.",
+      "updatedImplication": "기계적 마진콜과 VIX 급등이 나오는 구간은 '지금 당장 팔아야 할 자리'가 아니라 '보유 중인 20% 현금·국채 탄약을 언제 꺼내 쓸지 저울질할 자리'임. 단, 추세추종 매도가 며칠 더 여진을 남길 수 있으므로 바닥을 한 번에 맞추려 하지 말고 2~3주에 걸쳐 기계적 분할 매수하는 것이 정석임.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🔴 S&P500 7거래일 연속 하락(6,910pt)·공식 조정장 진입 및 VIX 급등! CTA 강제청산 투매 동참 금지·국채 수익 실현 후 3주 분할 매수 준비"
+        }
+      ],
+      "actionPoints": [
+        "금요일 급등한 미국채(10년물 4.95% 하회) 포지션의 수익으로 포트폴리오 손실을 방어하면서, 리밸런싱 재원(현금 탄약)으로 대기",
+        "VIX 급등 후 3~5거래일 내 쌍바닥(이중 바닥) 확인 시 S&P500 지수 ETF 및 현금흐름 1등 AI 인프라주 순차 분할 진입"
+      ],
+      "sources": [
+        "Fortune / Around Prague / Morningstar / The Guardian (S&P 500 7-day losing streak, correction territory & VIX spike)"
+      ]
+    },
+    {
+      "id": "agenda_50",
+      "category": "geopolitics",
+      "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
+      "importance": "HIGH",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 극단적 괴리 포착 (구리 선물 2026 최악의 폭락으로 '약세장(-20%+ · LME $12,235/t)' 진입! 그런데 중국 실물 구리 수입 프리미엄은 '사상 최고치' 역주행!)",
+      "title": "[11/22 모닝·확장특집 50] 구리 선물 -20% 약세장 폭락 vs 중국 실물 프리미엄 사상 최고: 종이 선물 투매가 만든 '닥터 코퍼' 역발상 찬스",
+      "subtitle": "강달러·AI 투매에 헤지펀드가 던진 종이 구리(COMEX $5.44/lb · LME $12,235/t)와 달리 실물 시장에서는 구리가 없어 웃돈 폭등!",
+      "chartImage": "assets/charts/agenda_50.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "11/20 전략 원자재 주간·고점 대비 차별화 (구리 폭락 vs 우라늄 독주)",
+        "subtitle": "구리는 9월 고점 대비 -20%+ 약세장 진입, WTI는 3주 연속 하락($83.98), 우라늄은 연 +18% 강세($90.10/lb)",
+        "categories": [
+          "구리 (9월 고점 대비)",
+          "WTI 원유 (3주 연속 하락)",
+          "금 현물 (단기 조정)",
+          "우라늄 현물 (YoY 강세)"
+        ],
+        "series_name_1": "추세 강도 / 변동폭 (%)",
+        "values_1": [
+          -21.5,
+          -8.4,
+          -7.8,
+          18.0
+        ],
+        "color_1": "#d97706",
+        "unit": "%"
+      },
+      "keyMetrics": [
+        {
+          "label": "구리 선물 (11/20)",
+          "value": "COMEX $5.44~$5.50 / LME $12,235/t",
+          "change": "9월 고점 대비 20% 이상 하락하며 공식 약세장 진입 (2026 최악의 주간)"
+        },
+        {
+          "label": "실물 시장 역설",
+          "value": "중국 구리 수입 프리미엄 사상 최고",
+          "change": "종이 선물 펀드 청산과 정반대로 실물 정련 구리 부족 현상은 오히려 심화"
+        },
+        {
+          "label": "WTI · 우라늄 대조",
+          "value": "WTI $83.98 / 우라늄 $90.10/lb",
+          "change": "원유 3주 연속 하락(인플레 완화 호재) vs 우라늄 원전 수요 기반 철벽 방어"
+        }
+      ],
+      "facts": [
+        "11월 20일 원자재 시장에서 가장 충격적인 뉴스는 **구리(Copper)가 2026년 들어 최악의 주간 폭락을 기록하며 9월 고점 대비 -20% 이상 하락한 '약세장(Bear Market)'에 진입**했다는 소식입니다(Mining.com 보도). COMEX 구리 선물은 파운드당 **$5.44~$5.50**, LME 구리는 톤당 **$12,235**까지 밀렸습니다.",
+        "하지만 Mining.com과 Crux Investor가 포착한 **가장 돈이 되는 핵심 모순**은, 헤지펀드들이 강달러와 AI 인프라 투매에 맞춰 종이 선물(Paper Copper)을 무차별 청산하는 바로 그 순간에도 **실물 시장에서는 공급 부족이 심화되며 중국의 구리 수입 프리미엄이 사상 최고 수준을 유지하고 있다**는 점입니다.",
+        "한편 **WTI 원유는 배럴당 $83.98(브렌트 $92.57)로 3주 연속 하락**하며 오히려 인플레이션 둔화에 도움을 주고 있으며, **우라늄 현물은 파운드당 $90.10(전년 대비 +18%)**에서 미동도 없는 철벽 강세를 입증했습니다."
+      ],
+      "previousImplication": "골드만삭스·도이치뱅크가 2027년 구리 구조적 공급부족($13,000~$14,000+/t)을 경고함 (11/19 이브닝).",
+      "newCatalyst": "매크로 펀드 청산으로 구리 선물이 LME $12,235/t(-20%+) 약세장에 빠졌으나, 중국 실물 구리 수입 프리미엄은 사상 최고치를 기록하는 극단적 괴리 발생.",
+      "updatedImplication": "역사적으로 원자재 시장에서 '종이 선물 가격은 펀드 투매로 폭락하는데 실물 프리미엄(현물 웃돈)은 치솟는 구간'은 가장 확실한 중장기 매수 신호임. 우라늄($90.10)을 방어축으로 보유하면서, 고점 대비 -20% 할인된 구리 ETF(COPX)·우량 구리 광산주를 천천히 분할 매집할 절호의 타이밍이 열림.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🔴 구리 선물 -20% 약세장 폭락(LME $12,235/t) vs 중국 실물 프리미엄 사상 최고! 펀드 강제 청산이 만든 구리·우라늄 분할 매집 기회"
+        }
+      ],
+      "actionPoints": [
+        "원자재 포트폴리오 핵심 축인 우라늄(URA·URNM·카메코) 보유 유지($90.10/lb 강세 확인)",
+        "고점 대비 -20%+ 투매가 나온 구리(COPX·프리포트맥모란 등)는 실물 타이트함을 근거로 11월 말~12월 초 분할 저가 매수 관찰 리스트 1순위 편입"
+      ],
+      "sources": [
+        "Mining.com / Crux Investor (Copper tumbles into bear market amid record China physical import premiums)",
+        "EnergyNow / TradingEconomics (WTI $83.98, Uranium $90.10/lb)"
+      ]
+    },
+    {
+      "id": "agenda_51",
+      "category": "gold",
+      "categoryLabel": "금(Gold $/oz) · 안전자산",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 시사점 재점검 (금 현물 $3,600 붕괴 ➔ '$3,540~$3,575/oz' 급락! '12월 연준 금리인상 90% 선반영' 끝자락에서 노리는 KRX 금현물 분할매수)",
+      "title": "[11/22 모닝·확장특집 51] 금값 '$3,540~$3,575/oz' 급락 해부: '12월 연준 인상 90%'가 이미 가격에 다 녹았다면 다음 방향은?",
+      "subtitle": "강달러와 금리인상 베팅에 $3,600 지지선을 내준 국제 금 시세… 단기 마진콜 현금화 매물과 중앙은행 장기 매집의 충돌 지점",
+      "chartImage": "assets/charts/agenda_51.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "국제 금 현물 시세 최근 급락 추이 및 $3,500~$3,600 핵심 분할매수 밴드 ($/oz)",
+        "subtitle": "12월 연준 금리인상 90% 반영과 증시 마진콜 현금화로 $3,540~$3,575/oz 급락 — 악재 선반영 극대화 구간",
+        "labels": [
+          "11/10",
+          "11/12",
+          "11/14",
+          "11/17",
+          "11/18",
+          "11/19",
+          "11/20"
+        ],
+        "values": [
+          3950,
+          3882,
+          3894,
+          3860,
+          3780,
+          3745,
+          3560
+        ],
+        "unit": "$",
+        "color": "#d97706",
+        "benchmark_val": 3500.0,
+        "benchmark_label": "강력 지지선 $3,500/oz",
+        "badge_text": "SPOT $3,540~$3,575",
+        "annotations": [
+          {
+            "index": 6,
+            "text": "$3,600 하회·악재 90% 반영"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "국제 금 현물 (11/20)",
+          "value": "$3,540 ~ $3,575 / oz",
+          "change": "$3,600 지지선 하회 급락 · 단기 과매도 영역 진입"
+        },
+        {
+          "label": "금락 핵심 원인",
+          "value": "12월 연준 인상 확률 ~90% 반영",
+          "change": "강달러 + 증시 -5% 폭락에 따른 마진콜 충당용 금 현금화 매도 겹침"
+        },
+        {
+          "label": "역발상 핵심 논리",
+          "value": "확률 90% ➔ 추가 악재 여력 제한",
+          "change": "금리인상 우려가 이미 90% 선반영 + 미 10년물 금리는 오히려 4.95%로 하락!"
+        }
+      ],
+      "facts": [
+        "11월 20일(금) 국제 금 현물 가격이 **$3,600/oz 지지선을 깨고 $3,540~$3,575/oz 구간까지 급락**했습니다. 안전자산인 금까지 증시와 동반 하락한 이유는 크게 두 가지입니다: ① **시장 내 12월 미 연준 금리 인상 확률이 약 90%까지 치솟으며 강달러 압박**이 극대화되었고, ② **나스닥 -5.28% 폭락으로 마진콜을 맞은 헤지펀드들이 수익이 나 있던 금 포지션을 현금화(Liquidity Dash)**했기 때문입니다.",
+        "역사적으로 금융시장 폭락 초입에는 마진콜 때문에 금도 같이 떨어지지만(2008년·2020년 3월 동일 패턴), **유동성 패닉이 진정되는 순간 가장 먼저 V자 반등하는 자산이 바로 금**입니다.",
+        "특히 주목할 신호는 **11/20 밤 미 10년물 국채금리가 이미 4.95%로 5% 아래로 꺾였다**는 점과, 12월 인상 확률이 90%까지 올라왔다는 것은 역설적으로 **금값에 악재가 거의 최대치로 선반영되었음**을 의미합니다."
+      ],
+      "previousImplication": "미 TIPS 실질금리 상승에 금 현물 $3,740~$3,755/oz 지지선을 테스트 중이었음 (11/19 이브닝).",
+      "newCatalyst": "12월 연준 금리인상 확률 90% 선반영 및 증시 폭락 마진콜 현금화 매물로 국제 금 현물이 $3,540~$3,575/oz까지 급락.",
+      "updatedImplication": "증시 마진콜 때문에 금이 덩달아 빠지는 구간은 장기 투자자에게 최고의 바겐세일임. 골드만삭스 2027년 목표($4,800) 대비 업사이드가 이제 **+34% 이상**으로 벌어졌으므로, 세금이 없는 **KRX 금현물 계좌**에서 $3,500~$3,600/oz 구간을 3~4회 분할 매집하는 전략이 매우 유리함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🔴 금 현물 $3,600 하회($3,540~$3,575/oz) 급락! 마진콜 현금화 매물 + 12월 인상 90% 선반영 ➔ KRX 금현물 분할매집 구간"
+        }
+      ],
+      "actionPoints": [
+        "KRX 금현물(매매차익 비과세·배당소득세 0원) 계좌 활용해 $3,500~$3,600/oz 구간에서 기계적 3~4회 분할 매수 실행",
+        "레버리지 금 선물·ETN은 추가 변동성에 청산될 수 있으므로 현물(KRX 금현물·실물형 ETF) 100% 원칙 고수"
+      ],
+      "sources": [
+        "Macrotrends / Markets.com / Mitrade (Gold tumbles below $3,600 to $3,540~$3,575/oz amid 90% Dec Fed hike pricing)"
+      ]
+    },
+    {
+      "id": "agenda_52",
+      "category": "crypto",
+      "categoryLabel": "가상화폐 (비트코인 95%+ 집중)",
+      "importance": "CRITICAL",
+      "deltaStatus": "CHALLENGED",
+      "deltaLabel": "🔴 이중 충격 해부 (비트코인 8,250만~8,350만원($61.5K~$63K) 급락! '미 현물 ETF 10억 달러+ 순유출' + '스트래티지(MSTR) 지수 편출' 이중 압박)",
+      "title": "[11/22 모닝·확장특집 52] 비트코인 8,250만원($61.5K) 급락과 스트래티지(MSTR) 지수 편출 쇼크: 왜 '현물 BTC 95%+'가 레버리지 프록시보다 안전한가?",
+      "subtitle": "미 현물 ETF 누적 유입액 $54B~$55B로 후퇴 & MSTR 주요 지수 편출 악재 겹침… 약세장에서 증명된 '무레버리지 현물 BTC' 생존 법칙",
+      "chartImage": "assets/charts/agenda_52.svg",
+      "chartConfig": {
+        "type": "line",
+        "title": "비트코인 원화 시세(만원) 최근 조정 궤적 및 8,000만 원 핵심 지지 구간",
+        "subtitle": "글로벌 위험회피·ETF 10억 달러+ 순유출 여파에 8,250만~8,350만원($61,500~$63,000) 하락",
+        "labels": [
+          "11/10",
+          "11/12",
+          "11/14",
+          "11/16",
+          "11/18",
+          "11/19",
+          "11/20"
+        ],
+        "values": [
+          9810,
+          9524,
+          9650,
+          9200,
+          8850,
+          8600,
+          8300
+        ],
+        "unit": "만원",
+        "color": "#f97316",
+        "benchmark_val": 8000.0,
+        "benchmark_label": "핵심 심리 지지선 8,000만원",
+        "badge_text": "업비트 8,250~8,350만원",
+        "annotations": [
+          {
+            "index": 6,
+            "text": "ETF 환매·8,300만원대 테스트"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "국내 BTC 시세 (11/20)",
+          "value": "8,250만원 ~ 8,350만원",
+          "change": "글로벌 $61,500~$63,000 급락 · 업비트·빗썸 소폭 김치프리미엄 유지"
+        },
+        {
+          "label": "미 현물 ETF 수급",
+          "value": "11월 누적 $10억+ 순유출",
+          "change": "전체 누적 순유입 $54B~$55B 수준으로 후퇴, 일시적 환매 소화 중"
+        },
+        {
+          "label": "MSTR 이중 압박",
+          "value": "850,849 BTC 보유 vs 지수 편출",
+          "change": "평단($75,452) 하회 + 주요 지수(MSCI 등) 편출 수급 악재로 MSTR 낙폭 확대"
+        }
+      ],
+      "facts": [
+        "11월 20일 글로벌 증시 폭락과 함께 비트코인도 **글로벌 $61,500~$63,000, 국내 업비트·빗썸 기준 8,250만원~8,350만원** 구간까지 밀려났습니다.",
+        "이번 조정은 단순 증시 동조화뿐만 아니라 **① 11월 초~중순 미국 비트코인 현물 ETF에서 10억 달러 이상의 연속 순유출이 발생(전체 누적 순유입액 $54B~$55B로 후퇴)**한 수급 부담과, **② 기업 최대 보유사인 스트래티지(MSTR)가 평단($75,452) 아래로 밀린 상태에서 주요 글로벌 주가지수 편출(패시브 자금 이탈) 악재까지 겹친 이중 충격**이 작용했습니다.",
+        "이 사건은 투자자들에게 결정적인 교훈을 줍니다: 상승장에서는 MSTR이나 2배 레버리지 ETF·알트코인이 더 화끈해 보이지만, **하락장에서는 지수 편출·증자 희석·강제 청산 리스크가 겹쳐 회복 불능의 손실**을 입기 쉽습니다. 반면 **현물 비트코인(전체 코인 비중 95%+)**은 지수 편출도, 만기도, 강제 청산도 없어 사이클 회복 시 100% 원상 복구됩니다."
+      ],
+      "previousImplication": "스트래티지 850,849 BTC 보유 및 IBIT 옵션 인프라가 기관 하방 지지선을 형성 중이었음 (11/19 이브닝).",
+      "newCatalyst": "미국 현물 ETF 10억 달러+ 순유출 및 스트래티지(MSTR) 주요 지수 편출 압박이 겹치며 비트코인 8,250만~8,350만원($61.5K~$63K) 급락.",
+      "updatedImplication": "비트코인이 8,250만원($61.5K)까지 내려온 것은 단기 고통스럽지만, 현물 ETF 누적 유입액이 여전히 $54B~$55B(약 73조 원)나 굳건히 버티고 있음. 레버리지·MSTR·잡알트코인 손실을 피하고, 오직 '현물 비트코인 95%+ 무레버리지' 원칙으로 8,000만 원 전후 지지 확인 시 분할 대응해야 함.",
+      "implicationHistory": [
+        {
+          "time": "11/21 08:00",
+          "text": "🔴 BTC 8,250만~8,350만원($61.5K~$63K) 급락! ETF $10억+ 환매 & MSTR 지수 편출 이중 충격 ➔ 레버리지/프록시 회피 · 현물 BTC 95%+ 고수"
+        }
+      ],
+      "actionPoints": [
+        "MSTR·2배 레버리지 ETF·선물 마진 및 알트코인(5% 미만 엄수) 비중 축소하고, 청산·지수 편출 리스크가 없는 '현물 비트코인'으로 95% 이상 일원화",
+        "8,000만원($60,000) 핵심 지지선 테스트와 미 현물 ETF 순유출 진정(순유입 전환 2거래일 확인)을 신호로 분할 매수 재개"
+      ],
+      "sources": [
+        "TradingEconomics / Investing.com / BitcoinMagazine / AltcoinBuzz (BTC $61.5K~$63K, 8,250~8,350만원, ETF $1B+ outflow & MSTR index removal)"
+      ]
+    },
+    {
+      "id": "agenda_53",
+      "category": "geopolitics",
+      "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
+      "importance": "CRITICAL",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🟢 확전 공포 진정 + 방산 수혜 유지 (폴란드 추락 미사일 '러 Kh-101' 확인! 단 폴란드가 'NATO 제4조 발동 보류' 결정하며 전면전 공포 완화 · 동부 방공망 강화 가속)",
+      "title": "[11/22 모닝·확장특집 53] 폴란드 '러 Kh-101 순항미사일 추락' 확인 불구 NATO 제4조 발동 보류: 전면전 공포 진정 속 동부 방공망·K-방산 수혜",
+      "subtitle": "11개국 연합훈련 인근 폴란드 남동부 추락에 마르크 뤼터 NATO 사무총장 '심각한 영공 침해' 규탄 · 투스크 폴란드 총리 '의도적 도발' 규정",
+      "chartImage": "assets/charts/agenda_53.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "11/21 러시아 미사일·드론 폴란드(NATO) 영토 추락 사건과 유럽 방공·방산 파급 경로",
+        "subtitle": "러시아 80발 미사일·400기 드론 공습 중 NATO 동부전선 핵심국 폴란드 영토 직접 피격 ➔ 유럽 방공 예산 즉각 집행",
+        "center_label": "러 미사일 2발\n폴란드 영토 추락",
+        "badge_text": "NATO RED ALERT",
+        "nodes": [
+          {
+            "title": "러시아 역대급 대공습",
+            "metric": "미사일 80발 + 드론 400기",
+            "desc": "키이우·르비우 등 우크라 전역 타격, 우크라도 이스칸데르·화학공장 반격",
+            "color": "#e11d48"
+          },
+          {
+            "title": "폴란드 영토 직접 침범",
+            "metric": "순항미사일 2발 + 제트드론",
+            "desc": "11개국 연합훈련 인근 폴란드 남동부 추락, 투스크 총리 '의도적 도발'",
+            "color": "#f97316"
+          },
+          {
+            "title": "NATO 수뇌부 강력 경고",
+            "metric": "뤼터 사무총장 '중대 침해'",
+            "desc": "동부전선 상시 다층 방공망·요격미사일 비축 긴급 회의 및 예산 증액 압박",
+            "color": "#0284c7"
+          },
+          {
+            "title": "K-방산 직접 수혜",
+            "metric": "폴란드 핵심 파트너 한국",
+            "desc": "천궁-II·L-SAM 방공망과 한화에어로 천무·K9 현지화 수주 명분 절대 강화",
+            "color": "#059669"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "11/21 러 공습 규모",
+          "value": "미사일 80발+ · 드론 400기+",
+          "change": "개전 약 5년 만의 최대급 공습 · 우크라 에너지·도시 인프라 집중 타격"
+        },
+        {
+          "label": "NATO 영공 침범",
+          "value": "러 순항미사일 2발 폴란드 추락",
+          "change": "11개국 연합훈련 인근 폴란드 남동부(노비 리포비에츠 등) 피격 확인"
+        },
+        {
+          "label": "외교·군사 이중 변수",
+          "value": "미 특사 막후 협상 vs 군사 확전",
+          "change": "쿠슈너·위트코프 특사의 막후 NATO·돈바스 구상 보도와 군사적 초강경 충돌"
+        }
+      ],
+      "facts": [
+        "11월 21일(토) 주말 국제 정세를 뒤흔든 최대 속보는 **러시아가 미사일 80발 이상과 드론 400기 이상을 동원해 우크라이나 전역(키이우·르비우·크리비리흐 등)을 대공습하는 과정에서, 러시아 순항미사일 2발과 제트 추진 드론 1기가 NATO 회원국인 폴란드 남동부 영토(노비 리포비에츠 및 루드니크 나드 사넴 인근)에 추락**한 사건입니다(The Guardian·Taipei Times 보도).",
+        "특히 추락 지점 인근에서는 **유럽 11개국('의지의 연합') 합동 군사훈련**이 진행 중이었으며, 마르크 뤼터 NATO 사무총장은 이를 **'동맹 영공에 대한 중대한 침해(Grave violation)'**로 규탄했고, 도날드 투스크 폴란드 총리는 **'의도적 도발'**이라며 초강경 대응을 예고했습니다.",
+        "미국 특사단(쿠슈너·위트코프)이 물밑에서 우크라이나 NATO 가입 프레임워크와 영토 양보를 연계한 종전안을 타진 중이라는 보도(JPost)가 나온 직후 터진 이번 NATO 영토 피격은, 종전 여부와 무관하게 **폴란드와 유럽 동부전선의 방공망(천궁-II·패트리어트) 및 장사정 화력(천무·K9) 확충이 '선택이 아닌 생존'임**을 각인시켰습니다."
+      ],
+      "previousImplication": "영국 £2.4억 동계 방공 패키지 지원 및 러 저가 제트 미사일 소모전으로 방공 수요가 급증 중이었음 (11/21 모닝).",
+      "newCatalyst": "11/21 러시아 미사일 80발·드론 400기 대공습 도중 러시아 순항미사일 2발·드론 1기가 폴란드 영토(NATO)에 추락하며 안보 위기 극대화.",
+      "updatedImplication": "주말 사이 터진 '러시아 미사일의 폴란드 영토 추락'은 월요일(11/23) 국내외 증시에서 기술주 변동성과 완전히 디커플링되는 **방산주(한화에어로스페이스·LIG넥스원·현대로템)와 금·원자재 안전자산의 강력한 반등 촉매**가 될 것임. 폭락장에서 방산 핵심 비중을 지키는 것이 포트폴리오 최강의 보험임.",
+      "implicationHistory": [
+        {
+          "time": "11/21 20:00",
+          "text": "🆕 러 순항미사일 2발·드론 폴란드(NATO) 영토 추락! 월요일 방산주(한화에어로·LIG넥스원) 및 안전자산 핵심 반등 촉매 부상"
+        }
+      ],
+      "actionPoints": [
+        "월요일 개장 시 기술주 투매 여진이 남아 있더라도, 폴란드 직결 핵심 파트너인 K-방산(한화에어로·LIG넥스원·현대로템)은 매도 금지 및 포트폴리오 방어축 유지",
+        "NATO 긴급 이사회(제4조 협의 발동 여부) 및 유럽 국방비 긴급 증액 발표 모니터링"
+      ],
+      "sources": [
+        "The Guardian (Two Russian cruise missiles and drone crash in southeastern Poland; Rutte & Tusk condemn)",
+        "Taipei Times / Kyiv Independent / Jerusalem Post"
+      ]
+    },
+    {
+      "id": "agenda_54",
+      "category": "macro",
+      "categoryLabel": "거시경제 · 금리",
+      "importance": "CRITICAL",
+      "deltaStatus": "NEW",
+      "deltaLabel": "🆕 차주(11/23~27) 최종 관전 포인트 (12/9 FOMC 전 마지막 물가 '11/25 미 근원 PCE(+3.2~3.3% 예상)' · 11/26 한은 3.25% 인상 · 블프 소비 '$1.013조(+4.2%)' 테스트!)",
+      "title": "[11/22 모닝·확장특집 54] 차주 추수감사절 초압축 일정 완전 해부: '슈퍼 수요일(미 PCE·GDP)'과 '목요일 한은 금통위(3.25% 인상 여부)' 승부수",
+      "subtitle": "미 11/26(목) 추수감사절 휴장으로 모든 핵심 지표가 수요일(11/25) 단 하루에 집중! 얇아진 유동성 속 한국은행 연내 마지막 금리 결정",
+      "chartImage": "assets/charts/agenda_54.svg",
+      "chartConfig": {
+        "type": "infographic",
+        "title": "차주(11/23~11/27) 추수감사절 휴장 주간 일자별 초대형 매크로 이벤트 타임테이블",
+        "subtitle": "월(글로벌 PMI) ➔ 수(미 10월 PCE·Q3 GDP·내구재·실업·베이지북 5연타!) ➔ 목(한은 금통위 3.00% vs 3.25% · 미 휴장)",
+        "center_label": "11/23~27\n초압축 주간",
+        "badge_text": "WEEK AHEAD",
+        "nodes": [
+          {
+            "title": "11/23(월) 글로벌 PMI",
+            "metric": "미·유럽·영국 11월 플래시 PMI",
+            "desc": "금요일 -5% 폭락 직후 첫 개장: 제조업·서비스업 경기 체력 확인",
+            "color": "#0284c7"
+          },
+          {
+            "title": "11/25(수) 슈퍼 수요일",
+            "metric": "미 10월 PCE(+0.3% 예상) · Q3 GDP",
+            "desc": "추수감사절 휴장 전 미 10월 PCE·GDP·내구재·실업수당·베이지북 동시 발표",
+            "color": "#e11d48"
+          },
+          {
+            "title": "11/26(목) 한은 금통위",
+            "metric": "현행 3.00% ➔ 3.25% 인상 기로",
+            "desc": "물가 2% 후반·반도체 수출 호조(성장률 3% 후반) 속 25bp 인상 vs 증시 고려 동결",
+            "color": "#d97706"
+          },
+          {
+            "title": "11/26~27 미 유동성 공백",
+            "metric": "목 휴장 · 금 조기 폐장",
+            "desc": "얇은 거래량 속 델(Dell)·HP 실적 및 단기 변동성 확대 주의",
+            "color": "#7c3aed"
+          }
+        ]
+      },
+      "keyMetrics": [
+        {
+          "label": "슈퍼 수요일 (11/25)",
+          "value": "미 10월 PCE (+0.3% MoM 예상)",
+          "change": "헤드라인·근원 PCE 모두 +0.3% 예상 · 예상 하회 시 나스닥 강력한 안도 랠리"
+        },
+        {
+          "label": "한국은행 금통위 (11/26)",
+          "value": "현행 3.00% vs 3.25% 인상론",
+          "change": "DBS 등 글로벌 IB '물가 2%대 후반·GDP 3%대 후반·집값 경계로 25bp 인상' 유력 전망"
+        },
+        {
+          "label": "유동성 리스크 경고",
+          "value": "11/26 미 휴장 · 11/27 조기폐장",
+          "change": "수요일 지표 집중 직후 거래량 급감으로 호가 공백·과잉 변동성 주의"
+        }
+      ],
+      "facts": [
+        "돌아오는 **11월 23~27일 주간은 미국 추수감사절(11/26 목 휴장 · 11/27 금 조기 폐장)** 때문에 평소 일주일에 걸쳐 발표될 미국 최상위 경제지표들이 **11월 25일(수) 오전 8시 30분(미 동부시간, 한국시간 수요일 밤 10시 30분) 단 한 시점에 모두 몰리는 '슈퍼 수요일(Super Wednesday)'**로 압축됩니다.",
+        "이날 연준이 가장 중시하는 **미 10월 PCE 물가지수(헤드라인·근원 모두 전월 대비 +0.3% 컨센서스)**와 **3분기 GDP 수정치**, **10월 내구재 수주**, **주간 신규 실업수당 청구건수**, 그리고 오후 2시 **연준 베이지북**이 연달아 쏟아집니다. 금요일에 이미 '12월 연준 금리인상 확률 90%'까지 과도하게 반영된 만큼, **PCE가 컨센서스(+0.3%) 이하로만 나와줘도 폭락했던 기술주·금·비트코인이 강력한 안도 랠리**를 펼칠 수 있습니다.",
+        "국내에서는 **11월 26일(목) 한국은행 금융통화위원회(올해 마지막 회의)**가 최대 분수령입니다. 한국은행은 올해 7~8월 연속 인상으로 기준금리를 **연 3.00%**까지 올린 뒤 10월에 숨을 골랐는데, DBS 등 주요 IB들은 **2%대 후반의 끈적한 물가와 3%대 후반의 반도체 주도 고성장, 수도권 가계부채 경계감**을 이유로 **3.25%로 25bp 추가 인상 가능성**을 높게 점치고 있습니다."
+      ],
+      "previousImplication": "미 10년물 4.95% 하회 및 코스피 4,869 폭락 이후 차주 반등 분수령을 모색 중임 (11/21 모닝).",
+      "newCatalyst": "11/25(수) 미 10월 PCE·Q3 GDP·베이지북 초압축 발표 및 11/26(목) 한국은행 기준금리 3.00%➔3.25% 추가 인상 기로 확인.",
+      "updatedImplication": "차주 투자 전략의 핵심은 **'수요일 밤 미 10월 PCE 확인 전까지 성급한 풀베팅 금지, 목요일 한은 금통위(3.25% 인상 시 은행주 수혜·부동산/채권 단기 압박) 대비'**임. 추수감사절 얇은 유동성 장세에서는 레버리지를 완전히 비우고 수요일 밤 PCE 결과 확인 후 방향성 대응이 정답임.",
+      "implicationHistory": [
+        {
+          "time": "11/21 20:00",
+          "text": "🆕 차주 추수감사절 초압축 주간: 11/25(수) 미 10월 PCE(+0.3% 예상)·Q3 GDP 동시 발표 & 11/26(목) 한은 금통위 3.00%➔3.25% 인상 분수령"
+        }
+      ],
+      "actionPoints": [
+        "월~수요일 낮(PCE 발표 전): 1차 소규모 분할 매수만 진행하고 현금 탄약 70%는 수요일 밤(11/25 22:30 KST) 미 10월 PCE 확인 후 집행",
+        "목요일(11/26) 한은 금통위 3.25% 인상 시: 고배당 은행·금융지주(분리과세 특례 수혜) 강세 및 국내 주담대 금리 상승에 따른 부동산 관망세 장기화 대비"
+      ],
+      "sources": [
+        "Newsquawk / TradingEconomics / FXStreet (Super Wednesday Nov 25 US Oct PCE & Q3 GDP; Nov 26 BOK 3.00%->3.25% hike preview)",
+        "파이낸셜뉴스"
+      ]
+    },
+    {
+      "id": "agenda_55",
+      "category": "frontier",
+      "categoryLabel": "미래기술 · 우주 · 로봇 · 원전 · 바이오",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 시사점 대강화! (머스크 '사이버캡 월 $299 구독료 향후 $115 수준 인하 + 12월 고객 FSD 차량 로보택시 시범 합류' 시사 & 베를린 €30억 연산 100만 대 공장!)",
+      "title": "[11/22 모닝·확장특집 55] 테슬라 베를린 '연산 100만 대 사이버캡 공장(€30억 투자)' & 텍사스 '옵티머스 전용 기가프레스' 착공 포착!",
+      "subtitle": "글로벌 기술주 투매 속에서도 멈추지 않는 피지컬 AI 실물 증설: 2029년 유럽 연 100만 대 사이버캡 + 옵티머스 일체형 주조(기가프레스) 양산",
+      "chartImage": "assets/charts/agenda_55.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "테슬라 피지컬 AI 양대 축(사이버캡·옵티머스) 글로벌 실물 인프라 확장 타임라인",
+        "subtitle": "텍사스 1,500대+ 가동 · 12월 개인 인도($29,990) · 베를린 €30억 연산 100만 대 공장 · 기가 텍사스 옵티머스 기가프레스",
+        "categories": [
+          "텍사스 현행 등록(백대)",
+          "개인 판매가(천$)",
+          "베를린 투자(억€)",
+          "베를린 연목표(만대)"
+        ],
+        "series_name_1": "테슬라 피지컬 AI 핵심 규모 지표",
+        "values_1": [
+          15.0,
+          30.0,
+          30.0,
+          100.0
+        ],
+        "color_1": "#4f46e5",
+        "unit": ""
+      },
+      "keyMetrics": [
+        {
+          "label": "베를린 기가팩토리",
+          "value": "€30억 투자 · 연 100만 대 사이버캡",
+          "change": "독일 베를린-그륀하이데에 2029년 가동 목표 초대형 사이버캡 전용 라인 신설 발표"
+        },
+        {
+          "label": "기가 텍사스 드론 포착",
+          "value": "옵티머스 전용 IDRA 기가프레스",
+          "change": "오스틴 공장 내 휴머노이드 옵티머스 대량 주조용 기가프레스 기초·프레임 설치 확인"
+        },
+        {
+          "label": "규제·상용화 진전",
+          "value": "12월 개인 인도($29,990+월$299)",
+          "change": "운전대·페달 없는 사이버캡 전국 규제 통과 시사 및 텍사스 1,500대+ 돌파"
+        }
+      ],
+      "facts": [
+        "11월 21일 주말 자동차·로봇 업계 보도(EV Powered·TeslaNorth)에 따르면, 테슬라가 **독일 베를린-그륀하이데 기가팩토리에 30억 유로(약 4.5조 원)를 투입해 2029년부터 연간 최대 100만 대의 사이버캡(Cybercab)을 생산하는 전용 공장**을 건설하는 대규모 투자 계획을 발표했습니다.",
+        "동시에 미국 오스틴 **기가 텍사스(Giga Texas) 상공 드론 촬영 영상에서는 휴머노이드 로봇 '옵티머스(Optimus)'의 대량 양산에 투입될 IDRA 기가프레스(초대형 일체형 주조기) 기초 토대와 프레임 마운트 설치 작업**이 포착되었습니다.",
+        "이는 옵티머스가 실험실 프로토타입 단계를 완전히 벗어나 **자동차 차체처럼 일체형 다이캐스팅(기가프레스)으로 원가를 1/10로 깎아 대량 생산하는 제조 혁명 단계**로 진입했음을 실물 증거로 보여줍니다."
+      ],
+      "previousImplication": "테슬라 텍사스 하루 200대 사이버캡 등록(누적 1,500대+) 및 12월 개인 인도가 피지컬 AI 성장을 입증함 (11/21 모닝).",
+      "newCatalyst": "테슬라 베를린 €30억(연산 100만 대 사이버캡 공장) 투자 발표 및 기가 텍사스 옵티머스 전용 IDRA 기가프레스 기초 공사 드론 포착.",
+      "updatedImplication": "앤트로픽 IPO 쇼크로 '소프트웨어 AI의 수익성'이 의심받는 바로 그 시점에, 테슬라는 자동차·로봇을 결합한 **'실물 피지컬 AI의 제조 원가 혁명(기가프레스 + 구독형 사이버캡)'**으로 완전히 다른 차원의 해자를 증명하고 있음. 글로벌 기술주 폭락장 속 피지컬 AI 핵심주 재평가 근거 확보.",
+      "implicationHistory": [
+        {
+          "time": "11/21 20:00",
+          "text": "🟢 테슬라 베를린 €30억(연 100만 대 사이버캡 공장) 투자 & 기가 텍사스 옵티머스 전용 기가프레스 착공 포착! 피지컬 AI 양산 실물 입증"
+        }
+      ],
+      "actionPoints": [
+        "단순 챗봇 소프트웨어 AI 대신, 실물 제조 인프라와 구독 수익(월 $299)을 결합한 피지컬 AI·로봇 감속기/액추에이터·자율주행 센서 밸류체인에 중장기 집중",
+        "12월 사이버캡 첫 개인 인도 개시 및 향후 1~2개월 내 옵티머스 일상 데모 일정을 테슬라 주가 반등의 핵심 트리거로 추적"
+      ],
+      "sources": [
+        "EV Powered (Tesla €3B Berlin Gigafactory expansion for 1M Cybercabs/yr)",
+        "TeslaNorth (Giga Texas IDRA Giga Press foundations for Optimus)",
+        "Basenor"
+      ]
+    },
+    {
+      "id": "agenda_56",
+      "category": "frontier",
+      "categoryLabel": "미래기술 · 우주 · 로봇 · 원전 · 바이오",
+      "importance": "HIGH",
+      "deltaStatus": "REINFORCED",
+      "deltaLabel": "🟢 경기방어·바이오 황제주 독주! (일라이 릴리 '젭바운드 청소년(12~17세) 비만 임상 대성공'으로 시장 확장 + 캐나다 먹는 비만약 파운다요 승인 & $74억 빅딜!)",
+      "title": "[11/22 모닝·확장특집 56] AI 폭락장에 빛나는 비만·항암 황제주 일라이 릴리: 캐나다 먹는 비만약 '파운다요' 승인 & $74억 바이오텍 연속 M&A!",
+      "subtitle": "중국 이어 캐나다까지 뚫은 먹는 GLP-1 '파운다요' + 마운자로 심혈관 적응증 추가 + $59억 Stipple Bio·$15억 Calytrix Bio 빅딜",
+      "chartImage": "assets/charts/agenda_56.svg",
+      "chartConfig": {
+        "type": "bar",
+        "title": "일라이 릴리 2026년 하반기 연속 대형 파이프라인 확장 및 실적 규모 ($B)",
+        "subtitle": "연간 매출 가이던스 $91~92B(약 122조 원)의 막대한 현금으로 비만·심혈관·항암·혈액질환까지 독식하는 빅딜 행진",
+        "categories": [
+          "2026 매출 가이던스",
+          "Stipple Bio 항암 딜",
+          "Calytrix Bio 인수"
+        ],
+        "series_name_1": "규모 (십억 달러, $B)",
+        "values_1": [
+          91.5,
+          5.9,
+          1.5
+        ],
+        "color_1": "#059669",
+        "unit": "$B"
+      },
+      "keyMetrics": [
+        {
+          "label": "캐나다 규제 대승",
+          "value": "경구용 '파운다요' 공식 승인",
+          "change": "중국 NMPA에 이어 캐나다 보건부도 하루 1알 먹는 비만·당뇨약 파운다요 허가"
+        },
+        {
+          "label": "마운자로 적응증 확장",
+          "value": "심혈관 위험 감소 적응증 추가",
+          "change": "단순 체중감량 넘어 심혈관 보호 효과 공인 ➔ 보험 급여·장기 처방 폭발"
+        },
+        {
+          "label": "연속 빅딜 M&A",
+          "value": "총 $74억 ($59억 + $15억)",
+          "change": "Stipple Bio($5.9B 정밀항암 제휴) + Calytrix Bio($1.5B 희귀혈액질환 인수)"
+        }
+      ],
+      "facts": [
+        "글로벌 증시가 AI 거품론과 금리 우려로 -5% 급락하는 와중에도 **바이오·헬스케어 황제주 일라이 릴리(Eli Lilly)**는 연타석 메가 호재를 터뜨리며 최고의 경기방어·성장 대안임을 입증했습니다.",
+        "첫째, 중국 국가약품감독관리국(NMPA)에 이어 **캐나다 보건부(Health Canada)가 일라이 릴리의 1일 1회 경구용 GLP-1 비만·당뇨 치료제 '파운다요(Foundayo · 오포글리프론)'를 공식 승인**했으며, 주력 주사제 **마운자로(Mounjaro)에도 심혈관 위험 감소 적응증이 추가**되었습니다(CityNews·Newswire Canada).",
+        "둘째, 2026년 연간 매출 가이던스 **$91B~$92B(약 122조 원)**에서 쏟아지는 막대한 현금을 바탕으로 **Stipple Bio와 최대 59억 달러 규모의 다중 표적 항암 연구·라이선스 계약**을 체결하고, **희귀 혈액질환 바이오텍 Calytrix Bio를 최대 15억 달러에 인수**하며 포스트-비만약 성장동력까지 완벽히 선점했습니다."
+      ],
+      "previousImplication": "일라이 릴리가 2026년 매출 가이던스를 $91B~$92B로 상향하고 중국 경구용 비만약 승인을 획득함 (11/19 이브닝).",
+      "newCatalyst": "캐나다 보건부 경구용 비만약 '파운다요' 공식 승인, 마운자로 심혈관 적응증 추가 및 총 $74억 규모(Stipple Bio $5.9B + Calytrix Bio $1.5B) 연속 빅딜 성사.",
+      "updatedImplication": "포트폴리오가 반도체·AI 빅테크에만 100% 쏠려 있으면 11/20 같은 날 계좌가 하루 만에 -7%씩 흔들림. AI 거품론과 완전히 무관하게 연간 122조 원의 현금을 벌며 글로벌 시장을 독식하는 **비만·항암 바이오 황제주(일라이 릴리 및 국내 비만·ADC 수혜 바이오텍)**를 성장 방어축으로 분산 편입할 가치가 극대화됨.",
+      "implicationHistory": [
+        {
+          "time": "11/21 20:00",
+          "text": "🟢 일라이 릴리 캐나다 먹는 비만약 '파운다요' 승인 + 마운자로 심혈관 적응증 + $74억(Stipple $5.9B·Calytrix $1.5B) 연속 빅딜! AI 폭락장 최강 성장 방어축"
+        }
+      ],
+      "actionPoints": [
+        "반도체·AI 편중 포트폴리오의 변동성을 낮추기 위해, 확실한 실적과 현금흐름이 뒷받침되는 헬스케어·비만약 대장주(일라이 릴리·XLV 등)를 10~15% 분산 축으로 고려",
+        "경구용 GLP-1('파운다요')의 북미·중국 연속 승인에 따라 기존 주사제 대비 압도적 시장 침투 속도 및 국내 위탁생산(CDMO)·제형 플랫폼 수혜주 추적"
+      ],
+      "sources": [
+        "CityNews / Newswire Canada (Health Canada approves oral GLP-1 Foundayo & Mounjaro CV indication)",
+        "BioSpace / Morningstar ($5.9B Stipple Bio oncology pact & $1.5B Calytrix Bio acquisition)"
       ]
     }
   ]

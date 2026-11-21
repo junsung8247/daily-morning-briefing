@@ -1,7 +1,7 @@
 {
   "title": "🏛️ 120일 단위 최중요 브리핑 합산 (Quarterly 120-Day Core)",
   "description": "30일 단위 최중요 브리핑들을 모아 120일 동안의 거시경제·반도체·금·비트코인·한국 부동산 대세 흐름을 집대성한 분기 아카이브입니다.",
-  "updatedAt": "2026-11-21 20:00:00 KST",
+  "updatedAt": "2026-11-22 08:00:00 KST",
   "agendas": [
     {
       "id": "agenda_01",
@@ -290,7 +290,7 @@
       "sourceEdition": "2026년 11월 11일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_21",
@@ -384,7 +384,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
       "deltaLabel": "🔴 시사점 점검 (미 현물 국채 재개장 후 10년물 금리 5.10%(+2.10%) 급등… 단 1개월 고점 대비 -2.61% 낮은 구간으로 '연 5.1% 확정금리' 매수 호기)",
-      "title": "[11/14 이브닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
+      "title": "[11/15 모닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
       "subtitle": "재향군인의 날 휴장 후 열린 현물 채권시장에 CPI 잔여 매물 및 국채 입찰 물량 일시 반영… 1개월 전 고점(5.23%)보다는 여전히 낮은 고금리 파킹 구간",
       "chartImage": "assets/charts/agenda_02.svg",
       "chartConfig": {
@@ -475,10 +475,10 @@
         "Bloomberg US Treasury Desk",
         "CME FedWatch"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_27",
@@ -771,7 +771,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_49",
@@ -862,7 +862,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_51",
@@ -949,7 +949,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_52",
@@ -1036,7 +1036,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_17",
@@ -1300,7 +1300,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🟢 시사점 강화 (엔비디아 $162.85(-2.01%) 눌림목 & 콜레트 크레스 체제 '루빈/HBM4 로드맵 정상 가동 + TSMC 3nm NVHBM 베이스다이 표준화' 추진)",
-      "title": "[11/14 이브닝] 엔비디아($162.85) 콜레트 크레스 체제와 'TSMC 3nm NVHBM 베이스다이' 표준화: 메모리 하청화 우려를 돌파할 K-반도체의 해법",
+      "title": "[11/15 모닝] 엔비디아($162.85) 콜레트 크레스 체제와 'TSMC 3nm NVHBM 베이스다이' 표준화: 메모리 하청화 우려를 돌파할 K-반도체의 해법",
       "subtitle": "미 금리 5.10% 여파로 주가는 $166.19(-4.34%) 숨고르기… 11/19 실적 앞두고 메모리 의존도 낮추고 대역폭 극대화하는 자체 베이스다이·3D D램 구상 부각",
       "chartImage": "assets/charts/agenda_06.svg",
       "chartConfig": {
@@ -1391,10 +1391,10 @@
         "FinancialContent",
         "Yahoo Finance NVDA ($166.19)"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_37",
@@ -1564,7 +1564,7 @@
       "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_24",
@@ -1735,7 +1735,7 @@
       "sourceEdition": "2026년 11월 12일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_14",
@@ -1829,7 +1829,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🔵 신규 대출 정책 포착 (스트레스 DSR '수도권 vs 지방 2원화 체제' 확정: 지방 주담대는 2026 상반기까지 2단계(1.5%·50%) 유예 vs 수도권은 3단계(3.0%+·100%) 직격탄!)",
-      "title": "[11/14 이브닝·스트레스 DSR 이원화] '지방은 풀어주고 수도권은 조인다': 지방 주담대 DSR 3단계 '2026 상반기까지 추가 유예(2단계 유지)' vs 수도권 100% 적용!",
+      "title": "[11/15 모닝·스트레스 DSR 이원화] '지방은 풀어주고 수도권은 조인다': 지방 주담대 DSR 3단계 '2026 상반기까지 추가 유예(2단계 유지)' vs 수도권 100% 적용!",
       "subtitle": "지방 부동산 침체 막기 위해 지방 주담대는 스트레스 금리 1.5%(50% 반영) 2단계 유지… 반면 서울·수도권 규제지역은 3.0%+(100% 반영) 3단계 풀가동",
       "chartImage": "assets/charts/agenda_36.svg",
       "chartConfig": {
@@ -1902,10 +1902,10 @@
         "뱅크샐러드",
         "시중은행 여신 가이드"
       ],
-      "sourceEdition": "2026년 11월 14일 20:00 PM 이브닝 에디션",
+      "sourceEdition": "2026년 11월 15일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_41",
@@ -1985,7 +1985,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_44",
@@ -2058,7 +2058,7 @@
       "sourceEdition": "2026년 11월 21일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     },
     {
       "id": "agenda_53",
@@ -2145,7 +2145,7 @@
       "sourceEdition": "2026년 11월 21일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-21"
+      "promotedAt": "2026-11-22"
     }
   ]
 }
