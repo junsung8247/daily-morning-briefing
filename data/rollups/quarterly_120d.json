@@ -1,7 +1,7 @@
 {
   "title": "🏛️ 120일 단위 최중요 브리핑 합산 (Quarterly 120-Day Core)",
   "description": "30일 단위 최중요 브리핑들을 모아 120일 동안의 거시경제·반도체·금·비트코인·한국 부동산 대세 흐름을 집대성한 분기 아카이브입니다.",
-  "updatedAt": "2026-11-19 20:00:00 KST",
+  "updatedAt": "2026-11-21 08:00:00 KST",
   "agendas": [
     {
       "id": "agenda_01",
@@ -290,7 +290,7 @@
       "sourceEdition": "2026년 11월 11일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-19"
+      "promotedAt": "2026-11-21"
     },
     {
       "id": "agenda_21",
@@ -384,7 +384,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
       "deltaLabel": "🔴 시사점 점검 (미 현물 국채 재개장 후 10년물 금리 5.10%(+2.10%) 급등… 단 1개월 고점 대비 -2.61% 낮은 구간으로 '연 5.1% 확정금리' 매수 호기)",
-      "title": "[11/13 모닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
+      "title": "[11/14 모닝] 미 10년물 국채금리 5.10%(+2.10%) 점프의 진실: 휴장분 일시 반영과 '연 5.10% 무위험 이자'를 잠글 절호의 타점",
       "subtitle": "재향군인의 날 휴장 후 열린 현물 채권시장에 CPI 잔여 매물 및 국채 입찰 물량 일시 반영… 1개월 전 고점(5.23%)보다는 여전히 낮은 고금리 파킹 구간",
       "chartImage": "assets/charts/agenda_02.svg",
       "chartConfig": {
@@ -392,7 +392,6 @@
         "title": "미국 10년물 국채금리(^TNX) 최근 10거래일 추이 및 5.10% 돌파 (%)",
         "subtitle": "현물 채권시장 재개장과 함께 5.00%에서 5.10%(+2.10%)로 점프… 1개월 변동은 -2.61%로 고점권 저항 테스트 및 고금리 매수 유입 구간",
         "labels": [
-          "10/30",
           "11/02",
           "11/03",
           "11/04",
@@ -401,10 +400,10 @@
           "11/09",
           "11/10",
           "11/11",
-          "11/12"
+          "11/12",
+          "11/13"
         ],
         "values": [
-          4.93,
           4.89,
           4.95,
           4.89,
@@ -413,13 +412,14 @@
           4.86,
           4.98,
           5.0,
-          5.1
+          5.1,
+          5.15
         ],
         "unit": "%",
         "color": "#f43f5e",
         "benchmark_val": 5.0,
         "benchmark_label": "기준선 5.00%",
-        "badge_text": "LIVE 5.10%",
+        "badge_text": "LIVE 5.15%",
         "annotations": [
           {
             "index": 9,
@@ -475,10 +475,10 @@
         "Bloomberg US Treasury Desk",
         "CME FedWatch"
       ],
-      "sourceEdition": "2026년 11월 13일 08:00 AM 모닝 에디션",
+      "sourceEdition": "2026년 11월 14일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-19"
+      "promotedAt": "2026-11-21"
     },
     {
       "id": "agenda_27",
@@ -947,8 +947,8 @@
       "categoryLabel": "반도체 · AI 빅테크",
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
-      "deltaLabel": "🔵 신규 아키텍처 포착 (엔비디아 $166.19(-4.34%) 눌림목 & '메모리 장벽' 돌파 위해 TSMC에 '자체 NVHBM 3nm 베이스다이 · 3D DRAM' 타진!)",
-      "title": "[11/13 모닝] 엔비디아($166.19)가 '메모리 장벽' 깨려 TSMC에 내민 비밀 카드: '자체 NVHBM 3nm 베이스다이 설계 & 차세대 3D DRAM'",
+      "deltaLabel": "🟢 시사점 강화 (엔비디아 콜레트 크레스 직무대행 이사회 '차세대 로드맵 무차질' 공식 확인 & TSMC '3nm NVHBM 베이스다이 + 3D DRAM' 투트랙 가속)",
+      "title": "[11/14 모닝] 엔비디아 콜레트 크레스 체제의 '투트랙 메모리 승부수': TSMC 3nm NVHBM 베이스다이 표준화 압박과 차세대 3D DRAM 탐색",
       "subtitle": "미 금리 5.10% 여파로 주가는 $166.19(-4.34%) 숨고르기… 11/19 실적 앞두고 메모리 의존도 낮추고 대역폭 극대화하는 자체 베이스다이·3D D램 구상 부각",
       "chartImage": "assets/charts/agenda_06.svg",
       "chartConfig": {
@@ -1010,7 +1010,7 @@
       ],
       "facts": [
         "11월 13일 아침(08:00 KST) 마감된 뉴욕 증시에서 **엔비디아(NVDA)는 미 10년물 국채금리의 5.10%(+2.10%) 급등 부담으로 전일 대비 -4.34% 하락한 $166.19**를 기록했습니다.",
-        "한편 글로벌 반도체 기술 매체(TechPowerUp, FinancialContent 등)에 따르면, 엔비디아는 AI 연산 속도를 가로막는 가장 큰 물리적 한계인 **'메모리 장벽(Memory Wall)'**과 한국 메모리 제조사들의 높은 가격 결정권을 동시에 극복하기 위해 **TSMC에 '자체 설계한 맞춤형 HBM 베이스 다이(NVHBM 3nm custom base die)' 생산과 미래형 '3D DRAM(수직 적층 D램)' 아키텍처 협력을 타진**한 것으로 전해졌습니다.",
+        "한편 글로벌 반도체 기술 매체(TechPowerUp, FinancialContent 등)에 따르면, 엔비디아는 젠슨 황 CEO 퇴진 및 콜레트 크레스(Colette Kress) CFO의 임시 CEO 직무대행 체제 전환이라는 경영진 변화 속에서도 단기 제품 로드맵과 기존 공급 계약을 차질 없이 유지하고 있으며, 특히 AI 연산 속도를 가로막는 물리적 한계인 **'메모리 장벽(Memory Wall)'**과 한국 메모리 제조사들의 높은 가격 결정권을 동시에 극복하기 위해 **TSMC에 '자체 설계한 맞춤형 HBM 베이스 다이(NVHBM 3nm custom base die)' 생산과 미래형 '3D DRAM(수직 적층 D램)' 아키텍처 협력을 타진**한 것으로 전해졌습니다.",
         "즉 HBM4의 가장 아래층에서 두뇌 역할을 하는 로직 베이스 다이를 엔비디아가 직접 설계해 TSMC 3나노 공정에서 찍어내고, 그 위에 올라가는 코어 D램만 메모리 업체에서 받아 조립함으로써 GPU와 메모리 사이의 데이터 병목을 뿌리째 뽑겠다는 구상입니다."
       ],
       "previousImplication": "'GPU 연산력 ➔ HBM4 메모리 대역폭'으로 AI 병목 중심축이 이동하며 한국 메모리의 가격 결정권이 극대화됨 (11/12 이브닝).",
@@ -1039,10 +1039,10 @@
         "FinancialContent",
         "Yahoo Finance NVDA ($166.19)"
       ],
-      "sourceEdition": "2026년 11월 13일 08:00 AM 모닝 에디션",
+      "sourceEdition": "2026년 11월 14일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-19"
+      "promotedAt": "2026-11-21"
     },
     {
       "id": "agenda_37",
@@ -1212,7 +1212,7 @@
       "sourceEdition": "2026년 11월 12일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-19"
+      "promotedAt": "2026-11-21"
     },
     {
       "id": "agenda_24",
@@ -1383,7 +1383,7 @@
       "sourceEdition": "2026년 11월 12일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "120일 빅픽처",
-      "promotedAt": "2026-11-19"
+      "promotedAt": "2026-11-21"
     },
     {
       "id": "agenda_14",
