@@ -1,41 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/22~23 정부 F4 증시 안정 4대 패키지와 시장의 냉정한 실효성 평가</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">18년 만의 증안펀드 준비는 강력한 정책 의지 신호이나, 실제 수급 촉매는 '11/24 상장사 자사주 매수 한도 완화'</text>
-    <line x1="450" y1="268" x2="190" y2="175" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/24(화) 즉시 시행 '상장사 자사주 매입 한도 3개월 완화' 핵심 규칙 변경 & 수혜주</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">간밤 뉴욕 SOX +14.03% · NVDA +31.48% · 마이크론 +19% 폭등에 국내 자사주 규제 완화까지 정확히 겹친 반등 촉매</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
     <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
     <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
     <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">1</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">0</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">1</text>
     
     
         <g>
-            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">10.76조 증안펀드 준비</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">2008년 이후 18년 만</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">즉각 투입 가능하도록 절차 정비 착수 + 이형일 부총리 추가 비상계획(컨틴전시) 시사</text>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">직접 취득 100% 허용</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">기존 10% ➔ 100% 일괄주문</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">기존 1일 취득신고물량 10%·평균거래량 25% 제한 해제 ➔ 신고 물량 전액 하루 주문 가능</text>
         </g>
         
         <g>
-            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">실효성 한계 지적</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">시총 4,000조+ vs 10조</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">확대된 코스피 시총 대비 10조 원대 실탄 부족·투입 기준 모호하다는 시장 비판 공존</text>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">신탁계약 한도 대폭 확대</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">발행주식 1% ➔ 신탁총액</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">신탁 방식 자사주 매입 한도도 신탁재산 총액 범위 내로 전면 확대(내년 2/23까지 3개월)</text>
         </g>
         
         <g>
-            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
-            <text x="190" y="347" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">자사주 한도 3개월 완화</text>
-            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">11/24부터 즉시 시행</text>
-            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">상장사 1일 자사주 매수주문 한도 완화 ➔ 현금 풍부한 대형주·금융지주 실탄 즉각 유입 가능</text>
+            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
+            <text x="190" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">10.76조 증안펀드 + 감시</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">불법 공매도 3개월 집중단속</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">증안펀드 가동 준비와 불법 공매도 특별 감시가 병행되며 하방 투매 심리 완전 차단</text>
         </g>
         
         <g>
-            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">불법 공매도 집중 감시</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">금감원·거래소 3개월</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">폭락장 악용 불법 공매도·허위유포 엄정 단속으로 인위적 하방 쏠림 견제</text>
+            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#7c3aed" stroke-width="2.4"/>
+            <text x="710" y="347" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">최대 수혜 대형주군</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">반도체 · 4대 금융지주 · 저PBR</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">현금 여력이 압도적인 삼성·SK하이닉스·금융지주·밸류업 자사주 소각주 수급 탄력 극대화</text>
         </g>
         
 </svg>

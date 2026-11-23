@@ -1,11 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">일라이 릴리 2026년 하반기 연속 대형 파이프라인 확장 및 실적 규모 ($B)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">연간 매출 가이던스 $91~92B(약 122조 원)의 막대한 현금으로 비만·심혈관·항암·혈액질환까지 독식하는 빅딜 행진</text>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/24 글로벌 안보 3대 경보 (아부다비 결렬 · 베를린 NATO 경고 · 중국 봉쇄훈련) & 원자재 차별화</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">외교적 종전 기대가 꺾이면서 방산 장기 수주는 굳어졌고, 원유($80.25)는 공급 과잉·COP31 무산으로 하락 안정</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#ea580c" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
-    <rect x="560" y="24" width="15" height="15" rx="3" fill="#059669"/>
-    <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">규모 (십억 달러, $B)</text>
+    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
+    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">아</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">부</text>
     
-    <line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">110$B</text><line x1="95" y1="180.8" x2="850" y2="180.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="185.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">82.3$B</text><line x1="95" y1="256.5" x2="850" y2="256.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="261.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">54.9$B</text><line x1="95" y1="332.2" x2="850" y2="332.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="337.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">27.5$B</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="413.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">0.0$B</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#64748b" stroke-width="2"/>
-    <rect x="157.9" y="155.5" width="125.8" height="252.5" rx="6" fill="#059669"/><text x="220.8" y="145.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">91.5$B</text><text x="220.8" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">2026 매출 가이던스</text><rect x="409.6" y="391.7" width="125.8" height="16.3" rx="6" fill="#059669"/><text x="472.5" y="381.7" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">5.9$B</text><text x="472.5" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">Stipple Bio 항암 딜</text><rect x="661.2" y="403.9" width="125.8" height="4.1" rx="6" fill="#059669"/><text x="724.2" y="393.9" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">1.5$B</text><text x="724.2" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">Calytrix Bio 인수</text>
+    
+        <g>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">아부다비 3자 회담 결렬</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">러 NATO 1997 회귀 고수</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">미·우·러 아부다비 휴전 협상이 러시아의 유럽 안보질서 전면 재편 요구로 벽에 부딪힘</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">독일 외무장관 강경 경고</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">'NATO 1인치도 사수'</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">요한 바데풀 독일 외무장관, 베를린 NATO 의회총회서 폴란드 영공 침범(Kh-101 3발) 규탄</text>
+        </g>
+        
+        <g>
+            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#ea580c" stroke-width="2.4"/>
+            <text x="190" y="347" fill="#ea580c" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">중국 무예고 봉쇄 훈련</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">서태평양 해군 기동</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">대만 주변 서태평양에서 사전 예고 없는 해상 봉쇄 시나리오 훈련 실시 ➔ 인태 긴장 고조</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
+            <text x="710" y="347" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">원유 급락 vs 구리 반등</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">WTI $80.25 / 구리 $5.61</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">WTI 하루 -4.44% 급락(인플레 호재) vs 구리 +2.46% 반등(UBS 2027 강세 뷰)</text>
+        </g>
+        
 </svg>

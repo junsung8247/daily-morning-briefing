@@ -142,6 +142,8 @@ def validate_edition_facts(edition_payload, market_data, extra_live=None, unprod
     # 4. 개별 안건 전수 검증
     seen_ids = set()
     stale_title_re = re.compile(r"\[(\d{1,2})/(\d{1,2})\s*(?:모닝|이브닝)")
+    pos_clash_re = re.compile(r"\(\+\d+(?:\.\d+)?%\)\s*(?:폭락|급락|투매|추락)")
+    neg_clash_re = re.compile(r"\(-\d+(?:\.\d+)?%\)\s*(?:폭등|급등|폭발적\s*반등)")
 
     for ag in agendas:
         aid = ag.get("id", "UNKNOWN")
@@ -194,6 +196,14 @@ def validate_edition_facts(edition_payload, market_data, extra_live=None, unprod
                         )
                 except Exception:
                     pass
+
+            # (c2) 실시간 등락률 부호(+/-)와 방향 서술(폭락/폭등) 모순 차단
+            m_pc = pos_clash_re.search(txt)
+            if m_pc:
+                errors.append(f"[SIGN_CLASH] {aid}.{fname}: 상승률 표기 직후 하락 서술 모순 -> '{m_pc.group(0)}'")
+            m_nc = neg_clash_re.search(txt)
+            if m_nc:
+                errors.append(f"[SIGN_CLASH] {aid}.{fname}: 하락률 표기 직후 상승 서술 모순 -> '{m_nc.group(0)}'")
 
             # (d) 실시간 API 시세 대비 할루시네이션 / 구시세 편차 차단
             for asset_id, label, regex, tol, is_abs, min_v, max_v in PRICE_RULES:

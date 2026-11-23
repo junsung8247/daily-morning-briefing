@@ -9,44 +9,45 @@
 AGENDAS_EXTRA = [
     {
         "id": "agenda_41",
-        "asOfDate": "2026-11-23",
+        "asOfDate": "2026-11-24",
         "category": "tech",
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🔴 AI 투자심리 정점 공포 (일론 머스크 '2027 AI 업계 심각한 현금 고갈' 경고 + SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 폭락! 부실 AI vs 4Q PER 4~13배 1등주 옥석 가리기)",
-        "title": "[11/23·확장특집 41] 일론 머스크 '2027 AI 현금 고갈' 경고와 SOX {{LIVE:sox}} 폭락: 적자 AI 소프트웨어 퇴출 vs 현금 1등 인프라 대청소",
-        "subtitle": "엔비디아({{LIVE:nvda_chg}})·마이크론(-13.9%)·AMD({{LIVE:amd_chg}})·브로드컴(-12.2%) 폭락… 진짜 위기는 '현금 없는 AI 스타트업'",
+        "deltaLabel": "🟡 AI 옥석 가리기 정면 대결 (일론 머스크 '2027 AI 현금 고갈' 경고 vs 간밤 SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 반등! 부실 AI 퇴출 · 저PER 1등 인프라 승자독식)",
+        "title": "[11/24·확장특집 41] 일론 머스크 '2027 AI 현금 고갈' 경고 vs SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 반등: 적자 AI 소프트웨어 퇴출과 현금 1등 인프라 압축",
+        "subtitle": "11/20 폭락(NVDA -14%·마이크론 -13.9%) 직후 11/23 대반등 속에서도 '적자 AI 모델주'는 소외… 진짜 위기는 현금 없는 AI 스타트업",
         "chartImage": "assets/charts/agenda_41.svg",
         "chartConfig": {
             "type": "bar",
-            "title": "글로벌 7대 반도체·AI 빅테크 실시간 최근 4분기 PER vs 최근 1분기×4 PER 격차 점검",
-            "subtitle": "SK하이닉스({{LIVE:skhynix_per4q}})·삼성전자({{LIVE:samsung_per4q}})·엔비디아({{LIVE:nvda_per4q}})·구글({{LIVE:google_per4q}})은 이미 극단 저평가",
-            "categories": ["SK하이닉스(4Q)", "삼성전자(4Q)", "엔비디아(4Q)", "구글통합(4Q)", "TSMC(4Q)", "AMD(4Q)"],
+            "title": "글로벌 7대 반도체·AI 빅테크 실시간 최근 4분기 PER 비교 (배)",
+            "subtitle": "SK하이닉스({{LIVE:skhynix_per4q}})·삼성전자({{LIVE:samsung_per4q}})·구글({{LIVE:google_per4q}})·엔비디아({{LIVE:nvda_per4q}})는 반등 후에도 합리적 밸류",
+            "categories": ["SK하이닉스(4Q)", "삼성전자(4Q)", "구글통합(4Q)", "엔비디아(4Q)", "TSMC(4Q)", "AMD(4Q)"],
             "series_name_1": "최근 4분기 PER (배, 시세보드 실시간 기준)",
-            "values_1": [4.1, 5.4, 13.4, 13.6, 21.5, 91.4],
+            "values_1": [4.1, 5.5, 14.4, 17.6, 24.5, 97.6],
             "color_1": "#4f46e5",
             "unit": "배"
         },
         "keyMetrics": [
-            {"label": "필라델피아 반도체 (실시간)", "value": "SOX {{LIVE:sox}} ({{LIVE:sox_chg}})", "change": "1개월 {{LIVE:sox_1m}} 급락 · NVDA {{LIVE:nvda}} · AMD {{LIVE:amd}} · TSM {{LIVE:tsm}} 동반 조정"},
+            {"label": "필라델피아 반도체 (실시간)", "value": "SOX {{LIVE:sox}} ({{LIVE:sox_chg}})", "change": "1개월 {{LIVE:sox_1m}} · 11/20 -10.7% 폭락 후 11/23 급반등(NVDA {{LIVE:nvda}} · TSM {{LIVE:tsm}})"},
             {"label": "머스크 경고 핵심", "value": "'2027 AI 업계 현금·자금 부족'", "change": "천문학적 전력·냉각 운영비 대비 수익화 지연 시 부실 AI 소프트웨어 도태 경고"},
-            {"label": "실시간 초저평가 4인방", "value": "SK {{LIVE:skhynix_per4q}} · 삼성 {{LIVE:samsung_per4q}}", "change": "엔비디아 {{LIVE:nvda_per4q}} · 구글 {{LIVE:google_per4q}}까지 4~13배대 극단 압축"}
+            {"label": "실시간 초저평가 4인방", "value": "SK {{LIVE:skhynix_per4q}} · 삼성 {{LIVE:samsung_per4q}}", "change": "구글 {{LIVE:google_per4q}} · 엔비디아 {{LIVE:nvda_per4q}}까지 현금창출 1등주 중심 압축"}
         ],
         "facts": [
-            "테슬라·xAI CEO **일론 머스크**가 X를 통해 **'AI 데이터센터의 천문학적 운영·냉각 비용에 비해 수익 창출이 뒤처질 경우 내년(2027년) AI 업계 전반에 심각한 현금 고갈이 닥칠 수 있다'**고 경고하면서, 직전 **SOX {{LIVE:sox}}({{LIVE:sox_chg}})** 급락과 맞물려 글로벌 AI 투심이 얼어붙었습니다.",
-            "그러나 과거 2000년 닷컴버블 이후를 복기하면, 자금 경색기에는 현금흐름이 없는 2·3류 적자 AI 소프트웨어 기업들이 먼저 도태되는 반면 **실제 현금을 쥐고 칩·메모리·클라우드를 독점 공급하는 1등 인프라 기업들은 시장 점유율을 더욱 독식**합니다.",
-            "우측 실시간 시세보드의 **최근 4분기 PER**을 보면 SK하이닉스 **{{LIVE:skhynix_per4q}}**, 삼성전자 **{{LIVE:samsung_per4q}}**, 엔비디아 **{{LIVE:nvda_per4q}}**, 구글 **{{LIVE:google_per4q}}**으로 이미 밸류에이션 거품은 완전히 빠진 상태입니다."
+            "테슬라·xAI CEO **일론 머스크**가 X를 통해 **'AI 데이터센터의 천문학적 운영·냉각 비용에 비해 수익 창출이 뒤처질 경우 내년(2027년) AI 업계 전반에 심각한 현금 고갈이 닥칠 수 있다'**고 경고하며 11월 중하순 AI 투자심리를 크게 흔들었습니다.",
+            "그런데 11/23 뉴욕 증시 대반등(**SOX {{LIVE:sox}} · {{LIVE:sox_chg}}**)에서 극명한 분화가 입증됐습니다. 현금흐름이 확실한 칩·메모리·클라우드 1등주들은 V자 폭등한 반면, GAAP 적자 상태의 AI 모델 기업(앤트로픽 {{LIVE:anthropic_chg}})은 반등장에서 소외됐습니다.",
+            "우측 실시간 시세보드의 **최근 4분기 PER**을 보면 SK하이닉스 **{{LIVE:skhynix_per4q}}**, 삼성전자 **{{LIVE:samsung_per4q}}**, 구글 **{{LIVE:google_per4q}}**, 엔비디아 **{{LIVE:nvda_per4q}}**으로 흑자 인프라 1등주들은 반등 후에도 여전히 탄탄한 밸류에이션 안전마진을 보유하고 있습니다."
         ],
         "previousImplication": "앤트로픽 IPO 이틀 차 급락과 SEC 조사 이슈가 AI ROI 회의론을 점화함.",
-        "newCatalyst": "일론 머스크의 2027 AI 업계 현금 고갈 경고 및 SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 급락으로 1등 인프라주까지 4Q PER 4~13배대 압축.",
-        "updatedImplication": "적자 AI 앱·테마주는 과감히 퇴출시키되, **실시간 4Q PER과 1Q×4 PER이 바닥권에 들어온 현금창출 1등 반도체·클라우드(SK하이닉스·삼성·구글·TSMC)**는 닷컴버블 이후 승자독식 반등을 노릴 분할 매수 영역임.",
+        "newCatalyst": "일론 머스크의 2027 AI 현금 고갈 경고 이후 11/23 SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 반등장에서 흑자 인프라 폭등 vs 적자 모델주 소외 분화 확인.",
+        "updatedImplication": "적자 AI 앱·테마주는 과감히 퇴출시키되, **실시간 4Q PER과 1Q×4 PER이 검증된 현금창출 1등 반도체·클라우드(SK하이닉스·삼성·구글·TSMC·엔비디아)**로 집중하는 것이 닷컴버블 이후 승자독식 장세의 정답임.",
         "implicationHistory": [
-            {"time": "11/23 08:00", "text": "🔴 머스크 '2027 AI 현금 고갈' 경고 & SOX {{LIVE:sox}} 폭락 ➔ 4Q PER 4~13배 1등 인프라주 압축"}
+            {"time": "11/23 08:00", "text": "🔴 머스크 '2027 AI 현금 고갈' 경고 & 11/20 SOX -10.7% 폭락"},
+            {"time": "11/24 08:00", "text": "🟡 11/23 SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 반등 속 흑자 인프라 1등주 vs 적자 AI주 완전 분화 확인"}
         ],
         "actionPoints": [
             "현금 소진이 큰 2·3류 적자 AI 소프트웨어·테마주 전면 배제",
-            "우측 실시간 시세보드에서 4Q PER · 1Q×4 PER이 모두 저평가 구간인 1등 반도체·클라우드만 분할 대응"
+            "우측 실시간 시세보드에서 4Q PER · 1Q×4 PER이 검증된 흑자 1등 반도체·클라우드만 분할 대응"
         ],
         "sources": ["Yahoo Finance 실시간 ^SOX ({{LIVE:sox}})", "머니투데이 / 뉴스1 (일론 머스크 X AI 현금고갈 경고)"]
     },
@@ -626,5 +627,183 @@ AGENDAS_EXTRA = [
             "실물 골드(KRX 금현물)와 디지털 골드(현물 BTC 95%+ 무레버리지) 양대 대체자산 코어 포지션 유지"
         ],
         "sources": ["CryptoBriefing / Business Insider (Whale BTC withdrawals from Binance & Kraken)", "IndiaTimes / GoodReturns (Gold rebound above $3,600/oz)", "Yahoo Finance GC=F ({{LIVE:gold}}) & BTC-KRW ({{LIVE:btc}})"]
+    },
+    {
+        "id": "agenda_55",
+        "asOfDate": "2026-11-24",
+        "category": "frontier",
+        "categoryLabel": "미래기술 · 우주 · 로봇 · 원전 · 바이오",
+        "importance": "HIGH",
+        "deltaStatus": "REINFORCED",
+        "deltaLabel": "🟢 11/24 미래기술 4대 신기록! (스페이스X 32시간 3분 발사대 회전 세계신기록 + 한국 대전 첫 'AI 휴머노이드 데이터 팩토리' 개소 + 홀텍 팰리세이즈 SMR-300 NRC 2단계 공고 + QuEra·하버드 DOE $1,200만 양자상!)",
+        "title": "[11/24·확장특집 55] 스페이스X 32시간 발사 세계신기록 · 대전 첫 휴머노이드 데이터팩토리 개소 · 홀텍 SMR-300·하버드 DOE 양자 수주",
+        "subtitle": "글로벌 우주·로봇·SMR·양자 4대 프런티어에서 하루 만에 터진 실물 인프라 돌파구 4선 총정리",
+        "chartImage": "assets/charts/agenda_55.svg",
+        "chartConfig": {
+            "type": "infographic",
+            "title": "11월 24일 미래기술 4대 영역(우주·로봇·SMR·양자) 신규 돌파구 매트릭스",
+            "subtitle": "스페이스X 서부 발사 회전 신기록, 한국 K-문샷 휴머노이드 데이터 공장, 미 SMR 2단계 진전, DOE 양자오류보정 펀딩",
+            "center_label": "4대 미래기술\n실물 돌파구",
+            "badge_text": "FRONTIER 4X",
+            "nodes": [
+                {"title": "스페이스X 32시간 신기록", "metric": "32시간 3분 21초 재발사", "desc": "반덴버그 LC-4E서 미 우주군(USSF-317)·NRO(NROL-136) 연속 발사로 서부 신기록 경신", "color": "#0284c7"},
+                {"title": "한국 첫 휴머노이드 공장", "metric": "대전 KIMM·ETRI 12기 가동", "desc": "K-문샷 일환 국내 최초 AI 휴머노이드 로봇 데이터 팩토리 개소 — 피지컬 AI 데이터 병목 해소", "color": "#7c3aed"},
+                {"title": "홀텍 SMR-300 2단계 진전", "metric": "미시간 팰리세이즈 원전", "desc": "미 NRC, 홀텍 이중 SMR-300 '파이어니어' 건설허가 2단계 법정 공고 게시(다우 SMR 이어 가속)", "color": "#059669"},
+                {"title": "QuEra·하버드 DOE 수주", "metric": "제네시스 미션 $1,200만", "desc": "미 에너지부 2단계 지원 확보 — AI로 양자컴퓨터 오류보정 코드(ASQC) 자동 설계", "color": "#d97706"}
+            ]
+        },
+        "keyMetrics": [
+            {"label": "스페이스X 발사 회전율", "value": "32시간 3분 21초 (세계신기록)", "change": "단일 발사대(반덴버그 LC-4E)에서 국방·정찰 위성 연속 발사 — 항공기급 운용 입증"},
+            {"label": "한국 피지컬 AI 거점", "value": "대전 AI 휴머노이드 데이터팩토리", "change": "KIMM·ETRI 공동 구축(이족보행 12기 원격학습) — 국내 로봇 생태계 데이터 인프라 확충"},
+            {"label": "SMR · 양자 연쇄 진전", "value": "홀텍 SMR-300 2단계 + DOE $12M", "change": "홀텍 팰리세이즈 SMR-300은 현대건설 파트너 사업! QuEra·하버드 AI-양자 융합 가속"}
+        ],
+        "facts": [
+            "**스페이스X**가 캘리포니아 반덴버그 우주군기지 LC-4E 발사대에서 미 우주군(USSF-317)과 국가정찰국(NROL-136) 팰컨9 로켓을 단 **32시간 3분 21초 간격으로 연속 발사**하며 미 서부 해안 발사대 회전율 세계 신기록을 경신했습니다(Space.com).",
+            "국내에서는 한국기계연구원(KIMM)과 한국전자통신연구원(ETRI)이 K-문샷 프로젝트 일환으로 **대전에 대한민국 최초의 'AI 휴머노이드 로봇 데이터 팩토리'(원격 조종 이족보행 로봇 12기 투입)**를 공식 개소하며 피지컬 AI 학습 데이터 병목 해소에 나섰습니다.",
+            "원전·양자 분야에서도 **미 NRC가 미시간 팰리세이즈 원전의 홀텍(Holtec) 이중 SMR-300 '파이어니어' 건설허가 2단계 법정 공고를 게시**(국내 현대건설 핵심 파트너!)했고, **QuEra 컴퓨팅·하버드대 컨소시엄이 미 에너지부(DOE) 제네시스 미션 2단계 $1,200만 펀딩**을 따내며 AI 기반 양자 오류보정 개발에 속도를 냈습니다."
+        ],
+        "previousImplication": "스타십 상단 포획·다우 X-energy SMR 승인·보스턴다이내믹스 아틀라스 GF 팹 진입이 미래기술 랠리를 주도함 (11/23).",
+        "newCatalyst": "스페이스X 32시간 재발사 신기록, 대전 국내 첫 휴머노이드 데이터팩토리 개소, 홀텍 SMR-300 NRC 2단계 공고(현대건설 연계) 및 DOE $1,200만 AI-양자 수주.",
+        "updatedImplication": "한국 SMR 수혜는 이제 두산에너빌리티(엑스에너지·뉴스케일)뿐만 아니라 **홀텍 SMR-300 독점 시공 파트너인 현대건설**까지 양대 축으로 확장됨. 대전 휴머노이드 데이터 팩토리 개소 역시 국내 로봇 부품·제어 생태계의 중장기 정책 뒷받침을 확인시켜 줌.",
+        "implicationHistory": [
+            {"time": "11/24 08:00", "text": "🟢 스페이스X 32시간 신기록 · 대전 휴머노이드 데이터팩토리 · 홀텍 SMR-300 2단계(현대건설) · DOE 양자 펀딩 확인"}
+        ],
+        "actionPoints": [
+            "미국 SMR 인허가 연쇄 돌파 수혜: 두산에너빌리티(주기기) + 현대건설(홀텍 SMR-300 시공 파트너) 양대 축 주목",
+            "국방·정찰 위성 발사 빈도 폭증(32시간 회전)에 따른 우주항공·위성 부품 밸류체인 중장기 추적"
+        ],
+        "sources": ["Space.com (SpaceX 32h3m21s turnaround record)", "Emergent (Korea Daejeon AI Humanoid Data Factory)", "CASRAI (Holtec Palisades SMR-300 Part 2 NRC notice)", "PR Newswire (QuEra Harvard DOE $12M ASQC)"]
+    },
+    {
+        "id": "agenda_56",
+        "asOfDate": "2026-11-24",
+        "category": "geopolitics",
+        "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
+        "importance": "HIGH",
+        "deltaStatus": "CHALLENGED",
+        "deltaLabel": "🔴 종전 협상 결렬 · 대만해협 경고! (아부다비 미·우·러 3자 종전회담 결렬 + 독일 외무장관 'NATO 영토 1인치도 사수' + 중국 서태평양 무예고 봉쇄 훈련! WTI {{LIVE:wti}} -4.4% 급락)",
+        "title": "[11/24·확장특집 56] 아부다비 미·우·러 종전회담 결렬 & 중국 서태평양 무예고 봉쇄훈련: 방산 장기 수혜 확정 vs WTI {{LIVE:wti}} 급락",
+        "subtitle": "러시아 '유럽 안보질서 전면 재편·NATO 1997년 회귀' 고수로 휴전 무산… UBS는 구리({{LIVE:copper}}) 2027년 강세장 유지",
+        "chartImage": "assets/charts/agenda_56.svg",
+        "chartConfig": {
+            "type": "infographic",
+            "title": "11/24 글로벌 안보 3대 경보 (아부다비 결렬 · 베를린 NATO 경고 · 중국 봉쇄훈련) & 원자재 차별화",
+            "subtitle": "외교적 종전 기대가 꺾이면서 방산 장기 수주는 굳어졌고, 원유({{LIVE:wti}})는 공급 과잉·COP31 무산으로 하락 안정",
+            "center_label": "아부다비 결렬 &\n중국 봉쇄 훈련",
+            "badge_text": "GEO-SECURITY",
+            "nodes": [
+                {"title": "아부다비 3자 회담 결렬", "metric": "러 NATO 1997 회귀 고수", "desc": "미·우·러 아부다비 휴전 협상이 러시아의 유럽 안보질서 전면 재편 요구로 벽에 부딪힘", "color": "#e11d48"},
+                {"title": "독일 외무장관 강경 경고", "metric": "'NATO 1인치도 사수'", "desc": "요한 바데풀 독일 외무장관, 베를린 NATO 의회총회서 폴란드 영공 침범(Kh-101 3발) 규탄", "color": "#0284c7"},
+                {"title": "중국 무예고 봉쇄 훈련", "metric": "서태평양 해군 기동", "desc": "대만 주변 서태평양에서 사전 예고 없는 해상 봉쇄 시나리오 훈련 실시 ➔ 인태 긴장 고조", "color": "#f97316"},
+                {"title": "원유 급락 vs 구리 반등", "metric": "WTI {{LIVE:wti}} / 구리 {{LIVE:copper}}", "desc": "WTI 하루 {{LIVE:wti_chg}} 급락(인플레 호재) vs 구리 {{LIVE:copper_chg}} 반등(UBS 2027 강세 뷰)", "color": "#059669"}
+            ]
+        },
+        "keyMetrics": [
+            {"label": "외교 전선 (아부다비)", "value": "미·우·러 3자 회담 결렬", "change": "러시아의 우크라 단독 휴전 거부·유럽 안보 재편 요구로 단기 종전 시나리오 후퇴"},
+            {"label": "동아시아 군사 신호", "value": "중국 서태평양 무예고 봉쇄훈련", "change": "선전 APEC 직후에도 대만해협 군사 압박 지속 — 인태 해군·방공 수요 상시화"},
+            {"label": "원자재 엇갈린 흐름", "value": "WTI {{LIVE:wti}}({{LIVE:wti_chg}}) / 구리 {{LIVE:copper}}", "change": "원유 -4.4% 급락은 글로벌 물가 안정 초대형 호재 · 구리는 +2.5% 반등(UBS 2027 강세)"}
+        ],
+        "facts": [
+            "아랍에미리트 아부다비에서 진행된 **미국·우크라이나·러시아 3자 협상이 러시아의 강경 입장(우크라이나 단독 휴전 거부 및 NATO 1997년 체제 회귀 요구)에 부딪혀 결렬**됐습니다.",
+            "동시에 베를린 NATO 의회총회에 참석한 **요한 바데풀(Johann Wadephul) 독일 외무장관은 러시아의 폴란드 영공 침범(Kh-101 3발)을 규탄하며 'NATO 영토의 단 1인치도 반드시 사수하겠다'**고 경고했고, 아시아에서는 **중국 해군이 서태평양에서 예고 없는 대만 봉쇄 시나리오 훈련**을 감행했습니다.",
+            "반면 에너지 시장에서는 글로벌 원유 재고 증가와 COP31 화석연료 합의 무산 여파로 **WTI 원유가 하루 만에 {{LIVE:wti_chg}} 급락한 {{LIVE:wti}}(1개월 {{LIVE:wti_1m}})**로 내려앉아 인플레이션 압력을 크게 낮췄으며, **구리 선물은 {{LIVE:copper}}({{LIVE:copper_chg}})**로 반등하며 UBS의 2027년 강세장 전망에 호응했습니다."
+        ],
+        "previousImplication": "선전 APEC 3자 회담과 NATO 브뤼셀 긴급회의 이후 외교·군사 향방이 교차 중이었음 (11/23).",
+        "newCatalyst": "아부다비 미·우·러 3자 종전회담 결렬, 독일 외무장관 강경 경고, 중국 서태평양 무예고 봉쇄훈련 및 WTI {{LIVE:wti}}(-4.4%) 급락.",
+        "updatedImplication": "아부다비 회담 결렬로 **'종전 시 방산주 고점론'이 다시 한 번 완벽히 소멸**됐음. 게다가 WTI 원유가 **{{LIVE:wti}}**까지 급락한 것은 주식·반도체·항공·전력 업종에 100% 호재이므로, K-방산 + 반도체/조선 + 구리 광산주 조합의 투자 환경이 크게 호전됨.",
+        "implicationHistory": [
+            {"time": "11/24 08:00", "text": "🔴 아부다비 미·우·러 종전회담 결렬 & 중국 서태평양 무예고 봉쇄훈련 + WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 급락 확인!"}
+        ],
+        "actionPoints": [
+            "아부다비 회담 결렬로 장기화된 유럽·인태 재무장 사이클 수혜(K-방산·조선) 비중 굳건히 유지",
+            "WTI {{LIVE:wti}}(-4.4% 급락)에 따른 인플레 완화 수혜와 구리 {{LIVE:copper}}(UBS 2027 강세) 반등 동시 활용"
+        ],
+        "sources": ["AA / WXXI / Gyra (Abu Dhabi talks stall, German FM Wadephul NATO warning)", "Medium / Kitco (China Western Pacific blockade drills, UBS bullish 2027 copper)", "Yahoo Finance CL=F ({{LIVE:wti}}) & HG=F ({{LIVE:copper}})"]
+    },
+    {
+        "id": "agenda_57",
+        "asOfDate": "2026-11-24",
+        "category": "realestate",
+        "categoryLabel": "한국 부동산 · 정책 · 개발",
+        "importance": "CRITICAL",
+        "deltaStatus": "CHALLENGED",
+        "deltaLabel": "🔴 11/24 부동산 3대 핵심 수치! (10월 코픽스 3.62% '2년 8개월 최고' ➔ 변동 주담대 상단 6.51% · 6억 대출 상한 고수 + 서울시 52개 재건축 재초환 평균 1.1억 · 용산 한강맨션 7억+ + 서울 일반분양 전국의 단 7%!)",
+        "title": "[11/24·확장특집 57] 10월 코픽스 3.62%(2년 8개월 최고 · 주담대 상단 6.51%) & 용산 한강맨션 재초환 7억+ vs '서울 일반분양 전국의 단 7%(2,457가구)'",
+        "subtitle": "단기는 6.5% 금리·6억 대출 상한·재초환 부담금의 3중 압박, 장기는 서울 신축 공급 절벽(2028년 이후 급감)의 정면 충돌",
+        "chartImage": "assets/charts/agenda_57.svg",
+        "chartConfig": {
+            "type": "bar",
+            "title": "11월 전국 4~5만 가구 분양 큰 장 속 서울 일반분양 비중(단 7%) & 주요 재초환 예상액(억 원)",
+            "subtitle": "서울 52개 재건축 평균 부담금 1.1억(한강맨션 7억+) 압박 vs 11월 서울 일반분양 2,457가구(전국의 7%) 극단적 희소성",
+            "categories": ["서울 52개 재건축 평균(억)", "반포현대 1인당(억)", "은마아파트 1인당(억)", "용산 한강맨션(억)", "서울 일반분양 비중(%)"],
+            "series_name_1": "부담금 (억 원) / 비중 (%)",
+            "values_1": [1.1, 2.2, 4.63, 7.0, 7.0],
+            "color_1": "#e11d48",
+            "unit": ""
+        },
+        "keyMetrics": [
+            {"label": "코픽스 & 주담대 상단", "value": "10월 코픽스 3.62% ➔ 금리 6.51%", "change": "2년 8개월 만에 최고치 · NH농협 4.51~6.51% · 금융당국 '주담대 6억 상한' 고수"},
+            {"label": "서울 52개 재건축 재초환", "value": "평균 1.1억 (한강맨션 7억+)", "change": "서울시 52개 단지 부담금 본격화 임박 — 초고가 한강변 재건축 조합 반발·소송 격화"},
+            {"label": "서울 일반분양 희소성", "value": "전국의 단 7% (2,457가구)", "change": "11월 전국 4~5만 가구 쏟아져도 서울은 조합원 몫이 대다수 + 2028년 이후 입주 급감"}
+        ],
+        "facts": [
+            "은행연합회가 발표한 **10월 코픽스(COFIX)가 2년 8개월 만에 최고치인 3.62%**를 기록하면서, NH농협 등 주요 시중은행의 6개월 변동형 주택담보대출 금리 상단이 **연 6.51%**까지 뛰어올랐습니다. 여기에 금융당국이 **수도권 주담대 6억 원 상한 규제**를 흔들림 없이 유지하겠다고 못 박으며 단기 매수세를 강하게 누르고 있습니다.",
+            "재건축 시장에서는 서울시가 추산한 **52개 주요 재건축 단지의 조합원 1인당 평균 재초환 예상 부담금이 1억 1,000만 원**, 특히 **용산 한강맨션 등 초고가 단지는 7억 원을 초과**하는 것으로 나타나 조합 반발과 행정·위헌소송 리스크가 정점에 달했습니다.",
+            "그럼에도 서울 집값이 폭락하지 않고 '숨 고르기'에 머무는 구조적 이유가 수치로 확인됐습니다. **11월 전국에서 4만~5만 가구가 쏟아지는 분양 큰 장에서도 서울 일반분양은 전체의 단 7%(2,457가구)**에 불과하며, 2028년 이후 서울 입주 물량이 급감할 예정이어서 **도심 신축 '똘똘한 한 채' 희소성**은 더욱 강해지고 있습니다."
+        ],
+        "previousImplication": "반포현대(2.2억)·은마(4.63억) 재초환 통지 및 고금리·분양전망 급락(91.4)으로 서울 상급지가 숨 고르기에 진입함 (11/23).",
+        "newCatalyst": "10월 코픽스 3.62%(주담대 상단 6.51%)·6억 대출 상한 고수, 서울 52개 재건축 평균 1.1억(한강맨션 7억+) 및 11월 서울 일반분양 단 7%(2,457가구) 확인.",
+        "updatedImplication": "단기 3~6개월은 **6.5% 금리 + 6억 대출 상한 + 11/26 한은 금통위**가 호가를 눌러주는 최고의 협상 기간이며, 중장기(2028년+)는 **서울 일반분양 7%가 증명하는 절대 공급 부족** 구간임. 재초환 폭탄(7억+)을 피한 **서울 도심 기준공 신축·재개발 급매**를 연말~내년 1분기(MCI/MCG 재개 활용)에 선별 매수하는 전략이 완벽함.",
+        "implicationHistory": [
+            {"time": "11/24 08:00", "text": "🔴 코픽스 3.62%(주담대 6.51%)·6억 상한 고수·한강맨션 재초환 7억+ vs 서울 일반분양 단 7%(2,457가구) 희소성 충돌!"}
+        ],
+        "actionPoints": [
+            "단기 6.5% 금리 부담으로 호가가 낮아지는 연말~내년 1분기를 '재초환 없는 서울 기준공 신축·핵심 재개발 급매' 매수 기회로 활용",
+            "주담대 6억 상한 및 변동금리 6.51% 환경에서 무리한 영끌 절대 금지, 자기자본 50%+ 안전마진 범위 내 상급지 압축"
+        ],
+        "sources": ["동아일보 / 한국경제TV / 이코노믹시그널 / 매일경제 (10월 코픽스 3.62% · 주담대 6.51% · 6억 상한 · 서울 52개 재초환 평균 1.1억/한강맨션 7억+ · 서울 일반분양 7%)"]
+    },
+    {
+        "id": "agenda_58",
+        "asOfDate": "2026-11-24",
+        "category": "tech",
+        "categoryLabel": "반도체 · AI 빅테크",
+        "importance": "HIGH",
+        "deltaStatus": "NEW",
+        "deltaLabel": "🆕 AI 승자 vs 패자 완전 분화! (엔비디아 +31.5% · 마이크론 +19% · 코어위브 +22% · TSMC +14.1% · 테슬라 +11.5% 폭등 vs 앤트로픽(ANT) 홀로 {{LIVE:anthropic_chg}} 하락!)",
+        "title": "[11/24·확장특집 58] '칩·클라우드 폭등(+14~31%) vs 적자 모델주 소외(ANT {{LIVE:anthropic_chg}})': 11/23 밤 월가가 증명한 AI 옥석 가리기 정답",
+        "subtitle": "현금흐름이 찍히는 엔비디아·TSMC·마이크론·구글·AMD는 V자 폭등한 반면, GAAP 적자 모델 기업 앤트로픽만 나 홀로 하락",
+        "chartImage": "assets/charts/agenda_58.svg",
+        "chartConfig": {
+            "type": "bar",
+            "title": "11/23(월) 뉴욕 정규장 AI 밸류체인 진영별 일간 수익률 극단 차별화 (%)",
+            "subtitle": "확정 이익을 내는 칩·파운드리·메모리·인프라는 +6~31% 폭등 vs GAAP 적자 모델 기업 앤트로픽(ANT)은 {{LIVE:anthropic_chg}} 하락",
+            "categories": ["앤트로픽(모델·적자)", "구글(클라우드·TPU)", "AMD(GPU·추론)", "테슬라(피지컬AI)", "TSMC(파운드리)", "마이크론(메모리)", "엔비디아(AI칩 1등)"],
+            "series_name_1": "11/23 일간 수익률 (%)",
+            "values_1": [-1.43, 6.34, 6.85, 11.46, 14.08, 19.0, 31.48],
+            "color_1": "#059669",
+            "unit": "%"
+        },
+        "keyMetrics": [
+            {"label": "하드웨어·인프라 폭등", "value": "NVDA +31.5% · MU +19% · TSM +14.1%", "change": "코어위브 +22% · 오라클 +12.3% · 테슬라 +11.5% · 팔란티어 +11.1% 일제 폭발"},
+            {"label": "적자 AI 모델주 소외", "value": "앤트로픽(ANT) {{LIVE:anthropic}}({{LIVE:anthropic_chg}})", "change": "나스닥 +6.5% 역사적 랠리에서도 GAAP 적자({{LIVE:anthropic_per4q}}) 부담에 홀로 약세"},
+            {"label": "한국 증시 직접 시사점", "value": "마이크론 +19% ➔ K-메모리 직격 호재", "change": "아직 4Q PER 4~5배대인 SK하이닉스({{LIVE:skhynix_per4q}})·삼성전자({{LIVE:samsung_per4q}}) 최강 재평가"}
+        ],
+        "facts": [
+            "11월 23일 밤 뉴욕 증시의 역사적 반등장은 AI 투자자들에게 교과서적인 진리를 숫자로 증명해 주었습니다. **엔비디아({{LIVE:nvda_chg}}), 코어위브(+22%), 마이크론(+19%+), TSMC({{LIVE:tsm_chg}}), 오라클(+12.34%), 테슬라(+11.46%), 팔란티어(+11.06%), AMD({{LIVE:amd_chg}}), 구글({{LIVE:google_chg}})** 등 확실한 수익 모델과 인프라를 쥔 기업들은 폭발적 V자 랠리를 펼쳤습니다.",
+            "반면 바로 지난주 화제의 중심이었던 **앤트로픽(ANT)은 나스닥이 +6.51% 폭등한 날에도 홀로 {{LIVE:anthropic}}({{LIVE:anthropic_chg}})**로 밀렸습니다. 우측 실시간 시세보드가 보여주듯 대규모 GAAP 적자(**4Q PER {{LIVE:anthropic_per4q}} · 1Q×4 {{LIVE:anthropic_per1qx4}}**)와 $9,009억 인프라 지출 부담이 주가 상단을 누르고 있기 때문입니다.",
+            "특히 글로벌 메모리 동종 기업인 **마이크론이 하루 만에 +19% 넘게 급등**한 것은, 오늘 09:00 개장(자사주 100% 완화 첫날)을 앞둔 **삼성전자({{LIVE:samsung_per4q}})·SK하이닉스({{LIVE:skhynix_per4q}})**의 극단적 저평가 해소 랠리를 강하게 예고합니다."
+        ],
+        "previousImplication": "적자 AI 모델 기업 추격 매수를 금지하고 확정 현금흐름 기반 하드웨어·클라우드 1등주에 집중할 것을 권고함.",
+        "newCatalyst": "11/23 뉴욕 정규장에서 NVDA +31.5%·마이크론 +19%·TSMC +14.1%·구글 +6.3% 폭등 vs 앤트로픽(ANT) 홀로 {{LIVE:anthropic_chg}} 하락하며 완벽 분화.",
+        "updatedImplication": "우리가 고수해 온 **'실시간 최근 4분기 PER · 1분기×4 PER 기반 흑자 인프라 1등주 선별'** 전략이 100% 적중했음. 앞으로도 우측 시세보드에서 흑자 실적이 찍히는 칩·메모리·파운드리·클라우드(NVDA·TSM·구글·삼성·SK·AMD) 중심으로만 AI 비중을 운용해야 함.",
+        "implicationHistory": [
+            {"time": "11/24 08:00", "text": "🆕 11/23 밤 하드웨어(+14~31%) 폭등 vs 적자 모델주 ANT({{LIVE:anthropic_chg}}) 나 홀로 하락 — 흑자 AI 인프라 집중 전략 대적중!"}
+        ],
+        "actionPoints": [
+            "마이크론 +19% 폭등에 연동되는 K-메모리(SK하이닉스 4Q {{LIVE:skhynix_per4q}} · 삼성전자 4Q {{LIVE:samsung_per4q}}) 보유 유지 및 눌림목 활용",
+            "적자 AI 모델·IPO 테마주(ANT 등)는 GAAP 흑자 전환 확인 전까지 관망 원칙 유지"
+        ],
+        "sources": ["CNBC / Yahoo Finance 실시간 NVDA·TSM·GOOGL·AMD·ANT", "조선일보 / Around Prague (Micron +19%, CoreWeave +22%, Tesla +11.5%, Oracle +12.3%)"]
     }
 ]

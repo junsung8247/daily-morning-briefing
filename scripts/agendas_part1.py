@@ -11,50 +11,50 @@ AGENDAS_PART1 = [
     # ==========================================
     {
         "id": "agenda_01",
-        "asOfDate": "2026-11-23",
+        "asOfDate": "2026-11-24",
         "category": "macro",
         "categoryLabel": "거시경제 · 금리",
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🔴 기술적 조정장 진입 (S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}}) · 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) 급락! 추수감사절 단축주간 변동성 경계)",
-        "title": "[11/23] S&P 500 {{LIVE:sp500}} · 나스닥 {{LIVE:nasdaq}} 공식 조정장 진입: 추수감사절 단축주간과 CTA 강제청산 소화 전략",
-        "subtitle": "고점 대비 -10% 이상 밀린 미 증시와 200일선 이탈 매도… 11/26 추수감사절 휴장·11/27 조기폐장 앞둔 얇은 유동성 대응법",
+        "deltaLabel": "🟢 대반전 랠리! (S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}}) 7일 연속 하락 끊고 조정장 즉시 탈출! 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) · VIX -25.8% 급락!)",
+        "title": "[11/24] S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}}) · 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) 폭발적 반등: 젠슨 황 복귀가 만든 7연패 종결과 내일 PCE 분수령",
+        "subtitle": "다우 +1,447pt(49,595)·러셀2000 +3.40%·VIX 26.62(-25.83%)… 미 11월 PMI 54.6 확장 유지 속 12월 연준 인상 확률 98% 경계 병존",
         "chartImage": "assets/charts/agenda_01.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "sp500",
             "title": "S&P 500 지수 최근 10거래일 실시간 추이 ({{LIVE:sp500}})",
-            "subtitle": "실시간 API 연동 차트 · 최근 1개월 변동률 {{LIVE:sp500_1m}}, 심리적 기준선 7,000pt 하회 테스트",
-            "labels": ["11/10", "11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/20"],
-            "values": [7520.9, 7619.4, 7592.4, 7510.0, 7418.0, 7340.5, 7323.6, 7175.8, 6910.4],
+            "subtitle": "실시간 API 연동 차트 · 11/23 밤 {{LIVE:sp500_chg}} 급등하며 7,000선 단숨에 재탈환 및 조정장 탈출",
+            "labels": ["11/10", "11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/20", "11/23"],
+            "values": [7520.9, 7619.4, 7592.4, 7510.0, 7418.0, 7340.5, 7323.6, 7175.8, 6910.4, 7237.2],
             "unit": "pt",
-            "color": "#e11d48",
+            "color": "#059669",
             "benchmark_val": 7000.0,
-            "benchmark_label": "심리적 기준선 7,000pt",
+            "benchmark_label": "핵심 분기선 7,000pt",
             "badge_text": "LIVE {{LIVE:sp500}}"
         },
         "keyMetrics": [
-            {"label": "S&P 500 (실시간)", "value": "{{LIVE:sp500}} ({{LIVE:sp500_chg}})", "change": "최근 1개월 {{LIVE:sp500_1m}} · 고점 대비 -10%+ 공식 조정장(Correction) 구간"},
-            {"label": "나스닥 · 다우 (실시간)", "value": "나스닥 {{LIVE:nasdaq}} / 다우 {{LIVE:dow}}", "change": "나스닥 {{LIVE:nasdaq_chg}}(2026 연초 상승분 반납) · 다우 {{LIVE:dow_chg}}"},
-            {"label": "추수감사절 유동성 변수", "value": "11/26 휴장 · 11/27 조기폐장", "change": "미국 시장 단축 거래로 호가 공백 확대 · 11/25 지표 집중"}
+            {"label": "S&P 500 (11/23 마감)", "value": "{{LIVE:sp500}} ({{LIVE:sp500_chg}})", "change": "+326.78pt 폭등 · 7거래일 연속 하락 종결 및 공식 조정장(-10%) 탈출"},
+            {"label": "나스닥 · 다우 · VIX", "value": "나스닥 {{LIVE:nasdaq}} / 다우 {{LIVE:dow}}", "change": "나스닥 {{LIVE:nasdaq_chg}}(+1,471pt) · 다우 {{LIVE:dow_chg}}(+1,448pt) · VIX 26.62(-25.83%)"},
+            {"label": "미 11월 플래시 PMI", "value": "종합 54.6 (전월 55.9) · 서비스 54.7", "change": "4개월 최저로 소폭 둔화됐으나 확장(50+) 지속 — 12/8~9 FOMC 25bp 인상 확률 ~98%"}
         ],
         "facts": [
-            "미국 증시는 최근 S&P 500 **{{LIVE:sp500}}({{LIVE:sp500_chg}})**, 나스닥 종합 **{{LIVE:nasdaq}}({{LIVE:nasdaq_chg}})**까지 급락하며 고점 대비 10% 이상 빠진 **공식 조정장(Correction Territory)**에 진입했습니다.",
-            "하락폭이 막판에 커진 핵심 원인은 200일 이동평균선과 심리적 7,000선을 동시에 깨고 내려가면서 월가의 **알고리즘 추세추종(CTA) 펀드와 레버리지 계좌의 기계적 마진콜(강제 청산)**이 연쇄 작동했기 때문입니다.",
-            "이번 주(11/23~27)는 **11월 26일(목) 추수감사절 휴장과 27일(금) 오후 1시 조기 폐장**이 겹쳐 거래량이 급감하므로, 수요일(11/25) 핵심 물가·성장 지표 결과에 따라 과잉 변동성이 나타날 수 있습니다."
+            "11월 23일(현지시간) 뉴욕 증시는 젠슨 황 엔비디아 CEO의 전격 복귀 발표에 힘입어 7거래일 연속 하락을 끊고 **S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}}), 나스닥 종합 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}), 다우 {{LIVE:dow}}({{LIVE:dow_chg}})**로 역사적 대반등을 기록하며 단숨에 조정장에서 탈출했습니다.",
+            "월가 공포지수(**VIX**)도 하루 만에 **-25.83% 급락한 26.62**로 내려앉았고, 테슬라(+11.46%)·오라클(+12.34%)·팔란티어(+11.06%)·메타(+6.55%)·알파벳(+6.34%) 등 기술주 전반에 대규모 숏커버링과 저가 매수가 쏟아졌습니다.",
+            "한편 같은 날 발표된 **미국 11월 S&P 글로벌 플래시 종합 PMI는 54.6(전월 55.9, 서비스업 54.7)**으로 4개월 최저 수준으로 소폭 식었으나 여전히 50을 크게 웃도는 확장세를 유지했습니다. 이에 따라 12월 8~9일 FOMC 25bp 인상 확률이 약 98%로 반영돼 있어 **내일 밤(11/25) 미 10월 PCE 물가**가 추세 안착의 최종 시험대입니다."
         ],
-        "previousImplication": "연준 12월 긴축 경계감과 AI 밸류에이션 점검으로 변동성이 확대되는 국면이었음 (11/20 이전).",
-        "newCatalyst": "S&P 500 {{LIVE:sp500}} 공식 조정장 진입, CTA 기계적 청산 출회 및 추수감사절 단축주간 개막.",
-        "updatedImplication": "기계적 CTA 매도가 쏟아지는 구간은 패닉 추격 매도 자리가 아니라 **현금·국채 탄약을 2~3주에 걸쳐 기계적 분할 투입할 준비 구간**임. 단, 수요일(11/25) 미 10월 PCE 발표 전까지는 성급한 풀베팅과 레버리지를 완전히 배제해야 함.",
+        "previousImplication": "S&P 500이 6,910pt까지 밀리며 공식 조정장에 진입해 추수감사절 단축주간 변동성이 우려됨 (11/23).",
+        "newCatalyst": "젠슨 황 엔비디아 CEO 전격 복귀로 S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}})·나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) 폭등, VIX -25.8% 급락 및 11월 미 PMI 54.6 확장 확인.",
+        "updatedImplication": "공포의 정점(사이드카·7연패)에서 패닉 투매하지 않고 버틴 바벨 투자자가 완벽히 승리한 장세임. 다만 하루 +5~6% 폭등 직후 추격 몰빵은 단기 차익실현 매물에 물릴 수 있으므로, **내일(11/25) 밤 미 10월 PCE 확인 전까지는 기존 보유분 수익을 누리면서 눌림목 분할 매수**만 허용해야 함.",
         "implicationHistory": [
-            {"time": "11/21 08:00", "text": "🔴 S&P 500 7거래일 연속 하락·공식 조정장 진입 및 VIX 급등 확인"},
-            {"time": "11/23 18:00", "text": "🔴 S&P 500 {{LIVE:sp500}}·나스닥 {{LIVE:nasdaq}} 조정장 속 추수감사절 얇은 유동성 경계 및 분할 대응"}
+            {"time": "11/23 18:00", "text": "🔴 S&P 500 6,910 조정장 진입 · 추수감사절 유동성 경계"},
+            {"time": "11/24 08:00", "text": "🟢 젠슨 황 복귀로 S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}})·나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) 폭등! 조정장 즉시 탈출"}
         ],
         "actionPoints": [
-            "11/25(수) 밤 미 10월 PCE 확인 전까지 현금 탄약의 70% 이상 보존, 레버리지 ETF 전면 배제",
-            "미 10년물 국채({{LIVE:us10y}}) 상승분(채권가격 상승) 수익을 리밸런싱 재원으로 대기"
+            "오늘(11/24) 한국 증시 개장 급등 시 흥분한 추격 매수·레버리지 추격 절대 금지(단기 차익매물 출회 경계)",
+            "잔여 현금 탄약은 내일 밤(11/25 22:30 KST) 미 10월 PCE 물가 확인 후 눌림목 분할 투입"
         ],
-        "sources": ["Yahoo Finance 실시간 ^GSPC ({{LIVE:sp500}}) / ^IXIC ({{LIVE:nasdaq}}) / ^DJI ({{LIVE:dow}})", "CNBC / Morningstar"]
+        "sources": ["Yahoo Finance 실시간 ^GSPC ({{LIVE:sp500}}) / ^IXIC ({{LIVE:nasdaq}}) / ^DJI ({{LIVE:dow}})", "Washington Post / Morningstar / Around Prague (Nov 23 rally, VIX 26.62, US Flash PMI 54.6)"]
     },
     {
         "id": "agenda_02",
@@ -250,50 +250,50 @@ AGENDAS_PART1 = [
     # ==========================================
     {
         "id": "agenda_06",
-        "asOfDate": "2026-11-23",
+        "asOfDate": "2026-11-24",
         "category": "tech",
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🔴 실적 폭발 vs 거버넌스 쇼크 (엔비디아 {{LIVE:nvda}}({{LIVE:nvda_chg}}) · 4Q PER {{LIVE:nvda_per4q}} / 1Q×4 {{LIVE:nvda_per1qx4}}! Q3 매출 $115.8B(+103%) vs 젠슨 황 이탈·SEC 회계조사)",
-        "title": "[11/23] 엔비디아 {{LIVE:nvda}} (최근 4Q PER {{LIVE:nvda_per4q}} · 1Q×4 {{LIVE:nvda_per1qx4}}): $115.8B 어닝 서프라이즈 vs SEC 조사·리더십 공백 대충돌",
-        "subtitle": "데이터센터 $107.6B·베라 루빈 첫 분기 $20B·Q4 가이던스 $130B 실물 실적과, 젠슨 황 이탈·SEC 공시조사 쇼크의 극단적 괴리",
+        "deltaLabel": "🟢 세기의 대반전! (젠슨 황, 사임 11일 만에 엔비디아 CEO·이사회 만장일치 전격 복귀! 백악관 지지 속 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) 하루 시총 $9,520억 폭증!)",
+        "title": "[11/24] 젠슨 황 전격 CEO 복귀! 엔비디아 {{LIVE:nvda}}({{LIVE:nvda_chg}}) 23년 만에 최대 폭등(하루 시총 +$9,520억) & 4Q PER {{LIVE:nvda_per4q}}",
+        "subtitle": "트럼프 행정부·미 고위당국 협의 거쳐 국가안보 우려 해소 후 이사회 만장일치 복귀… SOX +14.03% · 마이크론 +19% · 코어위브 +22% 동반 폭발",
         "chartImage": "assets/charts/agenda_06.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "nvda",
             "title": "엔비디아(NVDA) 최근 10거래일 실시간 주가 추이 ({{LIVE:nvda}})",
-            "subtitle": "실시간 API 연동 차트 · 최근 1개월 {{LIVE:nvda_1m}} 급락으로 최근 4Q PER {{LIVE:nvda_per4q}}, 1Q×4 PER {{LIVE:nvda_per1qx4}}까지 압축",
-            "labels": ["11/10", "11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/20"],
-            "values": [172.0, 170.5, 166.2, 162.0, 158.0, 155.0, 151.0, 146.0, 125.53],
+            "subtitle": "실시간 API 연동 차트 · 11/23 젠슨 황 CEO 복귀 발표로 하루 {{LIVE:nvda_chg}} 폭등하며 4Q PER {{LIVE:nvda_per4q}} 회복",
+            "labels": ["11/10", "11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/20", "11/23"],
+            "values": [172.0, 170.5, 166.2, 162.0, 158.0, 155.0, 151.0, 146.0, 125.53, 165.05],
             "unit": "$",
             "color": "#22c55e",
-            "benchmark_val": 130.0,
-            "benchmark_label": "단기 저항선 $130",
+            "benchmark_val": 160.0,
+            "benchmark_label": "복귀 안착선 $160",
             "badge_text": "LIVE {{LIVE:nvda}}"
         },
         "keyMetrics": [
-            {"label": "엔비디아 주가 (실시간)", "value": "{{LIVE:nvda}} ({{LIVE:nvda_chg}})", "change": "최근 1개월 {{LIVE:nvda_1m}} · SEC 공시·회계 조사 및 리더십 이슈로 급락"},
-            {"label": "실시간 분기 PER (시세보드)", "value": "4Q {{LIVE:nvda_per4q}} / 1Q×4 {{LIVE:nvda_per1qx4}}", "change": "Q3 FY27 순이익 $65.3B(최근 4Q 합산 $226.3B) 기준 역사적 저밸류 구간"},
-            {"label": "Q3 매출 · Q4 가이던스", "value": "Q3 $115.8B / Q4 $130B 제시", "change": "데이터센터 $107.6B(+103% YoY) · 베라 루빈 $20B · FY28 성장 전망 75% 상향"}
+            {"label": "엔비디아 주가 (11/23 마감)", "value": "{{LIVE:nvda}} ({{LIVE:nvda_chg}})", "change": "2003년 5월 이후 23년 만에 최대 일간 상승률 · 단일 세션 시총 +$9,520억 폭증"},
+            {"label": "실시간 분기 PER (시세보드)", "value": "4Q {{LIVE:nvda_per4q}} / 1Q×4 {{LIVE:nvda_per1qx4}}", "change": "+31.5% 폭등하고도 Q3 순이익 $65.3B(4Q $226.3B) 덕에 1Q×4 PER 15배대 합리적"},
+            {"label": "공급망 동반 폭발", "value": "SOX {{LIVE:sox}}({{LIVE:sox_chg}})", "change": "TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) · 마이크론 +19% · 코어위브 +22% · AMD {{LIVE:amd_chg}}"}
         ],
         "facts": [
-            "엔비디아(NVDA)는 회계연도 3분기(Q3 FY27) 매출 **$115.8B(전년 대비 +103%, 데이터센터 $107.6B)**, 차세대 **베라 루빈(Vera Rubin) 첫 분기 매출 약 $20B**라는 경이로운 실적을 발표했고, 콜렛 크레스 임시 CEO/CFO는 **4분기 매출 가이던스를 $130B, FY28 성장률 전망을 75%**로 상향했습니다.",
-            "그럼에도 주가는 실시간 **{{LIVE:nvda}}({{LIVE:nvda_chg}}, 1개월 {{LIVE:nvda_1m}})**까지 폭락했습니다. 직접 원인은 **창업자 젠슨 황(Jensen Huang) CEO의 갑작스러운 퇴진과 내부·미 SEC(증권거래위원회) 회계·공시 관행 조사 보도**가 겹치며 거버넌스 신뢰 위기가 터졌기 때문입니다.",
-            "결과적으로 엔비디아의 실시간 밸류에이션은 **최근 4분기 PER {{LIVE:nvda_per4q}}, 최근 1분기×4 PER {{LIVE:nvda_per1qx4}}**까지 급락했습니다. 실적 성장률(+100%) 대비 극단적 저평가이나, SEC 조사 결과의 명확성이 나오기 전까지 단기 변동성이 극심할 수밖에 없는 국면입니다."
+            "월가 역사를 새로 쓰는 초대형 반전이 터졌습니다. 엔비디아 이사회가 **트럼프 대통령 및 미국 고위 당국자들과의 협의를 거쳐 국가안보 우려가 없음을 확인한 뒤, 사임 11일 만에 창업자 젠슨 황(Jensen Huang)을 CEO·사장·이사로 만장일치 전격 복귀**시켰습니다.",
+            "발표 직후 11월 23일 뉴욕 정규장에서 **엔비디아(NVDA) 주가는 하루 만에 {{LIVE:nvda_chg}} 폭등한 {{LIVE:nvda}}**로 마감하며 2003년 5월 이후 최대 일간 상승률을 기록했고, **하루에만 약 9,520억 달러(약 1,280조 원)의 시가총액**을 되찾았습니다.",
+            "놀라운 점은 +31% 넘게 폭등한 뒤에도 엔비디아의 실시간 밸류에이션이 **최근 4분기 PER {{LIVE:nvda_per4q}}, 최근 1분기×4 PER {{LIVE:nvda_per1qx4}}**에 불과해 Q3 매출 $115.8B(+103% YoY)·Q4 $130B 가이던스 대비 여전히 합리적이라는 사실입니다. 단, 백악관과의 밀착 복귀로 향후 대중국 수출 통제 준수 압박은 한층 커질 전망입니다."
         ],
-        "previousImplication": "엔비디아 Q3 $115.8B 호실적과 $390B 장기 공급약정이 AI 슈퍼사이클을 입증 중이었음.",
-        "newCatalyst": "젠슨 황 퇴진 여진 및 미 SEC 회계·공시 조사 보도로 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) 폭락, 최근 4Q PER {{LIVE:nvda_per4q}} 진입.",
-        "updatedImplication": "엔비디아는 현재 **'압도적 1등 실적(4Q PER {{LIVE:nvda_per4q}})'과 'SEC 회계·거버넌스 리스크'**가 정면 충돌하는 특수 국면임. 회계 조사 이슈가 완전히 해소되기 전까지 엔비디아 단독 올인은 위험하므로, **TSMC({{LIVE:tsm}})·구글({{LIVE:google}})·SK하이닉스({{LIVE:skhynix}})·삼성전자({{LIVE:samsung}}) 등 공급망·클라우드 분산**을 병행하며 분할 관망하는 것이 정석임.",
+        "previousImplication": "젠슨 황 퇴진과 SEC 공시·회계 조사 보도로 엔비디아 거버넌스 불확실성이 극대화됐음 (11/23).",
+        "newCatalyst": "백악관 지지 속 젠슨 황 11일 만의 만장일치 CEO 전격 복귀 ➔ NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) 하루 시총 $9,520억 폭증 · SOX {{LIVE:sox_chg}} 폭발.",
+        "updatedImplication": "지난주 글로벌 증시 폭락의 최대 원인이었던 **'엔비디아 리더십 공백'이 완전히 해소**되며 AI 슈퍼사이클의 구심점이 복원됨. 오늘 09:00 개장하는 삼성전자({{LIVE:samsung}})·SK하이닉스({{LIVE:skhynix}}) 역시 마이크론 +19%·SOX +14%에 힘입어 강력한 동반 반등이 유력함. 단, 단기 +31% 폭등 직후 추격 매수보다 눌림목 분할 접근이 정석임.",
         "implicationHistory": [
-            {"time": "11/21 08:00", "text": "🔴 엔비디아 호실적에도 SEC 조사·리더십 공백 충격으로 -14% 폭락"},
-            {"time": "11/23 18:00", "text": "🔴 NVDA {{LIVE:nvda}}(4Q PER {{LIVE:nvda_per4q}} / 1Q×4 {{LIVE:nvda_per1qx4}}) 극단 저평가 진입 · SEC 조사 윤곽 확인 전 분산 대응"}
+            {"time": "11/23 18:00", "text": "🔴 엔비디아 SEC 조사·리더십 공백 충격으로 $125.53 급락"},
+            {"time": "11/24 08:00", "text": "🟢 백악관 지지 속 젠슨 황 11일 만에 전격 CEO 복귀! NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) 23년 만에 최대 폭등"}
         ],
         "actionPoints": [
-            "엔비디아 단독 집중 투자 지양: SEC 회계·공시 조사 범위가 공식 해명될 때까지 소규모 분할 관찰",
-            "엔비디아 발 $390B 인프라 수요의 실물 수혜를 받으면서 거버넌스 리스크가 없는 TSMC·구글·K-메모리로 AI 비중 분산"
+            "엔비디아 하루 +31.5% 급등 직후 흥분한 추격 매수 자제(SEC 민사 조사 경과 및 차익매물 소화 확인 후 분할 진입)",
+            "마이크론 +19%·TSMC +14% 급등의 직접 수혜를 입으면서 아직 PER 4~5배대인 삼성전자·SK하이닉스 수급 개선 최우선 추적"
         ],
-        "sources": ["Yahoo Finance / CNBC 실시간 NVDA ({{LIVE:nvda}})", "VLSI.kr / Morningstar / 조선일보 (Q3 $115.8B & SEC probe)"]
+        "sources": ["Yahoo Finance / CNBC 실시간 NVDA ({{LIVE:nvda}})", "조선일보 / Motley Fool / Asia Times (Jensen Huang unanimously reinstated, +31.48%, +$952B mcap)"]
     },
     {
         "id": "agenda_07",
@@ -344,50 +344,50 @@ AGENDAS_PART1 = [
     },
     {
         "id": "agenda_08",
-        "asOfDate": "2026-11-23",
+        "asOfDate": "2026-11-24",
         "category": "tech",
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "CRITICAL",
         "deltaStatus": "REINFORCED",
-        "deltaLabel": "🟢 파운드리 절대 독점력 (TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) · 4Q PER {{LIVE:tsm_per4q}} / 1Q×4 {{LIVE:tsm_per1qx4}}! $51억 보조금 확보 & 3나노 HBM 베이스다이 주도권)",
-        "title": "[11/23] TSMC {{LIVE:tsm}} (4Q PER {{LIVE:tsm_per4q}} · 1Q×4 {{LIVE:tsm_per1qx4}}): $51억 보조금·CoWoS 가격결정력과 '엔비디아 3D DRAM' 논란 해부",
-        "subtitle": "TSMC '고객과 경쟁 안 한다'며 3D DRAM 직접 양산설 일축… 그러나 커스텀 HBM 3나노 베이스다이 의무화로 AI 가치사슬 중심 장악",
+        "deltaLabel": "🟢 TSMC 'AI 거품론' 정면 일축 & 주가 폭발! (TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) · 1Q×4 PER {{LIVE:tsm_per1qx4}}! '첨단 AI 칩·CoWoS 수요가 생산능력 크게 초과' 재확인!)",
+        "title": "[11/24] TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) 폭발적 반등 & AI 거품론 정면 반박: '첨단 칩·CoWoS 수요가 생산 캐파 압도'",
+        "subtitle": "TSMC 'AI 조정 우려 근거 없다' 공식 일축 + $51억 보조금 · 3나노 HBM 베이스다이 독점 지위 재확인",
         "chartImage": "assets/charts/agenda_08.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "tsm",
             "title": "TSMC(TSM) 최근 10거래일 실시간 주가 추이 ({{LIVE:tsm}})",
-            "subtitle": "실시간 API 연동 차트 · 최근 1개월 {{LIVE:tsm_1m}} 조정으로 4Q PER {{LIVE:tsm_per4q}}, 1Q×4 PER {{LIVE:tsm_per1qx4}} 기록",
-            "labels": ["11/10", "11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/20"],
-            "values": [380.0, 378.0, 375.0, 368.0, 362.0, 358.0, 355.0, 352.0, 318.71],
+            "subtitle": "실시간 API 연동 차트 · 11/23 밤 {{LIVE:tsm_chg}} 급등하며 4Q PER {{LIVE:tsm_per4q}}, 1Q×4 PER {{LIVE:tsm_per1qx4}} 기록",
+            "labels": ["11/10", "11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/20", "11/23"],
+            "values": [380.0, 378.0, 375.0, 368.0, 362.0, 358.0, 355.0, 352.0, 318.71, 363.60],
             "unit": "$",
             "color": "#06b6d4",
-            "benchmark_val": 320.0,
-            "benchmark_label": "단기 분기선 $320",
+            "benchmark_val": 350.0,
+            "benchmark_label": "핵심 돌파선 $350",
             "badge_text": "LIVE {{LIVE:tsm}}"
         },
         "keyMetrics": [
-            {"label": "TSMC 주가 (실시간)", "value": "{{LIVE:tsm}} ({{LIVE:tsm_chg}})", "change": "1개월 {{LIVE:tsm_1m}} · 미 16nm 대중 출하 중단·SOX 폭락 여파 반영"},
-            {"label": "실시간 분기 PER (TWD환산)", "value": "4Q {{LIVE:tsm_per4q}} / 1Q×4 {{LIVE:tsm_per1qx4}}", "change": "1Q×4 PER이 4Q PER보다 낮아 분기 순이익 가속(어닝 모멘텀) 입증"},
-            {"label": "지배력 2대 축", "value": "$51억 보조금 + 3나노 베이스다이", "change": "엔비디아·구글·AMD·애플 모두 TSMC 2·3나노와 CoWoS에 100% 의존"}
+            {"label": "TSMC 주가 (11/23 마감)", "value": "{{LIVE:tsm}} ({{LIVE:tsm_chg}})", "change": "젠슨 황 복귀 + AI 수요 일축 발언으로 하루 +14%대 폭등하며 $360선 단숨에 회복"},
+            {"label": "실시간 분기 PER (TWD환산)", "value": "4Q {{LIVE:tsm_per4q}} / 1Q×4 {{LIVE:tsm_per1qx4}}", "change": "1Q×4 PER이 4Q PER보다 낮아 가파른 분기 이익 성장 모멘텀 입증"},
+            {"label": "TSMC 공식 입장", "value": "AI 수요가 첨단 캐파 초과", "change": "CoWoS 패키징·2/3나노 풀가동 + $51억 보조금 + 3나노 HBM 베이스다이 장악"}
         ],
         "facts": [
-            "글로벌 반도체 투매 속 TSMC(TSM)는 실시간 **{{LIVE:tsm}}({{LIVE:tsm_chg}})**까지 밀렸으나, 최근 1분기 순이익 연율화 기준 **1Q×4 PER이 {{LIVE:tsm_per1qx4}}**(최근 4Q PER {{LIVE:tsm_per4q}})로 떨어지며 성장 속도 대비 매력적인 밸류에이션에 진입했습니다.",
-            "엔비디아가 메모리 품귀를 견제하려 TSMC에 3D DRAM 검토를 타진했다는 보도(The Information)에 대해 TSMC는 **'순수 파운드리로서 고객사(삼성·SK·마이크론)와 경쟁하지 않는다'**고 선을 그었습니다. 대신 엔비디아의 차세대 커스텀 HBM(NVHBM) 로직 베이스다이에 **TSMC 3나노 공정**이 채택되면서 메모리 영역의 고부가 공정까지 자연스럽게 흡수하고 있습니다.",
-            "미 상무부 16nm 이하 대중 수출 통제에 따른 중국 팹리스 출하 중단 노이즈에도, **51억 달러 규모의 정부 보조금**과 북미 빅테크(엔비디아·구글·AMD·애플)의 2나노·CoWoS 풀가동 물량이 실적을 철벽 방어합니다."
+            "11월 23일 뉴욕 정규장에서 **TSMC(TSM)는 하루 만에 {{LIVE:tsm_chg}} 폭등한 {{LIVE:tsm}}**로 마감하며 지난주 낙폭을 대거 만회했습니다.",
+            "타이베이타임스 보도에 따르면 TSMC 경영진은 월가의 AI 시장 깊은 조정 우려를 정면 반박하며 **'글로벌 첨단 AI 칩과 CoWoS 첨단 패키징에 대한 구조적 수요가 여전히 TSMC의 선단 제조 능력을 크게 초과하고 있다'**고 단언했습니다.",
+            "아울러 TSMC는 순수 파운드리 원칙(3D DRAM 직접 양산설 부인)을 지키면서도 차세대 커스텀 HBM 3나노 베이스다이 공정과 $51억 보조금을 확보해, 실시간 **1Q×4 PER {{LIVE:tsm_per1qx4}}**로 AI 칩 전쟁의 무풍지대 승자임을 재입증했습니다."
         ],
-        "previousImplication": "TSMC CoWoS 패키징·2나노 가격결정력이 반도체 섹터 최강의 방어막으로 평가됨.",
-        "newCatalyst": "TSMC $51억 보조금 확보, 3D DRAM 직접 양산설 부인 및 3나노 HBM 베이스다이 채택 확산 속 주가 {{LIVE:tsm}} 조정.",
-        "updatedImplication": "엔비디아·구글·AMD 누가 AI 칩 전쟁에서 이기든 **결국 칩을 찍고 패키징(CoWoS)하는 TSMC({{LIVE:tsm}}, 1Q×4 PER {{LIVE:tsm_per1qx4}})가 모든 승자에게 통행세를 징수**함. AI 거버넌스·칩 경쟁 리스크를 피하는 가장 완벽한 글로벌 코어 반도체주임.",
+        "previousImplication": "TSMC $51억 보조금·3나노 베이스다이 독점력이 AI 칩 경쟁 중립 승자임을 입증함 (11/23).",
+        "newCatalyst": "TSMC 'AI 조정 우려 일축·첨단 수요 캐파 초과' 재확인 및 젠슨 황 복귀 랠리로 TSM {{LIVE:tsm}}({{LIVE:tsm_chg}}) 폭등.",
+        "updatedImplication": "엔비디아·구글·AMD 어느 진영이 승리하든 **결국 TSMC({{LIVE:tsm}})가 모든 AI 칩의 통행세를 징수**한다는 핵심 논리가 하루 +14% 반등으로 완벽 입증됨. 글로벌 반도체 코어 비중 1순위로 지속 보유해야 함.",
         "implicationHistory": [
-            {"time": "11/22 20:00", "text": "🟢 TSMC 3D DRAM 부인 & 3나노 HBM 베이스다이 핵심 지위 확인"},
-            {"time": "11/23 18:00", "text": "🟢 TSMC {{LIVE:tsm}}(1Q×4 PER {{LIVE:tsm_per1qx4}}) + $51억 보조금 확보 · AI 칩 전쟁 무관 절대 승자"}
+            {"time": "11/23 18:00", "text": "🟢 TSMC $51억 보조금 확보 & 3나노 베이스다이 핵심 지위 확인"},
+            {"time": "11/24 08:00", "text": "🟢 TSMC AI 거품론 정면 일축 & 주가 {{LIVE:tsm}}({{LIVE:tsm_chg}}) 폭등! 1Q×4 PER {{LIVE:tsm_per1qx4}}"}
         ],
         "actionPoints": [
-            "AI 반도체 포트폴리오 내 '엔비디아-구글-AMD 경쟁 중립 자산'으로 TSMC 핵심 코어 비중 유지",
-            "한국 메모리(삼성·SK)와 TSMC를 동시 보유해 베이스다이 주도권 이동 리스크 자연 헤지"
+            "AI 반도체 포트폴리오 내 '엔비디아-구글-AMD 경쟁 중립 절대 승자'로 TSMC 핵심 코어 비중 유지",
+            "단기 +14% 급등 직후 추격보다 11/25 미 PCE 전후 숨 고르기 구간 분할 대응"
         ],
-        "sources": ["Yahoo Finance / CNBC 실시간 TSM ({{LIVE:tsm}})", "The Information / 조선일보 / Distill Intelligence ($5.1B subsidies)"]
+        "sources": ["Yahoo Finance / CNBC 실시간 TSM ({{LIVE:tsm}})", "Taipei Times (TSMC dismisses AI correction fears, CoWoS demand > capacity)"]
     },
     {
         "id": "agenda_09",
@@ -445,7 +445,7 @@ AGENDAS_PART1 = [
         "deltaStatus": "NEW",
         "deltaLabel": "🆕 AI 칩 공급망 대격변 (구글 {{LIVE:google}} · 4Q PER {{LIVE:google_per4q}}! 브로드컴 15~20% 마크업 우회 'HBM 직접 조달' & 미디어텍 TPU v8t 확대!)",
         "title": "[11/23] 구글(Alphabet) {{LIVE:google}} (4Q PER {{LIVE:google_per4q}}): '브로드컴 패싱·HBM 직거래' & 미디어텍 TPU v8t 원가 혁명",
-        "subtitle": "AI 폭락장 속 가장 적게 빠진 빅테크({{LIVE:google_chg}})… 턴키 중개 마진 15~20% 제거로 수백억 달러 CapEx 절감 추진",
+        "subtitle": "11/20 폭락장 방어(-2.7%) 이어 11/23 {{LIVE:google_chg}} 반등한 빅테크… 턴키 중개 마진 15~20% 제거로 수백억 달러 CapEx 절감 추진",
         "chartImage": "assets/charts/agenda_10.svg",
         "chartConfig": {
             "type": "infographic",
@@ -457,25 +457,25 @@ AGENDAS_PART1 = [
                 {"title": "브로드컴 마크업 제거", "metric": "중간 마진 15~20% 절감", "desc": "카운터포인트·번스타인: 기존 브로드컴 턴키 구조의 HBM 중개 마진 배제로 원가 대폭 축소", "color": "#e11d48"},
                 {"title": "미디어텍 TPU v8t 동맹", "metric": "수백억 달러 누적 절감", "desc": "구글이 컴퓨트 다이, 미디어텍이 백엔드·I/O를 맡아 브로드컴 단일 의존도 탈피", "color": "#4285f4"},
                 {"title": "SK하이닉스 직거래 협상", "metric": "커스텀 HBM 직접 제안", "desc": "SK하이닉스는 구글과 커스텀 HBM 직납 채널 강화, 삼성·마이크론과도 직거래 경쟁", "color": "#ec4899"},
-                {"title": "알파벳 압도적 방어력", "metric": "4Q PER {{LIVE:google_per4q}} 저평가", "desc": "알파벳 A+C 합산 시총 대비 합리적 PER과 자체 TPU 효율로 폭락장 최고 방어력({{LIVE:google_chg}})", "color": "#059669"}
+                {"title": "알파벳 압도적 방어력", "metric": "4Q PER {{LIVE:google_per4q}} 저평가", "desc": "알파벳 A+C 합산 시총 대비 합리적 PER과 자체 TPU 효율로 하락장 방어·반등장 {{LIVE:google_chg}} 선도", "color": "#059669"}
             ]
         },
         "keyMetrics": [
-            {"label": "구글 주가 (실시간)", "value": "{{LIVE:google}} ({{LIVE:google_chg}})", "change": "SOX -10.7%·NVDA -14.0% 폭락장 속 빅테크 중 독보적 방어력 입증"},
-            {"label": "실시간 분기 PER (A+C통합)", "value": "4Q {{LIVE:google_per4q}} / 1Q×4 {{LIVE:google_per1qx4}}", "change": "알파벳 A+B+C 통합 시총·연결 순이익 기준 · 4Q PER 13배대 저평가"},
+            {"label": "구글 주가 (실시간)", "value": "{{LIVE:google}} ({{LIVE:google_chg}})", "change": "11/20 폭락장(-2.7%) 독보적 방어에 이어 11/23 반등장에서도 강한 탄력 입증"},
+            {"label": "실시간 분기 PER (A+C통합)", "value": "4Q {{LIVE:google_per4q}} / 1Q×4 {{LIVE:google_per1qx4}}", "change": "알파벳 A+B+C 통합 시총·연결 순이익 기준 · 4Q PER 14배대 저평가"},
             {"label": "브로드컴 마크업 절감", "value": "HBM 원가의 15~20% 제거", "change": "미디어텍 8세대 훈련용 TPU v8t 병행으로 수명주기 수백억 달러 원가 절감"}
         ],
         "facts": [
             "트렌드포스·번스타인·카운터포인트 리포트에 따르면 **구글(Alphabet)**이 기존 브로드컴 턴키(일괄 위탁) 방식에서 벗어나 **SK하이닉스·삼성전자·마이크론으로부터 HBM을 직접 조달**하는 구조 전환을 추진 중입니다.",
             "기존 브로드컴 턴키 모델은 HBM 원가에 **15~20%의 중개 마크업**이 붙는 구조였으며, 구글은 **미디어텍(MediaTek)과 8세대 훈련용 TPU v8t** 협업을 확대함으로써 브로드컴 의존도를 낮추고 제품 수명주기 동안 수백억 달러의 AI 인프라 비용을 아낄 수 있게 됩니다.",
-            "특히 엔비디아(-14%)·AMD(-13%)·브로드컴(-12%)이 일제히 폭락한 장세에서 구글 주가가 **{{LIVE:google}}({{LIVE:google_chg}})**으로 압도적 방어력을 보여준 배경에는 **자체 칩(TPU) 내재화에 따른 AI CapEx ROI 우위와 알파벳 통합 최근 4분기 PER {{LIVE:google_per4q}}**라는 탄탄한 밸류에이션 안전마진이 있습니다."
+            "특히 11/20 빅테크 폭락장에서 -2.7%로 압도적 방어력을 보여준 데 이어 최신 거래일에도 **{{LIVE:google}}({{LIVE:google_chg}})**로 탄력 있게 반등한 배경에는 **자체 칩(TPU) 내재화에 따른 AI CapEx ROI 우위와 알파벳 통합 최근 4분기 PER {{LIVE:google_per4q}}**라는 탄탄한 밸류에이션 안전마진이 있습니다."
         ],
         "previousImplication": "구글 TPU와 엔비디아 GPU의 동반 증설이 HBM 수요를 일방 견인하는 구도였음.",
-        "newCatalyst": "구글 브로드컴 마크업(15~20%) 패싱 · HBM 직거래 및 미디어텍 TPU v8t 추진과 폭락장 내 독보적 주가 방어({{LIVE:google_chg}}).",
+        "newCatalyst": "구글 브로드컴 마크업(15~20%) 패싱 · HBM 직거래 및 미디어텍 TPU v8t 추진과 최신 {{LIVE:google}}({{LIVE:google_chg}}) 견조한 흐름.",
         "updatedImplication": "AI 거품론(ROI 회의론)이 시장을 흔들수록 **엔비디아 세금과 ASIC 중개 마크업을 모두 아끼는 구글(Alphabet 통합, 4Q PER {{LIVE:google_per4q}})**이 가장 안전한 빅테크 승자로 부각됨. 빅테크 조정장 최우선 분할 매수 1순위임.",
         "implicationHistory": [
             {"time": "11/22 20:00", "text": "🆕 구글 브로드컴 패싱·HBM 직거래 & 미디어텍 TPU v8t 대격변 확인"},
-            {"time": "11/23 18:00", "text": "🟢 폭락장 속 구글 {{LIVE:google}}({{LIVE:google_chg}}, 4Q PER {{LIVE:google_per4q}}) 최고 방어력 입증"}
+            {"time": "11/23 18:00", "text": "🟢 폭락장 속 구글(-2.7%) 최고 방어력 및 4Q PER 저평가 입증"}
         ],
         "actionPoints": [
             "알파벳(구글)을 AI 빅테크 조정장 핵심 방어·성장 코어로 분할 편입(4Q PER {{LIVE:google_per4q}})",

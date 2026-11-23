@@ -1,11 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">테슬라 피지컬 AI 양대 축(사이버캡·옵티머스) 글로벌 실물 인프라 확장 타임라인</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">텍사스 1,500대+ 가동 · 12월 개인 인도($29,990) · 베를린 €30억 연산 100만 대 공장 · 기가 텍사스 옵티머스 기가프레스</text>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11월 24일 미래기술 4대 영역(우주·로봇·SMR·양자) 신규 돌파구 매트릭스</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">스페이스X 서부 발사 회전 신기록, 한국 K-문샷 휴머노이드 데이터 공장, 미 SMR 2단계 진전, DOE 양자오류보정 펀딩</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
-    <rect x="560" y="24" width="15" height="15" rx="3" fill="#4f46e5"/>
-    <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">테슬라 피지컬 AI 핵심 규모 지표</text>
+    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
+    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">4</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">대</text>
     
-    <line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">120</text><line x1="95" y1="180.8" x2="850" y2="180.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="185.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">90.0</text><line x1="95" y1="256.5" x2="850" y2="256.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="261.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">60.0</text><line x1="95" y1="332.2" x2="850" y2="332.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="337.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">30.0</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="413.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">0.0</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#64748b" stroke-width="2"/>
-    <rect x="142.2" y="370.1" width="94.4" height="37.9" rx="6" fill="#4f46e5"/><text x="189.4" y="360.1" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">15.0</text><text x="189.4" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">텍사스 현행 등록(백대)</text><rect x="330.9" y="332.2" width="94.4" height="75.8" rx="6" fill="#4f46e5"/><text x="378.1" y="322.2" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">30.0</text><text x="378.1" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">개인 판매가(천$)</text><rect x="519.7" y="332.2" width="94.4" height="75.8" rx="6" fill="#4f46e5"/><text x="566.9" y="322.2" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">30.0</text><text x="566.9" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">베를린 투자(억€)</text><rect x="708.4" y="155.5" width="94.4" height="252.5" rx="6" fill="#4f46e5"/><text x="755.6" y="145.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">100</text><text x="755.6" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">베를린 연목표(만대)</text>
+    
+        <g>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">스페이스X 32시간 신기록</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">32시간 3분 21초 재발사</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">반덴버그 LC-4E서 미 우주군(USSF-317)·NRO(NROL-136) 연속 발사로 서부 신기록 경신</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#7c3aed" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">한국 첫 휴머노이드 공장</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">대전 KIMM·ETRI 12기 가동</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">K-문샷 일환 국내 최초 AI 휴머노이드 로봇 데이터 팩토리 개소 — 피지컬 AI 데이터 병목 해소</text>
+        </g>
+        
+        <g>
+            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
+            <text x="190" y="347" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">홀텍 SMR-300 2단계 진전</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">미시간 팰리세이즈 원전</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">미 NRC, 홀텍 이중 SMR-300 '파이어니어' 건설허가 2단계 법정 공고 게시(다우 SMR 이어 가속)</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
+            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">QuEra·하버드 DOE 수주</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">제네시스 미션 $1,200만</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">미 에너지부 2단계 지원 확보 — AI로 양자컴퓨터 오류보정 코드(ASQC) 자동 설계</text>
+        </g>
+        
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">러·우 동계 에너지전 속 주요 에너지·전략 원자재 1개월 변동률 비교 (%)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">WTI($82.63)는 공급 여유로 하락 안정, 구리($5.53)는 펀드 투매 과매도, 우라늄은 원전 수요로 강세</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">WTI($80.25)는 공급 여유로 하락 안정, 구리($5.61)는 펀드 투매 과매도, 우라늄은 원전 수요로 강세</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#eab308"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">변동률 (%)</text>
