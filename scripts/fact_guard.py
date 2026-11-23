@@ -180,7 +180,7 @@ def validate_edition_facts(edition_payload, market_data, extra_live=None, unprod
             for ukw in unproductive_keywords:
                 if ukw and ukw in low_t:
                     # "스타링크", "스타십", "스타베이스", "스타마인드", "스타트업", "에버스타", "모닝스타", "톱스타뉴스" 제외 처리
-                    if ukw == "스타" and any(ok in txt for ok in ["스타링크", "스타십", "스타베이스", "스타마인드", "스타트업", "에버스타", "모닝스타", "톱스타뉴스", "스타벅스", "아스테리움"]):
+                    if ukw == "스타" and any(ok in txt for ok in ["스타링크", "스타십", "스타베이스", "스타마인드", "스타트업", "에버스타", "모닝스타", "톱스타뉴스", "스타벅스", "아스테리움", "번스타인"]):
                         continue
                     warnings.append(f"[UNPROD] {aid}.{fname}: 비생산 키워드 '{ukw}' 감지")
 
