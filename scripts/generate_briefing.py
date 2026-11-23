@@ -30,6 +30,7 @@ try:
 except ImportError:
     AGENDAS_EXTRA = []
 from archive_manager import process_tiered_archives
+from fact_guard import validate_edition_facts
 
 MARKET_SYMBOLS = [
     {"symbol": "^GSPC", "id": "sp500", "name": "S&P 500", "category": "macro", "unit": "", "color": "#38bdf8"},
@@ -398,30 +399,131 @@ def fetch_live_rss_headlines():
     return headlines
 
 
-def inject_live_market_into_agendas(agendas, market_data):
-    """실시간 시장 시세를 관련 안건의 keyMetrics 및 시계열 차트에 동적으로 반영합니다."""
+def fetch_extra_live_quotes():
+    """BTC-USD 등 본문 교차검증 및 {{LIVE:*}} 템플릿 치환용 보조 실시간 시세를 수집합니다."""
+    extra = {}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    for key, sym in [("btc_usd", "BTC-USD")]:
+        try:
+            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}?range=5d&interval=1d"
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=6) as resp:
+                raw = json.loads(resp.read().decode("utf-8"))
+                meta = raw["chart"]["result"][0]["meta"]
+                p = meta.get("regularMarketPrice")
+                if p:
+                    extra[key] = round(float(p), 2)
+        except Exception as e:
+            print(f"[WARN] Extra live fetch skipped ({sym}): {e}")
+    return extra
+
+
+def build_live_token_map(market_data, extra_live=None):
+    """실시간 API 시세와 7종목 분기 PER을 {{LIVE:*}} 치환 딕셔너리로 변환합니다 (단일 진실 공급원)."""
+    extra_live = extra_live or {}
+    tokens = {}
+
+    def fmt_per(val):
+        if val is None:
+            return "-"
+        if val < 0:
+            return f"적자({val:.1f}배)"
+        return f"{val:.1f}배"
+
+    for m in market_data:
+        mid = m["id"]
+        p = m.get("price")
+        unit = m.get("unit", "")
+        chg = m.get("dayChangePct", 0.0)
+        mchg = m.get("monthChangePct", 0.0)
+
+        if p is None:
+            continue
+        if unit == "만원":
+            p_str = f"{int(round(p)):,}만원"
+        elif unit == "원":
+            p_str = f"{int(round(p)):,}원" if p >= 10000 else f"{p:,.1f}원"
+        elif unit == "$":
+            p_str = f"${p:,.2f}"
+        elif unit == "%":
+            p_str = f"{p:.2f}%"
+        else:
+            p_str = f"{p:,.2f}"
+
+        tokens[f"{{{{LIVE:{mid}}}}}"] = p_str
+        tokens[f"{{{{LIVE:{mid}_num}}}}"] = f"{int(round(p)):,}" if unit in ("만원", "원") and p >= 1000 else f"{p:,.2f}"
+        tokens[f"{{{{LIVE:{mid}_chg}}}}"] = f"{chg:+.2f}%"
+        tokens[f"{{{{LIVE:{mid}_1m}}}}"] = f"{mchg:+.2f}%"
+
+        if m.get("per4Q") is not None:
+            tokens[f"{{{{LIVE:{mid}_per4q}}}}"] = fmt_per(m["per4Q"])
+        if m.get("per1Qx4") is not None:
+            tokens[f"{{{{LIVE:{mid}_per1qx4}}}}"] = fmt_per(m["per1Qx4"])
+
+    if extra_live.get("btc_usd"):
+        bu = float(extra_live["btc_usd"])
+        tokens["{{LIVE:btc_usd}}"] = f"${bu:,.0f}"
+        tokens["{{LIVE:btc_usd_exact}}"] = f"${bu:,.2f}"
+
+    return tokens
+
+
+def _replace_tokens_recursive(obj, token_map):
+    if isinstance(obj, str):
+        out = obj
+        for k, v in token_map.items():
+            if k in out:
+                out = out.replace(k, v)
+        return out
+    elif isinstance(obj, list):
+        return [_replace_tokens_recursive(x, token_map) for x in obj]
+    elif isinstance(obj, dict):
+        return {k: _replace_tokens_recursive(v, token_map) for k, v in obj.items()}
+    return obj
+
+
+def inject_live_market_into_agendas(agendas, market_data, extra_live=None):
+    """
+    1) {{LIVE:*}} 단일 진실 공급원(Single Source of Truth) 템플릿을 모든 안건 텍스트/지표/차트에 주입하고
+    2) liveChartSymbol이 지정된 모든 라인 차트의 시계열 데이터·라벨·배지·최신 주석을 실시간 API 데이터로 자동 동기화합니다.
+    """
+    import copy
     qmap = {m["id"]: m for m in market_data}
-    agenda_live_binding = {
+    token_map = build_live_token_map(market_data, extra_live)
+    hydrated = _replace_tokens_recursive(copy.deepcopy(agendas), token_map)
+
+    default_binding = {
+        "agenda_01": "sp500",
         "agenda_02": "us10y",
+        "agenda_03": "wti",
         "agenda_05": "usdkrw",
         "agenda_27": "gold",
         "agenda_31": "btc",
     }
-    for ag in agendas:
+    for ag in hydrated:
         aid = ag["id"]
-        if aid in agenda_live_binding and agenda_live_binding[aid] in qmap:
-            m = qmap[agenda_live_binding[aid]]
+        cfg = ag.get("chartConfig") or {}
+        sym_id = cfg.get("liveChartSymbol") or (default_binding.get(aid) if cfg.get("type") == "line" else None)
+        if sym_id and sym_id in qmap and cfg.get("type") == "line":
+            m = qmap[sym_id]
             if m.get("historyLabels") and len(m["historyLabels"]) >= 5:
-                ag["chartConfig"]["labels"] = m["historyLabels"]
-                ag["chartConfig"]["values"] = m["historyValues"]
+                cfg["labels"] = list(m["historyLabels"])
+                cfg["values"] = list(m["historyValues"])
                 if m["unit"] == "만원":
-                    p_str = f"{int(round(m['price']))}만원"
+                    p_str = f"{int(round(m['price'])):,}만원"
+                elif m["unit"] == "원":
+                    p_str = f"{int(round(m['price'])):,}원" if m["price"] >= 10000 else f"{m['price']:,.1f}원"
+                elif m["unit"] == "$":
+                    p_str = f"${m['price']:,.2f}"
+                elif m["unit"] == "%":
+                    p_str = f"{m['price']:.2f}%"
                 else:
-                    p_str = f"{m['price']:,.2f}{m['unit']}"
-                ag["chartConfig"]["badge_text"] = f"LIVE {p_str}"
+                    p_str = f"{m['price']:,.2f}"
+                cfg["badge_text"] = f"LIVE {p_str} ({m['dayChangePct']:+.2f}%)"
+                cfg["annotations"] = [{"index": len(cfg["values"]) - 1, "text": f"최신 {p_str}"}]
                 if aid == "agenda_31" and ag.get("keyMetrics"):
                     ag["keyMetrics"][0]["value"] = p_str
-    return agendas
+    return hydrated
 
 
 def generate_all_charts(agendas, market_data):
@@ -521,21 +623,38 @@ def build_briefing_edition():
     slot_info = get_target_edition_slot(now)
     edition_id = slot_info["editionId"]
 
-    print(f"[1/5] 실시간 글로벌 시장 지표 및 반도체·AI 7대 종목 분기순이익/시총 PER 수집 중... (목표 에디션: {edition_id})")
+    print(f"[1/6] 실시간 글로벌 시장 지표 및 반도체·AI 7대 종목 분기순이익/시총 PER 수집 중... (목표 에디션: {edition_id})")
     market_data = fetch_market_data()
     market_data = fetch_stock_valuation_fundamentals(market_data)
+    extra_live = fetch_extra_live_quotes()
 
-    print("[2/5] 실시간 국내외 RSS 뉴스 헤드라인 수집 중 (생산성 없는 연예/가십 원천 배제)...")
+    print("[2/6] 실시간 국내외 RSS 뉴스 헤드라인 수집 중 (생산성 없는 연예/가십 원천 배제)...")
     rss_headlines = fetch_live_rss_headlines()
 
-    agendas = inject_live_market_into_agendas(AGENDAS_PART1 + AGENDAS_PART2 + AGENDAS_PART3 + AGENDAS_EXTRA, market_data)
-    print(f"[3/5] 총 {len(agendas)}개 심층 안건 전용 고해상도 차트/인포그래픽 SVG 생성 중...")
-    generate_all_charts(agendas, market_data)
+    agendas = inject_live_market_into_agendas(
+        AGENDAS_PART1 + AGENDAS_PART2 + AGENDAS_PART3 + AGENDAS_EXTRA,
+        market_data,
+        extra_live=extra_live
+    )
 
     delta_counts = {"REINFORCED": 0, "CHALLENGED": 0, "NEW": 0, "MAINTAINED": 0}
     for ag in agendas:
         st = ag.get("deltaStatus", "MAINTAINED")
         delta_counts[st] = delta_counts.get(st, 0) + 1
+
+    raw_exec_headline = (
+        "[11/23 실시간 팩트체크 · 50대 핵심 확장안건] "
+        "①거시: 11/25(수) 슈퍼 수요일(미 10월 근원 PCE +3.2~3.3% 예상·Q3 GDP·베이지북) & 11/26(목) 한은 금통위(3.00%➔3.25% 인상 전망) 앞둔 경계 속 미 10년물 {{LIVE:us10y}} 안정·원/달러 {{LIVE:usdkrw}}(DXY {{LIVE:dxy}}) · "
+        "②반도체: SOX {{LIVE:sox}}({{LIVE:sox_chg}})·엔비디아 {{LIVE:nvda}}(4Q PER {{LIVE:nvda_per4q}}/1Q×4 {{LIVE:nvda_per1qx4}}) 급락 및 머스크 '2027 AI 현금 고갈' 경고 vs 구글({{LIVE:google}}) HBM 직거래·TSMC({{LIVE:tsm}}) $51억 보조금·삼성({{LIVE:samsung}}, 4Q {{LIVE:samsung_per4q}})·SK하이닉스({{LIVE:skhynix}}, 4Q {{LIVE:skhynix_per4q}})·AMD({{LIVE:amd}}) 월드랩스·앤트로픽({{LIVE:anthropic}}) $2,000억 현금고 · "
+        "③미래기술: 스페이스X 스타십 15차 상단 젓가락 포획 & 텍사스 독자발전(Off-Grid) 슈퍼컴 + 보스턴다이내믹스 아틀라스 GF 반도체 팹 진입 + 미 NRC 다우·엑스에너지 롱모트 SMR 18개월 초고속 승인 + 일라이 릴리 파운다요 캐나다 승인 · "
+        "④전쟁/지정학: 선전 APEC 미·중·러 3자 평화선언(우크라이나 패싱) + 독일 '유럽 패트리엇 재고 고갈' 시인 + 호르무즈 드론 충돌(WTI {{LIVE:wti}}) + 구리({{LIVE:copper}}) 스팟 제련수수료(TC/RC) 역사적 마이너스 · "
+        "⑤증시/세테크: 11/23 코스피 {{LIVE:kospi}}({{LIVE:kospi_chg}}, 2거래일 연속 매도 사이드카)·코스닥 {{LIVE:kosdaq}}(2년 최저) 마감! F4 '10.76조 증안펀드 준비·자사주 한도 완화' vs 실효성 논란 속 고배당 분리과세·생산적금융 ISA 대응 · "
+        "⑥금/귀금속: 국제 금 선물 {{LIVE:gold}}({{LIVE:gold_chg}}) $3,600선 회복 시도 + WGC 3분기 중앙은행 321톤(+8.5% QoQ) 매집 가속 vs 은 $41.19 급락(금/은 비율 85.8 최고) · "
+        "⑦비트코인: 주말 $55.1K 플래시크래시($27억 청산·11월 ETF -$34억 유출) 이후 {{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}}) 반등 안착 테스트 — JP모건 채굴원가 경고 속 현물 BTC 95%+ 고수 · "
+        "⑧부동산: 주산연 11월 서울 분양전망지수 91.4(-14.3pt 급락) + 국토부 재초환 제척기간 연장 불가(반포현대 2.2억 연내 확정·은마 4.63억) + 하나은행 등 MCI·MCG(서울 +5,500만) 재개 vs 디에이치 반포124 심의 보류"
+    )
+    token_map = build_live_token_map(market_data, extra_live)
+    hydrated_exec = _replace_tokens_recursive(raw_exec_headline, token_map)
 
     edition_payload = {
         "editionId": edition_id,
@@ -543,14 +662,40 @@ def build_briefing_edition():
         "displayDate": slot_info["displayDate"],
         "shortDate": slot_info["shortDate"],
         "slotLabel": slot_info["slotLabel"],
-        "scheduleInfo": f"매일 08:00 / 20:00 정각 발행 · 8대 영역 최소 40건+ (금회 {len(agendas)}건) 돈이 되는 지식 브리핑",
+        "scheduleInfo": f"매일 08:00 / 20:00 정각 발행 · 8대 영역 최소 40건+ (금회 {len(agendas)}건) · 실시간 API 교차검증 완료",
         "totalAgendas": len(agendas),
         "deltaSummary": delta_counts,
-        "executiveHeadline": "[11/23 모닝 · 74대 월요일 개장 전 긴급 확장안건] ①긴급 F4 회의 · 거시: 코스피200 야간선물 -6.99% 급락에 일요일 긴급 F4 회의(이형일·신현송·이억원·이찬진) 전격 개최 — 18년 만의 '10.76조 증안펀드' 가동 준비 + 11/24부터 3개월 자사주 매수 한도 완화 + 불법 공매도 단속! 08:00 미 선물(ES=F 6,935) 소폭 반등 속 11/25 미 10월 PCE · 11/26 한은 금통위(3.25% 인상 기로) 대기 · ②반도체: 금요일 SOX -10.73%(엔비디아 -14.01% · 마이크론 -13.89% · AMD -13.25% · 브로드컴 -12.19%) 폭락 및 머스크 '2027 AI 현금 고갈' 경고 vs SK하이닉스 대미 매출 60%+ · TSMC $51억 보조금 · 우측 시세보드 7종목 최근 4Q/1Q×4 PER 저평가(SK 4.1배 · 삼성 5.5배 · NVDA 13.4배 · 구글 13.6배) 점검 · ③미래기술: 스페이스X 텍사스 스타베이스 '100% 독자발전(Off-Grid) 초대형 AI 슈퍼컴퓨터' 공식 추진 + 스타십 15차 상단 젓가락 포획 · 보스턴다이내믹스 아틀라스 GF 팹 진입 · 미 NRC 다우·엑스에너지 롱모트 SMR 승인 · ④전쟁/지정학: 독일 국방장관 '유럽 패트리엇 재고 사실상 고갈' 시인 + 호르무즈 해협 미·이란 드론 충돌(WTI $83.41) + 상하이 세계구리컨퍼런스 '구리 스팟 TC/RC 사상 초유 마이너스 추락'(선물 $5.485 극단 괴리) ➔ K-방산·구리광산 최강 펀더멘털 · ⑤증시/세테크: 오늘 09:00 개장 초반 갭하락·반대매매 패닉 매도 금지! 11/24 자사주 매수 완화 수혜 대형주 · 고배당 분리과세 특례 · 생산적금융 ISA 분할 대응 · ⑥금/귀금속: 금 선물 $3,515.4/oz(2차 지지 $3,390~$3,432 경계) & 은 $41.19 폭락으로 '금/은 비율 85.8(52주 최고)' 급등! 은 회피 · WGC 3분기 중앙은행 321톤 매집 동행 KRX 금현물 분할 · ⑦비트코인: 주말 $55.1K 플래시크래시(34만 명 · $27억 강제청산 · 11월 ETF -$34억 유출) 대청소 직후 08:00 $61,118(8,208만원) +10.9% 반등! 오늘 밤 미 ETF 재개장 수급 분수령 · ⑧부동산: 국토부 재초환 '제척기간 연장 불가' 확정(반포현대 2.2억 12/30 부과 확정 · 은마 4.63억 통보 ➔ 4대 로펌 위헌소송 TF) + 하나은행 등 MCI·MCG(방공제 면제 · 서울 +5,500만) 재개 vs '디에이치 반포124' 분양가 심의 보류(12월 재심의)",
+        "executiveHeadline": hydrated_exec,
         "marketQuotes": market_data,
         "liveHeadlines": rss_headlines,
         "agendas": agendas
     }
+
+    print("[3/6] 🛡️ 할루시네이션 · 구시세 · 날짜 위조 원천 차단 검증(fact_guard.py) 실행 중...")
+    passed, fc_report = validate_edition_facts(
+        edition_payload,
+        market_data,
+        extra_live=extra_live,
+        unproductive_keywords=UNPRODUCTIVE_KEYWORDS,
+    )
+    edition_payload["factCheckReport"] = fc_report
+    if not passed:
+        print(f"[BLOCKED] ❌ 팩트체크 방화벽에서 치명적 오류 {fc_report['errorCount']}건 감지! 빌드 및 GitHub Pages 배포를 즉시 중단합니다:")
+        for err in fc_report["errors"]:
+            print("  -", err)
+        sys.exit(1)
+
+    verified_ts = now.strftime("%Y-%m-%d %H:%M KST")
+    for ag in agendas:
+        ag["factVerified"] = True
+        ag["factVerifiedAt"] = verified_ts
+    print(f"[PASS] ✅ 팩트체크 방화벽 100% 통과! (안건 {fc_report['checkedAgendas']}건 · 실시간 API 기준가 {fc_report['liveReferenceCount']}종 교차검증 · 오류 0건 · 경고 {fc_report['warningCount']}건)")
+    if fc_report["warnings"]:
+        for w in fc_report["warnings"][:10]:
+            print("  [WARN]", w)
+
+    print(f"[4/6] 총 {len(agendas)}개 심층 안건 전용 고해상도 차트/인포그래픽 SVG 생성 중...")
+    generate_all_charts(agendas, market_data)
 
     editions_dir = os.path.join(BASE_DIR, "data", "editions")
     ensure_dir(editions_dir)
@@ -559,15 +704,17 @@ def build_briefing_edition():
     with open(edition_file, "w", encoding="utf-8") as f:
         json.dump(edition_payload, f, ensure_ascii=False, indent=2)
 
-    print("[4/5] 7일 원본 보관함 및 7일 / 30일 / 120일 최중요 브리핑 계층형 합산(Roll-up) 처리 중...")
+    print("[5/6] 7일 원본 보관함 및 7일 / 30일 / 120일 최중요 브리핑 계층형 합산(Roll-up) 처리 중...")
     archive_result = process_tiered_archives(BASE_DIR, edition_payload)
 
     implications_db = {
         "lastUpdated": now.strftime("%Y-%m-%d %H:%M:%S KST"),
         "activeEdition": edition_id,
+        "factCheckPassed": True,
         "implications": [
             {
                 "agendaId": ag["id"],
+                "asOfDate": ag.get("asOfDate", ""),
                 "category": ag["category"],
                 "title": ag["title"],
                 "deltaStatus": ag["deltaStatus"],
@@ -592,7 +739,7 @@ def build_briefing_edition():
 
     js_bundle_path = os.path.join(BASE_DIR, "data", "briefing_data.js")
     with open(js_bundle_path, "w", encoding="utf-8") as f:
-        f.write("// Auto-generated by generate_briefing.py\n")
+        f.write("// Auto-generated by generate_briefing.py (Fact-Checked)\n")
         f.write("window.BRIEFING_PORTAL_DATA = ")
         json.dump(portal_bundle, f, ensure_ascii=False, indent=2)
         f.write(";\n")
@@ -600,7 +747,7 @@ def build_briefing_edition():
     version_tag = now.strftime("%Y%m%d_%H%M%S")
     update_html_cache_busters(version_tag)
 
-    print(f"[5/5] 브리핑(총 {len(agendas)}건) 및 7/30/120일 아카이브 빌드 완료! ({js_bundle_path})")
+    print(f"[6/6] 브리핑(총 {len(agendas)}건, 팩트체크 0오류) 및 7/30/120일 아카이브 빌드 완료! ({js_bundle_path})")
 
     if not os.environ.get("GITHUB_ACTIONS"):
         try:

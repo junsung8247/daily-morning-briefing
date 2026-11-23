@@ -175,16 +175,18 @@ def process_tiered_archives(base_dir, current_edition):
             except Exception:
                 pass
 
-    # 최근 7일 에디션에서도 핵심 안건을 실시간으로 주간/월간/분기 합산 뷰에 미리 반영하여 언제든 계층별 요약 열람 가능
-    for ed in recent_7d_editions:
+    # 최근 7일 에디션에서도 핵심 안건을 실시간으로 주간/월간/분기 합산 뷰에 미리 반영
+    # 반드시 오래된 회차 ➔ 최신 회차 순서(reversed)로 병합하여 동일 ID 안건은 항상 최신 팩트검증본이 덮어쓰도록 보장
+    for ed in reversed(recent_7d_editions):
         for ag in ed.get("agendas", []):
             ag_copy = dict(ag)
             ag_copy["sourceEdition"] = ed.get("displayDate", "") + " " + ed.get("slotLabel", "")
             source_for_weekly.append(ag_copy)
 
     # 1) 7일 단위 중요 브리핑: 점수 50점 이상 (최소 40건+ 확장 회차 반영, 상위 36개 핵심 안건)
+    # 구버전 좀비 안건이 롤업에 잔류하지 않도록 현재 7일 원본·만료 원본 소스에서 매 회차 깨끗이 재산출
     weekly_rollup["agendas"] = merge_promoted_agendas(
-        weekly_rollup.get("agendas", []),
+        [],
         source_for_weekly,
         min_score=50,
         max_items=36,
@@ -194,7 +196,7 @@ def process_tiered_archives(base_dir, current_edition):
 
     # 2) 30일 단위 최중요 브리핑: 7일 단위 브리핑에 모인 안건 중 점수 70점 이상 (CRITICAL + 시사점 전환/신규/강화, 상위 28개)
     monthly_rollup["agendas"] = merge_promoted_agendas(
-        monthly_rollup.get("agendas", []),
+        [],
         weekly_rollup["agendas"],
         min_score=70,
         max_items=28,
@@ -204,7 +206,7 @@ def process_tiered_archives(base_dir, current_edition):
 
     # 3) 120일 단위 최중요 브리핑: 30일 단위 브리핑들을 모아 최상위 구조적 변화 안건 보존 (상위 24개)
     quarterly_rollup["agendas"] = merge_promoted_agendas(
-        quarterly_rollup.get("agendas", []),
+        [],
         monthly_rollup["agendas"],
         min_score=75,
         max_items=24,

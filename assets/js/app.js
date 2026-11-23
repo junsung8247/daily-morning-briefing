@@ -712,12 +712,16 @@
             const isRead = isAgendaRead(ag.id, scopeId);
             const detailUrl = `detail.html?id=${encodeURIComponent(ag.id)}&tier=${encodeURIComponent(state.tier)}&edition=${encodeURIComponent(activeEditionId)}&cat=${encodeURIComponent(state.category)}`;
             const tierBadge = ag.archiveTier ? `<span class="badge-tier">🗂️ ${ag.archiveTier}</span>` : "";
+            const verifiedBadge = ag.factVerified
+                ? `<span style="display:inline-flex;align-items:center;gap:4px;font-size:12.5px;font-weight:800;color:#047857;background:#ecfdf5;border:1px solid #a7f3d0;padding:3px 9px;border-radius:999px;">✅ API 시세·팩트 교차검증${ag.asOfDate ? ` · 기준 ${ag.asOfDate}` : ""}</span>`
+                : (ag.asOfDate ? `<span style="display:inline-flex;align-items:center;font-size:12.5px;font-weight:700;color:#64748b;background:#f8fafc;border:1px solid #e2e8f0;padding:3px 9px;border-radius:999px;">📅 기준 ${ag.asOfDate}</span>` : "");
 
             return `
                 <a class="agenda-list-card ${isRead ? "is-read" : ""}" href="${detailUrl}" data-agenda-id="${ag.id}" data-scope-id="${scopeId}">
                     <div class="card-top-badges">
                         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                             <span class="badge-cat ${ag.category}">안건 #${idx + 1} · ${ag.categoryLabel}</span>
+                            ${verifiedBadge}
                             ${tierBadge}
                         </div>
                         <div style="display:flex;align-items:center;gap:10px;">

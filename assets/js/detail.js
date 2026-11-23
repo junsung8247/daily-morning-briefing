@@ -150,11 +150,15 @@
         `).join("");
 
         const tierBadge = ag.archiveTier ? `<span class="badge-tier">🗂️ ${ag.archiveTier}</span>` : "";
+        const verifiedBadge = ag.factVerified
+            ? `<span style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:800;color:#047857;background:#ecfdf5;border:1px solid #a7f3d0;padding:4px 10px;border-radius:999px;">✅ API 시세·팩트 교차검증${ag.asOfDate ? ` · 기준 ${ag.asOfDate}` : ""}</span>`
+            : "";
 
         container.innerHTML = `
             <div class="card-top-badges">
                 <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                     <span class="badge-cat ${ag.category}">안건 #${idx + 1} / ${agendas.length} · ${ag.categoryLabel}</span>
+                    ${verifiedBadge}
                     ${tierBadge}
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
