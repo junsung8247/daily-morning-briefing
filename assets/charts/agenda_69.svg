@@ -1,41 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">스페이스X '자가발전(Off-Grid) AI 슈퍼컴퓨터'와 우주·원전 에너지 융합 모델</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">공공 전력망을 건드리지 않고 독자 발전원으로 AI 훈련 클러스터를 돌리는 신패러다임이 지상·우주 원전과 결합</text>
-    <line x1="450" y1="268" x2="190" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">2026년 11월 서울 아파트 임대차 구조 변화 핵심 수치 (%)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">서울 아파트 임대차 거래 중 월세 비중이 52%를 넘어서며 전세를 추월했고, 서울 평균 월세는 1년 새 15% 이상 급등</text>
     
-    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
-    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
-    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">O</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">f</text>
+    <rect x="560" y="24" width="15" height="15" rx="3" fill="#e11d48"/>
+    <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">핵심 지표 (%)</text>
     
-    
-        <g>
-            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">스타베이스 초대형 슈퍼컴</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">수십억 달러 인프라 확장</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">텍사스 스타베이스·브라운즈빌 항 인근에 차세대 프런티어 AI·바이오 연구용 클러스터 추진</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">100% Off-Grid 자가발전</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">공공 전력망 부담 제로</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">가정용 전기요금 인상·전력망 과부하 민원을 원천 차단하는 독립 발전 설비 직접 구축</text>
-        </g>
-        
-        <g>
-            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#7c3aed" stroke-width="2.4"/>
-            <text x="190" y="347" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">뉴스케일 AI 인허가 가속</text>
-            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">Everstar Gordian AI 도입</text>
-            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">뉴스케일파워가 AI 플랫폼으로 SMR 상용 배치 단축 추진(단 단기 법적·주가 변동성 공존)</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">NASA-DOE 우주 원전</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">2030년 달 표면 원자로</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">2026 중반 스페이스X 첫 상업용 원자력 위성 발사에 이어 핵추진 우주선·달 원전 가속</text>
-        </g>
-        
+    <line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">63.0%</text><line x1="95" y1="180.8" x2="850" y2="180.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="185.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">47.2%</text><line x1="95" y1="256.5" x2="850" y2="256.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="261.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">31.5%</text><line x1="95" y1="332.2" x2="850" y2="332.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="337.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">15.8%</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="413.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">0.0%</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#64748b" stroke-width="2"/>
+    <rect x="142.2" y="155.5" width="94.4" height="252.5" rx="6" fill="#e11d48"/><text x="189.4" y="145.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">52.5%</text><text x="189.4" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">서울 임대차 월세 비중(%)</text><rect x="330.9" y="179.5" width="94.4" height="228.5" rx="6" fill="#e11d48"/><text x="378.1" y="169.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">47.5%</text><text x="378.1" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">서울 임대차 전세 비중(%)</text><rect x="519.7" y="333.5" width="94.4" height="74.5" rx="6" fill="#e11d48"/><text x="566.9" y="323.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">15.5%</text><text x="566.9" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">서울 평균 월세 1년 상승률(%)</text><rect x="708.4" y="247.8" width="94.4" height="160.2" rx="6" fill="#e11d48"/><text x="755.6" y="237.8" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">33.3%</text><text x="755.6" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">서울 매물 3개월 증가율(%)</text>
 </svg>

@@ -643,15 +643,15 @@ def build_briefing_edition():
         delta_counts[st] = delta_counts.get(st, 0) + 1
 
     raw_exec_headline = (
-        "[11/25 모닝 · 66대 실시간 팩트체크 확장안건] "
-        "①다우 사상 첫 5만 돌파 · 슈퍼 수요일 D-DAY: 다우 {{LIVE:dow}}({{LIVE:dow_chg}}) 사상 첫 50,000 돌파 & 미 11월 소비자신뢰 103.3(+11.4pt) 서프라이즈 vs 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) · SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 차익조정! 오늘 밤 22:30 미 10월 PCE·Q3 GDP·실업·내구재 동시 투하(04:00 베이지북) ➔ 내일(11/26) 한은 금통위 3.25% 인상 전망 54% · 원/달러 {{LIVE:usdkrw}}(11/27 삼성 배당 역송금 경계) · "
-        "②반도체 · 델 어닝 대폭발: 정규장 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}, 4Q {{LIVE:nvda_per4q}} · 1Q×4 {{LIVE:nvda_per1qx4}}) · TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}, 1Q×4 {{LIVE:tsm_per1qx4}}) · AMD {{LIVE:amd}}({{LIVE:amd_chg}}) · 구글 {{LIVE:google}}({{LIVE:google_chg}}) · 적자 ANT {{LIVE:anthropic}}({{LIVE:anthropic_chg}}) 조정 직후 장마감 델(Dell) 매출 $549억(+103%)·EPS $9.45·AI 서버 백로그 '$1,323억' 신기록 & HP '메모리 원가 압박' 증언 ➔ 삼성전자({{LIVE:samsung}}, 4Q {{LIVE:samsung_per4q}}) · SK하이닉스({{LIVE:skhynix}}, 4Q {{LIVE:skhynix_per4q}}) 눌림목 강력 지지! · "
-        "③미래기술 메가투자: 스페이스X 텍사스 $240억 바이오/우주 슈퍼컴·$1,000억 테라팹 + 애자일로봇 $5억 투자($85억 기업가치) + 미 NRC X-energy/다우 SMR 4기 건설허가 승인 + PsiQuantum·AMD 양자-AI 공동설계 · "
-        "④전쟁/지정학 · 호르무즈 기뢰 반전: 호르무즈 해협 유조선 3척 기뢰 화재 & 이란 의장 '7대 조건' 협상 거부로 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) $81대 재반등(1개월 {{LIVE:wti_1m}}) + 우크라 핀란드만 러 군수선 '스파르타 II' 타격 · 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 조정 · "
-        "⑤증시/세테크: 어제 코스피 {{LIVE:kospi}}(5,006.03) 5,000선 탈환 후 오늘 미 SOX 조정 개장 숨 고르기 예상 — 델 $1,323억 AI 백로그 믿고 장초반 투매 금지 · 오늘 밤 PCE·내일 한은 금통위 확인 후 현금 20% 분할 집행 · "
-        "⑥금 $3,600 재이탈: 미 소비신뢰 103.3·연준 매파 역풍에 국제 금 선물 {{LIVE:gold}}({{LIVE:gold_chg}}, 1개월 {{LIVE:gold_1m}}) $3,550대 후퇴! 오늘 밤 PCE 확인 후 매매차익 비과세 KRX 금현물 1차 분할 매집 구간 · "
-        "⑦비트코인 ETF 사상 최대 유출: 파사이드 공식 집계 11/23 하루 -$5.697억(블랙록 IBIT 단독 -$5.093억) 이탈로 11월 누적 -$47.1억 사상 최대 월간 유출 신기록 경신! BTC {{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}}) $60K 하향 이탈 ➔ 레버리지 금지 · 현물 BTC 95%+ 인내 적립 · "
-        "⑧부동산 30대 대출 역설: 서울 매물 8만 건 돌파에도 한은 3분기 통계 '30대 신규 주담대 비중 역대 최고치(수도권 3040 대출 반등)' & 전세의 월세화 급등 확인 ➔ 내일(11/26) 한은 3.25% 인상 명분 강화"
+        "[11/25 이브닝 · 70대 실시간 팩트체크 확장안건] "
+        "①코스피 매도 사이드카 · 트럼프 16개국 관세 폭탄: 어제 +6.32% 급등 하루 만에 코스피 {{LIVE:kospi}}({{LIVE:kospi_chg}}, 4,700 붕괴 · 매도 사이드카) · 코스닥 {{LIVE:kosdaq}}({{LIVE:kosdaq_chg}}) 폭락! 외인 -1조 8,993억 투매(삼성 -1조·SK -5천억)에도 서울 원/달러 1,343.2원(+0.8원 · 실시간 {{LIVE:usdkrw}}) 철벽 방어! 뉴욕 선물 나스닥 -2.3%·S&P -1.4% 급락 속 2시간 30분 뒤(22:30) 미 10월 PCE(근원 +3.2% 예상 · 12월 인상 97%) & 내일(11/26) 한은 3.25% 금통위 결판 · "
+        "②반도체 극단 저평가 & 16nm 규제: 정규장 삼성전자 170,700원(-9.87% · 시총 998조 · NXT {{LIVE:samsung}}, 1Q×4 PER {{LIVE:samsung_per1qx4}}) · SK하이닉스 1,030,000원(-11.05% · NXT {{LIVE:skhynix}}, 4Q PER {{LIVE:skhynix_per4q}}) 급락! 미 프리마켓 NVDA -5% · DELL 호실적($132.3B 백로그)에도 -7% 투매 + 미 16nm 이하 대중 출하 중단·젠슨 황 의회 청문회 압박(NVDA {{LIVE:nvda}}, 1Q×4 {{LIVE:nvda_per1qx4}} · TSM {{LIVE:tsm}} · ANT {{LIVE:anthropic}}) · "
+        "③미래기술: 스페이스X 텍사스 $240억 슈퍼컴·$1,000억 테라팹 · 테슬라-스페이스X 결합 논의·옵티머스 스타십 통합 + 애자일로봇 $85억 + X-energy/다우 SMR 4기 허가 + PsiQuantum·AMD 양자 동맹 · "
+        "④전쟁/지정학 · 리야드 금융지구 피격: 후티 사우디 리야드 금융지구 타워 타격(11명 부상) ➔ 사우디 호데이다 보복 공습 + 이란 호르무즈 PGSA 크립토 통행료 강제(트럼프 거부 · WTI {{LIVE:wti}}) + 우크라 사마라 정유소 타격·푸틴 보복 경고·뤼터 NATO 총장-트럼프 마러라고 긴급회동 · 구리 13개월 최저({{LIVE:copper}}) 약세장 · "
+        "⑤증시/세테크: 어제 +6.3% 추격 자제·현금 20% 바벨 적중! 4,600~4,700 공포 투매·레버리지 금지 ➔ 22:30 미 PCE & 내일 한은 금통위 직후 PER 3~5배 K-메모리·방산/금융 분할 대응 · "
+        "⑥금 14개월 저점권 공방: 연준 12월 인상 97%·증시 마진콜 매도에 국제 금 선물 {{LIVE:gold}}({{LIVE:gold_chg}}, 1개월 {{LIVE:gold_1m}}) $3,550대 횡보 ➔ 22:30 PCE 확인 후 비과세 KRX 금현물 분할 매집 · "
+        "⑦비트코인 8,000만 원 · $59K 붕괴: 11월 ETF 역대 최대 유출(-$47.1억) + 관세 리스크오프·스테이블코인 위축에 BTC {{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}}) 8,000만 원선 이탈 ➔ 레버리지 0% · PCE 후 7,500만~7,900만 원 현물 BTC 95%+ 분할 적립 · "
+        "⑧부동산 월세 52% 역전: 서울 아파트 임대차 월세 비중 52% 돌파 · 평균 월세 1년 새 +15% 이상 폭등(노도강 확산) & 2027년 상반기 갱신 만기 '전월세 대란' 경보 발령!"
     )
     token_map = build_live_token_map(market_data, extra_live)
     hydrated_exec = _replace_tokens_recursive(raw_exec_headline, token_map)

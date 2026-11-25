@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">글로벌 7대 반도체·AI 빅테크 실시간 최근 4분기 PER 비교 (배)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">SK하이닉스(4.3배)·삼성전자(5.8배)·구글(14.2배)·엔비디아(16.6배)는 반등 후에도 합리적 밸류</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">SK하이닉스(3.8배)·삼성전자(5.1배)·구글(14.2배)·엔비디아(16.6배)는 반등 후에도 합리적 밸류</text>
     
     <rect x="560" y="24" width="15" height="15" rx="3" fill="#4f46e5"/>
     <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">최근 4분기 PER (배, 시세보드 실시간 기준)</text>

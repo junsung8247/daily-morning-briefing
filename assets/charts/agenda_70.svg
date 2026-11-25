@@ -1,41 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/23 지정학·전략 원자재 3대 실물 병목 속보 (방공탄 고갈 · 호르무즈 · 구리 TC/RC 마이너스)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">증시 투매 속에서도 실물 전쟁터와 원자재 제련소에서는 '극단적 공급 부족'이 더 깊어지고 있다</text>
-    <line x1="450" y1="268" x2="190" y2="175" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#ea580c" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/25 글로벌 반도체·AI 7대 핵심 종목 실시간 '최근 4분기 PER' 극단 양극화 (배)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">오늘 -10~12% 급락으로 SK하이닉스(3.79배)·삼성전자(5.08배)는 역사적 초저평가 vs 적자 앤트로픽(ANT)은 마이너스 PER(-8.96배)</text>
     
-    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
-    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
-    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">3</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">대</text>
+    <rect x="560" y="24" width="15" height="15" rx="3" fill="#0284c7"/>
+    <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">실시간 최근 4분기 PER (배)</text>
     
-    
-        <g>
-            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">유럽 패트리엇 바닥</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">독일 피스토리우스 장관 시인</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">우크라 케르치 대교 타격·러 대공습 속 유럽 패트리엇 요격미사일 재고 사실상 고갈</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#ea580c" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#ea580c" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">호르무즈 해협 충돌</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">미·이란 국지 드론전 격화</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">바레인·쿠웨이트 자산 드론 피격과 CENTCOM 상선 수천 척 호위 속 WTI $83.41 하방 경직</text>
-        </g>
-        
-        <g>
-            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="190" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">구리 TC/RC 마이너스</text>
-            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">중국 제련소 원광 쟁탈전</text>
-            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">상하이 세계구리컨퍼런스: 원광 극심한 부족으로 스팟 제련수수료가 역사적 마이너스 폭락!</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">K-방산·실물광산 수혜</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">천궁-II·L-SAM·구리 광산</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">가성비·납기 압도하는 한국 방공체계와 종이선물($5.485) 폭락 속 실물 구리 광산주 가치 급등</text>
-        </g>
-        
+    <line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">107배</text><line x1="95" y1="180.8" x2="850" y2="180.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="185.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">77.4배</text><line x1="95" y1="256.5" x2="850" y2="256.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="261.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">48.0배</text><line x1="95" y1="332.2" x2="850" y2="332.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="337.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">18.6배</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="413.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">-10.8배</text><line x1="95" y1="380.3" x2="850" y2="380.3" stroke="#64748b" stroke-width="2"/>
+    <rect x="122.0" y="380.3" width="53.9" height="23.1" rx="6" fill="#e11d48"/><text x="148.9" y="423.4" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-9.0배</text><text x="148.9" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">앤트로픽(적자)</text><rect x="229.8" y="370.5" width="53.9" height="9.8" rx="6" fill="#0284c7"/><text x="256.8" y="360.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">+3.8배</text><text x="256.8" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">SK하이닉스</text><rect x="337.7" y="367.2" width="53.9" height="13.1" rx="6" fill="#0284c7"/><text x="364.6" y="357.2" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">+5.1배</text><text x="364.6" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">삼성전자</text><rect x="445.5" y="343.6" width="53.9" height="36.7" rx="6" fill="#0284c7"/><text x="472.5" y="333.6" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">+14.2배</text><text x="472.5" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">구글(합산)</text><rect x="553.4" y="337.6" width="53.9" height="42.7" rx="6" fill="#0284c7"/><text x="580.4" y="327.6" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">+16.6배</text><text x="580.4" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">엔비디아</text><rect x="661.3" y="318.9" width="53.9" height="61.4" rx="6" fill="#0284c7"/><text x="688.2" y="308.9" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">+23.8배</text><text x="688.2" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">TSMC</text><rect x="769.1" y="150.9" width="53.9" height="229.4" rx="6" fill="#0284c7"/><text x="796.1" y="140.9" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">+89.0배</text><text x="796.1" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">AMD</text>
 </svg>

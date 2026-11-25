@@ -1,11 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/20(금) 필라델피아 반도체(SOX -10.73%) 주요 AI 반도체 종목 일간 폭락폭 (%)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">엔비디아 SEC 공시·회계 조사 및 젠슨 황 이탈 여진과 머스크의 AI 현금 고갈 경고가 겹치며 반도체 전반 두 자릿수 투매</text>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/25 저녁 글로벌 4대 지정학·원자재 긴급 속보 (리야드 피격 · 호르무즈 크립토 통행료 · 사마라 정유소 · 구리 13개월 최저)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">중동(리야드-호데이다-호르무즈)과 동유럽(러 5개주 정전 vs 사마라 정유소)이 동시 격화되며 NATO 사무총장이 마러라고로 급파됨</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#ea580c" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
-    <rect x="560" y="24" width="15" height="15" rx="3" fill="#e11d48"/>
-    <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">11/20 일간 변동률 (%)</text>
+    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
+    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">리</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">야</text>
     
-    <line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">0.0%</text><line x1="95" y1="180.8" x2="850" y2="180.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="185.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">-4.2%</text><line x1="95" y1="256.5" x2="850" y2="256.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="261.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">-8.4%</text><line x1="95" y1="332.2" x2="850" y2="332.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="337.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">-12.6%</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="413.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">-16.8%</text><line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#64748b" stroke-width="2"/>
-    <rect x="126.5" y="105.0" width="62.9" height="170.9" rx="6" fill="#e11d48"/><text x="157.9" y="295.9" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-9.5%</text><text x="157.9" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">TSMC (TSM)</text><rect x="252.3" y="105.0" width="62.9" height="193.4" rx="6" fill="#e11d48"/><text x="283.8" y="318.4" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-10.7%</text><text x="283.8" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">필라델피아반도체(SOX)</text><rect x="378.1" y="105.0" width="62.9" height="219.7" rx="6" fill="#e11d48"/><text x="409.6" y="344.7" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-12.2%</text><text x="409.6" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">브로드컴 (AVGO)</text><rect x="504.0" y="105.0" width="62.9" height="238.8" rx="6" fill="#e11d48"/><text x="535.4" y="363.8" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-13.2%</text><text x="535.4" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">AMD (AMD)</text><rect x="629.8" y="105.0" width="62.9" height="250.3" rx="6" fill="#e11d48"/><text x="661.2" y="375.3" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-13.9%</text><text x="661.2" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">마이크론 (MU)</text><rect x="755.6" y="105.0" width="62.9" height="252.5" rx="6" fill="#e11d48"/><text x="787.1" y="377.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">-14.0%</text><text x="787.1" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">엔비디아 (NVDA)</text>
+    
+        <g>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">리야드 피격 & 사우디 보복</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">금융지구 타워 11명 부상</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">친이란 후티가 사우디 수도 리야드 금융지구 타워 드론·미사일 타격 ➔ 사우디 연합군 예멘 호데이다항 보복 공습</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#ea580c" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#ea580c" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">호르무즈 '크립토 통행료'</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">PGSA 등록 · 기뢰 피격</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">이란, 미 해군 봉쇄 속 상선에 PGSA 등록 및 암호화폐 통행료·강제보험 요구(트럼프 이란 조건 거부 · WTI $81.32)</text>
+        </g>
+        
+        <g>
+            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="190" y="347" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">푸틴 보복 경고 · 마러라고</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">사마라 정유소 vs 5개주 정전</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">우크라 로스네프트 사마라·시즈란 정유소 타격 ➔ 푸틴 '보복 불가피' · 마크 뤼터 NATO 총장 마러라고서 트럼프 회동</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
+            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">구리 13개월 최저 약세장</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">구리 $5.40 · LME $11,800</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">트럼프 16개국 관세 위협 + AI 투매에 구리 고점 대비 -20%+ 공식 약세장(실물 TC/RC 마이너스 괴리 극대화)</text>
+        </g>
+        
 </svg>
