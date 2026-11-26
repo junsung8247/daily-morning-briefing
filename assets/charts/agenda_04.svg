@@ -1,41 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/26(오늘) 한국은행 금통위 4대 핵심 관전 포인트 & 미국 추수감사절 휴장 변수</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">반도체 수출 호조(3분기 GDP +1.0% QoQ)와 2.8% 물가가 인상 명분 vs 어제 코스피 -6.16% 매도 사이드카가 매파 강도 제어 변수</text>
-    <line x1="450" y1="268" x2="190" y2="175" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#059669" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/26 한국은행 수정 경제전망(GDP·물가 %) 및 6개월 조건부 금리 점도표(총 21개 분포)</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">2026 GDP 3.9%(+0.6%p)·2027 GDP 4.1%(+1.2%p) 초강세 전망 속 금통위원 점 21개 중 15개가 3.50%(8개)·3.75%(7개) 추가 인상 지목!</text>
     
-    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
-    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
-    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">오</text>
-    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">늘</text>
+    <rect x="560" y="24" width="15" height="15" rx="3" fill="#e11d48"/>
+    <text x="582" y="37" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800">한은 공식 발표 수치</text>
     
-    
-        <g>
-            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
-            <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">기준금리 3.00% ➔ 3.25%?</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">7·8월 인상 ➔ 10월 동결</text>
-            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">금투협 BMSI 54%·채권시장 다수 25bp 인상 예상 — 소수의견(동결) 존재 여부가 핵심</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
-            <text x="710" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">반도체발 '깜짝 성장'</text>
-            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">Q3 GDP +1.0% QoQ</text>
-            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">AI·반도체 수출 호조로 3분기 성장률 예상 대폭 상회 ➔ 오늘 연간 성장률 전망 상향 유력</text>
-        </g>
-        
-        <g>
-            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="190" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">끈적한 2.8% 물가</text>
-            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">10월 CPI·근원 2.8%</text>
-            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">한은 목표(2.0%)를 크게 상회하는 물가 압력과 30대 주담대 역대 최고 비중이 긴축 지지</text>
-        </g>
-        
-        <g>
-            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#059669" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#059669" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">6개월 조건부 점도표</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">추가 인상 vs 최종금리?</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">3.25%가 최종금리 상단(비둘기 인상)인지 2027 초 3.50% 열어두는지 여부가 시장 방향 결정</text>
-        </g>
-        
+    <line x1="95" y1="105.0" x2="850" y2="105.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="110.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">9.6</text><line x1="95" y1="180.8" x2="850" y2="180.8" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="185.8" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">7.2</text><line x1="95" y1="256.5" x2="850" y2="256.5" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="261.5" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">4.8</text><line x1="95" y1="332.2" x2="850" y2="332.2" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="337.2" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">2.4</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,5"/><text x="81" y="413.0" fill="#334155" font-family="Pretendard, sans-serif" font-size="15" font-weight="700" text-anchor="end">0.0</text><line x1="95" y1="408.0" x2="850" y2="408.0" stroke="#64748b" stroke-width="2"/>
+    <rect x="126.5" y="284.9" width="62.9" height="123.1" rx="6" fill="#e11d48"/><text x="157.9" y="274.9" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">3.9</text><text x="157.9" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">2026 GDP전망(%)</text><rect x="252.3" y="278.6" width="62.9" height="129.4" rx="6" fill="#e11d48"/><text x="283.8" y="268.6" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">4.1</text><text x="283.8" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">2027 GDP전망(%)</text><rect x="378.1" y="322.8" width="62.9" height="85.2" rx="6" fill="#e11d48"/><text x="409.6" y="312.8" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">2.7</text><text x="409.6" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">2026 물가/근원(%)</text><rect x="504.0" y="305.4" width="62.9" height="102.6" rx="6" fill="#e11d48"/><text x="535.4" y="295.4" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">3.2</text><text x="535.4" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">현 기준금리(%)</text><rect x="629.8" y="155.5" width="62.9" height="252.5" rx="6" fill="#e11d48"/><text x="661.2" y="145.5" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">8.0</text><text x="661.2" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">점도표 3.50%(개)</text><rect x="755.6" y="187.1" width="62.9" height="220.9" rx="6" fill="#e11d48"/><text x="787.1" y="177.1" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">7.0</text><text x="787.1" y="456" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">점도표 3.75%(개)</text>
 </svg>

@@ -13,7 +13,7 @@
         <g>
             <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
             <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">WTI $84대 급반등</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">$84.15 (+2.56%)</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">$84.50 (+0.98%)</text>
             <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">호르무즈 미 해군 봉쇄 장기화·이란 강경파 도발 논의 및 이스라엘 대이란 군사 압박에 급등</text>
         </g>
         
@@ -33,9 +33,9 @@
         
         <g>
             <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">구리 $5.48 반등 전환</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">일간 +2.22% · 바닥 탈출</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">13개월 저점($5.25~5.35) 터치 후 미 10년물·달러 하락과 함께 $5.48(+2.22%) 반등</text>
+            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">구리 $5.45 반등 전환</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">일간 +2.26% · 바닥 탈출</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">13개월 저점($5.25~5.35) 터치 후 미 10년물·달러 하락과 함께 $5.48(+2.26%) 반등</text>
         </g>
         
 </svg>

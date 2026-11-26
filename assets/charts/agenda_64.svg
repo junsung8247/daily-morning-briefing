@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
     <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
     <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/25 아침 글로벌 에너지·전쟁 4대 긴급 속보 (호르무즈 기뢰 · 이란 7대 조건 · 핀란드만 타격)</text>
-    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">미·이란 외교 기대가 하루 만에 꺾이며 WTI가 $80 아래에서 $84.15(+2.56%)로 재반등 · 유럽·중동 해상 리스크 동시 격화</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">미·이란 외교 기대가 하루 만에 꺾이며 WTI가 $80 아래에서 $84.50(+0.98%)로 재반등 · 유럽·중동 해상 리스크 동시 격화</text>
     <line x1="450" y1="268" x2="190" y2="175" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#ea580c" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#d97706" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
     
     <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
@@ -13,7 +13,7 @@
         <g>
             <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
             <text x="190" y="157" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">호르무즈 유조선 3척 화재</text>
-            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">WTI $84.15 (+2.56%)</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">WTI $84.50 (+0.98%)</text>
             <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">이란 혁명수비대 해군: 호르무즈 해협서 유조선 3척이 기뢰 접촉 화재 ➔ 유가 $81~82대 재반등</text>
         </g>
         
@@ -33,9 +33,9 @@
         
         <g>
             <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#d97706" stroke-width="2.4"/>
-            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">구리 $5.48 재조정</text>
-            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">일간 +2.22% · 중국 우려</text>
-            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">중국 산업 수요 우려·PCE 경계에 구리 선물 $5.48(+2.22%) 반락 · API 미 원유재고 +10만 배럴</text>
+            <text x="710" y="347" fill="#d97706" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">구리 $5.45 재조정</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">일간 +2.26% · 중국 우려</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">중국 산업 수요 우려·PCE 경계에 구리 선물 $5.48(+2.26%) 반락 · API 미 원유재고 +10만 배럴</text>
         </g>
         
 </svg>
