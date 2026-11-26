@@ -149,6 +149,27 @@ def fetch_market_data():
                 })
         except Exception as e:
             print(f"[WARN] Failed to fetch {sym}: {e}")
+
+    # KRX 공식 지수(코스피·코스닥)는 Yahoo 전일봉 누락으로 인한 오차 방지를 위해 네이버 공식 API로 정확한 등락률·종가 동기화
+    naver_idx_map = {"kospi": "KOSPI", "kosdaq": "KOSDAQ"}
+    for m in results:
+        ncode = naver_idx_map.get(m["id"])
+        if not ncode:
+            continue
+        try:
+            nurl = f"https://m.stock.naver.com/api/index/{ncode}/basic"
+            nreq = urllib.request.Request(nurl, headers=headers)
+            with urllib.request.urlopen(nreq, timeout=6) as nresp:
+                ndata = json.loads(nresp.read().decode("utf-8"))
+                n_price_str = str(ndata.get("closePrice", "")).replace(",", "").strip()
+                n_chg_str = str(ndata.get("fluctuationsRatio", "")).replace(",", "").strip()
+                if n_price_str:
+                    m["price"] = round(float(n_price_str), 2)
+                if n_chg_str:
+                    m["dayChangePct"] = round(float(n_chg_str), 2)
+        except Exception as e:
+            print(f"[WARN] Naver index sync skipped for {ncode}: {e}")
+
     return results
 
 
@@ -643,15 +664,15 @@ def build_briefing_edition():
         delta_counts[st] = delta_counts.get(st, 0) + 1
 
     raw_exec_headline = (
-        "[11/26 이브닝 · 78대 실시간 팩트체크 확장안건] "
-        "①한은 3.25% 매파 인상(5:2) · 점도표 상단 3.75% · 코스피 4,700 즉각 회복: 한국은행이 기준금리를 연 3.25%로 25bp 인상(황건일·이수형 동결 소수의견)하고 2026년 GDP 3.9%(+0.6%p)·2027년 4.1%(+1.2%p) 파격 상향! 6개월 점도표 21개 중 15개가 3.50~3.75% 추가 인상 지목! 그럼에도 기관 +7,508억 방어로 코스피 {{LIVE:kospi}}({{LIVE:kospi_chg}}) 하루 만에 4,700선 회복 · 코스닥 {{LIVE:kosdaq}}({{LIVE:kosdaq_chg}}) · 서울 원/달러 1,342.7원(-0.5원 · 실시간 {{LIVE:usdkrw}}) 초안정! · "
-        "②유럽 반도체 +4~5% 급등 · SK 외인 11일 만의 귀환: 미국 추수감사절 휴장 속 미 301조 관세 '내년 1/5 의견·1/25 공청회 유예(즉시 발효 X)' 확인에 유럽 DAX +1.8%·ASML/인피니언 +4~5% 급등! 국내는 외국인 11거래일 만에 SK하이닉스 +3,141억 순매수 귀환(정규 1,053,000원 +2.23% · NXT {{LIVE:skhynix}}, 4Q {{LIVE:skhynix_per4q}}) · 삼성전자 기관 +3,220억 방어(정규 171,300원 +0.35% · NXT {{LIVE:samsung}}, 1Q×4 {{LIVE:samsung_per1qx4}}) · NVDA {{LIVE:nvda}}(1Q×4 {{LIVE:nvda_per1qx4}}) · TSM {{LIVE:tsm}} · "
-        "③미래기술 궤도 AI 승인: 미 FCC 우주국, 스페이스X '스타마인드(최대 100만 위성 우주 AI 데이터센터)' 조건부 승인! 테슬라-스페이스X $3.5조 결합 검토 & 옵티머스 3세대 의료·스타십 로드맵 · "
-        "④전쟁/지정학 · 마러라고 공동성명: 트럼프-뤼터 NATO 공동성명 '러 인접국 확전 경고 & 동맹 방위비·방산투자 증액' 공식화! 후티 사우디 리야드·제다·자잔 동시 공격(요격) + 이란 호르무즈 북부항로 강제·UAE 연안 폭발에 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) · 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) · "
-        "⑤증시/세테크: 한은 2027년 4.1% 성장 전망(반도체·AI 실적 보증) + 점도표 3.75%(고금리 장기화) ➔ 'PER 3~5배 K-메모리 + 고배당 은행/금융지주(NIM 수혜) + K-방산' 3각 코어 완벽 정립 · "
-        "⑥금 15개월 바닥 확인 후 반등: 장중 $3,445 저점 딛고 미 10년물 4.85% 하락에 국제 금 선물 {{LIVE:gold}}({{LIVE:gold_chg}}) $3,600 턱밑 회복 ➔ 비과세 KRX 금현물 보유 유지 · "
-        "⑦비트코인 $60,000 완벽 탈환: 11월 미 현물 ETF 역대 최악 -$53.9억 유출에도 숏스퀴즈 반등하며 BTC {{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}}) $60K·8,100만 원 탈환! 모건스탠리 MSBT 홀로 +$1.14억 역행 순유입 포착(현물 BTC 95%+ 유지) · "
-        "⑧부동산 서울 '+0.01%' 하락 초읽기: 11/26 부동산원 공식 통계 서울 매매가 +0.01% 사실상 보합 추락 · 하락 자치구 7➔9곳 확대(송파 -0.50% · 광진/영등포 신규 하락!) vs 서울 전셋값 +0.14%(94주 연속 상승) + 오늘 한은 3.25% 인상이 15억 이하 구매력 직격!"
+        "[11/27 모닝 · 82대 실시간 팩트체크 확장안건] "
+        "①오늘(11/27) 삼성전자 '30조 원(외인 $118억)' 사상최대 배당 지급일 & 유럽 +2.1% 급등 · 일본 도쿄 CPI 3.0% 경보: 오늘 삼성전자 주당 4,601원 총 30조 원(신한·KB 포함 30.7조) 배당 지급 — 외국인 몫 15.3조($118억 · 서울 일평균 외환거래의 65%) 역송금 경계(원/달러 {{LIVE:usdkrw}}) vs 국내 15조 재투자! 간밤 유럽 증시는 '301조 관세 7월 관세와 미중복' 안도에 DAX +2.14%·STOXX600 +1.83%(636.98)·ASML 급등 마감 & 미 S&P 선물 +0.54%(오늘 밤 블랙프라이데이 13:00 ET 조기폐장)! 반면 일본 도쿄 근원 CPI 3.0% 가속·BOJ 타무라 매파 발언에 12월 BOJ 1.50% 인상 확률 70~80%+ · 엔화 159~160엔 경보! · "
+        "②반도체 · TSMC 중립성 깨고 앤트로픽 $5억 지분투자: TSMC가 사상 첫 중립 관행을 깨고 앤트로픽 $260억 사모에 $5억(오픈AI $5억 별도 승인) 직접 지분 참여(NVDA·구글 각 $100억 · AMD $25억) — AI 순환금융·AI 자체 칩설계(오픈AI-AMD) 본격화! 실시간 NVDA {{LIVE:nvda}}(1Q×4 {{LIVE:nvda_per1qx4}}) · TSM {{LIVE:tsm}}(1Q×4 {{LIVE:tsm_per1qx4}}) · 구글 {{LIVE:google}} · 삼성전자 {{LIVE:samsung}}(1Q×4 {{LIVE:samsung_per1qx4}}) · SK하이닉스 {{LIVE:skhynix}}(4Q {{LIVE:skhynix_per4q}}, 어제 외인 11일 만에 +3,141억 귀환) · "
+        "③미래기술 궤도 AI 로드맵: FCC 승인 스페이스X '스타마인드(100만 위성)' 2027년 3분기 첫 발사 목표 — 스타십으로 우주 최적화 '엔비디아 베라 루빈 NVL72' 탑재 + 아이온큐 벡터아토믹 국방 양자항법 이정표 · "
+        "④전쟁/지정학 · 사우디 자잔 정유소 피격: 친이란 후티 발사체가 사우디 자잔 정유소를 직접 타격(1명 사망·부분 가동중단)하며 WTI 원유 {{LIVE:wti}}({{LIVE:wti_chg}}) $85 육박! 우크라 '러 월간 사상자 2개월 연속 5만 명 돌파(11월 신기록)' & 젤렌스키 겨울 대규모 에너지 공습 경고 · 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) · "
+        "⑤증시/세테크: 코스피 {{LIVE:kospi}}({{LIVE:kospi_chg}}) 4,700 회복 + 유럽 DAX +2.14%·미 블프 소비 역대최대 전망(NRF $1.013조·어도비 온라인 $2,751억) ➔ 오늘 삼성 배당 30조 재투자 수급 & 12월 BOJ 1.50%·엔캐리 리스크 동시 주시 · "
+        "⑥금 $3,600 재도전: 15개월 저점($3,445) 바닥 확인 후 국제 금 선물 {{LIVE:gold}}({{LIVE:gold_chg}}) $3,590대 회복 ➔ 매매차익 비과세 KRX 금현물 보유 유지 · "
+        "⑦비트코인 $60K 방어 안착: 11월 ETF 역대 최악 유출(-$53.9억) 악재 소화하며 BTC {{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}}) $60,000·8,100만 원선 견조 안착(모건스탠리 MSBT +$1.14억 역행 유입 · 현물 BTC 95%+ 유지) · "
+        "⑧부동산 3.25% 인상 즉시 후폭풍: 한은 인상으로 법정 전월세전환율 '5.00% ➔ 5.25%' 자동 상향(월세 상한 확대) & 예금은행 신규 주담대 평균 금리 '4.98%'(2012년 이후 최고 · 전세대출 4.63%) 돌파!"
     )
     token_map = build_live_token_map(market_data, extra_live)
     hydrated_exec = _replace_tokens_recursive(raw_exec_headline, token_map)
