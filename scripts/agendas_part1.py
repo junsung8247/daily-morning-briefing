@@ -11,97 +11,97 @@ AGENDAS_PART1 = [
     # ==========================================
     {
         "id": "agenda_01",
-        "asOfDate": "2026-11-26",
+        "asOfDate": "2026-11-28",
         "category": "macro",
         "categoryLabel": "거시경제 · 금리",
         "importance": "CRITICAL",
-        "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🟢 장중 -4% 패닉 딛고 극적 V자 방어! (나스닥 장중 -4% ➔ {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) · S&P {{LIVE:sp500}}({{LIVE:sp500_chg}}) · 다우 {{LIVE:dow}}({{LIVE:dow_chg}}) 이틀 연속 5만 안착! 미 10년물 {{LIVE:us10y}} 급락이 구원투수!)",
-        "title": "[11/26] 뉴욕 장중 -4% 폭락 딛고 극적 V자 방어(S&P {{LIVE:sp500_chg}} · 나스닥 {{LIVE:nasdaq_chg}} · 다우 50,182): 10년물 {{LIVE:us10y}} 하락과 추수감사절 휴장 돌입",
-        "subtitle": "근원 PCE 3.3%(3년 최고) + 트럼프 14개국 301조 관세 공식 발표 악재를 장중 모두 소화하고 낙폭 대거 축소… 오늘(11/26) 미 증시 휴장 · 내일(27일) 조기폐장",
+        "deltaStatus": "REINFORCED",
+        "deltaLabel": "🟢 블랙프라이데이 뉴욕 대폭발 마감! (S&P {{LIVE:sp500}}({{LIVE:sp500_chg}}) 주간 +5.6% 19개월 최대 · 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) · 다우 {{LIVE:dow}}({{LIVE:dow_chg}}) 4년 만의 최대 주간 랠리 · SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 9,100 돌파!)",
+        "title": "[11/28 모닝] 뉴욕 블프 단축장 대폭발 마감(나스닥 {{LIVE:nasdaq_chg}} · SOX {{LIVE:sox_chg}} · S&P 주간 +5.6%): 2025년 4월 이후 최고 주간 랠리 완성",
+        "subtitle": "다우 50,774(2022년 10월 이후 최대 주간 상승) · 나스닥100 +2.61% · 앤트로픽 +11% · 마이크론 +7.6% · 아마존 ~+4% 전면 숏커버링!",
         "chartImage": "assets/charts/agenda_01.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "sp500",
             "title": "S&P 500 지수 최근 10거래일 실시간 추이 ({{LIVE:sp500}})",
-            "subtitle": "실시간 API 연동 차트 · 11/25 장중 7,000선 위협 후 극적 반등하며 {{LIVE:sp500}}({{LIVE:sp500_chg}}) 마감",
-            "labels": ["11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/23", "11/24", "11/25"],
-            "values": [7619.4, 7592.4, 7510.0, 7418.0, 7340.5, 7323.6, 7175.8, 7237.2, 7201.1, 7182.8],
+            "subtitle": "실시간 API 연동 차트 · 11/27 블프 단축장 {{LIVE:sp500_chg}} 급등 마감({{LIVE:sp500}})으로 주간 +5.6% 대반전 완성",
+            "labels": ["11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/24", "11/25", "11/26", "11/27"],
+            "values": [7592.4, 7510.0, 7418.0, 7340.5, 7323.6, 7175.8, 7201.1, 7182.8, 7182.8, 7297.5],
             "unit": "pt",
             "color": "#0284c7",
-            "benchmark_val": 7000.0,
-            "benchmark_label": "방어 성공선 7,000pt",
+            "benchmark_val": 7250.0,
+            "benchmark_label": "주간 반등 돌파선 7,250pt",
             "badge_text": "LIVE {{LIVE:sp500}}"
         },
         "keyMetrics": [
-            {"label": "뉴욕 3대 지수 (11/25 마감)", "value": "다우 {{LIVE:dow}} / S&P {{LIVE:sp500}}", "change": "다우 {{LIVE:dow_chg}}(5만선 2일 연속 안착!) · S&P {{LIVE:sp500_chg}} · 나스닥 {{LIVE:nasdaq_chg}}(장중 -4%서 대반등)"},
-            {"label": "구원투수: 미 10년물 금리", "value": "{{LIVE:us10y}} ({{LIVE:us10y_chg}})", "change": "근원 PCE 3.3%에도 실질 소비 -0.1%·안전선호에 금리가 4.85%로 내려앉으며 증시 구조"},
-            {"label": "미국 추수감사절 일정", "value": "11/26(목) 전면 휴장 · 11/27 조기폐장", "change": "오늘 한국 장은 미국 휴장 속 자체 10:00 한은 금통위 결과 소화 후 숨 고르기 전망"}
+            {"label": "뉴욕 3대 지수 (11/27 블프 마감)", "value": "S&P {{LIVE:sp500}} / 나스닥 {{LIVE:nasdaq}}", "change": "S&P {{LIVE:sp500_chg}}(주간 +5.6%, 2025.4 이후 최고) · 나스닥 {{LIVE:nasdaq_chg}}(나스닥100 +2.61%) · 다우 {{LIVE:dow}}({{LIVE:dow_chg}})"},
+            {"label": "반도체·AI 지수 폭발", "value": "SOX {{LIVE:sox}} ({{LIVE:sox_chg}})", "change": "단숨에 9,100선 탈환! 앤트로픽 +10.98% · 마이크론 +7.60% · AMD +4.56% · 브로드컴 +3.82%"},
+            {"label": "유일한 경계 변수", "value": "미 10년물 {{LIVE:us10y}} / DXY {{LIVE:dxy}}", "change": "블프 온라인 $129억(+9.2%) 호조와 리스크온에 국채금리가 4.94%로 재반등하며 12/8~9 FOMC 경계"}
         ],
         "facts": [
-            "추수감사절 휴장을 앞둔 11월 25일(현지시간) 뉴욕 증시는 극적인 **장중 V자 반등(Intraday Recovery)**을 연출했습니다. 장 초반 근원 PCE 3.3%(3년 최고치)와 트럼프 행정부의 **14개 교역국 대상 무역법 301조 관세 공식 발표**로 나스닥이 장중 **-4% 가까이 폭락**하고 S&P 500이 7,000선 턱밑까지 밀렸으나, 오후 들어 저가 매수가 강하게 유입되며 **S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}}), 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}), SOX {{LIVE:sox}}({{LIVE:sox_chg}})**로 낙폭을 대부분 만회했습니다.",
-            "가치·방어주 중심의 **다우존스 산업평균지수는 +164.25pt({{LIVE:dow_chg}}) 오른 {{LIVE:dow}}**로 이틀 연속 50,000선 위에서 마감하며 강력한 순환매 체력을 입증했습니다.",
-            "가장 큰 구원투수는 채권시장이었습니다. 뜨거운 PCE 물가에도 실질 개인소비지출(Real PCE)이 -0.1% 감소하고 베이지북이 소비 둔화를 확인하면서 **미 10년물 국채금리가 {{LIVE:us10y}}({{LIVE:us10y_chg}})로 하락**했고, 덕분에 금({{LIVE:gold}} · {{LIVE:gold_chg}})과 비트코인({{LIVE:btc}} · {{LIVE:btc_chg}})도 동반 반등에 성공했습니다."
+            "11월 27일(현지시간) 오후 1시(ET) 조기 폐장한 미국 블랙프라이데이 뉴욕 증시는 극적인 주간 대반전을 완성했습니다. **S&P 500은 +114.71pt({{LIVE:sp500_chg}}) 급등한 {{LIVE:sp500}}**으로 주간 **+5.6%(2025년 4월 이후 최고 주간 수익률)**를 기록했고, **나스닥 종합은 +543.70pt({{LIVE:nasdaq_chg}}) 폭등한 {{LIVE:nasdaq}}**(나스닥 100 +2.61%)으로 마감했습니다(LA Times·BigGo).",
+            "**다우존스 산업평균지수 역시 +591.99pt({{LIVE:dow_chg}}) 상승한 {{LIVE:dow}}**로 50,700선을 돌파하며 **2022년 10월 이후 4년 만의 최대 주간 상승률**을 달성했습니다. 특히 **필라델피아 반도체(SOX) 지수가 {{LIVE:sox_chg}} 폭등한 {{LIVE:sox}}**로 단숨에 9,100선을 재탈환했습니다.",
+            "종목별로는 공모가($83) 아래로 추락했던 **앤트로픽(ANT)이 {{LIVE:anthropic_chg}} 폭등({{LIVE:anthropic}})**하며 상장 후 최고 반등을 냈고, **마이크론(+7.60%)·AMD({{LIVE:amd_chg}})·브로드컴(+3.82%)·TSMC({{LIVE:tsm_chg}})·아마존(약 +4%)**이 랠리를 주도했습니다. 다만 **엔비디아({{LIVE:nvda}}, {{LIVE:nvda_chg}})**는 동남아 AI 서버 출하 중단 보도 여파로 상대적 약보합에 머물렀습니다."
         ],
-        "previousImplication": "트럼프 16개국 관세 위협과 22:30 PCE 앞둔 프리마켓 -2.4% 폭락 속 섣부른 투매·선제 몰빵을 경고함 (11/25).",
-        "newCatalyst": "근원 PCE 3.3%·트럼프 14개국 301조 관세 공식 발표 악재를 장중 -4%에서 -0.62%로 극적 소화 및 미 10년물 4.85% 하락.",
-        "updatedImplication": "어제 저녁 나스닥 선물 -2.4%·코스피 -6.16% 폭락이 **최대 악재(PCE + 301조 관세)를 선반영한 공포의 단기 정점**이었음이 뉴욕 오후장 V자 반등으로 확인됨! 오늘(11/26) 미국 증시 휴장 및 10:00 한은 금통위 소화 과정에서 **코스피 4,600~4,700대 · PER 3~5배 K-메모리의 기술적 안도 반등**을 차분히 활용할 시점임.",
+        "previousImplication": "근원 PCE 3.3%·301조 관세 악재를 11/25 장중 -4%에서 V자 소화하며 공포 정점을 통과했다고 판단함 (11/26).",
+        "newCatalyst": "11/27 블랙프라이데이 단축장서 S&P +1.60%(주간 +5.6%)·나스닥 +2.31%·다우 +1.18%·SOX +4.69% 전면 폭등 마감.",
+        "updatedImplication": "이번 주 초반 극단 투매(코스피 -6.16%·삼성 17만·SK 103만·SOX 급락) 구간에서 공포 매도를 차단하고 코어 종목을 지킨 전략이 **주간 +5.6% 대반등**으로 완벽히 승리함! 특히 **마이크론 +7.60%·SOX +4.69% 폭등**은 다음 주 월요일(11/30) 한국 메모리 대형주(삼성·SK)의 18만·115만 원대 추가 회복 훈풍이 될 전망이나, **미 10년물 {{LIVE:us10y}} 재상승**을 감안해 급등 추격은 자제해야 함.",
         "implicationHistory": [
-            {"time": "11/25 08:00", "text": "🟡 다우 50,018.7(+0.85%) 사상 첫 5만 돌파 vs 나스닥 -1.48%·SOX -7.88% 차익조정"},
-            {"time": "11/26 08:00", "text": "🟢 PCE 3.3%·301조 관세 악재 딛고 나스닥 장중 -4%➔-0.62% 극적 방어! 다우 50,182 · 미 10년물 4.85% 하락"}
+            {"time": "11/26 08:00", "text": "🟢 PCE 3.3%·301조 관세 악재 딛고 나스닥 장중 -4%➔-0.62% 극적 방어! 다우 50,182"},
+            {"time": "11/28 08:00", "text": "🟢 블프 단축장 S&P {{LIVE:sp500}}({{LIVE:sp500_chg}}, 주간 +5.6%)·나스닥 {{LIVE:nasdaq_chg}}·SOX {{LIVE:sox_chg}} 전면 폭등 마감!"}
         ],
         "actionPoints": [
-            "뉴욕 장중 -4% 패닉에서 V자 방어 + SOX -0.65% 진정 확인 ➔ 어제 폭락한 K-메모리(삼성·SK) 보유 유지 및 금통위 직후 눌림목 분할 매수",
-            "오늘(11/26) 미국 휴장 · 내일(11/27) 조기폐장(13:00 ET) 유동성 공백 감안해 레버리지 배제 · 현물 분할 원칙 유지"
+            "SOX +4.69%·마이크론 +7.60% 폭등 수혜로 월요일(11/30) 국내 K-메모리(삼성·SK) 갭상승 시 추격 매수 금지, 기존 보유 물량 수익 향유",
+            "12월 초 사이버먼데이·고용지표 및 FOMC(12/8~9) 앞두고 현금·미국채 20% 바벨 비중 규율 유지"
         ],
-        "sources": ["Yahoo Finance 실시간 ^DJI ({{LIVE:dow}}) / ^GSPC ({{LIVE:sp500}}) / ^IXIC ({{LIVE:nasdaq}}) / ^SOX ({{LIVE:sox}})", "Washington Post / Motley Fool / Kitco / WPTF (Nov 25 intraday recovery from -4% Nasdaq, 10Y yield 4.85%)"]
+        "sources": ["Yahoo Finance 실시간 ^DJI ({{LIVE:dow}}) / ^GSPC ({{LIVE:sp500}}) / ^IXIC ({{LIVE:nasdaq}}) / ^SOX ({{LIVE:sox}})", "LA Times / Forbes / BigGo / TradingKey (Nov 27 Black Friday close: S&P +1.60% weekly +5.6%, Nasdaq +2.31%, Dow +1.18%, Micron +7.60%, ANT +11%)"]
     },
     {
         "id": "agenda_02",
-        "asOfDate": "2026-11-26",
+        "asOfDate": "2026-11-28",
         "category": "macro",
         "categoryLabel": "거시경제 · 금리",
         "importance": "CRITICAL",
-        "deltaStatus": "REINFORCED",
-        "deltaLabel": "🟢 '뜨거운 PCE(3.3%)'에도 미 10년물 4.85%({{LIVE:us10y_chg}}) 급락! (실질 소비 -0.1% 둔화 + 안전자산 매수에 5%와 완전히 멀어지며 주식·금·채권 동시 구원!)",
-        "title": "[11/26] 근원 PCE 3.3% 쇼크에도 미 10년물 금리 '{{LIVE:us10y}}({{LIVE:us10y_chg}})' 하락: 채권시장이 꿰뚫어 본 '실질 소비 둔화'와 바벨 승리",
-        "subtitle": "명목 물가는 3년 최고치(3.3%)였으나 실질 PCE(-0.1%) 감소·베이지북 소비 정체에 채권 매수세 유입… 5%대 미국채 바벨 완벽 방어",
+        "deltaStatus": "CHALLENGED",
+        "deltaLabel": "🟡 미 10년물 국채금리 '{{LIVE:us10y}}({{LIVE:us10y_chg}})' 재반등 & 달러인덱스 {{LIVE:dxy}}({{LIVE:dxy_chg}}) '104' 돌파! (블프 온라인 $129억 역대 최대 소비 + 12월 FOMC 인상 경계 재점화!)",
+        "title": "[11/28 모닝] 미 10년물 금리 '{{LIVE:us10y}}({{LIVE:us10y_chg}})' 반등 · DXY '{{LIVE:dxy}}' 104 회복: 블프 역대급 소비가 다시 깨운 12월 FOMC 긴축 경계",
+        "subtitle": "이틀 전 4.85%까지 내려왔던 10년물 금리가 4.94%로 반등하며 5%선 재근접… 12/8~9 FOMC(+25bp) 앞두고 1배수 미국채 바벨 가치 재부각",
         "chartImage": "assets/charts/agenda_02.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "us10y",
             "title": "미국 10년물 국채금리(^TNX) 최근 10거래일 실시간 추이 ({{LIVE:us10y}})",
-            "subtitle": "실시간 API 연동 차트 · 11/25 근원 PCE 3.3% 발표에도 {{LIVE:us10y_chg}} 하락하며 {{LIVE:us10y}} 안착",
-            "labels": ["11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/23", "11/24", "11/25"],
-            "values": [5.00, 5.10, 5.08, 5.06, 5.04, 5.05, 5.02, 4.92, 4.90, 4.85],
+            "subtitle": "실시간 API 연동 차트 · 11/27 블프 리스크온·강한 소비 지표에 {{LIVE:us10y_chg}} 반등하며 {{LIVE:us10y}} 기록",
+            "labels": ["11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/24", "11/25", "11/26", "11/27"],
+            "values": [5.10, 5.08, 5.06, 5.04, 5.05, 5.02, 4.90, 4.85, 4.85, 4.94],
             "unit": "%",
-            "color": "#0284c7",
+            "color": "#f43f5e",
             "benchmark_val": 5.00,
-            "benchmark_label": "핵심 기준선 5.00%",
+            "benchmark_label": "핵심 경계선 5.00%",
             "badge_text": "LIVE {{LIVE:us10y}}"
         },
         "keyMetrics": [
-            {"label": "미 10년물 금리 (11/25 마감)", "value": "{{LIVE:us10y}} ({{LIVE:us10y_chg}})", "change": "1개월 변동 {{LIVE:us10y_1m}} · 11/12 고점(5.10%) 대비 -25bp 하락하며 확실한 하향 안정"},
-            {"label": "채권이 본 진짜 신호", "value": "실질 PCE -0.1% + 베이지북 둔화", "change": "10월 명목 PCE(+3.8%)/근원(+3.3%)은 높았으나 인플레 감안 실질 소비는 마이너스 전환"},
-            {"label": "바벨 포트폴리오 성과", "value": "주식 급락 방어 + 연 4.85% 이자", "change": "5% 부근에서 모아둔 1배수 미국채가 가격 상승 + 금({{LIVE:gold}}) 반등까지 견인"}
+            {"label": "미 10년물 금리 (11/27 마감)", "value": "{{LIVE:us10y}} ({{LIVE:us10y_chg}})", "change": "11/25 4.85%에서 +9bp 반등하며 5.00% 경계선 재접근(1개월 {{LIVE:us10y_1m}})"},
+            {"label": "달러인덱스 & 원/달러", "value": "DXY {{LIVE:dxy}} / 원달러 {{LIVE:usdkrw}}", "change": "DXY 104선 재돌파({{LIVE:dxy_chg}})에도 원/달러는 {{LIVE:usdkrw}} 강세 안정 — 달러 분할 환전 메리트 극대화"},
+            {"label": "금리 반등 배경", "value": "블프 소비 $129억(+9.2%) & FOMC", "change": "추수감사절·블프 소비 탄력 + 위험자산 랠리에 안전자산 채권 차익매물 출회"}
         ],
         "facts": [
-            "11월 25일(현지시간) 발표된 미국 10월 근원 PCE가 3년 만에 최고치인 **3.3% YoY**를 기록하며 장 초반 증시를 얼어붙게 만들었으나, 정작 가장 똑똑한 채권시장은 반대로 움직였습니다. **미 10년물 국채금리는 전일 ~4.91%에서 {{LIVE:us10y}}({{LIVE:us10y_chg}})로 하락**했습니다.",
-            "이유는 세부 지표에 있었습니다. 명목 소득(+0.7%)·명목 소비(+0.3%)와 달리 **물가를 제외한 실질 개인소비지출(Real PCE)이 소폭 마이너스(-0.1% 미만)로 꺾였고**, 오후 발표된 **연준 베이지북**에서도 미국 12개 연은 지역 전반의 소비 지출 정체와 가계 가격민감도 심화가 확인됐기 때문입니다.",
-            "미 10년물 금리가 5.10%에서 **{{LIVE:us10y}}**까지 -25bp 내려오며 채권 가격이 오르자, 기술주 낙폭이 대거 축소되고 **국제 금({{LIVE:gold}}, {{LIVE:gold_chg}})**도 즉각 $3,600 위로 복귀했습니다."
+            "11월 27일(현지시간) 블랙프라이데이 뉴욕 채권시장(오후 2시 ET 조기 폐장)에서 **미 10년물 국채금리는 {{LIVE:us10y_chg}} 반등한 {{LIVE:us10y}}**로 마감했습니다. 직전 거래일(4.85%) 대비 +9bp 오르며 다시 5.00% 경계선 턱밑으로 올라섰습니다.",
+            "채권금리 반등과 함께 **달러 인덱스(DXY)도 {{LIVE:dxy_chg}} 상승한 {{LIVE:dxy}}**로 104선을 회복했습니다. 어도비 애널리틱스 집계상 미국 추수감사절 온라인 소비가 $71억(+10.4% YoY), 블랙프라이데이 소비가 사상 최대 $129억(+9.2% YoY)에 육박하는 강한 명목 소비가 확인되면서, **12월 8~9일 FOMC 25bp 인상 및 '고금리 장기화'** 경계가 다시 살아난 영향입니다.",
+            "눈여겨볼 대목은 **글로벌 달러(DXY 104.01)가 강해지고 미 10년물 금리가 {{LIVE:us10y}}로 뛰었는데도 원/달러 환율은 {{LIVE:usdkrw}}({{LIVE:usdkrw_chg}})에 머물러 있다**는 점입니다. 한국 투자자 입장에서는 1,333원대 싼 환율로 연 4.94% 고금리 1배수 미국채·단기채를 확보할 수 있는 최적의 창구입니다."
         ],
-        "previousImplication": "5% 아래 안착한 미국채 1배수 바벨이 증시 폭락장의 핵심 방패 역할을 수행 중임 (11/23).",
-        "newCatalyst": "근원 PCE 3.3% 발표에도 실질 PCE(-0.1%) 둔화·베이지북 확인 속 미 10년물 금리가 4.85%({{LIVE:us10y_chg}})로 추가 하락.",
-        "updatedImplication": "채권시장이 **'연준의 12월 25bp 인상이 긴축 사이클의 막바지일 수 있다'**는 신호를 금리 4.85%로 보여주고 있음. 1배수 미국채·단기채 20~30% 바벨 보유 전략을 유지하면서, 금리 안정 수혜를 입는 **우량 성장주·KRX 금현물** 비중을 침착히 지켜나가야 함.",
+        "previousImplication": "11/25 실질 PCE(-0.1%) 둔화로 미 10년물 금리가 4.85%까지 내려오며 증시·금의 구원투수 역할을 수행함 (11/26).",
+        "newCatalyst": "11/27 블프 리스크온과 역대급 소비($129억)에 미 10년물 금리 {{LIVE:us10y}}({{LIVE:us10y_chg}}) 반등 · DXY {{LIVE:dxy}}(104 회복).",
+        "updatedImplication": "12월 FOMC(12/8~9) 전까지는 **미 10년물 금리가 4.85%~5.05% 박스권에서 등락하며 증시 상단을 수시로 시험**할 것임. 따라서 **레버리지 장기채(TMF)는 여전히 배제**하되, **1,330원대 원/달러({{LIVE:usdkrw}})에서 연 {{LIVE:us10y}} 이자를 주는 1배수 미국채·단기채(SGOV/BIL) 바벨 20~30%**를 탄탄히 유지하는 전략이 최강임.",
         "implicationHistory": [
-            {"time": "11/23 18:00", "text": "🟢 미 10년물 4.91% 안착 확인 · 증시 폭락장 속 국채 헤지 완벽 작동"},
-            {"time": "11/26 08:00", "text": "🟢 근원 PCE 3.3%에도 실질소비(-0.1%) 둔화에 미 10년물 {{LIVE:us10y}}({{LIVE:us10y_chg}}) 추가 하락! 증시·금 구원"}
+            {"time": "11/26 08:00", "text": "🟢 근원 PCE 3.3%에도 실질소비(-0.1%) 둔화에 미 10년물 4.85% 추가 하락! 증시·금 구원"},
+            {"time": "11/28 08:00", "text": "🟡 블프 역대급 소비·리스크온에 미 10년물 {{LIVE:us10y}}({{LIVE:us10y_chg}}) 재반등 · DXY {{LIVE:dxy}} 104 회복!"}
         ],
         "actionPoints": [
-            "1배수 미국채·초단기채(SGOV/BIL) 바벨 20~30% 유지(3배 레버리지 TMF는 여전히 배제)",
-            "미 10년물 4.85% 하향 안정에 힘입어 오늘(11/26) 한은 금통위 변동성 시 국내 우량주·KRX 금현물 분할 리밸런싱 활용"
+            "원/달러 {{LIVE:usdkrw}} 강세 구간을 활용해 연 {{LIVE:us10y}} 고금리 1배수 미국채·초단기채(SGOV) 바벨 20~30% 분할 유지",
+            "12/8~9 FOMC(+25bp) 및 12/17~18 일본 BOJ 연쇄 회의 전까지 3배 레버리지 채권·기술주 진입 금지"
         ],
-        "sources": ["Yahoo Finance 실시간 ^TNX ({{LIVE:us10y}})", "BEA / Federal Reserve Beige Book / WPTF (Real PCE -0.1%, 10Y Treasury yield falls to 4.85%)"]
+        "sources": ["Yahoo Finance 실시간 ^TNX ({{LIVE:us10y}}) & DX-Y.NYB ({{LIVE:dxy}})", "Adobe Analytics / TradingEconomics (Nov 27 Black Friday $12.9B online sales +9.2%, 10Y yield rebounds to 4.94%)"]
     },
     {
         "id": "agenda_03",
@@ -247,50 +247,50 @@ AGENDAS_PART1 = [
     # ==========================================
     {
         "id": "agenda_06",
-        "asOfDate": "2026-11-26",
+        "asOfDate": "2026-11-28",
         "category": "tech",
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "CRITICAL",
-        "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🔴 엔비디아 $150 붕괴! '1Q×4 PER 13.78배' 극단 저평가 진입 (NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) · 1개월 {{LIVE:nvda_1m}}! 4Q PER {{LIVE:nvda_per4q}} · 1Q×4 {{LIVE:nvda_per1qx4}}!)",
-        "title": "[11/26] 엔비디아 $150 이탈({{LIVE:nvda}}, {{LIVE:nvda_chg}}): 1개월 {{LIVE:nvda_1m}} 조정으로 1Q×4 PER '{{LIVE:nvda_per1qx4}}' 13배대 진입!",
-        "subtitle": "트럼프 14개국 301조 관세·델(-7%) 약세에 이틀 연속 숨 고르기… Q3 매출 $115.8B(+103%)·베라 루빈 양산 가속 대비 역사적 저평가 구간",
+        "deltaStatus": "MAINTAINED",
+        "deltaLabel": "🟡 엔비디아 '$150 탈환'({{LIVE:nvda}}, {{LIVE:nvda_chg}}) vs SOX +4.69% 대비 상대 부진! (미 BIS 동남아 4국 AI 서버 출하 중단 명령·국가안보위 신설 여파 · 여전히 1Q×4 PER {{LIVE:nvda_per1qx4}} 초저평가!)",
+        "title": "[11/28 모닝] 엔비디아 $150 회복({{LIVE:nvda}}, {{LIVE:nvda_chg}})에도 SOX(+4.69%) 대비 소외된 이유: 동남아 4국 AI 서버 출하 중단 & BIS 우회 차단",
+        "subtitle": "델·슈퍼마이크로에 말레이·싱가포르·태국·인니 AI 서버 배송 일시 중단 지시… Q3 매출 $115.8B(+103%) · 1Q×4 PER {{LIVE:nvda_per1qx4}}(13배대) 저평가 재점검",
         "chartImage": "assets/charts/agenda_06.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "nvda",
             "title": "엔비디아(NVDA) 최근 10거래일 실시간 주가 추이 ({{LIVE:nvda}})",
-            "subtitle": "실시간 API 연동 차트 · 11/25 {{LIVE:nvda_chg}} 추가 조정으로 $150 하회(4Q PER {{LIVE:nvda_per4q}} · 1Q×4 {{LIVE:nvda_per1qx4}})",
-            "labels": ["11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/23", "11/24", "11/25"],
-            "values": [170.5, 166.2, 162.0, 158.0, 155.0, 151.0, 146.0, 165.05, 155.38, 149.30],
+            "subtitle": "실시간 API 연동 차트 · 11/27 동남아 서버 출하 중단 여파로 {{LIVE:nvda_chg}} 소폭 반등하며 {{LIVE:nvda}} 마감(1Q×4 {{LIVE:nvda_per1qx4}})",
+            "labels": ["11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/24", "11/25", "11/26", "11/27"],
+            "values": [166.2, 162.0, 158.0, 155.0, 151.0, 146.0, 155.38, 149.30, 149.30, 150.49],
             "unit": "$",
             "color": "#22c55e",
             "benchmark_val": 150.0,
-            "benchmark_label": "핵심 지지선 $150",
+            "benchmark_label": "재탈환 지지선 $150",
             "badge_text": "LIVE {{LIVE:nvda}}"
         },
         "keyMetrics": [
-            {"label": "엔비디아 주가 (11/25 마감)", "value": "{{LIVE:nvda}} ({{LIVE:nvda_chg}})", "change": "1개월 {{LIVE:nvda_1m}} 하락 · 11/23 +31.5%($165.05) 폭등 이후 이틀간 차익매물 소화"},
-            {"label": "실시간 분기 PER (시세보드)", "value": "4Q {{LIVE:nvda_per4q}} / 1Q×4 {{LIVE:nvda_per1qx4}}", "change": "1Q×4 PER 13배대! 매출 +103% 성장하는 글로벌 AI 1등주로서 이례적 극단 저평가"},
-            {"label": "공급망·실적 동향", "value": "SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 진정", "change": "TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) · AMD {{LIVE:amd}}({{LIVE:amd_chg}}) · 구글 {{LIVE:google}}({{LIVE:google_chg}})"}
+            {"label": "엔비디아 주가 (11/27 마감)", "value": "{{LIVE:nvda}} ({{LIVE:nvda_chg}})", "change": "프리마켓 +4% 상승폭 반납 후 $150선 사수 — SOX +4.69%·AMD +4.56%·MU +7.60% 대비 소외"},
+            {"label": "상대 부진 직접 원인", "value": "동남아 4국 AI 서버 출하 중단", "change": "미 상무부 BIS 원격접속·90일 라이선스 강화(메가스피드 조사) ➔ 말레이·싱가포르·태국·인니 배송 정지"},
+            {"label": "실시간 분기 PER (시세보드)", "value": "4Q {{LIVE:nvda_per4q}} / 1Q×4 {{LIVE:nvda_per1qx4}}", "change": "Q3 매출 $115.8B(+103%)·베라 루빈 NVL72 폭증에도 1Q×4 PER 13배대 극단 저평가 지속"}
         ],
         "facts": [
-            "11월 25일(현지시간) 뉴욕 정규장에서 **엔비디아(NVDA)는 {{LIVE:nvda_chg}} 하락한 {{LIVE:nvda}}**로 마감하며 $150 선을 소폭 밑돌았습니다. 트럼프 행정부의 14개국 301조 관세 발표와 델(DELL)의 호실적에도 불구하고 -7% 급락한 AI 하드웨어 투심 위축이 겹친 결과입니다.",
-            "다만 장 초반 프리마켓 -5%대 투매 대비 정규장 후반 낙폭을 줄였고, **필라델피아 반도체(SOX) 지수도 {{LIVE:sox_chg}}({{LIVE:sox}})**로 전일(-7.88%) 대비 급격히 진정됐습니다.",
-            "무엇보다 우측 실시간 시세보드의 펀더멘털 숫자가 압도적입니다. 현재 $149대 주가 기준 엔비디아의 **최근 4분기 PER은 {{LIVE:nvda_per4q}}, 최근 1분기×4 PER은 {{LIVE:nvda_per1qx4}}(13배대!)**까지 추락해, 연 100% 성장하는 AI 독점 기업을 시장 평균 이하 멀티플에 살 수 있는 구간에 진입했습니다."
+            "11월 27일(현지시간) 블랙프라이데이 뉴욕 장에서 필라델피아 반도체(SOX {{LIVE:sox_chg}})와 마이크론(+7.60%)·AMD({{LIVE:amd_chg}})가 폭등한 반면, **엔비디아(NVDA)는 장 초반 +4%대 강세를 반납하고 {{LIVE:nvda_chg}} 오른 {{LIVE:nvda}}**로 $150 선을 가까스로 회복하는 데 그쳤습니다.",
+            "엔비디아 주가의 발목을 잡은 핵심 악재는 **동남아시아 4개국(말레이시아·싱가포르·태국·인도네시아)행 AI 서버 출하 중단 지시**였습니다. 미 상무부 산업안보국(BIS)이 싱가포르 클라우드 기업 '메가스피드(Megaspeed)' 등의 대중국 원격 연산 우회(Transshipment) 경로를 원천 차단하며 **90일 내 최종사용자(End-user) 라이선스 증빙을 의무화**하자, 엔비디아가 델·슈퍼마이크로 등 파트너사에 일시 배송 중단을 통보한 것입니다(TrendForce·TechRepublic).",
+            "아울러 젠슨 황 CEO 복귀 직후 이사회가 **'국가안보 및 수출통제 감독위원회'**를 신설하며 내부 컴플라이언스 고삐를 죄고 있습니다. 다만 동남아 물량은 글로벌 하이퍼스케일러(미국·유럽·우주 스타마인드)의 베라 루빈 NVL72 대기 수요로 즉각 흡수될 구조이며, 현재 **최근 1분기×4 PER {{LIVE:nvda_per1qx4}}(13배대)**는 이미 수출통제 노이즈를 과도하게 반영한 수준입니다."
         ],
-        "previousImplication": "11/24 첫 눌림목($155) 확인 후 PCE 변동성을 활용한 분할 매수 개시를 권고함 (11/25).",
-        "newCatalyst": "11/25 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) $150 소폭 하회 ➔ 1Q×4 PER {{LIVE:nvda_per1qx4}}(13배대) 진입 & 미 10년물 4.85% 하락.",
-        "updatedImplication": "단기 변동성(젠슨 황 의회 청문회·301조 관세)은 남아 있으나, **1Q×4 PER 13배대({{LIVE:nvda_per1qx4}})와 미 10년물 4.85% 하락**은 중장기 투자자에게 거부하기 힘든 가격대임. 추수감사절 연휴 이후 12월을 겨냥해 **$145~$150 구간 분할 매집**을 차분히 이어가야 함.",
+        "previousImplication": "11/25 $150 이탈 구간을 1Q×4 PER 13배대 초저평가 분할 매집 구간으로 평가함 (11/26).",
+        "newCatalyst": "미 BIS 원격접속·동남아 4국(말레이·싱가포르·태국·인니) AI 서버 출하 중단 명령으로 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) 상대 소외.",
+        "updatedImplication": "동남아 우회 물량 차단은 단기 매출 이연 노이즈일 뿐, 미국·유럽·중동 국부펀드·스타마인드의 베라 루빈 대기 수요가 넘쳐남. **SOX +4.69% 급등장에서 홀로 $150(1Q×4 PER {{LIVE:nvda_per1qx4}})에 묶인 엔비디아**는 단기 추격 부담이 가장 적은 역발상 분할 매집 기회임(TSMC·K-메모리 동반 보유 병행).",
         "implicationHistory": [
-            {"time": "11/25 08:00", "text": "🟡 NVDA $155.38(-5.86%) 차익매물 소화 · 1Q×4 PER 14.34배"},
-            {"time": "11/26 08:00", "text": "🔴 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) $150 하회 · 1Q×4 PER {{LIVE:nvda_per1qx4}}(13배대) 초저평가 분할 매집 구간 진입!"}
+            {"time": "11/26 08:00", "text": "🔴 NVDA $149.30(-3.91%) $150 하회 · 1Q×4 PER 13.78배 초저평가 구간 진입"},
+            {"time": "11/28 08:00", "text": "🟡 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}) $150 회복했으나 BIS 동남아 4국 서버 출하 중단으로 SOX(+4.69%) 대비 소외"}
         ],
         "actionPoints": [
-            "엔비디아 $145~$150 구간(1Q×4 PER {{LIVE:nvda_per1qx4}})에서 레버리지 없이 현물 분할 매집 지속",
-            "11/27(금) 미국 조기폐장 장세 및 젠슨 황 상원 은행위 청문회 일정·301조 반도체 세부 품목 확인"
+            "동남아 90일 라이선스 심사로 눌린 엔비디아 $150 부근(1Q×4 PER {{LIVE:nvda_per1qx4}}) 현물 분할 매집 지속",
+            "단일 기업 수출통제 노이즈 분산 차원에서 TSMC({{LIVE:tsm}})·구글({{LIVE:google}})·K-메모리(삼성·SK) 4분산 코어 유지"
         ],
-        "sources": ["Yahoo Finance / CNBC 실시간 NVDA ({{LIVE:nvda}})", "Washington Post / Motley Fool (Nov 25 NVDA $149.30 -3.91%, SOX -0.65% stabilization)"]
+        "sources": ["Yahoo Finance / CNBC 실시간 NVDA ({{LIVE:nvda}})", "TrendForce / TechRepublic / The Guardian / NVIDIA Official (Nov 27 Southeast Asia AI server halt to MY/SG/TH/ID under BIS 90-day license rule, National Security & Export Control Oversight Committee)"]
     },
     {
         "id": "agenda_07",
@@ -341,50 +341,50 @@ AGENDAS_PART1 = [
     },
     {
         "id": "agenda_08",
-        "asOfDate": "2026-11-27",
+        "asOfDate": "2026-11-28",
         "category": "tech",
         "categoryLabel": "반도체 · AI 빅테크",
         "importance": "CRITICAL",
-        "deltaStatus": "NEW",
-        "deltaLabel": "🆕 TSMC, 수십 년 '엄격 중립' 관행 깨고 앤트로픽 $5억(오픈AI $5억 별도) 직접 지분 투자! (TSM {{LIVE:tsm}} · 1Q×4 PER {{LIVE:tsm_per1qx4}}! AI 순환금융 & AI 자체 칩설계 시대 개막!)",
-        "title": "[11/27] TSMC 사상 첫 '중립 파운드리 관행' 깨고 앤트로픽·오픈AI 각 $5억 지분 동맹: 1Q×4 PER {{LIVE:tsm_per1qx4}} & AI 순환금융 해부",
-        "subtitle": "앤트로픽 $260억 사모에 구글·NVDA 각 $100억 · AMD $25억 · MS/AVGO/마이크론 각 $10억 · TSMC $5억 총출동… AI 모델의 자체 칩설계 확산 수혜",
+        "deltaStatus": "REINFORCED",
+        "deltaLabel": "🟢 TSMC '$353' 탈환({{LIVE:tsm}}, {{LIVE:tsm_chg}}) & 'AI 디자인 키트(ADK · 설계효율 5배)' · 'A14(1.4나노) 고객 설계 개방' 동시 출격! (1Q×4 PER {{LIVE:tsm_per1qx4}} · 앤트로픽/오픈AI 지분동맹 시너지!)",
+        "title": "[11/28 모닝] TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) $350 돌파! 'AI 디자인 키트(ADK · 칩개발 12개월 단축)' & 1.4나노(A14) 설계 개방으로 파운드리 초격차 굳히기",
+        "subtitle": "전날 앤트로픽·오픈AI 각 $5억 지분 동맹에 이어 파운드리 독점 데이터를 AI EDA에 직결… 미 BIS 제3국 OSAT 우회 규제 강화도 TSMC 독점력 강화",
         "chartImage": "assets/charts/agenda_08.svg",
         "chartConfig": {
             "type": "line",
             "liveChartSymbol": "tsm",
             "title": "TSMC(TSM) 최근 10거래일 실시간 주가 추이 ({{LIVE:tsm}})",
-            "subtitle": "실시간 API 연동 차트 · 4Q PER {{LIVE:tsm_per4q}}, 1Q×4 PER {{LIVE:tsm_per1qx4}} · 앤트로픽·오픈AI 각 $5억 지분 동맹 체결",
-            "labels": ["11/11", "11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/23", "11/24", "11/25"],
-            "values": [378.0, 375.0, 368.0, 362.0, 358.0, 355.0, 352.0, 363.60, 349.20, 342.34],
+            "subtitle": "실시간 API 연동 차트 · 11/27 {{LIVE:tsm_chg}} 급등하며 $350 돌파({{LIVE:tsm}}, 1Q×4 {{LIVE:tsm_per1qx4}})",
+            "labels": ["11/12", "11/13", "11/16", "11/17", "11/18", "11/19", "11/24", "11/25", "11/26", "11/27"],
+            "values": [375.0, 368.0, 362.0, 358.0, 355.0, 352.0, 349.20, 342.34, 342.34, 353.34],
             "unit": "$",
             "color": "#06b6d4",
             "benchmark_val": 350.0,
-            "benchmark_label": "핵심 분기선 $350",
+            "benchmark_label": "재돌파 기준선 $350",
             "badge_text": "LIVE {{LIVE:tsm}}"
         },
         "keyMetrics": [
-            {"label": "TSMC 주가 & 분기 PER", "value": "{{LIVE:tsm}} / 1Q×4 {{LIVE:tsm_per1qx4}}", "change": "4Q PER {{LIVE:tsm_per4q}} · 1Q×4 19배대 진입 — 유럽 ASML·인피니언 +4~5% 급등으로 투심 회복"},
-            {"label": "TSMC 역사적 전략 전환", "value": "앤트로픽 $5억 + 오픈AI $5억 지분", "change": "수십 년간 고객사 지분을 사지 않던 순수 중립 원칙 수정 — 프런티어 AI 연구소와 웨이퍼 직결 동맹"},
-            {"label": "AI 자체 칩설계 확산", "value": "오픈AI·구글·앤트로픽 AI 칩설계", "change": "오픈AI AI 회로 축소·AMD 협업 가속 ➔ 커스텀 칩이 늘수록 최종 제조 독점 TSMC 수혜 극대화"}
+            {"label": "TSMC 주가 & 분기 PER", "value": "{{LIVE:tsm}} ({{LIVE:tsm_chg}})", "change": "4Q PER {{LIVE:tsm_per4q}} · 1Q×4 PER {{LIVE:tsm_per1qx4}} — 단숨에 $350 돌파하며 19배대 견조한 저평가"},
+            {"label": "AI 디자인 키트(ADK) & A14", "value": "설계효율 5배↑ · 개발기간 12개월", "change": "TSMC 공정 지식을 AI EDA에 직결(ADK) + 차세대 A14(1.4나노급) 초기 고객 칩 설계 공식 개방!"},
+            {"label": "지분동맹 · BIS 규제 수혜", "value": "앤트로픽/오픈AI 각 $5억 + OSAT 통제", "change": "미 상무부 BIS의 제3국 패스트트랙 OSAT 규제 강화 속 선단 패키징·공정 통행세 지위 절대화"}
         ],
         "facts": [
-            "글로벌 파운드리 절대 강자 **TSMC**가 수십 년간 고수해 온 '고객사에 지분 투자하지 않는 엄격한 중립 원칙'을 역사상 처음으로 수정했습니다. 앤트로픽(ANT)의 $260억 사모 증자에서 **TSMC 파트너스가 $5억을 투자**했고, 별도로 **오픈AI에도 $5억 지분 배정**을 승인했습니다(Korea IT Times·VLSI).",
-            "앤트로픽 $260억 비의결권 사모(Class N)에는 **구글($100억)·엔비디아($100억)·AMD($25억)·MS/브로드컴/마이크론(각 $10억)·TSMC($5억)**가 전원 참여해 월가에서 'AI 순환금융(Circular Financing)' 논쟁을 불러일으켰으나, TSMC 입장에서는 최상위 AI 모델 연구소 두 곳 모두의 차세대 2나노·CoWoS 물량을 선점하는 절묘한 포석입니다.",
-            "더욱이 비즈니스인사이더 보도처럼 오픈AI·앤트로픽·구글이 **AI 모델로 직접 차세대 커스텀 칩 회로를 설계(오픈AI-AMD 협업 등)**하는 시대가 열릴수록, 엔비디아 단일 의존도는 분산되는 반면 모든 커스텀 칩을 최종 양산하는 **TSMC(1Q×4 PER {{LIVE:tsm_per1qx4}})**의 독점 통행세 지위는 한층 강화됩니다."
+            "11월 27일(현지시간) 블랙프라이데이 뉴욕 장에서 **TSMC(TSM)가 {{LIVE:tsm_chg}} 급등한 {{LIVE:tsm}}**로 마감하며 $350 저항선을 단숨에 뚫고 올라섰습니다. 최근 1분기×4 PER은 **{{LIVE:tsm_per1qx4}}**(4Q **{{LIVE:tsm_per4q}}**)로 글로벌 선단 파운드리 독점 프리미엄 대비 여전히 합리적입니다.",
+            "주가 급반등에 불을 붙인 기술 호재는 TSMC가 공식 출격시킨 **'AI 디자인 키트(ADK)'와 'A14(1.4나노급) 초기 설계 개방'**입니다. ADK는 TSMC 고유의 선단 공정 데이터를 AI 기반 전자설계자동화(EDA)에 직접 연결하는 '기술 지식 계층'으로, **디지털 칩 설계 효율을 최대 5배 끌어올리고 차세대 AI 칩 개발 주기를 12개월 수준으로 단축**시킵니다(CryptoBriefing·DigiTimes).",
+            "여기에 어제 확인된 **앤트로픽·오픈AI 각 $5억 지분 동맹**과 미 상무부 BIS의 **제3국 우회 OSAT(후공정) 규제 강화**까지 맞물리며, 커스텀 AI 칩(구글·오픈AI·앤트로픽)과 GPU(엔비디아·AMD) 어느 진영이 이기든 최종 제조·패키징 이익은 TSMC로 수렴하는 독점 해자가 완벽히 굳어졌습니다."
         ],
-        "previousImplication": "SOX 조정으로 TSMC 1Q×4 PER이 19배대로 내려와 글로벌 반도체 1순위 코어 분할 편입 구간으로 평가함 (11/25).",
-        "newCatalyst": "TSMC 사상 첫 고객사 지분 투자(앤트로픽 $5억 · 오픈AI $5억) 및 AI 자체 커스텀 칩 설계 확산 확인.",
-        "updatedImplication": "AI 순환금융 거품 논란으로 적자 모델주(ANT {{LIVE:anthropic}})는 흔들리지만, **양대 모델 연구소(앤트로픽·오픈AI)와 빅테크(구글·엔비디아·AMD) 모두에게 웨이퍼와 CoWoS를 공급하는 TSMC(1Q×4 PER {{LIVE:tsm_per1qx4}})**는 커스텀 칩 전쟁의 영원한 최종 승자임. 오늘 밤 블랙프라이데이 장세에서도 $340~$350 구간 핵심 보유·분할 전략을 굳건히 유지해야 함.",
+        "previousImplication": "TSMC가 앤트로픽·오픈AI 각 $5억 지분 동맹으로 AI 자체 칩설계 시대의 최종 승자로 부각됨 (11/27).",
+        "newCatalyst": "TSMC AI 디자인 키트(ADK · 설계효율 5배↑) 공식 출시 · A14(1.4나노) 고객 설계 개방 및 11/27 {{LIVE:tsm}}({{LIVE:tsm_chg}}) $350 돌파.",
+        "updatedImplication": "엔비디아가 동남아 서버 출하 중단 노이즈로 +0.80%에 그친 날, **TSMC는 ADK·A14 기술 초격차로 +3.21%($353.34) 돌파**하며 '중립 파운드리 최상위 코어' 위상을 증명함! **1Q×4 PER {{LIVE:tsm_per1qx4}}**는 중장기 AI 인프라의 가장 안전한 핵심 축이므로 흔들림 없이 보유해야 함.",
         "implicationHistory": [
-            {"time": "11/25 08:00", "text": "🟢 SOX -7.88% 속 TSMC $349.20 방어 & 1Q×4 PER 19배대 매력 구간 재진입"},
-            {"time": "11/27 08:00", "text": "🆕 TSMC 사상 첫 중립 관행 깨고 앤트로픽·오픈AI 각 $5억 지분 동맹! AI 자체 칩설계 확산 최종 승자"}
+            {"time": "11/27 08:00", "text": "🆕 TSMC 사상 첫 중립 관행 깨고 앤트로픽·오픈AI 각 $5억 지분 동맹! AI 자체 칩설계 확산 최종 승자"},
+            {"time": "11/28 08:00", "text": "🟢 TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) $350 돌파! AI 디자인 키트(ADK · 5배 효율) & A14(1.4나노) 설계 개방!"}
         ],
         "actionPoints": [
-            "글로벌 AI 반도체 포트폴리오 최상위 중립 코어로 TSMC({{LIVE:tsm}}, 1Q×4 {{LIVE:tsm_per1qx4}}) 지속 보유",
-            "AI 순환금융 논란 취약주(적자 모델주 ANT) 배제, 확정 현금흐름 파운드리·메모리 집중 유지"
+            "글로벌 AI 반도체 포트폴리오 최상위 중립 코어로 TSMC({{LIVE:tsm}}, 1Q×4 {{LIVE:tsm_per1qx4}}) 핵심 보유 유지",
+            "TSMC ADK 수혜 EDA 소프트웨어(시놉시스·케이던스) 및 선단 패키징 장비주 중장기 연동 관찰"
         ],
-        "sources": ["Yahoo Finance / CNBC 실시간 TSM ({{LIVE:tsm}})", "Business Insider / TechCrunch / Korea IT Times / TokyoBrief (TSMC $500M Anthropic & OpenAI stakes, AI-assisted chip design)"]
+        "sources": ["Yahoo Finance / CNBC 실시간 TSM ({{LIVE:tsm}})", "CryptoBriefing / DigiTimes / ETNews (TSMC AI Design Kit ADK up to 5x efficiency, A14 early design readiness, BIS third-country OSAT tightening)"]
     },
     {
         "id": "agenda_09",

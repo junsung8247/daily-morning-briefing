@@ -1436,38 +1436,38 @@ AGENDAS_EXTRA = [
         "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🔴 미 산유량 '5주 연속 사상최대(1,406.5만 bpd)'에도 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) $84 급등! (호르무즈 봉쇄 갈등 + 뤼터 NATO 총장-트럼프 마러라고 정상회동!)",
-        "title": "[11/26 모닝·속보 73] 미 산유량 사상최대(1,406.5만 bpd) 뚫고 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 급등 & 뤼터-트럼프 마러라고 담판 해부",
-        "subtitle": "EIA 원유재고 +110만 배럴 증가에도 호르무즈 해상 대치·이란 강경파 반발에 유가 $84대 반등… 구리도 {{LIVE:copper}}({{LIVE:copper_chg}}) 반등!",
+        "deltaLabel": "🔴 11/25 미 산유량 '5주 연속 사상최대(1,406.5만 bpd)'에도 WTI $84대 급등(현재 {{LIVE:wti}})! (호르무즈 봉쇄 갈등 + 뤼터 NATO 총장-트럼프 마러라고 정상회동!)",
+        "title": "[11/26 모닝·속보 73] 미 산유량 사상최대(1,406.5만 bpd) 뚫고 11/25 WTI $84대 급등(현재 {{LIVE:wti}}) & 뤼터-트럼프 마러라고 담판 해부",
+        "subtitle": "EIA 원유재고 +110만 배럴 증가에도 호르무즈 해상 대치·이란 강경파 반발에 유가 $84대 반등… 구리도 {{LIVE:copper}}({{LIVE:copper_chg}}) 강세!",
         "chartImage": "assets/charts/agenda_73.svg",
         "chartConfig": {
             "type": "infographic",
-            "title": "11/26 글로벌 에너지·안보 4대 충돌 구도 (미 산유량 역대최대 vs WTI $84 급등 · 마러라고 NATO 회동)",
+            "title": "11/26 글로벌 에너지·안보 4대 충돌 구도 (미 산유량 역대최대 vs 11/25 WTI $84 반등 · 마러라고 NATO 회동)",
             "subtitle": "공급 과잉(미 산유량 1,406.5만 bpd)과 지정학 위험(호르무즈 봉쇄 · 우크라 사바슬레이카 타격)이 정면 충돌",
-            "center_label": "WTI {{LIVE:wti}} 급등 &\n마러라고 안보 담판",
-            "badge_text": "OIL $84 · NATO",
+            "center_label": "WTI {{LIVE:wti}} 변동 &\n마러라고 안보 담판",
+            "badge_text": "OIL · NATO",
             "nodes": [
-                {"title": "WTI $84대 급반등", "metric": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "desc": "호르무즈 미 해군 봉쇄 장기화·이란 강경파 도발 논의 및 이스라엘 대이란 군사 압박에 급등", "color": "#e11d48"},
+                {"title": "11/25 WTI $84대 급반등", "metric": "현재 {{LIVE:wti}} ({{LIVE:wti_chg}})", "desc": "호르무즈 미 해군 봉쇄 장기화·이란 강경파 도발 논의 및 이스라엘 대이란 군사 압박에 당시 $84대 반등", "color": "#e11d48"},
                 {"title": "미 산유량 5주 연속 신기록", "metric": "1,406.5만 bpd (+110만 재고)", "desc": "EIA 집계: 미 원유재고 +110만 배럴(4.189억)·산유량 일 1,406.5만 배럴 사상 최고치 경신!", "color": "#059669"},
                 {"title": "뤼터-트럼프 마러라고 담판", "metric": "우크라 지원 · 유럽 자강", "desc": "트럼프 '평화협정 전 5조식 안보보장 거리두기' 속 뤼터 총장 유럽 방위·대우크라 지원 조율", "color": "#0284c7"},
-                {"title": "구리 {{LIVE:copper}} 반등 전환", "metric": "일간 {{LIVE:copper_chg}} · 바닥 탈출", "desc": "13개월 저점($5.25~5.35) 터치 후 미 10년물·달러 하락과 함께 $5.48({{LIVE:copper_chg}}) 반등", "color": "#d97706"}
+                {"title": "구리 {{LIVE:copper}} 반등 전환", "metric": "일간 {{LIVE:copper_chg}} · 바닥 탈출", "desc": "13개월 저점($5.25~5.35) 터치 후 미 10년물·달러 안정과 함께 {{LIVE:copper}}({{LIVE:copper_chg}}) 반등", "color": "#d97706"}
             ]
         },
         "keyMetrics": [
-            {"label": "WTI 원유 (실시간)", "value": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "change": "1개월 {{LIVE:wti_1m}} 하락권이나 호르무즈 해상 봉쇄 대치에 단기 $84대 급반등"},
+            {"label": "WTI 원유 (실시간)", "value": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "change": "1개월 {{LIVE:wti_1m}} 하락권 · 11/25 호르무즈 해상 봉쇄 대치에 단기 $84대 급반등 연출"},
             {"label": "EIA 주간 미국 원유 통계", "value": "재고 +110만 · 산유량 1,406.5만 bpd", "change": "미국 원유 생산 5주 연속 역대 최고 기록 경신 — $90+ 장기 급등 막는 강력한 상단 캡"},
             {"label": "마러라고 NATO · 우크라 전선", "value": "뤼터-트럼프 회동 · 사바슬레이카 타격", "change": "독일 메르츠 '러 야심 우크라 넘어선다' 경고 · 우크라 러 본토 사바슬레이카 공군기지 타격"}
         ],
         "facts": [
-            "11월 25일(현지시간) 에너지 시장에서는 **사상 최대 미국 공급 vs 호르무즈 봉쇄 긴장**이 정면으로 맞붙었습니다. 미 에너지정보청(EIA)이 주간 원유재고 **+110만 배럴 증가(4억 1,890만 배럴)**와 **미국 원유 생산량 일 1,406.5만 배럴(5주 연속 사상 최고 기록!)**을 발표했음에도, 이란 강경파의 호르무즈 미 해군 봉쇄 반발과 이스라엘의 대이란 군사 압박 소식에 **WTI 원유는 {{LIVE:wti_chg}} 급등한 {{LIVE:wti}}**까지 치솟았습니다.",
+            "11월 25일(현지시간) 에너지 시장에서는 **사상 최대 미국 공급 vs 호르무즈 봉쇄 긴장**이 정면으로 맞붙었습니다. 미 에너지정보청(EIA)이 주간 원유재고 **+110만 배럴 증가(4억 1,890만 배럴)**와 **미국 원유 생산량 일 1,406.5만 배럴(5주 연속 사상 최고 기록!)**을 발표했음에도, 이란 강경파의 호르무즈 미 해군 봉쇄 반발과 이스라엘의 대이란 군사 압박 소식에 **11/25 당시 WTI 원유는 $84.15까지 치솟았습니다(현재 {{LIVE:wti}})**.",
             "동시에 플로리다 마러라고에서 **마크 뤼터 NATO 사무총장과 트럼프 대통령의 비공개 안보 회동**이 열렸습니다. 트럼프 대통령이 '확정적 평화협정 전까지 우크라이나에 대한 NATO 5조식 안전보장에는 선을 긋는' 기조를 보이자, 유럽 각국은 자체 방위력 확충에 비상이 걸렸습니다(EU Today·The Guardian).",
-            "전선에서는 우크라이나가 러시아 본토 **사바슬레이카(Savasleyka) 공군기지**를 타격했고, 독일 메르츠 등 유럽 지도자들은 러시아의 야심이 우크라이나를 넘어선다고 경고하며 폴란드의 영공 사전 요격 논의가 급물살을 탔습니다. 한편 구리 선물은 13개월 저점에서 미 달러 하락과 함께 **{{LIVE:copper}}({{LIVE:copper_chg}})**로 반등했습니다."
+            "전선에서는 우크라이나가 러시아 본토 **사바슬레이카(Savasleyka) 공군기지**를 타격했고, 독일 메르츠 등 유럽 지도자들은 러시아의 야심이 우크라이나를 넘어선다고 경고하며 폴란드의 영공 사전 요격 논의가 급물살을 탔습니다. 한편 구리 선물은 13개월 저점에서 반등해 현재 **{{LIVE:copper}}({{LIVE:copper_chg}})**를 기록 중입니다."
         ],
         "previousImplication": "리야드 피격·호르무즈 통행료·사마라 정유소 타격으로 중동·유럽 방공망 수요가 폭증 중임 (11/25).",
-        "newCatalyst": "EIA 미국 산유량 1,406.5만 bpd 역대 최고에도 호르무즈 대치로 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 급등 & 뤼터-트럼프 마러라고 담판(유럽 자주국방 압박 심화).",
+        "newCatalyst": "EIA 미국 산유량 1,406.5만 bpd 역대 최고에도 호르무즈 대치로 11/25 WTI $84대 급등(현재 {{LIVE:wti}}) & 뤼터-트럼프 마러라고 담판(유럽 자주국방 압박 심화).",
         "updatedImplication": "트럼프가 우크라 조기 5조식 보장에 거리를 둘수록 **유럽 NATO 동맹국들은 생존을 위해 K-방산(자주포·전차·방공망·탄약)을 더 빠르고 대규모로 사들일 수밖에 없음!** 유가는 미국 1,406.5만 bpd 기록적 증산이 $90 상단을 막아주므로 원유 추격은 피하고, **K-방산·조선 코어 + 구리 광산주({{LIVE:copper}} 반등)** 조합을 유지해야 함.",
         "implicationHistory": [
-            {"time": "11/26 08:00", "text": "🔴 미 산유량 역대최대(1,406.5만 bpd)에도 호르무즈 대치에 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 급등 + 뤼터-트럼프 마러라고 담판!"}
+            {"time": "11/26 08:00", "text": "🔴 미 산유량 역대최대(1,406.5만 bpd)에도 호르무즈 대치에 11/25 WTI $84.15 급등 + 뤼터-트럼프 마러라고 담판!"}
         ],
         "actionPoints": [
             "유럽 자체 방위력 확충 가속화 직격 수혜(한화에어로스페이스·현대로템·LIG넥스원·한화시스템) 중장기 핵심 보유",
@@ -1661,8 +1661,8 @@ AGENDAS_EXTRA = [
         "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🚨 사우디 자잔(Jazan) 정유소 직접 피격(사망·부분 가동중단) ➔ WTI {{LIVE:wti}}({{LIVE:wti_chg}}) $85 육박! + 러 월간 사상자 2개월 연속 5만 명 돌파 · 우크라 전력망 대공습 경보!",
-        "title": "[11/27] 후티 발사체 '사우디 자잔 정유소' 직접 타격(부분 가동중단) ➔ WTI {{LIVE:wti}} $85 돌파 초읽기 & 우크라 겨울 대공습 경보",
+        "deltaLabel": "🚨 11/27 사우디 자잔(Jazan) 정유소 직접 피격(사망·부분 가동중단) ➔ 당시 WTI $85 육박(현재 {{LIVE:wti}})! + 러 월간 사상자 2개월 연속 5만 명 돌파 · 우크라 전력망 대공습 경보!",
+        "title": "[11/27] 후티 발사체 '사우디 자잔 정유소' 직접 타격(부분 가동중단) ➔ 당시 WTI $85 육박(현재 {{LIVE:wti}}) & 우크라 겨울 대공습 경보",
         "subtitle": "라스 타누라 겨냥 이어 자잔 정유소 실물 피해 발생… 이스라엘 '독자 대이란 행동 준비' 경고 & 러 11월 사상자 역대 최대(5만+)",
         "chartImage": "assets/charts/agenda_78.svg",
         "chartConfig": {
@@ -1925,38 +1925,38 @@ AGENDAS_EXTRA = [
         "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
         "importance": "CRITICAL",
         "deltaStatus": "CHALLENGED",
-        "deltaLabel": "🔴 WTI '$85 돌파'({{LIVE:wti}}, {{LIVE:wti_chg}}) & 구리 '+6.47% 폭등'({{LIVE:copper}})! 11/29(일) OPEC+ 장관회의 앞두고 NATO 발트 전투기 출격 · 파키스탄/카타르 미-이란 막후 중재!",
-        "title": "[11/27 이브닝·속보 84] WTI $85 돌파({{LIVE:wti}})·구리 +6.47%({{LIVE:copper}}) 폭등 & 11/29 OPEC+ 분수령: NATO 라트비아 영공 출격·파키스탄/카타르 미-이란 중재",
+        "deltaLabel": "🔴 11/27 장중 WTI '$85.5 돌파'(이후 {{LIVE:wti}} 숨고르기) & 구리 '{{LIVE:copper}}({{LIVE:copper_chg}})' 폭발 반등! 11/29(일) OPEC+ 장관회의 앞두고 NATO 발트 전투기 출격 · 파키스탄/카타르 미-이란 막후 중재!",
+        "title": "[11/27 이브닝·속보 84] 11/27 장중 WTI $85.5 돌파(현재 {{LIVE:wti}})·구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 폭등 & 11/29 OPEC+ 분수령: NATO 라트비아 영공 출격·파키스탄/카타르 중재",
         "subtitle": "우크라 2026년 러 본토 장거리 타격 ~500건(전쟁 첫 4년 합계 초과!) · 사우디 자잔 피격 여진 · 구리 실물 괴리 폭발적 반등!",
         "chartImage": "assets/charts/agenda_84.svg",
         "chartConfig": {
             "type": "infographic",
-            "title": "11/27 글로벌 원자재 폭등(WTI $85+ · 구리 +6.5%) & 11/29 OPEC+·지정학 4대 속보",
-            "subtitle": "주말 11/29 OPEC+ 장관급 회의를 앞두고 사우디 자잔 피격·호르무즈 긴장에 WTI가 $85를 돌파했고 구리는 +6.5% 숏커버링 폭발",
-            "center_label": "WTI $85+ · 구리 +6.5%\n11/29 OPEC+ 분수령",
-            "badge_text": "OPEC+ · COPPER +6.5%",
+            "title": "11/27 글로벌 원자재 변동(장중 WTI $85.5 · 구리 +5~6%대 반등) & 11/29 OPEC+·지정학 4대 속보",
+            "subtitle": "주말 11/29 OPEC+ 장관급 회의를 앞두고 사우디 자잔 피격에 장중 WTI가 $85.5를 넘겼고 구리는 숏커버링 폭발",
+            "center_label": "장중 WTI $85.5 · 구리 급등\n11/29 OPEC+ 분수령",
+            "badge_text": "OPEC+ · COPPER RALLY",
             "nodes": [
-                {"title": "WTI $85 돌파 · 11/29 OPEC+", "metric": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "desc": "사우디 자잔 정유소 피격·브렌트 $90대 중반 긴장 속 일요일(11/29) OPEC+ 장관급 회의 쿼터 결정 주목", "color": "#e11d48"},
-                {"title": "구리 +6.47% 폭발 반등!", "metric": "{{LIVE:copper}} (LME $11,965)", "desc": "11개월 저점·TC/RC 역사적 마이너스 괴리가 글로벌 AI·증시 반등과 맞물려 +6%대 숏커버링 폭발!", "color": "#059669"},
+                {"title": "11/27 장중 $85.5 ➔ 현재 {{LIVE:wti}}", "metric": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "desc": "사우디 자잔 정유소 피격·브렌트 $90대 중반 긴장 속 일요일(11/29) OPEC+ 장관급 회의 쿼터 결정 주목", "color": "#e11d48"},
+                {"title": "구리 폭발적 숏커버링!", "metric": "{{LIVE:copper}} ({{LIVE:copper_chg}})", "desc": "11개월 저점·TC/RC 역사적 마이너스 괴리가 글로벌 AI·증시 반등과 맞물려 +5~6%대 숏커버링 폭발!", "color": "#059669"},
                 {"title": "NATO 발트 전투기 긴급출격", "metric": "라트비아 영공 드론 침범", "desc": "동부서 날아온 드론 침범에 NATO 발트 초계기 긴급 발진 · ACLED '2026 우크라 러 본토 타격 ~500건'", "color": "#0284c7"},
                 {"title": "파키스탄·카타르 막후 중재", "metric": "아라그치 이란 외무 확인", "desc": "이슬라마바드 사우디·튀르키예 국방 회담 병행 — 쿠웨이트 군사시설 드론 피격 의혹 속 막후 협상 가동", "color": "#d97706"}
             ]
         },
         "keyMetrics": [
-            {"label": "WTI 원유 · 11/29 OPEC+", "value": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "change": "$85 선 상향 돌파! 디젤 정제마진 강세·자잔 피격 속 일요일(11/29) OPEC+ 2027 쿼터 주목"},
+            {"label": "WTI 원유 · 11/29 OPEC+", "value": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "change": "11/27 장중 $85.5 돌파 후 주말 OPEC+ 회의 앞두고 숨 고르기(브렌트 $94~96대 경계)"},
             {"label": "구리 선물 대폭발 반등", "value": "{{LIVE:copper}} / lb ({{LIVE:copper_chg}})", "change": "LME $11,965/톤 회복 — 우리가 강조해 온 '선물 약세 vs 실물 TC/RC 마이너스' 역발상 대적중!"},
             {"label": "전선 · 외교 최신 동향", "value": "우크라 러 본토 타격 ~500건", "change": "2026년 한 해만 전쟁 첫 4년 합계 추월(ACLED) · 라트비아 NATO 긴급출격 · 파키스탄/카타르 중재"}
         ],
         "facts": [
-            "11월 27일(금) 글로벌 원자재 시장이 일제히 불을 뿜었습니다. 사우디 자잔 정유소 피격과 호르무즈 해협 기뢰·봉쇄 대치가 겹치며 **WTI 원유가 배럴당 $85 선을 돌파({{LIVE:wti}}, {{LIVE:wti_chg}})**했고, 시장은 이틀 뒤인 **11월 29일(일) OPEC+ 장관급 회의**의 2027년 초 증산·쿼터 조정 여부에 촉각을 곤두세우고 있습니다(Commodity-Board·Investing.com).",
-            "산업금속 대장주 **구리 선물(HG=F)은 하루 만에 {{LIVE:copper_chg}} 폭등한 {{LIVE:copper}}(LME ~$11,965/톤)**로 11개월 저점에서 단숨에 튀어 올랐습니다. 그동안 종이 선물 투매와 '중국 스팟 TC/RC 마이너스' 실물 초긴축 간 괴리가 글로벌 AI 증시 반등과 맞물려 한꺼번에 해소된 것입니다.",
+            "11월 27일(금) 글로벌 원자재 시장이 크게 요동쳤습니다. 사우디 자잔 정유소 피격과 호르무즈 해협 기뢰·봉쇄 대치가 겹치며 **WTI 원유가 장중 배럴당 $85.5 선을 돌파(최신 {{LIVE:wti}}, {{LIVE:wti_chg}})**했고, 시장은 일요일인 **11월 29일 OPEC+ 장관급 회의**의 2027년 1분기 산유 쿼터 결정에 촉각을 곤두세우고 있습니다(Commodity-Board·Investing.com).",
+            "산업금속 대장주 **구리 선물(HG=F)은 {{LIVE:copper_chg}} 폭등한 {{LIVE:copper}}(LME ~$11,965/톤)**로 11개월 저점에서 단숨에 튀어 올랐습니다. 그동안 종이 선물 투매와 '중국 스팟 TC/RC 마이너스' 실물 초긴축 간 괴리가 글로벌 AI 증시 반등과 맞물려 한꺼번에 해소된 것입니다.",
             "안보 전선에서는 분쟁 감시기구 ACLED 집계 결과 **2026년 우크라이나의 러시아 본토 장거리 타격이 약 500건에 달해 전쟁 첫 4년 전체 합계를 넘어섰고**, 라트비아 영공 드론 침범으로 **NATO 발트 초계 전투기가 긴급 출격**했습니다. 중동에서는 아바스 아라그치 이란 외무장관이 **파키스탄·카타르가 미국과 이란 사이에서 막후 중재안을 전달 중**이라고 밝혔습니다(The Guardian·Arab News)."
         ],
         "previousImplication": "사우디 자잔 정유소 피격으로 WTI가 $85에 육박하고 구리 광산주 눌림목 분할 기회를 주시함 (11/27 모닝).",
-        "newCatalyst": "WTI $85 돌파({{LIVE:wti}}) · 구리 +6.47%({{LIVE:copper}}) 폭발 반등 · 11/29 OPEC+ 회의 임박 · NATO 라트비아 출격 & 파키스탄/카타르 중재 확인.",
-        "updatedImplication": "구리 **{{LIVE:copper}}({{LIVE:copper_chg}})** 급반등으로 우리의 **'구리 광산주(COPX) 눌림목 분할 매집'** 논리가 완벽히 입증됨! WTI는 $85를 넘겼으나 일요일(11/29) OPEC+ 회의와 파키스탄·카타르 중재 변수에 따라 급등락할 수 있으므로 원유 추격은 피하고, **K-방산(NATO 발트 영공·중동 방공망) + 구리 광산주 보유 유지**가 정답임.",
+        "newCatalyst": "11/27 장중 WTI $85.5 돌파(현재 {{LIVE:wti}}) · 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 폭발 반등 · 11/29 OPEC+ 회의 임박 · NATO 라트비아 출격 & 파키스탄/카타르 중재 확인.",
+        "updatedImplication": "구리 **{{LIVE:copper}}({{LIVE:copper_chg}})** 급반등으로 우리의 **'구리 광산주(COPX) 눌림목 분할 매집'** 논리가 완벽히 입증됨! WTI는 일요일(11/29) OPEC+ 회의와 파키스탄·카타르 중재 변수에 따라 급등락할 수 있으므로 원유 추격은 피하고, **K-방산(NATO 발트 영공·중동 방공망) + 구리 광산주 보유 유지**가 정답임.",
         "implicationHistory": [
-            {"time": "11/27 20:00", "text": "🔴 WTI {{LIVE:wti}} $85 돌파(11/29 OPEC+ 대기) & 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 폭발 반등! NATO 라트비아 출격·파키스탄/카타르 중재"}
+            {"time": "11/27 20:00", "text": "🔴 11/27 장중 WTI $85.5 돌파(11/29 OPEC+ 대기) & 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 폭발 반등! NATO 라트비아 출격·파키스탄/카타르 중재"}
         ],
         "actionPoints": [
             "주말 11/29(일) OPEC+ 장관급 회의 결과(2027년 초 산유 쿼터 조정 여부) 및 파키스탄·카타르 중재 진전 주시",
@@ -2055,5 +2055,183 @@ AGENDAS_EXTRA = [
             "SMR 투자 시 적자 설계 테마주 배제, 고온 특수합금·원자로 주기기·실제 건설 인허가 보유 기업에 집중"
         ],
         "sources": ["SpaceX Official (Acquisition of nationwide 14 MHz paired 800 MHz low-band spectrum for Starlink Mobile, Brownsville biotech AI supercomputer)", "Menlo Times (SMR refractory alloys & additive manufacturing, PsiQuantum-AMD hybrid quantum-AI)"]
+    },
+    {
+        "id": "agenda_87",
+        "asOfDate": "2026-11-28",
+        "category": "tech",
+        "categoryLabel": "반도체 · AI 빅테크",
+        "importance": "CRITICAL",
+        "deltaStatus": "NEW",
+        "deltaLabel": "🟢 앤트로픽(ANT) '{{LIVE:anthropic}}({{LIVE:anthropic_chg}})' 상장 후 최대 +11% 대폭발 & SOX '{{LIVE:sox}}({{LIVE:sox_chg}})' 9,100 돌파! (마이크론 +7.60% · AMD {{LIVE:amd_chg}} · 브로드컴 +3.82% · TSMC {{LIVE:tsm_chg}}!)",
+        "title": "[11/28 모닝·속보 87] 앤트로픽(ANT) +10.98%({{LIVE:anthropic}}) 상장 후 최대 폭등 & 마이크론 +7.60% · AMD +4.56% 반도체 전면 반격!",
+        "subtitle": "공모가($83) 이탈 공포 털고 단숨에 $91.88 돌파… 엔비디아(+0.80%)만 BIS 동남아 규제로 쉬어가는 사이 메모리·비엔비디아 AI 칩 폭발!",
+        "chartImage": "assets/charts/agenda_87.svg",
+        "chartConfig": {
+            "type": "bar",
+            "title": "11/27 미국 블랙프라이데이 단축장 반도체·AI 7대 주도주 확정 상승률 (%)",
+            "subtitle": "앤트로픽(+10.98%)·마이크론(+7.60%)·SOX(+4.69%)·AMD(+4.56%)·브로드컴(+3.82%)·TSMC(+3.21%) 폭등 vs NVDA(+0.80%)",
+            "categories": ["구글(GOOGL)", "엔비디아(NVDA)", "TSMC(TSM)", "브로드컴(AVGO)", "AMD", "필라반도체(SOX)", "마이크론(MU)", "앤트로픽(ANT)"],
+            "series_name_1": "11/27 블프 확정 상승률 (%)",
+            "values_1": [0.68, 0.80, 3.21, 3.82, 4.56, 4.69, 7.60, 10.98],
+            "color_1": "#059669",
+            "unit": "%"
+        },
+        "keyMetrics": [
+            {"label": "앤트로픽(ANT) 대반전", "value": "{{LIVE:anthropic}} ({{LIVE:anthropic_chg}})", "change": "상장 이후 최대 단일일 상승! 공모가($83)와 $90 저항선 단숨에 돌파(단, 4Q PER {{LIVE:anthropic_per4q}} 적자)"},
+            {"label": "메모리·비NVDA 칩 폭등", "value": "마이크론 +7.60% · AMD {{LIVE:amd_chg}}", "change": "AMD {{LIVE:amd}}(1Q×4 {{LIVE:amd_per1qx4}}) · 브로드컴 +3.82% · TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}) 동반 랠리"},
+            {"label": "월요일 K-메모리 시사점", "value": "삼성 1Q×4 {{LIVE:samsung_per1qx4}} · SK 4Q {{LIVE:skhynix_per4q}}", "change": "마이크론 +7.60% 폭등은 국내 삼성전자(179,500원)·SK하이닉스(1,111,000원) 월요일 훈풍 직결"}
+        ],
+        "facts": [
+            "11월 27일(현지시간) 블랙프라이데이 뉴욕 증시에서 AI 소프트웨어와 반도체 하드웨어가 나란히 공포를 떨쳐냈습니다. IPO 이후 공모가($83) 아래로 추락하며 'AI 수익성 거품론'의 진원지가 됐던 **앤트로픽(ANT)이 하루 만에 {{LIVE:anthropic_chg}} 폭등한 {{LIVE:anthropic}}**로 $90 선을 단숨에 돌파하며 상장 후 최고 반등을 기록했습니다(LA Times·Forbes).",
+            "반도체 업종에서는 **마이크론 테크놀로지(+7.60%)**가 메모리 이익 절벽 우려를 딛고 급등세를 주도했고, **AMD {{LIVE:amd}}({{LIVE:amd_chg}}), 브로드컴(+3.82%), TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}})**가 나란히 급등하며 **필라델피아 반도체 지수(SOX)를 {{LIVE:sox}}({{LIVE:sox_chg}})**로 밀어 올렸습니다(BigGo).",
+            "특히 글로벌 메모리 풍향계인 **마이크론의 +7.60% 폭등**은 최근 국내 일각에서 제기된 '메모리 이익 피크아웃' 논란을 정면 반박하는 강력한 신호로, 다음 주 월요일(11/30) **삼성전자(1Q×4 PER {{LIVE:samsung_per1qx4}})**와 **SK하이닉스(4Q PER {{LIVE:skhynix_per4q}})**의 추가 반등에 결정적 우군으로 작용할 전망입니다."
+        ],
+        "previousImplication": "어제 저녁 블프 프리마켓에서 마이크론·AMD·ANT 강세가 확인되며 글로벌 숏커버링이 예고됨 (11/27).",
+        "newCatalyst": "11/27 블프 정규장 마감 결과 앤트로픽 +10.98%($91.88)·마이크론 +7.60%·SOX +4.69%·AMD +4.56%·TSMC +3.21% 폭등 확정.",
+        "updatedImplication": "앤트로픽의 $91 돌파는 **AI 프런티어 모델 투자 심리 회복(하드웨어 발주 안정)**이라는 호재로 해석하되, 여전히 적자 구간(4Q PER {{LIVE:anthropic_per4q}})인 ANT 추격 매수는 금물임. 대신 **마이크론 +7.60%가 증명한 메모리 슈퍼사이클(삼성·SK)과 TSMC·구글·NVDA 4대 현금흐름 1등주**에 집중하는 원칙이 압도적으로 유리함.",
+        "implicationHistory": [
+            {"time": "11/28 08:00", "text": "🟢 앤트로픽 +10.98%($91.88) 상장 후 최대 반등 & 마이크론 +7.60%·SOX +4.69%·AMD +4.56% 반도체 대반격!"}
+        ],
+        "actionPoints": [
+            "앤트로픽(ANT) +11% 급등 직후 추격 금지(GAAP 적자 고변동성) — AI 투심 회복 수혜는 삼성·SK·TSMC·NVDA로 수취",
+            "우측 시세보드 7종목 분기 PER 비교 시 압도적 저평가인 K-메모리(3~5배)·NVDA(13배)·구글(14배)·TSMC(19배) 코어 유지"
+        ],
+        "sources": ["Yahoo Finance / CNBC 실시간 ANT ({{LIVE:anthropic}}) / AMD ({{LIVE:amd}}) / TSM ({{LIVE:tsm}}) / ^SOX ({{LIVE:sox}})", "LA Times / Forbes / BigGo (Nov 27 Black Friday close: ANT +11% to $91.88, Micron +7.60%, AMD +4.56%, Broadcom +3.82%)"]
+    },
+    {
+        "id": "agenda_88",
+        "asOfDate": "2026-11-28",
+        "category": "geopolitics",
+        "categoryLabel": "전쟁 · 지정학 · 방산 · 원자재",
+        "importance": "CRITICAL",
+        "deltaStatus": "NEW",
+        "deltaLabel": "🚨 내일(11/29) OPEC+ 장관회의 '2027 Q1 동결' 잠정 공감 vs 이라크·카자흐 증산 반발 ➔ WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 숨고르기! + 미 중부사령부, 오만만서 이란 봉쇄돌파선 첫 무력화!",
+        "title": "[11/28 모닝·속보 88] 내일(11/29) OPEC+ 장관회의 분수령(WTI {{LIVE:wti}}) & 미군 오만만 '봉쇄돌파선' 첫 무력화 · 우크라 흑해 휴전 공식 제안",
+        "subtitle": "미 CENTCOM, 반다르압바스 출항 화물선 추진력 타격 무력화(이란 해상봉쇄 실전 집행!) + 툴라 미사일연료 공장 타격 · 루카셴코 크렘린 비판 균열!",
+        "chartImage": "assets/charts/agenda_88.svg",
+        "chartConfig": {
+            "type": "infographic",
+            "title": "11/28 주말 글로벌 지정학·에너지 4대 긴급 속보 (내일 OPEC+ 장관회의 & 미-이란·우크라 전선)",
+            "subtitle": "OPEC+ 2027 Q1 쿼터 동결 관측에 WTI는 $83대로 진정됐으나, 오만만 해상봉쇄 첫 무력화 타격으로 군사 긴장은 고조",
+            "center_label": "내일 OPEC+ 분수령\n오만만 첫 선박 무력화",
+            "badge_text": "OPEC+ D-1 · CENTCOM",
+            "nodes": [
+                {"title": "11/29 OPEC+ Q1 동결 가닥", "metric": "WTI {{LIVE:wti}} ({{LIVE:wti_chg}})", "desc": "핵심 대표단 2027 Q1 목표치 동결 잠정 공감 + IEA 공급과잉 경고 vs 이라크·카자흐스탄 생산능력 재평가 반발", "color": "#eab308"},
+                {"title": "미 CENTCOM 봉쇄돌파선 타격", "metric": "퍼시픽 아처호 무력화", "desc": "이란 반다르압바스 출항 팔라우 국적 화물선 추진장치 미군기 무력화 — 대이란 해상봉쇄 첫 실전 타격!", "color": "#e11d48"},
+                {"title": "우크라 툴라 타격·흑해 휴전안", "metric": "에프레모프 미사일연료 공장", "desc": "러 툴라주 합성고무(미사일연료) 공장 장거리 타격 동시, 곡물수출 보호 '흑해 휴전' 공식 제안(러 답변 대기)", "color": "#0284c7"},
+                {"title": "루카셴코 균열 & 마러라고 온도차", "metric": "벨라루스 이례적 공개 의문", "desc": "루카셴코 러 침공 역사적 명분 공개 의문 + 트럼프·뤼터 마러라고 회동 직후 트럼프 '양측 도발 자제' 독자 메시지", "color": "#7c3aed"}
+            ]
+        },
+        "keyMetrics": [
+            {"label": "WTI 원유 (OPEC+ D-1)", "value": "{{LIVE:wti}} ({{LIVE:wti_chg}})", "change": "브렌트 $94.9~$96.5 경계 vs WTI $83대 진정 — 2027 Q1 쿼터 동결 공감대 & IEA 공급과잉 경계"},
+            {"label": "미-이란 해상 충돌 격화", "value": "CENTCOM '퍼시픽 아처호' 무력화", "change": "오만만서 이란 봉쇄 돌파 시도 선박 첫 물리적 무력화 vs 파키스탄·카타르 간접 중재 병행(제재 해제 선결조건 충돌)"},
+            {"label": "동유럽 전선·외교 변수", "value": "흑해 휴전 제안 · 툴라 공장 타격", "change": "우크라 올해 러 본토 타격 ~500건 + 벨라루스 루카셴코의 이례적 크렘린 명분 회의 발언"}
+        ],
+        "facts": [
+            "내일 **일요일(11월 29일) 공식 OPEC+ 장관급 회의**를 앞두고 사전 실무 접촉이 치열하게 진행 중입니다. 핵심 산유국 대표단은 **2027년 1분기 생산 목표를 현행대로 동결**하는 데 원칙적으로 공감했으나, 사상 첫 회원국별 생산능력(Capacity) 종합 검증 과정에서 **이라크와 카자흐스탄이 쿼터 상향을 요구하며 정면 반발**하고 있습니다(Kitco·Markets.com). 이에 IEA의 2027년 공급과잉 경고까지 겹치며 **WTI 원유는 전날 장중 $85.5에서 {{LIVE:wti}}({{LIVE:wti_chg}})로 상승폭을 반납**했습니다.",
+            "반면 중동 군사 긴장은 새로운 임계점을 넘었습니다. **미 중부사령부(CENTCOM)는 이란 반다르압바스 항을 출항해 미 해군 봉쇄망을 돌파하려던 팔라우 국적 벌크선 '퍼시픽 아처(Pacific Archer)'호의 추진장치를 군용기로 타격해 무력화**했다고 공식 확인했습니다(Iran International). 이란이 해상봉쇄 돌파를 공언한 이후 미군이 실전 타격으로 선박을 멈춰 세운 첫 사례입니다.",
+            "동유럽에서는 우크라이나가 러시아 툴라주 **에프레모프 합성고무(미사일 연료) 공장**을 장거리 타격한 동시에 모스크바에 **'흑해 휴전(곡물 수출로 보호)'**을 공식 제안했습니다(Kyiv Independent·Al Jazeera). 한편 마러라고에서 뤼터 NATO 총장과 만난 트럼프 대통령은 공동성명과 별개로 러·우 양측 모두의 확전 자제를 촉구했고, 벨라루스 루카셴코 대통령은 이례적으로 크렘린의 침공 역사 명분에 공개 의문을 제기했습니다(CNN·Time)."
+        ],
+        "previousImplication": "사우디 자잔 정유소 피격으로 장중 WTI가 $85.5를 넘겼으나 11/29 OPEC+ 회의와 중재 변수로 원유 추격 매수를 경고함 (11/27).",
+        "newCatalyst": "내일(11/29) OPEC+ 2027 Q1 동결 공감대·이라크/카자흐 증산 요구로 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 진정 vs 미 CENTCOM 오만만 봉쇄돌파선 첫 무력화.",
+        "updatedImplication": "어제 $85.5 돌파 직후 원유 추격 매수를 막은 판단이 12시간 만에 **WTI {{LIVE:wti}} 되돌림**으로 정확히 적중함! 에너지 가격은 이라크·카자흐 증산 욕구와 미국 사상최대 산유량(1,406만 bpd)이 상단을 누르는 반면, **오만만 해상 봉쇄 실전 무력화와 유럽·중동 방공/해군력 증강은 K-방산·특수선 조선(한화에어로·LIG넥스원·HD현대중공업)의 확정 수주**로 직결됨.",
+        "implicationHistory": [
+            {"time": "11/28 08:00", "text": "🚨 내일(11/29) OPEC+ 2027 Q1 동결 가닥 ➔ WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 숨고르기! 미군 오만만 봉쇄돌파선 첫 무력화!"}
+        ],
+        "actionPoints": [
+            "내일(11/29 일요일) OPEC+ 공식 성명(2027 Q1 쿼터 동결 vs 이라크·카자흐 이견 타협) 결과 확인 전 원유 방향성 베팅 금지",
+            "오만만 해상 봉쇄 실전 집행·유럽 NATO 자체 방위 압박 지속 ➔ K-방산·함정 조선 핵심 코어 보유 유지"
+        ],
+        "sources": ["Yahoo Finance 실시간 CL=F ({{LIVE:wti}})", "Kitco / Markets.com / Hellenic Shipping News (Nov 29 OPEC+ Q1 2027 rollover talks, Iraq & Kazakhstan capacity dispute)", "Iran International / Kyiv Independent / Al Jazeera / CNN / Time (CENTCOM disables Pacific Archer, Efremov plant strike, Black Sea ceasefire proposal, Lukashenko remarks)"]
+    },
+    {
+        "id": "agenda_89",
+        "asOfDate": "2026-11-28",
+        "category": "frontier",
+        "categoryLabel": "미래기술 · 우주 · 로봇 · 원전 · 바이오",
+        "importance": "HIGH",
+        "deltaStatus": "NEW",
+        "deltaLabel": "🆕 IBM·시카고대 '15분 검증 가능 양자우위(Quantum Advantage)' 역사적 이정표! + 하버드 '초소형 UV 광학칩' 양자컴 소형화 돌파 & AI-양자 신약 발굴 융합!",
+        "title": "[11/28 모닝·속보 89] IBM·시카고대 '15분 검증 가능 양자우위' 쾌거 & 하버드 초소형 UV 칩: 양자컴퓨팅·AI 바이오 신약 상용화 임계점 돌파!",
+        "subtitle": "기존 슈퍼컴이 사실상 못 푸는 문제를 초전도 양자컴으로 15분 만에 해결 + 신규 오류검출법으로 결과 정확도 통계적 검증 최초 입증!",
+        "chartImage": "assets/charts/agenda_89.svg",
+        "chartConfig": {
+            "type": "infographic",
+            "title": "11/28 프런티어 딥테크 4대 돌파구 (IBM 검증 가능 양자우위 · 하버드 UV칩 · 양자-AI 신약 · 하이퍼스케일러 SMR)",
+            "subtitle": "오류 검증 불가 한계를 깬 IBM·시카고대 성과와 양자 소형화 UV 광학칩이 AI 신약·소재 산업과 직결되는 변곡점",
+            "center_label": "IBM '15분 검증 가능'\n양자우위 임계점 돌파",
+            "badge_text": "QUANTUM ADVANTAGE",
+            "nodes": [
+                {"title": "IBM·시카고대 15분 양자우위", "metric": "통계적 정확도 최초 검증", "desc": "최정상 슈퍼컴이 풀기 힘든 초고난도 문제를 초전도 양자컴이 15분 만에 해결 + 신규 오류검출법으로 신뢰도 검증!", "color": "#7c3aed"},
+                {"title": "하버드 초소형 UV 광학칩", "metric": "적색광 ➔ 자외선 고효율 변환", "desc": "거대 광학 테이블을 손톱만 한 칩으로 축소 — 양자컴퓨터·차세대 원자시계(양자항법) 소형화 핵심 돌파구", "color": "#0284c7"},
+                {"title": "Entangled 2026 양자-AI 신약", "metric": "단백질·분자 모델링 가속", "desc": "보스턴 바이오 콘퍼런스서 양자 알고리즘 + 생성형 AI 단백질 설계 결합이 제약사 신약 후보물질 최적화 주도", "color": "#059669"},
+                {"title": "구글·MS SMR 기저전력 확보", "metric": "우주·지상 독립 칩/전력", "desc": "머스크 독자 팹 구상 논의와 맞물려 하이퍼스케일러의 SMR·차세대 원전 장기 전력 계약 경쟁 가속", "color": "#d97706"}
+            ]
+        },
+        "keyMetrics": [
+            {"label": "IBM·시카고대 돌파구", "value": "초전도 양자컴 15분 해결 + 오류검증", "change": "단순 속도 시연을 넘어 '결과가 맞다는 통계적 검증 방법'을 제시해 실용 양자우위 관문 통과"},
+            {"label": "하버드 양자 소형화 칩", "value": "마이크로 UV 광학 변환 칩 공개", "change": "적색광을 초고효율로 자외선(UV) 변환 — 이온트랩/중성원자 양자컴 및 국방 원자시계 크기 혁신"},
+            {"label": "투자 옥석 가리기 원칙", "value": "IBM·구글·AMD 하이브리드 우위", "change": "매출 없는 소형 양자 테마주 급등락보다 현금창출력 갖춘 빅테크·국방센싱·AI신약 수혜주 중심"}
+        ],
+        "facts": [
+            "양자컴퓨팅이 연구실 데모를 넘어 실용 단계('양자우위·Quantum Advantage')로 넘어가는 결정적 이정표가 발표됐습니다. **IBM과 시카고대학교 공동 연구진**은 현존 최정상급 클래식 슈퍼컴퓨터로는 사실상 해결이 불가능한 초고난도 연산 문제를 **초전도 양자컴퓨터로 단 15분 만에 풀어낸 논문**을 공개했습니다(ScienceDaily).",
+            "이번 성과의 진짜 핵심은 속도 그 자체보다 **'신규 오류 검출(Error-Detection) 기법'을 도입해 양자컴퓨터가 내놓은 정답의 정확도를 통계적으로 검증(Verifiable Confidence)할 수 있음을 입증**한 것입니다. 또한 **하버드대 주도 연구진은 적색광을 고효율로 자외선(UV)으로 변환하는 초소형 광학 칩**을 발표해 거대한 양자컴퓨터와 원자시계(양자항법)의 물리적 크기를 획기적으로 줄일 길을 열었습니다.",
+            "이 같은 하드웨어 돌파구는 곧장 제약·바이오 산업으로 연결되고 있습니다. 보스턴 **'Entangled 2026'** 콘퍼런스에서 확인됐듯, 양자 분자 시뮬레이션과 생성형 AI 단백질 설계 프레임워크의 결합이 대형 제약사들의 신약 후보물질(Lead Optimization) 개발 기간을 대폭 단축시키는 차세대 핵심 파이프라인으로 자리 잡고 있습니다."
+        ],
+        "previousImplication": "아이온큐 국방 양자항법과 PsiQuantum-AMD 하이브리드 동맹을 중심으로 실전 양자 상용화를 추적함 (11/27).",
+        "newCatalyst": "IBM·시카고대 '15분 검증 가능 양자우위' 발표, 하버드 초소형 UV 광학칩 공개 및 Entangled 2026 양자-AI 신약 융합 가속.",
+        "updatedImplication": "양자컴퓨팅 최대 약점이던 '오류 검증 불가' 벽이 IBM의 검증 기법으로 뚫리기 시작함! 다만 적자 소형 양자 테마주는 변동성이 극심하므로, **확실한 현금흐름과 양자·AI 하이브리드 생태계를 동시에 쥔 IBM·구글({{LIVE:google}})·AMD({{LIVE:amd}}) 및 AI 바이오 신약 플랫폼 선두 기업** 중심으로 중장기 접근해야 함.",
+        "implicationHistory": [
+            {"time": "11/28 08:00", "text": "🆕 IBM·시카고대 '15분 검증 가능 양자우위' 쾌거 & 하버드 초소형 UV 칩 공개! 양자-AI 신약 융합 가속!"}
+        ],
+        "actionPoints": [
+            "검증 가능 양자우위(IBM·구글) + 양자-GPU 하이브리드(AMD·NVDA) 대형 플랫폼 중심으로 리스크 통제형 투자",
+            "AI 단백질 설계·양자 분자 시뮬레이션 도입 글로벌 제약·바이오 플랫폼 기업 중장기 워치리스트 편입"
+        ],
+        "sources": ["ScienceDaily (IBM & Univ. of Chicago 15-minute verifiable superconducting quantum advantage; Harvard microscopic UV light chip for quantum/atomic clocks)", "LabCentral / AZBio / OpenAI (Entangled 2026 quantum-AI drug discovery convergence)"]
+    },
+    {
+        "id": "agenda_90",
+        "asOfDate": "2026-11-28",
+        "category": "realestate",
+        "categoryLabel": "한국 부동산 · 정책 · 개발",
+        "importance": "HIGH",
+        "deltaStatus": "CHALLENGED",
+        "deltaLabel": "🔴 극명한 한·미 소비·자산 양극화! 미국 블프 온라인 '$129억(+9.2%) 사상최대 · $1.013조 시즌' vs 한국 '주식 팔아 집 사던 수요 증발' · 서울 외곽 15억 이하 거래 급감 · 11월 소비심리 위축!",
+        "title": "[11/28 모닝·속보 90] 미국 블프 온라인 $129억(+9.2%) 신기록 vs 한국 '주담대 4.98%·월세 51%' 직격에 서울 외곽 거래 동결·소비심리 위축!",
+        "subtitle": "미국 1억 8,270만 명 AI 할인·BNPL 총동원 사상 첫 $1조 쇼핑시즌 vs 한국 증시 출렁임·한은 3.25% 인상에 15억 이하 서울 아파트 매수세 실종",
+        "chartImage": "assets/charts/agenda_90.svg",
+        "chartConfig": {
+            "type": "bar",
+            "title": "11/28 미국 블랙프라이데이·사이버위크 사상 최대 온라인 소비 규모 ($B, Adobe)",
+            "subtitle": "추수감사절 $7.1B(+10.4%)·블프 $12.9B(+9.2%)·사이버먼데이 $15.1B·5일간 사이버위크 $47.5B(+7.4%) 역대급 기록 행진!",
+            "categories": ["추수감사절(11/26)", "블랙프라이데이(11/27)", "사이버먼데이(예상)", "사이버위크 5일 합계"],
+            "series_name_1": "미국 온라인 매출 (십억 달러, $B)",
+            "values_1": [7.1, 12.9, 15.1, 47.5],
+            "color_1": "#0284c7",
+            "unit": "$B"
+        },
+        "keyMetrics": [
+            {"label": "미국 블프 소비 신기록", "value": "블프 $129억(+9.2%) · 연말 $1.013조", "change": "어도비: 추수감사절 $71억(+10.4%)·사이버위크 $475억(+7.4%) · 마스터카드 전체 소매 +5.5% 전망"},
+            {"label": "한국 서울 매수심리 동결", "value": "'주식 팔아 집 사던 수요' 증발", "change": "주담대 4.98%(14년 7개월 최고)·한은 3.25%·증시 변동성에 서울 15억 이하 외곽 거래 급감"},
+            {"label": "한국 주거비·소비 압박", "value": "서울 월세 51%+ · 11월 소비심리 위축", "change": "전세대출 4.63%·고가 월세 증가로 가계 가처분소득 잠식 ➔ 국내 내수·소매 지출 망설임 심화"}
+        ],
+        "facts": [
+            "11월 28일(토) 주말 경제 지형에서 **미국과 한국의 극명한 소비·자산 온도차**가 확인됐습니다. 어도비 애널리틱스 집계 결과 미국 **블랙프라이데이(11/27) 온라인 매출이 전년비 +9.2% 급증한 사상 최대 $129억**(추수감사절 $71억 +10.4%)을 기록할 전망이며, 5일간 사이버위크는 **$475억(+7.4%)**, 전미소매협회(NRF) 기준 11~12월 전체 소매 매출은 **사상 첫 $1.013조(+4.2%)**를 돌파할 기세입니다(Adobe·NRF).",
+            "미국 소비자들이 고물가 속에서도 **AI 가격 비교 도구와 후불결제(BNPL)**를 적극 활용해 역대급 지출을 이어가며 아마존(약 +4%)·유통주 실적과 미 10년물 금리({{LIVE:us10y}})를 동시에 밀어 올린 반면, 한국 내수·부동산 현장은 정반대로 얼어붙고 있습니다.",
+            "오늘 국내 언론(머니투데이·뉴시스·이데일리·뉴스핌) 보도에 따르면, 최근 증시 변동성과 한은 기준금리 3.25% 인상·신규 주담대 4.98%(14년 7개월 최고) 직격탄으로 **'주식을 팔아 집을 사려던 수요'가 자취를 감추며 15억 원 이하 서울 외곽 아파트 거래가 급감**했습니다. 동시에 서울 아파트 월세 비중 과반(51%+)·고가 월세 확대가 가계 고정 주거비를 갉아먹으며 **11월 국내 소비자 심리까지 뚜렷하게 위축**되고 있습니다."
+        ],
+        "previousImplication": "가계대출 평균 5.02%·주담대 4.98%·서울 월세 51% 돌파로 외곽 대출 추격 자제와 내년 초 상급지 급매 대기를 권고함 (11/27).",
+        "newCatalyst": "미국 블프 온라인 $129억(+9.2%) 신기록(미 금리 4.94% 자극) vs 한국 '주식 매도 주택수요 증발'·서울 외곽 15억 이하 거래 위축·11월 소비심리 둔화.",
+        "updatedImplication": "한국은 **수출(사상 첫 $1조·반도체·방산·조선)은 초호황이지만 내수 소비와 대출 의존 부동산은 5% 금리에 짓눌리는 '극단적 K자 경제'**가 굳어짐! 따라서 투자 자금은 **국내 내수·유통주나 서울 외곽 레버리지 아파트가 아니라 '글로벌 수출 1등주(반도체·방산·미국 빅테크/커머스)'**에 집중하고, 부동산은 거래 절벽이 깊어지는 연말~내년 1분기 상급지 급매만 보수적으로 노려야 함.",
+        "implicationHistory": [
+            {"time": "11/28 08:00", "text": "🔴 미국 블프 $129억(+9.2%) 사상최대 vs 한국 주담대 4.98%·월세 51%에 서울 외곽 매수 실종·11월 소비심리 위축!"}
+        ],
+        "actionPoints": [
+            "한국 내수·소매 소비심리 위축 감안해 국내 내수주 비중 축소, 미국 블프 수혜(아마존·월마트) 및 한국 수출 1등주(반도체·방산) 집중",
+            "서울 15억 이하 외곽 거래 급감·한은 점도표 3.75% 속 성급한 영끌 매수 금지 — 현금·고정금리 준비 후 내년 1분기 상급지 급매 선별"
+        ],
+        "sources": ["Adobe Analytics / NRF / Mastercard SpendingPulse (Black Friday $12.9B +9.2%, Thanksgiving $7.1B +10.4%, Cyber Week $47.5B, $1.013T holiday season)", "머니투데이 / 뉴시스 / 이데일리 / 뉴스핌 (11/28 주식매도 주택수요 증발, 서울 외곽 15억 이하 매수 위축, 11월 소비심리 둔화)"]
     }
 ]
