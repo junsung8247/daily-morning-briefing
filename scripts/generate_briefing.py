@@ -664,7 +664,7 @@ def build_briefing_edition():
         delta_counts[st] = delta_counts.get(st, 0) + 1
 
     raw_exec_headline = (
-        "[11/28 이브닝 · 94대 실시간 팩트체크 확장안건] "
+        "[11/28 이브닝 · 53대 실시간 팩트체크 확장안건] "
         "①다음 주 'OPEC+ · 미 11월 고용보고서(12/4)' 슈퍼 위크 돌입! 12/8~9 FOMC(+25bp) 직전 최종 승부처: 주간 S&P {{LIVE:sp500}}(+5.6%)·나스닥 {{LIVE:nasdaq}}(+2.31%)·SOX {{LIVE:sox}}(+4.69%) 대폭발 마감 뒤 내일(11/29) OPEC+ ➔ 화 JOLTS·한국 11월 수출 ➔ 수 ADP ➔ 금 12/4 NFP 고용보고서 연쇄 출격! 미 10년물 {{LIVE:us10y}}·DXY {{LIVE:dxy}} 반등 속 원/달러 {{LIVE:usdkrw}} 강세 ➔ 1배수 미국채·현금 20% 바벨로 고용 변동성 대비! · "
         "②AI 쇼핑 에이전트 실전 ROI 첫 입증! 블프 온라인 예상치 돌파($130~134억): 어도비 초저녁 +12.8%(최종 $130~134억 상향) · 세일즈포스 글로벌 $830억(+5.2%) 돌파! 구글 제미나이({{LIVE:google}}, 4Q {{LIVE:google_per4q}})·앤트로픽 클로드({{LIVE:anthropic}}, +10.98%) 쇼핑 에이전트가 전환율·객단가(AOV) 급등 주도 ➔ AI 거품론 정면 반박 & 월요일 삼성(1Q×4 {{LIVE:samsung_per1qx4}})·SK(4Q {{LIVE:skhynix_per4q}})·TSMC({{LIVE:tsm}}, 1Q×4 {{LIVE:tsm_per1qx4}}) 훈풍! · "
         "③휴머노이드 양산 원년 & SMR 본공사 돌파: 샤오펑 범용 휴머노이드 'IRON' 2027년 1월 대량양산 선언 · ROBOTERA 중국우정 45대 실전 투입 · 멜렉시스 3D 촉각칩 + 캐나다 달링턴 그리드급 SMR 터널 굴착 완료 & IBM 15분 검증 가능 양자우위! · "

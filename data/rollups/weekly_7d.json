@@ -99,7 +99,7 @@
         "Adobe Analytics / TradingEconomics (Nov 27 Black Friday $12.9B online sales +9.2%, 10Y yield rebounds to 4.94%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -188,7 +188,7 @@
         "The Guardian / Brookings / CFR / Chatham House (Shenzhen APEC Trump-Xi-Putin trilateral)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -201,15 +201,15 @@
       "categoryLabel": "가상화폐 (비트코인 95%+ 집중)",
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
-      "deltaLabel": "🔴 토요일 밤 BTC 추가 후퇴! '7,896만원(-1.10%) · $59,132' — 11/25 저점(7,893만 원) 턱밑 재시험! (데리비트 $68억 옵션만기 + 11월 ETF -$53억 유출 + 다음 주 미 고용 경계!)",
-      "title": "[11/28 이브닝] 비트코인 주말 추가 밀림(7,896만원 · $59,132, -1.10%): 이더리움 $1,660대 동반 부진 & 다음 주 미 11월 고용보고서 분수령",
+      "deltaLabel": "🔴 토요일 밤 BTC 추가 후퇴! '7,890만원(-1.16%) · $59,140' — 11/25 저점(7,893만 원) 턱밑 재시험! (데리비트 $68억 옵션만기 + 11월 ETF -$53억 유출 + 다음 주 미 고용 경계!)",
+      "title": "[11/28 이브닝] 비트코인 주말 추가 밀림(7,890만원 · $59,140, -1.16%): 이더리움 $1,660대 동반 부진 & 다음 주 미 11월 고용보고서 분수령",
       "subtitle": "아침 7,974만 원($59.7K)에서 저녁 7,890만 원대($59.1K)로 추가 후퇴하며 11/25 바닥(7,893만 원) 이중 테스트… 현물 BTC 95%+ 인내 구간!",
       "chartImage": "assets/charts/agenda_31.svg",
       "chartConfig": {
         "type": "line",
         "liveChartSymbol": "btc",
-        "title": "비트코인 원화 시세(BTC-KRW) 최근 10거래일 실시간 추이 (7,896만원)",
-        "subtitle": "실시간 API 연동 차트 · 11/28 저녁 7,890만 원대($59.1K)까지 밀리며 11/25 바닥(7,893만 원) 재시험(7,896만원)",
+        "title": "비트코인 원화 시세(BTC-KRW) 최근 10거래일 실시간 추이 (7,890만원)",
+        "subtitle": "실시간 API 연동 차트 · 11/28 저녁 7,890만 원대($59.1K)까지 밀리며 11/25 바닥(7,893만 원) 재시험(7,890만원)",
         "labels": [
           "11/19",
           "11/20",
@@ -232,25 +232,25 @@
           8119,
           8134,
           7983,
-          7896
+          7890
         ],
         "unit": "만원",
         "color": "#f97316",
         "benchmark_val": 8000.0,
         "benchmark_label": "공방 핵심선 8,000만원",
-        "badge_text": "LIVE 7,896만원 (-1.10%)",
+        "badge_text": "LIVE 7,890만원 (-1.16%)",
         "annotations": [
           {
             "index": 9,
-            "text": "최신 7,896만원"
+            "text": "최신 7,890만원"
           }
         ]
       },
       "keyMetrics": [
         {
           "label": "비트코인 시세 (실시간)",
-          "value": "7,896만원",
-          "change": "글로벌 $59,132 · 1개월 -27.53% · 아침 7,974만 원에서 저녁 7,890만 원대로 추가 후퇴"
+          "value": "7,890만원",
+          "change": "글로벌 $59,140 · 1개월 -27.58% · 아침 7,974만 원에서 저녁 7,890만 원대로 추가 후퇴"
         },
         {
           "label": "나홀로 약세 · 알트 부진",
@@ -264,13 +264,13 @@
         }
       ],
       "facts": [
-        "11월 28일(토) 저녁 20:00 KST 기준, 비트코인은 오전(7,974만 원·$59.7K)보다 한 발 더 밀리며 **실시간 7,896만원(-1.10%), 글로벌 $59,132**까지 내려와 사흘 전 바닥이었던 7,893만 원 선을 다시 시험하고 있습니다. 이더리움(ETH) 등 주요 알트코인도 $1,660대까지 동반 약세를 보이며 크립토 전반의 방어적 심리가 짙어졌습니다(Korea IT Times).",
+        "11월 28일(토) 저녁 20:00 KST 기준, 비트코인은 오전(7,974만 원·$59.7K)보다 한 발 더 밀리며 **실시간 7,890만원(-1.16%), 글로벌 $59,140**까지 내려와 사흘 전 바닥이었던 7,893만 원 선을 다시 시험하고 있습니다. 이더리움(ETH) 등 주요 알트코인도 $1,660대까지 동반 약세를 보이며 크립토 전반의 방어적 심리가 짙어졌습니다(Korea IT Times).",
         "월가 증시(S&P 주간 +5.6%·나스닥 +2.31%)와 금($3,668.5)의 강세에서 크립토가 소외된 배경은 **11월 누적 -$53억을 넘긴 사상 최악의 미국 현물 ETF 순유출**, **$68억 데리비트 옵션 만기 여진**, 그리고 **미 10년물 국채금리 4.94%·DXY 104 재반등**에 따른 연준 12월 인상 경계입니다.",
         "다음 주(11/30~12/4)에는 **화요일 JOLTS 구인건수, 수요일 ADP 민간고용, 금요일(12/4) 미 11월 비농업 고용보고서(NFP)**가 줄줄이 대기 중입니다. 기관 ETF 순유입 전환이나 고용 둔화 신호가 나오기 전까지는 $58K~$61K(7,750만~8,150만 원) 박스권 바닥 다지기가 이어질 가능성이 높습니다."
       ],
       "previousImplication": "오전 $60K·8,000만 원 재이탈을 확인하고 선물·알트 전면 금지 및 무레버리지 현물 분할 적립을 권고함 (11/28 모닝).",
-      "newCatalyst": "토요일 저녁 BTC 7,896만원($59,132, -1.10%) 추가 후퇴로 11/25 바닥(7,893만 원) 재시험 · 이더리움 $1,660대 약세.",
-      "updatedImplication": "이더리움($1,660대)을 비롯한 알트코인이 더 크게 흔들리는 가운데 비트코인 도미넌스(59%)가 방어력을 입증 중임! **7,800만 원대(7,896만원) 이중 바닥 테스트 구간**에서 레버리지·알트코인을 완벽히 차단하고, **12/4 미 고용보고서와 12월 첫 주 IBIT ETF 유입 전환**을 기다리며 무레버리지 **현물 BTC 95%+** 분할 적립 원칙을 고수해야 함.",
+      "newCatalyst": "토요일 저녁 BTC 7,890만원($59,140, -1.16%) 추가 후퇴로 11/25 바닥(7,893만 원) 재시험 · 이더리움 $1,660대 약세.",
+      "updatedImplication": "이더리움($1,660대)을 비롯한 알트코인이 더 크게 흔들리는 가운데 비트코인 도미넌스(59%)가 방어력을 입증 중임! **7,800만 원대(7,890만원) 이중 바닥 테스트 구간**에서 레버리지·알트코인을 완벽히 차단하고, **12/4 미 고용보고서와 12월 첫 주 IBIT ETF 유입 전환**을 기다리며 무레버리지 **현물 BTC 95%+** 분할 적립 원칙을 고수해야 함.",
       "implicationHistory": [
         {
           "time": "11/28 08:00",
@@ -278,19 +278,19 @@
         },
         {
           "time": "11/28 20:00",
-          "text": "🔴 토요일 저녁 BTC 7,896만원($59,132, -1.10%) 11/25 저점(7,893만 원) 턱밑 재시험! 이더리움 $1,660대 부진"
+          "text": "🔴 토요일 저녁 BTC 7,890만원($59,140, -1.16%) 11/25 저점(7,893만 원) 턱밑 재시험! 이더리움 $1,660대 부진"
         }
       ],
       "actionPoints": [
-        "7,800만 원대(7,896만원) 이중 바닥 테스트 구간 — 선물·2배 ETF·알트코인 전면 금지, '무레버리지 현물 BTC 95%+' 소액 분할 유지",
+        "7,800만 원대(7,890만원) 이중 바닥 테스트 구간 — 선물·2배 ETF·알트코인 전면 금지, '무레버리지 현물 BTC 95%+' 소액 분할 유지",
         "다음 주(12/1~12/4) 미 고용지표(JOLTS·ADP·NFP)와 12월 첫 주 블랙록 IBIT 일간 순유입 전환 시 비중 확대 검토"
       ],
       "sources": [
-        "Yahoo Finance 실시간 BTC-KRW (7,896만원) & BTC-USD ($59,132)",
+        "Yahoo Finance 실시간 BTC-KRW (7,890만원) & BTC-USD ($59,140)",
         "Korea IT Times / BusinessKorea / Binance (Nov 28 weekend BTC ~$59K-$60K floor test, ETH $1,660 range, $5.3B+ Nov ETF outflows, Dec 4 NFP watch)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -303,14 +303,14 @@
       "categoryLabel": "가상화폐 (비트코인 95%+ 집중)",
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
-      "deltaLabel": "🔴 나스닥 +6.5% 폭등에도 BTC 소외 원인! (30일간 미 현물 ETF '-$35억~$45억' 순유출 · 11/16~20 주간만 '-$17.9억' 역대급 환매! 시타델 매파 경고 속 BTC 7,896만원 관망!)",
-      "title": "[11/24] 나스닥 +6.5% · 금 +3.4% 다 뛰었는데 비트코인만 7,896만원(-1.10%) 제자리인 이유: 30일간 현물 ETF -$35~45억 이탈",
+      "deltaLabel": "🔴 나스닥 +6.5% 폭등에도 BTC 소외 원인! (30일간 미 현물 ETF '-$35억~$45억' 순유출 · 11/16~20 주간만 '-$17.9억' 역대급 환매! 시타델 매파 경고 속 BTC 7,890만원 관망!)",
+      "title": "[11/24] 나스닥 +6.5% · 금 +3.4% 다 뛰었는데 비트코인만 7,890만원(-1.16%) 제자리인 이유: 30일간 현물 ETF -$35~45억 이탈",
       "subtitle": "11/16~20 한 주간만 -$17.9억 역대급 환매 · 시타델증권 연준 매파 경고… 월가 자금이 엔비디아로 쏠리며 크립토 수급 지연",
       "chartImage": "assets/charts/agenda_32.svg",
       "chartConfig": {
         "type": "bar",
         "title": "11월 미국 비트코인 현물 ETF 자금 이탈 규모($B) 및 자산별 11/23 반등 격차",
-        "subtitle": "30일간 -$3.5B~$4.5B(주간 -$1.79B)에 달하는 기관 ETF 환매가 비트코인 7,896만원의 즉각 반등을 억제",
+        "subtitle": "30일간 -$3.5B~$4.5B(주간 -$1.79B)에 달하는 기관 ETF 환매가 비트코인 7,890만원의 즉각 반등을 억제",
         "categories": [
           "11/19 IBIT 일간",
           "11/16~20 주간유출",
@@ -332,8 +332,8 @@
       "keyMetrics": [
         {
           "label": "비트코인 상대 소외",
-          "value": "7,896만원 (-1.10%)",
-          "change": "글로벌 $59,132 · 간밤 나스닥 +6.51%·금 +3.39% 폭등에도 BTC는 약보합 정체"
+          "value": "7,890만원 (-1.16%)",
+          "change": "글로벌 $59,140 · 간밤 나스닥 +6.51%·금 +3.39% 폭등에도 BTC는 약보합 정체"
         },
         {
           "label": "미 현물 ETF 역대급 유출",
@@ -347,13 +347,13 @@
         }
       ],
       "facts": [
-        "11월 23일 밤 뉴욕 증시에서 나스닥(+6.51%)·엔비디아(+31.48%)·금(+3.39%)·은(+7.2%)이 일제히 폭등했음에도 **비트코인은 실시간 7,896만원($59,132, -1.10%)**로 제자리에 머무르며 뚜렷한 디커플링을 보였습니다.",
+        "11월 23일 밤 뉴욕 증시에서 나스닥(+6.51%)·엔비디아(+31.48%)·금(+3.39%)·은(+7.2%)이 일제히 폭등했음에도 **비트코인은 실시간 7,890만원($59,140, -1.16%)**로 제자리에 머무르며 뚜렷한 디커플링을 보였습니다.",
         "결정적 원인은 **30일간 누적 35억~45억 달러($3.5B~$4.5B)에 달하는 미국 비트코인 현물 ETF의 대규모 순유출**입니다. 특히 지난주(11/16~20) 한 주 동안만 역대 최대급인 **-$17.9억**이 빠져나가며 기관 수급의 온램프(유입 통로)가 일시적 엑시트(이탈 통로)로 돌변했습니다.",
         "여기에 **시타델증권(Citadel Securities)**이 연준의 매파적 기조(12월 25bp 인상 확률 ~98%)와 경기 둔화 리스크를 경고하면서 위험자산 중에서도 무이자 자산인 크립토의 기관 복귀가 주식보다 한 박자 늦어지고 있습니다."
       ],
       "previousImplication": "11월 누적 -$34억 ETF 환매 이후 월요일 미 증시 재개장 시 수급 전환 여부를 주목함 (11/23).",
-      "newCatalyst": "30일간 미 현물 ETF -$35억~$45억(주간 -$17.9억) 대규모 유출 확정 및 나스닥 +6.5% 폭등 속 BTC 7,896만원(-1.10%) 소외 확인.",
-      "updatedImplication": "주식이 폭등해도 **비트코인 현물 ETF 순유출이 멈추기 전까지는 BTC가 단독 급등하기 어려움.** 따라서 7,896만원 구간은 조급하게 레버리지로 반등을 노릴 자리가 아니라, **현물 BTC 95%+ 원칙 하에 ETF 순유입 전환을 기다리며 천천히 적립(DCA)하는 인내의 바닥 다지기 구간**임.",
+      "newCatalyst": "30일간 미 현물 ETF -$35억~$45억(주간 -$17.9억) 대규모 유출 확정 및 나스닥 +6.5% 폭등 속 BTC 7,890만원(-1.16%) 소외 확인.",
+      "updatedImplication": "주식이 폭등해도 **비트코인 현물 ETF 순유출이 멈추기 전까지는 BTC가 단독 급등하기 어려움.** 따라서 7,890만원 구간은 조급하게 레버리지로 반등을 노릴 자리가 아니라, **현물 BTC 95%+ 원칙 하에 ETF 순유입 전환을 기다리며 천천히 적립(DCA)하는 인내의 바닥 다지기 구간**임.",
       "implicationHistory": [
         {
           "time": "11/23 18:00",
@@ -361,7 +361,7 @@
         },
         {
           "time": "11/24 08:00",
-          "text": "🔴 30일 ETF -$35~45억(주간 -$17.9억) 유출 여파에 나스닥 +6.5% 폭등에도 BTC 7,896만원 소외!"
+          "text": "🔴 30일 ETF -$35~45억(주간 -$17.9억) 유출 여파에 나스닥 +6.5% 폭등에도 BTC 7,890만원 소외!"
         }
       ],
       "actionPoints": [
@@ -370,10 +370,10 @@
       ],
       "sources": [
         "CryptoBriefing / Crypto.news / BigGo ($3.5B~$4.5B 30-day ETF outflows, $1.79B weekly outflow, Citadel warning)",
-        "Yahoo Finance BTC-KRW (7,896만원)"
+        "Yahoo Finance BTC-KRW (7,890만원)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -453,7 +453,7 @@
         "주택산업연구원 / 머니투데이 / 매일경제 / 조선일보 / 한국경제 (11월 분양전망지수 91.4, 서울 7개구 하락, 잠실 30억선)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -527,7 +527,7 @@
         "매일경제 / 동아일보 / 뉴시스 / 이투데이 (11/19 국토부 재초환 제척기간 해석, 반포현대·은마 부담금 및 4대 로펌 TF)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -612,8 +612,8 @@
         "머니투데이 / 뉴스1 (일론 머스크 X AI 현금고갈 경고)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -781,8 +781,8 @@
         "동아일보 / 한국경제TV / 이코노믹시그널 / 매일경제 (10월 코픽스 3.62% · 주담대 6.51% · 6억 상한 · 서울 52개 재초환 평균 1.1억/한강맨션 7억+ · 서울 일반분양 7%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -872,8 +872,8 @@
         "Mining Weekly (Antofagasta vs Chinese smelters TC/RC talks stalled)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -950,8 +950,8 @@
         "파이낸셜뉴스 / 금융위 (10년+ 장기 고정 주담대 유도)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1041,8 +1041,8 @@
         "Yahoo Finance CL=F ($83.08) & HG=F ($5.60)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1125,7 +1125,7 @@
         "한국은행 공식 통화정책방향·수정경제전망 / 연합뉴스 / 조선일보 / 한겨레 (11/26 3.25% 인상 5:2, GDP 3.9%/4.1%, 점도표 3.25% 6 / 3.50% 8 / 3.75% 7)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -1228,7 +1228,7 @@
         "TradingEconomics (Uranium $90.10/lb)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -1318,8 +1318,8 @@
         "The Guardian / Moscow Times / EU / Miningmx (Samara refineries, Putin retaliation warning, Rutte-Trump Mar-a-Lago, Copper 13M low)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1394,8 +1394,8 @@
         "매일경제 / 조선일보 / 뉴시스 / MTN (11/25 서울 아파트 월세 비중 52%+, 평균 월세 +15% 폭등, 노도강 확산, 2027 전월세 대란 경고)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1483,8 +1483,8 @@
         "Al Jazeera / Newsweek / Washington Post / XTB / 조선일보 / CNN (Nov 25 USTR Section 301 tariffs on 14 economies, China 20%, Korea/EU 15% cap, SK Hynix & TSMC flagged)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1573,8 +1573,8 @@
         "NATO / EU Today / Pravda / The Guardian / Iran International (Rutte-Trump Mar-a-Lago, Savasleyka strike, Hormuz standoff)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1653,8 +1653,8 @@
         "한국부동산원 / 이데일리 / 매일경제 / YTN / 연합인포맥스 (11/26 서울 매매 +0.01%, 9개구 하락·송파 -0.50%·광진/영등포 전환, 전세 +0.14% 94주 연속 상승)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1747,8 +1747,8 @@
         "Pravda / PBS / EU Council (Russian monthly casualties >50K Nov record, Zelenskyy winter grid warning, EU sanctions 15 entities)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -1761,7 +1761,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "CHALLENGED",
       "deltaLabel": "🔴 가계대출 평균 '5.02%(3년 만에 5% 돌파)' · 주담대 4.98%(14년 7개월 최고) · 법정 전월세전환율 5.25% 상향 + 국토부 실거래가 '서울 월세 비중 51% 사상 첫 전세 추월'!",
-      "title": "[11/27 이브닝·확정 82] 가계대출 평균 5.02%(3년 만에 5% 돌파) · 주담대 4.98%(14년 7개월 최고) & 사상 첫 서울 연간 월세 비중 51% 돌파!",
+      "title": "[11/27 이브닝·확정] 가계대출 평균 5.02%(3년 만에 5% 돌파) · 주담대 4.98%(14년 7개월 최고) & 사상 첫 서울 연간 월세 비중 51% 돌파!",
       "subtitle": "한은 3.25% 인상으로 법정 전월세전환율 5.25% 자동 상향 + 전세대출 4.63%(5개월 연속 상승) ➔ 노도강 외곽까지 월세 전환 폭주!",
       "chartImage": "assets/charts/agenda_82.svg",
       "chartConfig": {
@@ -1831,7 +1831,7 @@
         "한국은행 가중평균금리 / 국토교통부 실거래가 / 연합인포맥스 / 조선일보 / 머니투데이 (가계대출 5.02%, 주담대 4.98% 14년 7개월 최고, 전세대출 4.63%, 서울 월세 비중 51% 사상 첫 역전)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
@@ -1921,8 +1921,8 @@
         "The Guardian / Arab News / CBS (ACLED ~500 Ukraine deep strikes in 2026, NATO Latvia jet scramble, Pakistan/Qatar US-Iran mediation)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 85,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2015,7 +2015,7 @@
         "TrendForce / Bernstein / Counterpoint / 조선비즈"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
@@ -2095,8 +2095,8 @@
         "뉴스핌 / 뉴스1 / 한국거래소 (11/20·11/23 연속 매도 사이드카 및 투자자별 수급)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2175,8 +2175,8 @@
         "Yahoo Finance ES=F (7,131.5) / NQ=F (26,020.25)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2238,7 +2238,7 @@
         },
         {
           "label": "원/달러 환율 현황",
-          "value": "1,333.9원 (서울 종가 1,345.9원)",
+          "value": "1,333.0원 (서울 종가 1,345.9원)",
           "change": "한은이 성급한 유동성 풀기를 자제한 점이 원화 약세 상단 제어에 긍정 작용"
         }
       ],
@@ -2265,8 +2265,8 @@
         "매일경제 / 동아일보 / 중앙일보"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2354,8 +2354,8 @@
         "MLQ.ai / CEOEconomy / Admiral Markets / Benzinga (Nov 24 Dell $95B AI backlog, HP, Conference Board Consumer Confidence)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2435,8 +2435,8 @@
         "HP Inc. FY26 Q4 Release (AI PCs ~60%, memory cost pressure)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2515,8 +2515,8 @@
         "Moomoo / Macon / Admiral Markets / Benzinga / Invezz (Nov 25 US futures -2.4%, Trump 16-country tariff threat, DELL -6~7.5%, NVDA -5%, Fed Dec 97% / Jan 63%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2595,8 +2595,8 @@
         "BEA / Federal Reserve Beige Book / Xinhua / ForexFactory / Investing.com (Oct Core PCE 3.3%, Headline 3.8%, Real PCE -0.1%, Q3 GDP ~3.5%, Jobless ~202K, Durable Goods +0.2%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2651,7 +2651,7 @@
       ],
       "facts": [
         "오늘 **11월 27일(금)** 한국 자본시장 역사에 남을 초대형 현금 배당이 일제히 풀립니다. **삼성전자 3분기 정규·특별배당(보통주·우선주 주당 4,601원, 총 약 30조 원)**에 신한지주·KB금융 등의 배당까지 더해져 **오늘 하루 총 30조 7,000억 원**이 주주 계좌에 입금됩니다(뉴스핌·머니토링).",
-        "시장은 동전의 양면을 동시에 주시합니다. ① **외국인 몫 15조 3,000억 원(약 118억 달러)**은 서울 외환시장 일평균 현물환 거래량의 65%에 달해 단기 원/달러 환율(1,333.9원) 상승 압력을 키울 수 있지만, ② 반대로 **국내 개인·기관 계좌에 꽂히는 약 15조 원의 현금**은 어제 외국인 11일 만의 귀환(+3,141억)이 시작된 코스피(4,711)에 강력한 저가 매수·재투자 실탄으로 작동할 수 있습니다.",
+        "시장은 동전의 양면을 동시에 주시합니다. ① **외국인 몫 15조 3,000억 원(약 118억 달러)**은 서울 외환시장 일평균 현물환 거래량의 65%에 달해 단기 원/달러 환율(1,333.0원) 상승 압력을 키울 수 있지만, ② 반대로 **국내 개인·기관 계좌에 꽂히는 약 15조 원의 현금**은 어제 외국인 11일 만의 귀환(+3,141억)이 시작된 코스피(4,711)에 강력한 저가 매수·재투자 실탄으로 작동할 수 있습니다.",
         "특히 고배당 수령 개인 투자자들은 11~12월 **연간 금융소득 2,000만 원(종합과세 기준)** 초과 여부를 반드시 점검하고, 향후 배당 재투자분은 비과세·저율 분리과세 혜택이 큰 **중개형 ISA 및 고배당 분리과세 특례 계좌**로 옮겨 세후 복리 효과를 극대화해야 합니다."
       ],
       "previousImplication": "삼성전자 배당 역송금 경계가 이번 주 원/달러 하단을 지지해 왔음 (11/26).",
@@ -2671,8 +2671,8 @@
         "뉴스핌 / 연합인포맥스 / 머니토링 (11/27 삼성전자 주당 4,601원 총 30조 원 · 신한/KB 포함 30.7조 원 배당 지급, 외국인 15.3조/$118억)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2755,8 +2755,8 @@
         "Forbes / Business Insider / FXStreet / Investing.com (Nov 27 Green Friday: Nasdaq futures +2.35~2.7%, NVDA +4.2%, AMD +5%, MU +6.4%, SanDisk +10.8%, ANT $85.73, Nikkei/HSI +2.1%, Euro Stoxx +1%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
-      "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
+      "factVerifiedAt": "2026-11-28 08:07 KST",
+      "sourceEdition": "2026년 11월 28일 08:00 AM 모닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
       "promotedAt": "2026-11-28"
@@ -2769,7 +2769,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🟢 앤트로픽(ANT) '$91.88(+10.98%)' 상장 후 최대 +11% 대폭발 & SOX '9,186.71(+4.69%)' 9,100 돌파! (마이크론 +7.60% · AMD +4.56% · 브로드컴 +3.82% · TSMC +3.21%!)",
-      "title": "[11/28 모닝·속보 87] 앤트로픽(ANT) +10.98%($91.88) 상장 후 최대 폭등 & 마이크론 +7.60% · AMD +4.56% 반도체 전면 반격!",
+      "title": "[11/28 모닝·속보] 앤트로픽(ANT) +10.98%($91.88) 상장 후 최대 폭등 & 마이크론 +7.60% · AMD +4.56% 반도체 전면 반격!",
       "subtitle": "공모가($83) 이탈 공포 털고 단숨에 $91.88 돌파… 엔비디아(+0.80%)만 BIS 동남아 규제로 쉬어가는 사이 메모리·비엔비디아 AI 칩 폭발!",
       "chartImage": "assets/charts/agenda_87.svg",
       "chartConfig": {
@@ -2840,7 +2840,7 @@
         "LA Times / Forbes / BigGo (Nov 27 Black Friday close: ANT +11% to $91.88, Micron +7.60%, AMD +4.56%, Broadcom +3.82%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
@@ -2854,7 +2854,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🚨 내일(11/29) OPEC+ 장관회의 '2027 Q1 동결' 잠정 공감 vs 이라크·카자흐 증산 반발 ➔ WTI $83.08(-0.72%) 숨고르기! + 미 중부사령부, 오만만서 이란 봉쇄돌파선 첫 무력화!",
-      "title": "[11/28 모닝·속보 88] 내일(11/29) OPEC+ 장관회의 분수령(WTI $83.08) & 미군 오만만 '봉쇄돌파선' 첫 무력화 · 우크라 흑해 휴전 공식 제안",
+      "title": "[11/28 모닝·속보] 내일(11/29) OPEC+ 장관회의 분수령(WTI $83.08) & 미군 오만만 '봉쇄돌파선' 첫 무력화 · 우크라 흑해 휴전 공식 제안",
       "subtitle": "미 CENTCOM, 반다르압바스 출항 화물선 추진력 타격 무력화(이란 해상봉쇄 실전 집행!) + 툴라 미사일연료 공장 타격 · 루카셴코 크렘린 비판 균열!",
       "chartImage": "assets/charts/agenda_88.svg",
       "chartConfig": {
@@ -2931,7 +2931,7 @@
         "Iran International / Kyiv Independent / Al Jazeera / CNN / Time (CENTCOM disables Pacific Archer, Efremov plant strike, Black Sea ceasefire proposal, Lukashenko remarks)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
@@ -2945,7 +2945,7 @@
       "importance": "CRITICAL",
       "deltaStatus": "NEW",
       "deltaLabel": "🚨 다음 주(11/30~12/4) '슈퍼 고용·FOMC 카운트다운 위크' 총정리! (일 OPEC+ ➔ 화 JOLTS·한국 11월 수출 ➔ 수 ADP ➔ 금 12/4 미 11월 NFP 고용보고서! 12/8~9 FOMC 최종 승부처!)",
-      "title": "[11/28 이브닝·속보 91] 다음 주 'OPEC+ · 미 11월 고용보고서(12/4) 슈퍼 위크' 완벽 대응 시나리오: 12/8~9 FOMC 직전 마지막 매크로 승부처",
+      "title": "[11/28 이브닝·속보] 다음 주 'OPEC+ · 미 11월 고용보고서(12/4) 슈퍼 위크' 완벽 대응 시나리오: 12/8~9 FOMC 직전 마지막 매크로 승부처",
       "subtitle": "금 선물 3주 만의 주간 상승($3,668.5 · 현물 $3,653)에도 월가 '숏커버링 경계'… 12/4 NFP 강세 시 10년물 5% 돌파·금/BTC 재압박 vs 둔화 시 연말 산타랠리!",
       "chartImage": "assets/charts/agenda_91.svg",
       "chartConfig": {
@@ -2976,7 +2976,7 @@
           {
             "title": "12/4(금) 미 11월 NFP (핵심!)",
             "metric": "12/8~9 FOMC 최종 방아쇠",
-            "desc": "강한 고용 ➔ FOMC 추가 매파·금($3,668.50)/BTC(7,896만원) 압박 vs 고용 냉각 ➔ 연말 안도 랠리 폭발!",
+            "desc": "강한 고용 ➔ FOMC 추가 매파·금($3,668.50)/BTC(7,890만원) 압박 vs 고용 냉각 ➔ 연말 안도 랠리 폭발!",
             "color": "#e11d48"
           }
         ]
@@ -2994,13 +2994,13 @@
         },
         {
           "label": "핵심 방어 지표 마지노선",
-          "value": "10Y 4.94% · BTC $59,132",
+          "value": "10Y 4.94% · BTC $59,140",
           "change": "미 10년물 5.00% 돌파 여부와 비트코인 $60,000 방어·12월 ETF 수급 전환이 다음 주 핵심 관전 포인트"
         }
       ],
       "facts": [
         "11월 마지막 주말을 지나 열리는 다음 주(11/30~12/4)는 **12월 8~9일 미국 FOMC(+25bp 인상 유력) 직전의 마지막 대형 매크로 분수령**입니다. 일요일(11/29) **OPEC+ 장관급 회의**의 2027년 1분기 쿼터 결정을 시작으로, 화요일 **미국 JOLTS 구인건수·한국 11월 수출입 동향**, 수요일 **ADP 민간고용**, 그리고 **금요일(12/4) 미국 11월 공식 비농업 고용보고서(NFP)**가 연쇄 발표됩니다(GoldSilver·LaoDong).",
-        "금요일(11/27) 현물 금은 **$3,653/oz(선물 $3,668.50)**로 마감하며 **3주 만에 첫 주간 상승**을 기록했습니다(FinanceFeeds·Mining.com). 주중 15개월 최저치($3,430 미만)에서 극적으로 반등했으나, 월가 귀금속 애널리스트들은 이번 반등을 단기 숏커버링 성격으로 보며 **12/4 고용지표가 예상보다 뜨겁게 나올 경우 10년물 금리(4.94%)가 다시 5%를 넘어 금과 비트코인(7,896만원)을 재압박할 위험**을 경계하고 있습니다.",
+        "금요일(11/27) 현물 금은 **$3,653/oz(선물 $3,668.50)**로 마감하며 **3주 만에 첫 주간 상승**을 기록했습니다(FinanceFeeds·Mining.com). 주중 15개월 최저치($3,430 미만)에서 극적으로 반등했으나, 월가 귀금속 애널리스트들은 이번 반등을 단기 숏커버링 성격으로 보며 **12/4 고용지표가 예상보다 뜨겁게 나올 경우 10년물 금리(4.94%)가 다시 5%를 넘어 금과 비트코인(7,890만원)을 재압박할 위험**을 경계하고 있습니다.",
         "반대로 고용 시장이 완만한 둔화 신호를 보낸다면, 12월 25bp 인상이 '긴축 사이클의 마지막 한 발'이라는 안도감이 확산되면서 S&P 500(7,297.49)·SOX(9,186.71)·KRX 금현물·비트코인의 동반 연말 산타랠리가 촉발될 수 있습니다."
       ],
       "previousImplication": "블랙프라이데이 주간 +5.6% 폭등에도 미 10년물 4.94%·DXY 104 반등으로 12월 FOMC 경계가 재점화됨 (11/28 모닝).",
@@ -3020,7 +3020,7 @@
         "FinanceFeeds / Kitco / Mining.com / GoldSilver / LaoDong (Gold $3,653 spot 1st weekly gain in 3 weeks after <$3,430 15M low; next week JOLTS, ADP, Dec 4 US NFP ahead of Dec 8-9 FOMC)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 80,
       "archiveTier": "7일 주간 핵심",
@@ -3122,7 +3122,7 @@
         "LA Times / Forbes / BigGo / TradingKey (Nov 27 Black Friday close: S&P +1.60% weekly +5.6%, Nasdaq +2.31%, Dow +1.18%, Micron +7.60%, ANT +11%)"
       ],
       "factVerified": true,
-      "factVerifiedAt": "2026-11-28 20:03 KST",
+      "factVerifiedAt": "2026-11-28 20:40 KST",
       "sourceEdition": "2026년 11월 28일 20:00 PM 이브닝 에디션",
       "importanceScore": 70,
       "archiveTier": "7일 주간 핵심",

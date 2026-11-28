@@ -167,7 +167,14 @@ def validate_edition_facts(edition_payload, market_data, extra_live=None, unprod
                             f"[FAKE_DATE] {aid}: 제목 날짜({t_month:02d}/{t_day:02d})와 실제 작성 기준일 asOfDate({as_of}) 불일치! 본문 갱신 없이 날짜 꼬리표만 바꾼 위조 금지"
                         )
                 age_days = (edition_date - as_of_dt).days
-                if age_days > 7:
+                # 기본 코어(agenda_01~agenda_40) 외 확장 속보(agendas_extra.py)가 2일(48시간) 초과 방치되는 무한 누적 방지
+                m_core_id = re.match(r"^agenda_(\d+)$", aid)
+                is_core_agenda = bool(m_core_id and 1 <= int(m_core_id.group(1)) <= 40)
+                if not is_core_agenda and age_days > 2:
+                    errors.append(
+                        f"[STALE_EXTRA] {aid}: 확장 속보 기준일({as_of})이 현재({edition_date_str})보다 {age_days}일 경과! 과거 단발 속보는 보관함에 보존되므로 agendas_extra.py에서 퇴역(제거)하거나 최신 팩트로 갱신 필수"
+                    )
+                elif age_days > 7:
                     warnings.append(f"[OLD_AGENDA] {aid}: 기준일({as_of})이 현재({edition_date_str})보다 {age_days}일 경과")
             except Exception:
                 errors.append(f"[BAD_DATE] {aid}: asOfDate 형식 오류({as_of})")
