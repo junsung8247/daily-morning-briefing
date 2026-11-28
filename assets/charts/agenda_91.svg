@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+    <rect width="900" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="32" y="44" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="22" font-weight="900">11/29(일)~12/4(금) 다음 주 글로벌 금융시장 4대 결정적 매크로 이벤트 & 자산별 시나리오</text>
+    <text x="32" y="72" fill="#475569" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="600">12월 8~9일 FOMC(+25bp 인상 기정사실화)를 코앞에 두고 에너지·수출·미국 고용지표가 연쇄 출격</text>
+    <line x1="450" y1="268" x2="190" y2="175" stroke="#eab308" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="175" stroke="#0284c7" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="190" y2="365" stroke="#7c3aed" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/><line x1="450" y1="268" x2="710" y2="365" stroke="#e11d48" stroke-width="2.8" stroke-dasharray="6,5" opacity="0.7"/>
+    
+    <circle cx="450" cy="268" r="82" fill="#eff6ff" stroke="#0284c7" stroke-width="3.5"/>
+    <circle cx="450" cy="268" r="72" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+    <text x="450" y="262" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="900" text-anchor="middle">1</text>
+    <text x="450" y="286" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="14.5" font-weight="800" text-anchor="middle">1</text>
+    
+    
+        <g>
+            <rect x="40" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#eab308" stroke-width="2.4"/>
+            <text x="190" y="157" fill="#eab308" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">11/29(일) OPEC+ 장관회의</text>
+            <text x="190" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">2027 Q1 쿼터 · 실사 충돌</text>
+            <text x="190" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">디골리어&맥노튼 실사(이라크 490만 bpd) 반발 돌파 여부 ➔ 월요일 WTI($83.08)·물가 기대 즉각 반영</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="125" width="300" height="100" rx="12" fill="#f8fafc" stroke="#0284c7" stroke-width="2.4"/>
+            <text x="710" y="157" fill="#0284c7" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">12/1(화) JOLTS · 한국 11월 수출</text>
+            <text x="710" y="184" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">구인건수 & K-반도체 성적</text>
+            <text x="710" y="208" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">미국 노동시장 열기 1차 점검(JOLTS) + 사상 첫 연 $1조 돌파한 한국 11월 월간 반도체 수출 확정치 공개</text>
+        </g>
+        
+        <g>
+            <rect x="40" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#7c3aed" stroke-width="2.4"/>
+            <text x="190" y="347" fill="#7c3aed" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">12/2(수) ADP 민간고용</text>
+            <text x="190" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">NFP 전초전 · 금리 경계</text>
+            <text x="190" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">미 민간 고용 탄력 점검 — 미 10년물 4.94%·DXY 104.01가 5.00%·105 돌파 시도할지 가늠자</text>
+        </g>
+        
+        <g>
+            <rect x="560" y="315" width="300" height="100" rx="12" fill="#f8fafc" stroke="#e11d48" stroke-width="2.4"/>
+            <text x="710" y="347" fill="#e11d48" font-family="Pretendard, sans-serif" font-size="16.5" font-weight="900" text-anchor="middle">12/4(금) 미 11월 NFP (핵심!)</text>
+            <text x="710" y="374" fill="#0f172a" font-family="Pretendard, sans-serif" font-size="15.5" font-weight="800" text-anchor="middle">12/8~9 FOMC 최종 방아쇠</text>
+            <text x="710" y="398" fill="#475569" font-family="Pretendard, sans-serif" font-size="13.5" font-weight="600" text-anchor="middle">강한 고용 ➔ FOMC 추가 매파·금($3,668.50)/BTC(7,896만원) 압박 vs 고용 냉각 ➔ 연말 안도 랠리 폭발!</text>
+        </g>
+        
+</svg>

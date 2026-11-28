@@ -664,15 +664,15 @@ def build_briefing_edition():
         delta_counts[st] = delta_counts.get(st, 0) + 1
 
     raw_exec_headline = (
-        "[11/28 모닝 · 90대 실시간 팩트체크 확장안건] "
-        "①뉴욕 블랙프라이데이 대폭발 마감! S&P 주간 +5.6%(19개월 최고) · 다우 4년 최대 주간 랠리: S&P 500 {{LIVE:sp500}}({{LIVE:sp500_chg}}) · 나스닥 {{LIVE:nasdaq}}({{LIVE:nasdaq_chg}}) · 다우 {{LIVE:dow}}({{LIVE:dow_chg}}) · SOX {{LIVE:sox}}({{LIVE:sox_chg}}) 9,100 돌파! 다만 미 블프 온라인 $129억(+9.2%) 사상최대 소비에 미 10년물 {{LIVE:us10y}}({{LIVE:us10y_chg}})·DXY {{LIVE:dxy}} 반등 ➔ 1,333원대({{LIVE:usdkrw}}) 달러 분할 환전 & 1배수 미국채 바벨 가치 재부각! · "
-        "②AI·반도체 전면 대반격 vs NVDA 동남아 변수: 앤트로픽(ANT) {{LIVE:anthropic}}({{LIVE:anthropic_chg}}) 상장 후 최대 +11% 폭등($91 돌파) · 마이크론 +7.60% · AMD {{LIVE:amd}}({{LIVE:amd_chg}}) · 브로드컴 +3.82% · TSMC {{LIVE:tsm}}({{LIVE:tsm_chg}}, AI 디자인 키트 ADK·A14 1.4나노 개방)! 반면 NVDA {{LIVE:nvda}}({{LIVE:nvda_chg}}, 1Q×4 {{LIVE:nvda_per1qx4}})는 미 BIS 동남아 4국 서버 출하 중단으로 상대 소외 ➔ 마이크론 +7.6%는 월요일 삼성(1Q×4 {{LIVE:samsung_per1qx4}})·SK(4Q {{LIVE:skhynix_per4q}}) 훈풍 직결! · "
-        "③양자우위 역사적 돌파: IBM·시카고대 초전도 양자컴 '15분 검증 가능 양자우위' 입증(신규 오류검출법) + 하버드 초소형 UV 광학칩 & 양자-AI 신약 융합 가속 · "
-        "④내일(11/29) OPEC+ 분수령 & 오만만 첫 봉쇄 타격: OPEC+ 2027 Q1 동결 가닥·이라크/카자흐 증산 요구에 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 숨고르기 vs 미 CENTCOM 오만만 봉쇄돌파선 첫 무력화 · 우크라 툴라 미사일연료 공장 타격 & 흑해 휴전 제안 · 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 강세! · "
-        "⑤한·미 극명한 K자 격차: 미국 블프 $129억(+9.2% · 아마존 ~+4% · 연말 $1.013조) 호황 & 한국 사상 첫 수출 $1조 vs 한국 11월 소비심리 위축 ➔ 국내 내수주 배제, 한·미 수출/AI/방산 코어 집중! · "
-        "⑥국제 금 '{{LIVE:gold}}({{LIVE:gold_chg}})' $3,660대 주간 철벽 안착: 미 10년물 4.94%·DXY 104 반등 역풍을 정면 돌파하며 $3,445 바닥 완전 종료 선언 ➔ 비과세 KRX 금현물(10~15%) 코어 보유 유지 · "
-        "⑦비트코인만 나홀로 $60K·8,000만 원 재이탈: 데리비트 $68억 옵션만기 + 11월 현물 ETF -$53억+ 역대 최악 유출 + 공포지수 12에 BTC {{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}}) 조정 ➔ 선물·알트 전면 금지, 무레버리지 현물 BTC 95%+ 분할 적립 인내! · "
-        "⑧서울 부동산 '주식 팔아 집 사던 수요 증발': 주담대 4.98%(14년 7개월 최고)·한은 3.25%·서울 월세 51%+ 직격에 15억 이하 외곽 거래 급감 ➔ 내년 1분기 상급지 급매 대기!"
+        "[11/28 이브닝 · 94대 실시간 팩트체크 확장안건] "
+        "①다음 주 'OPEC+ · 미 11월 고용보고서(12/4)' 슈퍼 위크 돌입! 12/8~9 FOMC(+25bp) 직전 최종 승부처: 주간 S&P {{LIVE:sp500}}(+5.6%)·나스닥 {{LIVE:nasdaq}}(+2.31%)·SOX {{LIVE:sox}}(+4.69%) 대폭발 마감 뒤 내일(11/29) OPEC+ ➔ 화 JOLTS·한국 11월 수출 ➔ 수 ADP ➔ 금 12/4 NFP 고용보고서 연쇄 출격! 미 10년물 {{LIVE:us10y}}·DXY {{LIVE:dxy}} 반등 속 원/달러 {{LIVE:usdkrw}} 강세 ➔ 1배수 미국채·현금 20% 바벨로 고용 변동성 대비! · "
+        "②AI 쇼핑 에이전트 실전 ROI 첫 입증! 블프 온라인 예상치 돌파($130~134억): 어도비 초저녁 +12.8%(최종 $130~134억 상향) · 세일즈포스 글로벌 $830억(+5.2%) 돌파! 구글 제미나이({{LIVE:google}}, 4Q {{LIVE:google_per4q}})·앤트로픽 클로드({{LIVE:anthropic}}, +10.98%) 쇼핑 에이전트가 전환율·객단가(AOV) 급등 주도 ➔ AI 거품론 정면 반박 & 월요일 삼성(1Q×4 {{LIVE:samsung_per1qx4}})·SK(4Q {{LIVE:skhynix_per4q}})·TSMC({{LIVE:tsm}}, 1Q×4 {{LIVE:tsm_per1qx4}}) 훈풍! · "
+        "③휴머노이드 양산 원년 & SMR 본공사 돌파: 샤오펑 범용 휴머노이드 'IRON' 2027년 1월 대량양산 선언 · ROBOTERA 중국우정 45대 실전 투입 · 멜렉시스 3D 촉각칩 + 캐나다 달링턴 그리드급 SMR 터널 굴착 완료 & IBM 15분 검증 가능 양자우위! · "
+        "④내일(11/29) OPEC+ '독립 실사' 정면충돌 & 오만만 첫 봉쇄 타격: 디골리어&맥노튼 실사(이라크 490만 bpd 제한)에 이라크·카자흐 반발 & 미국 외교 압박 속 WTI {{LIVE:wti}}({{LIVE:wti_chg}}) 숨고르기 vs 미 CENTCOM 오만만 봉쇄돌파선 첫 무력화 · 구리 {{LIVE:copper}}({{LIVE:copper_chg}}) 강세! · "
+        "⑤12월 한국 증시 '고배당 · 자사주 소각 · 생산적금융 ISA' 연말 절세 대전: 코스피 {{LIVE:kospi}}({{LIVE:kospi_chg}}) 박스권 내 실적·배당 차별화 전망 ➔ 12/31 한도 마감 전 연금·ISA 납입 + 4대 금융지주(고배당)·K-메모리 양날개 압축! · "
+        "⑥국제 금 '{{LIVE:gold}}({{LIVE:gold_chg}})' 3주 만의 주간 상승 결산: 현물 $3,653 마감으로 $3,430 저점 딛고 반등했으나 월가 12/4 NFP·FOMC 경계 ➔ 비과세 KRX 금현물(10~15%) 보유 유지 · 추격 자제 · "
+        "⑦비트코인 토요일 밤 '{{LIVE:btc}}({{LIVE:btc_usd}}, {{LIVE:btc_chg}})' 11/25 바닥 재시험: 이더리움 $1,660대 동반 부진 · 11월 현물 ETF -$53억+ 유출 · $68억 옵션만기 여진 ➔ 선물·알트 전면 금지, 무레버리지 현물 BTC 95%+ 분할 인내! · "
+        "⑧부동산 규제루머 일축에도 매수심리 동결: 국토부 추가 대출규제설 '사실무근' 진화에도 주담대 4.98%·월세 51%+에 11월 CCSI·주택전망 동반 하락 ➔ 내년 1분기 상급지 급매 선별 대기!"
     )
     token_map = build_live_token_map(market_data, extra_live)
     hydrated_exec = _replace_tokens_recursive(raw_exec_headline, token_map)
